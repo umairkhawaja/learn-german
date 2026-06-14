@@ -31,7 +31,7 @@ import { NotesView } from "./NotesView";
 
 // ── Levels (scaffold — current data is all A1) ───────────────
 const LEVELS = ["A1", "A2", "B1"];
-const lvlOf = (item) => item.lv || "A1";
+const lvlOf = (item) => item.lvl || item.lv || "A1"; // lvl = merged field; lv = legacy; null → A1
 
 // ── Storage (versioned, migrates v1, supports reset) ─────────
 const STORE_KEY = "dm-progress-v2";
@@ -264,6 +264,20 @@ function PhraseDetail({ it }) {
   );
 }
 
+function OtherDetail({ it }) {
+  const CAT_COLORS = {
+    "Pronoun": "#a855f7", "Article": "#3b82f6", "Preposition": "#f97316",
+    "Conjunction": "#eab308", "Adverb": "#22c55e", "Number": "#ec4899",
+    "Function Word": "#06b6d4",
+  };
+  const c = CAT_COLORS[it.c] || "#06b6d4";
+  return (
+    <div style={{ marginTop: 10, display: "flex", gap: 6, flexWrap: "wrap" }}>
+      <span style={{ background: "#1f1f1f", borderRadius: 6, padding: "3px 9px", fontSize: 11.5, color: c, fontWeight: 600 }}>{it.c}</span>
+    </div>
+  );
+}
+
 // ── Category registry (the modular core) ──────────────────────
 const CATEGORIES = [
   {
@@ -324,11 +338,39 @@ const CATEGORIES = [
       { id: "german", label: "EN → DE", build: (it, p) => mcq(it.e, "Say this in German", it.w, distractors(p, it.w, "w")) },
     ],
   },
+  {
+    id: "other", label: "Other", color: "#06b6d4", key: "other",
+    catOf: (x) => x.c,
+    german: (x) => x.w,
+    detail: (it) => <OtherDetail it={it} />,
+    modes: [
+      { id: "translation", label: "DE → EN", build: (it, p) => mcq(it.w, "What does this word mean?", it.e, distractors(p, it.e, "e")) },
+      { id: "german", label: "EN → DE", build: (it, p) => mcq(it.e, "Say this in German", it.w, distractors(p, it.w, "w")) },
+    ],
+  },
 ];
 
 function keyOf(catId, item) { return catId + ":" + item.w; }
 function subcatsOf(cat, pool) { return [...new Set(pool.map(cat.catOf))].filter(Boolean).sort(); }
 function levelsPresent(pool) { return LEVELS.filter((L) => pool.some((x) => lvlOf(x) === L)); }
+
+// ── Force-mastered toggle button ──────────────────────────────
+function MasterBtn({ isSkipped, onToggle }) {
+  return (
+    <button
+      title={isSkipped ? "Unmark — will appear in quiz again" : "Mark as mastered — skip in quiz"}
+      onClick={(e) => { e.stopPropagation(); onToggle(); }}
+      style={{
+        width: 28, height: 28, flex: "0 0 auto", borderRadius: 8,
+        border: `1px solid ${isSkipped ? "#22c55e" : "#2a2a2a"}`,
+        background: isSkipped ? "#0a2a16" : "#1a1a1a",
+        color: isSkipped ? "#22c55e" : "#4a4f59",
+        cursor: "pointer", fontSize: 13, lineHeight: 1,
+        display: "inline-flex", alignItems: "center", justifyContent: "center",
+      }}
+    >✓</button>
+  );
+}
 
 // ── Audio button ──────────────────────────────────────────────
 function SpeakBtn({ text, color = "#3b82f6", size = 30 }) {
@@ -342,10 +384,17 @@ function SpeakBtn({ text, color = "#3b82f6", size = 30 }) {
 }
 
 // ── Browse view ───────────────────────────────────────────────
-function BrowseView({ cat, progress, levelFilter, db }) {
+function BrowseView({ cat, progress, setProgress, levelFilter, db }) {
   const [search, setSearch] = useState("");
   const [catFilter, setCatFilter] = useState("All");
   const [expanded, setExpanded] = useState(null);
+
+  const toggleMastered = (k) => {
+    const prev = progress[k] || { mastery: 0, correct: 0, total: 0 };
+    const np = { ...progress, [k]: { ...prev, skip: !prev.skip } };
+    setProgress(np);
+    saveProgress(np);
+  };
 
   const pool = useMemo(
     () => db[cat.key].filter((x) => levelFilter === "All" || lvlOf(x) === levelFilter),
@@ -385,18 +434,20 @@ function BrowseView({ cat, progress, levelFilter, db }) {
           const isOpen = expanded === k;
           return (
             <div key={k} onClick={() => setExpanded(isOpen ? null : k)}
-              style={{ background: "#141414", border: `1px solid ${isOpen ? cat.color + "55" : "#242424"}`, borderRadius: 12, padding: "11px 14px", cursor: "pointer", transition: "border-color .15s" }}>
+              style={{ background: p.skip ? "#0d1a0d" : "#141414", border: `1px solid ${isOpen ? cat.color + "55" : p.skip ? "#22c55e33" : "#242424"}`, borderRadius: 12, padding: "11px 14px", cursor: "pointer", transition: "border-color .15s" }}>
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 10 }}>
                 <div style={{ minWidth: 0 }}>
-                  <span style={{ fontWeight: 700, fontSize: 15.5, color: "#f1f5f9" }}>{it.w}</span>
+                  <span style={{ fontWeight: 700, fontSize: 15.5, color: p.skip ? "#6b7280" : "#f1f5f9" }}>{it.w}</span>
                   <span style={{ marginLeft: 8, fontSize: 13, color: MUTE }}>{it.e}</span>
+                  {p.skip && <span style={{ marginLeft: 8, fontSize: 10, color: "#22c55e", background: "#0a2a16", border: "1px solid #22c55e33", borderRadius: 4, padding: "1px 5px", fontWeight: 600 }}>mastered</span>}
                 </div>
                 <div style={{ display: "flex", gap: 6, alignItems: "center", flex: "0 0 auto" }}>
-                  {p.total > 0 && (
+                  {p.total > 0 && !p.skip && (
                     <span style={{ fontSize: 11, color: p.mastery >= 4 ? "#22c55e" : p.correct / p.total >= 0.7 ? "#eab308" : "#f97316", background: "#1f1f1f", borderRadius: 5, padding: "2px 7px", fontWeight: 600 }}>
                       {"★".repeat(p.mastery)}{"☆".repeat(5 - p.mastery)}
                     </span>
                   )}
+                  <MasterBtn isSkipped={!!p.skip} onToggle={() => toggleMastered(k)} />
                   <SpeakBtn text={cat.german(it)} color={cat.color} size={28} />
                 </div>
               </div>
@@ -472,9 +523,10 @@ function QuizView({ cat, progress, setProgress, levelFilter, db }) {
     return db[cat.key].filter((x) => {
       if (levelFilter !== "All" && lvlOf(x) !== levelFilter) return false;
       if (catFilter !== "All" && cat.catOf(x) !== catFilter) return false;
+      if (progress[keyOf(cat.id, x)]?.skip) return false;
       return true;
     });
-  }, [cat, catFilter, levelFilter, db]);
+  }, [cat, catFilter, levelFilter, db, progress]);
 
   const startSession = useCallback(() => {
     const items = pickSession(pool, progressRef.current, cat.id, focusWeak);
@@ -655,10 +707,31 @@ function QuizView({ cat, progress, setProgress, levelFilter, db }) {
       </div>
 
       {chosen !== null && (
-        <button onClick={advance}
-          style={{ marginTop: 14, width: "100%", background: cat.color, border: "none", borderRadius: 12, padding: "14px", color: "#fff", fontSize: 15, fontWeight: 700, cursor: "pointer" }}>
-          {idx + 1 >= queue.length ? "Finish session" : "Next →"}
-        </button>
+        <>
+          <button onClick={advance}
+            style={{ marginTop: 14, width: "100%", background: cat.color, border: "none", borderRadius: 12, padding: "14px", color: "#fff", fontSize: 15, fontWeight: 700, cursor: "pointer" }}>
+            {idx + 1 >= queue.length ? "Finish session" : "Next →"}
+          </button>
+          <div style={{ textAlign: "center", marginTop: 8 }}>
+            {(() => {
+              const k = keyOf(cat.id, item);
+              const isSkipped = !!progressRef.current[k]?.skip;
+              return (
+                <button
+                  onClick={() => {
+                    const prev = progressRef.current[k] || { mastery: 0, correct: 0, total: 0 };
+                    const np = { ...progressRef.current, [k]: { ...prev, skip: !prev.skip } };
+                    setProgress(np);
+                    saveProgress(np);
+                  }}
+                  style={{ background: "transparent", border: "none", color: isSkipped ? "#22c55e" : FAINT, fontSize: 12, cursor: "pointer", padding: "4px 8px" }}
+                >
+                  {isSkipped ? "✓ Marked as mastered — click to undo" : "✓ Mark as mastered"}
+                </button>
+              );
+            })()}
+          </div>
+        </>
       )}
       <div style={{ textAlign: "center", marginTop: 10, fontSize: 11, color: "#3a3f49" }}>
         Tip: keys 1–{q.options.length} to answer · Enter to continue
@@ -1029,6 +1102,15 @@ export default function DeutschMeister() {
 
   const cat = CATEGORIES[activeCat];
   const allLevels = useMemo(() => db ? levelsPresent(db[cat.key]) : [], [cat, db]);
+  const levelCounts = useMemo(() => {
+    if (!db) return { A1: 0, A2: 0, All: 0 };
+    const all = CATEGORIES.flatMap((c) => db[c.key]);
+    return {
+      A1: all.filter((x) => lvlOf(x) === "A1").length,
+      A2: all.filter((x) => lvlOf(x) === "A2").length,
+      All: all.length,
+    };
+  }, [db]);
 
   if (!db) return <div style={{ minHeight: "100vh", background: "#0a0a0a", color: "#4a4f59", fontFamily: FONT, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 14 }}>Loading…</div>;
 
@@ -1048,7 +1130,7 @@ export default function DeutschMeister() {
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12, gap: 10, flexWrap: "wrap" }}>
             <div>
               <div style={{ fontSize: 18, fontWeight: 800, color: "#f1f5f9", letterSpacing: "-0.3px" }}>🇩🇪 Deutsch Meister</div>
-              <div style={{ fontSize: 11, color: "#4a4f59", marginTop: 1 }}>{CATEGORIES.reduce((s, c) => s + db[c.key].length, 0)} words · A1</div>
+              <div style={{ fontSize: 11, color: "#4a4f59", marginTop: 1 }}>{CATEGORIES.reduce((s, c) => s + db[c.key].length, 0)} words · {levelFilter === "All" ? "A1 + A2" : levelFilter}</div>
             </div>
             <div style={{ display: "flex", gap: 4, background: "#161616", borderRadius: 9, padding: 4 }}>
               {[["quiz", "📚 Quiz"], ["browse", "🔍 Browse"], ["cheatsheet", "📖 Cheatsheet"], ["notes", "📝 Notes"], ["stats", "📊 Stats"]].map(([m, label]) => (
@@ -1063,32 +1145,51 @@ export default function DeutschMeister() {
             </div>
           </div>
 
-          {/* Category pills */}
-          {view !== "stats" && view !== "cheatsheet" && view !== "notes" && (
-            <div style={{ display: "flex", gap: 6 }}>
-              {CATEGORIES.map((t, i) => (
-                <button key={t.id} onClick={() => setActiveCat(i)}
-                  style={{
-                    flex: 1, padding: "8px 4px", borderRadius: 9, border: "none", cursor: "pointer", fontSize: 12.5, fontWeight: 600,
-                    background: activeCat === i ? t.color : "#161616", color: activeCat === i ? "#fff" : "#6b7280"
-                  }}>
-                  {t.label}
-                  <div style={{ fontSize: 10, fontWeight: 400, opacity: 0.75 }}>{db[t.key].length}</div>
-                </button>
-              ))}
+          {/* Level selector — prominent A1 / A2 / All switcher */}
+          {view !== "cheatsheet" && view !== "notes" && (
+            <div style={{ display: "flex", gap: 6, marginTop: 10 }}>
+              {[
+                { key: "A1", label: "Beginner",   color: "#22c55e" },
+                { key: "A2", label: "Elementary", color: "#f97316" },
+                { key: "All", label: "All levels", color: "#6b7280" },
+              ].map(({ key: L, label, color }) => {
+                const active = levelFilter === L;
+                return (
+                  <button key={L} onClick={() => setLevelFilter(L)}
+                    style={{
+                      flex: 1, padding: "9px 4px", borderRadius: 11,
+                      border: `1.5px solid ${active ? color : "#222"}`,
+                      background: active ? color + "18" : "#111",
+                      cursor: "pointer", transition: "border-color .15s, background .15s",
+                      display: "flex", flexDirection: "column", alignItems: "center", gap: 1,
+                    }}>
+                    <span style={{ fontSize: 13, fontWeight: 800, color: active ? color : "#4a4f59", letterSpacing: "0.3px" }}>{L}</span>
+                    <span style={{ fontSize: 9.5, color: active ? color + "cc" : "#333", fontWeight: 500 }}>{label}</span>
+                    <span style={{ fontSize: 9.5, color: active ? color + "88" : "#272727", fontVariantNumeric: "tabular-nums" }}>
+                      {(levelCounts[L] ?? 0).toLocaleString()} words
+                    </span>
+                  </button>
+                );
+              })}
             </div>
           )}
 
-          {/* Level filter — appears once more than one level exists */}
-          {view !== "stats" && view !== "cheatsheet" && view !== "notes" && allLevels.length > 1 && (
-            <div style={{ display: "flex", gap: 4, marginTop: 8 }}>
-              {["All", ...allLevels].map((L) => (
-                <button key={L} onClick={() => setLevelFilter(L)}
-                  style={{
-                    padding: "4px 12px", borderRadius: 7, border: "1px solid #2a2a2a", cursor: "pointer", fontSize: 11.5,
-                    background: levelFilter === L ? "#2a2a2a" : "transparent", color: levelFilter === L ? "#f1f5f9" : MUTE
-                  }}>{L}</button>
-              ))}
+          {/* Category pills */}
+          {view !== "stats" && view !== "cheatsheet" && view !== "notes" && (
+            <div style={{ display: "flex", gap: 6, marginTop: 8 }}>
+              {CATEGORIES.map((t, i) => {
+                const count = db[t.key].filter((x) => levelFilter === "All" || lvlOf(x) === levelFilter).length;
+                return (
+                  <button key={t.id} onClick={() => setActiveCat(i)}
+                    style={{
+                      flex: 1, padding: "8px 4px", borderRadius: 9, border: "none", cursor: "pointer", fontSize: 12.5, fontWeight: 600,
+                      background: activeCat === i ? t.color : "#161616", color: activeCat === i ? "#fff" : "#6b7280"
+                    }}>
+                    {t.label}
+                    <div style={{ fontSize: 10, fontWeight: 400, opacity: 0.75 }}>{count}</div>
+                  </button>
+                );
+              })}
             </div>
           )}
         </div>
@@ -1099,7 +1200,7 @@ export default function DeutschMeister() {
         {view === "stats" && <StatsView progress={progress} setProgress={setProgress} levelFilter={levelFilter} driveStatus={driveStatus} setDriveStatus={setDriveStatus} db={db} />}
         {view === "cheatsheet" && <CheatsheetView />}
         {view === "notes" && <NotesView />}
-        {view === "browse" && <BrowseView key={cat.id} cat={cat} progress={progress} levelFilter={levelFilter} db={db} />}
+        {view === "browse" && <BrowseView key={cat.id} cat={cat} progress={progress} setProgress={setProgress} levelFilter={levelFilter} db={db} />}
         {view === "quiz" && <QuizView key={cat.id} cat={cat} progress={progress} setProgress={setProgress} levelFilter={levelFilter} db={db} />}
       </div>
     </div>

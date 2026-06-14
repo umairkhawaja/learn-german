@@ -1,4 +1,4 @@
-const KEYS = ["adj", "verbs", "nouns", "gram", "phrases"];
+const KEYS = ["adj", "verbs", "nouns", "gram", "phrases", "other"];
 
 export async function loadDB() {
   const base = import.meta.env.BASE_URL;

@@ -6,7 +6,8 @@
     "cmp": "leckerer",
     "sup": "am leckersten",
     "opp": "ekelhaft / ungenießbar",
-    "ex": "Das Essen war sehr lecker."
+    "ex": "Das Essen war sehr lecker.",
+    "lvl": "A1"
   },
   {
     "w": "leer",
@@ -15,7 +16,8 @@
     "cmp": "leerer",
     "sup": "am leersten",
     "opp": "voll",
-    "ex": "Der Kühlschrank ist leer."
+    "ex": "Der Kühlschrank ist leer.",
+    "lvl": "A1"
   },
   {
     "w": "lang",
@@ -24,7 +26,8 @@
     "cmp": "länger",
     "sup": "am längsten",
     "opp": "kurz",
-    "ex": "Das Gespräch war sehr lang."
+    "ex": "Das Gespräch war sehr lang.",
+    "lvl": "A1"
   },
   {
     "w": "kalt",
@@ -33,7 +36,8 @@
     "cmp": "kälter",
     "sup": "am kältesten",
     "opp": "warm / heiß",
-    "ex": "Das Wasser ist kalt."
+    "ex": "Das Wasser ist kalt.",
+    "lvl": "A1"
   },
   {
     "w": "langweilig",
@@ -42,7 +46,8 @@
     "cmp": "langweiliger",
     "sup": "am langweiligsten",
     "opp": "interessant / spannend",
-    "ex": "Der Film war total langweilig."
+    "ex": "Der Film war total langweilig.",
+    "lvl": "A1"
   },
   {
     "w": "traurig",
@@ -51,7 +56,8 @@
     "cmp": "trauriger",
     "sup": "am traurigsten",
     "opp": "glücklich / fröhlich",
-    "ex": "Er ist heute sehr traurig."
+    "ex": "Er ist heute sehr traurig.",
+    "lvl": "A2"
   },
   {
     "w": "kühl",
@@ -60,7 +66,8 @@
     "cmp": "kühler",
     "sup": "am kühlsten",
     "opp": "warm / heiß",
-    "ex": "Es ist heute kühl draußen."
+    "ex": "Es ist heute kühl draußen.",
+    "lvl": null
   },
   {
     "w": "glücklich",
@@ -69,7 +76,8 @@
     "cmp": "glücklicher",
     "sup": "am glücklichsten",
     "opp": "unglücklich / traurig",
-    "ex": "Sie ist sehr glücklich."
+    "ex": "Sie ist sehr glücklich.",
+    "lvl": "A1"
   },
   {
     "w": "groß",
@@ -78,7 +86,8 @@
     "cmp": "größer",
     "sup": "am größten",
     "opp": "klein",
-    "ex": "Er ist sehr groß."
+    "ex": "Er ist sehr groß.",
+    "lvl": "A1"
   },
   {
     "w": "hässlich",
@@ -87,7 +96,8 @@
     "cmp": "hässlicher",
     "sup": "am hässlichsten",
     "opp": "schön",
-    "ex": "Das Gebäude ist wirklich hässlich."
+    "ex": "Das Gebäude ist wirklich hässlich.",
+    "lvl": "A2"
   },
   {
     "w": "lustig",
@@ -96,7 +106,8 @@
     "cmp": "lustiger",
     "sup": "am lustigsten",
     "opp": "langweilig / ernst",
-    "ex": "Er ist ein lustiger Mensch."
+    "ex": "Er ist ein lustiger Mensch.",
+    "lvl": "A1"
   },
   {
     "w": "alt",
@@ -105,7 +116,8 @@
     "cmp": "älter",
     "sup": "am ältesten",
     "opp": "neu / jung",
-    "ex": "Das ist ein altes Haus."
+    "ex": "Das ist ein altes Haus.",
+    "lvl": "A1"
   },
   {
     "w": "ruhig",
@@ -114,7 +126,8 @@
     "cmp": "ruhiger",
     "sup": "am ruhigsten",
     "opp": "laut / unruhig",
-    "ex": "Bleib ruhig, es ist alles gut."
+    "ex": "Bleib ruhig, es ist alles gut.",
+    "lvl": "A1"
   },
   {
     "w": "schmutzig",
@@ -123,7 +136,8 @@
     "cmp": "schmutziger",
     "sup": "am schmutzigsten",
     "opp": "sauber",
-    "ex": "Die Schuhe sind schmutzig."
+    "ex": "Die Schuhe sind schmutzig.",
+    "lvl": "A2"
   },
   {
     "w": "schwer",
@@ -132,7 +146,8 @@
     "cmp": "schwerer",
     "sup": "am schwersten",
     "opp": "leicht",
-    "ex": "Der Koffer ist sehr schwer."
+    "ex": "Der Koffer ist sehr schwer.",
+    "lvl": "A1"
   },
   {
     "w": "gut",
@@ -141,7 +156,8 @@
     "cmp": "besser",
     "sup": "am besten",
     "opp": "schlecht",
-    "ex": "Das ist eine gute Idee."
+    "ex": "Das ist eine gute Idee.",
+    "lvl": "A1"
   },
   {
     "w": "heiß",
@@ -150,7 +166,8 @@
     "cmp": "heißer",
     "sup": "am heißesten",
     "opp": "kalt / kühl",
-    "ex": "Der Kaffee ist sehr heiß."
+    "ex": "Der Kaffee ist sehr heiß.",
+    "lvl": "A1"
   },
   {
     "w": "klein",
@@ -159,7 +176,8 @@
     "cmp": "kleiner",
     "sup": "am kleinsten",
     "opp": "groß",
-    "ex": "Die Wohnung ist klein aber gemütlich."
+    "ex": "Die Wohnung ist klein aber gemütlich.",
+    "lvl": "A1"
   },
   {
     "w": "wichtig",
@@ -168,7 +186,8 @@
     "cmp": "wichtiger",
     "sup": "am wichtigsten",
     "opp": "unwichtig",
-    "ex": "Das ist sehr wichtig für mich."
+    "ex": "Das ist sehr wichtig für mich.",
+    "lvl": "A1"
   },
   {
     "w": "langsam",
@@ -177,7 +196,8 @@
     "cmp": "langsamer",
     "sup": "am langsamsten",
     "opp": "schnell",
-    "ex": "Bitte fahren Sie langsamer."
+    "ex": "Bitte fahren Sie langsamer.",
+    "lvl": "A1"
   },
   {
     "w": "schwierig",
@@ -186,7 +206,8 @@
     "cmp": "schwieriger",
     "sup": "am schwierigsten",
     "opp": "einfach / leicht",
-    "ex": "Deutsch ist manchmal schwierig."
+    "ex": "Deutsch ist manchmal schwierig.",
+    "lvl": "A1"
   },
   {
     "w": "neu",
@@ -195,7 +216,8 @@
     "cmp": "neuer",
     "sup": "am neuesten",
     "opp": "alt",
-    "ex": "Ich habe ein neues Handy."
+    "ex": "Ich habe ein neues Handy.",
+    "lvl": "A1"
   },
   {
     "w": "jung",
@@ -204,7 +226,8 @@
     "cmp": "jünger",
     "sup": "am jüngsten",
     "opp": "alt",
-    "ex": "Sie ist noch sehr jung."
+    "ex": "Sie ist noch sehr jung.",
+    "lvl": "A1"
   },
   {
     "w": "schön",
@@ -213,7 +236,8 @@
     "cmp": "schöner",
     "sup": "am schönsten",
     "opp": "hässlich",
-    "ex": "München ist eine schöne Stadt."
+    "ex": "München ist eine schöne Stadt.",
+    "lvl": "A1"
   },
   {
     "w": "offen",
@@ -222,7 +246,8 @@
     "cmp": "offener",
     "sup": "am offensten",
     "opp": "geschlossen",
-    "ex": "Das Fenster ist offen."
+    "ex": "Das Fenster ist offen.",
+    "lvl": null
   },
   {
     "w": "müde",
@@ -231,7 +256,8 @@
     "cmp": "müder",
     "sup": "am müdesten",
     "opp": "ausgeruht / munter",
-    "ex": "Ich bin so müde heute."
+    "ex": "Ich bin so müde heute.",
+    "lvl": "A1"
   },
   {
     "w": "gesund",
@@ -240,7 +266,8 @@
     "cmp": "gesünder",
     "sup": "am gesündesten",
     "opp": "krank",
-    "ex": "Obst und Gemüse sind gesund."
+    "ex": "Obst und Gemüse sind gesund.",
+    "lvl": "A1"
   },
   {
     "w": "billig",
@@ -249,7 +276,8 @@
     "cmp": "billiger",
     "sup": "am billigsten",
     "opp": "teuer",
-    "ex": "Dieser Markt ist sehr billig."
+    "ex": "Dieser Markt ist sehr billig.",
+    "lvl": "A1"
   },
   {
     "w": "hell",
@@ -258,7 +286,8 @@
     "cmp": "heller",
     "sup": "am hellsten",
     "opp": "dunkel",
-    "ex": "Das Zimmer ist hell und freundlich."
+    "ex": "Das Zimmer ist hell und freundlich.",
+    "lvl": "A1"
   },
   {
     "w": "krank",
@@ -267,7 +296,8 @@
     "cmp": "kränker",
     "sup": "am kränksten",
     "opp": "gesund",
-    "ex": "Sie ist krank und bleibt zu Hause."
+    "ex": "Sie ist krank und bleibt zu Hause.",
+    "lvl": "A1"
   },
   {
     "w": "einfach",
@@ -276,7 +306,8 @@
     "cmp": "einfacher",
     "sup": "am einfachsten",
     "opp": "schwierig / kompliziert",
-    "ex": "Die Aufgabe ist einfach."
+    "ex": "Die Aufgabe ist einfach.",
+    "lvl": "A1"
   },
   {
     "w": "schlecht",
@@ -285,7 +316,8 @@
     "cmp": "schlechter",
     "sup": "am schlechtesten",
     "opp": "gut",
-    "ex": "Das Wetter ist heute schlecht."
+    "ex": "Das Wetter ist heute schlecht.",
+    "lvl": "A2"
   },
   {
     "w": "leicht",
@@ -294,7 +326,8 @@
     "cmp": "leichter",
     "sup": "am leichtesten",
     "opp": "schwer",
-    "ex": "Diese Tasche ist leicht."
+    "ex": "Diese Tasche ist leicht.",
+    "lvl": "A1"
   },
   {
     "w": "interessant",
@@ -303,7 +336,8 @@
     "cmp": "interessanter",
     "sup": "am interessantesten",
     "opp": "langweilig",
-    "ex": "Das Buch ist sehr interessant."
+    "ex": "Das Buch ist sehr interessant.",
+    "lvl": "A1"
   },
   {
     "w": "voll",
@@ -312,7 +346,8 @@
     "cmp": "voller",
     "sup": "am vollsten",
     "opp": "leer",
-    "ex": "Das Glas ist voll."
+    "ex": "Das Glas ist voll.",
+    "lvl": "A1"
   },
   {
     "w": "nett",
@@ -321,7 +356,8 @@
     "cmp": "netter",
     "sup": "am nettesten",
     "opp": "unfreundlich",
-    "ex": "Sie ist sehr nett zu mir."
+    "ex": "Sie ist sehr nett zu mir.",
+    "lvl": "A1"
   },
   {
     "w": "teuer",
@@ -330,7 +366,8 @@
     "cmp": "teurer",
     "sup": "am teuersten",
     "opp": "billig / günstig",
-    "ex": "Das Restaurant ist zu teuer."
+    "ex": "Das Restaurant ist zu teuer.",
+    "lvl": "A1"
   },
   {
     "w": "schnell",
@@ -339,7 +376,8 @@
     "cmp": "schneller",
     "sup": "am schnellsten",
     "opp": "langsam",
-    "ex": "Der Zug ist schnell."
+    "ex": "Der Zug ist schnell.",
+    "lvl": "A1"
   },
   {
     "w": "spät",
@@ -348,7 +386,8 @@
     "cmp": "später",
     "sup": "am spätesten",
     "opp": "früh",
-    "ex": "Es ist schon sehr spät."
+    "ex": "Es ist schon sehr spät.",
+    "lvl": "A1"
   },
   {
     "w": "geschlossen",
@@ -357,7 +396,8 @@
     "cmp": "geschlossener",
     "sup": "am geschlossensten",
     "opp": "offen",
-    "ex": "Der Laden ist heute geschlossen."
+    "ex": "Der Laden ist heute geschlossen.",
+    "lvl": null
   },
   {
     "w": "dunkel",
@@ -366,7 +406,8 @@
     "cmp": "dunkler",
     "sup": "am dunkelsten",
     "opp": "hell",
-    "ex": "Im Winter ist es früh dunkel."
+    "ex": "Im Winter ist es früh dunkel.",
+    "lvl": "A1"
   },
   {
     "w": "kurz",
@@ -375,7 +416,8 @@
     "cmp": "kürzer",
     "sup": "am kürzesten",
     "opp": "lang",
-    "ex": "Das war eine kurze Pause."
+    "ex": "Das war eine kurze Pause.",
+    "lvl": "A1"
   },
   {
     "w": "früh",
@@ -384,7 +426,8 @@
     "cmp": "früher",
     "sup": "am frühesten",
     "opp": "spät",
-    "ex": "Ich stehe früh auf."
+    "ex": "Ich stehe früh auf.",
+    "lvl": "A1"
   },
   {
     "w": "richtig",
@@ -393,7 +436,8 @@
     "cmp": "richtiger",
     "sup": "am richtigsten",
     "opp": "falsch",
-    "ex": "Das ist die richtige Antwort."
+    "ex": "Das ist die richtige Antwort.",
+    "lvl": "A1"
   },
   {
     "w": "sauber",
@@ -402,7 +446,8 @@
     "cmp": "sauberer",
     "sup": "am saubersten",
     "opp": "schmutzig",
-    "ex": "Die Küche ist sehr sauber."
+    "ex": "Die Küche ist sehr sauber.",
+    "lvl": "A2"
   },
   {
     "w": "freundlich",
@@ -411,7 +456,8 @@
     "cmp": "freundlicher",
     "sup": "am freundlichsten",
     "opp": "unfreundlich / feindlich",
-    "ex": "Der Kellner war sehr freundlich."
+    "ex": "Der Kellner war sehr freundlich.",
+    "lvl": "A2"
   },
   {
     "w": "warm",
@@ -420,7 +466,8 @@
     "cmp": "wärmer",
     "sup": "am wärmsten",
     "opp": "kalt / kühl",
-    "ex": "Heute ist es warm."
+    "ex": "Heute ist es warm.",
+    "lvl": "A1"
   },
   {
     "w": "laut",
@@ -429,7 +476,8 @@
     "cmp": "lauter",
     "sup": "am lautesten",
     "opp": "leise",
-    "ex": "Die Musik ist zu laut."
+    "ex": "Die Musik ist zu laut.",
+    "lvl": "A2"
   },
   {
     "w": "leise",
@@ -438,7 +486,8 @@
     "cmp": "leiser",
     "sup": "am leisesten",
     "opp": "laut",
-    "ex": "Bitte sei leise!"
+    "ex": "Bitte sei leise!",
+    "lvl": "A1"
   },
   {
     "w": "falsch",
@@ -447,7 +496,8 @@
     "cmp": "falscher",
     "sup": "am falschesten",
     "opp": "richtig",
-    "ex": "Das ist leider falsch."
+    "ex": "Das ist leider falsch.",
+    "lvl": "A1"
   },
   {
     "w": "stolz",
@@ -456,7 +506,8 @@
     "cmp": "stolzer",
     "sup": "am stolzesten",
     "opp": "schamvoll / bescheiden",
-    "ex": "Ich bin stolz auf dich."
+    "ex": "Ich bin stolz auf dich.",
+    "lvl": null
   },
   {
     "w": "sicher",
@@ -465,7 +516,8 @@
     "cmp": "sicherer",
     "sup": "am sichersten",
     "opp": "unsicher / gefährlich",
-    "ex": "Hier ist es sicher."
+    "ex": "Hier ist es sicher.",
+    "lvl": "A1"
   },
   {
     "w": "kostenlos",
@@ -474,7 +526,8 @@
     "cmp": "–",
     "sup": "–",
     "opp": "kostenpflichtig / teuer",
-    "ex": "Das ist kostenlos."
+    "ex": "Das ist kostenlos.",
+    "lvl": "A2"
   },
   {
     "w": "bereit",
@@ -483,7 +536,8 @@
     "cmp": "bereiter",
     "sup": "am bereitsten",
     "opp": "unbereit / nicht bereit",
-    "ex": "Bist du bereit?"
+    "ex": "Bist du bereit?",
+    "lvl": null
   },
   {
     "w": "schriftlich",
@@ -492,7 +546,8 @@
     "cmp": "schriftlicher",
     "sup": "am schriftlichsten",
     "opp": "mündlich",
-    "ex": "Ich brauche das schriftlich."
+    "ex": "Ich brauche das schriftlich.",
+    "lvl": "A2"
   },
   {
     "w": "direkt",
@@ -501,7 +556,8 @@
     "cmp": "direkter",
     "sup": "am direktesten",
     "opp": "indirekt / umständlich",
-    "ex": "Nehmen Sie den direkten Weg."
+    "ex": "Nehmen Sie den direkten Weg.",
+    "lvl": "A1"
   },
   {
     "w": "besonders",
@@ -510,7 +566,8 @@
     "cmp": "–",
     "sup": "–",
     "opp": "gewöhnlich / normal",
-    "ex": "Das war besonders lecker."
+    "ex": "Das war besonders lecker.",
+    "lvl": null
   },
   {
     "w": "möglich",
@@ -519,7 +576,8 @@
     "cmp": "möglicher",
     "sup": "am möglichsten",
     "opp": "unmöglich",
-    "ex": "Ist das möglich?"
+    "ex": "Ist das möglich?",
+    "lvl": "A1"
   },
   {
     "w": "klug",
@@ -528,7 +586,8 @@
     "cmp": "klüger",
     "sup": "am klügsten",
     "opp": "dumm",
-    "ex": "Sie ist eine kluge Frau."
+    "ex": "Sie ist eine kluge Frau.",
+    "lvl": "A2"
   },
   {
     "w": "häufig",
@@ -537,7 +596,8 @@
     "cmp": "häufiger",
     "sup": "am häufigsten",
     "opp": "selten",
-    "ex": "Das ist ein häufiger Fehler."
+    "ex": "Das ist ein häufiger Fehler.",
+    "lvl": null
   },
   {
     "w": "höflich",
@@ -546,7 +606,8 @@
     "cmp": "höflicher",
     "sup": "am höflichsten",
     "opp": "unhöflich / grob",
-    "ex": "Sei bitte höflich."
+    "ex": "Sei bitte höflich.",
+    "lvl": "A1"
   },
   {
     "w": "typisch",
@@ -555,7 +616,8 @@
     "cmp": "typischer",
     "sup": "am typischsten",
     "opp": "untypisch",
-    "ex": "Das ist typisch deutsch."
+    "ex": "Das ist typisch deutsch.",
+    "lvl": "A1"
   },
   {
     "w": "praktisch",
@@ -564,7 +626,8 @@
     "cmp": "praktischer",
     "sup": "am praktischsten",
     "opp": "unpraktisch",
-    "ex": "Das ist sehr praktisch."
+    "ex": "Das ist sehr praktisch.",
+    "lvl": "A1"
   },
   {
     "w": "egal",
@@ -573,7 +636,8 @@
     "cmp": "–",
     "sup": "–",
     "opp": "wichtig / bedeutsam",
-    "ex": "Das ist mir egal."
+    "ex": "Das ist mir egal.",
+    "lvl": "A1"
   },
   {
     "w": "flüssig",
@@ -582,7 +646,8 @@
     "cmp": "flüssiger",
     "sup": "am flüssigsten",
     "opp": "fest / stockend",
-    "ex": "Er spricht flüssig Englisch."
+    "ex": "Er spricht flüssig Englisch.",
+    "lvl": null
   },
   {
     "w": "anders",
@@ -591,7 +656,8 @@
     "cmp": "–",
     "sup": "–",
     "opp": "gleich / ähnlich",
-    "ex": "Das ist ganz anders als ich dachte."
+    "ex": "Das ist ganz anders als ich dachte.",
+    "lvl": "A1"
   },
   {
     "w": "natürlich",
@@ -600,7 +666,8 @@
     "cmp": "natürlicher",
     "sup": "am natürlichsten",
     "opp": "künstlich / unnatürlich",
-    "ex": "Natürlich komme ich!"
+    "ex": "Natürlich komme ich!",
+    "lvl": "A1"
   },
   {
     "w": "pünktlich",
@@ -609,7 +676,8 @@
     "cmp": "pünktlicher",
     "sup": "am pünktlichsten",
     "opp": "unpünktlich / zu spät",
-    "ex": "Der Zug ist pünktlich."
+    "ex": "Der Zug ist pünktlich.",
+    "lvl": "A1"
   },
   {
     "w": "spännend",
@@ -618,7 +686,8 @@
     "cmp": "spannender",
     "sup": "am spannendsten",
     "opp": "langweilig",
-    "ex": "Der Film war sehr spannend."
+    "ex": "Der Film war sehr spannend.",
+    "lvl": null
   },
   {
     "w": "mündlich",
@@ -627,7 +696,8 @@
     "cmp": "mündlicher",
     "sup": "am mündlichsten",
     "opp": "schriftlich",
-    "ex": "Die Prüfung ist mündlich."
+    "ex": "Die Prüfung ist mündlich.",
+    "lvl": null
   },
   {
     "w": "ehrlich",
@@ -636,7 +706,8 @@
     "cmp": "ehrlicher",
     "sup": "am ehrlichsten",
     "opp": "unehrlich / verlogen",
-    "ex": "Sei ehrlich mit mir."
+    "ex": "Sei ehrlich mit mir.",
+    "lvl": null
   },
   {
     "w": "bequem",
@@ -645,7 +716,8 @@
     "cmp": "bequemer",
     "sup": "am bequemsten",
     "opp": "unbequem",
-    "ex": "Das Sofa ist sehr bequem."
+    "ex": "Das Sofa ist sehr bequem.",
+    "lvl": "A1"
   },
   {
     "w": "beliebt",
@@ -654,7 +726,8 @@
     "cmp": "beliebter",
     "sup": "am beliebtesten",
     "opp": "unbeliebt",
-    "ex": "Das ist ein beliebtes Restaurant."
+    "ex": "Das ist ein beliebtes Restaurant.",
+    "lvl": "A1"
   },
   {
     "w": "gemütlich",
@@ -663,7 +736,8 @@
     "cmp": "gemütlicher",
     "sup": "am gemütlichsten",
     "opp": "unbehaglich / ungemütlich",
-    "ex": "Das Café ist sehr gemütlich."
+    "ex": "Das Café ist sehr gemütlich.",
+    "lvl": null
   },
   {
     "w": "dankbar",
@@ -672,7 +746,8 @@
     "cmp": "dankbarer",
     "sup": "am dankbarsten",
     "opp": "undankbar",
-    "ex": "Ich bin sehr dankbar."
+    "ex": "Ich bin sehr dankbar.",
+    "lvl": null
   },
   {
     "w": "zufrieden",
@@ -681,7 +756,8 @@
     "cmp": "zufriedener",
     "sup": "am zufriedensten",
     "opp": "unzufrieden",
-    "ex": "Ich bin zufrieden mit dem Ergebnis."
+    "ex": "Ich bin zufrieden mit dem Ergebnis.",
+    "lvl": null
   },
   {
     "w": "neugierig",
@@ -690,7 +766,8 @@
     "cmp": "neugieriger",
     "sup": "am neugierigsten",
     "opp": "gleichgültig / desinteressiert",
-    "ex": "Kinder sind sehr neugierig."
+    "ex": "Kinder sind sehr neugierig.",
+    "lvl": null
   },
   {
     "w": "später",
@@ -699,7 +776,8 @@
     "cmp": "–",
     "sup": "am spätesten",
     "opp": "früher",
-    "ex": "Wir sehen uns später."
+    "ex": "Wir sehen uns später.",
+    "lvl": "A1"
   },
   {
     "w": "nötig",
@@ -708,7 +786,8 @@
     "cmp": "nötiger",
     "sup": "am nötigsten",
     "opp": "unnötig / überflüssig",
-    "ex": "Das ist nicht nötig."
+    "ex": "Das ist nicht nötig.",
+    "lvl": null
   },
   {
     "w": "ledig",
@@ -717,7 +796,8 @@
     "cmp": "–",
     "sup": "–",
     "opp": "verheiratet",
-    "ex": "Ich bin noch ledig."
+    "ex": "Ich bin noch ledig.",
+    "lvl": "A1"
   },
   {
     "w": "komisch",
@@ -726,7 +806,8 @@
     "cmp": "komischer",
     "sup": "am komischsten",
     "opp": "normal / gewöhnlich",
-    "ex": "Das ist aber komisch."
+    "ex": "Das ist aber komisch.",
+    "lvl": "A1"
   },
   {
     "w": "verheiratet",
@@ -735,7 +816,8 @@
     "cmp": "–",
     "sup": "–",
     "opp": "ledig / geschieden",
-    "ex": "Sie ist seit zwei Jahren verheiratet."
+    "ex": "Sie ist seit zwei Jahren verheiratet.",
+    "lvl": "A1"
   },
   {
     "w": "peinlich",
@@ -744,7 +826,8 @@
     "cmp": "peinlicher",
     "sup": "am peinlichsten",
     "opp": "stolz / selbstbewusst",
-    "ex": "Das ist mir peinlich."
+    "ex": "Das ist mir peinlich.",
+    "lvl": null
   },
   {
     "w": "zusammen",
@@ -753,7 +836,8 @@
     "cmp": "–",
     "sup": "–",
     "opp": "allein / getrennt",
-    "ex": "Wir machen das zusammen."
+    "ex": "Wir machen das zusammen.",
+    "lvl": null
   },
   {
     "w": "selten",
@@ -762,7 +846,8 @@
     "cmp": "seltener",
     "sup": "am seltensten",
     "opp": "häufig / oft",
-    "ex": "So etwas sieht man selten."
+    "ex": "So etwas sieht man selten.",
+    "lvl": null
   },
   {
     "w": "zuständig",
@@ -771,7 +856,8 @@
     "cmp": "zuständiger",
     "sup": "am zuständigsten",
     "opp": "nicht zuständig",
-    "ex": "Wer ist dafür zuständig?"
+    "ex": "Wer ist dafür zuständig?",
+    "lvl": null
   },
   {
     "w": "persönlich",
@@ -780,7 +866,8 @@
     "cmp": "persönlicher",
     "sup": "am persönlichsten",
     "opp": "unpersönlich",
-    "ex": "Das ist eine persönliche Frage."
+    "ex": "Das ist eine persönliche Frage.",
+    "lvl": null
   },
   {
     "w": "faul",
@@ -789,7 +876,8 @@
     "cmp": "fauler",
     "sup": "am faulsten",
     "opp": "fleißig",
-    "ex": "Sei nicht so faul!"
+    "ex": "Sei nicht so faul!",
+    "lvl": "A2"
   },
   {
     "w": "allein",
@@ -798,7 +886,8 @@
     "cmp": "–",
     "sup": "–",
     "opp": "zusammen / gemeinsam",
-    "ex": "Ich bin gerne allein."
+    "ex": "Ich bin gerne allein.",
+    "lvl": null
   },
   {
     "w": "dumm",
@@ -807,7 +896,8 @@
     "cmp": "dümmer",
     "sup": "am dümmsten",
     "opp": "klug / schlau",
-    "ex": "Das war eine dumme Idee."
+    "ex": "Das war eine dumme Idee.",
+    "lvl": null
   },
   {
     "w": "gratis",
@@ -816,7 +906,8 @@
     "cmp": "–",
     "sup": "–",
     "opp": "kostenpflichtig",
-    "ex": "Das bekommst du gratis."
+    "ex": "Das bekommst du gratis.",
+    "lvl": "A1"
   },
   {
     "w": "aufgeregt",
@@ -825,7 +916,8 @@
     "cmp": "aufgeregter",
     "sup": "am aufgeregtesten",
     "opp": "ruhig / gelassen",
-    "ex": "Ich bin ganz aufgeregt."
+    "ex": "Ich bin ganz aufgeregt.",
+    "lvl": null
   },
   {
     "w": "witzig",
@@ -834,7 +926,8 @@
     "cmp": "witziger",
     "sup": "am witzigsten",
     "opp": "langweilig / humorlos",
-    "ex": "Er macht immer witzige Bemerkungen."
+    "ex": "Er macht immer witzige Bemerkungen.",
+    "lvl": "A2"
   },
   {
     "w": "modern",
@@ -843,7 +936,8 @@
     "cmp": "moderner",
     "sup": "am modernsten",
     "opp": "altmodisch",
-    "ex": "Das Design ist sehr modern."
+    "ex": "Das Design ist sehr modern.",
+    "lvl": null
   },
   {
     "w": "endlich",
@@ -852,7 +946,8 @@
     "cmp": "–",
     "sup": "–",
     "opp": "unendlich",
-    "ex": "Endlich ist es fertig!"
+    "ex": "Endlich ist es fertig!",
+    "lvl": null
   },
   {
     "w": "mutig",
@@ -861,7 +956,8 @@
     "cmp": "mutiger",
     "sup": "am mutigsten",
     "opp": "feige",
-    "ex": "Das war sehr mutig von dir."
+    "ex": "Das war sehr mutig von dir.",
+    "lvl": null
   },
   {
     "w": "fröhlich",
@@ -870,7 +966,8 @@
     "cmp": "fröhlicher",
     "sup": "am fröhlichsten",
     "opp": "traurig / ernst",
-    "ex": "Sie ist immer fröhlich."
+    "ex": "Sie ist immer fröhlich.",
+    "lvl": null
   },
   {
     "w": "fertig",
@@ -879,7 +976,8 @@
     "cmp": "fertiger",
     "sup": "am fertigsten",
     "opp": "unfertig / noch nicht fertig",
-    "ex": "Ich bin fertig."
+    "ex": "Ich bin fertig.",
+    "lvl": "A1"
   },
   {
     "w": "fleißig",
@@ -888,7 +986,8 @@
     "cmp": "fleißiger",
     "sup": "am fleißigsten",
     "opp": "faul",
-    "ex": "Sie ist sehr fleißig."
+    "ex": "Sie ist sehr fleißig.",
+    "lvl": "A2"
   },
   {
     "w": "normal",
@@ -897,7 +996,8 @@
     "cmp": "normaler",
     "sup": "am normalsten",
     "opp": "abnormal / seltsam",
-    "ex": "Das ist ganz normal."
+    "ex": "Das ist ganz normal.",
+    "lvl": "A1"
   },
   {
     "w": "hungrig",
@@ -906,7 +1006,8 @@
     "cmp": "hungriger",
     "sup": "am hungrigsten",
     "opp": "satt",
-    "ex": "Nach der Arbeit bin ich immer hungrig."
+    "ex": "Nach der Arbeit bin ich immer hungrig.",
+    "lvl": null
   },
   {
     "w": "durstig",
@@ -915,7 +1016,8 @@
     "cmp": "durstiger",
     "sup": "am durstigsten",
     "opp": "–",
-    "ex": "Nach dem Sport bin ich sehr durstig."
+    "ex": "Nach dem Sport bin ich sehr durstig.",
+    "lvl": null
   },
   {
     "w": "frei",
@@ -924,7 +1026,8 @@
     "cmp": "freier",
     "sup": "am freisten",
     "opp": "besetzt",
-    "ex": "Ist dieser Platz noch frei?"
+    "ex": "Ist dieser Platz noch frei?",
+    "lvl": "A1"
   },
   {
     "w": "besetzt",
@@ -933,7 +1036,8 @@
     "cmp": "besetzter",
     "sup": "am besetztesten",
     "opp": "frei",
-    "ex": "Die Toilette ist besetzt."
+    "ex": "Die Toilette ist besetzt.",
+    "lvl": "A2"
   },
   {
     "w": "nah",
@@ -942,7 +1046,8 @@
     "cmp": "näher",
     "sup": "am nächsten",
     "opp": "fern",
-    "ex": "Der Supermarkt ist ganz nah."
+    "ex": "Der Supermarkt ist ganz nah.",
+    "lvl": null
   },
   {
     "w": "fern",
@@ -951,7 +1056,8 @@
     "cmp": "ferner",
     "sup": "am fernsten",
     "opp": "nah",
-    "ex": "Das liegt in ferner Zukunft."
+    "ex": "Das liegt in ferner Zukunft.",
+    "lvl": null
   },
   {
     "w": "böse",
@@ -960,7 +1066,8 @@
     "cmp": "böser",
     "sup": "am bösesten",
     "opp": "lieb",
-    "ex": "Bist du böse auf mich?"
+    "ex": "Bist du böse auf mich?",
+    "lvl": "A2"
   },
   {
     "w": "abhängig",
@@ -969,7 +1076,8 @@
     "cmp": "abhängiger",
     "sup": "am abhängigsten",
     "opp": "unabhängig",
-    "ex": "Ich bin von meinem Gehalt abhängig."
+    "ex": "Ich bin von meinem Gehalt abhängig.",
+    "lvl": null
   },
   {
     "w": "allgemein",
@@ -978,7 +1086,8 @@
     "cmp": "allgemeiner",
     "sup": "am allgemeinststen",
     "opp": "speziell",
-    "ex": "Im Allgemeinen ist das Wetter hier gut."
+    "ex": "Im Allgemeinen ist das Wetter hier gut.",
+    "lvl": null
   },
   {
     "w": "anstrengend",
@@ -987,7 +1096,8 @@
     "cmp": "anstrengender",
     "sup": "am anstrengendsten",
     "opp": "entspannend",
-    "ex": "Der Arbeitstag war sehr anstrengend."
+    "ex": "Der Arbeitstag war sehr anstrengend.",
+    "lvl": "A1"
   },
   {
     "w": "bekannt",
@@ -996,7 +1106,8 @@
     "cmp": "bekannter",
     "sup": "am bekanntesten",
     "opp": "unbekannt",
-    "ex": "Er ist ein sehr bekannter Autor."
+    "ex": "Er ist ein sehr bekannter Autor.",
+    "lvl": "A1"
   },
   {
     "w": "deutlich",
@@ -1005,7 +1116,8 @@
     "cmp": "deutlicher",
     "sup": "am deutlichsten",
     "opp": "undeutlich",
-    "ex": "Bitte sprechen Sie langsam und deutlich."
+    "ex": "Bitte sprechen Sie langsam und deutlich.",
+    "lvl": "A2"
   },
   {
     "w": "eigen",
@@ -1014,7 +1126,8 @@
     "cmp": "eigener",
     "sup": "am eigensten",
     "opp": "fremd",
-    "ex": "Ich habe ein eigenes Auto."
+    "ex": "Ich habe ein eigenes Auto.",
+    "lvl": "A2"
   },
   {
     "w": "erfolgreich",
@@ -1023,7 +1136,8 @@
     "cmp": "erfolgreicher",
     "sup": "am erfolgreichsten",
     "opp": "erfolglos",
-    "ex": "Das Projekt war sehr erfolgreich."
+    "ex": "Das Projekt war sehr erfolgreich.",
+    "lvl": null
   },
   {
     "w": "ernst",
@@ -1032,7 +1146,8 @@
     "cmp": "ernster",
     "sup": "am ernstesten",
     "opp": "lustig",
-    "ex": "Das ist ein ernstes Problem."
+    "ex": "Das ist ein ernstes Problem.",
+    "lvl": null
   },
   {
     "w": "fremd",
@@ -1041,7 +1156,8 @@
     "cmp": "fremder",
     "sup": "am fremdesten",
     "opp": "bekannt",
-    "ex": "Ich bin fremd hier."
+    "ex": "Ich bin fremd hier.",
+    "lvl": "A2"
   },
   {
     "w": "gefährlich",
@@ -1050,7 +1166,8 @@
     "cmp": "gefährlicher",
     "sup": "am gefährlichsten",
     "opp": "sicher",
-    "ex": "Diese Straße ist nachts gefährlich."
+    "ex": "Diese Straße ist nachts gefährlich.",
+    "lvl": "A2"
   },
   {
     "w": "geheim",
@@ -1059,7 +1176,8 @@
     "cmp": "geheimer",
     "sup": "am geheimsten",
     "opp": "öffentlich",
-    "ex": "Das Passwort ist streng geheim."
+    "ex": "Das Passwort ist streng geheim.",
+    "lvl": null
   },
   {
     "w": "genau",
@@ -1068,7 +1186,8 @@
     "cmp": "genauer",
     "sup": "am genauesten",
     "opp": "ungenau",
-    "ex": "Das ist genau das, was ich suche!"
+    "ex": "Das ist genau das, was ich suche!",
+    "lvl": null
   },
   {
     "w": "hoch",
@@ -1077,7 +1196,8 @@
     "cmp": "höher",
     "sup": "am höchsten",
     "opp": "niedrig",
-    "ex": "Das Gebäude ist sehr hoch."
+    "ex": "Das Gebäude ist sehr hoch.",
+    "lvl": "A1"
   },
   {
     "w": "kaputt",
@@ -1086,7 +1206,8 @@
     "cmp": "kaputter",
     "sup": "am kaputtesten",
     "opp": "ganz / heile",
-    "ex": "Mein Handy ist leider kaputt."
+    "ex": "Mein Handy ist leider kaputt.",
+    "lvl": "A1"
   },
   {
     "w": "knapp",
@@ -1095,7 +1216,8 @@
     "cmp": "knapper",
     "sup": "am knappsten",
     "opp": "reichlich",
-    "ex": "Die Zeit ist sehr knapp."
+    "ex": "Die Zeit ist sehr knapp.",
+    "lvl": null
   },
   {
     "w": "nass",
@@ -1104,7 +1226,8 @@
     "cmp": "nässer",
     "sup": "am nassesten",
     "opp": "trocken",
-    "ex": "Meine Schuhe sind ganz nass."
+    "ex": "Meine Schuhe sind ganz nass.",
+    "lvl": "A2"
   },
   {
     "w": "notwendig",
@@ -1113,7 +1236,8 @@
     "cmp": "notwendiger",
     "sup": "am notwendigsten",
     "opp": "unnötig",
-    "ex": "Diese Maßnahme ist absolut notwendig."
+    "ex": "Diese Maßnahme ist absolut notwendig.",
+    "lvl": "A2"
   },
   {
     "w": "öffentlich",
@@ -1122,7 +1246,8 @@
     "cmp": "öffentlicher",
     "sup": "am öffentlichsten",
     "opp": "privat",
-    "ex": "Wir nutzen öffentliche Verkehrsmittel."
+    "ex": "Wir nutzen öffentliche Verkehrsmittel.",
+    "lvl": "A1"
   },
   {
     "w": "riesig",
@@ -1131,7 +1256,8 @@
     "cmp": "riesiger",
     "sup": "am riesigsten",
     "opp": "winzig",
-    "ex": "Der Elefant ist riesig."
+    "ex": "Der Elefant ist riesig.",
+    "lvl": null
   },
   {
     "w": "streng",
@@ -1140,7 +1266,8 @@
     "cmp": "strenger",
     "sup": "am strengsten",
     "opp": "locker",
-    "ex": "Der Lehrer war sehr streng."
+    "ex": "Der Lehrer war sehr streng.",
+    "lvl": "A2"
   },
   {
     "w": "tief",
@@ -1149,7 +1276,8 @@
     "cmp": "tiefer",
     "sup": "am tiefsten",
     "opp": "flach",
-    "ex": "Der See ist sehr tief."
+    "ex": "Der See ist sehr tief.",
+    "lvl": null
   },
   {
     "w": "trocken",
@@ -1158,7 +1286,8 @@
     "cmp": "trockener",
     "sup": "am trockensten",
     "opp": "nass",
-    "ex": "Die Wäsche ist schon trocken."
+    "ex": "Die Wäsche ist schon trocken.",
+    "lvl": "A2"
   },
   {
     "w": "unbedingt",
@@ -1167,7 +1296,8 @@
     "cmp": "–",
     "sup": "–",
     "opp": "optional",
-    "ex": "Ich muss dir unbedingt etwas erzählen!"
+    "ex": "Ich muss dir unbedingt etwas erzählen!",
+    "lvl": null
   },
   {
     "w": "verschieden",
@@ -1176,7 +1306,8 @@
     "cmp": "verschiedener",
     "sup": "am verschiedensten",
     "opp": "gleich",
-    "ex": "Wir haben verschiedene Meinungen."
+    "ex": "Wir haben verschiedene Meinungen.",
+    "lvl": null
   },
   {
     "w": "wertvoll",
@@ -1185,6 +1316,1804 @@
     "cmp": "wertvoller",
     "sup": "am wertvollsten",
     "opp": "wertlos",
-    "ex": "Dieser Ring ist sehr wertvoll."
+    "ex": "Dieser Ring ist sehr wertvoll.",
+    "lvl": null
+  },
+  {
+    "w": "super",
+    "e": "super",
+    "c": "Other",
+    "ex": "Super, danke.",
+    "lvl": "A1"
+  },
+  {
+    "w": "toll",
+    "e": "great, awesome",
+    "c": "Quality & Value",
+    "cmp": "toller",
+    "sup": "am tollsten",
+    "ex": "Wow, das ist toll!",
+    "lvl": "A1"
+  },
+  {
+    "w": "wenig",
+    "e": "a little",
+    "c": "Size & Quantity",
+    "cmp": "weniger",
+    "sup": "am wenigsten",
+    "opp": "viel",
+    "ex": "Maria spricht nur wenig Deutsch.",
+    "lvl": "A1"
+  },
+  {
+    "w": "rot",
+    "e": "red",
+    "c": "Other",
+    "cmp": "roter",
+    "sup": "am rotesten",
+    "ex": "Der Kugelschreiber ist rot.",
+    "lvl": "A1"
+  },
+  {
+    "w": "blau",
+    "e": "blue",
+    "c": "Other",
+    "cmp": "blauer",
+    "sup": "am blausten",
+    "ex": "Die Brille ist blau.",
+    "lvl": "A1"
+  },
+  {
+    "w": "schwarz",
+    "e": "black",
+    "c": "Other",
+    "cmp": "schwärzer",
+    "sup": "am schwärzesten",
+    "ex": "Der Kugelschreiber ist schwarz.",
+    "lvl": "A1"
+  },
+  {
+    "w": "grün",
+    "e": "green",
+    "c": "Other",
+    "cmp": "grüner",
+    "sup": "am grünsten",
+    "ex": "Der Kalender ist grün.",
+    "lvl": "A1"
+  },
+  {
+    "w": "weiß",
+    "e": "white",
+    "c": "Other",
+    "cmp": "weißer",
+    "sup": "am weißesten",
+    "ex": "Das Handy ist weiß.",
+    "lvl": "A1"
+  },
+  {
+    "w": "gelb",
+    "e": "yellow",
+    "c": "Other",
+    "cmp": "gelber",
+    "sup": "am gelbsten",
+    "ex": "Die Bücher sind gelb.",
+    "lvl": "A1"
+  },
+  {
+    "w": "grau",
+    "e": "grey",
+    "c": "Other",
+    "cmp": "grauer",
+    "sup": "am grausten",
+    "ex": "Der Bleistift ist grau.",
+    "lvl": "A1"
+  },
+  {
+    "w": "orange",
+    "e": "orange",
+    "c": "Other",
+    "ex": "Die Stifte sind orange.",
+    "lvl": "A1"
+  },
+  {
+    "w": "pink",
+    "e": "pink",
+    "c": "Other",
+    "cmp": "pinker",
+    "sup": "am pinksten",
+    "ex": "Der MP3-Player ist pink.",
+    "lvl": "A1"
+  },
+  {
+    "w": "braun",
+    "e": "brown",
+    "c": "Other",
+    "cmp": "brauner",
+    "sup": "am braunsten",
+    "ex": "Die Kalender sind braun.",
+    "lvl": "A1"
+  },
+  {
+    "w": "gern(e)",
+    "e": "yes (Yes, I like it a lot.)",
+    "c": "Other",
+    "cmp": "gern(e)er",
+    "sup": "am gern(e)sten",
+    "ex": "Ja, gern.",
+    "lvl": "A1"
+  },
+  {
+    "w": "dies",
+    "e": "this",
+    "c": "Other",
+    "ex": "Was machen wir dieses Semester?",
+    "lvl": "A1"
+  },
+  {
+    "w": "nächst",
+    "e": "next",
+    "c": "Other",
+    "ex": "Ich fahre nächstes Wochenende Ski.",
+    "lvl": "A1"
+  },
+  {
+    "w": "lieb",
+    "e": "Dear",
+    "c": "Other",
+    "cmp": "lieb-er",
+    "sup": "am lieb-sten",
+    "ex": "Liebe Sabine, lieber Thomas!",
+    "lvl": "A1"
+  },
+  {
+    "w": "erst",
+    "e": "first",
+    "c": "Other",
+    "ex": "Die erste Nachricht um acht Uhr drei: ...",
+    "lvl": "A1"
+  },
+  {
+    "w": "zweit",
+    "e": "second",
+    "c": "Other",
+    "ex": "Die zweite Nachricht um acht Uhr drei: ...",
+    "lvl": "A1"
+  },
+  {
+    "w": "dritt",
+    "e": "third",
+    "c": "Other",
+    "ex": "Die dritte Nachricht um elf Uhr eins: ...",
+    "lvl": "A1"
+  },
+  {
+    "w": "bestimmt",
+    "e": "certainly, definitely",
+    "c": "Other",
+    "cmp": "bestimmter",
+    "sup": "am bestimmtesten",
+    "ex": "Er sucht die Uhr bestimmt …",
+    "lvl": "A1"
+  },
+  {
+    "w": "hoffentlich",
+    "e": "hopefully",
+    "c": "Other",
+    "cmp": "hoffentlicher",
+    "sup": "am hoffentlichsten",
+    "ex": "Hoffentlich geht es schnell.",
+    "lvl": "A1"
+  },
+  {
+    "w": "dazu",
+    "e": "as well",
+    "c": "Other",
+    "cmp": "dazuer",
+    "sup": "am dazusten",
+    "ex": "Möchten Sie auch einen Salat dazu?",
+    "lvl": "A1"
+  },
+  {
+    "w": "okay",
+    "e": "okay",
+    "c": "Other",
+    "cmp": "okayer",
+    "sup": "am okaysten",
+    "ex": "Wie geht’s? – Alles okay.",
+    "lvl": "A1"
+  },
+  {
+    "w": "schade",
+    "e": "shame, pity (What a shame!)",
+    "c": "Other",
+    "cmp": "schader",
+    "sup": "am schadesten",
+    "ex": "Hmm. Schade!",
+    "lvl": "A1"
+  },
+  {
+    "w": "halb",
+    "e": "half",
+    "c": "Size & Quantity",
+    "cmp": "halber",
+    "sup": "am halbsten",
+    "ex": "Es ist halb elf.",
+    "lvl": "A1"
+  },
+  {
+    "w": "live",
+    "e": "live",
+    "c": "Other",
+    "cmp": "liver",
+    "sup": "am livesten",
+    "ex": "Die Band ist live in Hamburg.",
+    "lvl": "A1"
+  },
+  {
+    "w": "deutsch",
+    "e": "German",
+    "c": "Other",
+    "cmp": "deutscher",
+    "sup": "am deutschesten",
+    "ex": "Es spielt die deutsche Band „Die",
+    "lvl": "A1"
+  },
+  {
+    "w": "na",
+    "e": "so",
+    "c": "Other",
+    "cmp": "naer",
+    "sup": "am nasten",
+    "ex": "Na, wie geht’s?",
+    "lvl": "A1"
+  },
+  {
+    "w": "online",
+    "e": "online",
+    "c": "Other",
+    "cmp": "onliner",
+    "sup": "am onlinesten",
+    "ex": "Zuletzt online heute um 17:32.",
+    "lvl": "A1"
+  },
+  {
+    "w": "geöffnet",
+    "e": "open",
+    "c": "Other",
+    "cmp": "geöffneter",
+    "sup": "am geöffnetesten",
+    "ex": "Alle Museen sind von 18:00 bis 24:00 Uhr",
+    "lvl": "A1"
+  },
+  {
+    "w": "täglich",
+    "e": "daily",
+    "c": "Time & Frequency",
+    "cmp": "täglicher",
+    "sup": "am täglichsten",
+    "ex": "Das Museum ist täglich geöffnet.",
+    "lvl": "A1"
+  },
+  {
+    "w": "klar",
+    "e": "here: of course",
+    "c": "Other",
+    "cmp": "klarer",
+    "sup": "am klarsten",
+    "opp": "unklar",
+    "ex": "Ja, klar.",
+    "lvl": "A1"
+  },
+  {
+    "w": "letzt",
+    "e": "last",
+    "c": "Other",
+    "ex": "Nimm das letzte Stück Pizza!",
+    "lvl": "A1"
+  },
+  {
+    "w": "mehr",
+    "e": "more",
+    "c": "Other",
+    "cmp": "mehrer",
+    "sup": "am mehrsten",
+    "ex": "Ich kann nicht mehr.",
+    "lvl": "A1"
+  },
+  {
+    "w": "lieber",
+    "e": "rather (here: to prefer)",
+    "c": "Other",
+    "cmp": "liebrer",
+    "sup": "am liebersten",
+    "ex": "Ich möchte lieber grüne Äpfel.",
+    "lvl": "A1"
+  },
+  {
+    "w": "viel",
+    "e": "much",
+    "c": "Size & Quantity",
+    "cmp": "mehr",
+    "sup": "am meisten",
+    "opp": "wenig",
+    "ex": "In der Schule habe ich super viel Stress.",
+    "lvl": "A1"
+  },
+  {
+    "w": "prima",
+    "e": "fantastic, great",
+    "c": "Quality & Value",
+    "ex": "Prima, dann nehme ich das Auto.",
+    "lvl": "A1"
+  },
+  {
+    "w": "unterwegs",
+    "e": "out and about",
+    "c": "Other",
+    "cmp": "unterwegser",
+    "sup": "am unterwegsesten",
+    "ex": "Sie ist viel unterwegs.",
+    "lvl": "A1"
+  },
+  {
+    "w": "ordentlich",
+    "e": "neatly, tidily",
+    "c": "Other",
+    "cmp": "ordentlicher",
+    "sup": "am ordentlichsten",
+    "ex": "Als Sekretärin muss sie sehr ordentlich",
+    "lvl": "A1"
+  },
+  {
+    "w": "pro",
+    "e": "per",
+    "c": "Other",
+    "cmp": "proer",
+    "sup": "am prosten",
+    "ex": "Er arbeitet vier Tage pro Woche.",
+    "lvl": "A1"
+  },
+  {
+    "w": "klasse",
+    "e": "great, super",
+    "c": "Quality & Value",
+    "ex": "Das ist klasse!",
+    "lvl": "A1"
+  },
+  {
+    "w": "wunderbar",
+    "e": "wonderful",
+    "c": "Quality & Value",
+    "cmp": "wunderbarer",
+    "sup": "am wunderbarsten",
+    "ex": "Das ist wunderbar!",
+    "lvl": "A1"
+  },
+  {
+    "w": "klangvoll",
+    "e": "melodious",
+    "c": "Other",
+    "cmp": "klangvoller",
+    "sup": "am klangvollsten",
+    "ex": "Unser Motto ist: Klangvoll.",
+    "lvl": "A1"
+  },
+  {
+    "w": "echt",
+    "e": "really",
+    "c": "Other",
+    "cmp": "echter",
+    "sup": "am echtesten",
+    "ex": "Echt? Das Stück ist doch toll.",
+    "lvl": "A1"
+  },
+  {
+    "w": "herzlich",
+    "e": "warmly, sincerely, cordially",
+    "c": "Physical Properties",
+    "cmp": "herzlicher",
+    "sup": "am herzlichsten",
+    "ex": "Du bist herzlich eingeladen.",
+    "lvl": "A1"
+  },
+  {
+    "w": "getrennt",
+    "e": "separately",
+    "c": "Other",
+    "cmp": "getrennter",
+    "sup": "am getrenntesten",
+    "ex": "Zahlen Sie zusammen oder getrennt?",
+    "lvl": "A1"
+  },
+  {
+    "w": "zurück",
+    "e": "here: change",
+    "c": "Other",
+    "cmp": "zurücker",
+    "sup": "am zurücksten",
+    "ex": "20 Euro für Sie zurück.",
+    "lvl": "A1"
+  },
+  {
+    "w": "nochmal",
+    "e": "again",
+    "c": "Other",
+    "cmp": "nochmaler",
+    "sup": "am nochmalsten",
+    "ex": "Vielen Dank nochmal für die Einladung.",
+    "lvl": "A1"
+  },
+  {
+    "w": "breit",
+    "e": "wide",
+    "c": "Physical Properties",
+    "cmp": "breiter",
+    "sup": "am breitesten",
+    "opp": "eng",
+    "ex": "Der Flur ist sehr breit.",
+    "lvl": "A1"
+  },
+  {
+    "w": "sonnig",
+    "e": "sunny",
+    "c": "Other",
+    "cmp": "sonniger",
+    "sup": "am sonnigsten",
+    "ex": "Der Balkon ist sehr sonnig.",
+    "lvl": "A1"
+  },
+  {
+    "w": "ander",
+    "e": "other",
+    "c": "Other",
+    "ex": "Ich zeige Ihnen noch andere Wohnungen.",
+    "lvl": "A1"
+  },
+  {
+    "w": "froh",
+    "e": "glad, happy",
+    "c": "Emotion & Feeling",
+    "cmp": "froher",
+    "sup": "am frohsten",
+    "ex": "Ich bin ja so froh.",
+    "lvl": "A1"
+  },
+  {
+    "w": "nervös",
+    "e": "nervous",
+    "c": "Emotion & Feeling",
+    "cmp": "nervöser",
+    "sup": "am nervösesten",
+    "ex": "Sie ist nervös.",
+    "lvl": "A1"
+  },
+  {
+    "w": "gespannt",
+    "e": "curious",
+    "c": "Other",
+    "cmp": "gespannter",
+    "sup": "am gespanntesten",
+    "ex": "Ich bin gespannt.",
+    "lvl": "A1"
+  },
+  {
+    "w": "schmal",
+    "e": "narrow",
+    "c": "Physical Properties",
+    "cmp": "schmaler",
+    "sup": "am schmalsten",
+    "opp": "breit",
+    "ex": "Der Flur ist nicht schmal.",
+    "lvl": "A1"
+  },
+  {
+    "w": "maximal",
+    "e": "maximum",
+    "c": "Other",
+    "cmp": "maximaler",
+    "sup": "am maximalsten",
+    "ex": "Wir möchten maximal 700 Euro bezahlen.",
+    "lvl": "A1"
+  },
+  {
+    "w": "total",
+    "e": "absolutely",
+    "c": "Other",
+    "cmp": "totaler",
+    "sup": "am totalsten",
+    "ex": "Das Hotel ist total schön.",
+    "lvl": "A1"
+  },
+  {
+    "w": "chaotisch",
+    "e": "chaotic",
+    "c": "Other",
+    "cmp": "chaotischer",
+    "sup": "am chaotischesten",
+    "ex": "Der Umzug war total chaotisch!",
+    "lvl": "A1"
+  },
+  {
+    "w": "perfekt",
+    "e": "perfect",
+    "c": "Quality & Value",
+    "cmp": "perfekter",
+    "sup": "am perfektesten",
+    "ex": "Perfekt! Ich freue mich schon auf euch.",
+    "lvl": "A1"
+  },
+  {
+    "w": "schrecklich",
+    "e": "terrible, dreadful",
+    "c": "Quality & Value",
+    "cmp": "schrecklicher",
+    "sup": "am schrecklichsten",
+    "ex": "Das Wetter war schrecklich.",
+    "lvl": "A1"
+  },
+  {
+    "w": "ab",
+    "e": "from, as of",
+    "c": "Other",
+    "cmp": "aber",
+    "sup": "am absten",
+    "ex": "Ich bin ab heute Abend in Berlin.",
+    "lvl": "A1"
+  },
+  {
+    "w": "sozial",
+    "e": "social",
+    "c": "Other",
+    "cmp": "sozialer",
+    "sup": "am sozialsten",
+    "ex": "Sehr wichtig sind auch soziale Netzwerke.",
+    "lvl": "A1"
+  },
+  {
+    "w": "beendet",
+    "e": "finished",
+    "c": "Other",
+    "cmp": "beendeter",
+    "sup": "am beendetesten",
+    "ex": "Der Anruf mit Bettina ist beendet.",
+    "lvl": "A1"
+  },
+  {
+    "w": "frisch",
+    "e": "fresh",
+    "c": "Other",
+    "cmp": "frischer",
+    "sup": "am frischesten",
+    "opp": "alt / verdorben",
+    "ex": "Alles ist frisch, hier kommt nichts aus",
+    "lvl": "A1"
+  },
+  {
+    "w": "folgend(e)",
+    "e": "the following",
+    "c": "Other",
+    "cmp": "folgend(e)er",
+    "sup": "am folgend(e)sten",
+    "ex": "Folgende Fragen helfen Ihnen.",
+    "lvl": "A1"
+  },
+  {
+    "w": "soweit",
+    "e": "now the time has come",
+    "c": "Time & Frequency",
+    "cmp": "soweiter",
+    "sup": "am soweitesten",
+    "ex": "Nun ist es soweit.",
+    "lvl": "A1"
+  },
+  {
+    "w": "international",
+    "e": "international",
+    "c": "Other",
+    "cmp": "internationaler",
+    "sup": "am internationalsten",
+    "ex": "Internationales Essen – sehr interessant!",
+    "lvl": "A1"
+  },
+  {
+    "w": "positiv",
+    "e": "positive",
+    "c": "Other",
+    "cmp": "positiver",
+    "sup": "am positivsten",
+    "ex": "Das war alles positiv.",
+    "lvl": "A1"
+  },
+  {
+    "w": "negativ",
+    "e": "negative",
+    "c": "Other",
+    "cmp": "negativer",
+    "sup": "am negativsten",
+    "ex": "Das war alles negativ.",
+    "lvl": "A1"
+  },
+  {
+    "w": "begeistert",
+    "e": "enthusiastic, delighted",
+    "c": "Other",
+    "cmp": "begeisterter",
+    "sup": "am begeistertesten",
+    "ex": "Alle waren begeistert!",
+    "lvl": "A1"
+  },
+  {
+    "w": "inklusive",
+    "e": "including",
+    "c": "Other",
+    "cmp": "inklusiver",
+    "sup": "am inklusivesten",
+    "ex": "Das Schlossticket gibt es inklusive Audioguide.",
+    "lvl": "A1"
+  },
+  {
+    "w": "japanisch",
+    "e": "Japanese",
+    "c": "Other",
+    "cmp": "japanischer",
+    "sup": "am japanischesten",
+    "ex": "",
+    "lvl": "A1"
+  },
+  {
+    "w": "normalerweise",
+    "e": "normally",
+    "c": "Other",
+    "cmp": "normalerweiser",
+    "sup": "am normalerweisesten",
+    "ex": "Normalerweise brauche ich circa 20 Minuten",
+    "lvl": "A1"
+  },
+  {
+    "w": "offiziell",
+    "e": "official",
+    "c": "Other",
+    "cmp": "offizieller",
+    "sup": "am offiziellsten",
+    "ex": "Pünktlichkeit ist bei offiziellen Terminen",
+    "lvl": "A1"
+  },
+  {
+    "w": "unpünktlich",
+    "e": "unpunctual",
+    "c": "Other",
+    "cmp": "unpünktlicher",
+    "sup": "am unpünktlichsten",
+    "ex": "Er ist leider oft unpünktlich.",
+    "lvl": "A1"
+  },
+  {
+    "w": "stark",
+    "e": "with emphasis",
+    "c": "Other",
+    "cmp": "stärker",
+    "sup": "am stärksten",
+    "opp": "schwach",
+    "ex": "Was spricht man stark aus?",
+    "lvl": "A1"
+  },
+  {
+    "w": "schwach",
+    "e": "without emphasis",
+    "c": "Other",
+    "cmp": "schwächer",
+    "sup": "am schwächsten",
+    "opp": "stark",
+    "ex": "Was spricht man schwach aus?",
+    "lvl": "A1"
+  },
+  {
+    "w": "fix",
+    "e": "smart, fast",
+    "c": "Physical Properties",
+    "cmp": "fixer",
+    "sup": "am fixesten",
+    "ex": "Sie sind wirklich fix!",
+    "lvl": "A1"
+  },
+  {
+    "w": "sauer",
+    "e": "here: annoyed",
+    "c": "Other",
+    "cmp": "saurer",
+    "sup": "am sauersten",
+    "ex": "Sonst wird sie richtig sauer auf mich!",
+    "lvl": "A1"
+  },
+  {
+    "w": "hinter",
+    "e": "behind",
+    "c": "Other",
+    "cmp": "hintrer",
+    "sup": "am hintersten",
+    "ex": "Die Pflanze ist hinter dem Drucker.",
+    "lvl": "A1"
+  },
+  {
+    "w": "privat",
+    "e": "private",
+    "c": "Other",
+    "cmp": "privater",
+    "sup": "am privatesten",
+    "ex": "Sie dürfen privat telefonieren, aber bitte in",
+    "lvl": "A1"
+  },
+  {
+    "w": "geschafft",
+    "e": "done, sorted",
+    "c": "Other",
+    "cmp": "geschaffter",
+    "sup": "am geschafftesten",
+    "ex": "Geschafft. Gute Arbeit, Kim.",
+    "lvl": "A1"
+  },
+  {
+    "w": "entspannt",
+    "e": "relaxed",
+    "c": "Other",
+    "cmp": "entspannter",
+    "sup": "am entspanntesten",
+    "ex": "Meine Großmutter ist immer sehr entspannt.",
+    "lvl": "A1"
+  },
+  {
+    "w": "weit",
+    "e": "far",
+    "c": "Distance & Position",
+    "cmp": "weiter",
+    "sup": "am weitesten",
+    "opp": "nah",
+    "ex": "Der Weg zur Arbeit ist weit.",
+    "lvl": "A1"
+  },
+  {
+    "w": "ebenso",
+    "e": "as well",
+    "c": "Other",
+    "cmp": "ebensoer",
+    "sup": "am ebensosten",
+    "ex": "Lukas und Lisa kommen ebenso.",
+    "lvl": "A1"
+  },
+  {
+    "w": "männlich",
+    "e": "male",
+    "c": "Other",
+    "cmp": "männlicher",
+    "sup": "am männlichsten",
+    "ex": "Sein Geschlecht ist männlich.",
+    "lvl": "A1"
+  },
+  {
+    "w": "weiblich",
+    "e": "female",
+    "c": "Other",
+    "cmp": "weiblicher",
+    "sup": "am weiblichsten",
+    "ex": "Ihr Geschlecht ist weiblich.",
+    "lvl": "A1"
+  },
+  {
+    "w": "dringend",
+    "e": "urgently",
+    "c": "Other",
+    "cmp": "dringender",
+    "sup": "am dringendesten",
+    "ex": "Roberto braucht dringend Urlaub.",
+    "lvl": "A1"
+  },
+  {
+    "w": "besonder",
+    "e": "special",
+    "c": "Other",
+    "ex": "Ein besonderes Fest kann das Ehepaar feiern.",
+    "lvl": "A1"
+  },
+  {
+    "w": "aktiv",
+    "e": "active",
+    "c": "Other",
+    "cmp": "aktiver",
+    "sup": "am aktivsten",
+    "ex": "Beide sind noch immer sehr aktiv.",
+    "lvl": "A1"
+  },
+  {
+    "w": "selbst",
+    "e": "themselves",
+    "c": "Other",
+    "cmp": "selbster",
+    "sup": "am selbstesten",
+    "ex": "Im Garten machen sie noch alles selbst.",
+    "lvl": "A1"
+  },
+  {
+    "w": "tja",
+    "e": "well",
+    "c": "Other",
+    "cmp": "tjaer",
+    "sup": "am tjasten",
+    "ex": "Tja, das war vor 60 Jahren.",
+    "lvl": "A1"
+  },
+  {
+    "w": "kommunikativ",
+    "e": "communicative",
+    "c": "Other",
+    "cmp": "kommunikativer",
+    "sup": "am kommunikativsten",
+    "ex": "Sie sind: kommunikativ und freundlich.",
+    "lvl": "A1"
+  },
+  {
+    "w": "gesendet",
+    "e": "sent",
+    "c": "Other",
+    "cmp": "gesendeter",
+    "sup": "am gesendetesten",
+    "ex": "Gesendet: 20. Juni, 20:41.",
+    "lvl": "A1"
+  },
+  {
+    "w": "aufregend",
+    "e": "exciting",
+    "c": "Other",
+    "cmp": "aufregender",
+    "sup": "am aufregendesten",
+    "ex": "Das war total aufregend.",
+    "lvl": "A1"
+  },
+  {
+    "w": "cool",
+    "e": "cool",
+    "c": "Physical Properties",
+    "cmp": "cooler",
+    "sup": "am coolsten",
+    "ex": "Nach dem zweiten Interview war ich",
+    "lvl": "A1"
+  },
+  {
+    "w": "fantastisch",
+    "e": "fantastic",
+    "c": "Other",
+    "cmp": "fantastischer",
+    "sup": "am fantastischesten",
+    "ex": "China ist fantastisch!",
+    "lvl": "A1"
+  },
+  {
+    "w": "wohl",
+    "e": "probably",
+    "c": "Other",
+    "cmp": "wohler",
+    "sup": "am wohlsten",
+    "ex": "Da muss ich wohl mehr Geld verdienen.",
+    "lvl": "A1"
+  },
+  {
+    "w": "siebt",
+    "e": "seventh",
+    "c": "Other",
+    "ex": "Sie hat am siebten Juni Geburtstag.",
+    "lvl": "A1"
+  },
+  {
+    "w": "dreizehnt",
+    "e": "thirteenth",
+    "c": "Other",
+    "ex": "Er hat am dreizehnten Mai Geburtstag.",
+    "lvl": "A1"
+  },
+  {
+    "w": "siebenundzwanzigst",
+    "e": "twenty-seventh",
+    "c": "Other",
+    "ex": "Er hat am siebenundzwanzigsten Jänner",
+    "lvl": "A1"
+  },
+  {
+    "w": "fehlend",
+    "e": "missing",
+    "c": "Other",
+    "cmp": "fehlender",
+    "sup": "am fehlendesten",
+    "ex": "Ergänzen Sie die Anmeldung mit den",
+    "lvl": "A1"
+  },
+  {
+    "w": "jährlich",
+    "e": "every year, annually",
+    "c": "Other",
+    "cmp": "jährlicher",
+    "sup": "am jährlichsten",
+    "ex": "Jährlich haben 50% der Wintersportler",
+    "lvl": "A1"
+  },
+  {
+    "w": "schlimm",
+    "e": "bad",
+    "c": "Quality & Value",
+    "cmp": "schlimmer",
+    "sup": "am schlimmsten",
+    "ex": "Es ist nicht so schlimm.",
+    "lvl": "A1"
+  },
+  {
+    "w": "plötzlich",
+    "e": "suddenly",
+    "c": "Other",
+    "cmp": "plötzlicher",
+    "sup": "am plötzlichsten",
+    "ex": "Plötzlich hatte ich sehr starke",
+    "lvl": "A1"
+  },
+  {
+    "w": "vormittags",
+    "e": "in the morning, every morning",
+    "c": "Other",
+    "cmp": "vormittagser",
+    "sup": "am vormittagsesten",
+    "ex": "Wir sind vormittags gemeinsam Ski gefahren.",
+    "lvl": "A1"
+  },
+  {
+    "w": "manch",
+    "e": "some",
+    "c": "Size & Quantity",
+    "ex": "Nebenwirkungen: Manche Personen",
+    "lvl": "A1"
+  },
+  {
+    "w": "fit",
+    "e": "fit",
+    "c": "Other",
+    "cmp": "fiter",
+    "sup": "am fitesten",
+    "ex": "Ich bin immer noch nicht ganz fit.",
+    "lvl": "A1"
+  },
+  {
+    "w": "spontan",
+    "e": "spontaneously, on the spur of",
+    "c": "Other",
+    "cmp": "spontaner",
+    "sup": "am spontansten",
+    "ex": "Hast du jetzt vielleicht spontan Zeit?",
+    "lvl": "A1"
+  },
+  {
+    "w": "einmal",
+    "e": "once",
+    "c": "Other",
+    "cmp": "einmaler",
+    "sup": "am einmalsten",
+    "ex": "Einmal in der Woche macht Ute Gymnastik.",
+    "lvl": "A1"
+  },
+  {
+    "w": "zweimal",
+    "e": "twice",
+    "c": "Other",
+    "cmp": "zweimaler",
+    "sup": "am zweimalsten",
+    "ex": "Zweimal in der Woche gehe ich ins",
+    "lvl": "A1"
+  },
+  {
+    "w": "aktuell",
+    "e": "current, up-to-date",
+    "c": "Other",
+    "cmp": "aktueller",
+    "sup": "am aktuellsten",
+    "ex": "Wo finde ich aktuelle Informationen?",
+    "lvl": "A1"
+  },
+  {
+    "w": "monatlich",
+    "e": "monthly",
+    "c": "Other",
+    "cmp": "monatlicher",
+    "sup": "am monatlichsten",
+    "ex": "Den Kurs gibt es schon ab 34 € monatlich.",
+    "lvl": "A1"
+  },
+  {
+    "w": "sportlich",
+    "e": "here: to participate in sports",
+    "c": "Other",
+    "cmp": "sportlicher",
+    "sup": "am sportlichsten",
+    "ex": "61 % der Männer sind sportlich aktiv.",
+    "lvl": "A1"
+  },
+  {
+    "w": "regelmäßig",
+    "e": "regularly",
+    "c": "Other",
+    "cmp": "regelmäßiger",
+    "sup": "am regelmäßigsten",
+    "ex": "66 % machen regelmäßig Sport.",
+    "lvl": "A1"
+  },
+  {
+    "w": "außerdem",
+    "e": "furthermore, also",
+    "c": "Other",
+    "cmp": "außerdemer",
+    "sup": "am außerdemsten",
+    "ex": "Außerdem essen Menschen in Deutschland",
+    "lvl": "A1"
+  },
+  {
+    "w": "dabei",
+    "e": "here: at the same time",
+    "c": "Other",
+    "cmp": "dabeier",
+    "sup": "am dabeisten",
+    "ex": "Ich möchte Urlaub machen und mich dabei",
+    "lvl": "A1"
+  },
+  {
+    "w": "viert",
+    "e": "fourth",
+    "c": "Other",
+    "ex": "Im vierten Stock kann man einen Kaffee",
+    "lvl": "A1"
+  },
+  {
+    "w": "vorn(e)",
+    "e": "at the front",
+    "c": "Distance & Position",
+    "cmp": "vorn(e)er",
+    "sup": "am vorn(e)sten",
+    "ex": "Die Kasse ist gleich dort vorne.",
+    "lvl": "A1"
+  },
+  {
+    "w": "samstags",
+    "e": "on Saturday",
+    "c": "Other",
+    "cmp": "samstagser",
+    "sup": "am samstagsesten",
+    "ex": "Wir haben samstags länger geöffnet.",
+    "lvl": "A1"
+  },
+  {
+    "w": "elegant",
+    "e": "elegant",
+    "c": "Other",
+    "cmp": "eleganter",
+    "sup": "am elegantesten",
+    "ex": "Ich finde sie elegant.",
+    "lvl": "A1"
+  },
+  {
+    "w": "schick",
+    "e": "smart",
+    "c": "Describing People",
+    "cmp": "schicker",
+    "sup": "am schicksten",
+    "ex": "Diese Schuhe sind sehr schick!",
+    "lvl": "A1"
+  },
+  {
+    "w": "eng",
+    "e": "tight",
+    "c": "Other",
+    "cmp": "enger",
+    "sup": "am engsten",
+    "opp": "breit / weit",
+    "ex": "Die Schuhe sind mir zu eng.",
+    "lvl": "A1"
+  },
+  {
+    "w": "lässig",
+    "e": "casual",
+    "c": "Other",
+    "cmp": "lässiger",
+    "sup": "am lässigsten",
+    "ex": "Meine Klamotten müssen lässig sein.",
+    "lvl": "A1"
+  },
+  {
+    "w": "feminin",
+    "e": "feminine",
+    "c": "Other",
+    "cmp": "femininer",
+    "sup": "am femininsten",
+    "ex": "Hier seht ihr mein Lieblingsoutfit, feminin",
+    "lvl": "A1"
+  },
+  {
+    "w": "klassisch",
+    "e": "classic",
+    "c": "Other",
+    "cmp": "klassischer",
+    "sup": "am klassischesten",
+    "ex": "Hier seht ihr mein Lieblingsoutfit, feminin",
+    "lvl": "A1"
+  },
+  {
+    "w": "bitteschön",
+    "e": "what would you like?",
+    "c": "Other",
+    "cmp": "bitteschöner",
+    "sup": "am bitteschönsten",
+    "ex": "Guten Morgen! Bitteschön?",
+    "lvl": "A1"
+  },
+  {
+    "w": "gleichfalls",
+    "e": "the same to you",
+    "c": "Other",
+    "cmp": "gleichfallser",
+    "sup": "am gleichfallsesten",
+    "ex": "Danke, gleichfalls.",
+    "lvl": "A1"
+  },
+  {
+    "w": "zentral",
+    "e": "centrally",
+    "c": "Distance & Position",
+    "cmp": "zentraler",
+    "sup": "am zentralsten",
+    "ex": "Zentral am Heumarkt gibt es frische",
+    "lvl": "A1"
+  },
+  {
+    "w": "extra",
+    "e": "extra, particularly",
+    "c": "Other",
+    "ex": "Diese Äpfel sind extra süß.",
+    "lvl": "A1"
+  },
+  {
+    "w": "berühmt",
+    "e": "famous",
+    "c": "Describing People",
+    "cmp": "berühmter",
+    "sup": "am berühmtesten",
+    "ex": "Das Schloss Nymphenburg ist sehr berühmt.",
+    "lvl": "A1"
+  },
+  {
+    "w": "sowie",
+    "e": "as well as",
+    "c": "Other",
+    "cmp": "sowier",
+    "sup": "am sowiesten",
+    "ex": "Sie können umsteigen, sowie die Züge des",
+    "lvl": "A1"
+  },
+  {
+    "w": "automatisch",
+    "e": "automatically",
+    "c": "Other",
+    "cmp": "automatischer",
+    "sup": "am automatischesten",
+    "ex": "Die Türen schließen automatisch.",
+    "lvl": "A1"
+  },
+  {
+    "w": "dadurch",
+    "e": "as a result",
+    "c": "Other",
+    "cmp": "dadurcher",
+    "sup": "am dadurchsten",
+    "ex": "Dadurch gibt es Verspätungen der Linien 3",
+    "lvl": "A1"
+  },
+  {
+    "w": "dorthin",
+    "e": "(to) there",
+    "c": "Other",
+    "cmp": "dorthiner",
+    "sup": "am dorthinsten",
+    "ex": "Wie kommt man dorthin?",
+    "lvl": "A1"
+  },
+  {
+    "w": "windig",
+    "e": "windy",
+    "c": "Other",
+    "cmp": "windiger",
+    "sup": "am windigsten",
+    "ex": "Es ist zu windig heute auf Sylt.",
+    "lvl": "A1"
+  },
+  {
+    "w": "bewölkt",
+    "e": "cloudy",
+    "c": "Other",
+    "cmp": "bewölkter",
+    "sup": "am bewölktesten",
+    "ex": "Im Westen ist es den ganzen Tag bewölkt.",
+    "lvl": "A1"
+  },
+  {
+    "w": "plus",
+    "e": "plus",
+    "c": "Other",
+    "cmp": "pluser",
+    "sup": "am plusesten",
+    "ex": "Es sind plus 8 Grad.",
+    "lvl": "A1"
+  },
+  {
+    "w": "minus",
+    "e": "minus",
+    "c": "Other",
+    "cmp": "minuser",
+    "sup": "am minusesten",
+    "ex": "In der Nacht sind es minus 8 Grad.",
+    "lvl": "A1"
+  },
+  {
+    "w": "traumhaft",
+    "e": "heavenly",
+    "c": "Other",
+    "cmp": "traumhafter",
+    "sup": "am traumhaftesten",
+    "ex": "Der Schwarzwald und die Berge sind",
+    "lvl": "A1"
+  },
+  {
+    "w": "selbstständig",
+    "e": "independently",
+    "c": "Other",
+    "cmp": "selbstständiger",
+    "sup": "am selbstständigsten",
+    "ex": "Wie kann ich online als Übersetzer",
+    "lvl": "A1"
+  },
+  {
+    "w": "momentan",
+    "e": "at the moment",
+    "c": "Other",
+    "cmp": "momentaner",
+    "sup": "am momentansten",
+    "ex": "Wir suchen momentan Übersetzer für",
+    "lvl": "A1"
+  },
+  {
+    "w": "zeitlich",
+    "e": "in terms of time",
+    "c": "Other",
+    "cmp": "zeitlicher",
+    "sup": "am zeitlichsten",
+    "ex": "Ich bin zeitlich flexibel.",
+    "lvl": "A1"
+  },
+  {
+    "w": "flexibel",
+    "e": "flexible",
+    "c": "Other",
+    "cmp": "flexibler",
+    "sup": "am flexibelsten",
+    "ex": "Ich bin zeitlich flexibel.",
+    "lvl": "A1"
+  },
+  {
+    "w": "gesamt",
+    "e": "whole",
+    "c": "Size & Quantity",
+    "cmp": "gesamter",
+    "sup": "am gesamtesten",
+    "ex": "Im gesamten Büro ist das Rauchen verboten.",
+    "lvl": "A1"
+  },
+  {
+    "w": "meistens",
+    "e": "mostly, usually",
+    "c": "Time & Frequency",
+    "cmp": "meistenser",
+    "sup": "am meistensesten",
+    "ex": "Meistens sind die öffentlichen Verkehrsmittel",
+    "lvl": "A1"
+  },
+  {
+    "w": "geradeaus",
+    "e": "straight on",
+    "c": "Other",
+    "cmp": "geradeauser",
+    "sup": "am geradeausesten",
+    "ex": "Du gehst die Lessingstraße geradeaus und",
+    "lvl": "A1"
+  },
+  {
+    "w": "erlaubt",
+    "e": "permitted, allowed",
+    "c": "Size & Quantity",
+    "cmp": "erlaubter",
+    "sup": "am erlaubtesten",
+    "ex": "Ja natürlich, hier ist Parken erlaubt.",
+    "lvl": "A1"
+  },
+  {
+    "w": "all",
+    "e": "all",
+    "c": "Size & Quantity",
+    "ex": "Ich wünsche dir alles Gute!",
+    "lvl": "A2"
+  },
+  {
+    "w": "arbeitslos",
+    "e": "unemployed",
+    "c": "Other",
+    "cmp": "arbeitsloser",
+    "sup": "am arbeitslosesten",
+    "ex": "Seit wann ist er schon arbeitslos?",
+    "lvl": "A2"
+  },
+  {
+    "w": "außer",
+    "e": "except",
+    "c": "Other",
+    "cmp": "außrer",
+    "sup": "am außersten",
+    "ex": "Außer Lisa möchte niemand den Film sehen.",
+    "lvl": "A2"
+  },
+  {
+    "w": "außerhalb",
+    "e": "outside of",
+    "c": "Other",
+    "cmp": "außerhalber",
+    "sup": "am außerhalbsten",
+    "ex": "Die Wohnung ist nicht in der Stadt, sie liegt etwas außerhalb.",
+    "lvl": "A2"
+  },
+  {
+    "w": "beide",
+    "e": "both",
+    "c": "Other",
+    "cmp": "beider",
+    "sup": "am beidesten",
+    "ex": "Wir kommen beide.",
+    "lvl": "A2"
+  },
+  {
+    "w": "bisschen",
+    "e": "a little",
+    "c": "Size & Quantity",
+    "cmp": "bisschener",
+    "sup": "am bisschensten",
+    "ex": "Können Sie bitte ein bisschen lauter sprechen?",
+    "lvl": "A2"
+  },
+  {
+    "w": "bitter",
+    "e": "bitter",
+    "c": "Other",
+    "cmp": "bittrer",
+    "sup": "am bittersten",
+    "ex": "Kaffee ohne Zucker schmeckt bitter.",
+    "lvl": "A2"
+  },
+  {
+    "w": "blöd",
+    "e": "silly / stupid",
+    "c": "Describing People",
+    "cmp": "blöder",
+    "sup": "am blödesten",
+    "ex": "Ich finde es blöd, dass du morgen gehen musst.",
+    "lvl": "A2"
+  },
+  {
+    "w": "blond",
+    "e": "blond",
+    "c": "Other",
+    "cmp": "blonder",
+    "sup": "am blondesten",
+    "ex": "Lisa hat blonde Haare.",
+    "lvl": "A2"
+  },
+  {
+    "w": "bunt",
+    "e": "colourful",
+    "c": "Other",
+    "cmp": "bunter",
+    "sup": "am buntesten",
+    "ex": "Anna trägt gern bunte Kleider.",
+    "lvl": "A2"
+  },
+  {
+    "w": "damals",
+    "e": "back then",
+    "c": "Distance & Position",
+    "cmp": "damalser",
+    "sup": "am damalsesten",
+    "ex": "Als Student hatte ich viel Zeit und wollte reisen.",
+    "lvl": "A2"
+  },
+  {
+    "w": "daneben",
+    "e": "next to it",
+    "c": "Other",
+    "cmp": "danebener",
+    "sup": "am danebensten",
+    "ex": "Du weißt doch, wo die Post ist.",
+    "lvl": "A2"
+  },
+  {
+    "w": "dick",
+    "e": "fat / thick",
+    "c": "Physical Properties",
+    "cmp": "dicker",
+    "sup": "am dicksten",
+    "opp": "dünn",
+    "ex": "",
+    "lvl": "A2"
+  },
+  {
+    "w": "drüben",
+    "e": "over there",
+    "c": "Other",
+    "cmp": "drübener",
+    "sup": "am drübensten",
+    "ex": "Da drüben ist die Haltestelle.",
+    "lvl": "A2"
+  },
+  {
+    "w": "dünn",
+    "e": "thin",
+    "c": "Physical Properties",
+    "cmp": "dünner",
+    "sup": "am dünnsten",
+    "opp": "dick",
+    "ex": "Das Buch ist sehr dünn.",
+    "lvl": "A2"
+  },
+  {
+    "w": "eilig",
+    "e": "urgent / in a hurry",
+    "c": "Other",
+    "cmp": "eiliger",
+    "sup": "am eiligsten",
+    "ex": "Hast du es eilig?",
+    "lvl": "A2"
+  },
+  {
+    "w": "einig",
+    "e": "agreed / united",
+    "c": "Other",
+    "cmp": "einiger",
+    "sup": "am einigsten",
+    "ex": "In diesem Text sind einige Fehler.",
+    "lvl": "A2"
+  },
+  {
+    "w": "einzel",
+    "e": "single / individual",
+    "c": "Size & Quantity",
+    "cmp": "einzler",
+    "sup": "am einzelsten",
+    "ex": "Nicht alle zusammen.",
+    "lvl": "A2"
+  },
+  {
+    "w": "fett",
+    "e": "fat / greasy",
+    "c": "Other",
+    "cmp": "fetter",
+    "sup": "am fettesten",
+    "ex": "Die Wurst ist mir zu fett.",
+    "lvl": "A2"
+  },
+  {
+    "w": "freiwillig",
+    "e": "voluntary",
+    "c": "Other",
+    "cmp": "freiwilliger",
+    "sup": "am freiwilligsten",
+    "ex": "Manchmal bleibe ich freiwillig länger im Büro.",
+    "lvl": "A2"
+  },
+  {
+    "w": "früher",
+    "e": "earlier / formerly",
+    "c": "Other",
+    "cmp": "frührer",
+    "sup": "am frühersten",
+    "ex": "Früher habe ich in Berlin gewohnt.",
+    "lvl": "A2"
+  },
+  {
+    "w": "furchtbar",
+    "e": "terrible",
+    "c": "Quality & Value",
+    "cmp": "furchtbarer",
+    "sup": "am furchtbarsten",
+    "ex": "Er hat furchtbare Schmerzen.",
+    "lvl": "A2"
+  },
+  {
+    "w": "geehrt",
+    "e": "honoured / dear",
+    "c": "Other",
+    "cmp": "geehrter",
+    "sup": "am geehrtesten",
+    "ex": "Sehr geehrte Damen und Herren,",
+    "lvl": "A2"
+  },
+  {
+    "w": "günstig",
+    "e": "cheap / favourable",
+    "c": "Quality & Value",
+    "cmp": "günstiger",
+    "sup": "am günstigsten",
+    "opp": "teuer",
+    "ex": "In diesem Laden gibt es immer günstige Angebote.",
+    "lvl": "A2"
+  },
+  {
+    "w": "hart",
+    "e": "hard",
+    "c": "Physical Properties",
+    "cmp": "härter",
+    "sup": "am härtesten",
+    "opp": "weich",
+    "ex": "Ich finde das Bett zu hart.",
+    "lvl": "A2"
+  },
+  {
+    "w": "intelligent",
+    "e": "intelligent",
+    "c": "Other",
+    "cmp": "intelligenter",
+    "sup": "am intelligentesten",
+    "ex": "Einstein war sehr intelligent.",
+    "lvl": "A2"
+  },
+  {
+    "w": "lange",
+    "e": "long / for a long time",
+    "c": "Physical Properties",
+    "cmp": "langer",
+    "sup": "am langesten",
+    "ex": "Wie lange fährt der Zug von Hamburg nach Berlin?",
+    "lvl": "A2"
+  },
+  {
+    "w": "meist",
+    "e": "most",
+    "c": "Other",
+    "ex": "Ich bin neu hier im Haus.",
+    "lvl": "A2"
+  },
+  {
+    "w": "nebenan",
+    "e": "next door",
+    "c": "Other",
+    "cmp": "nebenaner",
+    "sup": "am nebenansten",
+    "ex": "Das ist José.",
+    "lvl": "A2"
+  },
+  {
+    "w": "neblig",
+    "e": "foggy",
+    "c": "Other",
+    "cmp": "nebliger",
+    "sup": "am nebligsten",
+    "ex": "Fahr vorsichtig!",
+    "lvl": "A2"
+  },
+  {
+    "w": "nützlich",
+    "e": "useful",
+    "c": "Other",
+    "cmp": "nützlicher",
+    "sup": "am nützlichsten",
+    "ex": "Danke für den Tipp.",
+    "lvl": "A2"
+  },
+  {
+    "w": "preiswert",
+    "e": "good value / cheap",
+    "c": "Quality & Value",
+    "cmp": "preiswerter",
+    "sup": "am preiswertesten",
+    "ex": "Die Jacke ist sehr preiswert.",
+    "lvl": "A2"
+  },
+  {
+    "w": "reich",
+    "e": "rich",
+    "c": "Describing People",
+    "cmp": "reicher",
+    "sup": "am reichsten",
+    "opp": "arm",
+    "ex": "ist reich.",
+    "lvl": "A2"
+  },
+  {
+    "w": "romantisch",
+    "e": "romantic",
+    "c": "Other",
+    "cmp": "romantischer",
+    "sup": "am romantischesten",
+    "ex": "Dieser Film ist sehr romantisch.",
+    "lvl": "A2"
+  },
+  {
+    "w": "scharf",
+    "e": "spicy / sharp",
+    "c": "Other",
+    "cmp": "schärfer",
+    "sup": "am schärfsten",
+    "opp": "mild",
+    "ex": "Suppe ist mir zu scharf.",
+    "lvl": "A2"
+  },
+  {
+    "w": "schwanger",
+    "e": "pregnant",
+    "c": "Other",
+    "cmp": "schwangrer",
+    "sup": "am schwangersten",
+    "ex": "ist schwanger.",
+    "lvl": "A2"
+  },
+  {
+    "w": "sogar",
+    "e": "even",
+    "c": "Other",
+    "cmp": "sogarer",
+    "sup": "am sogarsten",
+    "ex": "Heute ist es sehr kalt.",
+    "lvl": "A2"
+  },
+  {
+    "w": "spannend",
+    "e": "exciting",
+    "c": "Other",
+    "cmp": "spannender",
+    "sup": "am spannendesten",
+    "opp": "langweilig",
+    "ex": "Ich finde den Film sehr spannend.",
+    "lvl": "A2"
+  },
+  {
+    "w": "stressig",
+    "e": "stressful",
+    "c": "Other",
+    "cmp": "stressiger",
+    "sup": "am stressigsten",
+    "ex": "Meine Arbeit ist stressig.",
+    "lvl": "A2"
+  },
+  {
+    "w": "süß",
+    "e": "sweet / cute",
+    "c": "Other",
+    "cmp": "süßer",
+    "sup": "am süßesten",
+    "ex": "Ich finde die Torte zu süß.",
+    "lvl": "A2"
+  },
+  {
+    "w": "sympathisch",
+    "e": "likeable",
+    "c": "Other",
+    "cmp": "sympathischer",
+    "sup": "am sympathischesten",
+    "ex": "Der neue Chef ist sehr sympathisch.",
+    "lvl": "A2"
+  },
+  {
+    "w": "tot",
+    "e": "dead",
+    "c": "Other",
+    "cmp": "toter",
+    "sup": "am totesten",
+    "ex": "Großeltern sind schon lange tot.",
+    "lvl": "A2"
+  },
+  {
+    "w": "übermorgen",
+    "e": "the day after tomorrow",
+    "c": "Other",
+    "cmp": "übermorgener",
+    "sup": "am übermorgensten",
+    "ex": "Morgen habe ich frei.",
+    "lvl": "A2"
+  },
+  {
+    "w": "vorbei",
+    "e": "over / past",
+    "c": "Other",
+    "cmp": "vorbeier",
+    "sup": "am vorbeisten",
+    "ex": "Die Linie 8 fährt am Krankenhaus vorbei.",
+    "lvl": "A2"
+  },
+  {
+    "w": "vorgestern",
+    "e": "the day before yesterday",
+    "c": "Other",
+    "cmp": "vorgesterner",
+    "sup": "am vorgesternsten",
+    "ex": "Er hat mich vorgestern angerufen.",
+    "lvl": "A2"
+  },
+  {
+    "w": "vorsichtig",
+    "e": "careful",
+    "c": "Describing People",
+    "cmp": "vorsichtiger",
+    "sup": "am vorsichtigsten",
+    "ex": "Sei vorsichtig!",
+    "lvl": "A2"
+  },
+  {
+    "w": "vorwärts",
+    "e": "forward",
+    "c": "Other",
+    "cmp": "vorwärtser",
+    "sup": "am vorwärtsesten",
+    "ex": "Fahren Sie bitte noch ein Stück vorwärts.",
+    "lvl": "A2"
+  },
+  {
+    "w": "wach",
+    "e": "awake",
+    "c": "Other",
+    "cmp": "wacher",
+    "sup": "am wachsten",
+    "opp": "müde",
+    "ex": "Bist du schon lange wach?",
+    "lvl": "A2"
+  },
+  {
+    "w": "wahr",
+    "e": "true",
+    "c": "Other",
+    "cmp": "wahrer",
+    "sup": "am wahrsten",
+    "ex": "Das ist (nicht) wahr!",
+    "lvl": "A2"
+  },
+  {
+    "w": "wahrscheinlich",
+    "e": "probable / probably",
+    "c": "Other",
+    "cmp": "wahrscheinlicher",
+    "sup": "am wahrscheinlichsten",
+    "ex": "Wahrscheinlich mache ich im Herbst einen Deutschkurs.",
+    "lvl": "A2"
+  },
+  {
+    "w": "weich",
+    "e": "soft",
+    "c": "Physical Properties",
+    "cmp": "weicher",
+    "sup": "am weichsten",
+    "opp": "hart",
+    "ex": "Ich möchte zum Frühstück ein weiches Ei.",
+    "lvl": "A2"
+  },
+  {
+    "w": "willkommen",
+    "e": "welcome",
+    "c": "Other",
+    "cmp": "willkommener",
+    "sup": "am willkommensten",
+    "ex": "willkommen in Berlin!",
+    "lvl": "A2"
+  },
+  {
+    "w": "einverstanden",
+    "e": "agreed / in agreement",
+    "c": "Feelings & States",
+    "cmp": "einverstandener",
+    "sup": "am einverstandensten",
+    "ex": "",
+    "lvl": "A2"
   }
 ]
