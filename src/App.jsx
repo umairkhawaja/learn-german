@@ -3,6 +3,7 @@ import { DB } from "./data/db";
 import { storage } from "./storage";
 import { speak } from "./speak";
 import { buildBackup, parseBackup, shareOrDownloadBackup, copyBackup } from "./backup";
+import * as drive from "./driveSync";
 
 /* ============================================================
    DEUTSCH MEISTER
@@ -659,7 +660,7 @@ function QuizView({ cat, progress, setProgress, levelFilter }) {
 }
 
 // ── Backup: export / import progress ──────────────────────────
-function ImportExportPanel({ progress, setProgress }) {
+function ImportExportPanel({ progress, setProgress, driveStatus, setDriveStatus }) {
   const [open, setOpen] = useState(false);
   const [text, setText] = useState("");
   const [msg, setMsg] = useState(null);
@@ -701,6 +702,50 @@ function ImportExportPanel({ progress, setProgress }) {
     e.target.value = "";
   };
 
+  // ── Google Drive sync ──
+  const driveConnect = async () => {
+    setDriveStatus((s) => ({ ...s, busy: true, error: null }));
+    try {
+      const ok = await drive.connect({ interactive: true });
+      if (!ok) { setDriveStatus((s) => ({ ...s, busy: false })); return; }
+      const remote = await drive.pullProgress({ interactive: false });
+      let merged = progress;
+      if (remote) {
+        merged = drive.mergeProgress(progress, remote);
+        setProgress(merged);
+        await saveProgress(merged);
+      }
+      await drive.pushProgress(merged, { interactive: false });
+      setDriveStatus({ connected: true, busy: false, lastSync: Date.now(), error: null });
+      setMsg({ ok: true, t: "Connected to Google Drive and synced." });
+    } catch (e) {
+      setDriveStatus((s) => ({ ...s, busy: false, error: e.message }));
+      setMsg({ ok: false, t: e.message });
+    }
+  };
+
+  const driveSyncNow = async () => {
+    setDriveStatus((s) => ({ ...s, busy: true, error: null }));
+    try {
+      const remote = await drive.pullProgress({ interactive: false });
+      const merged = remote ? drive.mergeProgress(progress, remote) : progress;
+      if (remote) { setProgress(merged); await saveProgress(merged); }
+      await drive.pushProgress(merged, { interactive: false });
+      setDriveStatus({ connected: true, busy: false, lastSync: Date.now(), error: null });
+      setMsg({ ok: true, t: "Synced with Google Drive." });
+    } catch (e) {
+      setDriveStatus((s) => ({ ...s, busy: false, connected: e.message.includes("reconnect") ? false : s.connected, error: e.message }));
+      setMsg({ ok: false, t: e.message });
+    }
+  };
+
+  const driveDisconnect = async () => {
+    await drive.disconnect();
+    setDriveStatus({ connected: false, busy: false, lastSync: null, error: null });
+    setMsg({ ok: true, t: "Disconnected from Google Drive." });
+  };
+
+
   return (
     <div style={{ background: "#141414", border: "1px solid #242424", borderRadius: 12, padding: 15, marginTop: 18 }}>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", cursor: "pointer" }} onClick={() => setOpen((v) => !v)}>
@@ -730,6 +775,34 @@ function ImportExportPanel({ progress, setProgress }) {
             style={{ width: "100%", minHeight: 70, background: "#0f0f0f", border: "1px solid #2a2a2a", borderRadius: 10, padding: 10, color: TXT, fontSize: 12, fontFamily: "ui-monospace, monospace", resize: "vertical" }} />
           {msg && <div style={{ marginTop: 8, fontSize: 12.5, color: msg.ok ? "#4ade80" : "#fca5a5" }}>{msg.ok ? "✓ " : "✗ "}{msg.t}</div>}
           <div style={{ marginTop: 8, fontSize: 11, color: "#3f4651", lineHeight: 1.5 }}>Restoring merges into your current progress; words missing from a backup stay at zero, so older backups still work after new words are added.</div>
+
+          {/* Google Drive sync */}
+          <div style={{ marginTop: 16, paddingTop: 14, borderTop: "1px solid #242424" }}>
+            <div style={{ fontSize: 12, color: FAINT, marginBottom: 8 }}>☁️ Google Drive sync:</div>
+            {!driveStatus.connected ? (
+              <button onClick={driveConnect} disabled={driveStatus.busy}
+                style={{ width: "100%", background: "#1a1a1a", border: "1px solid #2a2a2a", borderRadius: 10, padding: "10px", color: TXT, fontSize: 13, fontWeight: 600, cursor: driveStatus.busy ? "default" : "pointer", opacity: driveStatus.busy ? 0.6 : 1 }}>
+                {driveStatus.busy ? "Connecting…" : "Connect Google Drive"}
+              </button>
+            ) : (
+              <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+                <button onClick={driveSyncNow} disabled={driveStatus.busy}
+                  style={{ flex: 1, minWidth: 130, background: "#3b82f6", border: "none", borderRadius: 10, padding: "10px", color: "#fff", fontSize: 13, fontWeight: 700, cursor: driveStatus.busy ? "default" : "pointer", opacity: driveStatus.busy ? 0.6 : 1 }}>
+                  {driveStatus.busy ? "Syncing…" : "↻ Sync now"}
+                </button>
+                <button onClick={driveDisconnect}
+                  style={{ flex: 1, minWidth: 130, background: "#1a1a1a", border: "1px solid #2a2a2a", borderRadius: 10, padding: "10px", color: TXT, fontSize: 13, fontWeight: 600, cursor: "pointer" }}>
+                  Disconnect
+                </button>
+              </div>
+            )}
+            <div style={{ fontSize: 11, color: "#3f4651", marginTop: 8, lineHeight: 1.5 }}>
+              {driveStatus.connected
+                ? `Auto-syncs in the background. ${driveStatus.lastSync ? `Last synced ${new Date(driveStatus.lastSync).toLocaleString()}.` : ""}`
+                : "Stores progress in your Drive's hidden app folder (not visible in your normal Drive files) — syncs automatically across devices once connected."}
+            </div>
+            {driveStatus.error && <div style={{ marginTop: 6, fontSize: 12, color: "#fca5a5" }}>✗ {driveStatus.error}</div>}
+          </div>
         </div>
       )}
     </div>
@@ -737,7 +810,7 @@ function ImportExportPanel({ progress, setProgress }) {
 }
 
 // ── Stats view ────────────────────────────────────────────────
-function StatsView({ progress, setProgress, levelFilter }) {
+function StatsView({ progress, setProgress, levelFilter, driveStatus, setDriveStatus }) {
   const [confirm, setConfirm] = useState(false);
 
   let mastered = 0, seen = 0, totalWords = 0, totCorrect = 0, totAns = 0;
@@ -784,7 +857,7 @@ function StatsView({ progress, setProgress, levelFilter }) {
         })}
       </div>
 
-      <ImportExportPanel progress={progress} setProgress={setProgress} />
+      <ImportExportPanel progress={progress} setProgress={setProgress} driveStatus={driveStatus} setDriveStatus={setDriveStatus} />
 
       <div style={{ marginTop: 22, textAlign: "center" }}>
         {!confirm ? (
@@ -1047,6 +1120,47 @@ export default function DeutschMeister() {
   useEffect(() => { loadProgress().then(setProgress); }, []);
   useEffect(() => { try { window.speechSynthesis.getVoices(); } catch {} }, []);
 
+  // ── Drive auto-sync: silently pull+merge on load, push on hide/unload ──
+  const progressRef = useRef(progress);
+  progressRef.current = progress;
+  const [driveStatus, setDriveStatus] = useState({ connected: false, busy: false, lastSync: null, error: null });
+
+  useEffect(() => {
+    drive.isConnected().then((connected) => {
+      setDriveStatus((s) => ({ ...s, connected }));
+      if (!connected) return;
+      (async () => {
+        try {
+          setDriveStatus((s) => ({ ...s, busy: true }));
+          const remote = await drive.pullProgress({ interactive: false });
+          if (remote) {
+            const merged = drive.mergeProgress(progressRef.current, remote);
+            setProgress(merged);
+            await saveProgress(merged);
+          }
+          setDriveStatus((s) => ({ ...s, busy: false, lastSync: Date.now(), error: null }));
+        } catch (e) {
+          setDriveStatus((s) => ({ ...s, busy: false, error: e.message }));
+        }
+      })();
+    });
+  }, []);
+
+  useEffect(() => {
+    const pushIfConnected = () => {
+      if (!driveStatus.connected) return;
+      drive.pushProgress(progressRef.current, { interactive: false }).catch(() => {});
+    };
+    const onVisibility = () => { if (document.visibilityState === "hidden") pushIfConnected(); };
+    document.addEventListener("visibilitychange", onVisibility);
+    window.addEventListener("beforeunload", pushIfConnected);
+    return () => {
+      document.removeEventListener("visibilitychange", onVisibility);
+      window.removeEventListener("beforeunload", pushIfConnected);
+    };
+  }, [driveStatus.connected]);
+
+
   const cat = CATEGORIES[activeCat];
   const allLevels = useMemo(() => levelsPresent(DB[cat.key]), [cat]);
 
@@ -1108,7 +1222,7 @@ export default function DeutschMeister() {
 
       {/* Body — natural page scroll, no fixed heights */}
       <div style={{ maxWidth: 680, margin: "0 auto", padding: "18px 16px 80px", width: "100%" }}>
-        {view === "stats" && <StatsView progress={progress} setProgress={setProgress} levelFilter={levelFilter} />}
+        {view === "stats" && <StatsView progress={progress} setProgress={setProgress} levelFilter={levelFilter} driveStatus={driveStatus} setDriveStatus={setDriveStatus} />}
         {view === "grammatik" && <GrammatikView />}
         {view === "browse" && <BrowseView key={cat.id} cat={cat} progress={progress} levelFilter={levelFilter} />}
         {view === "quiz" && <QuizView key={cat.id} cat={cat} progress={progress} setProgress={setProgress} levelFilter={levelFilter} />}
