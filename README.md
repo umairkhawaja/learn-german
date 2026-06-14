@@ -32,8 +32,14 @@ Upload the contents of `dist/` to any of:
 3. Launch from the home-screen icon: full-screen, offline, with its own storage.
 
 ## How it works (architecture)
-- `src/App.jsx` — the whole app (quiz engine, browse, grammar reference, stats). UI is unchanged from the artifact.
-- `src/data/db.js` — the 909-word dataset. **Add words/levels here** (see the `german-vocab-expander` skill).
+The app is modular — composition lives in `src/App.jsx`, everything else is split out:
+- `src/config/` — the **extension cores**:
+  - `levels.js` — the CEFR level registry. **Add a level = one row here** + tag data with its code.
+  - `categories.jsx` — the word-type registry. **Add a category = one descriptor** + a `public/data/<key>.json`.
+  - `theme.js` — colour/font design tokens.
+- `src/engine/` — `progress.js` (persistence + spaced-repetition schedule), `quiz.js` (question building, session + due-review pickers), `useDriveSync.js`.
+- `src/components/` — `Header`, `BottomNav`, the five views (`Quiz`, `Review`, `Browse`, `Cheatsheet`, `Stats`), the reusable `QuizRunner`, shared `ui` primitives, and `detail` card-backs.
+- `public/data/*.json` — the dataset. **Add words here**; tag entries with `lvl:"A2"` etc. (no `lvl` → A1). No rebuild needed — fetched at runtime.
 - `src/storage.js` — progress persistence via **IndexedDB** (`idb-keyval`).
 - `src/speak.js` — German text-to-speech (Web Speech API).
 - `src/backup.js` — export/import progress; uses the iOS **Share sheet** ("Save to Files") with a download fallback.
