@@ -1027,10 +1027,10 @@ export default function DeutschMeister() {
   }, [driveStatus.connected]);
 
 
-  if (!db) return <div style={{ minHeight: "100vh", background: "#0a0a0a", color: "#4a4f59", fontFamily: FONT, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 14 }}>Loading…</div>;
-
   const cat = CATEGORIES[activeCat];
-  const allLevels = useMemo(() => levelsPresent(db[cat.key]), [cat, db]);
+  const allLevels = useMemo(() => db ? levelsPresent(db[cat.key]) : [], [cat, db]);
+
+  if (!db) return <div style={{ minHeight: "100vh", background: "#0a0a0a", color: "#4a4f59", fontFamily: FONT, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 14 }}>Loading…</div>;
 
   return (
     <div style={{ minHeight: "100vh", background: "#0a0a0a", color: TXT, fontFamily: FONT }}>
