@@ -961,5 +961,230 @@
     "sup": "am bösesten",
     "opp": "lieb",
     "ex": "Bist du böse auf mich?"
+  },
+  {
+    "w": "abhängig",
+    "e": "dependent",
+    "c": "States",
+    "cmp": "abhängiger",
+    "sup": "am abhängigsten",
+    "opp": "unabhängig",
+    "ex": "Ich bin von meinem Gehalt abhängig."
+  },
+  {
+    "w": "allgemein",
+    "e": "general / in general",
+    "c": "Quality & Value",
+    "cmp": "allgemeiner",
+    "sup": "am allgemeinststen",
+    "opp": "speziell",
+    "ex": "Im Allgemeinen ist das Wetter hier gut."
+  },
+  {
+    "w": "anstrengend",
+    "e": "exhausting / stressful",
+    "c": "Quality & Value",
+    "cmp": "anstrengender",
+    "sup": "am anstrengendsten",
+    "opp": "entspannend",
+    "ex": "Der Arbeitstag war sehr anstrengend."
+  },
+  {
+    "w": "bekannt",
+    "e": "known / famous",
+    "c": "Quality & Value",
+    "cmp": "bekannter",
+    "sup": "am bekanntesten",
+    "opp": "unbekannt",
+    "ex": "Er ist ein sehr bekannter Autor."
+  },
+  {
+    "w": "deutlich",
+    "e": "clear / distinct",
+    "c": "Quality & Value",
+    "cmp": "deutlicher",
+    "sup": "am deutlichsten",
+    "opp": "undeutlich",
+    "ex": "Bitte sprechen Sie langsam und deutlich."
+  },
+  {
+    "w": "eigen",
+    "e": "own / unique",
+    "c": "Other",
+    "cmp": "eigener",
+    "sup": "am eigensten",
+    "opp": "fremd",
+    "ex": "Ich habe ein eigenes Auto."
+  },
+  {
+    "w": "erfolgreich",
+    "e": "successful",
+    "c": "Quality & Value",
+    "cmp": "erfolgreicher",
+    "sup": "am erfolgreichsten",
+    "opp": "erfolglos",
+    "ex": "Das Projekt war sehr erfolgreich."
+  },
+  {
+    "w": "ernst",
+    "e": "serious",
+    "c": "Emotion & Feeling",
+    "cmp": "ernster",
+    "sup": "am ernstesten",
+    "opp": "lustig",
+    "ex": "Das ist ein ernstes Problem."
+  },
+  {
+    "w": "fremd",
+    "e": "foreign / strange",
+    "c": "Quality & Value",
+    "cmp": "fremder",
+    "sup": "am fremdesten",
+    "opp": "bekannt",
+    "ex": "Ich bin fremd hier."
+  },
+  {
+    "w": "gefährlich",
+    "e": "dangerous",
+    "c": "States",
+    "cmp": "gefährlicher",
+    "sup": "am gefährlichsten",
+    "opp": "sicher",
+    "ex": "Diese Straße ist nachts gefährlich."
+  },
+  {
+    "w": "geheim",
+    "e": "secret",
+    "c": "Quality & Value",
+    "cmp": "geheimer",
+    "sup": "am geheimsten",
+    "opp": "öffentlich",
+    "ex": "Das Passwort ist streng geheim."
+  },
+  {
+    "w": "genau",
+    "e": "exact / exactly",
+    "c": "Quality & Value",
+    "cmp": "genauer",
+    "sup": "am genauesten",
+    "opp": "ungenau",
+    "ex": "Das ist genau das, was ich suche!"
+  },
+  {
+    "w": "hoch",
+    "e": "high",
+    "c": "Size & Quantity",
+    "cmp": "höher",
+    "sup": "am höchsten",
+    "opp": "niedrig",
+    "ex": "Das Gebäude ist sehr hoch."
+  },
+  {
+    "w": "kaputt",
+    "e": "broken",
+    "c": "Physical Properties",
+    "cmp": "kaputter",
+    "sup": "am kaputtesten",
+    "opp": "ganz / heile",
+    "ex": "Mein Handy ist leider kaputt."
+  },
+  {
+    "w": "knapp",
+    "e": "scarce / barely / tight",
+    "c": "Size & Quantity",
+    "cmp": "knapper",
+    "sup": "am knappsten",
+    "opp": "reichlich",
+    "ex": "Die Zeit ist sehr knapp."
+  },
+  {
+    "w": "nass",
+    "e": "wet",
+    "c": "Physical Properties",
+    "cmp": "nässer",
+    "sup": "am nassesten",
+    "opp": "trocken",
+    "ex": "Meine Schuhe sind ganz nass."
+  },
+  {
+    "w": "notwendig",
+    "e": "necessary",
+    "c": "Quality & Value",
+    "cmp": "notwendiger",
+    "sup": "am notwendigsten",
+    "opp": "unnötig",
+    "ex": "Diese Maßnahme ist absolut notwendig."
+  },
+  {
+    "w": "öffentlich",
+    "e": "public",
+    "c": "Quality & Value",
+    "cmp": "öffentlicher",
+    "sup": "am öffentlichsten",
+    "opp": "privat",
+    "ex": "Wir nutzen öffentliche Verkehrsmittel."
+  },
+  {
+    "w": "riesig",
+    "e": "huge / gigantic",
+    "c": "Size & Quantity",
+    "cmp": "riesiger",
+    "sup": "am riesigsten",
+    "opp": "winzig",
+    "ex": "Der Elefant ist riesig."
+  },
+  {
+    "w": "streng",
+    "e": "strict",
+    "c": "Describing People",
+    "cmp": "strenger",
+    "sup": "am strengsten",
+    "opp": "locker",
+    "ex": "Der Lehrer war sehr streng."
+  },
+  {
+    "w": "tief",
+    "e": "deep",
+    "c": "Physical Properties",
+    "cmp": "tiefer",
+    "sup": "am tiefsten",
+    "opp": "flach",
+    "ex": "Der See ist sehr tief."
+  },
+  {
+    "w": "trocken",
+    "e": "dry",
+    "c": "Physical Properties",
+    "cmp": "trockener",
+    "sup": "am trockensten",
+    "opp": "nass",
+    "ex": "Die Wäsche ist schon trocken."
+  },
+  {
+    "w": "unbedingt",
+    "e": "absolutely / unconditional",
+    "c": "Other",
+    "cmp": "–",
+    "sup": "–",
+    "opp": "optional",
+    "ex": "Ich muss dir unbedingt etwas erzählen!"
+  },
+  {
+    "w": "verschieden",
+    "e": "different / various",
+    "c": "Other",
+    "cmp": "verschiedener",
+    "sup": "am verschiedensten",
+    "opp": "gleich",
+    "ex": "Wir haben verschiedene Meinungen."
+  },
+  {
+    "w": "wertvoll",
+    "e": "valuable",
+    "c": "Quality & Value",
+    "cmp": "wertvoller",
+    "sup": "am wertvollsten",
+    "opp": "wertlos",
+    "ex": "Dieser Ring ist sehr wertvoll."
   }
 ]

@@ -4552,5 +4552,275 @@
     "p": "(kein Plural)",
     "ex": "Heute ist das Wetter schön.",
     "n": "'Wie ist das Wetter?' = What's the weather like? 'der Wetterbericht' = weather forecast."
+  },
+  {
+    "w": "der Alltag",
+    "a": "der",
+    "e": "everyday life / daily routine",
+    "c": "Abstract Concepts",
+    "p": "die Alltage",
+    "ex": "Der Alltag kann manchmal stressig sein.",
+    "n": "A massive theme in A2 tests. 'Im Alltag' = in everyday life."
+  },
+  {
+    "w": "der Bereich",
+    "a": "der",
+    "e": "area / field / sector",
+    "c": "Work & Career",
+    "p": "die Bereiche",
+    "ex": "Sie arbeitet im IT-Bereich.",
+    "n": "Used for professional fields, study areas, or physical zones."
+  },
+  {
+    "w": "der Bürger",
+    "a": "der",
+    "e": "citizen",
+    "c": "Government & Society",
+    "p": "die Bürger",
+    "ex": "Die Bürger wählen den Bürgermeister.",
+    "n": "Female: die Bürgerin. Root word for 'Bürgeramt' (registration office)."
+  },
+  {
+    "w": "das Detail",
+    "a": "das",
+    "e": "detail",
+    "c": "Abstract Concepts",
+    "p": "die Details",
+    "ex": "Wir müssen die Details noch besprechen.",
+    "n": "Borrowed word, plural usually takes an 's'. 'Ins Detail gehen' = to go into detail."
+  },
+  {
+    "w": "der Eindruck",
+    "a": "der",
+    "e": "impression",
+    "c": "Emotions & Mind",
+    "p": "die Eindrücke",
+    "ex": "Er hat einen guten Eindruck gemacht.",
+    "n": "'Einen Eindruck hinterlassen' = to leave an impression. 'Der erste Eindruck' = first impression."
+  },
+  {
+    "w": "der Einfluss",
+    "a": "der",
+    "e": "influence / impact",
+    "c": "Abstract Concepts",
+    "p": "die Einflüsse",
+    "ex": "Das Wetter hat großen Einfluss auf meine Laune.",
+    "n": "'Einfluss haben auf' = to have an influence on."
+  },
+  {
+    "w": "das Ergebnis",
+    "a": "das",
+    "e": "result / outcome",
+    "c": "Abstract Concepts",
+    "p": "die Ergebnisse",
+    "ex": "Das Ergebnis des Tests ist positiv.",
+    "n": "Key testing and business vocabulary. 'Zu einem Ergebnis kommen' = to come to a conclusion."
+  },
+  {
+    "w": "das Erlebnis",
+    "a": "das",
+    "e": "experience (event)",
+    "c": "Emotions & Mind",
+    "p": "die Erlebnisse",
+    "ex": "Die Reise war ein tolles Erlebnis.",
+    "n": "Different from 'Erfahrung' (accumulated knowledge). Erlebnis is a specific, memorable event."
+  },
+  {
+    "w": "das Gegenteil",
+    "a": "das",
+    "e": "opposite",
+    "c": "Abstract Concepts",
+    "p": "die Gegenteile",
+    "ex": "Das ist genau das Gegenteil von dem, was ich will.",
+    "n": "'Im Gegenteil' = on the contrary."
+  },
+  {
+    "w": "die Gefahr",
+    "a": "die",
+    "e": "danger / risk",
+    "c": "Abstract Concepts",
+    "p": "die Gefahren",
+    "ex": "In den Bergen gibt es viele Gefahren.",
+    "n": "Adjective: gefährlich (dangerous). 'In Gefahr sein' = to be in danger."
+  },
+  {
+    "w": "die Gelegenheit",
+    "a": "die",
+    "e": "opportunity / occasion",
+    "c": "Abstract Concepts",
+    "p": "die Gelegenheiten",
+    "ex": "Das ist eine gute Gelegenheit, Deutsch zu üben.",
+    "n": "More specific than 'Möglichkeit' (possibility). It means a favorable time/chance to do something."
+  },
+  {
+    "w": "die Gewalt",
+    "a": "die",
+    "e": "violence / force",
+    "c": "Government & Society",
+    "p": "die Gewalten",
+    "ex": "Wir sind gegen Gewalt.",
+    "n": "'Gewalt anwenden' = to use force/violence."
+  },
+  {
+    "w": "die Heimat",
+    "a": "die",
+    "e": "home country / homeland",
+    "c": "Travel & Places",
+    "p": "(kein Plural)",
+    "ex": "Meine Heimat ist Spanien.",
+    "n": "A very culturally loaded German word denoting where one feels they truly belong."
+  },
+  {
+    "w": "die Hilfe",
+    "a": "die",
+    "e": "help / assistance",
+    "c": "People & Relationships",
+    "p": "die Hilfen",
+    "ex": "Vielen Dank für deine Hilfe.",
+    "n": "'Hilfe rufen' = to call for help. 'Erste Hilfe' = first aid."
+  },
+  {
+    "w": "der Inhalt",
+    "a": "der",
+    "e": "content",
+    "c": "Abstract Concepts",
+    "p": "die Inhalte",
+    "ex": "Der Inhalt des Buches ist spannend.",
+    "n": "'Inhaltsverzeichnis' = table of contents."
+  },
+  {
+    "w": "der Kompromiss",
+    "a": "der",
+    "e": "compromise",
+    "c": "Abstract Concepts",
+    "p": "die Kompromisse",
+    "ex": "Wir müssen einen Kompromiss finden.",
+    "n": "'Einen Kompromiss schließen' = to make a compromise."
+  },
+  {
+    "w": "die Leistung",
+    "a": "die",
+    "e": "performance / achievement",
+    "c": "Work & Career",
+    "p": "die Leistungen",
+    "ex": "Das war eine großartige Leistung.",
+    "n": "Used in school (academic performance), sports, and work (achievements)."
+  },
+  {
+    "w": "die Marke",
+    "a": "die",
+    "e": "brand / stamp",
+    "c": "Shopping & Money",
+    "p": "die Marken",
+    "ex": "Ich kaufe keine teuren Marken.",
+    "n": "Also: 'Briefmarke' (postage stamp)."
+  },
+  {
+    "w": "die Menge",
+    "a": "die",
+    "e": "amount / crowd",
+    "c": "Size & Quantity",
+    "p": "die Mengen",
+    "ex": "Eine große Menge Menschen war da.",
+    "n": "'Jede Menge' = a whole lot / loads of."
+  },
+  {
+    "w": "das Mitglied",
+    "a": "das",
+    "e": "member",
+    "c": "People & Relationships",
+    "p": "die Mitglieder",
+    "ex": "Er ist Mitglied in einem Verein.",
+    "n": "Compound of Mit- (with) + Glied (link/limb). Essential for German club (Verein) culture."
+  },
+  {
+    "w": "das Opfer",
+    "a": "das",
+    "e": "victim / sacrifice",
+    "c": "Government & Society",
+    "p": "die Opfer",
+    "ex": "Das Opfer wurde ins Krankenhaus gebracht.",
+    "n": "Used heavily in news reports regarding accidents or crimes."
+  },
+  {
+    "w": "das Pech",
+    "a": "das",
+    "e": "bad luck",
+    "c": "Abstract Concepts",
+    "p": "(kein Plural)",
+    "ex": "So ein Pech!",
+    "n": "Opposite of 'das Glück'. 'Pech haben' = to be unlucky."
+  },
+  {
+    "w": "das Publikum",
+    "a": "das",
+    "e": "audience / public",
+    "c": "Education & Culture",
+    "p": "(kein Plural)",
+    "ex": "Das Publikum klatschte laut.",
+    "n": "Collective noun for spectators at a concert, play, or presentation."
+  },
+  {
+    "w": "der Raum",
+    "a": "der",
+    "e": "room / space",
+    "c": "Home & Living",
+    "p": "die Räume",
+    "ex": "Der Raum ist sehr groß und hell.",
+    "n": "Often synonymous with 'Zimmer', but broader (can mean physical space or a large hall)."
+  },
+  {
+    "w": "das Recht",
+    "a": "das",
+    "e": "right / law",
+    "c": "Government & Society",
+    "p": "die Rechte",
+    "ex": "Jeder hat das Recht auf freie Meinung.",
+    "n": "'Recht haben' = to be right. 'Jura / Rechte studieren' = to study law."
+  },
+  {
+    "w": "die Rücksicht",
+    "a": "die",
+    "e": "consideration / regard",
+    "c": "Emotions & Mind",
+    "p": "die Rücksichten",
+    "ex": "Nimm bitte Rücksicht auf die Nachbarn.",
+    "n": "'Rücksicht nehmen auf' (+ Acc) = to be considerate of."
+  },
+  {
+    "w": "der Schutz",
+    "a": "der",
+    "e": "protection",
+    "c": "Abstract Concepts",
+    "p": "(kein Plural)",
+    "ex": "Sonnenschutz ist im Sommer wichtig.",
+    "n": "'Umweltschutz' = environmental protection; 'Datenschutz' = data protection."
+  },
+  {
+    "w": "die Tatsache",
+    "a": "die",
+    "e": "fact",
+    "c": "Abstract Concepts",
+    "p": "die Tatsachen",
+    "ex": "Das ist eine bekannte Tatsache.",
+    "n": "'Tatsächlich' (adverb) = actually / in fact."
+  },
+  {
+    "w": "die Ursache",
+    "a": "die",
+    "e": "cause / root",
+    "c": "Abstract Concepts",
+    "p": "die Ursachen",
+    "ex": "Die Ursache des Problems ist unklar.",
+    "n": "'Keine Ursache!' = Don't mention it! (Polite reply to 'Thank you')."
+  },
+  {
+    "w": "das Verhalten",
+    "a": "das",
+    "e": "behavior / conduct",
+    "c": "People & Relationships",
+    "p": "(kein Plural)",
+    "ex": "Sein Verhalten war sehr unhöflich.",
+    "n": "From the reflexive verb 'sich verhalten' (to behave)."
   }
 ]

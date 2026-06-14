@@ -3388,5 +3388,455 @@
       "ihr": "seid mitgekommen",
       "sie": "sind mitgekommen"
     }
+  },
+  {
+    "w": "anbieten",
+    "e": "to offer",
+    "t": "irr",
+    "p2": "angeboten",
+    "hs": "haben",
+    "pr": {
+      "ich": "biete an",
+      "du": "bietest an",
+      "er": "bietet an",
+      "wir": "bieten an",
+      "ihr": "bietet an",
+      "sie": "bieten an"
+    },
+    "pt": {
+      "ich": "bot an",
+      "du": "botst an",
+      "er": "bot an",
+      "wir": "boten an",
+      "ihr": "botet an"
+    },
+    "pk": {
+      "ich": "habe angeboten",
+      "du": "hast angeboten",
+      "er": "hat angeboten",
+      "wir": "haben angeboten",
+      "ihr": "habt angeboten",
+      "sie": "haben angeboten"
+    }
+  },
+  {
+    "w": "bewerben (sich)",
+    "e": "to apply (for a job)",
+    "t": "irr",
+    "p2": "beworben",
+    "hs": "haben",
+    "pr": {
+      "ich": "bewerbe",
+      "du": "bewirbst",
+      "er": "bewirbt",
+      "wir": "bewerben",
+      "ihr": "bewerbt",
+      "sie": "bewerben"
+    },
+    "pt": {
+      "ich": "bewarb",
+      "du": "bewarbst",
+      "er": "bewarb",
+      "wir": "bewarben",
+      "ihr": "bewarbt"
+    },
+    "pk": {
+      "ich": "habe beworben",
+      "du": "hast beworben",
+      "er": "hat beworben",
+      "wir": "haben beworben",
+      "ihr": "habt beworben",
+      "sie": "haben beworben"
+    }
+  },
+  {
+    "w": "bitten",
+    "e": "to ask / request",
+    "t": "irr",
+    "p2": "gebeten",
+    "hs": "haben",
+    "pr": {
+      "ich": "bitte",
+      "du": "bittest",
+      "er": "bittet",
+      "wir": "bitten",
+      "ihr": "bittet",
+      "sie": "bitten"
+    },
+    "pt": {
+      "ich": "bat",
+      "du": "batst",
+      "er": "bat",
+      "wir": "baten",
+      "ihr": "batet"
+    },
+    "pk": {
+      "ich": "habe gebeten",
+      "du": "hast gebeten",
+      "er": "hat gebeten",
+      "wir": "haben gebeten",
+      "ihr": "habt gebeten",
+      "sie": "haben gebeten"
+    }
+  },
+  {
+    "w": "empfehlen",
+    "e": "to recommend",
+    "t": "irr",
+    "p2": "empfohlen",
+    "hs": "haben",
+    "pr": {
+      "ich": "empfehle",
+      "du": "empfiehlst",
+      "er": "empfiehlt",
+      "wir": "empfehlen",
+      "ihr": "empfehlt",
+      "sie": "empfehlen"
+    },
+    "pt": {
+      "ich": "empfahl",
+      "du": "empfahlst",
+      "er": "empfahl",
+      "wir": "empfahlen",
+      "ihr": "empfahlt"
+    },
+    "pk": {
+      "ich": "habe empfohlen",
+      "du": "hast empfohlen",
+      "er": "hat empfohlen",
+      "wir": "haben empfohlen",
+      "ihr": "habt empfohlen",
+      "sie": "haben empfohlen"
+    }
+  },
+  {
+    "w": "entscheiden",
+    "e": "to decide",
+    "t": "irr",
+    "p2": "entschieden",
+    "hs": "haben",
+    "pr": {
+      "ich": "entscheide",
+      "du": "entscheidest",
+      "er": "entscheidet",
+      "wir": "entscheiden",
+      "ihr": "entscheidet",
+      "sie": "entscheiden"
+    },
+    "pt": {
+      "ich": "entschied",
+      "du": "entschiedst",
+      "er": "entschied",
+      "wir": "entschieden",
+      "ihr": "entschiedet"
+    },
+    "pk": {
+      "ich": "habe entschieden",
+      "du": "hast entschieden",
+      "er": "hat entschieden",
+      "wir": "haben entschieden",
+      "ihr": "habt entschieden",
+      "sie": "haben entschieden"
+    }
+  },
+  {
+    "w": "erkennen",
+    "e": "to recognize",
+    "t": "mix",
+    "p2": "erkannt",
+    "hs": "haben",
+    "pr": {
+      "ich": "erkenne",
+      "du": "erkennst",
+      "er": "erkennt",
+      "wir": "erkennen",
+      "ihr": "erkennt",
+      "sie": "erkennen"
+    },
+    "pt": {
+      "ich": "erkannte",
+      "du": "erkanntest",
+      "er": "erkannte",
+      "wir": "erkannten",
+      "ihr": "erkanntet"
+    },
+    "pk": {
+      "ich": "habe erkannt",
+      "du": "hast erkannt",
+      "er": "hat erkannt",
+      "wir": "haben erkannt",
+      "ihr": "habt erkannt",
+      "sie": "haben erkannt"
+    }
+  },
+  {
+    "w": "erwarten",
+    "e": "to expect",
+    "t": "reg",
+    "p2": "erwartet",
+    "hs": "haben",
+    "pr": {
+      "ich": "erwarte",
+      "du": "erwartest",
+      "er": "erwartet",
+      "wir": "erwarten",
+      "ihr": "erwartet",
+      "sie": "erwarten"
+    },
+    "pt": {
+      "ich": "erwartete",
+      "du": "erwartetest",
+      "er": "erwartete",
+      "wir": "erwarteten",
+      "ihr": "erwartetet"
+    },
+    "pk": {
+      "ich": "habe erwartet",
+      "du": "hast erwartet",
+      "er": "hat erwartet",
+      "wir": "haben erwartet",
+      "ihr": "habt erwartet",
+      "sie": "haben erwartet"
+    }
+  },
+  {
+    "w": "fehlen",
+    "e": "to be missing / to lack",
+    "t": "reg",
+    "p2": "gefehlt",
+    "hs": "haben",
+    "pr": {
+      "ich": "fehle",
+      "du": "fehlst",
+      "er": "fehlt",
+      "wir": "fehlen",
+      "ihr": "fehlt",
+      "sie": "fehlen"
+    },
+    "pt": {
+      "ich": "fehlte",
+      "du": "fehltest",
+      "er": "fehlte",
+      "wir": "fehlten",
+      "ihr": "fehltet"
+    },
+    "pk": {
+      "ich": "habe gefehlt",
+      "du": "hast gefehlt",
+      "er": "hat gefehlt",
+      "wir": "haben gefehlt",
+      "ihr": "habt gefehlt",
+      "sie": "haben gefehlt"
+    }
+  },
+  {
+    "w": "interessieren",
+    "e": "to interest",
+    "t": "reg",
+    "p2": "interessiert",
+    "hs": "haben",
+    "pr": {
+      "ich": "interessiere",
+      "du": "interessierst",
+      "er": "interessiert",
+      "wir": "interessieren",
+      "ihr": "interessiert",
+      "sie": "interessieren"
+    },
+    "pt": {
+      "ich": "interessierte",
+      "du": "interessiertest",
+      "er": "interessierte",
+      "wir": "interessierten",
+      "ihr": "interessiertet"
+    },
+    "pk": {
+      "ich": "habe interessiert",
+      "du": "hast interessiert",
+      "er": "hat interessiert",
+      "wir": "haben interessiert",
+      "ihr": "habt interessiert",
+      "sie": "haben interessiert"
+    }
+  },
+  {
+    "w": "merken",
+    "e": "to notice / remember",
+    "t": "reg",
+    "p2": "gemerkt",
+    "hs": "haben",
+    "pr": {
+      "ich": "merke",
+      "du": "merkst",
+      "er": "merkt",
+      "wir": "merken",
+      "ihr": "merkt",
+      "sie": "merken"
+    },
+    "pt": {
+      "ich": "merkte",
+      "du": "merktest",
+      "er": "merkte",
+      "wir": "merkten",
+      "ihr": "merktet"
+    },
+    "pk": {
+      "ich": "habe gemerkt",
+      "du": "hast gemerkt",
+      "er": "hat gemerkt",
+      "wir": "haben gemerkt",
+      "ihr": "habt gemerkt",
+      "sie": "haben gemerkt"
+    }
+  },
+  {
+    "w": "schaffen",
+    "e": "to manage / accomplish",
+    "t": "reg",
+    "p2": "geschafft",
+    "hs": "haben",
+    "pr": {
+      "ich": "schaffe",
+      "du": "schaffst",
+      "er": "schafft",
+      "wir": "schaffen",
+      "ihr": "schafft",
+      "sie": "schaffen"
+    },
+    "pt": {
+      "ich": "schaffte",
+      "du": "schafftest",
+      "er": "schaffte",
+      "wir": "schafften",
+      "ihr": "schafftet"
+    },
+    "pk": {
+      "ich": "habe geschafft",
+      "du": "hast geschafft",
+      "er": "hat geschafft",
+      "wir": "haben geschafft",
+      "ihr": "habt geschafft",
+      "sie": "haben geschafft"
+    }
+  },
+  {
+    "w": "verbringen",
+    "e": "to spend (time)",
+    "t": "mix",
+    "p2": "verbracht",
+    "hs": "haben",
+    "pr": {
+      "ich": "verbringe",
+      "du": "verbringst",
+      "er": "verbringt",
+      "wir": "verbringen",
+      "ihr": "verbringt",
+      "sie": "verbringen"
+    },
+    "pt": {
+      "ich": "verbrachte",
+      "du": "verbrachtest",
+      "er": "verbrachte",
+      "wir": "verbrachten",
+      "ihr": "verbrachtet"
+    },
+    "pk": {
+      "ich": "habe verbracht",
+      "du": "hast verbracht",
+      "er": "hat verbracht",
+      "wir": "haben verbracht",
+      "ihr": "habt verbracht",
+      "sie": "haben verbracht"
+    }
+  },
+  {
+    "w": "vergleichen",
+    "e": "to compare",
+    "t": "irr",
+    "p2": "verglichen",
+    "hs": "haben",
+    "pr": {
+      "ich": "vergleiche",
+      "du": "vergleichst",
+      "er": "vergleicht",
+      "wir": "vergleichen",
+      "ihr": "vergleicht",
+      "sie": "vergleichen"
+    },
+    "pt": {
+      "ich": "verglich",
+      "du": "verglichst",
+      "er": "verglich",
+      "wir": "verglichen",
+      "ihr": "verglichet"
+    },
+    "pk": {
+      "ich": "habe verglichen",
+      "du": "hast verglichen",
+      "er": "hat verglichen",
+      "wir": "haben verglichen",
+      "ihr": "habt verglichen",
+      "sie": "haben verglichen"
+    }
+  },
+  {
+    "w": "versprechen",
+    "e": "to promise",
+    "t": "irr",
+    "p2": "versprochen",
+    "hs": "haben",
+    "pr": {
+      "ich": "verspreche",
+      "du": "versprichst",
+      "er": "verspricht",
+      "wir": "versprechen",
+      "ihr": "versprecht",
+      "sie": "versprechen"
+    },
+    "pt": {
+      "ich": "versprach",
+      "du": "versprachst",
+      "er": "versprach",
+      "wir": "versprachen",
+      "ihr": "verspracht"
+    },
+    "pk": {
+      "ich": "habe versprochen",
+      "du": "hast versprochen",
+      "er": "hat versprochen",
+      "wir": "haben versprochen",
+      "ihr": "habt versprochen",
+      "sie": "haben versprochen"
+    }
+  },
+  {
+    "w": "vorschlagen",
+    "e": "to suggest / propose",
+    "t": "irr",
+    "p2": "vorgeschlagen",
+    "hs": "haben",
+    "pr": {
+      "ich": "schlage vor",
+      "du": "schlägst vor",
+      "er": "schlägt vor",
+      "wir": "schlagen vor",
+      "ihr": "schlagt vor",
+      "sie": "schlagen vor"
+    },
+    "pt": {
+      "ich": "schlug vor",
+      "du": "schlugst vor",
+      "er": "schlug vor",
+      "wir": "schlugen vor",
+      "ihr": "schlugt vor"
+    },
+    "pk": {
+      "ich": "habe vorgeschlagen",
+      "du": "hast vorgeschlagen",
+      "er": "hat vorgeschlagen",
+      "wir": "haben vorgeschlagen",
+      "ihr": "habt vorgeschlagen",
+      "sie": "haben vorgeschlagen"
+    }
   }
 ]

@@ -1168,5 +1168,140 @@
     "ce": "None — keeps word order",
     "ex": "So viel! Das kann ich nicht so machen.",
     "mh": "Intensifier + manner adverb. so = so/such/like that. So ein = what a (So ein Glück! = What luck!)."
+  },
+  {
+    "w": "allerdings",
+    "e": "however / admittedly",
+    "wt": "Conjunction",
+    "st": "Conjunctive Adverb (Inverter)",
+    "ce": "Verb-Subject swap (inverter)",
+    "ex": "Das Auto ist schön. Allerdings ist es zu teuer.",
+    "mh": "Inverter. Functions like a sophisticated 'aber' (but/however)."
+  },
+  {
+    "w": "bereits",
+    "e": "already",
+    "wt": "Adverb",
+    "st": "Time Adverb",
+    "ce": "None — keeps word order",
+    "ex": "Ich habe die E-Mail bereits gelesen.",
+    "mh": "Formal synonym for 'schon'. Very common in written A2/B1 texts."
+  },
+  {
+    "w": "bisher",
+    "e": "until now / so far",
+    "wt": "Adverb",
+    "st": "Time Adverb",
+    "ce": "None — keeps word order",
+    "ex": "Bisher gab es keine Probleme.",
+    "mh": "Time adverb. Often used with the Perfekt tense to recap the past up to the present."
+  },
+  {
+    "w": "dabei",
+    "e": "with it / while doing so",
+    "wt": "Da-Word",
+    "st": "Pronominal Adverb",
+    "ce": "None — keeps word order",
+    "ex": "Ich koche und höre dabei Musik.",
+    "mh": "Means doing two things at the same time. da+bei (at it)."
+  },
+  {
+    "w": "deswegen",
+    "e": "therefore / for that reason",
+    "wt": "Conjunction",
+    "st": "Conjunctive Adverb (Inverter)",
+    "ce": "Verb-Subject swap (inverter)",
+    "ex": "Ich war krank. Deswegen konnte ich nicht kommen.",
+    "mh": "Inverter. Exact synonym for 'deshalb' and 'darum'."
+  },
+  {
+    "w": "einerseits ... andererseits",
+    "e": "on the one hand ... on the other hand",
+    "wt": "Adverb",
+    "st": "Conjunctive Adverb (Inverter)",
+    "ce": "Verb-Subject swap (inverter)",
+    "ex": "Einerseits ist es teuer, andererseits ist die Qualität gut.",
+    "mh": "A two-part connector that triggers inversion after each word."
+  },
+  {
+    "w": "entweder ... oder",
+    "e": "either ... or",
+    "wt": "Conjunction",
+    "st": "Coordinating (Multi-part)",
+    "ce": "None — keeps word order",
+    "ex": "Entweder wir gehen ins Kino, oder wir bleiben zu Hause.",
+    "mh": "Two-part connector showing alternatives. 'oder' behaves like ADUSO (zero position)."
+  },
+  {
+    "w": "sowohl ... als auch",
+    "e": "both ... and / as well as",
+    "wt": "Conjunction",
+    "st": "Coordinating (Multi-part)",
+    "ce": "None — keeps word order",
+    "ex": "Ich spreche sowohl Englisch als auch Deutsch.",
+    "mh": "Two-part connector linking two positive facts. No verb kicking!"
+  },
+  {
+    "w": "weder ... noch",
+    "e": "neither ... nor",
+    "wt": "Conjunction",
+    "st": "Coordinating (Multi-part)",
+    "ce": "Verb-Subject swap (inverter)",
+    "ex": "Er spricht weder Englisch noch Deutsch.",
+    "mh": "Two-part connector for double negatives. 'Noch' causes inversion if a verb follows it."
+  },
+  {
+    "w": "nämlich",
+    "e": "namely / because (explanatory)",
+    "wt": "Adverb",
+    "st": "Explanatory Adverb",
+    "ce": "None (sits in position 3)",
+    "ex": "Ich gehe ins Bett. Ich bin nämlich sehr müde.",
+    "mh": "Translates to 'because' but acts as an adverb, usually placed AFTER the verb in the second clause."
+  },
+  {
+    "w": "schließlich",
+    "e": "finally / after all",
+    "wt": "Adverb",
+    "st": "Time / Conjunctive Adverb",
+    "ce": "Verb-Subject swap (inverter)",
+    "ex": "Schließlich haben wir eine Lösung gefunden.",
+    "mh": "Signals the conclusion of a story or an ultimate realization."
+  },
+  {
+    "w": "stattdessen",
+    "e": "instead",
+    "wt": "Conjunction",
+    "st": "Conjunctive Adverb (Inverter)",
+    "ce": "Verb-Subject swap (inverter)",
+    "ex": "Wir gehen nicht ins Kino. Stattdessen bleiben wir hier.",
+    "mh": "Inverter. Adverb form of the preposition 'statt'."
+  },
+  {
+    "w": "tatsächlich",
+    "e": "actually / indeed / in fact",
+    "wt": "Adverb",
+    "st": "Modal Adverb",
+    "ce": "None — keeps word order",
+    "ex": "Das ist tatsächlich wahr.",
+    "mh": "Used to confirm something surprising but true. From 'die Tatsache' (fact)."
+  },
+  {
+    "w": "überhaupt",
+    "e": "at all / generally",
+    "wt": "Adverb",
+    "st": "Modal Adverb",
+    "ce": "None — keeps word order",
+    "ex": "Ich habe überhaupt keine Zeit.",
+    "mh": "Used to strengthen a negative ('überhaupt nicht' = not at all) or as a broad generalization."
+  },
+  {
+    "w": "übrigens",
+    "e": "by the way",
+    "wt": "Adverb",
+    "st": "Modal Adverb",
+    "ce": "Verb-Subject swap (inverter)",
+    "ex": "Übrigens, hast du meine E-Mail bekommen?",
+    "mh": "Very common conversation filler used to introduce an afterthought."
   }
 ]
