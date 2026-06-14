@@ -1,0 +1,965 @@
+[
+  {
+    "w": "lecker",
+    "e": "delicious / tasty",
+    "c": "Quality & Value",
+    "cmp": "leckerer",
+    "sup": "am leckersten",
+    "opp": "ekelhaft / ungenießbar",
+    "ex": "Das Essen war sehr lecker."
+  },
+  {
+    "w": "leer",
+    "e": "empty",
+    "c": "Size & Quantity",
+    "cmp": "leerer",
+    "sup": "am leersten",
+    "opp": "voll",
+    "ex": "Der Kühlschrank ist leer."
+  },
+  {
+    "w": "lang",
+    "e": "long",
+    "c": "Physical Properties",
+    "cmp": "länger",
+    "sup": "am längsten",
+    "opp": "kurz",
+    "ex": "Das Gespräch war sehr lang."
+  },
+  {
+    "w": "kalt",
+    "e": "cold",
+    "c": "Physical Properties",
+    "cmp": "kälter",
+    "sup": "am kältesten",
+    "opp": "warm / heiß",
+    "ex": "Das Wasser ist kalt."
+  },
+  {
+    "w": "langweilig",
+    "e": "boring",
+    "c": "Emotion & Feeling",
+    "cmp": "langweiliger",
+    "sup": "am langweiligsten",
+    "opp": "interessant / spannend",
+    "ex": "Der Film war total langweilig."
+  },
+  {
+    "w": "traurig",
+    "e": "sad",
+    "c": "Emotion & Feeling",
+    "cmp": "trauriger",
+    "sup": "am traurigsten",
+    "opp": "glücklich / fröhlich",
+    "ex": "Er ist heute sehr traurig."
+  },
+  {
+    "w": "kühl",
+    "e": "cool / chilly",
+    "c": "Physical Properties",
+    "cmp": "kühler",
+    "sup": "am kühlsten",
+    "opp": "warm / heiß",
+    "ex": "Es ist heute kühl draußen."
+  },
+  {
+    "w": "glücklich",
+    "e": "happy / lucky",
+    "c": "Emotion & Feeling",
+    "cmp": "glücklicher",
+    "sup": "am glücklichsten",
+    "opp": "unglücklich / traurig",
+    "ex": "Sie ist sehr glücklich."
+  },
+  {
+    "w": "groß",
+    "e": "big / tall",
+    "c": "Size & Quantity",
+    "cmp": "größer",
+    "sup": "am größten",
+    "opp": "klein",
+    "ex": "Er ist sehr groß."
+  },
+  {
+    "w": "hässlich",
+    "e": "ugly",
+    "c": "Quality & Value",
+    "cmp": "hässlicher",
+    "sup": "am hässlichsten",
+    "opp": "schön",
+    "ex": "Das Gebäude ist wirklich hässlich."
+  },
+  {
+    "w": "lustig",
+    "e": "funny / amusing",
+    "c": "Emotion & Feeling",
+    "cmp": "lustiger",
+    "sup": "am lustigsten",
+    "opp": "langweilig / ernst",
+    "ex": "Er ist ein lustiger Mensch."
+  },
+  {
+    "w": "alt",
+    "e": "old",
+    "c": "Quality & Value",
+    "cmp": "älter",
+    "sup": "am ältesten",
+    "opp": "neu / jung",
+    "ex": "Das ist ein altes Haus."
+  },
+  {
+    "w": "ruhig",
+    "e": "calm / quiet / peaceful",
+    "c": "Emotion & Feeling",
+    "cmp": "ruhiger",
+    "sup": "am ruhigsten",
+    "opp": "laut / unruhig",
+    "ex": "Bleib ruhig, es ist alles gut."
+  },
+  {
+    "w": "schmutzig",
+    "e": "dirty",
+    "c": "Physical Properties",
+    "cmp": "schmutziger",
+    "sup": "am schmutzigsten",
+    "opp": "sauber",
+    "ex": "Die Schuhe sind schmutzig."
+  },
+  {
+    "w": "schwer",
+    "e": "heavy / difficult",
+    "c": "Physical Properties",
+    "cmp": "schwerer",
+    "sup": "am schwersten",
+    "opp": "leicht",
+    "ex": "Der Koffer ist sehr schwer."
+  },
+  {
+    "w": "gut",
+    "e": "good",
+    "c": "Quality & Value",
+    "cmp": "besser",
+    "sup": "am besten",
+    "opp": "schlecht",
+    "ex": "Das ist eine gute Idee."
+  },
+  {
+    "w": "heiß",
+    "e": "hot",
+    "c": "Physical Properties",
+    "cmp": "heißer",
+    "sup": "am heißesten",
+    "opp": "kalt / kühl",
+    "ex": "Der Kaffee ist sehr heiß."
+  },
+  {
+    "w": "klein",
+    "e": "small / short",
+    "c": "Size & Quantity",
+    "cmp": "kleiner",
+    "sup": "am kleinsten",
+    "opp": "groß",
+    "ex": "Die Wohnung ist klein aber gemütlich."
+  },
+  {
+    "w": "wichtig",
+    "e": "important",
+    "c": "Quality & Value",
+    "cmp": "wichtiger",
+    "sup": "am wichtigsten",
+    "opp": "unwichtig",
+    "ex": "Das ist sehr wichtig für mich."
+  },
+  {
+    "w": "langsam",
+    "e": "slow",
+    "c": "Physical Properties",
+    "cmp": "langsamer",
+    "sup": "am langsamsten",
+    "opp": "schnell",
+    "ex": "Bitte fahren Sie langsamer."
+  },
+  {
+    "w": "schwierig",
+    "e": "difficult / hard",
+    "c": "Quality & Value",
+    "cmp": "schwieriger",
+    "sup": "am schwierigsten",
+    "opp": "einfach / leicht",
+    "ex": "Deutsch ist manchmal schwierig."
+  },
+  {
+    "w": "neu",
+    "e": "new",
+    "c": "Quality & Value",
+    "cmp": "neuer",
+    "sup": "am neuesten",
+    "opp": "alt",
+    "ex": "Ich habe ein neues Handy."
+  },
+  {
+    "w": "jung",
+    "e": "young",
+    "c": "Describing People",
+    "cmp": "jünger",
+    "sup": "am jüngsten",
+    "opp": "alt",
+    "ex": "Sie ist noch sehr jung."
+  },
+  {
+    "w": "schön",
+    "e": "beautiful / nice",
+    "c": "Quality & Value",
+    "cmp": "schöner",
+    "sup": "am schönsten",
+    "opp": "hässlich",
+    "ex": "München ist eine schöne Stadt."
+  },
+  {
+    "w": "offen",
+    "e": "open",
+    "c": "Other",
+    "cmp": "offener",
+    "sup": "am offensten",
+    "opp": "geschlossen",
+    "ex": "Das Fenster ist offen."
+  },
+  {
+    "w": "müde",
+    "e": "tired",
+    "c": "Emotion & Feeling",
+    "cmp": "müder",
+    "sup": "am müdesten",
+    "opp": "ausgeruht / munter",
+    "ex": "Ich bin so müde heute."
+  },
+  {
+    "w": "gesund",
+    "e": "healthy",
+    "c": "Describing People",
+    "cmp": "gesünder",
+    "sup": "am gesündesten",
+    "opp": "krank",
+    "ex": "Obst und Gemüse sind gesund."
+  },
+  {
+    "w": "billig",
+    "e": "cheap / inexpensive",
+    "c": "Quality & Value",
+    "cmp": "billiger",
+    "sup": "am billigsten",
+    "opp": "teuer",
+    "ex": "Dieser Markt ist sehr billig."
+  },
+  {
+    "w": "hell",
+    "e": "bright / light",
+    "c": "Physical Properties",
+    "cmp": "heller",
+    "sup": "am hellsten",
+    "opp": "dunkel",
+    "ex": "Das Zimmer ist hell und freundlich."
+  },
+  {
+    "w": "krank",
+    "e": "sick / ill",
+    "c": "Describing People",
+    "cmp": "kränker",
+    "sup": "am kränksten",
+    "opp": "gesund",
+    "ex": "Sie ist krank und bleibt zu Hause."
+  },
+  {
+    "w": "einfach",
+    "e": "easy / simple / just",
+    "c": "Quality & Value",
+    "cmp": "einfacher",
+    "sup": "am einfachsten",
+    "opp": "schwierig / kompliziert",
+    "ex": "Die Aufgabe ist einfach."
+  },
+  {
+    "w": "schlecht",
+    "e": "bad",
+    "c": "Quality & Value",
+    "cmp": "schlechter",
+    "sup": "am schlechtesten",
+    "opp": "gut",
+    "ex": "Das Wetter ist heute schlecht."
+  },
+  {
+    "w": "leicht",
+    "e": "light / easy",
+    "c": "Physical Properties",
+    "cmp": "leichter",
+    "sup": "am leichtesten",
+    "opp": "schwer",
+    "ex": "Diese Tasche ist leicht."
+  },
+  {
+    "w": "interessant",
+    "e": "interesting",
+    "c": "Quality & Value",
+    "cmp": "interessanter",
+    "sup": "am interessantesten",
+    "opp": "langweilig",
+    "ex": "Das Buch ist sehr interessant."
+  },
+  {
+    "w": "voll",
+    "e": "full",
+    "c": "Size & Quantity",
+    "cmp": "voller",
+    "sup": "am vollsten",
+    "opp": "leer",
+    "ex": "Das Glas ist voll."
+  },
+  {
+    "w": "nett",
+    "e": "nice / kind",
+    "c": "Describing People",
+    "cmp": "netter",
+    "sup": "am nettesten",
+    "opp": "unfreundlich",
+    "ex": "Sie ist sehr nett zu mir."
+  },
+  {
+    "w": "teuer",
+    "e": "expensive",
+    "c": "Quality & Value",
+    "cmp": "teurer",
+    "sup": "am teuersten",
+    "opp": "billig / günstig",
+    "ex": "Das Restaurant ist zu teuer."
+  },
+  {
+    "w": "schnell",
+    "e": "fast / quick",
+    "c": "Physical Properties",
+    "cmp": "schneller",
+    "sup": "am schnellsten",
+    "opp": "langsam",
+    "ex": "Der Zug ist schnell."
+  },
+  {
+    "w": "spät",
+    "e": "late",
+    "c": "Time & Frequency",
+    "cmp": "später",
+    "sup": "am spätesten",
+    "opp": "früh",
+    "ex": "Es ist schon sehr spät."
+  },
+  {
+    "w": "geschlossen",
+    "e": "closed",
+    "c": "Other",
+    "cmp": "geschlossener",
+    "sup": "am geschlossensten",
+    "opp": "offen",
+    "ex": "Der Laden ist heute geschlossen."
+  },
+  {
+    "w": "dunkel",
+    "e": "dark",
+    "c": "Physical Properties",
+    "cmp": "dunkler",
+    "sup": "am dunkelsten",
+    "opp": "hell",
+    "ex": "Im Winter ist es früh dunkel."
+  },
+  {
+    "w": "kurz",
+    "e": "short / brief",
+    "c": "Physical Properties",
+    "cmp": "kürzer",
+    "sup": "am kürzesten",
+    "opp": "lang",
+    "ex": "Das war eine kurze Pause."
+  },
+  {
+    "w": "früh",
+    "e": "early",
+    "c": "Time & Frequency",
+    "cmp": "früher",
+    "sup": "am frühesten",
+    "opp": "spät",
+    "ex": "Ich stehe früh auf."
+  },
+  {
+    "w": "richtig",
+    "e": "correct / right / proper",
+    "c": "Quality & Value",
+    "cmp": "richtiger",
+    "sup": "am richtigsten",
+    "opp": "falsch",
+    "ex": "Das ist die richtige Antwort."
+  },
+  {
+    "w": "sauber",
+    "e": "clean",
+    "c": "Physical Properties",
+    "cmp": "sauberer",
+    "sup": "am saubersten",
+    "opp": "schmutzig",
+    "ex": "Die Küche ist sehr sauber."
+  },
+  {
+    "w": "freundlich",
+    "e": "friendly",
+    "c": "Describing People",
+    "cmp": "freundlicher",
+    "sup": "am freundlichsten",
+    "opp": "unfreundlich / feindlich",
+    "ex": "Der Kellner war sehr freundlich."
+  },
+  {
+    "w": "warm",
+    "e": "warm",
+    "c": "Physical Properties",
+    "cmp": "wärmer",
+    "sup": "am wärmsten",
+    "opp": "kalt / kühl",
+    "ex": "Heute ist es warm."
+  },
+  {
+    "w": "laut",
+    "e": "loud / noisy",
+    "c": "Physical Properties",
+    "cmp": "lauter",
+    "sup": "am lautesten",
+    "opp": "leise",
+    "ex": "Die Musik ist zu laut."
+  },
+  {
+    "w": "leise",
+    "e": "quiet / soft",
+    "c": "Physical Properties",
+    "cmp": "leiser",
+    "sup": "am leisesten",
+    "opp": "laut",
+    "ex": "Bitte sei leise!"
+  },
+  {
+    "w": "falsch",
+    "e": "wrong / false",
+    "c": "Quality & Value",
+    "cmp": "falscher",
+    "sup": "am falschesten",
+    "opp": "richtig",
+    "ex": "Das ist leider falsch."
+  },
+  {
+    "w": "stolz",
+    "e": "proud",
+    "c": "Emotion & Feeling",
+    "cmp": "stolzer",
+    "sup": "am stolzesten",
+    "opp": "schamvoll / bescheiden",
+    "ex": "Ich bin stolz auf dich."
+  },
+  {
+    "w": "sicher",
+    "e": "safe / certain / sure",
+    "c": "Other",
+    "cmp": "sicherer",
+    "sup": "am sichersten",
+    "opp": "unsicher / gefährlich",
+    "ex": "Hier ist es sicher."
+  },
+  {
+    "w": "kostenlos",
+    "e": "free (of charge)",
+    "c": "Quality & Value",
+    "cmp": "–",
+    "sup": "–",
+    "opp": "kostenpflichtig / teuer",
+    "ex": "Das ist kostenlos."
+  },
+  {
+    "w": "bereit",
+    "e": "ready / prepared / willing",
+    "c": "Other",
+    "cmp": "bereiter",
+    "sup": "am bereitsten",
+    "opp": "unbereit / nicht bereit",
+    "ex": "Bist du bereit?"
+  },
+  {
+    "w": "schriftlich",
+    "e": "written",
+    "c": "Other",
+    "cmp": "schriftlicher",
+    "sup": "am schriftlichsten",
+    "opp": "mündlich",
+    "ex": "Ich brauche das schriftlich."
+  },
+  {
+    "w": "direkt",
+    "e": "direct / straight",
+    "c": "Other",
+    "cmp": "direkter",
+    "sup": "am direktesten",
+    "opp": "indirekt / umständlich",
+    "ex": "Nehmen Sie den direkten Weg."
+  },
+  {
+    "w": "besonders",
+    "e": "special / especially",
+    "c": "Quality & Value",
+    "cmp": "–",
+    "sup": "–",
+    "opp": "gewöhnlich / normal",
+    "ex": "Das war besonders lecker."
+  },
+  {
+    "w": "möglich",
+    "e": "possible",
+    "c": "Other",
+    "cmp": "möglicher",
+    "sup": "am möglichsten",
+    "opp": "unmöglich",
+    "ex": "Ist das möglich?"
+  },
+  {
+    "w": "klug",
+    "e": "smart / clever",
+    "c": "Describing People",
+    "cmp": "klüger",
+    "sup": "am klügsten",
+    "opp": "dumm",
+    "ex": "Sie ist eine kluge Frau."
+  },
+  {
+    "w": "häufig",
+    "e": "frequent / common",
+    "c": "Time & Frequency",
+    "cmp": "häufiger",
+    "sup": "am häufigsten",
+    "opp": "selten",
+    "ex": "Das ist ein häufiger Fehler."
+  },
+  {
+    "w": "höflich",
+    "e": "polite",
+    "c": "Describing People",
+    "cmp": "höflicher",
+    "sup": "am höflichsten",
+    "opp": "unhöflich / grob",
+    "ex": "Sei bitte höflich."
+  },
+  {
+    "w": "typisch",
+    "e": "typical",
+    "c": "Other",
+    "cmp": "typischer",
+    "sup": "am typischsten",
+    "opp": "untypisch",
+    "ex": "Das ist typisch deutsch."
+  },
+  {
+    "w": "praktisch",
+    "e": "practical / handy",
+    "c": "Quality & Value",
+    "cmp": "praktischer",
+    "sup": "am praktischsten",
+    "opp": "unpraktisch",
+    "ex": "Das ist sehr praktisch."
+  },
+  {
+    "w": "egal",
+    "e": "doesn't matter / equal",
+    "c": "Other",
+    "cmp": "–",
+    "sup": "–",
+    "opp": "wichtig / bedeutsam",
+    "ex": "Das ist mir egal."
+  },
+  {
+    "w": "flüssig",
+    "e": "liquid / fluent",
+    "c": "Physical Properties",
+    "cmp": "flüssiger",
+    "sup": "am flüssigsten",
+    "opp": "fest / stockend",
+    "ex": "Er spricht flüssig Englisch."
+  },
+  {
+    "w": "anders",
+    "e": "different / other",
+    "c": "Other",
+    "cmp": "–",
+    "sup": "–",
+    "opp": "gleich / ähnlich",
+    "ex": "Das ist ganz anders als ich dachte."
+  },
+  {
+    "w": "natürlich",
+    "e": "natural / of course",
+    "c": "Other",
+    "cmp": "natürlicher",
+    "sup": "am natürlichsten",
+    "opp": "künstlich / unnatürlich",
+    "ex": "Natürlich komme ich!"
+  },
+  {
+    "w": "pünktlich",
+    "e": "punctual / on time",
+    "c": "Time & Frequency",
+    "cmp": "pünktlicher",
+    "sup": "am pünktlichsten",
+    "opp": "unpünktlich / zu spät",
+    "ex": "Der Zug ist pünktlich."
+  },
+  {
+    "w": "spännend",
+    "e": "exciting / thrilling",
+    "c": "Quality & Value",
+    "cmp": "spannender",
+    "sup": "am spannendsten",
+    "opp": "langweilig",
+    "ex": "Der Film war sehr spannend."
+  },
+  {
+    "w": "mündlich",
+    "e": "oral / verbal",
+    "c": "Other",
+    "cmp": "mündlicher",
+    "sup": "am mündlichsten",
+    "opp": "schriftlich",
+    "ex": "Die Prüfung ist mündlich."
+  },
+  {
+    "w": "ehrlich",
+    "e": "honest",
+    "c": "Describing People",
+    "cmp": "ehrlicher",
+    "sup": "am ehrlichsten",
+    "opp": "unehrlich / verlogen",
+    "ex": "Sei ehrlich mit mir."
+  },
+  {
+    "w": "bequem",
+    "e": "comfortable / convenient",
+    "c": "Physical Properties",
+    "cmp": "bequemer",
+    "sup": "am bequemsten",
+    "opp": "unbequem",
+    "ex": "Das Sofa ist sehr bequem."
+  },
+  {
+    "w": "beliebt",
+    "e": "popular / well-liked",
+    "c": "Quality & Value",
+    "cmp": "beliebter",
+    "sup": "am beliebtesten",
+    "opp": "unbeliebt",
+    "ex": "Das ist ein beliebtes Restaurant."
+  },
+  {
+    "w": "gemütlich",
+    "e": "cosy / comfortable / leisurely",
+    "c": "Quality & Value",
+    "cmp": "gemütlicher",
+    "sup": "am gemütlichsten",
+    "opp": "unbehaglich / ungemütlich",
+    "ex": "Das Café ist sehr gemütlich."
+  },
+  {
+    "w": "dankbar",
+    "e": "grateful / thankful",
+    "c": "Emotion & Feeling",
+    "cmp": "dankbarer",
+    "sup": "am dankbarsten",
+    "opp": "undankbar",
+    "ex": "Ich bin sehr dankbar."
+  },
+  {
+    "w": "zufrieden",
+    "e": "satisfied / content",
+    "c": "Emotion & Feeling",
+    "cmp": "zufriedener",
+    "sup": "am zufriedensten",
+    "opp": "unzufrieden",
+    "ex": "Ich bin zufrieden mit dem Ergebnis."
+  },
+  {
+    "w": "neugierig",
+    "e": "curious / nosy",
+    "c": "Describing People",
+    "cmp": "neugieriger",
+    "sup": "am neugierigsten",
+    "opp": "gleichgültig / desinteressiert",
+    "ex": "Kinder sind sehr neugierig."
+  },
+  {
+    "w": "später",
+    "e": "later",
+    "c": "Time & Frequency",
+    "cmp": "–",
+    "sup": "am spätesten",
+    "opp": "früher",
+    "ex": "Wir sehen uns später."
+  },
+  {
+    "w": "nötig",
+    "e": "necessary",
+    "c": "Other",
+    "cmp": "nötiger",
+    "sup": "am nötigsten",
+    "opp": "unnötig / überflüssig",
+    "ex": "Das ist nicht nötig."
+  },
+  {
+    "w": "ledig",
+    "e": "single (not married)",
+    "c": "Describing People",
+    "cmp": "–",
+    "sup": "–",
+    "opp": "verheiratet",
+    "ex": "Ich bin noch ledig."
+  },
+  {
+    "w": "komisch",
+    "e": "strange / funny / odd",
+    "c": "Quality & Value",
+    "cmp": "komischer",
+    "sup": "am komischsten",
+    "opp": "normal / gewöhnlich",
+    "ex": "Das ist aber komisch."
+  },
+  {
+    "w": "verheiratet",
+    "e": "married",
+    "c": "Describing People",
+    "cmp": "–",
+    "sup": "–",
+    "opp": "ledig / geschieden",
+    "ex": "Sie ist seit zwei Jahren verheiratet."
+  },
+  {
+    "w": "peinlich",
+    "e": "embarrassing",
+    "c": "Emotion & Feeling",
+    "cmp": "peinlicher",
+    "sup": "am peinlichsten",
+    "opp": "stolz / selbstbewusst",
+    "ex": "Das ist mir peinlich."
+  },
+  {
+    "w": "zusammen",
+    "e": "together",
+    "c": "Other",
+    "cmp": "–",
+    "sup": "–",
+    "opp": "allein / getrennt",
+    "ex": "Wir machen das zusammen."
+  },
+  {
+    "w": "selten",
+    "e": "rare / seldom",
+    "c": "Time & Frequency",
+    "cmp": "seltener",
+    "sup": "am seltensten",
+    "opp": "häufig / oft",
+    "ex": "So etwas sieht man selten."
+  },
+  {
+    "w": "zuständig",
+    "e": "responsible / in charge",
+    "c": "Other",
+    "cmp": "zuständiger",
+    "sup": "am zuständigsten",
+    "opp": "nicht zuständig",
+    "ex": "Wer ist dafür zuständig?"
+  },
+  {
+    "w": "persönlich",
+    "e": "personal",
+    "c": "Describing People",
+    "cmp": "persönlicher",
+    "sup": "am persönlichsten",
+    "opp": "unpersönlich",
+    "ex": "Das ist eine persönliche Frage."
+  },
+  {
+    "w": "faul",
+    "e": "lazy",
+    "c": "Describing People",
+    "cmp": "fauler",
+    "sup": "am faulsten",
+    "opp": "fleißig",
+    "ex": "Sei nicht so faul!"
+  },
+  {
+    "w": "allein",
+    "e": "alone / by oneself",
+    "c": "Emotion & Feeling",
+    "cmp": "–",
+    "sup": "–",
+    "opp": "zusammen / gemeinsam",
+    "ex": "Ich bin gerne allein."
+  },
+  {
+    "w": "dumm",
+    "e": "stupid / dumb",
+    "c": "Describing People",
+    "cmp": "dümmer",
+    "sup": "am dümmsten",
+    "opp": "klug / schlau",
+    "ex": "Das war eine dumme Idee."
+  },
+  {
+    "w": "gratis",
+    "e": "free / gratis",
+    "c": "Quality & Value",
+    "cmp": "–",
+    "sup": "–",
+    "opp": "kostenpflichtig",
+    "ex": "Das bekommst du gratis."
+  },
+  {
+    "w": "aufgeregt",
+    "e": "excited / nervous",
+    "c": "Emotion & Feeling",
+    "cmp": "aufgeregter",
+    "sup": "am aufgeregtesten",
+    "opp": "ruhig / gelassen",
+    "ex": "Ich bin ganz aufgeregt."
+  },
+  {
+    "w": "witzig",
+    "e": "funny / witty",
+    "c": "Emotion & Feeling",
+    "cmp": "witziger",
+    "sup": "am witzigsten",
+    "opp": "langweilig / humorlos",
+    "ex": "Er macht immer witzige Bemerkungen."
+  },
+  {
+    "w": "modern",
+    "e": "modern",
+    "c": "Quality & Value",
+    "cmp": "moderner",
+    "sup": "am modernsten",
+    "opp": "altmodisch",
+    "ex": "Das Design ist sehr modern."
+  },
+  {
+    "w": "endlich",
+    "e": "finally / at last",
+    "c": "Time & Frequency",
+    "cmp": "–",
+    "sup": "–",
+    "opp": "unendlich",
+    "ex": "Endlich ist es fertig!"
+  },
+  {
+    "w": "mutig",
+    "e": "brave / courageous",
+    "c": "Describing People",
+    "cmp": "mutiger",
+    "sup": "am mutigsten",
+    "opp": "feige",
+    "ex": "Das war sehr mutig von dir."
+  },
+  {
+    "w": "fröhlich",
+    "e": "cheerful / joyful",
+    "c": "Emotion & Feeling",
+    "cmp": "fröhlicher",
+    "sup": "am fröhlichsten",
+    "opp": "traurig / ernst",
+    "ex": "Sie ist immer fröhlich."
+  },
+  {
+    "w": "fertig",
+    "e": "finished / ready / done",
+    "c": "Other",
+    "cmp": "fertiger",
+    "sup": "am fertigsten",
+    "opp": "unfertig / noch nicht fertig",
+    "ex": "Ich bin fertig."
+  },
+  {
+    "w": "fleißig",
+    "e": "hardworking / diligent",
+    "c": "Describing People",
+    "cmp": "fleißiger",
+    "sup": "am fleißigsten",
+    "opp": "faul",
+    "ex": "Sie ist sehr fleißig."
+  },
+  {
+    "w": "normal",
+    "e": "normal",
+    "c": "Other",
+    "cmp": "normaler",
+    "sup": "am normalsten",
+    "opp": "abnormal / seltsam",
+    "ex": "Das ist ganz normal."
+  },
+  {
+    "w": "hungrig",
+    "e": "hungry",
+    "c": "Feelings & States",
+    "cmp": "hungriger",
+    "sup": "am hungrigsten",
+    "opp": "satt",
+    "ex": "Nach der Arbeit bin ich immer hungrig."
+  },
+  {
+    "w": "durstig",
+    "e": "thirsty",
+    "c": "Feelings & States",
+    "cmp": "durstiger",
+    "sup": "am durstigsten",
+    "opp": "–",
+    "ex": "Nach dem Sport bin ich sehr durstig."
+  },
+  {
+    "w": "frei",
+    "e": "free / available / vacant",
+    "c": "States",
+    "cmp": "freier",
+    "sup": "am freisten",
+    "opp": "besetzt",
+    "ex": "Ist dieser Platz noch frei?"
+  },
+  {
+    "w": "besetzt",
+    "e": "occupied / taken / busy",
+    "c": "States",
+    "cmp": "besetzter",
+    "sup": "am besetztesten",
+    "opp": "frei",
+    "ex": "Die Toilette ist besetzt."
+  },
+  {
+    "w": "nah",
+    "e": "near / close",
+    "c": "Distance & Position",
+    "cmp": "näher",
+    "sup": "am nächsten",
+    "opp": "fern",
+    "ex": "Der Supermarkt ist ganz nah."
+  },
+  {
+    "w": "fern",
+    "e": "far / distant",
+    "c": "Distance & Position",
+    "cmp": "ferner",
+    "sup": "am fernsten",
+    "opp": "nah",
+    "ex": "Das liegt in ferner Zukunft."
+  },
+  {
+    "w": "böse",
+    "e": "angry / mean / evil",
+    "c": "Feelings & States",
+    "cmp": "böser",
+    "sup": "am bösesten",
+    "opp": "lieb",
+    "ex": "Bist du böse auf mich?"
+  }
+]

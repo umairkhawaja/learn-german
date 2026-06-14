@@ -1,0 +1,3392 @@
+[
+  {
+    "w": "sprechen",
+    "e": "to speak",
+    "t": "irr",
+    "p2": "gesprochen",
+    "hs": "haben",
+    "pr": {
+      "ich": "spreche",
+      "du": "sprichst",
+      "er": "spricht",
+      "wir": "sprechen",
+      "ihr": "sprecht",
+      "sie": "sprechen"
+    },
+    "pt": {
+      "ich": "sprach",
+      "du": "sprachst",
+      "er": "sprach",
+      "wir": "sprachen",
+      "ihr": "spracht"
+    },
+    "pk": {
+      "ich": "habe gesprochen",
+      "du": "hast gesprochen",
+      "er": "hat gesprochen",
+      "wir": "haben gesprochen",
+      "ihr": "habt gesprochen",
+      "sie": "haben gesprochen"
+    }
+  },
+  {
+    "w": "denken",
+    "e": "to think",
+    "t": "mix",
+    "p2": "gedacht",
+    "hs": "haben",
+    "pr": {
+      "ich": "denke",
+      "du": "denkst",
+      "er": "denkt",
+      "wir": "denken",
+      "ihr": "denkt",
+      "sie": "denken"
+    },
+    "pt": {
+      "ich": "dachte",
+      "du": "dachtest",
+      "er": "dachte",
+      "wir": "dachten",
+      "ihr": "dachtet"
+    },
+    "pk": {
+      "ich": "habe gedacht",
+      "du": "hast gedacht",
+      "er": "hat gedacht",
+      "wir": "haben gedacht",
+      "ihr": "habt gedacht",
+      "sie": "haben gedacht"
+    }
+  },
+  {
+    "w": "beginnen",
+    "e": "to begin",
+    "t": "irr",
+    "p2": "begonnen",
+    "hs": "haben",
+    "pr": {
+      "ich": "beginne",
+      "du": "beginnst",
+      "er": "beginnt",
+      "wir": "beginnen",
+      "ihr": "beginnt",
+      "sie": "beginnen"
+    },
+    "pt": {
+      "ich": "begann",
+      "du": "begannst",
+      "er": "begann",
+      "wir": "begannen",
+      "ihr": "begannt"
+    },
+    "pk": {
+      "ich": "habe begonnen",
+      "du": "hast begonnen",
+      "er": "hat begonnen",
+      "wir": "haben begonnen",
+      "ihr": "habt begonnen",
+      "sie": "haben begonnen"
+    }
+  },
+  {
+    "w": "machen",
+    "e": "to do/make",
+    "t": "reg",
+    "p2": "gemacht",
+    "hs": "haben",
+    "pr": {
+      "ich": "mache",
+      "du": "machst",
+      "er": "macht",
+      "wir": "machen",
+      "ihr": "macht",
+      "sie": "machen"
+    },
+    "pt": {
+      "ich": "machte",
+      "du": "machtest",
+      "er": "machte",
+      "wir": "machten",
+      "ihr": "machtet"
+    },
+    "pk": {
+      "ich": "habe gemacht",
+      "du": "hast gemacht",
+      "er": "hat gemacht",
+      "wir": "haben gemacht",
+      "ihr": "habt gemacht",
+      "sie": "haben gemacht"
+    }
+  },
+  {
+    "w": "bleiben",
+    "e": "to stay/remain",
+    "t": "irr",
+    "p2": "geblieben",
+    "hs": "sein",
+    "pr": {
+      "ich": "bleibe",
+      "du": "bleibst",
+      "er": "bleibt",
+      "wir": "bleiben",
+      "ihr": "bleibt",
+      "sie": "bleiben"
+    },
+    "pt": {
+      "ich": "blieb",
+      "du": "bliebst",
+      "er": "blieb",
+      "wir": "blieben",
+      "ihr": "bliebt"
+    },
+    "pk": {
+      "ich": "bin geblieben",
+      "du": "bist geblieben",
+      "er": "ist geblieben",
+      "wir": "sind geblieben",
+      "ihr": "seid geblieben",
+      "sie": "sind geblieben"
+    }
+  },
+  {
+    "w": "nennen",
+    "e": "to name/call",
+    "t": "mix",
+    "p2": "genannt",
+    "hs": "haben",
+    "pr": {
+      "ich": "nenne",
+      "du": "nennst",
+      "er": "nennt",
+      "wir": "nennen",
+      "ihr": "nennt",
+      "sie": "nennen"
+    },
+    "pt": {
+      "ich": "nannte",
+      "du": "nanntest",
+      "er": "nannte",
+      "wir": "nannten",
+      "ihr": "nanntet"
+    },
+    "pk": {
+      "ich": "habe genannt",
+      "du": "hast genannt",
+      "er": "hat genannt",
+      "wir": "haben genannt",
+      "ihr": "habt genannt",
+      "sie": "haben genannt"
+    }
+  },
+  {
+    "w": "gehen",
+    "e": "to go",
+    "t": "irr",
+    "p2": "gegangen",
+    "hs": "sein",
+    "pr": {
+      "ich": "gehe",
+      "du": "gehst",
+      "er": "geht",
+      "wir": "gehen",
+      "ihr": "geht",
+      "sie": "gehen"
+    },
+    "pt": {
+      "ich": "ging",
+      "du": "gingst",
+      "er": "ging",
+      "wir": "gingen",
+      "ihr": "gingt"
+    },
+    "pk": {
+      "ich": "bin gegangen",
+      "du": "bist gegangen",
+      "er": "ist gegangen",
+      "wir": "sind gegangen",
+      "ihr": "seid gegangen",
+      "sie": "sind gegangen"
+    }
+  },
+  {
+    "w": "laufen",
+    "e": "to run/walk",
+    "t": "irr",
+    "p2": "gelaufen",
+    "hs": "sein",
+    "pr": {
+      "ich": "laufe",
+      "du": "läufst",
+      "er": "läuft",
+      "wir": "laufen",
+      "ihr": "lauft",
+      "sie": "laufen"
+    },
+    "pt": {
+      "ich": "lief",
+      "du": "liefst",
+      "er": "lief",
+      "wir": "liefen",
+      "ihr": "lieft"
+    },
+    "pk": {
+      "ich": "bin gelaufen",
+      "du": "bist gelaufen",
+      "er": "ist gelaufen",
+      "wir": "sind gelaufen",
+      "ihr": "seid gelaufen",
+      "sie": "sind gelaufen"
+    }
+  },
+  {
+    "w": "lassen",
+    "e": "to let/allow",
+    "t": "irr",
+    "p2": "gelassen",
+    "hs": "haben",
+    "pr": {
+      "ich": "lasse",
+      "du": "lässt",
+      "er": "lässt",
+      "wir": "lassen",
+      "ihr": "lasst",
+      "sie": "lassen"
+    },
+    "pt": {
+      "ich": "ließ",
+      "du": "ließest",
+      "er": "ließ",
+      "wir": "ließen",
+      "ihr": "ließt"
+    },
+    "pk": {
+      "ich": "habe gelassen",
+      "du": "hast gelassen",
+      "er": "hat gelassen",
+      "wir": "haben gelassen",
+      "ihr": "habt gelassen",
+      "sie": "haben gelassen"
+    }
+  },
+  {
+    "w": "heißen",
+    "e": "to be called",
+    "t": "irr",
+    "p2": "geheißen",
+    "hs": "haben",
+    "pr": {
+      "ich": "heiße",
+      "du": "heißt",
+      "er": "heißt",
+      "wir": "heißen",
+      "ihr": "heißt",
+      "sie": "heißen"
+    },
+    "pt": {
+      "ich": "hieß",
+      "du": "hießt",
+      "er": "hieß",
+      "wir": "hießen",
+      "ihr": "hießt"
+    },
+    "pk": {
+      "ich": "habe geheißen",
+      "du": "hast geheißen",
+      "er": "hat geheißen",
+      "wir": "haben geheißen",
+      "ihr": "habt geheißen",
+      "sie": "haben geheißen"
+    }
+  },
+  {
+    "w": "stellen",
+    "e": "to place/put",
+    "t": "reg",
+    "p2": "gestellt",
+    "hs": "haben",
+    "pr": {
+      "ich": "stelle",
+      "du": "stellst",
+      "er": "stellt",
+      "wir": "stellen",
+      "ihr": "stellt",
+      "sie": "stellen"
+    },
+    "pt": {
+      "ich": "stellte",
+      "du": "stelltest",
+      "er": "stellte",
+      "wir": "stellten",
+      "ihr": "stelltet"
+    },
+    "pk": {
+      "ich": "habe gestellt",
+      "du": "hast gestellt",
+      "er": "hat gestellt",
+      "wir": "haben gestellt",
+      "ihr": "habt gestellt",
+      "sie": "haben gestellt"
+    }
+  },
+  {
+    "w": "fragen",
+    "e": "to ask",
+    "t": "reg",
+    "p2": "gefragt",
+    "hs": "haben",
+    "pr": {
+      "ich": "frage",
+      "du": "fragst",
+      "er": "fragt",
+      "wir": "fragen",
+      "ihr": "fragt",
+      "sie": "fragen"
+    },
+    "pt": {
+      "ich": "fragte",
+      "du": "fragtest",
+      "er": "fragte",
+      "wir": "fragten",
+      "ihr": "fragtet"
+    },
+    "pk": {
+      "ich": "habe gefragt",
+      "du": "hast gefragt",
+      "er": "hat gefragt",
+      "wir": "haben gefragt",
+      "ihr": "habt gefragt",
+      "sie": "haben gefragt"
+    }
+  },
+  {
+    "w": "verstehen",
+    "e": "to understand",
+    "t": "irr",
+    "p2": "verstanden",
+    "hs": "haben",
+    "pr": {
+      "ich": "verstehe",
+      "du": "verstehst",
+      "er": "versteht",
+      "wir": "verstehen",
+      "ihr": "versteht",
+      "sie": "verstehen"
+    },
+    "pt": {
+      "ich": "verstand",
+      "du": "verstandst",
+      "er": "verstand",
+      "wir": "verstanden",
+      "ihr": "verstandet"
+    },
+    "pk": {
+      "ich": "habe verstanden",
+      "du": "hast verstanden",
+      "er": "hat verstanden",
+      "wir": "haben verstanden",
+      "ihr": "habt verstanden",
+      "sie": "haben verstanden"
+    }
+  },
+  {
+    "w": "leben",
+    "e": "to live",
+    "t": "reg",
+    "p2": "gelebt",
+    "hs": "haben",
+    "pr": {
+      "ich": "lebe",
+      "du": "lebst",
+      "er": "lebt",
+      "wir": "leben",
+      "ihr": "lebt",
+      "sie": "leben"
+    },
+    "pt": {
+      "ich": "lebte",
+      "du": "lebtest",
+      "er": "lebte",
+      "wir": "lebten",
+      "ihr": "lebtet"
+    },
+    "pk": {
+      "ich": "habe gelebt",
+      "du": "hast gelebt",
+      "er": "hat gelebt",
+      "wir": "haben gelebt",
+      "ihr": "habt gelebt",
+      "sie": "haben gelebt"
+    }
+  },
+  {
+    "w": "arbeiten",
+    "e": "to work",
+    "t": "reg",
+    "p2": "gearbeitet",
+    "hs": "haben",
+    "pr": {
+      "ich": "arbeite",
+      "du": "arbeitest",
+      "er": "arbeitet",
+      "wir": "arbeiten",
+      "ihr": "arbeitet",
+      "sie": "arbeiten"
+    },
+    "pt": {
+      "ich": "arbeitete",
+      "du": "arbeitetest",
+      "er": "arbeitete",
+      "wir": "arbeiteten",
+      "ihr": "arbeitetet"
+    },
+    "pk": {
+      "ich": "habe gearbeitet",
+      "du": "hast gearbeitet",
+      "er": "hat gearbeitet",
+      "wir": "haben gearbeitet",
+      "ihr": "habt gearbeitet",
+      "sie": "haben gearbeitet"
+    }
+  },
+  {
+    "w": "fallen",
+    "e": "to fall",
+    "t": "irr",
+    "p2": "gefallen",
+    "hs": "sein",
+    "pr": {
+      "ich": "falle",
+      "du": "fällst",
+      "er": "fällt",
+      "wir": "fallen",
+      "ihr": "fallt",
+      "sie": "fallen"
+    },
+    "pt": {
+      "ich": "fiel",
+      "du": "fielst",
+      "er": "fiel",
+      "wir": "fielen",
+      "ihr": "fielt"
+    },
+    "pk": {
+      "ich": "bin gefallen",
+      "du": "bist gefallen",
+      "er": "ist gefallen",
+      "wir": "sind gefallen",
+      "ihr": "seid gefallen",
+      "sie": "sind gefallen"
+    }
+  },
+  {
+    "w": "mögen",
+    "e": "to like",
+    "t": "irr",
+    "p2": "gemocht",
+    "hs": "haben",
+    "pr": {
+      "ich": "mag",
+      "du": "magst",
+      "er": "mag",
+      "wir": "mögen",
+      "ihr": "mögt",
+      "sie": "mögen"
+    },
+    "pt": {
+      "ich": "mochte",
+      "du": "mochtest",
+      "er": "mochte",
+      "wir": "mochten",
+      "ihr": "mochtet"
+    },
+    "pk": {
+      "ich": "habe gemocht",
+      "du": "hast gemocht",
+      "er": "hat gemocht",
+      "wir": "haben gemocht",
+      "ihr": "habt gemocht",
+      "sie": "haben gemocht"
+    }
+  },
+  {
+    "w": "tun",
+    "e": "to do",
+    "t": "irr",
+    "p2": "getan",
+    "hs": "haben",
+    "pr": {
+      "ich": "tue",
+      "du": "tust",
+      "er": "tut",
+      "wir": "tun",
+      "ihr": "tut",
+      "sie": "tun"
+    },
+    "pt": {
+      "ich": "tat",
+      "du": "tatst",
+      "er": "tat",
+      "wir": "taten",
+      "ihr": "tatet"
+    },
+    "pk": {
+      "ich": "habe getan",
+      "du": "hast getan",
+      "er": "hat getan",
+      "wir": "haben getan",
+      "ihr": "habt getan",
+      "sie": "haben getan"
+    }
+  },
+  {
+    "w": "können",
+    "e": "can/to be able to",
+    "t": "irr",
+    "p2": "gekonnt",
+    "hs": "haben",
+    "pr": {
+      "ich": "kann",
+      "du": "kannst",
+      "er": "kann",
+      "wir": "können",
+      "ihr": "könnt",
+      "sie": "können"
+    },
+    "pt": {
+      "ich": "konnte",
+      "du": "konntest",
+      "er": "konnte",
+      "wir": "konnten",
+      "ihr": "konntet"
+    },
+    "pk": {
+      "ich": "habe gekonnt",
+      "du": "hast gekonnt",
+      "er": "hat gekonnt",
+      "wir": "haben gekonnt",
+      "ihr": "habt gekonnt",
+      "sie": "haben gekonnt"
+    }
+  },
+  {
+    "w": "halten",
+    "e": "to hold/stop",
+    "t": "irr",
+    "p2": "gehalten",
+    "hs": "haben",
+    "pr": {
+      "ich": "halte",
+      "du": "hältst",
+      "er": "hält",
+      "wir": "halten",
+      "ihr": "haltet",
+      "sie": "halten"
+    },
+    "pt": {
+      "ich": "hielt",
+      "du": "hieltest",
+      "er": "hielt",
+      "wir": "hielten",
+      "ihr": "hieltet"
+    },
+    "pk": {
+      "ich": "habe gehalten",
+      "du": "hast gehalten",
+      "er": "hat gehalten",
+      "wir": "haben gehalten",
+      "ihr": "habt gehalten",
+      "sie": "haben gehalten"
+    }
+  },
+  {
+    "w": "spielen",
+    "e": "to play",
+    "t": "reg",
+    "p2": "gespielt",
+    "hs": "haben",
+    "pr": {
+      "ich": "spiele",
+      "du": "spielst",
+      "er": "spielt",
+      "wir": "spielen",
+      "ihr": "spielt",
+      "sie": "spielen"
+    },
+    "pt": {
+      "ich": "spielte",
+      "du": "spieltest",
+      "er": "spielte",
+      "wir": "spielten",
+      "ihr": "spieltet"
+    },
+    "pk": {
+      "ich": "habe gespielt",
+      "du": "hast gespielt",
+      "er": "hat gespielt",
+      "wir": "haben gespielt",
+      "ihr": "habt gespielt",
+      "sie": "haben gespielt"
+    }
+  },
+  {
+    "w": "sagen",
+    "e": "to say",
+    "t": "reg",
+    "p2": "gesagt",
+    "hs": "haben",
+    "pr": {
+      "ich": "sage",
+      "du": "sagst",
+      "er": "sagt",
+      "wir": "sagen",
+      "ihr": "sagt",
+      "sie": "sagen"
+    },
+    "pt": {
+      "ich": "sagte",
+      "du": "sagtest",
+      "er": "sagte",
+      "wir": "sagten",
+      "ihr": "sagtet"
+    },
+    "pk": {
+      "ich": "habe gesagt",
+      "du": "hast gesagt",
+      "er": "hat gesagt",
+      "wir": "haben gesagt",
+      "ihr": "habt gesagt",
+      "sie": "haben gesagt"
+    }
+  },
+  {
+    "w": "legen",
+    "e": "to lay/put down",
+    "t": "reg",
+    "p2": "gelegt",
+    "hs": "haben",
+    "pr": {
+      "ich": "lege",
+      "du": "legst",
+      "er": "legt",
+      "wir": "legen",
+      "ihr": "legt",
+      "sie": "legen"
+    },
+    "pt": {
+      "ich": "legte",
+      "du": "legtest",
+      "er": "legte",
+      "wir": "legten",
+      "ihr": "legtet"
+    },
+    "pk": {
+      "ich": "habe gelegt",
+      "du": "hast gelegt",
+      "er": "hat gelegt",
+      "wir": "haben gelegt",
+      "ihr": "habt gelegt",
+      "sie": "haben gelegt"
+    }
+  },
+  {
+    "w": "folgen",
+    "e": "to follow",
+    "t": "reg",
+    "p2": "gefolgt",
+    "hs": "sein",
+    "pr": {
+      "ich": "folge",
+      "du": "folgst",
+      "er": "folgt",
+      "wir": "folgen",
+      "ihr": "folgt",
+      "sie": "folgen"
+    },
+    "pt": {
+      "ich": "folgte",
+      "du": "folgtest",
+      "er": "folgte",
+      "wir": "folgten",
+      "ihr": "folgtet"
+    },
+    "pk": {
+      "ich": "bin gefolgt",
+      "du": "bist gefolgt",
+      "er": "ist gefolgt",
+      "wir": "sind gefolgt",
+      "ihr": "seid gefolgt",
+      "sie": "sind gefolgt"
+    }
+  },
+  {
+    "w": "stehen",
+    "e": "to stand",
+    "t": "irr",
+    "p2": "gestanden",
+    "hs": "haben",
+    "pr": {
+      "ich": "stehe",
+      "du": "stehst",
+      "er": "steht",
+      "wir": "stehen",
+      "ihr": "steht",
+      "sie": "stehen"
+    },
+    "pt": {
+      "ich": "stand",
+      "du": "standst",
+      "er": "stand",
+      "wir": "standen",
+      "ihr": "standet"
+    },
+    "pk": {
+      "ich": "habe gestanden",
+      "du": "hast gestanden",
+      "er": "hat gestanden",
+      "wir": "haben gestanden",
+      "ihr": "habt gestanden",
+      "sie": "haben gestanden"
+    }
+  },
+  {
+    "w": "haben",
+    "e": "to have",
+    "t": "irr",
+    "p2": "gehabt",
+    "hs": "haben",
+    "pr": {
+      "ich": "habe",
+      "du": "hast",
+      "er": "hat",
+      "wir": "haben",
+      "ihr": "habt",
+      "sie": "haben"
+    },
+    "pt": {
+      "ich": "hatte",
+      "du": "hattest",
+      "er": "hatte",
+      "wir": "hatten",
+      "ihr": "hattet"
+    },
+    "pk": {
+      "ich": "habe gehabt",
+      "du": "hast gehabt",
+      "er": "hat gehabt",
+      "wir": "haben gehabt",
+      "ihr": "habt gehabt",
+      "sie": "haben gehabt"
+    }
+  },
+  {
+    "w": "lernen",
+    "e": "to learn",
+    "t": "reg",
+    "p2": "gelernt",
+    "hs": "haben",
+    "pr": {
+      "ich": "lerne",
+      "du": "lernst",
+      "er": "lernt",
+      "wir": "lernen",
+      "ihr": "lernt",
+      "sie": "lernen"
+    },
+    "pt": {
+      "ich": "lernte",
+      "du": "lerntest",
+      "er": "lernte",
+      "wir": "lernten",
+      "ihr": "lerntet"
+    },
+    "pk": {
+      "ich": "habe gelernt",
+      "du": "hast gelernt",
+      "er": "hat gelernt",
+      "wir": "haben gelernt",
+      "ihr": "habt gelernt",
+      "sie": "haben gelernt"
+    }
+  },
+  {
+    "w": "brauchen",
+    "e": "to need",
+    "t": "reg",
+    "p2": "gebraucht",
+    "hs": "haben",
+    "pr": {
+      "ich": "brauche",
+      "du": "brauchst",
+      "er": "braucht",
+      "wir": "brauchen",
+      "ihr": "braucht",
+      "sie": "brauchen"
+    },
+    "pt": {
+      "ich": "brauchte",
+      "du": "brauchtest",
+      "er": "brauchte",
+      "wir": "brauchten",
+      "ihr": "brauchtet"
+    },
+    "pk": {
+      "ich": "habe gebraucht",
+      "du": "hast gebraucht",
+      "er": "hat gebraucht",
+      "wir": "haben gebraucht",
+      "ihr": "habt gebraucht",
+      "sie": "haben gebraucht"
+    }
+  },
+  {
+    "w": "liegen",
+    "e": "to lie/be lying",
+    "t": "irr",
+    "p2": "gelegen",
+    "hs": "haben",
+    "pr": {
+      "ich": "liege",
+      "du": "liegst",
+      "er": "liegt",
+      "wir": "liegen",
+      "ihr": "liegt",
+      "sie": "liegen"
+    },
+    "pt": {
+      "ich": "lag",
+      "du": "lagst",
+      "er": "lag",
+      "wir": "lagen",
+      "ihr": "lagt"
+    },
+    "pk": {
+      "ich": "habe gelegen",
+      "du": "hast gelegen",
+      "er": "hat gelegen",
+      "wir": "haben gelegen",
+      "ihr": "habt gelegen",
+      "sie": "haben gelegen"
+    }
+  },
+  {
+    "w": "wissen",
+    "e": "to know",
+    "t": "irr",
+    "p2": "gewusst",
+    "hs": "haben",
+    "pr": {
+      "ich": "weiß",
+      "du": "weißt",
+      "er": "weiß",
+      "wir": "wissen",
+      "ihr": "wisst",
+      "sie": "wissen"
+    },
+    "pt": {
+      "ich": "wusste",
+      "du": "wusstest",
+      "er": "wusste",
+      "wir": "wussten",
+      "ihr": "wusstet"
+    },
+    "pk": {
+      "ich": "habe gewusst",
+      "du": "hast gewusst",
+      "er": "hat gewusst",
+      "wir": "haben gewusst",
+      "ihr": "habt gewusst",
+      "sie": "haben gewusst"
+    }
+  },
+  {
+    "w": "werden",
+    "e": "to become",
+    "t": "irr",
+    "p2": "geworden",
+    "hs": "sein",
+    "pr": {
+      "ich": "werde",
+      "du": "wirst",
+      "er": "wird",
+      "wir": "werden",
+      "ihr": "werdet",
+      "sie": "werden"
+    },
+    "pt": {
+      "ich": "wurde",
+      "du": "wurdest",
+      "er": "wurde",
+      "wir": "wurden",
+      "ihr": "wurdet"
+    },
+    "pk": {
+      "ich": "bin geworden",
+      "du": "bist geworden",
+      "er": "ist geworden",
+      "wir": "sind geworden",
+      "ihr": "seid geworden",
+      "sie": "sind geworden"
+    }
+  },
+  {
+    "w": "glauben",
+    "e": "to believe",
+    "t": "reg",
+    "p2": "geglaubt",
+    "hs": "haben",
+    "pr": {
+      "ich": "glaube",
+      "du": "glaubst",
+      "er": "glaubt",
+      "wir": "glauben",
+      "ihr": "glaubt",
+      "sie": "glauben"
+    },
+    "pt": {
+      "ich": "glaubte",
+      "du": "glaubtest",
+      "er": "glaubte",
+      "wir": "glaubten",
+      "ihr": "glaubtet"
+    },
+    "pk": {
+      "ich": "habe geglaubt",
+      "du": "hast geglaubt",
+      "er": "hat geglaubt",
+      "wir": "haben geglaubt",
+      "ihr": "habt geglaubt",
+      "sie": "haben geglaubt"
+    }
+  },
+  {
+    "w": "lesen",
+    "e": "to read",
+    "t": "irr",
+    "p2": "gelesen",
+    "hs": "haben",
+    "pr": {
+      "ich": "lese",
+      "du": "liest",
+      "er": "liest",
+      "wir": "lesen",
+      "ihr": "lest",
+      "sie": "lesen"
+    },
+    "pt": {
+      "ich": "las",
+      "du": "lasest",
+      "er": "las",
+      "wir": "lasen",
+      "ihr": "last"
+    },
+    "pk": {
+      "ich": "habe gelesen",
+      "du": "hast gelesen",
+      "er": "hat gelesen",
+      "wir": "haben gelesen",
+      "ihr": "habt gelesen",
+      "sie": "haben gelesen"
+    }
+  },
+  {
+    "w": "führen",
+    "e": "to lead/conduct",
+    "t": "reg",
+    "p2": "geführt",
+    "hs": "haben",
+    "pr": {
+      "ich": "führe",
+      "du": "führst",
+      "er": "führt",
+      "wir": "führen",
+      "ihr": "führt",
+      "sie": "führen"
+    },
+    "pt": {
+      "ich": "führte",
+      "du": "führtest",
+      "er": "führte",
+      "wir": "führten",
+      "ihr": "führtet"
+    },
+    "pk": {
+      "ich": "habe geführt",
+      "du": "hast geführt",
+      "er": "hat geführt",
+      "wir": "haben geführt",
+      "ihr": "habt geführt",
+      "sie": "haben geführt"
+    }
+  },
+  {
+    "w": "setzen",
+    "e": "to set/sit down",
+    "t": "reg",
+    "p2": "gesetzt",
+    "hs": "haben",
+    "pr": {
+      "ich": "setze",
+      "du": "setzt",
+      "er": "setzt",
+      "wir": "setzen",
+      "ihr": "setzt",
+      "sie": "setzen"
+    },
+    "pt": {
+      "ich": "setzte",
+      "du": "setztest",
+      "er": "setzte",
+      "wir": "setzten",
+      "ihr": "setztet"
+    },
+    "pk": {
+      "ich": "habe gesetzt",
+      "du": "hast gesetzt",
+      "er": "hat gesetzt",
+      "wir": "haben gesetzt",
+      "ihr": "habt gesetzt",
+      "sie": "haben gesetzt"
+    }
+  },
+  {
+    "w": "hören",
+    "e": "to hear/listen",
+    "t": "reg",
+    "p2": "gehört",
+    "hs": "haben",
+    "pr": {
+      "ich": "höre",
+      "du": "hörst",
+      "er": "hört",
+      "wir": "hören",
+      "ihr": "hört",
+      "sie": "hören"
+    },
+    "pt": {
+      "ich": "hörte",
+      "du": "hörtest",
+      "er": "hörte",
+      "wir": "hörten",
+      "ihr": "hörtet"
+    },
+    "pk": {
+      "ich": "habe gehört",
+      "du": "hast gehört",
+      "er": "hat gehört",
+      "wir": "haben gehört",
+      "ihr": "habt gehört",
+      "sie": "haben gehört"
+    }
+  },
+  {
+    "w": "sein",
+    "e": "to be",
+    "t": "irr",
+    "p2": "gewesen",
+    "hs": "sein",
+    "pr": {
+      "ich": "bin",
+      "du": "bist",
+      "er": "ist",
+      "wir": "sind",
+      "ihr": "seid",
+      "sie": "sind"
+    },
+    "pt": {
+      "ich": "war",
+      "du": "warst",
+      "er": "war",
+      "wir": "waren",
+      "ihr": "wart"
+    },
+    "pk": {
+      "ich": "bin gewesen",
+      "du": "bist gewesen",
+      "er": "ist gewesen",
+      "wir": "sind gewesen",
+      "ihr": "seid gewesen",
+      "sie": "sind gewesen"
+    }
+  },
+  {
+    "w": "müssen",
+    "e": "must/to have to",
+    "t": "irr",
+    "p2": "gemusst",
+    "hs": "haben",
+    "pr": {
+      "ich": "muss",
+      "du": "musst",
+      "er": "muss",
+      "wir": "müssen",
+      "ihr": "müsst",
+      "sie": "müssen"
+    },
+    "pt": {
+      "ich": "musste",
+      "du": "musstest",
+      "er": "musste",
+      "wir": "mussten",
+      "ihr": "musstet"
+    },
+    "pk": {
+      "ich": "habe gemusst",
+      "du": "hast gemusst",
+      "er": "hat gemusst",
+      "wir": "haben gemusst",
+      "ihr": "habt gemusst",
+      "sie": "haben gemusst"
+    }
+  },
+  {
+    "w": "sehen",
+    "e": "to see",
+    "t": "irr",
+    "p2": "gesehen",
+    "hs": "haben",
+    "pr": {
+      "ich": "sehe",
+      "du": "siehst",
+      "er": "sieht",
+      "wir": "sehen",
+      "ihr": "seht",
+      "sie": "sehen"
+    },
+    "pt": {
+      "ich": "sah",
+      "du": "sahst",
+      "er": "sah",
+      "wir": "sahen",
+      "ihr": "saht"
+    },
+    "pk": {
+      "ich": "habe gesehen",
+      "du": "hast gesehen",
+      "er": "hat gesehen",
+      "wir": "haben gesehen",
+      "ihr": "habt gesehen",
+      "sie": "haben gesehen"
+    }
+  },
+  {
+    "w": "wollen",
+    "e": "to want",
+    "t": "irr",
+    "p2": "gewollt",
+    "hs": "haben",
+    "pr": {
+      "ich": "will",
+      "du": "willst",
+      "er": "will",
+      "wir": "wollen",
+      "ihr": "wollt",
+      "sie": "wollen"
+    },
+    "pt": {
+      "ich": "wollte",
+      "du": "wolltest",
+      "er": "wollte",
+      "wir": "wollten",
+      "ihr": "wolltet"
+    },
+    "pk": {
+      "ich": "habe gewollt",
+      "du": "hast gewollt",
+      "er": "hat gewollt",
+      "wir": "haben gewollt",
+      "ihr": "habt gewollt",
+      "sie": "haben gewollt"
+    }
+  },
+  {
+    "w": "kaufen",
+    "e": "to buy",
+    "t": "reg",
+    "p2": "gekauft",
+    "hs": "haben",
+    "pr": {
+      "ich": "kaufe",
+      "du": "kaufst",
+      "er": "kauft",
+      "wir": "kaufen",
+      "ihr": "kauft",
+      "sie": "kaufen"
+    },
+    "pt": {
+      "ich": "kaufte",
+      "du": "kauftest",
+      "er": "kaufte",
+      "wir": "kauften",
+      "ihr": "kauftet"
+    },
+    "pk": {
+      "ich": "habe gekauft",
+      "du": "hast gekauft",
+      "er": "hat gekauft",
+      "wir": "haben gekauft",
+      "ihr": "habt gekauft",
+      "sie": "haben gekauft"
+    }
+  },
+  {
+    "w": "sollen",
+    "e": "should/ought to",
+    "t": "irr",
+    "p2": "gesollt",
+    "hs": "haben",
+    "pr": {
+      "ich": "soll",
+      "du": "sollst",
+      "er": "soll",
+      "wir": "sollen",
+      "ihr": "sollt",
+      "sie": "sollen"
+    },
+    "pt": {
+      "ich": "sollte",
+      "du": "solltest",
+      "er": "sollte",
+      "wir": "sollten",
+      "ihr": "solltet"
+    },
+    "pk": {
+      "ich": "habe gesollt",
+      "du": "hast gesollt",
+      "er": "hat gesollt",
+      "wir": "haben gesollt",
+      "ihr": "habt gesollt",
+      "sie": "haben gesollt"
+    }
+  },
+  {
+    "w": "finden",
+    "e": "to find",
+    "t": "irr",
+    "p2": "gefunden",
+    "hs": "haben",
+    "pr": {
+      "ich": "finde",
+      "du": "findest",
+      "er": "findet",
+      "wir": "finden",
+      "ihr": "findet",
+      "sie": "finden"
+    },
+    "pt": {
+      "ich": "fand",
+      "du": "fandst",
+      "er": "fand",
+      "wir": "fanden",
+      "ihr": "fandet"
+    },
+    "pk": {
+      "ich": "habe gefunden",
+      "du": "hast gefunden",
+      "er": "hat gefunden",
+      "wir": "haben gefunden",
+      "ihr": "habt gefunden",
+      "sie": "haben gefunden"
+    }
+  },
+  {
+    "w": "dürfen",
+    "e": "may/to be allowed",
+    "t": "irr",
+    "p2": "gedurft",
+    "hs": "haben",
+    "pr": {
+      "ich": "darf",
+      "du": "darfst",
+      "er": "darf",
+      "wir": "dürfen",
+      "ihr": "dürft",
+      "sie": "dürfen"
+    },
+    "pt": {
+      "ich": "durfte",
+      "du": "durftest",
+      "er": "durfte",
+      "wir": "durften",
+      "ihr": "durftet"
+    },
+    "pk": {
+      "ich": "habe gedurft",
+      "du": "hast gedurft",
+      "er": "hat gedurft",
+      "wir": "haben gedurft",
+      "ihr": "habt gedurft",
+      "sie": "haben gedurft"
+    }
+  },
+  {
+    "w": "bringen",
+    "e": "to bring",
+    "t": "mix",
+    "p2": "gebracht",
+    "hs": "haben",
+    "pr": {
+      "ich": "bringe",
+      "du": "bringst",
+      "er": "bringt",
+      "wir": "bringen",
+      "ihr": "bringt",
+      "sie": "bringen"
+    },
+    "pt": {
+      "ich": "brachte",
+      "du": "brachtest",
+      "er": "brachte",
+      "wir": "brachten",
+      "ihr": "brachtet"
+    },
+    "pk": {
+      "ich": "habe gebracht",
+      "du": "hast gebracht",
+      "er": "hat gebracht",
+      "wir": "haben gebracht",
+      "ihr": "habt gebracht",
+      "sie": "haben gebracht"
+    }
+  },
+  {
+    "w": "geben",
+    "e": "to give",
+    "t": "irr",
+    "p2": "gegeben",
+    "hs": "haben",
+    "pr": {
+      "ich": "gebe",
+      "du": "gibst",
+      "er": "gibt",
+      "wir": "geben",
+      "ihr": "gebt",
+      "sie": "geben"
+    },
+    "pt": {
+      "ich": "gab",
+      "du": "gabst",
+      "er": "gab",
+      "wir": "gaben",
+      "ihr": "gabt"
+    },
+    "pk": {
+      "ich": "habe gegeben",
+      "du": "hast gegeben",
+      "er": "hat gegeben",
+      "wir": "haben gegeben",
+      "ihr": "habt gegeben",
+      "sie": "haben gegeben"
+    }
+  },
+  {
+    "w": "nehmen",
+    "e": "to take",
+    "t": "irr",
+    "p2": "genommen",
+    "hs": "haben",
+    "pr": {
+      "ich": "nehme",
+      "du": "nimmst",
+      "er": "nimmt",
+      "wir": "nehmen",
+      "ihr": "nehmt",
+      "sie": "nehmen"
+    },
+    "pt": {
+      "ich": "nahm",
+      "du": "nahmst",
+      "er": "nahm",
+      "wir": "nahmen",
+      "ihr": "nahmt"
+    },
+    "pk": {
+      "ich": "habe genommen",
+      "du": "hast genommen",
+      "er": "hat genommen",
+      "wir": "haben genommen",
+      "ihr": "habt genommen",
+      "sie": "haben genommen"
+    }
+  },
+  {
+    "w": "schreiben",
+    "e": "to write",
+    "t": "irr",
+    "p2": "geschrieben",
+    "hs": "haben",
+    "pr": {
+      "ich": "schreibe",
+      "du": "schreibst",
+      "er": "schreibt",
+      "wir": "schreiben",
+      "ihr": "schreibt",
+      "sie": "schreiben"
+    },
+    "pt": {
+      "ich": "schrieb",
+      "du": "schriebst",
+      "er": "schrieb",
+      "wir": "schrieben",
+      "ihr": "schriebt"
+    },
+    "pk": {
+      "ich": "habe geschrieben",
+      "du": "hast geschrieben",
+      "er": "hat geschrieben",
+      "wir": "haben geschrieben",
+      "ihr": "habt geschrieben",
+      "sie": "haben geschrieben"
+    }
+  },
+  {
+    "w": "kommen",
+    "e": "to come",
+    "t": "irr",
+    "p2": "gekommen",
+    "hs": "sein",
+    "pr": {
+      "ich": "komme",
+      "du": "kommst",
+      "er": "kommt",
+      "wir": "kommen",
+      "ihr": "kommt",
+      "sie": "kommen"
+    },
+    "pt": {
+      "ich": "kam",
+      "du": "kamst",
+      "er": "kam",
+      "wir": "kamen",
+      "ihr": "kamt"
+    },
+    "pk": {
+      "ich": "bin gekommen",
+      "du": "bist gekommen",
+      "er": "ist gekommen",
+      "wir": "sind gekommen",
+      "ihr": "seid gekommen",
+      "sie": "sind gekommen"
+    }
+  },
+  {
+    "w": "zeigen",
+    "e": "to show",
+    "t": "reg",
+    "p2": "gezeigt",
+    "hs": "haben",
+    "pr": {
+      "ich": "zeige",
+      "du": "zeigst",
+      "er": "zeigt",
+      "wir": "zeigen",
+      "ihr": "zeigt",
+      "sie": "zeigen"
+    },
+    "pt": {
+      "ich": "zeigte",
+      "du": "zeigtest",
+      "er": "zeigte",
+      "wir": "zeigten",
+      "ihr": "zeigtet"
+    },
+    "pk": {
+      "ich": "habe gezeigt",
+      "du": "hast gezeigt",
+      "er": "hat gezeigt",
+      "wir": "haben gezeigt",
+      "ihr": "habt gezeigt",
+      "sie": "haben gezeigt"
+    }
+  },
+  {
+    "w": "studieren",
+    "e": "to study at university",
+    "t": "reg",
+    "p2": "studiert",
+    "hs": "haben",
+    "pr": {
+      "ich": "studiere",
+      "du": "studierst",
+      "er": "studiert",
+      "wir": "studieren",
+      "ihr": "studiert",
+      "sie": "studieren"
+    },
+    "pt": {
+      "ich": "studierte",
+      "du": "studiertest",
+      "er": "studierte",
+      "wir": "studierten",
+      "ihr": "studiertet"
+    },
+    "pk": {
+      "ich": "habe studiert",
+      "du": "hast studiert",
+      "er": "hat studiert",
+      "wir": "haben studiert",
+      "ihr": "habt studiert",
+      "sie": "haben studiert"
+    }
+  },
+  {
+    "w": "reagieren",
+    "e": "to react",
+    "t": "reg",
+    "p2": "reagiert",
+    "hs": "haben",
+    "pr": {
+      "ich": "reagiere",
+      "du": "reagierst",
+      "er": "reagiert",
+      "wir": "reagieren",
+      "ihr": "reagiert",
+      "sie": "reagieren"
+    },
+    "pt": {
+      "ich": "reagierte",
+      "du": "reagiertest",
+      "er": "reagierte",
+      "wir": "reagierten",
+      "ihr": "reagiertet"
+    },
+    "pk": {
+      "ich": "habe reagiert",
+      "du": "hast reagiert",
+      "er": "hat reagiert",
+      "wir": "haben reagiert",
+      "ihr": "habt reagiert",
+      "sie": "haben reagiert"
+    }
+  },
+  {
+    "w": "essen",
+    "e": "to eat",
+    "t": "irr",
+    "p2": "gegessen",
+    "hs": "haben",
+    "pr": {
+      "ich": "esse",
+      "du": "isst",
+      "er": "isst",
+      "wir": "essen",
+      "ihr": "esst",
+      "sie": "essen"
+    },
+    "pt": {
+      "ich": "aß",
+      "du": "aßest",
+      "er": "aß",
+      "wir": "aßen",
+      "ihr": "aßt"
+    },
+    "pk": {
+      "ich": "habe gegessen",
+      "du": "hast gegessen",
+      "er": "hat gegessen",
+      "wir": "haben gegessen",
+      "ihr": "habt gegessen",
+      "sie": "haben gegessen"
+    }
+  },
+  {
+    "w": "bilden",
+    "e": "to form/educate",
+    "t": "reg",
+    "p2": "gebildet",
+    "hs": "haben",
+    "pr": {
+      "ich": "bilde",
+      "du": "bildest",
+      "er": "bildet",
+      "wir": "bilden",
+      "ihr": "bildet",
+      "sie": "bilden"
+    },
+    "pt": {
+      "ich": "bildete",
+      "du": "bildetest",
+      "er": "bildete",
+      "wir": "bildeten",
+      "ihr": "bildetet"
+    },
+    "pk": {
+      "ich": "habe gebildet",
+      "du": "hast gebildet",
+      "er": "hat gebildet",
+      "wir": "haben gebildet",
+      "ihr": "habt gebildet",
+      "sie": "haben gebildet"
+    }
+  },
+  {
+    "w": "erhalten",
+    "e": "to receive",
+    "t": "irr",
+    "p2": "erhalten",
+    "hs": "haben",
+    "pr": {
+      "ich": "erhalte",
+      "du": "erhältst",
+      "er": "erhält",
+      "wir": "erhalten",
+      "ihr": "erhaltet",
+      "sie": "erhalten"
+    },
+    "pt": {
+      "ich": "erhielt",
+      "du": "erhieltest",
+      "er": "erhielt",
+      "wir": "erhielten",
+      "ihr": "erhieltet"
+    },
+    "pk": {
+      "ich": "habe erhalten",
+      "du": "hast erhalten",
+      "er": "hat erhalten",
+      "wir": "haben erhalten",
+      "ihr": "habt erhalten",
+      "sie": "haben erhalten"
+    }
+  },
+  {
+    "w": "umziehen",
+    "e": "to move house",
+    "t": "irr",
+    "p2": "umgezogen",
+    "hs": "sein",
+    "pr": {
+      "ich": "ziehe um",
+      "du": "ziehst um",
+      "er": "zieht um",
+      "wir": "ziehen um",
+      "ihr": "zieht um",
+      "sie": "ziehen um"
+    },
+    "pt": {
+      "ich": "zog um",
+      "du": "zogst um",
+      "er": "zog um",
+      "wir": "zogen um",
+      "ihr": "zogt um"
+    },
+    "pk": {
+      "ich": "bin umgezogen",
+      "du": "bist umgezogen",
+      "er": "ist umgezogen",
+      "wir": "sind umgezogen",
+      "ihr": "seid umgezogen",
+      "sie": "sind umgezogen"
+    }
+  },
+  {
+    "w": "antworten",
+    "e": "to answer",
+    "t": "reg",
+    "p2": "geantwortet",
+    "hs": "haben",
+    "pr": {
+      "ich": "antworte",
+      "du": "antwortest",
+      "er": "antwortet",
+      "wir": "antworten",
+      "ihr": "antwortet",
+      "sie": "antworten"
+    },
+    "pt": {
+      "ich": "antwortete",
+      "du": "antwortetest",
+      "er": "antwortete",
+      "wir": "antworteten",
+      "ihr": "antwortetet"
+    },
+    "pk": {
+      "ich": "habe geantwortet",
+      "du": "hast geantwortet",
+      "er": "hat geantwortet",
+      "wir": "haben geantwortet",
+      "ihr": "habt geantwortet",
+      "sie": "haben geantwortet"
+    }
+  },
+  {
+    "w": "treffen",
+    "e": "to meet/hit",
+    "t": "irr",
+    "p2": "getroffen",
+    "hs": "haben",
+    "pr": {
+      "ich": "treffe",
+      "du": "triffst",
+      "er": "trifft",
+      "wir": "treffen",
+      "ihr": "trefft",
+      "sie": "treffen"
+    },
+    "pt": {
+      "ich": "traf",
+      "du": "trafst",
+      "er": "traf",
+      "wir": "trafen",
+      "ihr": "traft"
+    },
+    "pk": {
+      "ich": "habe getroffen",
+      "du": "hast getroffen",
+      "er": "hat getroffen",
+      "wir": "haben getroffen",
+      "ihr": "habt getroffen",
+      "sie": "haben getroffen"
+    }
+  },
+  {
+    "w": "fahren",
+    "e": "to drive/travel",
+    "t": "irr",
+    "p2": "gefahren",
+    "hs": "sein",
+    "pr": {
+      "ich": "fahre",
+      "du": "fährst",
+      "er": "fährt",
+      "wir": "fahren",
+      "ihr": "fahrt",
+      "sie": "fahren"
+    },
+    "pt": {
+      "ich": "fuhr",
+      "du": "fuhrst",
+      "er": "fuhr",
+      "wir": "fuhren",
+      "ihr": "fuhrt"
+    },
+    "pk": {
+      "ich": "bin gefahren",
+      "du": "bist gefahren",
+      "er": "ist gefahren",
+      "wir": "sind gefahren",
+      "ihr": "seid gefahren",
+      "sie": "sind gefahren"
+    }
+  },
+  {
+    "w": "aufhören",
+    "e": "to stop/cease",
+    "t": "reg",
+    "p2": "aufgehört",
+    "hs": "haben",
+    "pr": {
+      "ich": "höre auf",
+      "du": "hörst auf",
+      "er": "hört auf",
+      "wir": "hören auf",
+      "ihr": "hört auf",
+      "sie": "hören auf"
+    },
+    "pt": {
+      "ich": "hörte auf",
+      "du": "hörtest auf",
+      "er": "hörte auf",
+      "wir": "hörten auf",
+      "ihr": "hörtet auf"
+    },
+    "pk": {
+      "ich": "habe aufgehört",
+      "du": "hast aufgehört",
+      "er": "hat aufgehört",
+      "wir": "haben aufgehört",
+      "ihr": "habt aufgehört",
+      "sie": "haben aufgehört"
+    }
+  },
+  {
+    "w": "wohnen",
+    "e": "to live/reside",
+    "t": "reg",
+    "p2": "gewohnt",
+    "hs": "haben",
+    "pr": {
+      "ich": "wohne",
+      "du": "wohnst",
+      "er": "wohnt",
+      "wir": "wohnen",
+      "ihr": "wohnt",
+      "sie": "wohnen"
+    },
+    "pt": {
+      "ich": "wohnte",
+      "du": "wohntest",
+      "er": "wohnte",
+      "wir": "wohnten",
+      "ihr": "wohntet"
+    },
+    "pk": {
+      "ich": "habe gewohnt",
+      "du": "hast gewohnt",
+      "er": "hat gewohnt",
+      "wir": "haben gewohnt",
+      "ihr": "habt gewohnt",
+      "sie": "haben gewohnt"
+    }
+  },
+  {
+    "w": "gewinnen",
+    "e": "to win",
+    "t": "irr",
+    "p2": "gewonnen",
+    "hs": "haben",
+    "pr": {
+      "ich": "gewinne",
+      "du": "gewinnst",
+      "er": "gewinnt",
+      "wir": "gewinnen",
+      "ihr": "gewinnt",
+      "sie": "gewinnen"
+    },
+    "pt": {
+      "ich": "gewann",
+      "du": "gewannst",
+      "er": "gewann",
+      "wir": "gewannen",
+      "ihr": "gewannt"
+    },
+    "pk": {
+      "ich": "habe gewonnen",
+      "du": "hast gewonnen",
+      "er": "hat gewonnen",
+      "wir": "haben gewonnen",
+      "ihr": "habt gewonnen",
+      "sie": "haben gewonnen"
+    }
+  },
+  {
+    "w": "erscheinen",
+    "e": "to appear",
+    "t": "irr",
+    "p2": "erschienen",
+    "hs": "sein",
+    "pr": {
+      "ich": "erscheine",
+      "du": "erscheinst",
+      "er": "erscheint",
+      "wir": "erscheinen",
+      "ihr": "erscheint",
+      "sie": "erscheinen"
+    },
+    "pt": {
+      "ich": "erschien",
+      "du": "erschienst",
+      "er": "erschien",
+      "wir": "erschienen",
+      "ihr": "erschient"
+    },
+    "pk": {
+      "ich": "bin erschienen",
+      "du": "bist erschienen",
+      "er": "ist erschienen",
+      "wir": "sind erschienen",
+      "ihr": "seid erschienen",
+      "sie": "sind erschienen"
+    }
+  },
+  {
+    "w": "anrufen",
+    "e": "to call/phone",
+    "t": "irr",
+    "p2": "angerufen",
+    "hs": "haben",
+    "pr": {
+      "ich": "rufe an",
+      "du": "rufst an",
+      "er": "ruft an",
+      "wir": "rufen an",
+      "ihr": "ruft an",
+      "sie": "rufen an"
+    },
+    "pt": {
+      "ich": "rief an",
+      "du": "riefst an",
+      "er": "rief an",
+      "wir": "riefen an",
+      "ihr": "rieft an"
+    },
+    "pk": {
+      "ich": "habe angerufen",
+      "du": "hast angerufen",
+      "er": "hat angerufen",
+      "wir": "haben angerufen",
+      "ihr": "habt angerufen",
+      "sie": "haben angerufen"
+    }
+  },
+  {
+    "w": "schwimmen",
+    "e": "to swim",
+    "t": "irr",
+    "p2": "geschwommen",
+    "hs": "sein",
+    "pr": {
+      "ich": "schwimme",
+      "du": "schwimmst",
+      "er": "schwimmt",
+      "wir": "schwimmen",
+      "ihr": "schwimmt",
+      "sie": "schwimmen"
+    },
+    "pt": {
+      "ich": "schwamm",
+      "du": "schwammst",
+      "er": "schwamm",
+      "wir": "schwammen",
+      "ihr": "schwammt"
+    },
+    "pk": {
+      "ich": "bin geschwommen",
+      "du": "bist geschwommen",
+      "er": "ist geschwommen",
+      "wir": "sind geschwommen",
+      "ihr": "seid geschwommen",
+      "sie": "sind geschwommen"
+    }
+  },
+  {
+    "w": "sterben",
+    "e": "to die",
+    "t": "irr",
+    "p2": "gestorben",
+    "hs": "sein",
+    "pr": {
+      "ich": "sterbe",
+      "du": "stirbst",
+      "er": "stirbt",
+      "wir": "sterben",
+      "ihr": "sterbt",
+      "sie": "sterben"
+    },
+    "pt": {
+      "ich": "starb",
+      "du": "starbst",
+      "er": "starb",
+      "wir": "starben",
+      "ihr": "starbt"
+    },
+    "pk": {
+      "ich": "bin gestorben",
+      "du": "bist gestorben",
+      "er": "ist gestorben",
+      "wir": "sind gestorben",
+      "ihr": "seid gestorben",
+      "sie": "sind gestorben"
+    }
+  },
+  {
+    "w": "verlieren",
+    "e": "to lose",
+    "t": "irr",
+    "p2": "verloren",
+    "hs": "haben",
+    "pr": {
+      "ich": "verliere",
+      "du": "verlierst",
+      "er": "verliert",
+      "wir": "verlieren",
+      "ihr": "verliert",
+      "sie": "verlieren"
+    },
+    "pt": {
+      "ich": "verlor",
+      "du": "verlorst",
+      "er": "verlor",
+      "wir": "verloren",
+      "ihr": "verlort"
+    },
+    "pk": {
+      "ich": "habe verloren",
+      "du": "hast verloren",
+      "er": "hat verloren",
+      "wir": "haben verloren",
+      "ihr": "habt verloren",
+      "sie": "haben verloren"
+    }
+  },
+  {
+    "w": "bedeuten",
+    "e": "to mean/signify",
+    "t": "reg",
+    "p2": "bedeutet",
+    "hs": "haben",
+    "pr": {
+      "ich": "bedeute",
+      "du": "bedeutest",
+      "er": "bedeutet",
+      "wir": "bedeuten",
+      "ihr": "bedeutet",
+      "sie": "bedeuten"
+    },
+    "pt": {
+      "ich": "bedeutete",
+      "du": "bedeutetest",
+      "er": "bedeutete",
+      "wir": "bedeuteten",
+      "ihr": "bedeutetet"
+    },
+    "pk": {
+      "ich": "habe bedeutet",
+      "du": "hast bedeutet",
+      "er": "hat bedeutet",
+      "wir": "haben bedeutet",
+      "ihr": "habt bedeutet",
+      "sie": "haben bedeutet"
+    }
+  },
+  {
+    "w": "handeln",
+    "e": "to act/deal",
+    "t": "reg",
+    "p2": "gehandelt",
+    "hs": "haben",
+    "pr": {
+      "ich": "handle",
+      "du": "handelst",
+      "er": "handelt",
+      "wir": "handeln",
+      "ihr": "handelt",
+      "sie": "handeln"
+    },
+    "pt": {
+      "ich": "handelte",
+      "du": "handeltest",
+      "er": "handelte",
+      "wir": "handelten",
+      "ihr": "handeltet"
+    },
+    "pk": {
+      "ich": "habe gehandelt",
+      "du": "hast gehandelt",
+      "er": "hat gehandelt",
+      "wir": "haben gehandelt",
+      "ihr": "habt gehandelt",
+      "sie": "haben gehandelt"
+    }
+  },
+  {
+    "w": "erklären",
+    "e": "to explain",
+    "t": "reg",
+    "p2": "erklärt",
+    "hs": "haben",
+    "pr": {
+      "ich": "erkläre",
+      "du": "erklärst",
+      "er": "erklärt",
+      "wir": "erklären",
+      "ihr": "erklärt",
+      "sie": "erklären"
+    },
+    "pt": {
+      "ich": "erklärte",
+      "du": "erklärtest",
+      "er": "erklärte",
+      "wir": "erklärten",
+      "ihr": "erklärtet"
+    },
+    "pk": {
+      "ich": "habe erklärt",
+      "du": "hast erklärt",
+      "er": "hat erklärt",
+      "wir": "haben erklärt",
+      "ihr": "habt erklärt",
+      "sie": "haben erklärt"
+    }
+  },
+  {
+    "w": "kennen",
+    "e": "to know/be acquainted with",
+    "t": "mix",
+    "p2": "gekannt",
+    "hs": "haben",
+    "pr": {
+      "ich": "kenne",
+      "du": "kennst",
+      "er": "kennt",
+      "wir": "kennen",
+      "ihr": "kennt",
+      "sie": "kennen"
+    },
+    "pt": {
+      "ich": "kannte",
+      "du": "kanntest",
+      "er": "kannte",
+      "wir": "kannten",
+      "ihr": "kanntet"
+    },
+    "pk": {
+      "ich": "habe gekannt",
+      "du": "hast gekannt",
+      "er": "hat gekannt",
+      "wir": "haben gekannt",
+      "ihr": "habt gekannt",
+      "sie": "haben gekannt"
+    }
+  },
+  {
+    "w": "einkaufen",
+    "e": "to go shopping",
+    "t": "reg",
+    "p2": "eingekauft",
+    "hs": "haben",
+    "pr": {
+      "ich": "kaufe ein",
+      "du": "kaufst ein",
+      "er": "kauft ein",
+      "wir": "kaufen ein",
+      "ihr": "kauft ein",
+      "sie": "kaufen ein"
+    },
+    "pt": {
+      "ich": "kaufte ein",
+      "du": "kauftest ein",
+      "er": "kaufte ein",
+      "wir": "kauften ein",
+      "ihr": "kauftet ein"
+    },
+    "pk": {
+      "ich": "habe eingekauft",
+      "du": "hast eingekauft",
+      "er": "hat eingekauft",
+      "wir": "haben eingekauft",
+      "ihr": "habt eingekauft",
+      "sie": "haben eingekauft"
+    }
+  },
+  {
+    "w": "hoffen",
+    "e": "to hope",
+    "t": "reg",
+    "p2": "gehofft",
+    "hs": "haben",
+    "pr": {
+      "ich": "hoffe",
+      "du": "hoffst",
+      "er": "hofft",
+      "wir": "hoffen",
+      "ihr": "hofft",
+      "sie": "hoffen"
+    },
+    "pt": {
+      "ich": "hoffte",
+      "du": "hofftest",
+      "er": "hoffte",
+      "wir": "hofften",
+      "ihr": "hofftet"
+    },
+    "pk": {
+      "ich": "habe gehofft",
+      "du": "hast gehofft",
+      "er": "hat gehofft",
+      "wir": "haben gehofft",
+      "ihr": "habt gehofft",
+      "sie": "haben gehofft"
+    }
+  },
+  {
+    "w": "schicken",
+    "e": "to send",
+    "t": "reg",
+    "p2": "geschickt",
+    "hs": "haben",
+    "pr": {
+      "ich": "schicke",
+      "du": "schickst",
+      "er": "schickt",
+      "wir": "schicken",
+      "ihr": "schickt",
+      "sie": "schicken"
+    },
+    "pt": {
+      "ich": "schickte",
+      "du": "schicktest",
+      "er": "schickte",
+      "wir": "schickten",
+      "ihr": "schicktet"
+    },
+    "pk": {
+      "ich": "habe geschickt",
+      "du": "hast geschickt",
+      "er": "hat geschickt",
+      "wir": "haben geschickt",
+      "ihr": "habt geschickt",
+      "sie": "haben geschickt"
+    }
+  },
+  {
+    "w": "zahlen",
+    "e": "to pay",
+    "t": "reg",
+    "p2": "gezahlt",
+    "hs": "haben",
+    "pr": {
+      "ich": "zahle",
+      "du": "zahlst",
+      "er": "zahlt",
+      "wir": "zahlen",
+      "ihr": "zahlt",
+      "sie": "zahlen"
+    },
+    "pt": {
+      "ich": "zahlte",
+      "du": "zahltest",
+      "er": "zahlte",
+      "wir": "zahlten",
+      "ihr": "zahltet"
+    },
+    "pk": {
+      "ich": "habe gezahlt",
+      "du": "hast gezahlt",
+      "er": "hat gezahlt",
+      "wir": "haben gezahlt",
+      "ihr": "habt gezahlt",
+      "sie": "haben gezahlt"
+    }
+  },
+  {
+    "w": "tanzen",
+    "e": "to dance",
+    "t": "reg",
+    "p2": "getanzt",
+    "hs": "haben",
+    "pr": {
+      "ich": "tanze",
+      "du": "tanzt",
+      "er": "tanzt",
+      "wir": "tanzen",
+      "ihr": "tanzt",
+      "sie": "tanzen"
+    },
+    "pt": {
+      "ich": "tanzte",
+      "du": "tanztest",
+      "er": "tanzte",
+      "wir": "tanzten",
+      "ihr": "tanztet"
+    },
+    "pk": {
+      "ich": "habe getanzt",
+      "du": "hast getanzt",
+      "er": "hat getanzt",
+      "wir": "haben getanzt",
+      "ihr": "habt getanzt",
+      "sie": "haben getanzt"
+    }
+  },
+  {
+    "w": "aufstehen",
+    "e": "to get up",
+    "t": "irr",
+    "p2": "aufgestanden",
+    "hs": "sein",
+    "pr": {
+      "ich": "stehe auf",
+      "du": "stehst auf",
+      "er": "steht auf",
+      "wir": "stehen auf",
+      "ihr": "steht auf",
+      "sie": "stehen auf"
+    },
+    "pt": {
+      "ich": "stand auf",
+      "du": "standst auf",
+      "er": "stand auf",
+      "wir": "standen auf",
+      "ihr": "standet auf"
+    },
+    "pk": {
+      "ich": "bin aufgestanden",
+      "du": "bist aufgestanden",
+      "er": "ist aufgestanden",
+      "wir": "sind aufgestanden",
+      "ihr": "seid aufgestanden",
+      "sie": "sind aufgestanden"
+    }
+  },
+  {
+    "w": "helfen",
+    "e": "to help",
+    "t": "irr",
+    "p2": "geholfen",
+    "hs": "haben",
+    "pr": {
+      "ich": "helfe",
+      "du": "hilfst",
+      "er": "hilft",
+      "wir": "helfen",
+      "ihr": "helft",
+      "sie": "helfen"
+    },
+    "pt": {
+      "ich": "half",
+      "du": "halfst",
+      "er": "half",
+      "wir": "halfen",
+      "ihr": "halft"
+    },
+    "pk": {
+      "ich": "habe geholfen",
+      "du": "hast geholfen",
+      "er": "hat geholfen",
+      "wir": "haben geholfen",
+      "ihr": "habt geholfen",
+      "sie": "haben geholfen"
+    }
+  },
+  {
+    "w": "schlafen",
+    "e": "to sleep",
+    "t": "irr",
+    "p2": "geschlafen",
+    "hs": "haben",
+    "pr": {
+      "ich": "schlafe",
+      "du": "schläfst",
+      "er": "schläft",
+      "wir": "schlafen",
+      "ihr": "schlaft",
+      "sie": "schlafen"
+    },
+    "pt": {
+      "ich": "schlief",
+      "du": "schliefst",
+      "er": "schlief",
+      "wir": "schliefen",
+      "ihr": "schlieft"
+    },
+    "pk": {
+      "ich": "habe geschlafen",
+      "du": "hast geschlafen",
+      "er": "hat geschlafen",
+      "wir": "haben geschlafen",
+      "ihr": "habt geschlafen",
+      "sie": "haben geschlafen"
+    }
+  },
+  {
+    "w": "anfangen",
+    "e": "to start/begin",
+    "t": "irr",
+    "p2": "angefangen",
+    "hs": "haben",
+    "pr": {
+      "ich": "fange an",
+      "du": "fängst an",
+      "er": "fängt an",
+      "wir": "fangen an",
+      "ihr": "fangt an",
+      "sie": "fangen an"
+    },
+    "pt": {
+      "ich": "fing an",
+      "du": "fingst an",
+      "er": "fing an",
+      "wir": "fingen an",
+      "ihr": "fingt an"
+    },
+    "pk": {
+      "ich": "habe angefangen",
+      "du": "hast angefangen",
+      "er": "hat angefangen",
+      "wir": "haben angefangen",
+      "ihr": "habt angefangen",
+      "sie": "haben angefangen"
+    }
+  },
+  {
+    "w": "verlassen",
+    "e": "to leave",
+    "t": "irr",
+    "p2": "verlassen",
+    "hs": "haben",
+    "pr": {
+      "ich": "verlasse",
+      "du": "verlässt",
+      "er": "verlässt",
+      "wir": "verlassen",
+      "ihr": "verlasst",
+      "sie": "verlassen"
+    },
+    "pt": {
+      "ich": "verließ",
+      "du": "verließest",
+      "er": "verließ",
+      "wir": "verließen",
+      "ihr": "verließt"
+    },
+    "pk": {
+      "ich": "habe verlassen",
+      "du": "hast verlassen",
+      "er": "hat verlassen",
+      "wir": "haben verlassen",
+      "ihr": "habt verlassen",
+      "sie": "haben verlassen"
+    }
+  },
+  {
+    "w": "vergessen",
+    "e": "to forget",
+    "t": "irr",
+    "p2": "vergessen",
+    "hs": "haben",
+    "pr": {
+      "ich": "vergesse",
+      "du": "vergisst",
+      "er": "vergisst",
+      "wir": "vergessen",
+      "ihr": "vergesst",
+      "sie": "vergessen"
+    },
+    "pt": {
+      "ich": "vergaß",
+      "du": "vergaßt",
+      "er": "vergaß",
+      "wir": "vergaßen",
+      "ihr": "vergaßt"
+    },
+    "pk": {
+      "ich": "habe vergessen",
+      "du": "hast vergessen",
+      "er": "hat vergessen",
+      "wir": "haben vergessen",
+      "ihr": "habt vergessen",
+      "sie": "haben vergessen"
+    }
+  },
+  {
+    "w": "entstehen",
+    "e": "to arise/develop",
+    "t": "irr",
+    "p2": "entstanden",
+    "hs": "sein",
+    "pr": {
+      "ich": "entstehe",
+      "du": "entstehst",
+      "er": "entsteht",
+      "wir": "entstehen",
+      "ihr": "entsteht",
+      "sie": "entstehen"
+    },
+    "pt": {
+      "ich": "entstand",
+      "du": "entstandst",
+      "er": "entstand",
+      "wir": "entstanden",
+      "ihr": "entstandet"
+    },
+    "pk": {
+      "ich": "bin entstanden",
+      "du": "bist entstanden",
+      "er": "ist entstanden",
+      "wir": "sind entstanden",
+      "ihr": "seid entstanden",
+      "sie": "sind entstanden"
+    }
+  },
+  {
+    "w": "wählen",
+    "e": "to choose/elect",
+    "t": "reg",
+    "p2": "gewählt",
+    "hs": "haben",
+    "pr": {
+      "ich": "wähle",
+      "du": "wählst",
+      "er": "wählt",
+      "wir": "wählen",
+      "ihr": "wählt",
+      "sie": "wählen"
+    },
+    "pt": {
+      "ich": "wählte",
+      "du": "wähltest",
+      "er": "wählte",
+      "wir": "wählten",
+      "ihr": "wähltet"
+    },
+    "pk": {
+      "ich": "habe gewählt",
+      "du": "hast gewählt",
+      "er": "hat gewählt",
+      "wir": "haben gewählt",
+      "ihr": "habt gewählt",
+      "sie": "haben gewählt"
+    }
+  },
+  {
+    "w": "bestehen",
+    "e": "to pass/consist of",
+    "t": "irr",
+    "p2": "bestanden",
+    "hs": "haben",
+    "pr": {
+      "ich": "bestehe",
+      "du": "bestehst",
+      "er": "besteht",
+      "wir": "bestehen",
+      "ihr": "besteht",
+      "sie": "bestehen"
+    },
+    "pt": {
+      "ich": "bestand",
+      "du": "bestandst",
+      "er": "bestand",
+      "wir": "bestanden",
+      "ihr": "bestandet"
+    },
+    "pk": {
+      "ich": "habe bestanden",
+      "du": "hast bestanden",
+      "er": "hat bestanden",
+      "wir": "haben bestanden",
+      "ihr": "habt bestanden",
+      "sie": "haben bestanden"
+    }
+  },
+  {
+    "w": "aufmachen",
+    "e": "to open",
+    "t": "reg",
+    "p2": "aufgemacht",
+    "hs": "haben",
+    "pr": {
+      "ich": "mache auf",
+      "du": "machst auf",
+      "er": "macht auf",
+      "wir": "machen auf",
+      "ihr": "macht auf",
+      "sie": "machen auf"
+    },
+    "pt": {
+      "ich": "machte auf",
+      "du": "machtest auf",
+      "er": "machte auf",
+      "wir": "machten auf",
+      "ihr": "machtet auf"
+    },
+    "pk": {
+      "ich": "habe aufgemacht",
+      "du": "hast aufgemacht",
+      "er": "hat aufgemacht",
+      "wir": "haben aufgemacht",
+      "ihr": "habt aufgemacht",
+      "sie": "haben aufgemacht"
+    }
+  },
+  {
+    "w": "versuchen",
+    "e": "to try/attempt",
+    "t": "reg",
+    "p2": "versucht",
+    "hs": "haben",
+    "pr": {
+      "ich": "versuche",
+      "du": "versuchst",
+      "er": "versucht",
+      "wir": "versuchen",
+      "ihr": "versucht",
+      "sie": "versuchen"
+    },
+    "pt": {
+      "ich": "versuchte",
+      "du": "versuchtest",
+      "er": "versuchte",
+      "wir": "versuchten",
+      "ihr": "versuchtet"
+    },
+    "pk": {
+      "ich": "habe versucht",
+      "du": "hast versucht",
+      "er": "hat versucht",
+      "wir": "haben versucht",
+      "ihr": "habt versucht",
+      "sie": "haben versucht"
+    }
+  },
+  {
+    "w": "gehören",
+    "e": "to belong to",
+    "t": "reg",
+    "p2": "gehört",
+    "hs": "haben",
+    "pr": {
+      "ich": "gehöre",
+      "du": "gehörst",
+      "er": "gehört",
+      "wir": "gehören",
+      "ihr": "gehört",
+      "sie": "gehören"
+    },
+    "pt": {
+      "ich": "gehörte",
+      "du": "gehörtest",
+      "er": "gehörte",
+      "wir": "gehörten",
+      "ihr": "gehörtet"
+    },
+    "pk": {
+      "ich": "habe gehört",
+      "du": "hast gehört",
+      "er": "hat gehört",
+      "wir": "haben gehört",
+      "ihr": "habt gehört",
+      "sie": "haben gehört"
+    }
+  },
+  {
+    "w": "trinken",
+    "e": "to drink",
+    "t": "irr",
+    "p2": "getrunken",
+    "hs": "haben",
+    "pr": {
+      "ich": "trinke",
+      "du": "trinkst",
+      "er": "trinkt",
+      "wir": "trinken",
+      "ihr": "trinkt",
+      "sie": "trinken"
+    },
+    "pt": {
+      "ich": "trank",
+      "du": "trankst",
+      "er": "trank",
+      "wir": "tranken",
+      "ihr": "trankt"
+    },
+    "pk": {
+      "ich": "habe getrunken",
+      "du": "hast getrunken",
+      "er": "hat getrunken",
+      "wir": "haben getrunken",
+      "ihr": "habt getrunken",
+      "sie": "haben getrunken"
+    }
+  },
+  {
+    "w": "suchen",
+    "e": "to search/look for",
+    "t": "reg",
+    "p2": "gesucht",
+    "hs": "haben",
+    "pr": {
+      "ich": "suche",
+      "du": "suchst",
+      "er": "sucht",
+      "wir": "suchen",
+      "ihr": "sucht",
+      "sie": "suchen"
+    },
+    "pt": {
+      "ich": "suchte",
+      "du": "suchtest",
+      "er": "suchte",
+      "wir": "suchten",
+      "ihr": "suchtet"
+    },
+    "pk": {
+      "ich": "habe gesucht",
+      "du": "hast gesucht",
+      "er": "hat gesucht",
+      "wir": "haben gesucht",
+      "ihr": "habt gesucht",
+      "sie": "haben gesucht"
+    }
+  },
+  {
+    "w": "reisen",
+    "e": "to travel",
+    "t": "reg",
+    "p2": "gereist",
+    "hs": "sein",
+    "pr": {
+      "ich": "reise",
+      "du": "reist",
+      "er": "reist",
+      "wir": "reisen",
+      "ihr": "reist",
+      "sie": "reisen"
+    },
+    "pt": {
+      "ich": "reiste",
+      "du": "reistest",
+      "er": "reiste",
+      "wir": "reisten",
+      "ihr": "reistet"
+    },
+    "pk": {
+      "ich": "bin gereist",
+      "du": "bist gereist",
+      "er": "ist gereist",
+      "wir": "sind gereist",
+      "ihr": "seid gereist",
+      "sie": "sind gereist"
+    }
+  },
+  {
+    "w": "vorhaben",
+    "e": "to plan/intend",
+    "t": "irr",
+    "p2": "vorgehabt",
+    "hs": "haben",
+    "pr": {
+      "ich": "habe vor",
+      "du": "hast vor",
+      "er": "hat vor",
+      "wir": "haben vor",
+      "ihr": "habt vor",
+      "sie": "haben vor"
+    },
+    "pt": {
+      "ich": "hatte vor",
+      "du": "hattest vor",
+      "er": "hatte vor",
+      "wir": "hatten vor",
+      "ihr": "hattet vor"
+    },
+    "pk": {
+      "ich": "habe vorgehabt",
+      "du": "hast vorgehabt",
+      "er": "hat vorgehabt",
+      "wir": "haben vorgehabt",
+      "ihr": "habt vorgehabt",
+      "sie": "haben vorgehabt"
+    }
+  },
+  {
+    "w": "zuhören",
+    "e": "to listen",
+    "t": "reg",
+    "p2": "zugehört",
+    "hs": "haben",
+    "pr": {
+      "ich": "höre zu",
+      "du": "hörst zu",
+      "er": "hört zu",
+      "wir": "hören zu",
+      "ihr": "hört zu",
+      "sie": "hören zu"
+    },
+    "pt": {
+      "ich": "hörte zu",
+      "du": "hörtest zu",
+      "er": "hörte zu",
+      "wir": "hörten zu",
+      "ihr": "hörtet zu"
+    },
+    "pk": {
+      "ich": "habe zugehört",
+      "du": "hast zugehört",
+      "er": "hat zugehört",
+      "wir": "haben zugehört",
+      "ihr": "habt zugehört",
+      "sie": "haben zugehört"
+    }
+  },
+  {
+    "w": "fernsehen",
+    "e": "to watch TV",
+    "t": "irr",
+    "p2": "ferngesehen",
+    "hs": "haben",
+    "pr": {
+      "ich": "sehe fern",
+      "du": "siehst fern",
+      "er": "sieht fern",
+      "wir": "sehen fern",
+      "ihr": "seht fern",
+      "sie": "sehen fern"
+    },
+    "pt": {
+      "ich": "sah fern",
+      "du": "sahst fern",
+      "er": "sah fern",
+      "wir": "sahen fern",
+      "ihr": "saht fern"
+    },
+    "pk": {
+      "ich": "habe ferngesehen",
+      "du": "hast ferngesehen",
+      "er": "hat ferngesehen",
+      "wir": "haben ferngesehen",
+      "ihr": "habt ferngesehen",
+      "sie": "haben ferngesehen"
+    }
+  },
+  {
+    "w": "passieren",
+    "e": "to happen",
+    "t": "reg",
+    "p2": "passiert",
+    "hs": "sein",
+    "pr": {
+      "ich": "passiere",
+      "du": "passierst",
+      "er": "passiert",
+      "wir": "passieren",
+      "ihr": "passiert",
+      "sie": "passieren"
+    },
+    "pt": {
+      "ich": "passierte",
+      "du": "passiertest",
+      "er": "passierte",
+      "wir": "passierten",
+      "ihr": "passiertet"
+    },
+    "pk": {
+      "ich": "bin passiert",
+      "du": "bist passiert",
+      "er": "ist passiert",
+      "wir": "sind passiert",
+      "ihr": "seid passiert",
+      "sie": "sind passiert"
+    }
+  },
+  {
+    "w": "erzählen",
+    "e": "to tell/narrate",
+    "t": "reg",
+    "p2": "erzählt",
+    "hs": "haben",
+    "pr": {
+      "ich": "erzähle",
+      "du": "erzählst",
+      "er": "erzählt",
+      "wir": "erzählen",
+      "ihr": "erzählt",
+      "sie": "erzählen"
+    },
+    "pt": {
+      "ich": "erzählte",
+      "du": "erzähltest",
+      "er": "erzählte",
+      "wir": "erzählten",
+      "ihr": "erzähltet"
+    },
+    "pk": {
+      "ich": "habe erzählt",
+      "du": "hast erzählt",
+      "er": "hat erzählt",
+      "wir": "haben erzählt",
+      "ihr": "habt erzählt",
+      "sie": "haben erzählt"
+    }
+  },
+  {
+    "w": "lächeln",
+    "e": "to smile",
+    "t": "reg",
+    "p2": "gelächelt",
+    "hs": "haben",
+    "pr": {
+      "ich": "lächle",
+      "du": "lächelst",
+      "er": "lächelt",
+      "wir": "lächeln",
+      "ihr": "lächelt",
+      "sie": "lächeln"
+    },
+    "pt": {
+      "ich": "lächelte",
+      "du": "lächeltest",
+      "er": "lächelte",
+      "wir": "lächelten",
+      "ihr": "lächeltet"
+    },
+    "pk": {
+      "ich": "habe gelächelt",
+      "du": "hast gelächelt",
+      "er": "hat gelächelt",
+      "wir": "haben gelächelt",
+      "ihr": "habt gelächelt",
+      "sie": "haben gelächelt"
+    }
+  },
+  {
+    "w": "vorstellen",
+    "e": "to introduce/imagine",
+    "t": "reg",
+    "p2": "vorgestellt",
+    "hs": "haben",
+    "pr": {
+      "ich": "stelle vor",
+      "du": "stellst vor",
+      "er": "stellt vor",
+      "wir": "stellen vor",
+      "ihr": "stellt vor",
+      "sie": "stellen vor"
+    },
+    "pt": {
+      "ich": "stellte vor",
+      "du": "stelltest vor",
+      "er": "stellte vor",
+      "wir": "stellten vor",
+      "ihr": "stelltet vor"
+    },
+    "pk": {
+      "ich": "habe vorgestellt",
+      "du": "hast vorgestellt",
+      "er": "hat vorgestellt",
+      "wir": "haben vorgestellt",
+      "ihr": "habt vorgestellt",
+      "sie": "haben vorgestellt"
+    }
+  },
+  {
+    "w": "benutzen",
+    "e": "to use",
+    "t": "reg",
+    "p2": "benutzt",
+    "hs": "haben",
+    "pr": {
+      "ich": "benutze",
+      "du": "benutzt",
+      "er": "benutzt",
+      "wir": "benutzen",
+      "ihr": "benutzt",
+      "sie": "benutzen"
+    },
+    "pt": {
+      "ich": "benutzte",
+      "du": "benutztest",
+      "er": "benutzte",
+      "wir": "benutzten",
+      "ihr": "benutztet"
+    },
+    "pk": {
+      "ich": "habe benutzt",
+      "du": "hast benutzt",
+      "er": "hat benutzt",
+      "wir": "haben benutzt",
+      "ihr": "habt benutzt",
+      "sie": "haben benutzt"
+    }
+  },
+  {
+    "w": "kochen",
+    "e": "to cook",
+    "t": "reg",
+    "p2": "gekocht",
+    "hs": "haben",
+    "pr": {
+      "ich": "koche",
+      "du": "kochst",
+      "er": "kocht",
+      "wir": "kochen",
+      "ihr": "kocht",
+      "sie": "kochen"
+    },
+    "pt": {
+      "ich": "kochte",
+      "du": "kochtest",
+      "er": "kochte",
+      "wir": "kochten",
+      "ihr": "kochtet"
+    },
+    "pk": {
+      "ich": "habe gekocht",
+      "du": "hast gekocht",
+      "er": "hat gekocht",
+      "wir": "haben gekocht",
+      "ihr": "habt gekocht",
+      "sie": "haben gekocht"
+    }
+  },
+  {
+    "w": "holen",
+    "e": "to fetch / get",
+    "t": "reg",
+    "p2": "geholt",
+    "hs": "haben",
+    "pr": {
+      "ich": "hole",
+      "du": "holst",
+      "er": "holt",
+      "wir": "holen",
+      "ihr": "holt",
+      "sie": "holen"
+    },
+    "pt": {
+      "ich": "holte",
+      "du": "holtest",
+      "er": "holte",
+      "wir": "holten",
+      "ihr": "holtet"
+    },
+    "pk": {
+      "ich": "habe geholt",
+      "du": "hast geholt",
+      "er": "hat geholt",
+      "wir": "haben geholt",
+      "ihr": "habt geholt",
+      "sie": "haben geholt"
+    }
+  },
+  {
+    "w": "dauern",
+    "e": "to last / take (time)",
+    "t": "reg",
+    "p2": "gedauert",
+    "hs": "haben",
+    "pr": {
+      "ich": "dauere",
+      "du": "dauerst",
+      "er": "dauert",
+      "wir": "dauern",
+      "ihr": "dauert",
+      "sie": "dauern"
+    },
+    "pt": {
+      "ich": "dauerte",
+      "du": "dauertest",
+      "er": "dauerte",
+      "wir": "dauerten",
+      "ihr": "dauertet"
+    },
+    "pk": {
+      "ich": "habe gedauert",
+      "du": "hast gedauert",
+      "er": "hat gedauert",
+      "wir": "haben gedauert",
+      "ihr": "habt gedauert",
+      "sie": "haben gedauert"
+    }
+  },
+  {
+    "w": "kosten",
+    "e": "to cost",
+    "t": "reg",
+    "p2": "gekostet",
+    "hs": "haben",
+    "pr": {
+      "ich": "koste",
+      "du": "kostest",
+      "er": "kostet",
+      "wir": "kosten",
+      "ihr": "kostet",
+      "sie": "kosten"
+    },
+    "pt": {
+      "ich": "kostete",
+      "du": "kostetest",
+      "er": "kostete",
+      "wir": "kosteten",
+      "ihr": "kostetet"
+    },
+    "pk": {
+      "ich": "habe gekostet",
+      "du": "hast gekostet",
+      "er": "hat gekostet",
+      "wir": "haben gekostet",
+      "ihr": "habt gekostet",
+      "sie": "haben gekostet"
+    }
+  },
+  {
+    "w": "schließen",
+    "e": "to close / shut",
+    "t": "irr",
+    "p2": "geschlossen",
+    "hs": "haben",
+    "pr": {
+      "ich": "schließe",
+      "du": "schließt",
+      "er": "schließt",
+      "wir": "schließen",
+      "ihr": "schließt",
+      "sie": "schließen"
+    },
+    "pt": {
+      "ich": "schloss",
+      "du": "schlossest",
+      "er": "schloss",
+      "wir": "schlossen",
+      "ihr": "schlosst"
+    },
+    "pk": {
+      "ich": "habe geschlossen",
+      "du": "hast geschlossen",
+      "er": "hat geschlossen",
+      "wir": "haben geschlossen",
+      "ihr": "habt geschlossen",
+      "sie": "haben geschlossen"
+    }
+  },
+  {
+    "w": "öffnen",
+    "e": "to open",
+    "t": "reg",
+    "p2": "geöffnet",
+    "hs": "haben",
+    "pr": {
+      "ich": "öffne",
+      "du": "öffnest",
+      "er": "öffnet",
+      "wir": "öffnen",
+      "ihr": "öffnet",
+      "sie": "öffnen"
+    },
+    "pt": {
+      "ich": "öffnete",
+      "du": "öffnetest",
+      "er": "öffnete",
+      "wir": "öffneten",
+      "ihr": "öffnetet"
+    },
+    "pk": {
+      "ich": "habe geöffnet",
+      "du": "hast geöffnet",
+      "er": "hat geöffnet",
+      "wir": "haben geöffnet",
+      "ihr": "habt geöffnet",
+      "sie": "haben geöffnet"
+    }
+  },
+  {
+    "w": "tragen",
+    "e": "to carry / wear",
+    "t": "irr",
+    "p2": "getragen",
+    "hs": "haben",
+    "pr": {
+      "ich": "trage",
+      "du": "trägst",
+      "er": "trägt",
+      "wir": "tragen",
+      "ihr": "tragt",
+      "sie": "tragen"
+    },
+    "pt": {
+      "ich": "trug",
+      "du": "trugst",
+      "er": "trug",
+      "wir": "trugen",
+      "ihr": "trugt"
+    },
+    "pk": {
+      "ich": "habe getragen",
+      "du": "hast getragen",
+      "er": "hat getragen",
+      "wir": "haben getragen",
+      "ihr": "habt getragen",
+      "sie": "haben getragen"
+    }
+  },
+  {
+    "w": "waschen",
+    "e": "to wash",
+    "t": "irr",
+    "p2": "gewaschen",
+    "hs": "haben",
+    "pr": {
+      "ich": "wasche",
+      "du": "wäschst",
+      "er": "wäscht",
+      "wir": "waschen",
+      "ihr": "wascht",
+      "sie": "waschen"
+    },
+    "pt": {
+      "ich": "wusch",
+      "du": "wuschest",
+      "er": "wusch",
+      "wir": "wuschen",
+      "ihr": "wuscht"
+    },
+    "pk": {
+      "ich": "habe gewaschen",
+      "du": "hast gewaschen",
+      "er": "hat gewaschen",
+      "wir": "haben gewaschen",
+      "ihr": "habt gewaschen",
+      "sie": "haben gewaschen"
+    }
+  },
+  {
+    "w": "putzen",
+    "e": "to clean",
+    "t": "reg",
+    "p2": "geputzt",
+    "hs": "haben",
+    "pr": {
+      "ich": "putze",
+      "du": "putzt",
+      "er": "putzt",
+      "wir": "putzen",
+      "ihr": "putzt",
+      "sie": "putzen"
+    },
+    "pt": {
+      "ich": "putzte",
+      "du": "putztest",
+      "er": "putzte",
+      "wir": "putzten",
+      "ihr": "putztet"
+    },
+    "pk": {
+      "ich": "habe geputzt",
+      "du": "hast geputzt",
+      "er": "hat geputzt",
+      "wir": "haben geputzt",
+      "ihr": "habt geputzt",
+      "sie": "haben geputzt"
+    }
+  },
+  {
+    "w": "enden",
+    "e": "to end / finish",
+    "t": "reg",
+    "p2": "geendet",
+    "hs": "haben",
+    "pr": {
+      "ich": "ende",
+      "du": "endest",
+      "er": "endet",
+      "wir": "enden",
+      "ihr": "endet",
+      "sie": "enden"
+    },
+    "pt": {
+      "ich": "endete",
+      "du": "endetest",
+      "er": "endete",
+      "wir": "endeten",
+      "ihr": "endetet"
+    },
+    "pk": {
+      "ich": "habe geendet",
+      "du": "hast geendet",
+      "er": "hat geendet",
+      "wir": "haben geendet",
+      "ihr": "habt geendet",
+      "sie": "haben geendet"
+    }
+  },
+  {
+    "w": "warten",
+    "e": "to wait",
+    "t": "reg",
+    "p2": "gewartet",
+    "hs": "haben",
+    "pr": {
+      "ich": "warte",
+      "du": "wartest",
+      "er": "wartet",
+      "wir": "warten",
+      "ihr": "wartet",
+      "sie": "warten"
+    },
+    "pt": {
+      "ich": "wartete",
+      "du": "wartetest",
+      "er": "wartete",
+      "wir": "warteten",
+      "ihr": "wartetet"
+    },
+    "pk": {
+      "ich": "habe gewartet",
+      "du": "hast gewartet",
+      "er": "hat gewartet",
+      "wir": "haben gewartet",
+      "ihr": "habt gewartet",
+      "sie": "haben gewartet"
+    }
+  },
+  {
+    "w": "wiederholen",
+    "e": "to repeat",
+    "t": "reg",
+    "p2": "wiederholt",
+    "hs": "haben",
+    "pr": {
+      "ich": "wiederhole",
+      "du": "wiederholst",
+      "er": "wiederholt",
+      "wir": "wiederholen",
+      "ihr": "wiederholt",
+      "sie": "wiederholen"
+    },
+    "pt": {
+      "ich": "wiederholte",
+      "du": "wiederholtest",
+      "er": "wiederholte",
+      "wir": "wiederholten",
+      "ihr": "wiederholtet"
+    },
+    "pk": {
+      "ich": "habe wiederholt",
+      "du": "hast wiederholt",
+      "er": "hat wiederholt",
+      "wir": "haben wiederholt",
+      "ihr": "habt wiederholt",
+      "sie": "haben wiederholt"
+    }
+  },
+  {
+    "w": "bezahlen",
+    "e": "to pay",
+    "t": "reg",
+    "p2": "bezahlt",
+    "hs": "haben",
+    "pr": {
+      "ich": "bezahle",
+      "du": "bezahlst",
+      "er": "bezahlt",
+      "wir": "bezahlen",
+      "ihr": "bezahlt",
+      "sie": "bezahlen"
+    },
+    "pt": {
+      "ich": "bezahlte",
+      "du": "bezahltest",
+      "er": "bezahlte",
+      "wir": "bezahlten",
+      "ihr": "bezahltet"
+    },
+    "pk": {
+      "ich": "habe bezahlt",
+      "du": "hast bezahlt",
+      "er": "hat bezahlt",
+      "wir": "haben bezahlt",
+      "ihr": "habt bezahlt",
+      "sie": "haben bezahlt"
+    }
+  },
+  {
+    "w": "mitkommen",
+    "e": "to come along",
+    "t": "irr",
+    "p2": "mitgekommen",
+    "hs": "sein",
+    "pr": {
+      "ich": "komme mit",
+      "du": "kommst mit",
+      "er": "kommt mit",
+      "wir": "kommen mit",
+      "ihr": "kommt mit",
+      "sie": "kommen mit"
+    },
+    "pt": {
+      "ich": "kam mit",
+      "du": "kamst mit",
+      "er": "kam mit",
+      "wir": "kamen mit",
+      "ihr": "kamt mit"
+    },
+    "pk": {
+      "ich": "bin mitgekommen",
+      "du": "bist mitgekommen",
+      "er": "ist mitgekommen",
+      "wir": "sind mitgekommen",
+      "ihr": "seid mitgekommen",
+      "sie": "sind mitgekommen"
+    }
+  }
+]

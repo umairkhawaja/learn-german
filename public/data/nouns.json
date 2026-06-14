@@ -1,0 +1,4556 @@
+[
+  {
+    "w": "die Mahlzeit",
+    "a": "die",
+    "e": "meal",
+    "c": "Food & Drink",
+    "p": "die Mahlzeiten",
+    "ex": "Drei Mahlzeiten am Tag sind gesund.",
+    "n": "Also an ironic exclamation: 'Mahlzeit!' = oh great, just great (sarcastic). Also a common midday greeting among colleagues."
+  },
+  {
+    "w": "die U-Bahn",
+    "a": "die",
+    "e": "underground / metro",
+    "c": "Transport & City",
+    "p": "die U-Bahnen",
+    "ex": "Ich fahre mit der U-Bahn zur Arbeit.",
+    "n": "Short for Untergrundbahn. Munich has an excellent U-Bahn network."
+  },
+  {
+    "w": "der Beruf",
+    "a": "der",
+    "e": "profession / job",
+    "c": "Work & Career",
+    "p": "die Berufe",
+    "ex": "Was ist Ihr Beruf?",
+    "n": "'Was sind Sie von Beruf?' = What's your profession? 'berufstätig' = employed; 'der Berufsverkehr' = rush hour."
+  },
+  {
+    "w": "der Lebenslauf",
+    "a": "der",
+    "e": "CV / résumé",
+    "c": "Work & Career",
+    "p": "die Lebensläufe",
+    "ex": "Mein Lebenslauf ist auf Deutsch.",
+    "n": "German CVs include a photo and date of birth — different from Anglo norms."
+  },
+  {
+    "w": "der Parkplatz",
+    "a": "der",
+    "e": "parking space / car park",
+    "c": "Transport & City",
+    "p": "die Parkplätze",
+    "ex": "Gibt es hier einen Parkplatz?",
+    "n": "Parking in Munich is scarce and pricey. 'einen Parkplatz suchen' = to look for a space; 'das Parkhaus' = multi-storey car park."
+  },
+  {
+    "w": "das Frühstück",
+    "a": "das",
+    "e": "breakfast",
+    "c": "Food & Drink",
+    "p": "die Frühstücke",
+    "ex": "Ich esse gerne ausgiebig Frühstück.",
+    "n": "'Frühstücken' = to have breakfast. German breakfast culture is elaborate."
+  },
+  {
+    "w": "das Angebot",
+    "a": "das",
+    "e": "offer / deal / special",
+    "c": "Shopping & Money",
+    "p": "die Angebote",
+    "ex": "Das ist ein gutes Angebot.",
+    "n": "Also: job offer or business proposal. 'Im Angebot' = on special offer/sale."
+  },
+  {
+    "w": "die Frist",
+    "a": "die",
+    "e": "deadline / time limit",
+    "c": "Time & Calendar",
+    "p": "die Fristen",
+    "ex": "Die Frist endet am Freitag.",
+    "n": "'Eine Frist einhalten' = to meet a deadline. 'Die Frist verpassen' = to miss a deadline."
+  },
+  {
+    "w": "die S-Bahn",
+    "a": "die",
+    "e": "suburban rail",
+    "c": "Transport & City",
+    "p": "die S-Bahnen",
+    "ex": "Die S-Bahn fährt bis zum Flughafen.",
+    "n": "Short for Stadtschnellbahn. Connects city to suburbs and surrounding towns."
+  },
+  {
+    "w": "die Universität",
+    "a": "die",
+    "e": "university",
+    "c": "Education & Culture",
+    "p": "die Universitäten",
+    "ex": "Ich studiere an der Universität München.",
+    "n": "Often abbreviated to 'Uni'. LMU and TUM are Munich's two main universities."
+  },
+  {
+    "w": "die Ampel",
+    "a": "die",
+    "e": "traffic light",
+    "c": "Transport & City",
+    "p": "die Ampeln",
+    "ex": "An der Ampel bitte stoppen.",
+    "n": "'bei Rot' = on red, 'bei Grün' = on green. Crossing on red as a pedestrian is frowned upon, even with no cars coming."
+  },
+  {
+    "w": "das Konto",
+    "a": "das",
+    "e": "bank account",
+    "c": "Shopping & Money",
+    "p": "die Konten",
+    "ex": "Ich möchte ein Konto eröffnen.",
+    "n": "'Girokonto' = current account. 'Sparkonto' = savings account."
+  },
+  {
+    "w": "die Heizung",
+    "a": "die",
+    "e": "heating",
+    "c": "Home & Living",
+    "p": "die Heizungen",
+    "ex": "Die Heizung funktioniert nicht.",
+    "n": "'die Heizung aufdrehen' = to turn the heating up. Heating costs (Heizkosten) are usually part of your Nebenkosten."
+  },
+  {
+    "w": "der Führerschein",
+    "a": "der",
+    "e": "driving licence",
+    "c": "Transport & City",
+    "p": "die Führerscheine",
+    "ex": "Darf ich Ihren Führerschein sehen?",
+    "n": "Getting a German Führerschein is notoriously expensive — often over €2000."
+  },
+  {
+    "w": "der Müll",
+    "a": "der",
+    "e": "rubbish / garbage / waste",
+    "c": "Home & Living",
+    "p": "(kein Plural)",
+    "ex": "Den Müll trennen wir hier streng.",
+    "n": "Waste separation (Mülltrennung) is mandatory in Germany. Bins: Gelber Sack, Biotonne, Papiertonne, Restmüll."
+  },
+  {
+    "w": "die Entscheidung",
+    "a": "die",
+    "e": "decision",
+    "c": "Abstract Concepts",
+    "p": "die Entscheidungen",
+    "ex": "Das war eine schwierige Entscheidung.",
+    "n": "'Eine Entscheidung treffen' = to make a decision."
+  },
+  {
+    "w": "der Husten",
+    "a": "der",
+    "e": "cough",
+    "c": "Body & Health",
+    "p": "(kein Plural)",
+    "ex": "Ich habe einen starken Husten.",
+    "n": "'Ich habe Husten' = I have a cough. 'der Hustensaft' = cough syrup, bought at the Apotheke (pharmacy)."
+  },
+  {
+    "w": "die Überstunde",
+    "a": "die",
+    "e": "overtime hour",
+    "c": "Work & Career",
+    "p": "die Überstunden",
+    "ex": "Ich mache oft Überstunden.",
+    "n": "Usually used in plural: 'Überstunden machen'."
+  },
+  {
+    "w": "die Straßenbahn",
+    "a": "die",
+    "e": "tram",
+    "c": "Transport & City",
+    "p": "die Straßenbahnen",
+    "ex": "Die Straßenbahn hält hier.",
+    "n": "Often called 'Tram' colloquially. Munich has extensive tram (Tram) lines."
+  },
+  {
+    "w": "die Bewerbung",
+    "a": "die",
+    "e": "job application",
+    "c": "Work & Career",
+    "p": "die Bewerbungen",
+    "ex": "Ich habe eine Bewerbung geschickt.",
+    "n": "'sich bewerben' = to apply. Key word for job hunting in Germany."
+  },
+  {
+    "w": "der Aufzug",
+    "a": "der",
+    "e": "elevator / lift",
+    "c": "Home & Living",
+    "p": "die Aufzüge",
+    "ex": "Der Aufzug ist außer Betrieb.",
+    "n": "Also: der Fahrstuhl. 'Außer Betrieb' = out of service — very common sign."
+  },
+  {
+    "w": "die Gegenwart",
+    "a": "die",
+    "e": "present / present tense",
+    "c": "Time & Calendar",
+    "p": "(kein Plural)",
+    "ex": "In der Gegenwart lebe ich.",
+    "n": "Also the grammatical present tense. Opposite: Vergangenheit (past), Zukunft (future)."
+  },
+  {
+    "w": "das Krankenhaus",
+    "a": "das",
+    "e": "hospital",
+    "c": "Body & Health",
+    "p": "die Krankenhäuser",
+    "ex": "Er liegt im Krankenhaus.",
+    "n": "'ins Krankenhaus kommen' = to go to hospital. Also: 'die Klinik'. The emergency entrance is die Notaufnahme."
+  },
+  {
+    "w": "der Kurs",
+    "a": "der",
+    "e": "course / class",
+    "c": "Education & Culture",
+    "p": "die Kurse",
+    "ex": "Ich mache einen Deutschkurs.",
+    "n": "Also: exchange rate (Kurs der Währung). Context clarifies."
+  },
+  {
+    "w": "das Zeitalter",
+    "a": "das",
+    "e": "era / age",
+    "c": "Time & Calendar",
+    "p": "die Zeitalter",
+    "ex": "Wir leben im digitalen Zeitalter.",
+    "n": "'das digitale Zeitalter' = the digital age. More formal than 'die Zeit'; used for historical eras."
+  },
+  {
+    "w": "die Erkältung",
+    "a": "die",
+    "e": "cold (illness)",
+    "c": "Body & Health",
+    "p": "die Erkältungen",
+    "ex": "Ich habe eine Erkältung.",
+    "n": "'Sich erkälten' = to catch a cold."
+  },
+  {
+    "w": "der Flughafen",
+    "a": "der",
+    "e": "airport",
+    "c": "Transport & City",
+    "p": "die Flughäfen",
+    "ex": "Der Flughafen ist 40 km entfernt.",
+    "n": "Munich Airport (Flughafen München, MUC) is one of Germany's largest. 'zum Flughafen fahren' = to go to the airport."
+  },
+  {
+    "w": "die Quittung",
+    "a": "die",
+    "e": "receipt",
+    "c": "Shopping & Money",
+    "p": "die Quittungen",
+    "ex": "Kann ich eine Quittung bekommen?",
+    "n": "More formal than 'Kassenbon'. Needed for expense reports and returns."
+  },
+  {
+    "w": "das Mittagessen",
+    "a": "das",
+    "e": "lunch",
+    "c": "Food & Drink",
+    "p": "die Mittagessen",
+    "ex": "Das Mittagessen ist fertig.",
+    "n": "'zu Mittag essen' = to have lunch. Traditionally the main hot meal of the day, often eaten around noon."
+  },
+  {
+    "w": "das Büro",
+    "a": "das",
+    "e": "office",
+    "c": "Work & Career",
+    "p": "die Büros",
+    "ex": "Ich arbeite im Büro.",
+    "n": "'im Büro' = at the office; 'ins Büro gehen' = to go to the office. 'das Großraumbüro' = open-plan office."
+  },
+  {
+    "w": "der Fortschritt",
+    "a": "der",
+    "e": "progress",
+    "c": "Abstract Concepts",
+    "p": "die Fortschritte",
+    "ex": "Der Fortschritt in der KI ist beeindruckend.",
+    "n": "'Fortschritte machen' = to make progress."
+  },
+  {
+    "w": "die Hausverwaltung",
+    "a": "die",
+    "e": "building management",
+    "c": "Home & Living",
+    "p": "die Hausverwaltungen",
+    "ex": "Die Hausverwaltung regelt alles.",
+    "n": "The company that manages your building — your contact for repairs, Nebenkosten and the Hausordnung."
+  },
+  {
+    "w": "das Fieber",
+    "a": "das",
+    "e": "fever",
+    "c": "Body & Health",
+    "p": "(kein Plural)",
+    "ex": "Das Kind hat Fieber.",
+    "n": "'Fieber messen' = to take a temperature. No plural in this sense."
+  },
+  {
+    "w": "die Allergie",
+    "a": "die",
+    "e": "allergy",
+    "c": "Body & Health",
+    "p": "die Allergien",
+    "ex": "Ich habe eine Allergie gegen Katzen.",
+    "n": "'eine Allergie gegen ...' = an allergy to ... 'allergisch sein gegen' = to be allergic to. Pollen allergy = der Heuschnupfen."
+  },
+  {
+    "w": "die Versicherung",
+    "a": "die",
+    "e": "insurance",
+    "c": "Body & Health",
+    "p": "die Versicherungen",
+    "ex": "Haben Sie eine Krankenversicherung?",
+    "n": "'Krankenversicherung' = health insurance. Mandatory in Germany."
+  },
+  {
+    "w": "die Hausaufgabe",
+    "a": "die",
+    "e": "homework",
+    "c": "Education & Culture",
+    "p": "die Hausaufgaben",
+    "ex": "Ich muss noch Hausaufgaben machen.",
+    "n": "Usually used in plural: 'Hausaufgaben machen'."
+  },
+  {
+    "w": "das Gehalt",
+    "a": "das",
+    "e": "salary",
+    "c": "Work & Career",
+    "p": "die Gehälter",
+    "ex": "Das Gehalt wird monatlich gezahlt.",
+    "n": "Monthly white-collar pay (vs 'der Lohn' = wage). 'das Bruttogehalt' = gross; 'das Nettogehalt' = net, after tax."
+  },
+  {
+    "w": "der Urlaub",
+    "a": "der",
+    "e": "holiday / vacation",
+    "c": "Work & Career",
+    "p": "die Urlaube",
+    "ex": "Ich nehme nächste Woche Urlaub.",
+    "n": "Also means 'vacation trip'. Don't confuse with 'Feiertag' (public holiday)."
+  },
+  {
+    "w": "die Vergangenheit",
+    "a": "die",
+    "e": "past / past tense",
+    "c": "Time & Calendar",
+    "p": "(kein Plural)",
+    "ex": "Die Vergangenheit kann man nicht ändern.",
+    "n": "Also the grammatical past tense. Essential grammar vocabulary."
+  },
+  {
+    "w": "das Rezept",
+    "a": "das",
+    "e": "recipe / prescription",
+    "c": "Food & Drink",
+    "p": "die Rezepte",
+    "ex": "Das Rezept meiner Oma ist geheim.",
+    "n": "Two meanings: a cooking recipe and a medical prescription (der Arzt stellt ein Rezept aus). Context makes it clear."
+  },
+  {
+    "w": "der Unterschied",
+    "a": "der",
+    "e": "difference",
+    "c": "Abstract Concepts",
+    "p": "die Unterschiede",
+    "ex": "Was ist der Unterschied?",
+    "n": "'Einen Unterschied machen' = to make a difference. 'Kein Unterschied' = no difference."
+  },
+  {
+    "w": "die Ärztin",
+    "a": "die",
+    "e": "doctor (female)",
+    "c": "Body & Health",
+    "p": "die Ärztinnen",
+    "ex": "Die Ärztin erklärt die Diagnose.",
+    "n": "Female doctor; male: der Arzt. 'zur Ärztin gehen' = to go to the doctor. Your GP is die Hausärztin."
+  },
+  {
+    "w": "der Preis",
+    "a": "der",
+    "e": "price / prize",
+    "c": "Shopping & Money",
+    "p": "die Preise",
+    "ex": "Der Preis ist zu hoch.",
+    "n": "Two meanings: price (cost) and prize/award. 'Preisverleihung' = award ceremony; 'Nobelpreis' = Nobel Prize."
+  },
+  {
+    "w": "der Feiertag",
+    "a": "der",
+    "e": "public holiday",
+    "c": "Time & Calendar",
+    "p": "die Feiertage",
+    "ex": "Morgen ist ein Feiertag.",
+    "n": "Bavaria has more public holidays than most German states — 13 per year."
+  },
+  {
+    "w": "die Dauer",
+    "a": "die",
+    "e": "duration / length of time",
+    "c": "Time & Calendar",
+    "p": "(kein Plural)",
+    "ex": "Die Dauer des Kurses beträgt drei Monate.",
+    "n": "'Auf Dauer' = in the long run. No plural in standard usage."
+  },
+  {
+    "w": "die Kollegin",
+    "a": "die",
+    "e": "colleague (female)",
+    "c": "Work & Career",
+    "p": "die Kolleginnen",
+    "ex": "Meine Kollegin ist sehr nett.",
+    "n": "Female colleague; male: der Kollege (a weak noun). 'eine nette Kollegin' = a nice colleague."
+  },
+  {
+    "w": "die Steuer",
+    "a": "die",
+    "e": "tax",
+    "c": "Shopping & Money",
+    "p": "die Steuern",
+    "ex": "Die Mehrwertsteuer beträgt 19%.",
+    "n": "'Mehrwertsteuer' (MwSt) = VAT. 'Einkommensteuer' = income tax."
+  },
+  {
+    "w": "der Zug",
+    "a": "der",
+    "e": "train",
+    "c": "Transport & City",
+    "p": "die Züge",
+    "ex": "Der Zug fährt in zehn Minuten.",
+    "n": "'mit dem Zug fahren' = to go by train. Run by Deutsche Bahn (DB); 'der Zug hat Verspätung' = the train is delayed."
+  },
+  {
+    "w": "der Rabatt",
+    "a": "der",
+    "e": "discount",
+    "c": "Shopping & Money",
+    "p": "die Rabatte",
+    "ex": "Gibt es einen Rabatt für Studenten?",
+    "n": "'10% Rabatt' = 10% off. 'im Angebot' = on offer; 'der Schlussverkauf' = the end-of-season sales."
+  },
+  {
+    "w": "der Mieter",
+    "a": "der",
+    "e": "tenant",
+    "c": "Home & Living",
+    "p": "die Mieter",
+    "ex": "Der Mieter zahlt pünktlich.",
+    "n": "Female: die Mieterin."
+  },
+  {
+    "w": "die Krankheit",
+    "a": "die",
+    "e": "illness / disease",
+    "c": "Body & Health",
+    "p": "die Krankheiten",
+    "ex": "Diese Krankheit ist ansteckend.",
+    "n": "'krank sein' = to be ill. 'die Krankenkasse' = your health insurer; 'die Krankschreibung' = a sick note."
+  },
+  {
+    "w": "der Stau",
+    "a": "der",
+    "e": "traffic jam",
+    "c": "Transport & City",
+    "p": "die Staus",
+    "ex": "Auf der Autobahn ist ein Stau.",
+    "n": "Germany is famous for its Autobahn but also for its legendary traffic jams around Munich."
+  },
+  {
+    "w": "das Medikament",
+    "a": "das",
+    "e": "medication / drug",
+    "c": "Body & Health",
+    "p": "die Medikamente",
+    "ex": "Nehmen Sie das Medikament dreimal täglich.",
+    "n": "'ein Medikament einnehmen' = to take a medication. Sold at the Apotheke; many require a Rezept (prescription)."
+  },
+  {
+    "w": "die Bibliothek",
+    "a": "die",
+    "e": "library",
+    "c": "Education & Culture",
+    "p": "die Bibliotheken",
+    "ex": "Ich lerne gerne in der Bibliothek.",
+    "n": "Don't confuse with 'Buchhandlung' (bookshop). Free to use with a library card (Bibliotheksausweis)."
+  },
+  {
+    "w": "die Apotheke",
+    "a": "die",
+    "e": "pharmacy",
+    "c": "Body & Health",
+    "p": "die Apotheken",
+    "ex": "Die Apotheke ist gleich um die Ecke.",
+    "n": "Marked by a red 'A' sign. Only place to buy medicine in Germany."
+  },
+  {
+    "w": "der Kollege",
+    "a": "der",
+    "e": "colleague (male)",
+    "c": "Work & Career",
+    "p": "die Kollegen",
+    "ex": "Mein Kollege hilft mir immer.",
+    "n": "Female form: die Kollegin / die Kolleginnen."
+  },
+  {
+    "w": "das Fahrrad",
+    "a": "das",
+    "e": "bicycle",
+    "c": "Transport & City",
+    "p": "die Fahrräder",
+    "ex": "In München fahren viele Leute Fahrrad.",
+    "n": "'Radfahren' = to cycle. Munich has excellent bike infrastructure (Radwege)."
+  },
+  {
+    "w": "das Semester",
+    "a": "das",
+    "e": "semester",
+    "c": "Education & Culture",
+    "p": "die Semester",
+    "ex": "Das Wintersemester beginnt im Oktober.",
+    "n": "German academic year: Wintersemester (Oct–Mar), Sommersemester (Apr–Sep)."
+  },
+  {
+    "w": "der Vertrag",
+    "a": "der",
+    "e": "contract",
+    "c": "Work & Career",
+    "p": "die Verträge",
+    "ex": "Ich habe den Vertrag unterschrieben.",
+    "n": "'einen Vertrag unterschreiben' = to sign a contract. 'der Mietvertrag' (rental) and 'der Arbeitsvertrag' (employment) matter a lot in Germany."
+  },
+  {
+    "w": "der Schlüssel",
+    "a": "der",
+    "e": "key",
+    "c": "Home & Living",
+    "p": "die Schlüssel",
+    "ex": "Hast du den Schlüssel dabei?",
+    "n": "'den Schlüssel verlieren' = to lose the key. Plural is identical: die Schlüssel. 'der Hausschlüssel' = house key."
+  },
+  {
+    "w": "die Bushaltestelle",
+    "a": "die",
+    "e": "bus stop",
+    "c": "Transport & City",
+    "p": "die Bushaltestellen",
+    "ex": "Die Bushaltestelle ist in der Nähe.",
+    "n": "'an der Bushaltestelle' = at the bus stop. In Munich the MVV runs the network; 'die Haltestelle' works for tram and bus too."
+  },
+  {
+    "w": "der Bürgersteig",
+    "a": "der",
+    "e": "pavement / sidewalk",
+    "c": "Transport & City",
+    "p": "die Bürgersteige",
+    "ex": "Gehen Sie auf dem Bürgersteig.",
+    "n": "Also: der Gehweg, der Gehsteig (regional variations)."
+  },
+  {
+    "w": "das Badezimmer",
+    "a": "das",
+    "e": "bathroom",
+    "c": "Home & Living",
+    "p": "die Badezimmer",
+    "ex": "Das Badezimmer hat eine Badewanne.",
+    "n": "Also shortened to 'das Bad'. 'Die Dusche' = shower, 'die Badewanne' = bathtub."
+  },
+  {
+    "w": "das Zeugnis",
+    "a": "das",
+    "e": "report card / certificate",
+    "c": "Education & Culture",
+    "p": "die Zeugnisse",
+    "ex": "Das Zeugnis kommt am Freitag.",
+    "n": "Also: work reference letter (Arbeitszeugnis) — extremely important in German job applications."
+  },
+  {
+    "w": "die Krankenkasse",
+    "a": "die",
+    "e": "health insurance fund",
+    "c": "Body & Health",
+    "p": "die Krankenkassen",
+    "ex": "Ich bin bei der AOK versichert.",
+    "n": "Germany's statutory health insurance system. Employees choose between funds (Kassen) like AOK, TK, or Barmer."
+  },
+  {
+    "w": "die Autobahn",
+    "a": "die",
+    "e": "motorway / highway",
+    "c": "Transport & City",
+    "p": "die Autobahnen",
+    "ex": "Auf der Autobahn gibt es kein Tempolimit.",
+    "n": "Many sections have no speed limit — but a recommended speed (Richtgeschwindigkeit) of 130 km/h applies."
+  },
+  {
+    "w": "die Überweisung",
+    "a": "die",
+    "e": "bank transfer / referral",
+    "c": "Shopping & Money",
+    "p": "die Überweisungen",
+    "ex": "Ich mache eine Überweisung.",
+    "n": "Also means medical referral to a specialist. Germany is a Überweisungskultur."
+  },
+  {
+    "w": "die Küche",
+    "a": "die",
+    "e": "kitchen / cuisine",
+    "c": "Home & Living",
+    "p": "die Küchen",
+    "ex": "Die Küche ist neu renoviert.",
+    "n": "Also means 'cuisine': 'die deutsche Küche' = German cuisine."
+  },
+  {
+    "w": "das Abendessen",
+    "a": "das",
+    "e": "dinner / supper",
+    "c": "Food & Drink",
+    "p": "die Abendessen",
+    "ex": "Wir essen Abendessen um sieben.",
+    "n": "Germans traditionally eat a cold dinner (Abendbrot) — bread, cheese, cold cuts."
+  },
+  {
+    "w": "das Pfand",
+    "a": "das",
+    "e": "deposit (on bottles)",
+    "c": "Shopping & Money",
+    "p": "die Pfänder",
+    "ex": "Das Pfand beträgt 25 Cent.",
+    "n": "Germany's bottle deposit system. Return bottles at supermarket machines for a refund."
+  },
+  {
+    "w": "die Kasse",
+    "a": "die",
+    "e": "cash register / checkout / till",
+    "c": "Food & Drink",
+    "p": "die Kassen",
+    "ex": "An der Kasse zahle ich bar.",
+    "n": "Queue at the Kasse. Have your bags ready — German cashiers are very fast!"
+  },
+  {
+    "w": "die Prüfung",
+    "a": "die",
+    "e": "exam / test",
+    "c": "Education & Culture",
+    "p": "die Prüfungen",
+    "ex": "Ich lerne für die Prüfung.",
+    "n": "'Eine Prüfung bestehen' = to pass. 'Durchfallen' = to fail."
+  },
+  {
+    "w": "die Jahreszeit",
+    "a": "die",
+    "e": "season",
+    "c": "Time & Calendar",
+    "p": "die Jahreszeiten",
+    "ex": "Meine Lieblingsjahreszeit ist der Herbst.",
+    "n": "The four are der Frühling, der Sommer, der Herbst, der Winter. Note: 'im Sommer' = in summer (im + season)."
+  },
+  {
+    "w": "der Arzt",
+    "a": "der",
+    "e": "doctor (male)",
+    "c": "Body & Health",
+    "p": "die Ärzte",
+    "ex": "Ich habe einen Termin beim Arzt.",
+    "n": "Female: die Ärztin. 'Zum Arzt gehen' = to go to the doctor."
+  },
+  {
+    "w": "der Termin",
+    "a": "der",
+    "e": "appointment / date / deadline",
+    "c": "Time & Calendar",
+    "p": "die Termine",
+    "ex": "Ich habe morgen einen Termin beim Zahnarzt.",
+    "n": "Very broad usage: doctor, meeting, deadline. 'Termin machen/vereinbaren' = to make an appointment."
+  },
+  {
+    "w": "die Kündigung",
+    "a": "die",
+    "e": "termination / resignation / notice",
+    "c": "Work & Career",
+    "p": "die Kündigungen",
+    "ex": "Er hat eine Kündigung erhalten.",
+    "n": "Can be by employer (dismissal) or employee (resignation). Context matters."
+  },
+  {
+    "w": "die Stelle",
+    "a": "die",
+    "e": "job position / spot",
+    "c": "Work & Career",
+    "p": "die Stellen",
+    "ex": "Ich habe eine neue Stelle gefunden.",
+    "n": "More specific than 'Beruf' — refers to a specific post or role."
+  },
+  {
+    "w": "der Vermieter",
+    "a": "der",
+    "e": "landlord",
+    "c": "Home & Living",
+    "p": "die Vermieter",
+    "ex": "Ich muss den Vermieter anrufen.",
+    "n": "Female: die Vermieterin. Opposite: der Mieter (tenant)."
+  },
+  {
+    "w": "der Chef",
+    "a": "der",
+    "e": "boss / manager",
+    "c": "Work & Career",
+    "p": "die Chefs",
+    "ex": "Mein Chef ist oft im Ausland.",
+    "n": "Female: die Chefin. In formal contexts: 'Vorgesetzter/Vorgesetzte'."
+  },
+  {
+    "w": "die Tankstelle",
+    "a": "die",
+    "e": "petrol station / gas station",
+    "c": "Transport & City",
+    "p": "die Tankstellen",
+    "ex": "Wir brauchen Benzin. Wo ist die nächste Tankstelle?",
+    "n": "'tanken' = to fill up. Handy in Germany — petrol stations are among the few shops open late and on Sundays."
+  },
+  {
+    "w": "der Keller",
+    "a": "der",
+    "e": "cellar / basement",
+    "c": "Home & Living",
+    "p": "die Keller",
+    "ex": "Das Fahrrad steht im Keller.",
+    "n": "Most Munich flats come with a Kellerabteil (storage cellar). 'im Keller' = in the basement."
+  },
+  {
+    "w": "der Student",
+    "a": "der",
+    "e": "student (male, university)",
+    "c": "Education & Culture",
+    "p": "die Studenten",
+    "ex": "Er ist Student im zweiten Semester.",
+    "n": "For school pupils: 'der Schüler'. Female university student: 'die Studentin'."
+  },
+  {
+    "w": "der Supermarkt",
+    "a": "der",
+    "e": "supermarket",
+    "c": "Food & Drink",
+    "p": "die Supermärkte",
+    "ex": "Der Supermarkt schließt um 22 Uhr.",
+    "n": "Major chains: REWE, Edeka, Lidl, Aldi, Penny. Sunday closures are the norm — plan ahead."
+  },
+  {
+    "w": "die Wohnung",
+    "a": "die",
+    "e": "apartment / flat",
+    "c": "Home & Living",
+    "p": "die Wohnungen",
+    "ex": "Die Wohnung hat drei Zimmer.",
+    "n": "Finding one in Munich is famously hard. 'eine Wohnung mieten' = to rent a flat; '2-Zimmer-Wohnung' = a 2-room flat."
+  },
+  {
+    "w": "das Wohnzimmer",
+    "a": "das",
+    "e": "living room",
+    "c": "Home & Living",
+    "p": "die Wohnzimmer",
+    "ex": "Wir sitzen im Wohnzimmer.",
+    "n": "'im Wohnzimmer' = in the living room. Compound: Wohn- (living) + Zimmer (room)."
+  },
+  {
+    "w": "die Abteilung",
+    "a": "die",
+    "e": "department",
+    "c": "Work & Career",
+    "p": "die Abteilungen",
+    "ex": "Welche Abteilung leiten Sie?",
+    "n": "'die Personalabteilung' = HR department. 'der Abteilungsleiter' = head of department."
+  },
+  {
+    "w": "die Miete",
+    "a": "die",
+    "e": "rent",
+    "c": "Home & Living",
+    "p": "die Mieten",
+    "ex": "Die Miete in München ist sehr hoch.",
+    "n": "'Kaltmiete' = rent without utilities; 'Warmmiete' = rent including utilities."
+  },
+  {
+    "w": "die Hochschule",
+    "a": "die",
+    "e": "university / higher education institution",
+    "c": "Education & Culture",
+    "p": "die Hochschulen",
+    "ex": "Die Hochschule hat viele Studenten.",
+    "n": "Broad term. Includes Fachhochschule (university of applied sciences) — common in engineering."
+  },
+  {
+    "w": "die Erfahrung",
+    "a": "die",
+    "e": "experience",
+    "c": "Abstract Concepts",
+    "p": "die Erfahrungen",
+    "ex": "Ich habe viel Erfahrung in diesem Bereich.",
+    "n": "'Erfahrung sammeln' = to gain experience. 'aus Erfahrung' = from experience; 'die Berufserfahrung' = work experience."
+  },
+  {
+    "w": "das Schlafzimmer",
+    "a": "das",
+    "e": "bedroom",
+    "c": "Home & Living",
+    "p": "die Schlafzimmer",
+    "ex": "Das Schlafzimmer ist ruhig.",
+    "n": "'im Schlafzimmer' = in the bedroom. Compound: Schlaf- (sleep) + Zimmer (room)."
+  },
+  {
+    "w": "die Sprache",
+    "a": "die",
+    "e": "language",
+    "c": "Education & Culture",
+    "p": "die Sprachen",
+    "ex": "Deutsch ist eine schwierige Sprache.",
+    "n": "'eine Sprache sprechen/lernen' = to speak/learn a language. 'die Muttersprache' = mother tongue; 'die Fremdsprache' = foreign language."
+  },
+  {
+    "w": "der Bahnhof",
+    "a": "der",
+    "e": "train station",
+    "c": "Transport & City",
+    "p": "die Bahnhöfe",
+    "ex": "Der Hauptbahnhof ist sehr groß.",
+    "n": "'Ich verstehe nur Bahnhof' = I don't understand a word (idiom)."
+  },
+  {
+    "w": "der Schmerz",
+    "a": "der",
+    "e": "pain / ache",
+    "c": "Body & Health",
+    "p": "die Schmerzen",
+    "ex": "Ich habe starke Schmerzen.",
+    "n": "Usually used in plural: 'Schmerzen haben'. Compounds: Kopfschmerzen, Bauchschmerzen, Rückenschmerzen."
+  },
+  {
+    "w": "die Nebenkosten",
+    "a": "die",
+    "e": "additional costs / utilities",
+    "c": "Home & Living",
+    "p": "(immer Plural)",
+    "ex": "Nebenkosten kommen noch dazu.",
+    "n": "Includes heating, water, building maintenance. Always used in plural."
+  },
+  {
+    "w": "die Tüte",
+    "a": "die",
+    "e": "bag",
+    "c": "Shopping & Money",
+    "p": "die Tüten",
+    "ex": "Brauchen Sie eine Tüte?",
+    "n": "Plastic/paper shopping bags cost money in German shops. Bring your own 'Stoffbeutel' (cloth bag)."
+  },
+  {
+    "w": "der Unterricht",
+    "a": "der",
+    "e": "lesson / class / instruction",
+    "c": "Education & Culture",
+    "p": "(kein Plural)",
+    "ex": "Der Unterricht beginnt um acht Uhr.",
+    "n": "No plural in standard usage. 'Unterricht haben' = to have class/lessons."
+  },
+  {
+    "w": "die Möglichkeit",
+    "a": "die",
+    "e": "possibility / opportunity",
+    "c": "Abstract Concepts",
+    "p": "die Möglichkeiten",
+    "ex": "Es gibt viele Möglichkeiten.",
+    "n": "'die Möglichkeit haben, etwas zu tun' = to have the chance to do something. 'nach Möglichkeit' = if possible."
+  },
+  {
+    "w": "die Zukunft",
+    "a": "die",
+    "e": "future",
+    "c": "Time & Calendar",
+    "p": "(kein Plural)",
+    "ex": "Die Zukunft liegt vor uns.",
+    "n": "Also the grammatical future tense. No plural in standard usage."
+  },
+  {
+    "w": "die Besprechung",
+    "a": "die",
+    "e": "meeting / discussion",
+    "c": "Work & Career",
+    "p": "die Besprechungen",
+    "ex": "Die Besprechung beginnt um neun Uhr.",
+    "n": "More formal than 'Meeting' (also used in German offices)."
+  },
+  {
+    "w": "die Wahl",
+    "a": "die",
+    "e": "election",
+    "c": "Government & Society",
+    "p": "die Wahlen",
+    "ex": "Die Wahl findet im September statt.",
+    "n": "Also means 'choice': 'Du hast die Wahl' = It's your choice."
+  },
+  {
+    "w": "der Tee",
+    "a": "der",
+    "e": "tea",
+    "c": "Food & Drink",
+    "p": "die Tees",
+    "ex": "Ich trinke lieber Tee.",
+    "n": "'eine Tasse Tee' = a cup of tea. 'der Kräutertee' = herbal tea. Ordering: 'Ich hätte gern einen Tee.'"
+  },
+  {
+    "w": "die Angst",
+    "a": "die",
+    "e": "fear",
+    "c": "Emotions & Mind",
+    "p": "die Ängste",
+    "ex": "Ich habe Angst vor Spinnen.",
+    "n": "'Angst haben vor' + Dative = to be afraid of. 'Keine Angst!' = Don't worry! / Don't be afraid!"
+  },
+  {
+    "w": "das Internet",
+    "a": "das",
+    "e": "internet",
+    "c": "Home & Living",
+    "p": "(kein Plural)",
+    "ex": "Das Internet ist heute unverzichtbar.",
+    "n": "'im Internet' = on the internet (im, not auf!). 'ins Internet gehen' = to go online; 'der Internetanschluss' = internet connection."
+  },
+  {
+    "w": "die Freundschaft",
+    "a": "die",
+    "e": "friendship",
+    "c": "People & Relationships",
+    "p": "die Freundschaften",
+    "ex": "Unsere Freundschaft ist sehr wichtig.",
+    "n": "'eine Freundschaft schließen' = to make friends. Germans distinguish a 'Freund' (close friend) from a 'Bekannter' (acquaintance)."
+  },
+  {
+    "w": "die Vorschrift",
+    "a": "die",
+    "e": "regulation / regulation",
+    "c": "Government & Society",
+    "p": "die Vorschriften",
+    "ex": "Diese Vorschrift gilt überall.",
+    "n": "Germans tend to follow rules carefully. 'Vorschrift ist Vorschrift' = rules are rules."
+  },
+  {
+    "w": "das Ende",
+    "a": "das",
+    "e": "end",
+    "c": "Abstract Concepts",
+    "p": "die Enden",
+    "ex": "Das Ende naht.",
+    "n": "'Am Ende' = in the end / at the end. 'Kein Ende in Sicht' = no end in sight."
+  },
+  {
+    "w": "die Region",
+    "a": "die",
+    "e": "region / area",
+    "c": "Travel & Places",
+    "p": "die Regionen",
+    "ex": "Diese Region ist sehr touristisch.",
+    "n": "'die Region München' = the Munich region. More colloquial alternative: 'die Gegend' (area)."
+  },
+  {
+    "w": "der Regen",
+    "a": "der",
+    "e": "rain",
+    "c": "Nature & Weather",
+    "p": "(kein Plural)",
+    "ex": "Der Regen hört nicht auf.",
+    "n": "'der Regen' is masculine. Munich gets significant rainfall. 'Saurer Regen' = acid rain."
+  },
+  {
+    "w": "die Hoffnung",
+    "a": "die",
+    "e": "hope",
+    "c": "Emotions & Mind",
+    "p": "die Hoffnungen",
+    "ex": "Ich habe die Hoffnung noch nicht aufgegeben.",
+    "n": "'Hoffnung aufgeben' = to give up hope. 'Die Hoffnung stirbt zuletzt' = hope dies last."
+  },
+  {
+    "w": "die App",
+    "a": "die",
+    "e": "app / application",
+    "c": "Technology & Media",
+    "p": "die Apps",
+    "ex": "Lad die App herunter.",
+    "n": "Borrowed from English. 'eine App herunterladen' = to download an app. The MVV app is essential for Munich transport."
+  },
+  {
+    "w": "das Obst",
+    "a": "das",
+    "e": "fruit",
+    "c": "Food & Drink",
+    "p": "(kein Plural)",
+    "ex": "Ich esse täglich Obst.",
+    "n": "Collective noun, rarely pluralised. Specific fruits: der Apfel, die Banane, etc."
+  },
+  {
+    "w": "das Programm",
+    "a": "das",
+    "e": "program / software",
+    "c": "Technology & Media",
+    "p": "die Programme",
+    "ex": "Das Programm läuft nicht mehr.",
+    "n": "Two senses: a computer program and a TV/event programme. 'das Fernsehprogramm' = the TV schedule."
+  },
+  {
+    "w": "der Nachbar",
+    "a": "der",
+    "e": "neighbour (male)",
+    "c": "People & Relationships",
+    "p": "die Nachbarn",
+    "ex": "Unser Nachbar ist sehr freundlich.",
+    "n": "Female: die Nachbarin. Important for apartment life in Germany."
+  },
+  {
+    "w": "die sozialen Medien",
+    "a": "die",
+    "e": "social media",
+    "c": "Technology & Media",
+    "p": "(immer Plural)",
+    "ex": "Er verbringt zu viel Zeit in sozialen Medien.",
+    "n": "Always plural: 'die sozialen Medien' or 'Social Media'. Used in both forms."
+  },
+  {
+    "w": "das Bier",
+    "a": "das",
+    "e": "beer",
+    "c": "Food & Drink",
+    "p": "die Biere",
+    "ex": "Bayerisches Bier ist sehr gut.",
+    "n": "Bavaria has strict beer purity laws (Reinheitsgebot, 1516). Masskrug = the 1-litre mug at Oktoberfest."
+  },
+  {
+    "w": "das Öl",
+    "a": "das",
+    "e": "oil",
+    "c": "Food & Drink",
+    "p": "die Öle",
+    "ex": "Olivenöl ist gesund.",
+    "n": "'das Olivenöl' = olive oil; 'das Sonnenblumenöl' = sunflower oil. Also fuel/heating oil (das Heizöl)."
+  },
+  {
+    "w": "der Zucker",
+    "a": "der",
+    "e": "sugar",
+    "c": "Food & Drink",
+    "p": "(kein Plural)",
+    "ex": "Mit oder ohne Zucker?",
+    "n": "No plural in everyday use. 'mit/ohne Zucker' = with/without sugar — handy when ordering coffee. 'der Würfelzucker' = sugar cubes."
+  },
+  {
+    "w": "die Umwelt",
+    "a": "die",
+    "e": "environment / surroundings",
+    "c": "Nature & Weather",
+    "p": "(kein Plural)",
+    "ex": "Wir müssen die Umwelt schützen.",
+    "n": "'Umweltschutz' = environmental protection. A central concept in German public life."
+  },
+  {
+    "w": "die Stimmung",
+    "a": "die",
+    "e": "mood",
+    "c": "Emotions & Mind",
+    "p": "die Stimmungen",
+    "ex": "Er ist heute in einer guten Stimmung.",
+    "n": "Also: atmosphere/vibe of a place or event. 'Die Stimmung war ausgelassen' = the mood was exuberant."
+  },
+  {
+    "w": "die Daten",
+    "a": "die",
+    "e": "data",
+    "c": "Technology & Media",
+    "p": "(immer Plural)",
+    "ex": "Die Daten müssen geschützt werden.",
+    "n": "Always used in plural: 'die Daten'. The singular 'das Datum' means a date (on a calendar)."
+  },
+  {
+    "w": "das Gesetz",
+    "a": "das",
+    "e": "law",
+    "c": "Government & Society",
+    "p": "die Gesetze",
+    "ex": "Das Gesetz wird bald geändert.",
+    "n": "'ein Gesetz' = a law; 'das Grundgesetz' = Germany's constitution. 'gegen das Gesetz' = against the law."
+  },
+  {
+    "w": "die Politik",
+    "a": "die",
+    "e": "politics",
+    "c": "Government & Society",
+    "p": "(kein Plural)",
+    "ex": "Er interessiert sich nicht für Politik.",
+    "n": "No plural in standard usage. 'Politiker/Politikerin' = politician."
+  },
+  {
+    "w": "die Sorge",
+    "a": "die",
+    "e": "worry / concern",
+    "c": "Emotions & Mind",
+    "p": "die Sorgen",
+    "ex": "Mach dir keine Sorgen!",
+    "n": "'Sich Sorgen machen um' = to worry about. 'Keine Sorge!' = No worries!"
+  },
+  {
+    "w": "das Handy",
+    "a": "das",
+    "e": "smartphone / mobile phone",
+    "c": "Technology & Media",
+    "p": "die Handys",
+    "ex": "Ich habe mein Handy vergessen.",
+    "n": "'Handy' is a German false anglicism — English speakers say 'mobile phone' or 'cell phone'."
+  },
+  {
+    "w": "der Schnee",
+    "a": "der",
+    "e": "snow",
+    "c": "Nature & Weather",
+    "p": "(kein Plural)",
+    "ex": "In Bayern gibt es im Winter viel Schnee.",
+    "n": "No plural. 'Es schneit' = it's snowing. Munich gets real snow in winter; 'der Schneeregen' = sleet."
+  },
+  {
+    "w": "die Hauptstadt",
+    "a": "die",
+    "e": "capital city",
+    "c": "Travel & Places",
+    "p": "die Hauptstädte",
+    "ex": "Berlin ist die Hauptstadt Deutschlands.",
+    "n": "Berlin is the Hauptstadt of Germany; Munich is the Landeshauptstadt of Bavaria. Compound: Haupt- (main) + Stadt (city)."
+  },
+  {
+    "w": "der Stress",
+    "a": "der",
+    "e": "stress",
+    "c": "Emotions & Mind",
+    "p": "(kein Plural)",
+    "ex": "Ich habe gerade viel Stress.",
+    "n": "'der Stress' is masculine. Borrowed from English. 'Gestresst sein' = to be stressed."
+  },
+  {
+    "w": "das Salz",
+    "a": "das",
+    "e": "salt",
+    "c": "Food & Drink",
+    "p": "die Salze",
+    "ex": "Das Essen braucht mehr Salz.",
+    "n": "'Salz und Pfeffer' = salt and pepper. 'Könnten Sie mir das Salz reichen?' = Could you pass the salt?"
+  },
+  {
+    "w": "das Gewitter",
+    "a": "das",
+    "e": "storm / thunderstorm",
+    "c": "Nature & Weather",
+    "p": "die Gewitter",
+    "ex": "Ein Gewitter zieht auf.",
+    "n": "'das Gewitter' is neuter. 'Der Sturm' = storm (general); 'das Gewitter' = thunderstorm specifically."
+  },
+  {
+    "w": "die Waschmaschine",
+    "a": "die",
+    "e": "washing machine",
+    "c": "Home & Living",
+    "p": "die Waschmaschinen",
+    "ex": "Die Waschmaschine ist kaputt.",
+    "n": "Often shared in the Keller of apartment buildings. Note the quiet hours and no laundry on Sundays. 'Wäsche waschen' = to do laundry."
+  },
+  {
+    "w": "der Vorteil",
+    "a": "der",
+    "e": "advantage / benefit",
+    "c": "Abstract Concepts",
+    "p": "die Vorteile",
+    "ex": "Das hat viele Vorteile.",
+    "n": "'der Vorteil' is masculine. Opposite: der Nachteil (disadvantage). 'Vor- und Nachteile' = pros and cons."
+  },
+  {
+    "w": "die E-Mail",
+    "a": "die",
+    "e": "email",
+    "c": "Technology & Media",
+    "p": "die E-Mails",
+    "ex": "Ich schicke dir eine E-Mail.",
+    "n": "Feminine in German. Also written 'Email'. Pronounced 'Ee-mail'."
+  },
+  {
+    "w": "der Wind",
+    "a": "der",
+    "e": "wind",
+    "c": "Nature & Weather",
+    "p": "die Winde",
+    "ex": "Es weht ein starker Wind.",
+    "n": "'Es ist windig' = it's windy. 'der Gegenwind' = headwind. The plural (die Winde) is rare in everyday speech."
+  },
+  {
+    "w": "das Fleisch",
+    "a": "das",
+    "e": "meat",
+    "c": "Food & Drink",
+    "p": "(kein Plural)",
+    "ex": "Fleisch esse ich selten.",
+    "n": "No plural in general usage. Types: Rindfleisch (beef), Schweinefleisch (pork), Hähnchenfleisch (chicken)."
+  },
+  {
+    "w": "die Reise",
+    "a": "die",
+    "e": "travel / trip",
+    "c": "Travel & Places",
+    "p": "die Reisen",
+    "ex": "Die Reise nach Italien war wunderschön.",
+    "n": "'Gute Reise!' = Have a good trip! 'Auf Reisen sein' = to be travelling."
+  },
+  {
+    "w": "die Operation",
+    "a": "die",
+    "e": "operation / surgery",
+    "c": "Body & Health",
+    "p": "die Operationen",
+    "ex": "Die Operation war erfolgreich.",
+    "n": "Short form: die OP. 'sich operieren lassen' = to have an operation. Covered by the Krankenkasse if medically necessary."
+  },
+  {
+    "w": "das Brot",
+    "a": "das",
+    "e": "bread",
+    "c": "Food & Drink",
+    "p": "die Brote",
+    "ex": "Deutsches Brot ist weltweit bekannt.",
+    "n": "Germany has over 300 types of bread. An important cultural institution!"
+  },
+  {
+    "w": "das Fenster",
+    "a": "das",
+    "e": "window",
+    "c": "Home & Living",
+    "p": "die Fenster",
+    "ex": "Bitte mach das Fenster zu.",
+    "n": "'das Fenster' is neuter. 'Fenster öffnen/schließen/putzen' = to open/close/clean the window."
+  },
+  {
+    "w": "das Viertel",
+    "a": "das",
+    "e": "neighbourhood / district",
+    "c": "Travel & Places",
+    "p": "die Viertel",
+    "ex": "Schwabing ist ein schönes Viertel.",
+    "n": "Also: quarter (a quarter of something). 'Viertelstunde' = 15 minutes; 'Viertel vor' = quarter to."
+  },
+  {
+    "w": "das Gemüse",
+    "a": "das",
+    "e": "vegetable(s)",
+    "c": "Food & Drink",
+    "p": "(kein Plural)",
+    "ex": "Gemüse ist sehr gesund.",
+    "n": "Das Gemüse is a singular collective noun, rarely pluralised. Specific veg: die Karotte, die Tomate, die Kartoffel."
+  },
+  {
+    "w": "der Sonnenschein",
+    "a": "der",
+    "e": "sunshine",
+    "c": "Nature & Weather",
+    "p": "(kein Plural)",
+    "ex": "Wir genießen den Sonnenschein.",
+    "n": "'der Sonnenschein' is masculine. 'In der Sonne sitzen' = to sit in the sun."
+  },
+  {
+    "w": "das Passwort",
+    "a": "das",
+    "e": "password",
+    "c": "Technology & Media",
+    "p": "die Passwörter",
+    "ex": "Ich habe das Passwort vergessen.",
+    "n": "'das Passwort' is neuter. 'Passwort zurücksetzen' = to reset password."
+  },
+  {
+    "w": "der Berg",
+    "a": "der",
+    "e": "mountain",
+    "c": "Nature & Weather",
+    "p": "die Berge",
+    "ex": "Die Alpen sind nicht weit von München.",
+    "n": "'der Berg' is masculine. Munich is uniquely close to the Alps — a major draw."
+  },
+  {
+    "w": "der Fluss",
+    "a": "der",
+    "e": "river",
+    "c": "Nature & Weather",
+    "p": "die Flüsse",
+    "ex": "Die Isar fließt durch München.",
+    "n": "The Isar is Munich's river — famous for the Eisbach surfing wave and riverside relaxation."
+  },
+  {
+    "w": "die Ernährung",
+    "a": "die",
+    "e": "diet / nutrition",
+    "c": "Body & Health",
+    "p": "(kein Plural)",
+    "ex": "Eine gesunde Ernährung ist wichtig.",
+    "n": "No plural. 'die gesunde Ernährung' = a healthy diet. 'sich ernähren' = to feed/nourish oneself."
+  },
+  {
+    "w": "das Ausland",
+    "a": "das",
+    "e": "abroad / foreign country",
+    "c": "Travel & Places",
+    "p": "(kein Plural)",
+    "ex": "Ich war drei Monate im Ausland.",
+    "n": "No plural. 'Im Ausland' = abroad (location). 'Ins Ausland' = abroad (direction/movement)."
+  },
+  {
+    "w": "die Temperatur",
+    "a": "die",
+    "e": "temperature",
+    "c": "Nature & Weather",
+    "p": "die Temperaturen",
+    "ex": "Die Temperatur sinkt auf minus 10 Grad.",
+    "n": "'die Temperatur messen' = to take someone's temperature. Weather: 'Temperaturen um 20 Grad' = temperatures around 20°C."
+  },
+  {
+    "w": "der Fisch",
+    "a": "der",
+    "e": "fish",
+    "c": "Food & Drink",
+    "p": "die Fische",
+    "ex": "Fisch ist reich an Omega-3.",
+    "n": "'Fisch essen' = to eat fish. 'das Fischgeschäft' = the fishmonger's; Friday is a traditional fish day."
+  },
+  {
+    "w": "die Innenstadt",
+    "a": "die",
+    "e": "city / town centre",
+    "c": "Travel & Places",
+    "p": "die Innenstädte",
+    "ex": "Wir treffen uns in der Innenstadt.",
+    "n": "'die Innenstadt' is feminine. Synonym: 'das Stadtzentrum', 'die City'."
+  },
+  {
+    "w": "die Bedeutung",
+    "a": "die",
+    "e": "importance / significance",
+    "c": "Abstract Concepts",
+    "p": "die Bedeutungen",
+    "ex": "Das hat eine große Bedeutung.",
+    "n": "Also: meaning (of a word). 'Was ist die Bedeutung von...?' = What is the meaning of...?"
+  },
+  {
+    "w": "das Ei",
+    "a": "das",
+    "e": "egg",
+    "c": "Food & Drink",
+    "p": "die Eier",
+    "ex": "Ich möchte zwei Eier zum Frühstück.",
+    "n": "Irregular plural: die Eier. 'das gekochte Ei' = boiled egg; 'das Spiegelei' = fried egg; 'das Rührei' = scrambled eggs."
+  },
+  {
+    "w": "das Formular",
+    "a": "das",
+    "e": "form / application form",
+    "c": "Government & Society",
+    "p": "die Formulare",
+    "ex": "Bitte füllen Sie das Formular aus.",
+    "n": "'das Formular' is neuter. 'Formular ausfüllen' = to fill in a form. Essential for German bureaucracy."
+  },
+  {
+    "w": "die Veränderung",
+    "a": "die",
+    "e": "change",
+    "c": "Abstract Concepts",
+    "p": "die Veränderungen",
+    "ex": "Veränderungen sind oft schwierig.",
+    "n": "'sich verändern' = to change (intransitive). 'etwas verändern' = to change something (transitive)."
+  },
+  {
+    "w": "die Ehe",
+    "a": "die",
+    "e": "marriage",
+    "c": "People & Relationships",
+    "p": "die Ehen",
+    "ex": "Sie feiern ihre silberne Ehe.",
+    "n": "'Ehe schließen' = to get married (formal). Collocations: glückliche Ehe, Ehepartner (spouse)."
+  },
+  {
+    "w": "das Paar",
+    "a": "das",
+    "e": "couple",
+    "c": "People & Relationships",
+    "p": "die Paare",
+    "ex": "Das Paar heiratet nächsten Monat.",
+    "n": "Also: a pair of things (ein Paar Schuhe). Note: 'das' not 'die'."
+  },
+  {
+    "w": "das Möbel",
+    "a": "das",
+    "e": "furniture (singular)",
+    "c": "Home & Living",
+    "p": "die Möbel",
+    "ex": "Das Möbel passt nicht durch die Tür.",
+    "n": "'Das Möbel' = one piece. 'Die Möbel' = furniture (almost always plural for multiple pieces)."
+  },
+  {
+    "w": "die Sprechstunde",
+    "a": "die",
+    "e": "appointment (at the doctor)",
+    "c": "Body & Health",
+    "p": "die Sprechstunden",
+    "ex": "Ich habe eine Sprechstunde um 10 Uhr.",
+    "n": "Literally 'speaking hour'. Doctor's consultation hours. 'Sprechstunde haben' = to hold consultation hours."
+  },
+  {
+    "w": "die Grenze",
+    "a": "die",
+    "e": "border",
+    "c": "Travel & Places",
+    "p": "die Grenzen",
+    "ex": "Die Grenze zu Österreich ist nah.",
+    "n": "Austria is very close to Munich — a popular day trip. The Schengen zone means open borders within the EU."
+  },
+  {
+    "w": "die Beziehung",
+    "a": "die",
+    "e": "relationship",
+    "c": "People & Relationships",
+    "p": "die Beziehungen",
+    "ex": "Wir haben eine gute Beziehung.",
+    "n": "Also: connection or link between things."
+  },
+  {
+    "w": "der Kühlschrank",
+    "a": "der",
+    "e": "refrigerator / fridge",
+    "c": "Home & Living",
+    "p": "die Kühlschränke",
+    "ex": "Der Kühlschrank ist leer.",
+    "n": "'in den Kühlschrank stellen' = to put in the fridge. Compound: kühl (cool) + Schrank (cupboard)."
+  },
+  {
+    "w": "der Laptop",
+    "a": "der",
+    "e": "laptop / notebook",
+    "c": "Technology & Media",
+    "p": "die Laptops",
+    "ex": "Ich arbeite am Laptop.",
+    "n": "Also: 'das Notebook'. Both masculine/neuter variants used."
+  },
+  {
+    "w": "der Kaffee",
+    "a": "der",
+    "e": "coffee",
+    "c": "Food & Drink",
+    "p": "die Kaffees",
+    "ex": "Ein Kaffee, bitte!",
+    "n": "Munich café culture is vibrant. 'Verlängerter' = lungo in Austria/Bavaria."
+  },
+  {
+    "w": "der Geschirrspüler",
+    "a": "der",
+    "e": "dishwasher",
+    "c": "Home & Living",
+    "p": "die Geschirrspüler",
+    "ex": "Räum bitte den Geschirrspüler aus.",
+    "n": "Also called die Spülmaschine. 'das Geschirr spülen' = to do the dishes. Plural is identical: die Geschirrspüler."
+  },
+  {
+    "w": "die Generation",
+    "a": "die",
+    "e": "generation",
+    "c": "People & Relationships",
+    "p": "die Generationen",
+    "ex": "Die junge Generation ist anders.",
+    "n": "'die junge/ältere Generation' = the younger/older generation. 'der Generationenkonflikt' = the generation gap."
+  },
+  {
+    "w": "der Blutdruck",
+    "a": "der",
+    "e": "blood pressure",
+    "c": "Body & Health",
+    "p": "(kein Plural)",
+    "ex": "Mein Blutdruck ist zu hoch.",
+    "n": "'Blutdruck messen' = to take blood pressure. High: hoher Blutdruck; low: niedriger Blutdruck."
+  },
+  {
+    "w": "die Praxis",
+    "a": "die",
+    "e": "(medical) practice / surgery",
+    "c": "Body & Health",
+    "p": "die Praxen",
+    "ex": "Die Arztpraxis ist geschlossen.",
+    "n": "Also: practice (putting something into practice). 'In der Praxis' = in practice."
+  },
+  {
+    "w": "der Strom",
+    "a": "der",
+    "e": "electricity / power",
+    "c": "Home & Living",
+    "p": "(kein Plural)",
+    "ex": "Die Stromrechnung ist sehr hoch.",
+    "n": "'Der Strom' is masculine. Also: river current/stream. 'Stromausfall' = power cut."
+  },
+  {
+    "w": "der Gast",
+    "a": "der",
+    "e": "guest / visitor",
+    "c": "People & Relationships",
+    "p": "die Gäste",
+    "ex": "Wir haben heute Abend Gäste.",
+    "n": "Plural takes an umlaut: die Gäste. 'Gäste einladen' = to invite guests; 'der Gastgeber' = the host."
+  },
+  {
+    "w": "die Lösung",
+    "a": "die",
+    "e": "solution",
+    "c": "Abstract Concepts",
+    "p": "die Lösungen",
+    "ex": "Wir suchen eine Lösung.",
+    "n": "'Eine Lösung finden' = to find a solution. 'Problemlösung' = problem solving."
+  },
+  {
+    "w": "die Tür",
+    "a": "die",
+    "e": "door",
+    "c": "Home & Living",
+    "p": "die Türen",
+    "ex": "Bitte schließ die Tür.",
+    "n": "'die Tür öffnen/schließen' = to open/close the door. 'Tür zu!' = shut the door! 'die Haustür' = front door."
+  },
+  {
+    "w": "das Gefühl",
+    "a": "das",
+    "e": "feeling / emotion",
+    "c": "Emotions & Mind",
+    "p": "die Gefühle",
+    "ex": "Ich habe ein komisches Gefühl.",
+    "n": "'das Gefühl' is neuter. 'Ein Gefühl haben für' = to have a feel for something."
+  },
+  {
+    "w": "der Grund",
+    "a": "der",
+    "e": "reason / cause",
+    "c": "Abstract Concepts",
+    "p": "die Gründe",
+    "ex": "Was ist der Grund dafür?",
+    "n": "'Aus welchem Grund?' = For what reason? 'Im Grunde genommen' = basically / fundamentally."
+  },
+  {
+    "w": "der Nachteil",
+    "a": "der",
+    "e": "disadvantage",
+    "c": "Abstract Concepts",
+    "p": "die Nachteile",
+    "ex": "Der einzige Nachteil ist der Preis.",
+    "n": "Opposite of der Vorteil (advantage). 'Vor- und Nachteile' = pros and cons; 'im Nachteil sein' = to be at a disadvantage."
+  },
+  {
+    "w": "die Freude",
+    "a": "die",
+    "e": "joy / delight",
+    "c": "Emotions & Mind",
+    "p": "die Freuden",
+    "ex": "Es ist eine Freude, hier zu sein.",
+    "n": "'Jemandem Freude machen' = to bring someone joy. 'Freude haben an' = to enjoy."
+  },
+  {
+    "w": "die Gesellschaft",
+    "a": "die",
+    "e": "society",
+    "c": "Government & Society",
+    "p": "die Gesellschaften",
+    "ex": "Wir leben in einer freien Gesellschaft.",
+    "n": "Also: company (legal entity: GmbH = Gesellschaft mit beschränkter Haftung)."
+  },
+  {
+    "w": "das Problem",
+    "a": "das",
+    "e": "problem",
+    "c": "Emotions & Mind",
+    "p": "die Probleme",
+    "ex": "Kein Problem! Ich helfe gerne.",
+    "n": "'Ein Problem lösen' = to solve a problem. 'Kein Problem!' is extremely common in Germany."
+  },
+  {
+    "w": "die Meinung",
+    "a": "die",
+    "e": "opinion / view",
+    "c": "Abstract Concepts",
+    "p": "die Meinungen",
+    "ex": "Was ist Ihre Meinung dazu?",
+    "n": "'Meiner Meinung nach' = in my opinion. 'Eine Meinung vertreten' = to hold an opinion."
+  },
+  {
+    "w": "das Klima",
+    "a": "das",
+    "e": "climate",
+    "c": "Nature & Weather",
+    "p": "die Klimate",
+    "ex": "Der Klimawandel ist eine globale Herausforderung.",
+    "n": "'das Klima' is neuter. 'Klimawandel' = climate change — a huge topic in German discourse."
+  },
+  {
+    "w": "die Anmeldung",
+    "a": "die",
+    "e": "residence registration",
+    "c": "Government & Society",
+    "p": "die Anmeldungen",
+    "ex": "Die Anmeldung muss schnell erledigt werden.",
+    "n": "Legally required within 14 days of moving in Germany. Done at the Bürgeramt / Einwohnermeldeamt."
+  },
+  {
+    "w": "der Balkon",
+    "a": "der",
+    "e": "balcony",
+    "c": "Home & Living",
+    "p": "die Balkone",
+    "ex": "Wir frühstücken auf dem Balkon.",
+    "n": "'Der Balkon' is masculine. Very desirable in Munich apartments."
+  },
+  {
+    "w": "das Ziel",
+    "a": "das",
+    "e": "goal / target / destination",
+    "c": "Abstract Concepts",
+    "p": "die Ziele",
+    "ex": "Mein Ziel ist es, fließend Deutsch zu sprechen.",
+    "n": "Covers personal goals, business targets (KPIs) and destinations. 'Ziel erreichen' = to reach a goal; 'am Ziel ankommen' = to reach the destination."
+  },
+  {
+    "w": "die Wolke",
+    "a": "die",
+    "e": "cloud",
+    "c": "Nature & Weather",
+    "p": "die Wolken",
+    "ex": "Heute sind viele Wolken am Himmel.",
+    "n": "'Es ist bewölkt' = it's cloudy. Don't confuse with 'die Cloud' (the English loanword) used for data storage."
+  },
+  {
+    "w": "die Partei",
+    "a": "die",
+    "e": "party (political)",
+    "c": "Government & Society",
+    "p": "die Parteien",
+    "ex": "Welche Partei wählen Sie?",
+    "n": "Also: party (celebrating) — context clarifies. Major parties: CDU/CSU, SPD, Grüne, FDP, AfD."
+  },
+  {
+    "w": "der Gedanke",
+    "a": "der",
+    "e": "thought / idea",
+    "c": "Emotions & Mind",
+    "p": "die Gedanken",
+    "ex": "Das ist ein guter Gedanke.",
+    "n": "'der Gedanke' is a weak masculine noun (des Gedankens). 'In Gedanken sein' = to be lost in thought."
+  },
+  {
+    "w": "der Käse",
+    "a": "der",
+    "e": "cheese",
+    "c": "Food & Drink",
+    "p": "die Käse",
+    "ex": "Bitte zwei Scheiben Käse.",
+    "n": "Plural is rarely used. 'eine Scheibe Käse' = a slice of cheese. Colloquial: 'So ein Käse!' = What nonsense!"
+  },
+  {
+    "w": "der Bekannte",
+    "a": "der",
+    "e": "acquaintance / friend (casual)",
+    "c": "People & Relationships",
+    "p": "die Bekannten",
+    "ex": "Er ist ein Bekannter von mir.",
+    "n": "Germans distinguish carefully between 'Bekannter' (acquaintance) and 'Freund' (close friend)."
+  },
+  {
+    "w": "das Netzwerk",
+    "a": "das",
+    "e": "network",
+    "c": "Technology & Media",
+    "p": "die Netzwerke",
+    "ex": "Das Netzwerk ist ausgefallen.",
+    "n": "'das Netzwerk' is neuter. Also: professional network (berufliches Netzwerk)."
+  },
+  {
+    "w": "der Wein",
+    "a": "der",
+    "e": "wine",
+    "c": "Food & Drink",
+    "p": "die Weine",
+    "ex": "Möchten Sie ein Glas Wein?",
+    "n": "'der Rotwein/Weißwein' = red/white wine; 'ein Glas Wein' = a glass of wine. Bavaria is beer country, but wine bars abound."
+  },
+  {
+    "w": "die Website",
+    "a": "die",
+    "e": "website",
+    "c": "Technology & Media",
+    "p": "die Websites",
+    "ex": "Die Website ist nicht erreichbar.",
+    "n": "Borrowed from English. Also: 'die Webseite' (a single page) and 'die Homepage'. 'eine Website besuchen' = to visit a website."
+  },
+  {
+    "w": "der Reisepass",
+    "a": "der",
+    "e": "passport",
+    "c": "Travel & Places",
+    "p": "die Reisepässe",
+    "ex": "Ich brauche meinen Reisepass.",
+    "n": "For non-EU residents in Germany: always carry ID or passport. 'Personalausweis' = the national ID card."
+  },
+  {
+    "w": "die Treppe",
+    "a": "die",
+    "e": "staircase",
+    "c": "Home & Living",
+    "p": "die Treppen",
+    "ex": "Wir wohnen im dritten Stock, kein Aufzug.",
+    "n": "Also: a flight of stairs. 'Die Treppe hinaufgehen' = to go up the stairs."
+  },
+  {
+    "w": "das Amt",
+    "a": "das",
+    "e": "authority / office / agency",
+    "c": "Government & Society",
+    "p": "die Ämter",
+    "ex": "Das Amt ist morgens geöffnet.",
+    "n": "'das Amt' is neuter. Key offices: Bürgeramt, Finanzamt, Ausländeramt. Germans interact with many Ämter."
+  },
+  {
+    "w": "die Bevölkerung",
+    "a": "die",
+    "e": "population / inhabitants",
+    "c": "People & Relationships",
+    "p": "die Bevölkerungen",
+    "ex": "Die Bevölkerung wächst.",
+    "n": "'die Bevölkerung wächst' = the population is growing. Usually singular; 'die Einwohnerzahl' = the number of inhabitants."
+  },
+  {
+    "w": "die Wirtschaft",
+    "a": "die",
+    "e": "economy",
+    "c": "Government & Society",
+    "p": "(kein Plural)",
+    "ex": "Die Wirtschaft wächst langsam.",
+    "n": "'Wirtschaft' also means 'pub/inn' in some dialects! Context crucial."
+  },
+  {
+    "w": "die Person",
+    "a": "die",
+    "e": "person / human",
+    "c": "People & Relationships",
+    "p": "die Personen",
+    "ex": "Er ist eine tolle Person.",
+    "n": "Gender-neutral term for a person. 'Der Mensch' = human being (broader / more philosophical)."
+  },
+  {
+    "w": "der Anfang",
+    "a": "der",
+    "e": "beginning / start",
+    "c": "Abstract Concepts",
+    "p": "die Anfänge",
+    "ex": "Der Anfang ist immer am schwersten.",
+    "n": "'Am Anfang' = at the beginning. Opposite: das Ende (the end)."
+  },
+  {
+    "w": "die Unterkunft",
+    "a": "die",
+    "e": "accommodation / lodging",
+    "c": "Travel & Places",
+    "p": "die Unterkünfte",
+    "ex": "Haben Sie eine Unterkunft gebucht?",
+    "n": "Includes hotels, Airbnbs, hostels, guesthouses (Pension). 'Unterkunft buchen' = to book accommodation."
+  },
+  {
+    "w": "das Hotel",
+    "a": "das",
+    "e": "hotel",
+    "c": "Travel & Places",
+    "p": "die Hotels",
+    "ex": "Das Hotel liegt direkt am See.",
+    "n": "'im Hotel übernachten' = to stay at a hotel; 'ein Zimmer buchen' = to book a room. Plural: die Hotels."
+  },
+  {
+    "w": "die Milch",
+    "a": "die",
+    "e": "milk",
+    "c": "Food & Drink",
+    "p": "(kein Plural)",
+    "ex": "Ich trinke morgens Milch.",
+    "n": "No plural. 'die Vollmilch' = whole milk; 'die Hafermilch' = oat milk. 'Kaffee mit Milch' = coffee with milk."
+  },
+  {
+    "w": "die Deadline",
+    "a": "die",
+    "e": "deadline / due date",
+    "c": "Work & Career",
+    "p": "die Deadlines",
+    "ex": "Die Deadline ist morgen.",
+    "n": "Borrowed from English; common in modern German workplaces. Also: 'die Frist' (the more formal term)."
+  },
+  {
+    "w": "das Finanzamt",
+    "a": "das",
+    "e": "tax office",
+    "c": "Government & Society",
+    "p": "die Finanzämter",
+    "ex": "Die Steuererklärung muss zum Finanzamt.",
+    "n": "Every taxpayer deals with the Finanzamt. 'Steuererklärung' = tax return; deadlines are strict."
+  },
+  {
+    "w": "der Stock",
+    "a": "der",
+    "e": "ground floor / storey",
+    "c": "Home & Living",
+    "p": "die Stockwerke",
+    "ex": "Wir wohnen im zweiten Stock.",
+    "n": "In Germany: Erdgeschoss = ground floor, 1. Stock = 1st floor (one above ground)."
+  },
+  {
+    "w": "die Verantwortung",
+    "a": "die",
+    "e": "responsibility",
+    "c": "Abstract Concepts",
+    "p": "die Verantwortungen",
+    "ex": "Das liegt in Ihrer Verantwortung.",
+    "n": "'Verantwortung übernehmen' = to take responsibility. 'Verantwortungsbewusstsein' = sense of responsibility."
+  },
+  {
+    "w": "die Sehenswürdigkeit",
+    "a": "die",
+    "e": "tourist attraction / sight",
+    "c": "Travel & Places",
+    "p": "die Sehenswürdigkeiten",
+    "ex": "Welche Sehenswürdigkeiten gibt es hier?",
+    "n": "A long compound word. Munich highlights: Marienplatz, Englischer Garten, Schloss Nymphenburg."
+  },
+  {
+    "w": "die Wäsche",
+    "a": "die",
+    "e": "laundry room / laundry",
+    "c": "Home & Living",
+    "p": "(kein Plural)",
+    "ex": "Die Wäsche liegt noch im Keller.",
+    "n": "'Wäsche waschen' = to do laundry. 'Schmutzige Wäsche' = dirty laundry (literal & figurative)."
+  },
+  {
+    "w": "das Konzert",
+    "a": "das",
+    "e": "concert",
+    "c": "Education & Culture",
+    "p": "die Konzerte",
+    "ex": "Das Konzert beginnt um 20 Uhr.",
+    "n": "'Ins Konzert gehen' = to go to a concert. Munich's Philharmoniker are world-renowned."
+  },
+  {
+    "w": "die Rückfahrt",
+    "a": "die",
+    "e": "return journey / return trip",
+    "c": "Transport & City",
+    "p": "die Rückfahrten",
+    "ex": "Ich brauche ein Ticket für die Rückfahrt.",
+    "n": "'Hin- und Rückfahrt' = return trip. 'Einfache Fahrt' = one way. Key vocab for buying train tickets."
+  },
+  {
+    "w": "der Wald",
+    "a": "der",
+    "e": "forest / wood",
+    "c": "Nature & Weather",
+    "p": "die Wälder",
+    "ex": "Wir wandern im Wald.",
+    "n": "Forests are culturally significant in Germany. 'Waldsterben' (forest die-off) was a major 1980s concern."
+  },
+  {
+    "w": "die Staatsbürgerschaft",
+    "a": "die",
+    "e": "nationality / citizenship",
+    "c": "Government & Society",
+    "p": "die Staatsbürgerschaften",
+    "ex": "Sie hat die deutsche Staatsbürgerschaft.",
+    "n": "'Doppelte Staatsbürgerschaft' = dual citizenship. Germany liberalised its naturalisation rules in 2024."
+  },
+  {
+    "w": "der Himmel",
+    "a": "der",
+    "e": "sky / heaven",
+    "c": "Nature & Weather",
+    "p": "die Himmel",
+    "ex": "Der Himmel ist blau heute.",
+    "n": "'Himmel' means both sky and heaven. 'Himmelblau' = sky blue. 'Um Himmels willen!"
+  },
+  {
+    "w": "die Präsentation",
+    "a": "die",
+    "e": "presentation / lecture",
+    "c": "Work & Career",
+    "p": "die Präsentationen",
+    "ex": "Ich halte morgen eine Präsentation.",
+    "n": "'eine Präsentation halten' = to give a presentation. Common at work; 'die Folie' = a slide."
+  },
+  {
+    "w": "das Projekt",
+    "a": "das",
+    "e": "project",
+    "c": "Work & Career",
+    "p": "die Projekte",
+    "ex": "Das Projekt endet nächsten Monat.",
+    "n": "'an einem Projekt arbeiten' = to work on a project. 'der Projektleiter' = project manager; 'die Frist' = the deadline."
+  },
+  {
+    "w": "die Realität",
+    "a": "die",
+    "e": "reality",
+    "c": "Abstract Concepts",
+    "p": "die Realitäten",
+    "ex": "Träume und Realität sind verschieden.",
+    "n": "'In der Realität' = in reality. Synonym: 'die Wirklichkeit'."
+  },
+  {
+    "w": "die Aufgabe",
+    "a": "die",
+    "e": "task / assignment",
+    "c": "Work & Career",
+    "p": "die Aufgaben",
+    "ex": "Ich habe heute viele Aufgaben.",
+    "n": "Also: homework exercise, duty, or role. Very versatile word."
+  },
+  {
+    "w": "die Aufenthaltserlaubnis",
+    "a": "die",
+    "e": "residence permit",
+    "c": "Government & Society",
+    "p": "die Aufenthaltserlaubnisse",
+    "ex": "Meine Aufenthaltserlaubnis läuft bald ab.",
+    "n": "Key document for non-EU residents in Germany. Obtained at the Ausländerbehörde."
+  },
+  {
+    "w": "die Nachricht",
+    "a": "die",
+    "e": "news / message",
+    "c": "Abstract Concepts",
+    "p": "die Nachrichten",
+    "ex": "Das sind gute Nachrichten.",
+    "n": "Usually plural: 'Nachrichten' = news. 'Die Nachrichten schauen' = to watch the news."
+  },
+  {
+    "w": "die Insel",
+    "a": "die",
+    "e": "island",
+    "c": "Nature & Weather",
+    "p": "die Inseln",
+    "ex": "Ich möchte auf eine Insel reisen.",
+    "n": "'auf einer Insel' = on an island (auf, not in!). German islands include Sylt, Rügen and Norderney."
+  },
+  {
+    "w": "der Briefkasten",
+    "a": "der",
+    "e": "postbox / letterbox",
+    "c": "Home & Living",
+    "p": "die Briefkästen",
+    "ex": "Hast du den Briefkasten geleert?",
+    "n": "Each apartment has a labelled letterbox (Briefkasten) in the building entrance."
+  },
+  {
+    "w": "die Polizei",
+    "a": "die",
+    "e": "police",
+    "c": "Government & Society",
+    "p": "(kein Plural)",
+    "ex": "Ruf die Polizei!",
+    "n": "No plural (collective noun). Emergency number: 110. 'Polizist/in' = police officer."
+  },
+  {
+    "w": "das Wissen",
+    "a": "das",
+    "e": "knowledge",
+    "c": "Education & Culture",
+    "p": "(kein Plural)",
+    "ex": "Wissen ist Macht.",
+    "n": "'das Wissen' is neuter. 'Kenntnisse' = specific knowledge/skills. 'Allgemeinwissen' = general knowledge."
+  },
+  {
+    "w": "die Fahrt",
+    "a": "die",
+    "e": "journey / trip (short)",
+    "c": "Travel & Places",
+    "p": "die Fahrten",
+    "ex": "Die Fahrt dauert 30 Minuten.",
+    "n": "'Gute Fahrt!' = Have a good journey! 'Hinfahrt' = outward journey; 'Rückfahrt' = return journey."
+  },
+  {
+    "w": "die Straße",
+    "a": "die",
+    "e": "street / road",
+    "c": "Travel & Places",
+    "p": "die Straßen",
+    "ex": "Die Straße ist gesperrt.",
+    "n": "Abbreviated 'Str.' in addresses (e.g. Leopoldstr.). 'auf der Straße' = in the street; 'die Einbahnstraße' = one-way street."
+  },
+  {
+    "w": "der Platz",
+    "a": "der",
+    "e": "square / marketplace",
+    "c": "Travel & Places",
+    "p": "die Plätze",
+    "ex": "Wir treffen uns auf dem Marienplatz.",
+    "n": "'der Platz' is masculine. Also: space/seat. 'Ist hier noch Platz?' = Is there still room here?"
+  },
+  {
+    "w": "die Kunst",
+    "a": "die",
+    "e": "art",
+    "c": "Education & Culture",
+    "p": "die Künste",
+    "ex": "Ich gehe gerne ins Kunstmuseum.",
+    "n": "Munich's art scene: the Pinakotheken (world-class museums) and many galleries. 'Kunstwerk' = work of art."
+  },
+  {
+    "w": "die Sozialleistung",
+    "a": "die",
+    "e": "social benefits",
+    "c": "Government & Society",
+    "p": "die Sozialleistungen",
+    "ex": "Er bezieht Sozialleistungen.",
+    "n": "Germany's social safety net: Arbeitslosengeld (unemployment), Kindergeld (child benefit), Wohngeld (housing benefit)."
+  },
+  {
+    "w": "der Wochenmarkt",
+    "a": "der",
+    "e": "weekly market",
+    "c": "Shopping & Money",
+    "p": "die Wochenmärkte",
+    "ex": "Freitags ist Wochenmarkt am Viktualienmarkt.",
+    "n": "Very popular in Munich. The Viktualienmarkt is the famous central market — fresh produce, flowers, cheese."
+  },
+  {
+    "w": "die Blutabnahme",
+    "a": "die",
+    "e": "blood test",
+    "c": "Body & Health",
+    "p": "die Blutabnahmen",
+    "ex": "Ich muss morgen zur Blutabnahme.",
+    "n": "Also: 'Bluttest'. Usually done at the doctor's or at a lab (Labor)."
+  },
+  {
+    "w": "das Gericht",
+    "a": "das",
+    "e": "dish / meal; court of law",
+    "c": "Food & Drink",
+    "p": "die Gerichte",
+    "ex": "Das Hauptgericht ist Schnitzel.",
+    "n": "Two unrelated meanings: a dish/meal (Hauptgericht = main course) and a court of law ('vor Gericht' = in court). Context decides."
+  },
+  {
+    "w": "das Feld",
+    "a": "das",
+    "e": "field / meadow",
+    "c": "Nature & Weather",
+    "p": "die Felder",
+    "ex": "Die Kühe stehen auf dem Feld.",
+    "n": "'das Feld' is neuter. Also: field of expertise. 'Das Feld der Wissenschaft' = the field of science."
+  },
+  {
+    "w": "die Regel",
+    "a": "die",
+    "e": "rule / norm",
+    "c": "Abstract Concepts",
+    "p": "die Regeln",
+    "ex": "Es gibt eine Ausnahme von der Regel.",
+    "n": "'In der Regel' = as a rule / normally. 'Die Ausnahme bestätigt die Regel' = the exception proves the rule."
+  },
+  {
+    "w": "der Kommilitone",
+    "a": "der",
+    "e": "colleague / peer / fellow student",
+    "c": "People & Relationships",
+    "p": "die Kommilitonen",
+    "ex": "Meine Kommilitonen helfen mir.",
+    "n": "Used exclusively for fellow university students. Female: die Kommilitonin."
+  },
+  {
+    "w": "die Ausländerbehörde",
+    "a": "die",
+    "e": "alien registration office",
+    "c": "Government & Society",
+    "p": "die Ausländerbehörden",
+    "ex": "Ich muss zur Ausländerbehörde.",
+    "n": "Where non-EU residents register, extend visas, and apply for permanent residence. Essential for visa matters."
+  },
+  {
+    "w": "der See",
+    "a": "der",
+    "e": "lake",
+    "c": "Nature & Weather",
+    "p": "die Seen",
+    "ex": "Der Starnberger See ist wunderschön.",
+    "n": "'der See' (masc.) = lake; 'die See' (fem.) = the sea! Both exist — a very common confusion."
+  },
+  {
+    "w": "die Brücke",
+    "a": "die",
+    "e": "bridge",
+    "c": "Transport & City",
+    "p": "die Brücken",
+    "ex": "Die Brücke ist gesperrt.",
+    "n": "Munich has many bridges over the Isar. 'Brücken schlagen' = to build bridges (metaphorically)."
+  },
+  {
+    "w": "der Hafen",
+    "a": "der",
+    "e": "harbour / port / harbour area",
+    "c": "Transport & City",
+    "p": "die Häfen",
+    "ex": "Der Hafen ist nicht weit.",
+    "n": "Not relevant for landlocked Munich, but essential vocab for port cities like Hamburg and Bremen."
+  },
+  {
+    "w": "die Großmutter",
+    "a": "die",
+    "e": "grandmother",
+    "c": "People & Relationships",
+    "p": "die Großmütter",
+    "ex": "Meine Oma kocht sehr gut.",
+    "n": "Informal: 'Oma'. Male: der Großvater / Opa."
+  },
+  {
+    "w": "die Art",
+    "a": "die",
+    "e": "type / kind / sort",
+    "c": "Abstract Concepts",
+    "p": "die Arten",
+    "ex": "Was für eine Art Problem ist das?",
+    "n": "'Eine Art von' = a kind of. 'Auf diese Art und Weise' = in this way. 'Eigenart' = a peculiarity."
+  },
+  {
+    "w": "die Feuerwehr",
+    "a": "die",
+    "e": "fire brigade",
+    "c": "Government & Society",
+    "p": "die Feuerwehren",
+    "ex": "Die Feuerwehr ist sehr schnell da.",
+    "n": "Emergency number: 112 (also for ambulance). The Feuerwehr is highly respected in Germany."
+  },
+  {
+    "w": "die Freiheit",
+    "a": "die",
+    "e": "freedom",
+    "c": "Abstract Concepts",
+    "p": "die Freiheiten",
+    "ex": "Freiheit ist ein Grundrecht.",
+    "n": "'Redefreiheit' = freedom of speech; 'Pressefreiheit' = press freedom — core constitutional values."
+  },
+  {
+    "w": "die Forschung",
+    "a": "die",
+    "e": "research",
+    "c": "Education & Culture",
+    "p": "(kein Plural)",
+    "ex": "Die Forschung ist sehr wichtig.",
+    "n": "'Forscher/in' = researcher; 'Forschungsergebnisse' = research results. Big in Munich (Max Planck, TUM)."
+  },
+  {
+    "w": "die Impfung",
+    "a": "die",
+    "e": "vaccine / vaccination",
+    "c": "Body & Health",
+    "p": "die Impfungen",
+    "ex": "Haben Sie alle Impfungen?",
+    "n": "'sich impfen lassen' = to get vaccinated. Impfpass = vaccination record."
+  },
+  {
+    "w": "die Wissenschaft",
+    "a": "die",
+    "e": "science / natural science",
+    "c": "Education & Culture",
+    "p": "die Wissenschaften",
+    "ex": "Er studiert Naturwissenschaften.",
+    "n": "'Wissenschaftler/in' = scientist. 'Geisteswissenschaften' = humanities; 'Naturwissenschaften' = natural sciences."
+  },
+  {
+    "w": "der Großvater",
+    "a": "der",
+    "e": "grandparent (male) / grandfather",
+    "c": "People & Relationships",
+    "p": "die Großväter",
+    "ex": "Mein Großvater ist 80 Jahre alt.",
+    "n": "Informal: 'Opa'. Female: die Großmutter / Oma."
+  },
+  {
+    "w": "die Ansicht",
+    "a": "die",
+    "e": "opinion / attitude / view",
+    "c": "Emotions & Mind",
+    "p": "die Ansichten",
+    "ex": "Ich bin der Ansicht, dass das falsch ist.",
+    "n": "More formal than 'Meinung'. 'Der Ansicht sein, dass...' = to be of the view that..."
+  },
+  {
+    "w": "der Mond",
+    "a": "der",
+    "e": "moon",
+    "c": "Nature & Weather",
+    "p": "die Monde",
+    "ex": "Der Mond leuchtet hell.",
+    "n": "'der Vollmond' = full moon; 'auf dem Mond' = on the moon. The plural (Monde) refers to moons of other planets."
+  },
+  {
+    "w": "das Grundgesetz",
+    "a": "das",
+    "e": "constitution",
+    "c": "Government & Society",
+    "p": "(kein Plural)",
+    "ex": "Das Grundgesetz ist das höchste Gesetz.",
+    "n": "Germany's constitution (1949). 'Grundgesetz' literally = basic/fundamental law. "
+  },
+  {
+    "w": "das Feedback",
+    "a": "das",
+    "e": "feedback",
+    "c": "Work & Career",
+    "p": "die Feedbacks",
+    "ex": "Ich brauche Ihr Feedback.",
+    "n": "Borrowed from English; widely used in German offices. 'Rückmeldung' is the German equivalent."
+  },
+  {
+    "w": "die Rate",
+    "a": "die",
+    "e": "instalment / rate / instalment payment",
+    "c": "Shopping & Money",
+    "p": "die Raten",
+    "ex": "Ich zahle in Raten.",
+    "n": "'Ratenzahlung' = instalment plan. 'Monatliche Rate' = monthly instalment. Common for big purchases."
+  },
+  {
+    "w": "das Kind",
+    "a": "das",
+    "e": "child",
+    "c": "People & Relationships",
+    "p": "die Kinder",
+    "ex": "Die Kinder spielen draußen.",
+    "n": "Plural 'Kinder' is one of the most common words in German. 'Kindheit' = childhood."
+  },
+  {
+    "w": "das Familienmitglied",
+    "a": "das",
+    "e": "family member",
+    "c": "People & Relationships",
+    "p": "die Familienmitglieder",
+    "ex": "Alle Familienmitglieder sind eingeladen.",
+    "n": "'das Familienmitglied' is neuter. Compound: Familie + Mitglied."
+  },
+  {
+    "w": "der Lohn",
+    "a": "der",
+    "e": "wage / hourly pay",
+    "c": "Work & Career",
+    "p": "die Löhne",
+    "ex": "Der Mindestlohn ist gesetzlich geregelt.",
+    "n": "'Lohn' = hourly/weekly wage; 'Gehalt' = monthly salary. 'Mindestlohn' = minimum wage."
+  },
+  {
+    "w": "die Beförderung",
+    "a": "die",
+    "e": "promotion / advancement",
+    "c": "Work & Career",
+    "p": "die Beförderungen",
+    "ex": "Sie hat eine Beförderung bekommen.",
+    "n": "'Jemanden befördern' = to promote someone. Also: transportation (moving something/someone)."
+  },
+  {
+    "w": "der Traum",
+    "a": "der",
+    "e": "dream",
+    "c": "Emotions & Mind",
+    "p": "die Träume",
+    "ex": "Das ist mein größter Traum.",
+    "n": "'der Traum' is masculine. 'Traumjob' = dream job. 'Träumen' = to dream."
+  },
+  {
+    "w": "das Trinkgeld",
+    "a": "das",
+    "e": "tip (for waiter)",
+    "c": "Food & Drink",
+    "p": "die Trinkgelder",
+    "ex": "Das Trinkgeld ist nicht inklusive.",
+    "n": "Germans tip by rounding up. Say 'Stimmt so' (keep the change) or state the total you want to pay."
+  },
+  {
+    "w": "die Route",
+    "a": "die",
+    "e": "route / path",
+    "c": "Transport & City",
+    "p": "die Routen",
+    "ex": "Welche Route empfehlen Sie?",
+    "n": "Also: 'die Strecke' (stretch/distance). Use 'Route' for navigation, 'Strecke' for the physical road."
+  },
+  {
+    "w": "der Film",
+    "a": "der",
+    "e": "film / movie",
+    "c": "Education & Culture",
+    "p": "die Filme",
+    "ex": "Wir schauen einen Film.",
+    "n": "'Ins Kino gehen' = to go to the cinema. 'OmU' = Original mit Untertiteln (original with subtitles)."
+  },
+  {
+    "w": "das Gewicht",
+    "a": "das",
+    "e": "weight",
+    "c": "Body & Health",
+    "p": "die Gewichte",
+    "ex": "Was ist Ihr Gewicht?",
+    "n": "'Gewicht verlieren' = to lose weight. 'Zunehmen' = to gain weight; 'Abnehmen' = to lose weight."
+  },
+  {
+    "w": "die Information",
+    "a": "die",
+    "e": "information",
+    "c": "Abstract Concepts",
+    "p": "die Informationen",
+    "ex": "Ich brauche mehr Informationen.",
+    "n": "Often used in plural: 'Informationen'. 'Auskunft' = information (at a desk or by phone)."
+  },
+  {
+    "w": "das Buch",
+    "a": "das",
+    "e": "book",
+    "c": "Education & Culture",
+    "p": "die Bücher",
+    "ex": "Ich lese gerade ein spannendes Buch.",
+    "n": "'Bücher leihen' = to borrow books (from the Bibliothek). 'Bücher kaufen' = to buy books."
+  },
+  {
+    "w": "der Snack",
+    "a": "der",
+    "e": "snack",
+    "c": "Food & Drink",
+    "p": "die Snacks",
+    "ex": "Ich brauche einen Snack.",
+    "n": "Borrowed from English. 'Kleinigkeit essen' = more German way of saying snack."
+  },
+  {
+    "w": "der Erwachsene",
+    "a": "der",
+    "e": "adult",
+    "c": "People & Relationships",
+    "p": "die Erwachsenen",
+    "ex": "Erwachsene zahlen mehr.",
+    "n": "Adjective used as noun. Female: die Erwachsene. Plural: die Erwachsenen."
+  },
+  {
+    "w": "die Verbindung",
+    "a": "die",
+    "e": "connection / link",
+    "c": "Transport & City",
+    "p": "die Verbindungen",
+    "ex": "Haben Sie eine gute Verbindung?",
+    "n": "Very versatile: transport connection, phone connection, chemical bond or personal link — all 'Verbindung'."
+  },
+  {
+    "w": "das Baby",
+    "a": "das",
+    "e": "baby",
+    "c": "People & Relationships",
+    "p": "die Babys",
+    "ex": "Das Baby schläft gerade.",
+    "n": "Borrowed from English; plural die Babys. 'ein Baby bekommen' = to have a baby. 'das Kleinkind' = toddler."
+  },
+  {
+    "w": "der Eingang",
+    "a": "der",
+    "e": "entrance",
+    "c": "Transport & City",
+    "p": "die Eingänge",
+    "ex": "Der Eingang ist vorne.",
+    "n": "Opposite of der Ausgang (exit). 'der Haupteingang' = the main entrance; 'Eingang' often marks a door you enter by."
+  },
+  {
+    "w": "der Erfolg",
+    "a": "der",
+    "e": "success",
+    "c": "Abstract Concepts",
+    "p": "die Erfolge",
+    "ex": "Der Erfolg kommt nicht von alleine.",
+    "n": "'der Erfolg' is masculine. 'Erfolgreich' = successful. 'Viel Erfolg!' = Good luck / best of success!"
+  },
+  {
+    "w": "die Rechnung",
+    "a": "die",
+    "e": "invoice / bill",
+    "c": "Shopping & Money",
+    "p": "die Rechnungen",
+    "ex": "Können Sie mir eine Rechnung ausstellen?",
+    "n": "'Rechnung' = invoice/bill. 'Die Rechnung stimmt nicht' = the bill is wrong. Also: an arithmetic calculation."
+  },
+  {
+    "w": "das Unternehmen",
+    "a": "das",
+    "e": "company / enterprise",
+    "c": "Work & Career",
+    "p": "die Unternehmen",
+    "ex": "Das Unternehmen hat 500 Mitarbeiter.",
+    "n": "More formal than 'Firma'. 'Unternehmer' = entrepreneur. Often interchangeable."
+  },
+  {
+    "w": "die Sonne",
+    "a": "die",
+    "e": "sun",
+    "c": "Nature & Weather",
+    "p": "die Sonnen",
+    "ex": "Die Sonne scheint heute.",
+    "n": "'Die Sonne scheint' = the sun is shining. 'der Sonnenschein' = sunshine; 'die Sonnenbrille' = sunglasses."
+  },
+  {
+    "w": "der Rücken",
+    "a": "der",
+    "e": "back",
+    "c": "Body & Health",
+    "p": "die Rücken",
+    "ex": "Mein Rücken tut weh.",
+    "n": "'Rückenschmerzen' = back pain (a very common complaint). 'Den Rücken stärken' = to strengthen the back."
+  },
+  {
+    "w": "die Stadt",
+    "a": "die",
+    "e": "city / urban area",
+    "c": "Transport & City",
+    "p": "die Städte",
+    "ex": "München ist eine weltoffene Stadt.",
+    "n": "'die Stadt' is feminine. 'Innenstadt' = city centre; 'Großstadt' = major city; 'Altstadt' = old town."
+  },
+  {
+    "w": "das Vertrauen",
+    "a": "das",
+    "e": "trust",
+    "c": "Emotions & Mind",
+    "p": "(kein Plural)",
+    "ex": "Vertrauen ist die Basis jeder Beziehung.",
+    "n": "'das Vertrauen' is neuter. 'Jemandem vertrauen' = to trust someone. 'Vertrauen aufbauen' = to build trust."
+  },
+  {
+    "w": "die Neugier",
+    "a": "die",
+    "e": "curiosity",
+    "c": "Emotions & Mind",
+    "p": "(kein Plural)",
+    "ex": "Neugier ist der Motor des Lernens.",
+    "n": "Also: 'die Neugierde'. 'Aus Neugier' = out of curiosity."
+  },
+  {
+    "w": "der Nachtisch",
+    "a": "der",
+    "e": "dessert",
+    "c": "Food & Drink",
+    "p": "die Nachtische",
+    "ex": "Zum Nachtisch hätte ich gerne Eis.",
+    "n": "'Nachtisch' literally = 'after table'. Also: 'das Dessert' (borrowed from French)."
+  },
+  {
+    "w": "die Beilage",
+    "a": "die",
+    "e": "side dish",
+    "c": "Food & Drink",
+    "p": "die Beilagen",
+    "ex": "Als Beilage nehme ich Salat.",
+    "n": "Common Beilagen: Kartoffeln, Reis, Salat, Gemüse. 'Mit welcher Beilage?' = Which side would you like?"
+  },
+  {
+    "w": "die Wechselstube",
+    "a": "die",
+    "e": "foreign exchange / currency exchange",
+    "c": "Shopping & Money",
+    "p": "die Wechselstuben",
+    "ex": "Wo ist die nächste Wechselstube?",
+    "n": "Less relevant within the Eurozone but useful when travelling. Banks also offer Geldwechsel (currency exchange)."
+  },
+  {
+    "w": "der Ofen",
+    "a": "der",
+    "e": "oven / stove",
+    "c": "Home & Living",
+    "p": "die Öfen",
+    "ex": "Der Ofen ist noch an.",
+    "n": "'Backofen' = oven; 'Herd' = stovetop/cooker. 'Den Ofen vorheizen' = to preheat the oven."
+  },
+  {
+    "w": "die Erde",
+    "a": "die",
+    "e": "earth / ground / soil",
+    "c": "Nature & Weather",
+    "p": "(kein Plural in cosmic sense)",
+    "ex": "Die Erde dreht sich um die Sonne.",
+    "n": "Also: soil/ground (die Erde im Garten). 'Auf der Erde' = on Earth. 'Erdgeschoss' = ground floor."
+  },
+  {
+    "w": "die Zeitung",
+    "a": "die",
+    "e": "newspaper",
+    "c": "Education & Culture",
+    "p": "die Zeitungen",
+    "ex": "Ich lese täglich die Zeitung.",
+    "n": "Major German papers: Süddeutsche Zeitung (Munich-based), FAZ, Die Zeit, Der Spiegel."
+  },
+  {
+    "w": "der Fehler",
+    "a": "der",
+    "e": "failure",
+    "c": "Abstract Concepts",
+    "p": "die Fehler",
+    "ex": "Aus Fehlern lernt man.",
+    "n": "'der Fehler' = mistake/error/defect. 'Einen Fehler machen' = to make a mistake."
+  },
+  {
+    "w": "die Scheibe",
+    "a": "die",
+    "e": "slice",
+    "c": "Food & Drink",
+    "p": "die Scheiben",
+    "ex": "Bitte eine Scheibe Brot.",
+    "n": "'Eine Scheibe' = a slice; also a disc or pane of glass. 'scheibenweise' = slice by slice."
+  },
+  {
+    "w": "der Ausgang",
+    "a": "der",
+    "e": "exit / way out",
+    "c": "Transport & City",
+    "p": "die Ausgänge",
+    "ex": "Der Ausgang ist links.",
+    "n": "Also: an evening out. 'Ausgang haben' (military) = to have leave. 'Notausgang' = emergency exit."
+  },
+  {
+    "w": "der Jugendliche",
+    "a": "der",
+    "e": "teenager / adolescent",
+    "c": "People & Relationships",
+    "p": "die Jugendlichen",
+    "ex": "Er ist noch ein Jugendlicher.",
+    "n": "Adjective used as noun. Female: die Jugendliche. Plural: Jugendliche."
+  },
+  {
+    "w": "die Qualität",
+    "a": "die",
+    "e": "quality",
+    "c": "Abstract Concepts",
+    "p": "die Qualitäten",
+    "ex": "Die Qualität ist sehr gut.",
+    "n": "'Made in Germany' is globally associated with Qualität. 'Qualitätsprodukt' = quality product."
+  },
+  {
+    "w": "das Museum",
+    "a": "das",
+    "e": "museum",
+    "c": "Education & Culture",
+    "p": "die Museen",
+    "ex": "Das Deutsche Museum ist weltberühmt.",
+    "n": "Munich has outstanding museums: Deutsches Museum, the three Pinakotheken, Haus der Kunst, BMW Museum."
+  },
+  {
+    "w": "die Wahrheit",
+    "a": "die",
+    "e": "truth",
+    "c": "Abstract Concepts",
+    "p": "die Wahrheiten",
+    "ex": "Die Wahrheit ist manchmal unangenehm.",
+    "n": "'Die Wahrheit sagen' = to tell the truth. Opposite: die Lüge (lie)."
+  },
+  {
+    "w": "die Fußgängerzone",
+    "a": "die",
+    "e": "pedestrian zone",
+    "c": "Travel & Places",
+    "p": "die Fußgängerzonen",
+    "ex": "In der Fußgängerzone darf man nicht fahren.",
+    "n": "Munich's Marienplatz area is a large Fußgängerzone. Very common in German city centres."
+  },
+  {
+    "w": "die Mülltonne",
+    "a": "die",
+    "e": "rubbish bin",
+    "c": "Home & Living",
+    "p": "die Mülltonnen",
+    "ex": "Die Mülltonne ist voll.",
+    "n": "Germany has separate bins: Biotonne (organic), Papiertonne (paper), Restmüll (general waste)."
+  },
+  {
+    "w": "die Firma",
+    "a": "die",
+    "e": "firm / company",
+    "c": "Work & Career",
+    "p": "die Firmen",
+    "ex": "Ich arbeite für eine kleine Firma.",
+    "n": "Slightly more colloquial than 'Unternehmen': 'Firma' in speech, 'Unternehmen' in formal writing."
+  },
+  {
+    "w": "das Theater",
+    "a": "das",
+    "e": "theatre",
+    "c": "Education & Culture",
+    "p": "die Theater",
+    "ex": "Wir gehen heute Abend ins Theater.",
+    "n": "Munich has world-class opera and theatre. The Nationaltheater hosts the Bayerische Staatsoper."
+  },
+  {
+    "w": "die Karte",
+    "a": "die",
+    "e": "map",
+    "c": "Travel & Places",
+    "p": "die Karten",
+    "ex": "Haben Sie eine Stadtkarte?",
+    "n": "'die Karte' is feminine. Also: playing card, ticket, menu, map. 'Kreditkarte' = credit card."
+  },
+  {
+    "w": "der Mitarbeiter",
+    "a": "der",
+    "e": "staff / personnel",
+    "c": "Work & Career",
+    "p": "die Mitarbeiter",
+    "ex": "Das Unternehmen sucht neue Mitarbeiter.",
+    "n": "Male form. Female: die Mitarbeiterin. Neutral plural: Mitarbeitende (modern, gender-inclusive usage)."
+  },
+  {
+    "w": "das Gleis",
+    "a": "das",
+    "e": "platform (train)",
+    "c": "Transport & City",
+    "p": "die Gleise",
+    "ex": "Der Zug fährt auf Gleis vier ab.",
+    "n": "'das Gleis' = track/platform number. At the station: 'Auf welchem Gleis?' = On which platform?"
+  },
+  {
+    "w": "das Knie",
+    "a": "das",
+    "e": "knee",
+    "c": "Body & Health",
+    "p": "die Knie",
+    "ex": "Mein Knie schmerzt beim Laufen.",
+    "n": "Note: the 'k' is pronounced in German. Singular and plural are spelled the same: die Knie. 'Mir tut das Knie weh' = my knee hurts."
+  },
+  {
+    "w": "die Küste",
+    "a": "die",
+    "e": "coast / coastline",
+    "c": "Nature & Weather",
+    "p": "die Küsten",
+    "ex": "Die Küste der Nordsee ist flach.",
+    "n": "'an der Küste' = on the coast. Germany's coasts are die Nordsee and die Ostsee — far from landlocked Munich."
+  },
+  {
+    "w": "das Geschwister",
+    "a": "das",
+    "e": "sibling",
+    "c": "People & Relationships",
+    "p": "die Geschwister",
+    "ex": "Ich habe drei Geschwister.",
+    "n": "'das Geschwister' (one sibling) is rare. Usually plural: 'die Geschwister' = siblings."
+  },
+  {
+    "w": "die Erinnerung",
+    "a": "die",
+    "e": "memory / remembrance",
+    "c": "Emotions & Mind",
+    "p": "die Erinnerungen",
+    "ex": "Ich habe eine gute Erinnerung daran.",
+    "n": "'Sich erinnern an' = to remember. 'Zur Erinnerung' = as a reminder. 'In Erinnerung bleiben' = to be remembered."
+  },
+  {
+    "w": "die Kreuzung",
+    "a": "die",
+    "e": "intersection / crossroads",
+    "c": "Transport & City",
+    "p": "die Kreuzungen",
+    "ex": "Biegen Sie an der Kreuzung links ab.",
+    "n": "'an der Kreuzung' = at the intersection. 'rechts/links abbiegen' = to turn right/left. From 'kreuzen' = to cross."
+  },
+  {
+    "w": "die See",
+    "a": "die",
+    "e": "sea / ocean",
+    "c": "Nature & Weather",
+    "p": "die Seen",
+    "ex": "Die Nordsee ist rau im Winter.",
+    "n": "'die See' (fem.) = sea. 'der See' (masc.) = lake. Critical distinction!"
+  },
+  {
+    "w": "die Idee",
+    "a": "die",
+    "e": "idea / notion",
+    "c": "Abstract Concepts",
+    "p": "die Ideen",
+    "ex": "Das ist eine tolle Idee!",
+    "n": "'Eine Idee haben' = to have an idea. 'Keine Idee' = no idea. Ultimately from Greek via French."
+  },
+  {
+    "w": "das Gemälde",
+    "a": "das",
+    "e": "painting / image / picture",
+    "c": "Education & Culture",
+    "p": "die Gemälde",
+    "ex": "Das Gemälde hängt im Museum.",
+    "n": "Munich's Pinakotheken house world-famous collections. 'Bild' is the broader term for picture/image."
+  },
+  {
+    "w": "der Zebrastreifen",
+    "a": "der",
+    "e": "pedestrian crossing",
+    "c": "Transport & City",
+    "p": "die Zebrastreifen",
+    "ex": "Überquere nur am Zebrastreifen.",
+    "n": "Pedestrians have right of way. Jaywalking (crossing on red) is frowned upon — even with no cars around."
+  },
+  {
+    "w": "der Fremde",
+    "a": "der",
+    "e": "stranger",
+    "c": "People & Relationships",
+    "p": "die Fremden",
+    "ex": "Sprich nicht mit Fremden.",
+    "n": "Adjective used as noun. Also: foreigner/outsider. 'In der Fremde' = in a foreign land / far from home."
+  },
+  {
+    "w": "die Voraussetzung",
+    "a": "die",
+    "e": "condition / prerequisite",
+    "c": "Abstract Concepts",
+    "p": "die Voraussetzungen",
+    "ex": "Das ist eine wichtige Voraussetzung.",
+    "n": "'Voraussetzungen erfüllen' = to meet the requirements. Key word in job ads."
+  },
+  {
+    "w": "die Integration",
+    "a": "die",
+    "e": "integration",
+    "c": "Government & Society",
+    "p": "die Integrationen",
+    "ex": "Integration ist eine gesellschaftliche Aufgabe.",
+    "n": "A hot topic in German politics. 'Integrationskurs' = integration course including language and culture classes."
+  },
+  {
+    "w": "der Park",
+    "a": "der",
+    "e": "park / public park",
+    "c": "Nature & Weather",
+    "p": "die Parks",
+    "ex": "Der Englische Garten ist riesig.",
+    "n": "Munich's Englischer Garten is one of the world's largest urban parks — bigger than New York's Central Park."
+  },
+  {
+    "w": "der Dachboden",
+    "a": "der",
+    "e": "attic",
+    "c": "Home & Living",
+    "p": "die Dachböden",
+    "ex": "Wir haben viel Zeug auf dem Dachboden.",
+    "n": "The attic/loft of a building. Plural takes an umlaut: die Dachböden. Often used for storage, like der Keller."
+  },
+  {
+    "w": "die Kultur",
+    "a": "die",
+    "e": "culture",
+    "c": "Education & Culture",
+    "p": "die Kulturen",
+    "ex": "Deutschland hat eine reiche Kultur.",
+    "n": "'Kulturschock' = culture shock; 'Hochkultur' = high culture. Munich is a major cultural hub."
+  },
+  {
+    "w": "das Update",
+    "a": "das",
+    "e": "update",
+    "c": "Technology & Media",
+    "p": "die Updates",
+    "ex": "Das Update läuft gerade.",
+    "n": "Anglicism, widely used: 'Das System braucht ein Update.' 'Bitte updaten' = please update."
+  },
+  {
+    "w": "der Hausarzt",
+    "a": "der",
+    "e": "GP / family doctor",
+    "c": "Body & Health",
+    "p": "die Hausärzte",
+    "ex": "Mein Hausarzt kennt meine Krankengeschichte.",
+    "n": "First point of contact in the German healthcare system. Issues referrals (Überweisungen) and sick notes."
+  },
+  {
+    "w": "der Gutschein",
+    "a": "der",
+    "e": "voucher / coupon",
+    "c": "Shopping & Money",
+    "p": "die Gutscheine",
+    "ex": "Ich habe einen Gutschein für das Restaurant.",
+    "n": "Common birthday/Christmas gift in Germany. 'Gutschein einlösen' = to redeem a voucher."
+  },
+  {
+    "w": "die Ehrenamtliche",
+    "a": "die",
+    "e": "volunteer",
+    "c": "People & Relationships",
+    "p": "die Ehrenamtlichen",
+    "ex": "Sie ist Ehrenamtliche beim DRK.",
+    "n": "Volunteering (Ehrenamt) is highly valued in Germany; many social services rely on volunteers (Ehrenamtliche)."
+  },
+  {
+    "w": "die Mitgliedschaft",
+    "a": "die",
+    "e": "membership",
+    "c": "Shopping & Money",
+    "p": "die Mitgliedschaften",
+    "ex": "Die Mitgliedschaft kostet 20 Euro im Monat.",
+    "n": "'Mitglied werden' = to become a member. German clubs (Vereine) have millions of members nationwide."
+  },
+  {
+    "w": "die Gabel",
+    "a": "die",
+    "e": "fork",
+    "c": "Food & Drink",
+    "p": "die Gabeln",
+    "ex": "Ich brauche eine Gabel.",
+    "n": "Part of das Besteck (cutlery): die Gabel, das Messer, der Löffel. 'mit Messer und Gabel essen' = to eat with a knife and fork."
+  },
+  {
+    "w": "die Überschwemmung",
+    "a": "die",
+    "e": "flood",
+    "c": "Nature & Weather",
+    "p": "die Überschwemmungen",
+    "ex": "Die Überschwemmung hat großen Schaden angerichtet.",
+    "n": "Munich and Bavaria are periodically affected by flooding (Hochwasser) of the Isar and other rivers."
+  },
+  {
+    "w": "die Gesundheit",
+    "a": "die",
+    "e": "health",
+    "c": "Body & Health",
+    "p": "(kein Plural)",
+    "ex": "Gesundheit ist das Wichtigste.",
+    "n": "Also said when someone sneezes: 'Gesundheit!' = Bless you! One of the most useful everyday words."
+  },
+  {
+    "w": "die Rente",
+    "a": "die",
+    "e": "pension / retirement",
+    "c": "Shopping & Money",
+    "p": "die Renten",
+    "ex": "Er geht nächstes Jahr in Rente.",
+    "n": "'In Rente gehen' = to retire. Germany's pension age is gradually increasing to 67."
+  },
+  {
+    "w": "das Autobahnkreuz",
+    "a": "das",
+    "e": "motorway junction / interchange",
+    "c": "Transport & City",
+    "p": "die Autobahnkreuze",
+    "ex": "Am Autobahnkreuz geht es nach links.",
+    "n": "Where two Autobahnen meet — Munich is ringed by several. 'das Autobahndreieck' = a three-way junction."
+  },
+  {
+    "w": "der Bildschirm",
+    "a": "der",
+    "e": "screen / monitor",
+    "c": "Technology & Media",
+    "p": "die Bildschirme",
+    "ex": "Der Bildschirm ist kaputt.",
+    "n": "Also: 'das Display' (borrowed). 'Bildschirmzeit' = screen time. Compound: Bild (image) + Schirm (screen)."
+  },
+  {
+    "w": "die Überraschung",
+    "a": "die",
+    "e": "surprise / amazement",
+    "c": "Emotions & Mind",
+    "p": "die Überraschungen",
+    "ex": "Was für eine Überraschung!",
+    "n": "'Jemanden überraschen' = to surprise someone. 'Überraschungsparty' = surprise party."
+  },
+  {
+    "w": "die Industrie",
+    "a": "die",
+    "e": "industry / sector",
+    "c": "Work & Career",
+    "p": "die Industrien",
+    "ex": "Er arbeitet in der Automobilindustrie.",
+    "n": "'die Automobilindustrie' = the car industry, huge around Munich (BMW). 'die Industrie' = the sector as a whole."
+  },
+  {
+    "w": "das Abo",
+    "a": "das",
+    "e": "season ticket / subscription",
+    "c": "Transport & City",
+    "p": "die Abos",
+    "ex": "Ich habe ein Monatsabo für die MVV.",
+    "n": "Short for Abonnement. 'Monatsabo' / 'Jahresabo'. The MVV runs Munich's public transport network."
+  },
+  {
+    "w": "die Raststätte",
+    "a": "die",
+    "e": "service area (motorway)",
+    "c": "Transport & City",
+    "p": "die Raststätten",
+    "ex": "Wir machen an der Raststätte Pause.",
+    "n": "A motorway services with food, fuel and toilets. 'eine Pause an der Raststätte machen' = to take a break at the services."
+  },
+  {
+    "w": "die Schranke",
+    "a": "die",
+    "e": "barrier / gate (e.g. at station)",
+    "c": "Transport & City",
+    "p": "die Schranken",
+    "ex": "Die Schranke ist unten.",
+    "n": "At level crossings (Bahnübergang). 'Grenzen/Schranken setzen' = to set limits (metaphorical)."
+  },
+  {
+    "w": "der Innenhof",
+    "a": "der",
+    "e": "courtyard / inner courtyard",
+    "c": "Home & Living",
+    "p": "die Innenhöfe",
+    "ex": "Die Kinder spielen im Innenhof.",
+    "n": "Many Munich apartment buildings have an Innenhof — a shared courtyard. Quiet-hours rules apply."
+  },
+  {
+    "w": "der Kunde",
+    "a": "der",
+    "e": "customer / client",
+    "c": "People & Relationships",
+    "p": "die Kunden",
+    "ex": "Der Kunde hat immer Recht.",
+    "n": "Female: die Kundin. 'Kundendienst' = customer service. 'Stammkunde' = regular customer."
+  },
+  {
+    "w": "der Mut",
+    "a": "der",
+    "e": "courage / bravery",
+    "c": "Emotions & Mind",
+    "p": "(kein Plural)",
+    "ex": "Es braucht Mut, das zu sagen.",
+    "n": "'Mut haben' = to be brave. 'Jemandem Mut machen' = to encourage someone. 'Mutlos' = discouraged."
+  },
+  {
+    "w": "das Homeoffice",
+    "a": "das",
+    "e": "home office",
+    "c": "Work & Career",
+    "p": "(kein Plural)",
+    "ex": "Heute bin ich im Homeoffice.",
+    "n": "Anglicism widely used in German. 'Im Homeoffice arbeiten' = to work from home."
+  },
+  {
+    "w": "der Zoll",
+    "a": "der",
+    "e": "customs / border control",
+    "c": "Travel & Places",
+    "p": "die Zölle",
+    "ex": "Beim Zoll muss man die Waren angeben.",
+    "n": "Also: inch (unit of measurement). 'Beim Zoll' = at customs. Within Schengen, there are no customs checks."
+  },
+  {
+    "w": "das Wartezimmer",
+    "a": "das",
+    "e": "waiting room",
+    "c": "Body & Health",
+    "p": "die Wartezimmer",
+    "ex": "Im Wartezimmer saßen viele Patienten.",
+    "n": "German doctors' waiting rooms can mean long waits. Having an appointment (Termin) helps, but isn't a guarantee."
+  },
+  {
+    "w": "der Angestellte",
+    "a": "der",
+    "e": "employee",
+    "c": "People & Relationships",
+    "p": "die Angestellten",
+    "ex": "Die Angestellten streiken.",
+    "n": "Adjective used as noun. Female: die Angestellte. Distinguished from 'Arbeiter' (manual worker)."
+  },
+  {
+    "w": "die Vorlesung",
+    "a": "die",
+    "e": "lecture (university)",
+    "c": "Education & Culture",
+    "p": "die Vorlesungen",
+    "ex": "Die Vorlesung beginnt um 8 Uhr.",
+    "n": "University lectures. 'Seminar' = a smaller, discussion-based class. Both are typical parts of a degree."
+  },
+  {
+    "w": "das Ladekabel",
+    "a": "das",
+    "e": "charger",
+    "c": "Technology & Media",
+    "p": "die Ladekabel",
+    "ex": "Hast du ein Ladekabel?",
+    "n": "'das Handy laden' = to charge the phone. Compound: laden (to charge) + Kabel (cable). Plural identical: die Ladekabel."
+  },
+  {
+    "w": "die Luft",
+    "a": "die",
+    "e": "air / atmosphere",
+    "c": "Nature & Weather",
+    "p": "die Lüfte",
+    "ex": "Die Luft hier ist sehr frisch.",
+    "n": "'An die frische Luft gehen' = to go out for fresh air. 'Luftverschmutzung' = air pollution."
+  },
+  {
+    "w": "der Zweifel",
+    "a": "der",
+    "e": "doubt",
+    "c": "Abstract Concepts",
+    "p": "die Zweifel",
+    "ex": "Ich habe Zweifel daran.",
+    "n": "'Ohne Zweifel' = without doubt. 'Im Zweifel' = in doubt. 'Zweifeln an' = to doubt (something)."
+  },
+  {
+    "w": "die Butter",
+    "a": "die",
+    "e": "butter",
+    "c": "Food & Drink",
+    "p": "(kein Plural)",
+    "ex": "Butter aufs Brot ist klassisch.",
+    "n": "No plural; feminine (die Butter). 'ein Brot mit Butter' = bread and butter; 'die Erdnussbutter' = peanut butter."
+  },
+  {
+    "w": "die Stadtrundfahrt",
+    "a": "die",
+    "e": "tour / sightseeing tour",
+    "c": "Travel & Places",
+    "p": "die Stadtrundfahrten",
+    "ex": "Wir machen eine Stadtrundfahrt.",
+    "n": "Popular Munich tours: hop-on-hop-off bus, Marienplatz walking tours, and Dachau memorial trips."
+  },
+  {
+    "w": "der Vorort",
+    "a": "der",
+    "e": "suburb / outskirts",
+    "c": "Home & Living",
+    "p": "die Vororte",
+    "ex": "Wir wohnen in einem ruhigen Vorort.",
+    "n": "Munich's central districts (Schwabing, Neuhausen, Maxvorstadt) are popular; true Vororte lie further out."
+  },
+  {
+    "w": "der Reiseführer",
+    "a": "der",
+    "e": "tour guide",
+    "c": "Travel & Places",
+    "p": "die Reiseführer",
+    "ex": "Der Reiseführer kennt jeden Winkel.",
+    "n": "Also: travel guidebook. 'Lonely Planet' and 'Reise Know-How' are popular series. Context clarifies which."
+  },
+  {
+    "w": "die Landschaft",
+    "a": "die",
+    "e": "landscape / scenery",
+    "c": "Nature & Weather",
+    "p": "die Landschaften",
+    "ex": "Die Landschaft in Bayern ist wunderschön.",
+    "n": "Bavaria's landscape includes the Alps, lakes, and rolling countryside — a big draw for residents."
+  },
+  {
+    "w": "der Haushalt",
+    "a": "der",
+    "e": "household",
+    "c": "Home & Living",
+    "p": "die Haushalte",
+    "ex": "Wir teilen den Haushalt.",
+    "n": "'Haushalt führen' = to run a household. 'Staatshaushalt' = state budget. Compound: Haus + halten."
+  },
+  {
+    "w": "die Einbahnstraße",
+    "a": "die",
+    "e": "one-way street",
+    "c": "Transport & City",
+    "p": "die Einbahnstraßen",
+    "ex": "Das ist eine Einbahnstraße.",
+    "n": "Watch the signs when driving or cycling in Munich. Figuratively, 'eine Einbahnstraße' can mean a dead-end situation."
+  },
+  {
+    "w": "das Bürgeramt",
+    "a": "das",
+    "e": "municipality / borough office",
+    "c": "Government & Society",
+    "p": "die Bürgerämter",
+    "ex": "Das Bürgeramt ist dienstags geöffnet.",
+    "n": "Where you do your Anmeldung and get ID cards and certificates. Book an appointment online well in advance."
+  },
+  {
+    "w": "die Masterarbeit",
+    "a": "die",
+    "e": "thesis / dissertation",
+    "c": "Education & Culture",
+    "p": "die Masterarbeiten",
+    "ex": "Ich schreibe gerade meine Masterarbeit.",
+    "n": "'Bachelorarbeit' / 'Masterarbeit' / 'Doktorarbeit' (doctoral thesis). A key academic milestone."
+  },
+  {
+    "w": "der Zahnarzt",
+    "a": "der",
+    "e": "dentist",
+    "c": "Body & Health",
+    "p": "die Zahnärzte",
+    "ex": "Ich habe Angst vor dem Zahnarzt.",
+    "n": "Female: die Zahnärztin. 'Zum Zahnarzt gehen' = to go to the dentist. Insurance covers basic dental care."
+  },
+  {
+    "w": "der Zins",
+    "a": "der",
+    "e": "interest rate",
+    "c": "Shopping & Money",
+    "p": "die Zinsen",
+    "ex": "Die Zinsen sind niedrig.",
+    "n": "Usually plural: 'die Zinsen'. 'Zinssatz' = interest rate. 'Habenzinsen' = credit interest."
+  },
+  {
+    "w": "die Antwort",
+    "a": "die",
+    "e": "answer / reply",
+    "c": "Abstract Concepts",
+    "p": "die Antworten",
+    "ex": "Ich warte auf Ihre Antwort.",
+    "n": "'Antwort geben' = to give an answer. 'Um Antwort wird gebeten' (u.A.w.g.) = RSVP / please reply."
+  },
+  {
+    "w": "das Thema",
+    "a": "das",
+    "e": "topic / subject / theme",
+    "c": "Abstract Concepts",
+    "p": "die Themen",
+    "ex": "Das ist ein heißes Thema.",
+    "n": "'Thema wechseln' = to change the subject. 'Kein Thema!' = No problem! (colloquial)."
+  },
+  {
+    "w": "das Risiko",
+    "a": "das",
+    "e": "risk",
+    "c": "Abstract Concepts",
+    "p": "die Risiken",
+    "ex": "Das ist ein großes Risiko.",
+    "n": "'Ein Risiko eingehen' = to take a risk. 'Risikofreudig' = risk-taking; 'risikoavers' = risk-averse."
+  },
+  {
+    "w": "der Abschluss",
+    "a": "der",
+    "e": "degree / qualification",
+    "c": "Education & Culture",
+    "p": "die Abschlüsse",
+    "ex": "Sie hat einen Master-Abschluss.",
+    "n": "'Bachelor-/Master-Abschluss', 'Doktortitel'. 'Den Abschluss machen' = to graduate."
+  },
+  {
+    "w": "die Einwanderung",
+    "a": "die",
+    "e": "immigration",
+    "c": "Government & Society",
+    "p": "(kein Plural)",
+    "ex": "Einwanderung bereichert die Gesellschaft.",
+    "n": "'Einwanderer' = immigrant; 'Auswanderer' = emigrant. Germany receives large numbers of immigrants."
+  },
+  {
+    "w": "der Umtausch",
+    "a": "der",
+    "e": "exchange / swap",
+    "c": "Shopping & Money",
+    "p": "die Umtausche",
+    "ex": "Kann ich das umtauschen?",
+    "n": "'Umtauschen' = to exchange; 'Rückgabe' = return. Both usually require a receipt in German shops."
+  },
+  {
+    "w": "der Selbstständige",
+    "a": "der",
+    "e": "self-employed person",
+    "c": "Work & Career",
+    "p": "die Selbstständigen",
+    "ex": "Ich bin seit drei Jahren Selbstständiger.",
+    "n": "'Selbstständig sein' = to be self-employed. 'Freiberufler' = freelancer — a related but distinct tax category."
+  },
+  {
+    "w": "die Note",
+    "a": "die",
+    "e": "grade / mark",
+    "c": "Education & Culture",
+    "p": "die Noten",
+    "ex": "Ich habe eine gute Note bekommen.",
+    "n": "German grades: 1 (sehr gut) = best, 6 (ungenügend) = worst — the opposite of many Anglo systems."
+  },
+  {
+    "w": "der Radweg",
+    "a": "der",
+    "e": "cycle path",
+    "c": "Transport & City",
+    "p": "die Radwege",
+    "ex": "Fahre immer auf dem Radweg!",
+    "n": "Cycling on the pavement (Bürgersteig) is illegal in Germany. Always use the Radweg (cycle path)."
+  },
+  {
+    "w": "die Geduld",
+    "a": "die",
+    "e": "patience",
+    "c": "Emotions & Mind",
+    "p": "(kein Plural)",
+    "ex": "Hab ein bisschen Geduld!",
+    "n": "'Geduld haben' = to have patience. 'Jemandes Geduld auf die Probe stellen' = to test someone's patience."
+  },
+  {
+    "w": "die Aufmerksamkeit",
+    "a": "die",
+    "e": "attention / care",
+    "c": "Abstract Concepts",
+    "p": "die Aufmerksamkeiten",
+    "ex": "Bitte achten Sie auf die Aufmerksamkeit.",
+    "n": "'Aufmerksamkeit schenken' = to pay attention. 'aufmerksam sein' = to be attentive/alert."
+  },
+  {
+    "w": "der Frost",
+    "a": "der",
+    "e": "frost",
+    "c": "Nature & Weather",
+    "p": "die Fröste",
+    "ex": "Heute Nacht gibt es Frost.",
+    "n": "'Nachtfrost' = overnight frost. Common in Munich in late autumn/winter."
+  },
+  {
+    "w": "der Flüchtling",
+    "a": "der",
+    "e": "refugee",
+    "c": "Government & Society",
+    "p": "die Flüchtlinge",
+    "ex": "Der Flüchtling hat Asyl beantragt.",
+    "n": "'Asylbewerber' = asylum seeker. A major topic post-2015. 'Geflüchtete' is now the preferred neutral term."
+  },
+  {
+    "w": "das Souvenir",
+    "a": "das",
+    "e": "souvenir",
+    "c": "Travel & Places",
+    "p": "die Souvenirs",
+    "ex": "Ich kaufe ein Souvenir für meine Familie.",
+    "n": "Munich souvenirs: Dirndl, Lederhosen, Masskrug, Weißwurst sets — and of course Oktoberfest merchandise."
+  },
+  {
+    "w": "die Frage",
+    "a": "die",
+    "e": "question / issue",
+    "c": "Abstract Concepts",
+    "p": "die Fragen",
+    "ex": "Das ist eine schwierige Frage.",
+    "n": "'Eine Frage stellen' = to ask a question. 'Außer Frage stehen' = to be beyond question."
+  },
+  {
+    "w": "die Tasse",
+    "a": "die",
+    "e": "cup / mug",
+    "c": "Food & Drink",
+    "p": "die Tassen",
+    "ex": "Ich hätte gerne eine Tasse Kaffee.",
+    "n": "'eine Tasse Kaffee' = a cup of coffee. Compare die Tasse (cup) with das Glas (glass) and der Becher (mug)."
+  },
+  {
+    "w": "der Hörsaal",
+    "a": "der",
+    "e": "lecture hall / auditorium",
+    "c": "Education & Culture",
+    "p": "die Hörsäle",
+    "ex": "Die Vorlesung findet im Hörsaal statt.",
+    "n": "A university lecture hall; plural die Hörsäle. From hören (to listen) + Saal (hall). 'die Vorlesung' is held there."
+  },
+  {
+    "w": "die Krankschreibung",
+    "a": "die",
+    "e": "sick leave",
+    "c": "Work & Career",
+    "p": "die Krankschreibungen",
+    "ex": "Er ist krankgeschrieben.",
+    "n": "Also: 'Arbeitsunfähigkeitsbescheinigung' (AU) — the official sick note from the doctor for your employer."
+  },
+  {
+    "w": "das Eis",
+    "a": "das",
+    "e": "ice / ice cream",
+    "c": "Nature & Weather",
+    "p": "(kein Plural)",
+    "ex": "Wir essen gerne Eis im Sommer.",
+    "n": "Means both 'ice' (Glatteis = black ice, Eiswürfel = ice cube) and 'ice cream' (Eisdiele = parlour). Context clarifies."
+  },
+  {
+    "w": "der Sport",
+    "a": "der",
+    "e": "sport / sports",
+    "c": "Education & Culture",
+    "p": "die Sportarten",
+    "ex": "Er treibt viel Sport.",
+    "n": "'Sport treiben/machen' = to do sport. Football (Fußball) is most popular; FC Bayern is Munich's club."
+  },
+  {
+    "w": "der Experte",
+    "a": "der",
+    "e": "expert / specialist",
+    "c": "People & Relationships",
+    "p": "die Experten",
+    "ex": "Er ist ein Experte auf diesem Gebiet.",
+    "n": "Also: 'der Fachmann/Fachfrau'. 'Expertin' = female expert."
+  },
+  {
+    "w": "die Terrasse",
+    "a": "die",
+    "e": "terrace / patio",
+    "c": "Home & Living",
+    "p": "die Terrassen",
+    "ex": "Abends sitzen wir auf der Terrasse.",
+    "n": "Very desirable feature in Munich apartments. Ground-floor equivalent of Balkon."
+  },
+  {
+    "w": "der Zusammenhang",
+    "a": "der",
+    "e": "relationship / connection / context",
+    "c": "Abstract Concepts",
+    "p": "die Zusammenhänge",
+    "ex": "Das steht in keinem Zusammenhang.",
+    "n": "'Im Zusammenhang mit' = in connection with. 'Aus dem Zusammenhang reißen' = to take out of context."
+  },
+  {
+    "w": "das Gepäck",
+    "a": "das",
+    "e": "luggage / baggage",
+    "c": "Travel & Places",
+    "p": "(kein Plural)",
+    "ex": "Mein Gepäck ist verloren gegangen.",
+    "n": "'Handgepäck' = hand luggage; 'aufgegebenes Gepäck' = checked luggage. No plural (collective noun)."
+  },
+  {
+    "w": "die Flasche",
+    "a": "die",
+    "e": "bottle",
+    "c": "Food & Drink",
+    "p": "die Flaschen",
+    "ex": "Eine Flasche Mineralwasser bitte.",
+    "n": "'Flaschenpfand' = bottle deposit. Return at supermarket for refund."
+  },
+  {
+    "w": "der Freundeskreis",
+    "a": "der",
+    "e": "friend group / circle of friends",
+    "c": "People & Relationships",
+    "p": "die Freundeskreise",
+    "ex": "Mein Freundeskreis ist klein aber fein.",
+    "n": "Germans typically keep smaller, closer friend groups (Freundeskreise) than in many other cultures."
+  },
+  {
+    "w": "der Neid",
+    "a": "der",
+    "e": "envy / jealousy",
+    "c": "Emotions & Mind",
+    "p": "(kein Plural)",
+    "ex": "Neid ist keine gute Eigenschaft.",
+    "n": "'Neid haben auf' = to envy. 'Neidisch sein' = to be envious/jealous."
+  },
+  {
+    "w": "der Teller",
+    "a": "der",
+    "e": "plate",
+    "c": "Food & Drink",
+    "p": "die Teller",
+    "ex": "Der Teller ist leer.",
+    "n": "Plural is identical: die Teller. 'der Suppenteller' = soup plate; 'der Teller ist leer' = the plate is empty."
+  },
+  {
+    "w": "die Musik",
+    "a": "die",
+    "e": "music",
+    "c": "Education & Culture",
+    "p": "(kein Plural)",
+    "ex": "Musik verbindet Menschen.",
+    "n": "No plural in standard usage. 'Musik machen' = to make music. Munich has strong classical and club scenes."
+  },
+  {
+    "w": "das Glas",
+    "a": "das",
+    "e": "glass",
+    "c": "Food & Drink",
+    "p": "die Gläser",
+    "ex": "Ein Glas Wasser, bitte.",
+    "n": "'das Glas' is neuter. 'Ein Glas Wein' = a glass of wine. Also: the material glass."
+  },
+  {
+    "w": "die Cloud",
+    "a": "die",
+    "e": "cloud (computing)",
+    "c": "Technology & Media",
+    "p": "die Clouds",
+    "ex": "Die Daten sind in der Cloud gespeichert.",
+    "n": "Borrowed from English. Rarely: 'die Datenwolke'. 'In der Cloud' = in the cloud."
+  },
+  {
+    "w": "die Preisliste",
+    "a": "die",
+    "e": "price list / menu / rate",
+    "c": "Shopping & Money",
+    "p": "die Preislisten",
+    "ex": "Haben Sie eine Preisliste?",
+    "n": "A price list or rate card. 'auf der Preisliste' = on the price list. Compound: Preis (price) + Liste (list)."
+  },
+  {
+    "w": "die Portion",
+    "a": "die",
+    "e": "portion / serving",
+    "c": "Food & Drink",
+    "p": "die Portionen",
+    "ex": "Eine Portion Schnitzel bitte.",
+    "n": "German portions are often generous. 'Halbportion' = half portion (often available for children)."
+  },
+  {
+    "w": "der Partner",
+    "a": "der",
+    "e": "partner / companion",
+    "c": "People & Relationships",
+    "p": "die Partner",
+    "ex": "Ich komme mit meinem Partner.",
+    "n": "Gender-neutral in modern usage. 'Lebenspartner' = life partner. Female: die Partnerin."
+  },
+  {
+    "w": "der Kredit",
+    "a": "der",
+    "e": "loan / credit",
+    "c": "Shopping & Money",
+    "p": "die Kredite",
+    "ex": "Ich habe einen Kredit aufgenommen.",
+    "n": "'Einen Kredit beantragen' = to apply for a loan. Germans are traditionally conservative about debt."
+  },
+  {
+    "w": "die Einsamkeit",
+    "a": "die",
+    "e": "loneliness",
+    "c": "Emotions & Mind",
+    "p": "(kein Plural)",
+    "ex": "Einsamkeit ist in Großstädten häufig.",
+    "n": "A growing concern in modern Germany. 'Einsam sein' = to be lonely."
+  },
+  {
+    "w": "das Taxi",
+    "a": "das",
+    "e": "taxi",
+    "c": "Transport & City",
+    "p": "die Taxis",
+    "ex": "Wir nehmen ein Taxi zum Flughafen.",
+    "n": "Also available: Uber, FreeNow. Munich taxis are yellow and regulated."
+  },
+  {
+    "w": "das Ministerium",
+    "a": "das",
+    "e": "ministry",
+    "c": "Government & Society",
+    "p": "die Ministerien",
+    "ex": "Das Ministerium gibt eine Stellungnahme ab.",
+    "n": "Bavaria has its own state ministries (Bayerische Staatsministerien) and broad regional autonomy."
+  },
+  {
+    "w": "die Ausbildung",
+    "a": "die",
+    "e": "training / apprenticeship",
+    "c": "Work & Career",
+    "p": "die Ausbildungen",
+    "ex": "Sie macht eine Ausbildung zur Köchin.",
+    "n": "Germany's dual Ausbildung system is world-famous: it combines paid work with vocational-school training."
+  },
+  {
+    "w": "die Garantie",
+    "a": "die",
+    "e": "guarantee / warranty",
+    "c": "Shopping & Money",
+    "p": "die Garantien",
+    "ex": "Das Gerät hat zwei Jahre Garantie.",
+    "n": "'Garantie geben' = to give a guarantee. 'Gewährleistung' = the statutory warranty (two years, legally required)."
+  },
+  {
+    "w": "die Tradition",
+    "a": "die",
+    "e": "tradition",
+    "c": "Education & Culture",
+    "p": "die Traditionen",
+    "ex": "Das ist eine alte Tradition.",
+    "n": "Bavaria is known for strong traditions: Oktoberfest, Tracht (traditional dress), and the Maibaum (maypole)."
+  },
+  {
+    "w": "der Nebel",
+    "a": "der",
+    "e": "fog / mist",
+    "c": "Nature & Weather",
+    "p": "die Nebel",
+    "ex": "Im Herbst gibt es oft Nebel in München.",
+    "n": "Autumn fog is very common in Munich and the surrounding Alpine foothills."
+  },
+  {
+    "w": "das Messer",
+    "a": "das",
+    "e": "knife",
+    "c": "Food & Drink",
+    "p": "die Messer",
+    "ex": "Das Messer ist sehr scharf.",
+    "n": "Part of das Besteck; plural identical: die Messer. 'das Küchenmesser' = kitchen knife; 'scharf' = sharp."
+  },
+  {
+    "w": "die Folge",
+    "a": "die",
+    "e": "consequence",
+    "c": "Abstract Concepts",
+    "p": "die Folgen",
+    "ex": "Was sind die Folgen dieser Entscheidung?",
+    "n": "Also: episode (of a TV series), e.g. 'Folge 3' = Episode 3. 'Infolgedessen' = as a result."
+  },
+  {
+    "w": "der Joghurt",
+    "a": "der",
+    "e": "yoghurt",
+    "c": "Food & Drink",
+    "p": "die Joghurts",
+    "ex": "Ich esse morgens Joghurt.",
+    "n": "Masculine in standard German; some speakers say 'das Joghurt'. Both are acceptable."
+  },
+  {
+    "w": "die Ausnahme",
+    "a": "die",
+    "e": "exception",
+    "c": "Abstract Concepts",
+    "p": "die Ausnahmen",
+    "ex": "Das ist eine Ausnahme.",
+    "n": "'Die Ausnahme bestätigt die Regel' = the exception proves the rule. 'In Ausnahmefällen' = in exceptional cases."
+  },
+  {
+    "w": "der Löffel",
+    "a": "der",
+    "e": "spoon",
+    "c": "Food & Drink",
+    "p": "die Löffel",
+    "ex": "Einen Löffel Zucker bitte.",
+    "n": "Plural is identical: die Löffel. Recipes use 'der Teelöffel' (tsp) and 'der Esslöffel' (tbsp); 'der Suppenlöffel' = soup spoon."
+  },
+  {
+    "w": "die Investition",
+    "a": "die",
+    "e": "investment",
+    "c": "Shopping & Money",
+    "p": "die Investitionen",
+    "ex": "Diese Investition ist riskant.",
+    "n": "'eine Investition machen' = to make an investment; 'in etwas investieren' = to invest in something. 'die Geldanlage' = a financial investment."
+  },
+  {
+    "w": "das Beispiel",
+    "a": "das",
+    "e": "example",
+    "c": "Abstract Concepts",
+    "p": "die Beispiele",
+    "ex": "Können Sie ein Beispiel nennen?",
+    "n": "'Zum Beispiel' (z.B.) = for example. One of the most common phrases in academic and everyday German."
+  },
+  {
+    "w": "der Facharzt",
+    "a": "der",
+    "e": "specialist (doctor)",
+    "c": "Body & Health",
+    "p": "die Fachärzte",
+    "ex": "Der Hausarzt überweist mich zum Facharzt.",
+    "n": "In Germany you usually need a referral (Überweisung) from your GP (Hausarzt) to see a Facharzt (specialist)."
+  },
+  {
+    "w": "die Belegschaft",
+    "a": "die",
+    "e": "colleague / coworker (gender-neutral)",
+    "c": "People & Relationships",
+    "p": "die Belegschaften",
+    "ex": "Die Belegschaft streikt heute.",
+    "n": "Collective noun for all employees of a company. No gender distinction."
+  },
+  {
+    "w": "die Verspätung",
+    "a": "die",
+    "e": "delay",
+    "c": "Transport & City",
+    "p": "die Verspätungen",
+    "ex": "Der Zug hat zehn Minuten Verspätung.",
+    "n": "'Verspätung haben' = to be delayed. Very common on Deutsche Bahn. The opposite of 'pünktlich' (punctual)."
+  },
+  {
+    "w": "der Akku",
+    "a": "der",
+    "e": "battery",
+    "c": "Technology & Media",
+    "p": "die Akkus",
+    "ex": "Der Akku ist leer.",
+    "n": "Short for 'Akkumulator'. 'Den Akku laden' = to charge the battery. 'Der Akku ist leer' = the battery is dead."
+  },
+  {
+    "w": "der Metzger",
+    "a": "der",
+    "e": "butcher's shop",
+    "c": "Food & Drink",
+    "p": "die Metzger",
+    "ex": "Beim Metzger kaufe ich frisches Fleisch.",
+    "n": "Also refers to the butcher (person). 'Metzgerei' = butcher's shop; Bavarian Metzgereien are excellent."
+  },
+  {
+    "w": "die Bäckerei",
+    "a": "die",
+    "e": "bakery",
+    "c": "Food & Drink",
+    "p": "die Bäckereien",
+    "ex": "Die Bäckerei öffnet um sechs Uhr.",
+    "n": "German bakeries are legendary: fresh bread, Brötchen (rolls), and pretzels (Brezeln)."
+  },
+  {
+    "w": "die Demokratie",
+    "a": "die",
+    "e": "democracy",
+    "c": "Government & Society",
+    "p": "die Demokratien",
+    "ex": "Die Demokratie muss geschützt werden.",
+    "n": "A core value of the German Basic Law. 'Wehrhafte Demokratie' = a democracy that defends itself against extremism."
+  },
+  {
+    "w": "die Kritik",
+    "a": "die",
+    "e": "opinion / review",
+    "c": "Education & Culture",
+    "p": "die Kritiken",
+    "ex": "Ich lese immer die Kritiken.",
+    "n": "Also: criticism (a critique). 'Konstruktive Kritik' = constructive criticism. Also a review (Filmkritik)."
+  },
+  {
+    "w": "das Übergabeprotokoll",
+    "a": "das",
+    "e": "handover protocol (apartment)",
+    "c": "Home & Living",
+    "p": "die Übergabeprotokolle",
+    "ex": "Das Übergabeprotokoll ist wichtig.",
+    "n": "Documents apartment condition at move-in/out. Critical for getting Kaution back."
+  },
+  {
+    "w": "die Notaufnahme",
+    "a": "die",
+    "e": "emergency room",
+    "c": "Body & Health",
+    "p": "die Notaufnahmen",
+    "ex": "Wir müssen in die Notaufnahme.",
+    "n": "Go to the Notaufnahme only for genuine emergencies; for non-urgent issues, call the on-call service (116117)."
+  },
+  {
+    "w": "das Stipendium",
+    "a": "das",
+    "e": "scholarship / grant",
+    "c": "Education & Culture",
+    "p": "die Stipendien",
+    "ex": "Sie hat ein Stipendium bekommen.",
+    "n": "DAAD, Deutschlandstipendium, Bayerische Begabtenförderung — many scholarship options exist for students."
+  },
+  {
+    "w": "der Sensor",
+    "a": "der",
+    "e": "sensor",
+    "c": "Technology & Media",
+    "p": "die Sensoren",
+    "ex": "Der Sensor erkennt Hindernisse.",
+    "n": "Key word in ADAS: LiDAR-, Kamera-, Radar-Sensor. 'Sensorik' = sensor systems / sensing."
+  },
+  {
+    "w": "das Menschenrecht",
+    "a": "das",
+    "e": "human rights",
+    "c": "Government & Society",
+    "p": "die Menschenrechte",
+    "ex": "Menschenrechte gelten für alle.",
+    "n": "Usually plural: 'die Menschenrechte'. Enshrined in Germany's Basic Law (Grundgesetz), Articles 1–19."
+  },
+  {
+    "w": "die Methode",
+    "a": "die",
+    "e": "method / approach",
+    "c": "Abstract Concepts",
+    "p": "die Methoden",
+    "ex": "Welche Methode verwenden Sie?",
+    "n": "'Methodisch vorgehen' = to proceed methodically. 'Methodik' = methodology."
+  },
+  {
+    "w": "die Priorität",
+    "a": "die",
+    "e": "priority",
+    "c": "Abstract Concepts",
+    "p": "die Prioritäten",
+    "ex": "Das hat oberste Priorität.",
+    "n": "'Prioritäten setzen' = to set priorities. 'Vorrang haben' = to take precedence."
+  },
+  {
+    "w": "die Wirkung",
+    "a": "die",
+    "e": "effect / impact",
+    "c": "Abstract Concepts",
+    "p": "die Wirkungen",
+    "ex": "Die Wirkung tritt sofort ein.",
+    "n": "'In Kraft treten' = to come into effect (law). 'Nebenwirkung' = side effect. 'Ursache und Wirkung' = cause and effect."
+  },
+  {
+    "w": "die Vorsorgeuntersuchung",
+    "a": "die",
+    "e": "checkup / preventive exam",
+    "c": "Body & Health",
+    "p": "die Vorsorgeuntersuchungen",
+    "ex": "Ich gehe zur jährlichen Vorsorgeuntersuchung.",
+    "n": "German health insurance covers many Vorsorgeuntersuchungen — cancer screenings, dental checks, and more."
+  },
+  {
+    "w": "die Gewerkschaft",
+    "a": "die",
+    "e": "trade union",
+    "c": "Government & Society",
+    "p": "die Gewerkschaften",
+    "ex": "Er ist Mitglied der Gewerkschaft.",
+    "n": "Powerful in Germany: IG Metall (automotive), Ver.di (services), IG BCE (chemical/energy sector)."
+  },
+  {
+    "w": "der Hund",
+    "a": "der",
+    "e": "dog",
+    "c": "Nature & Weather",
+    "p": "die Hunde",
+    "ex": "Darf ich Ihren Hund streicheln?",
+    "n": "Germans love dogs. 'Hundesteuer' = dog tax (yes, it exists). 'Hunde verboten' = no dogs allowed."
+  },
+  {
+    "w": "das Fest",
+    "a": "das",
+    "e": "festival / celebration",
+    "c": "Education & Culture",
+    "p": "die Feste",
+    "ex": "Das Fest dauert drei Tage.",
+    "n": "Oktoberfest = the world's most famous Fest. Also: Weihnachtsfest (Christmas) and countless Stadtfeste."
+  },
+  {
+    "w": "die Zentrale",
+    "a": "die",
+    "e": "headquarters",
+    "c": "Work & Career",
+    "p": "die Zentralen",
+    "ex": "Die Zentrale ist in München.",
+    "n": "BMW, Siemens, MAN, Allianz, and Munich Re are all headquartered in Munich — major employers."
+  },
+  {
+    "w": "die Freiberuflerin",
+    "a": "die",
+    "e": "freelancer",
+    "c": "Work & Career",
+    "p": "die Freiberuflerinnen",
+    "ex": "Sie arbeitet als Freiberuflerin.",
+    "n": "'Freiberufler' (m) / 'Freiberuflerin' (f). Freelancers have different tax rules from Gewerbetreibende (traders)."
+  },
+  {
+    "w": "der Aspekt",
+    "a": "der",
+    "e": "aspect / point of view",
+    "c": "Abstract Concepts",
+    "p": "die Aspekte",
+    "ex": "Das ist ein wichtiger Aspekt.",
+    "n": "'Verschiedene Aspekte berücksichtigen' = to consider various aspects. Common in academic writing."
+  },
+  {
+    "w": "die Blume",
+    "a": "die",
+    "e": "flower",
+    "c": "Nature & Weather",
+    "p": "die Blumen",
+    "ex": "Die Blumen blühen im Frühling.",
+    "n": "Bringing Blumen as a host gift is common in Germany — always an odd number of flowers (except a dozen)."
+  },
+  {
+    "w": "die WG",
+    "a": "die",
+    "e": "shared flat",
+    "c": "Home & Living",
+    "p": "die WGs",
+    "ex": "Ich wohne in einer WG.",
+    "n": "Short for Wohngemeinschaft. Very common for students and young professionals, especially in pricey Munich."
+  },
+  {
+    "w": "die Veröffentlichung",
+    "a": "die",
+    "e": "publication / paper",
+    "c": "Education & Culture",
+    "p": "die Veröffentlichungen",
+    "ex": "Sie hat eine Veröffentlichung in Nature.",
+    "n": "Also: 'das Paper' (research paper, Anglicism). 'Publizieren' = to publish. Key for researchers."
+  },
+  {
+    "w": "die Ersparnisse",
+    "a": "die",
+    "e": "savings",
+    "c": "Shopping & Money",
+    "p": "(immer Plural)",
+    "ex": "Ich habe Ersparnisse auf der Bank.",
+    "n": "Usually plural. 'Sparen' = to save money. 'Sparsamkeit' = frugality — a valued German virtue."
+  },
+  {
+    "w": "das Symptom",
+    "a": "das",
+    "e": "symptom",
+    "c": "Body & Health",
+    "p": "die Symptome",
+    "ex": "Welche Symptome haben Sie?",
+    "n": "Key vocab for doctor's visits. 'Symptome beschreiben' = to describe symptoms."
+  },
+  {
+    "w": "die Führerscheinprüfung",
+    "a": "die",
+    "e": "driving test",
+    "c": "Transport & City",
+    "p": "die Führerscheinprüfungen",
+    "ex": "Er hat die Führerscheinprüfung bestanden.",
+    "n": "Notoriously hard and expensive in Germany. Theory + practical exam; the whole process averages over €2000."
+  },
+  {
+    "w": "die Vielfalt",
+    "a": "die",
+    "e": "variety / diversity",
+    "c": "Abstract Concepts",
+    "p": "(kein Plural)",
+    "ex": "München hat eine große Vielfalt.",
+    "n": "'Kulturelle Vielfalt' = cultural diversity; 'Artenvielfalt' = biodiversity. 'vielfältig' = diverse/varied."
+  },
+  {
+    "w": "der Mietvertrag",
+    "a": "der",
+    "e": "rental contract",
+    "c": "Home & Living",
+    "p": "die Mietverträge",
+    "ex": "Ich habe den Mietvertrag unterschrieben.",
+    "n": "Read every clause carefully. German tenancy law (Mietrecht) strongly protects tenants."
+  },
+  {
+    "w": "das Tempolimit",
+    "a": "das",
+    "e": "speed limit",
+    "c": "Transport & City",
+    "p": "die Tempolimits",
+    "ex": "Das Tempolimit hier ist 50 km/h.",
+    "n": "In cities: 50 km/h; residential zones: 30 km/h; Autobahn: no general limit, but a recommended 130 km/h."
+  },
+  {
+    "w": "das Bundesland",
+    "a": "das",
+    "e": "state / federal state",
+    "c": "Government & Society",
+    "p": "die Bundesländer",
+    "ex": "Bayern ist ein Bundesland.",
+    "n": "Germany has 16 Bundesländer. Bavaria (Bayern) is the largest by area; Munich is its capital."
+  },
+  {
+    "w": "der Podcast",
+    "a": "der",
+    "e": "podcast",
+    "c": "Education & Culture",
+    "p": "die Podcasts",
+    "ex": "Ich höre täglich Podcasts auf Deutsch.",
+    "n": "A great way to learn German! Popular: 'Slow German', Deutschlandfunk, 'Fest & Flauschig'."
+  },
+  {
+    "w": "der Baum",
+    "a": "der",
+    "e": "tree",
+    "c": "Nature & Weather",
+    "p": "die Bäume",
+    "ex": "Der Baum ist sehr alt.",
+    "n": "'Die Bäume' = the trees. 'Baumscheibe' = tree pit. Street trees (Strassenbäume) "
+  },
+  {
+    "w": "die Herausforderung",
+    "a": "die",
+    "e": "task / challenge",
+    "c": "Abstract Concepts",
+    "p": "die Herausforderungen",
+    "ex": "Das ist eine große Herausforderung.",
+    "n": "'Eine Herausforderung annehmen' = to accept a challenge. Very common in German professional contexts."
+  },
+  {
+    "w": "die Bildung",
+    "a": "die",
+    "e": "education / upbringing",
+    "c": "Education & Culture",
+    "p": "(kein Plural)",
+    "ex": "Bildung ist der Schlüssel zum Erfolg.",
+    "n": "Encompasses both formal education and cultural refinement. 'Bildungsweg' = educational path."
+  },
+  {
+    "w": "der Eintritt",
+    "a": "der",
+    "e": "entrance fee / admission",
+    "c": "Travel & Places",
+    "p": "die Eintritte",
+    "ex": "Der Eintritt kostet 10 Euro.",
+    "n": "Many Munich museums offer free entry on Sundays. 'Eintritt frei' = free admission."
+  },
+  {
+    "w": "die Entwicklung",
+    "a": "die",
+    "e": "development / progress",
+    "c": "Abstract Concepts",
+    "p": "die Entwicklungen",
+    "ex": "Die Entwicklung verläuft positiv.",
+    "n": "Also: software development (Softwareentwicklung), child development. 'Forschung und Entwicklung' = R&D."
+  },
+  {
+    "w": "der Ausländer",
+    "a": "der",
+    "e": "foreigner / expat",
+    "c": "People & Relationships",
+    "p": "die Ausländer",
+    "ex": "Als Ausländer muss ich mich anmelden.",
+    "n": "Female: die Ausländerin. Not pejorative in itself. 'Expat' is increasingly used in international cities."
+  },
+  {
+    "w": "der Einbürgerungstest",
+    "a": "der",
+    "e": "citizenship test",
+    "c": "Government & Society",
+    "p": "die Einbürgerungstests",
+    "ex": "Der Einbürgerungstest hat 33 Fragen.",
+    "n": "Required for German citizenship. Covers German history, law, and democratic values (33 questions)."
+  },
+  {
+    "w": "die Renovierung",
+    "a": "die",
+    "e": "renovation",
+    "c": "Home & Living",
+    "p": "die Renovierungen",
+    "ex": "Die Renovierung dauert drei Wochen.",
+    "n": "'Renovieren' = to renovate. 'Frisch renoviert' = freshly renovated — a key selling point in flat listings."
+  },
+  {
+    "w": "der Kontoauszug",
+    "a": "der",
+    "e": "account statement",
+    "c": "Shopping & Money",
+    "p": "die Kontoauszüge",
+    "ex": "Ich brauche einen Kontoauszug.",
+    "n": "Often required for rental and visa applications, and other official forms in Germany."
+  },
+  {
+    "w": "die Brezel",
+    "a": "die",
+    "e": "pretzel",
+    "c": "Food & Drink",
+    "p": "die Brezeln",
+    "ex": "Eine Brezel und ein Bier, bitte!",
+    "n": "Iconic Bavarian snack, also spelled 'Breze' in Bavaria. Available at every bakery."
+  },
+  {
+    "w": "der Trend",
+    "a": "der",
+    "e": "trend / tendency",
+    "c": "Abstract Concepts",
+    "p": "die Trends",
+    "ex": "Dieser Trend ist neu.",
+    "n": "Borrowed from English. 'Im Trend liegen' = to be trendy. 'Gegentrend' = counter-trend."
+  },
+  {
+    "w": "das Portemonnaie",
+    "a": "das",
+    "e": "wallet / purse",
+    "c": "Shopping & Money",
+    "p": "die Portemonnaies",
+    "ex": "Ich habe mein Portemonnaie vergessen.",
+    "n": "Borrowed from French. Also: 'die Brieftasche' or 'die Geldbörse' (more common in Austria/Switzerland)."
+  },
+  {
+    "w": "die EC-Karte",
+    "a": "die",
+    "e": "debit card / bank card",
+    "c": "Shopping & Money",
+    "p": "die EC-Karten",
+    "ex": "Ich zahle mit der EC-Karte.",
+    "n": "Germany's standard debit card (Girocard). More widely accepted than credit cards in Germany."
+  },
+  {
+    "w": "die Führung",
+    "a": "die",
+    "e": "guided tour",
+    "c": "Travel & Places",
+    "p": "die Führungen",
+    "ex": "Wir machen eine Führung durch das Schloss.",
+    "n": "Also: management/leadership. 'Unter Führung von' = under the leadership of."
+  },
+  {
+    "w": "die Perspektive",
+    "a": "die",
+    "e": "future / prospect",
+    "c": "Abstract Concepts",
+    "p": "die Perspektiven",
+    "ex": "Wir blicken optimistisch in die Zukunft.",
+    "n": "Also: perspective/viewpoint. 'Berufliche Perspektiven' = career prospects; 'keine Perspektive' = no prospects."
+  },
+  {
+    "w": "das Tier",
+    "a": "das",
+    "e": "animal / creature",
+    "c": "Nature & Weather",
+    "p": "die Tiere",
+    "ex": "Das Tier braucht Hilfe.",
+    "n": "'Haustier' = pet; 'Wildtier' = wild animal. 'Tierarzt' = vet; 'Tierschutz' = animal protection."
+  },
+  {
+    "w": "die Kaution",
+    "a": "die",
+    "e": "deposit (apartment)",
+    "c": "Home & Living",
+    "p": "die Kautionen",
+    "ex": "Die Kaution beträgt drei Monatsmieten.",
+    "n": "Standard in Germany: 1–3 months' cold rent. Must be returned within a reasonable time after move-out."
+  },
+  {
+    "w": "der Algorithmus",
+    "a": "der",
+    "e": "algorithm",
+    "c": "Technology & Media",
+    "p": "die Algorithmen",
+    "ex": "Der Algorithmus ist sehr effizient.",
+    "n": "Core concept in ML/DL. 'Lernalgorithmus' = learning algorithm. Plural: Algorithmen."
+  },
+  {
+    "w": "die Strategie",
+    "a": "die",
+    "e": "strategy",
+    "c": "Work & Career",
+    "p": "die Strategien",
+    "ex": "Wir brauchen eine neue Strategie.",
+    "n": "'Strategisch denken' = to think strategically. 'Geschäftsstrategie' = business strategy."
+  },
+  {
+    "w": "die Motivation",
+    "a": "die",
+    "e": "motivation",
+    "c": "Emotions & Mind",
+    "p": "die Motivationen",
+    "ex": "Mir fehlt die Motivation heute.",
+    "n": "'Motiviert sein' = to be motivated; 'demotiviert' = demotivated. A key word in work contexts."
+  },
+  {
+    "w": "der Mentor",
+    "a": "der",
+    "e": "mentor",
+    "c": "People & Relationships",
+    "p": "die Mentoren",
+    "ex": "Mein Mentor hat mir viel beigebracht.",
+    "n": "Female: die Mentorin. Mentoring programmes (Mentorenprogramme) are common at German universities."
+  },
+  {
+    "w": "der Streik",
+    "a": "der",
+    "e": "strike",
+    "c": "Government & Society",
+    "p": "die Streiks",
+    "ex": "Die Bahn streikt wieder.",
+    "n": "'Streiken' = to strike. German unions exercise their Streikrecht (right to strike) regularly."
+  },
+  {
+    "w": "die Zusammenarbeit",
+    "a": "die",
+    "e": "cooperation / collaboration",
+    "c": "Abstract Concepts",
+    "p": "(kein Plural)",
+    "ex": "Die Zusammenarbeit ist sehr produktiv.",
+    "n": "'Gut zusammenarbeiten' = to collaborate well. 'Teamarbeit' = teamwork — a core workplace value."
+  },
+  {
+    "w": "der Prozess",
+    "a": "der",
+    "e": "process / procedure",
+    "c": "Abstract Concepts",
+    "p": "die Prozesse",
+    "ex": "Der Prozess läuft reibungslos.",
+    "n": "Also: legal trial/case. 'Prozessoptimierung' = process optimisation. 'im Prozess' = in progress."
+  },
+  {
+    "w": "das Arbeitszeugnis",
+    "a": "das",
+    "e": "reference letter (work)",
+    "c": "Work & Career",
+    "p": "die Arbeitszeugnisse",
+    "ex": "Mein Arbeitszeugnis war ausgezeichnet.",
+    "n": "Legally required on request. Germans decode coded phrasing: 'stets zu unserer Zufriedenheit' actually means 'merely adequate'."
+  },
+  {
+    "w": "der Betriebsrat",
+    "a": "der",
+    "e": "works council / union representation",
+    "c": "Work & Career",
+    "p": "die Betriebsräte",
+    "ex": "Der Betriebsrat hat zugestimmt.",
+    "n": "A legally mandated employee-representation body in German companies with five or more employees."
+  },
+  {
+    "w": "der Tourist",
+    "a": "der",
+    "e": "tourist",
+    "c": "Travel & Places",
+    "p": "die Touristen",
+    "ex": "München hat viele Touristen.",
+    "n": "Female: die Touristin. Munich gets ~7 million tourists a year; Oktoberfest alone draws millions."
+  },
+  {
+    "w": "die Wochenkarte",
+    "a": "die",
+    "e": "weekly transit ticket",
+    "c": "Transport & City",
+    "p": "die Wochenkarten",
+    "ex": "Ich kaufe eine Wochenkarte für die MVV.",
+    "n": "MVV = Munich's transport authority. Ticket types: Wochenkarte (weekly), Monatskarte (monthly), Jahreskarte (annual)."
+  },
+  {
+    "w": "die Anforderung",
+    "a": "die",
+    "e": "requirement / demand",
+    "c": "Abstract Concepts",
+    "p": "die Anforderungen",
+    "ex": "Die Anforderungen sind hoch.",
+    "n": "'Anforderungen erfüllen' = to meet requirements. A key word in job descriptions (Stellenanzeigen)."
+  },
+  {
+    "w": "das Niveau",
+    "a": "das",
+    "e": "level / standard",
+    "c": "Abstract Concepts",
+    "p": "die Niveaus",
+    "ex": "Das Niveau ist sehr hoch.",
+    "n": "Borrowed from French. 'Auf hohem Niveau' = at a high level. 'niveaulos' = lacking class/standards."
+  },
+  {
+    "w": "das Praktikum",
+    "a": "das",
+    "e": "internship",
+    "c": "Work & Career",
+    "p": "die Praktika",
+    "ex": "Ich mache ein Praktikum bei Siemens.",
+    "n": "Pflichtpraktikum = mandatory; freiwilliges Praktikum = optional. Common before or during studies. Plural: Praktika."
+  },
+  {
+    "w": "der Garten",
+    "a": "der",
+    "e": "garden",
+    "c": "Nature & Weather",
+    "p": "die Gärten",
+    "ex": "Der Garten ist im Frühling schön.",
+    "n": "'Der Biergarten' (beer garden) is a Bavarian institution; the Englischer Garten is Munich's huge city park."
+  },
+  {
+    "w": "das Bioprodukt",
+    "a": "das",
+    "e": "organic food",
+    "c": "Food & Drink",
+    "p": "die Bioprodukte",
+    "ex": "Ich kaufe gerne Bioprodukte.",
+    "n": "'Bio' prefix = organic; 'Biomarkt' = organic supermarket. Germany is one of Europe's largest organic markets."
+  },
+  {
+    "w": "das Konzept",
+    "a": "das",
+    "e": "concept / idea",
+    "c": "Abstract Concepts",
+    "p": "die Konzepte",
+    "ex": "Das Konzept ist überzeugend.",
+    "n": "'Ein Konzept erstellen' = to create a concept. 'Konzeptpapier' = concept paper. "
+  },
+  {
+    "w": "die Frustration",
+    "a": "die",
+    "e": "frustration",
+    "c": "Emotions & Mind",
+    "p": "die Frustrationen",
+    "ex": "Die Frustrationen häufen sich.",
+    "n": "'Frustriert sein' = to be frustrated. 'Einen Frust haben' is colloquial for being fed up."
+  },
+  {
+    "w": "die Autorität",
+    "a": "die",
+    "e": "authority / expert figure",
+    "c": "People & Relationships",
+    "p": "die Autoritäten",
+    "ex": "Er ist eine Autorität auf seinem Gebiet.",
+    "n": "Also: authority (power/control). 'Elterliche Autorität' = parental authority. Also a respected expert."
+  },
+  {
+    "w": "die Therapie",
+    "a": "die",
+    "e": "therapy / treatment",
+    "c": "Body & Health",
+    "p": "die Therapien",
+    "ex": "Er macht eine Therapie.",
+    "n": "Psychotherapie = psychotherapy; Physiotherapie = physiotherapy — both widely available in Germany."
+  },
+  {
+    "w": "die Lebenshaltungskosten",
+    "a": "die",
+    "e": "cost of living",
+    "c": "Shopping & Money",
+    "p": "(immer Plural)",
+    "ex": "Die Lebenshaltungskosten in München sind hoch.",
+    "n": "Always plural. Munich is one of Germany's most expensive cities — plan your budget carefully."
+  },
+  {
+    "w": "das Modell",
+    "a": "das",
+    "e": "model (ML/fashion/scale)",
+    "c": "Technology & Media",
+    "p": "die Modelle",
+    "ex": "Das Modell wurde mit Daten trainiert.",
+    "n": "Context-dependent: ML model, fashion model, architectural model, business model."
+  },
+  {
+    "w": "die Lastschrift",
+    "a": "die",
+    "e": "direct debit / standing order",
+    "c": "Shopping & Money",
+    "p": "die Lastschriften",
+    "ex": "Die Miete wird per Lastschrift abgebucht.",
+    "n": "'SEPA-Lastschrift' = the European direct-debit standard. Common for recurring payments like rent and bills."
+  },
+  {
+    "w": "die Öffentlichkeit",
+    "a": "die",
+    "e": "public / the public",
+    "c": "People & Relationships",
+    "p": "(kein Plural)",
+    "ex": "Die Öffentlichkeit wurde informiert.",
+    "n": "'In der Öffentlichkeit' = in public. Related: 'öffentliche Verkehrsmittel' = public transport."
+  },
+  {
+    "w": "die künstliche Intelligenz",
+    "a": "die",
+    "e": "artificial intelligence",
+    "c": "Technology & Media",
+    "p": "(kein Plural)",
+    "ex": "Künstliche Intelligenz verändert die Welt.",
+    "n": "Abbreviated KI (German) = AI (English). 'KI-Modell', 'KI-System'. Central to ADAS and ML work."
+  },
+  {
+    "w": "der Markt",
+    "a": "der",
+    "e": "market / farmer's market",
+    "c": "Food & Drink",
+    "p": "die Märkte",
+    "ex": "Samstags gehe ich auf den Markt.",
+    "n": "Munich's Viktualienmarkt is world-famous. Also: the Wochenmarkt found in every neighbourhood."
+  },
+  {
+    "w": "die Grundlage",
+    "a": "die",
+    "e": "basis / foundation",
+    "c": "Abstract Concepts",
+    "p": "die Grundlagen",
+    "ex": "Das ist die Grundlage unseres Projekts.",
+    "n": "'Auf der Grundlage von' = on the basis of. 'Grundlagen schaffen' = to lay foundations / create a basis."
+  },
+  {
+    "w": "das Potenzial",
+    "a": "das",
+    "e": "potential",
+    "c": "Abstract Concepts",
+    "p": "die Potenziale",
+    "ex": "Das hat großes Potenzial.",
+    "n": "Also spelled 'Potential'. 'Entwicklungspotenzial' = growth potential. Common in business and tech."
+  },
+  {
+    "w": "die Schicht",
+    "a": "die",
+    "e": "shift / turn",
+    "c": "Work & Career",
+    "p": "die Schichten",
+    "ex": "Ich arbeite heute in der Nachtschicht.",
+    "n": "Frühschicht = early shift, Spätschicht = late shift, Nachtschicht = night shift."
+  },
+  {
+    "w": "die möblierte Wohnung",
+    "a": "die",
+    "e": "furnished apartment",
+    "c": "Home & Living",
+    "p": "die möblierten Wohnungen",
+    "ex": "Ich suche eine möblierte Wohnung.",
+    "n": "'Möbliert' = furnished; 'teilmöbliert' = partly furnished; 'unmöbliert' = unfurnished."
+  },
+  {
+    "w": "die Konferenz",
+    "a": "die",
+    "e": "conference / congress",
+    "c": "Education & Culture",
+    "p": "die Konferenzen",
+    "ex": "Er nimmt an einer Konferenz teil.",
+    "n": "Also: 'die Tagung' (academic conference). CVPR, NeurIPS etc. are major international Konferenzen."
+  },
+  {
+    "w": "die Baustelle",
+    "a": "die",
+    "e": "construction site / roadworks",
+    "c": "Transport & City",
+    "p": "die Baustellen",
+    "ex": "Wegen der Baustelle gibt es Stau.",
+    "n": "Munich is famous for perpetual Baustellen. Colloquially, 'Das ist eine Baustelle' = it's still a work in progress."
+  },
+  {
+    "w": "der Stolz",
+    "a": "der",
+    "e": "pride",
+    "c": "Emotions & Mind",
+    "p": "(kein Plural)",
+    "ex": "Stolz ist manchmal berechtigt.",
+    "n": "'Stolz sein auf' = to be proud of. 'Nationalstolz' = national pride; 'Berufsstolz' = professional pride."
+  },
+  {
+    "w": "die Kündigungsfrist",
+    "a": "die",
+    "e": "notice period (for apartment)",
+    "c": "Home & Living",
+    "p": "die Kündigungsfristen",
+    "ex": "Die Kündigungsfrist beträgt drei Monate.",
+    "n": "The standard rental notice period in Germany is 3 months — check your Mietvertrag (rental contract)."
+  },
+  {
+    "w": "die Gemeinschaft",
+    "a": "die",
+    "e": "community / association",
+    "c": "People & Relationships",
+    "p": "die Gemeinschaften",
+    "ex": "Ich bin Teil einer tollen Gemeinschaft.",
+    "n": "Also: municipality (Gemeinde). 'Gemeinschaftsgefühl' = sense of community; 'Europäische Gemeinschaft' = European Community."
+  },
+  {
+    "w": "die Balance",
+    "a": "die",
+    "e": "balance / equilibrium",
+    "c": "Abstract Concepts",
+    "p": "die Balancen",
+    "ex": "Ich suche eine gute Balance.",
+    "n": "'Work-Life-Balance' is a widely used Anglicism. 'Gleichgewicht' is the native German equivalent."
+  },
+  {
+    "w": "der Datenschutz",
+    "a": "der",
+    "e": "data protection",
+    "c": "Government & Society",
+    "p": "(kein Plural)",
+    "ex": "Datenschutz ist in Deutschland sehr wichtig.",
+    "n": "Germany has extremely strict data-protection laws (DSGVO/GDPR). Germans take privacy very seriously."
+  },
+  {
+    "w": "das Bußgeld",
+    "a": "das",
+    "e": "fine / penalty",
+    "c": "Transport & City",
+    "p": "die Bußgelder",
+    "ex": "Ich habe ein Bußgeld bekommen.",
+    "n": "Parking fines start at €10; speed-camera fines can be steep. Riding without a ticket: a €60 fine."
+  },
+  {
+    "w": "das Budget",
+    "a": "das",
+    "e": "budget",
+    "c": "Work & Career",
+    "p": "die Budgets",
+    "ex": "Das Budget ist überschritten.",
+    "n": "Borrowed from English/French. 'Im Budget bleiben' = to stay within budget. 'Budgetplanung' = budget planning."
+  },
+  {
+    "w": "die Jugendherberge",
+    "a": "die",
+    "e": "hostel / youth hostel",
+    "c": "Travel & Places",
+    "p": "die Jugendherbergen",
+    "ex": "Wir übernachten in einer Jugendherberge.",
+    "n": "Germany invented the youth-hostel concept (1914). Jugendherbergen remain affordable and widespread."
+  },
+  {
+    "w": "die Begeisterung",
+    "a": "die",
+    "e": "enthusiasm / passion",
+    "c": "Emotions & Mind",
+    "p": "(kein Plural)",
+    "ex": "Er arbeitet mit viel Begeisterung.",
+    "n": "'Jemanden begeistern' = to enthuse someone. 'Begeistert sein von' = to be enthusiastic about."
+  },
+  {
+    "w": "die Hausordnung",
+    "a": "die",
+    "e": "house rules",
+    "c": "Home & Living",
+    "p": "die Hausordnungen",
+    "ex": "Die Hausordnung hängt im Flur.",
+    "n": "Posted in every German apartment building. Covers noise curfew (Nachtruhe, 10pm–6am) and quiet Sundays."
+  },
+  {
+    "w": "die Einbürgerung",
+    "a": "die",
+    "e": "naturalisation",
+    "c": "Government & Society",
+    "p": "die Einbürgerungen",
+    "ex": "Die Einbürgerung dauert mehrere Monate.",
+    "n": "Since 2024 Germany allows dual citizenship. Requires ~5 years' residence, B1 German, and a citizenship test."
+  },
+  {
+    "w": "die Kreditkarte",
+    "a": "die",
+    "e": "credit card",
+    "c": "Shopping & Money",
+    "p": "die Kreditkarten",
+    "ex": "Akzeptieren Sie Kreditkarte?",
+    "n": "Less widely accepted than in the UK/US. The EC-Karte (Girocard) is more common in Germany."
+  },
+  {
+    "w": "die Struktur",
+    "a": "die",
+    "e": "structure / framework",
+    "c": "Abstract Concepts",
+    "p": "die Strukturen",
+    "ex": "Die Struktur des Projekts ist klar.",
+    "n": "'Strukturieren' = to structure. 'Gut strukturiert' = well-structured — a key concept in academic writing."
+  },
+  {
+    "w": "die Zusammenfassung",
+    "a": "die",
+    "e": "summary / overview",
+    "c": "Abstract Concepts",
+    "p": "die Zusammenfassungen",
+    "ex": "Hier ist eine kurze Zusammenfassung.",
+    "n": "'Zusammenfassen' = to summarise. 'Eine Zusammenfassung erstellen' = to write a summary."
+  },
+  {
+    "w": "die Diagnose",
+    "a": "die",
+    "e": "diagnosis",
+    "c": "Body & Health",
+    "p": "die Diagnosen",
+    "ex": "Die Diagnose kam heute.",
+    "n": "'Eine Diagnose stellen' = to make a diagnosis. 'Fehldiagnose' = misdiagnosis."
+  },
+  {
+    "w": "der Ärger",
+    "a": "der",
+    "e": "irritation / annoyance",
+    "c": "Emotions & Mind",
+    "p": "(kein Plural)",
+    "ex": "Ärger vermeiden ist besser als ihn zu lösen.",
+    "n": "'Sich ärgern über' = to be annoyed about. 'Ärger machen' = to cause trouble. Very common in spoken German."
+  },
+  {
+    "w": "die Kamera",
+    "a": "die",
+    "e": "camera",
+    "c": "Technology & Media",
+    "p": "die Kameras",
+    "ex": "Die Kamera hat eine hohe Auflösung.",
+    "n": "Frontkamera = front camera; Rückkamera = rear camera; Stereokamera = stereo camera (used in ADAS)."
+  },
+  {
+    "w": "die Katze",
+    "a": "die",
+    "e": "cat",
+    "c": "Nature & Weather",
+    "p": "die Katzen",
+    "ex": "Die Katze schläft die ganze Zeit.",
+    "n": "Most popular pet in Germany. 'Katzenhaar' = cat hair. Renting with a cat: check your contract first."
+  },
+  {
+    "w": "der Montag",
+    "a": "der",
+    "e": "Monday",
+    "c": "Time & Dates",
+    "p": "die Montage",
+    "ex": "Am Montag fängt die Woche an.",
+    "n": "All weekdays are masculine (der Montag … der Sonntag). 'am Montag' = on Monday."
+  },
+  {
+    "w": "die Woche",
+    "a": "die",
+    "e": "week",
+    "c": "Time & Dates",
+    "p": "die Wochen",
+    "ex": "Diese Woche habe ich viel zu tun.",
+    "n": "'pro Woche' = per week; 'unter der Woche' = on weekdays; 'das Wochenende' = weekend."
+  },
+  {
+    "w": "der Monat",
+    "a": "der",
+    "e": "month",
+    "c": "Time & Dates",
+    "p": "die Monate",
+    "ex": "Die Miete zahle ich jeden Monat.",
+    "n": "'im Monat' = per month. 'der Monatsanfang' / 'das Monatsende' = start / end of the month."
+  },
+  {
+    "w": "das Wochenende",
+    "a": "das",
+    "e": "weekend",
+    "c": "Time & Dates",
+    "p": "die Wochenenden",
+    "ex": "Am Wochenende schlafe ich lange.",
+    "n": "'am Wochenende' = at the weekend. 'Schönes Wochenende!' = Have a nice weekend!"
+  },
+  {
+    "w": "die Uhr",
+    "a": "die",
+    "e": "clock / watch / o'clock",
+    "c": "Time & Dates",
+    "p": "die Uhren",
+    "ex": "Es ist drei Uhr.",
+    "n": "Tells the hour: 'um 8 Uhr' = at 8 o'clock. 'Wie viel Uhr ist es?' = What time is it?"
+  },
+  {
+    "w": "der Tisch",
+    "a": "der",
+    "e": "table",
+    "c": "Home & Furniture",
+    "p": "die Tische",
+    "ex": "Das Essen steht auf dem Tisch.",
+    "n": "'den Tisch decken' = to set the table; 'der Schreibtisch' = desk."
+  },
+  {
+    "w": "der Stuhl",
+    "a": "der",
+    "e": "chair",
+    "c": "Home & Furniture",
+    "p": "die Stühle",
+    "ex": "Nimm dir einen Stuhl.",
+    "n": "Plural takes an umlaut: die Stühle. 'der Sessel' = armchair."
+  },
+  {
+    "w": "das Bett",
+    "a": "das",
+    "e": "bed",
+    "c": "Home & Furniture",
+    "p": "die Betten",
+    "ex": "Ich gehe um elf ins Bett.",
+    "n": "'ins Bett gehen' = to go to bed; 'das Bett machen' = to make the bed."
+  },
+  {
+    "w": "das Bad",
+    "a": "das",
+    "e": "bathroom / bath",
+    "c": "Home & Furniture",
+    "p": "die Bäder",
+    "ex": "Das Bad ist am Ende des Flurs.",
+    "n": "'das Badezimmer' = bathroom; 'baden' = to bathe/swim; 'ein Bad nehmen' = to take a bath."
+  },
+  {
+    "w": "der Weg",
+    "a": "der",
+    "e": "way / path / route",
+    "c": "Directions",
+    "p": "die Wege",
+    "ex": "Der Weg zum Bahnhof ist kurz.",
+    "n": "'auf dem Weg' = on the way; 'der Radweg' = cycle path; 'Viel Erfolg auf deinem Weg!'"
+  },
+  {
+    "w": "das Wetter",
+    "a": "das",
+    "e": "weather",
+    "c": "Nature & Weather",
+    "p": "(kein Plural)",
+    "ex": "Heute ist das Wetter schön.",
+    "n": "'Wie ist das Wetter?' = What's the weather like? 'der Wetterbericht' = weather forecast."
+  }
+]

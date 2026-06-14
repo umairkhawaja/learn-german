@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback, useMemo, useRef } from "react";
-import { DB } from "./data/db";
+import { loadDB } from "./data/db";
 import { storage } from "./storage";
 import { speak } from "./speak";
 import { buildBackup, parseBackup, shareOrDownloadBackup, copyBackup } from "./backup";
@@ -9,9 +9,12 @@ import * as drive from "./driveSync";
    DEUTSCH MEISTER
    ------------------------------------------------------------
    HOW TO EXTEND (no engine changes needed):
-   • Add words  → push objects into the relevant DB array.
+   • Add words  → edit public/data/{nouns,verbs,adj,gram,phrases}.json.
+                  No rebuild needed — the app fetches them at runtime.
                   Tag an entry with  lv:"A2"  to assign a level
                   (entries with no `lv` default to "A1").
+                  Existing mastery state is keyed by word and preserved
+                  automatically when new entries are added.
    • Add a level → just use lv:"A2" / "B1" on entries, then add
                   the code to LEVELS below. The level filter and
                   stats pick it up automatically.
@@ -338,14 +341,14 @@ function SpeakBtn({ text, color = "#3b82f6", size = 30 }) {
 }
 
 // ── Browse view ───────────────────────────────────────────────
-function BrowseView({ cat, progress, levelFilter }) {
+function BrowseView({ cat, progress, levelFilter, db }) {
   const [search, setSearch] = useState("");
   const [catFilter, setCatFilter] = useState("All");
   const [expanded, setExpanded] = useState(null);
 
   const pool = useMemo(
-    () => DB[cat.key].filter((x) => levelFilter === "All" || lvlOf(x) === levelFilter),
-    [cat, levelFilter]
+    () => db[cat.key].filter((x) => levelFilter === "All" || lvlOf(x) === levelFilter),
+    [cat, levelFilter, db]
   );
 
   const filtered = useMemo(() => {
@@ -448,7 +451,7 @@ function pickSession(pool, progress, catId, focusWeak) {
   return out;
 }
 
-function QuizView({ cat, progress, setProgress, levelFilter }) {
+function QuizView({ cat, progress, setProgress, levelFilter, db }) {
   const [mode, setMode] = useState(cat.modes[0].id);
   const [catFilter, setCatFilter] = useState("All");
   const [focusWeak, setFocusWeak] = useState(false);
@@ -465,12 +468,12 @@ function QuizView({ cat, progress, setProgress, levelFilter }) {
   const modeDef = cat.modes.find((m) => m.id === mode);
 
   const pool = useMemo(() => {
-    return DB[cat.key].filter((x) => {
+    return db[cat.key].filter((x) => {
       if (levelFilter !== "All" && lvlOf(x) !== levelFilter) return false;
       if (catFilter !== "All" && cat.catOf(x) !== catFilter) return false;
       return true;
     });
-  }, [cat, catFilter, levelFilter]);
+  }, [cat, catFilter, levelFilter, db]);
 
   const startSession = useCallback(() => {
     const items = pickSession(pool, progressRef.current, cat.id, focusWeak);
@@ -591,7 +594,7 @@ function QuizView({ cat, progress, setProgress, levelFilter }) {
         <select value={catFilter} onChange={(e) => setCatFilter(e.target.value)}
           style={{ background: "#161616", border: "1px solid #2a2a2a", borderRadius: 9, padding: "6px 10px", color: TXT, fontSize: 12 }}>
           <option value="All">All categories</option>
-          {subcatsOf(cat, DB[cat.key]).map((c) => <option key={c} value={c}>{c}</option>)}
+          {subcatsOf(cat, db[cat.key]).map((c) => <option key={c} value={c}>{c}</option>)}
         </select>
         <button onClick={() => setFocusWeak((v) => !v)} title="Prioritise words you struggle with"
           style={{ padding: "6px 10px", borderRadius: 9, border: `1px solid ${focusWeak ? cat.color : "#2a2a2a"}`, background: focusWeak ? cat.color + "22" : "#161616", color: focusWeak ? cat.color : MUTE, fontSize: 12, cursor: "pointer", fontWeight: 600 }}>
@@ -820,12 +823,12 @@ function ImportExportPanel({ progress, setProgress, driveStatus, setDriveStatus 
 }
 
 // ── Stats view ────────────────────────────────────────────────
-function StatsView({ progress, setProgress, levelFilter, driveStatus, setDriveStatus }) {
+function StatsView({ progress, setProgress, levelFilter, driveStatus, setDriveStatus, db }) {
   const [confirm, setConfirm] = useState(false);
 
   let mastered = 0, seen = 0, totalWords = 0, totCorrect = 0, totAns = 0;
   const perCat = CATEGORIES.map((cat) => {
-    const pool = DB[cat.key].filter((x) => levelFilter === "All" || lvlOf(x) === levelFilter);
+    const pool = db[cat.key].filter((x) => levelFilter === "All" || lvlOf(x) === levelFilter);
     let cSeen = 0, cMast = 0, cCorrect = 0, cTot = 0;
     pool.forEach((it) => {
       const p = progress[keyOf(cat.id, it)];
@@ -1175,14 +1178,14 @@ function GrammatikView() {
 
 // ── Main App ──────────────────────────────────────────────────
 const FONT = "ui-sans-serif, -apple-system, 'Segoe UI', Roboto, system-ui, sans-serif";
-const TOTAL = CATEGORIES.reduce((s, c) => s + DB[c.key].length, 0);
-
 export default function DeutschMeister() {
+  const [db, setDb] = useState(null);
   const [activeCat, setActiveCat] = useState(0);
   const [view, setView] = useState("quiz"); // quiz | browse | stats
   const [progress, setProgress] = useState({});
   const [levelFilter, setLevelFilter] = useState("All");
 
+  useEffect(() => { loadDB().then(setDb); }, []);
   useEffect(() => { loadProgress().then(setProgress); }, []);
   useEffect(() => { try { window.speechSynthesis.getVoices(); } catch { } }, []);
   // Preload Google Identity Services eagerly so the Drive "Connect" button
@@ -1231,8 +1234,10 @@ export default function DeutschMeister() {
   }, [driveStatus.connected]);
 
 
+  if (!db) return <div style={{ minHeight: "100vh", background: "#0a0a0a", color: "#4a4f59", fontFamily: FONT, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 14 }}>Loading…</div>;
+
   const cat = CATEGORIES[activeCat];
-  const allLevels = useMemo(() => levelsPresent(DB[cat.key]), [cat]);
+  const allLevels = useMemo(() => levelsPresent(db[cat.key]), [cat, db]);
 
   return (
     <div style={{ minHeight: "100vh", background: "#0a0a0a", color: TXT, fontFamily: FONT }}>
@@ -1250,7 +1255,7 @@ export default function DeutschMeister() {
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12, gap: 10, flexWrap: "wrap" }}>
             <div>
               <div style={{ fontSize: 18, fontWeight: 800, color: "#f1f5f9", letterSpacing: "-0.3px" }}>🇩🇪 Deutsch Meister</div>
-              <div style={{ fontSize: 11, color: "#4a4f59", marginTop: 1 }}>{TOTAL} words · A1</div>
+              <div style={{ fontSize: 11, color: "#4a4f59", marginTop: 1 }}>{CATEGORIES.reduce((s, c) => s + db[c.key].length, 0)} words · A1</div>
             </div>
             <div style={{ display: "flex", gap: 4, background: "#161616", borderRadius: 9, padding: 4 }}>
               {[["quiz", "📚 Quiz"], ["browse", "🔍 Browse"], ["grammatik", "📖 Grammatik"], ["stats", "📊 Stats"]].map(([m, label]) => (
@@ -1275,7 +1280,7 @@ export default function DeutschMeister() {
                     background: activeCat === i ? t.color : "#161616", color: activeCat === i ? "#fff" : "#6b7280"
                   }}>
                   {t.label}
-                  <div style={{ fontSize: 10, fontWeight: 400, opacity: 0.75 }}>{DB[t.key].length}</div>
+                  <div style={{ fontSize: 10, fontWeight: 400, opacity: 0.75 }}>{db[t.key].length}</div>
                 </button>
               ))}
             </div>
@@ -1298,10 +1303,10 @@ export default function DeutschMeister() {
 
       {/* Body — natural page scroll, no fixed heights */}
       <div style={{ maxWidth: 680, margin: "0 auto", padding: "18px 16px 80px", width: "100%" }}>
-        {view === "stats" && <StatsView progress={progress} setProgress={setProgress} levelFilter={levelFilter} driveStatus={driveStatus} setDriveStatus={setDriveStatus} />}
+        {view === "stats" && <StatsView progress={progress} setProgress={setProgress} levelFilter={levelFilter} driveStatus={driveStatus} setDriveStatus={setDriveStatus} db={db} />}
         {view === "grammatik" && <GrammatikView />}
-        {view === "browse" && <BrowseView key={cat.id} cat={cat} progress={progress} levelFilter={levelFilter} />}
-        {view === "quiz" && <QuizView key={cat.id} cat={cat} progress={progress} setProgress={setProgress} levelFilter={levelFilter} />}
+        {view === "browse" && <BrowseView key={cat.id} cat={cat} progress={progress} levelFilter={levelFilter} db={db} />}
+        {view === "quiz" && <QuizView key={cat.id} cat={cat} progress={progress} setProgress={setProgress} levelFilter={levelFilter} db={db} />}
       </div>
     </div>
   );
