@@ -37,7 +37,7 @@ async function loadProgress() {
   try {
     const r = await storage.get(STORE_KEY);
     if (r && r.value) return JSON.parse(r.value);
-  } catch {}
+  } catch { }
   try {
     const old = await storage.get(LEGACY_KEY);
     if (old && old.value) {
@@ -45,15 +45,15 @@ async function loadProgress() {
       await storage.set(STORE_KEY, JSON.stringify(data));
       return data;
     }
-  } catch {}
+  } catch { }
   return {};
 }
 async function saveProgress(p) {
-  try { await storage.set(STORE_KEY, JSON.stringify(p)); } catch {}
+  try { await storage.set(STORE_KEY, JSON.stringify(p)); } catch { }
 }
 async function clearProgress() {
-  try { await storage.delete(STORE_KEY); } catch {}
-  try { await storage.delete(LEGACY_KEY); } catch {}
+  try { await storage.delete(STORE_KEY); } catch { }
+  try { await storage.delete(LEGACY_KEY); } catch { }
 }
 
 // ── Helpers ──────────────────────────────────────────────────
@@ -580,8 +580,10 @@ function QuizView({ cat, progress, setProgress, levelFilter }) {
         <div style={{ display: "flex", gap: 3, background: "#161616", borderRadius: 9, padding: 3, flexWrap: "wrap" }}>
           {cat.modes.map((m) => (
             <button key={m.id} onClick={() => setMode(m.id)}
-              style={{ padding: "5px 11px", borderRadius: 6, border: "none", cursor: "pointer", fontSize: 12,
-                background: mode === m.id ? cat.color : "transparent", color: mode === m.id ? "#fff" : MUTE, fontWeight: mode === m.id ? 700 : 400 }}>
+              style={{
+                padding: "5px 11px", borderRadius: 6, border: "none", cursor: "pointer", fontSize: 12,
+                background: mode === m.id ? cat.color : "transparent", color: mode === m.id ? "#fff" : MUTE, fontWeight: mode === m.id ? 700 : 400
+              }}>
               {m.label}
             </button>
           ))}
@@ -637,8 +639,10 @@ function QuizView({ cat, progress, setProgress, levelFilter }) {
           }
           return (
             <button key={i} className="dm-opt" onClick={() => answer(opt)} disabled={chosen !== null}
-              style={{ background: bg, border: `1.5px solid ${border}`, borderRadius: 12, padding: "13px 14px", color, fontSize: 14.5, fontWeight: 600,
-                cursor: chosen ? "default" : "pointer", textAlign: "left", transition: "all .15s", lineHeight: 1.3, display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8 }}>
+              style={{
+                background: bg, border: `1.5px solid ${border}`, borderRadius: 12, padding: "13px 14px", color, fontSize: 14.5, fontWeight: 600,
+                cursor: chosen ? "default" : "pointer", textAlign: "left", transition: "all .15s", lineHeight: 1.3, display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8
+              }}>
               <span><span style={{ color: FAINT, fontWeight: 400, marginRight: 8, fontSize: 12 }}>{i + 1}</span>{opt}</span>
               {mark && <span style={{ fontWeight: 800 }}>{mark}</span>}
             </button>
@@ -668,7 +672,7 @@ function ImportExportPanel({ progress, setProgress, driveStatus, setDriveStatus 
 
   const count = Object.keys(progress).length;
   const [lastBackup, setLastBackup] = useState(null);
-  useEffect(() => { storage.get("dm-last-backup").then((r) => { if (r && r.value) setLastBackup(Number(r.value)); }).catch(() => {}); }, []);
+  useEffect(() => { storage.get("dm-last-backup").then((r) => { if (r && r.value) setLastBackup(Number(r.value)); }).catch(() => { }); }, []);
   const markBackup = () => { const t = Date.now(); setLastBackup(t); storage.set("dm-last-backup", String(t)); };
   const daysSince = lastBackup ? Math.floor((Date.now() - lastBackup) / 86400000) : null;
 
@@ -703,25 +707,31 @@ function ImportExportPanel({ progress, setProgress, driveStatus, setDriveStatus 
   };
 
   // ── Google Drive sync ──
-  const driveConnect = async () => {
+  // IMPORTANT: drive.connect() must be invoked synchronously, in the same
+  // tick as the click event — no `await` before it — or iOS Safari treats
+  // the resulting window.open() as not user-initiated and silently blocks
+  // the popup (no error, just nothing happens).
+  const driveConnect = () => {
+    const connectPromise = drive.connect({ interactive: true }); // ← fires popup synchronously, first
     setDriveStatus((s) => ({ ...s, busy: true, error: null }));
-    try {
-      const ok = await drive.connect({ interactive: true });
-      if (!ok) { setDriveStatus((s) => ({ ...s, busy: false })); return; }
-      const remote = await drive.pullProgress({ interactive: false });
-      let merged = progress;
-      if (remote) {
-        merged = drive.mergeProgress(progress, remote);
-        setProgress(merged);
-        await saveProgress(merged);
-      }
-      await drive.pushProgress(merged, { interactive: false });
-      setDriveStatus({ connected: true, busy: false, lastSync: Date.now(), error: null });
-      setMsg({ ok: true, t: "Connected to Google Drive and synced." });
-    } catch (e) {
-      setDriveStatus((s) => ({ ...s, busy: false, error: e.message }));
-      setMsg({ ok: false, t: e.message });
-    }
+    connectPromise
+      .then(async (ok) => {
+        if (!ok) { setDriveStatus((s) => ({ ...s, busy: false })); return; }
+        const remote = await drive.pullProgress({ interactive: false });
+        let merged = progress;
+        if (remote) {
+          merged = drive.mergeProgress(progress, remote);
+          setProgress(merged);
+          await saveProgress(merged);
+        }
+        await drive.pushProgress(merged, { interactive: false });
+        setDriveStatus({ connected: true, busy: false, lastSync: Date.now(), error: null });
+        setMsg({ ok: true, t: "Connected to Google Drive and synced." });
+      })
+      .catch((e) => {
+        setDriveStatus((s) => ({ ...s, busy: false, error: e.message }));
+        setMsg({ ok: false, t: e.message });
+      });
   };
 
   const driveSyncNow = async () => {
@@ -881,159 +891,215 @@ function StatsView({ progress, setProgress, levelFilter, driveStatus, setDriveSt
 // Block types: {p}, {ex:[[de,en]...]}, {table:{head,rows}}, {tip}
 const GRAMMAR_TOPICS = [
   // ===== BASICS =====
-  { id: "pronouns", sec: "Basics", title: "Pronouns · sein, haben, werden", summary: "The building blocks plus the three essential irregular verbs.", blocks: [
-    { p: "Personal pronouns (subject): ich, du, er/sie/es, wir, ihr, sie/Sie. 'Sie' (formal you) is always capitalised." },
-    { table: { head: ["", "sein (be)", "haben (have)", "werden (become)"], rows: [["ich", "bin", "habe", "werde"], ["du", "bist", "hast", "wirst"], ["er/sie/es", "ist", "hat", "wird"], ["wir", "sind", "haben", "werden"], ["ihr", "seid", "habt", "werdet"], ["sie/Sie", "sind", "haben", "werden"]] } },
-    { ex: [["Ich bin müde.", "I am tired."], ["Hast du Zeit?", "Do you have time?"], ["Es wird kalt.", "It's getting cold."]] },
-  ]},
-  { id: "present", sec: "Basics", title: "Present tense", summary: "Regular -en endings plus the vowel-changing irregular stems.", blocks: [
-    { p: "Drop -en from the infinitive and add endings to the stem (lernen → lern-):" },
-    { table: { head: ["", "lernen", "wohnen", "arbeiten"], rows: [["ich", "lerne", "wohne", "arbeite"], ["du", "lernst", "wohnst", "arbeitest"], ["er/sie/es", "lernt", "wohnt", "arbeitet"], ["wir", "lernen", "wohnen", "arbeiten"], ["ihr", "lernt", "wohnt", "arbeitet"], ["sie/Sie", "lernen", "wohnen", "arbeiten"]] } },
-    { tip: "Stems ending in -t/-d add an extra -e- in du/er/ihr: du arbeitest, er findet." },
-    { p: "Some common verbs change their stem vowel in the du / er-sie-es forms:" },
-    { ex: [["lesen → du liest, er liest", "to read"], ["sprechen → du sprichst, er spricht", "to speak"], ["fahren → du fährst, er fährt", "to drive"], ["essen → du isst, er isst", "to eat"]] },
-  ]},
-  { id: "register", sec: "Basics", title: "du, ihr or Sie?", summary: "Choosing the right 'you' — informal vs formal.", blocks: [
-    { p: "du = one person you know well (friends, family, children). ihr = several people you know well. Sie = formal, for one or several people (strangers, officials, shops). Always capitalise Sie." },
-    { ex: [["Wie heißt du?", "informal, one person"], ["Wie heißt ihr?", "informal, a group"], ["Wie heißen Sie?", "formal"]] },
-    { tip: "In Bavaria you'll also hear 'Servus' and 'Grüß Gott' — but stick to Sie with people you don't know." },
-  ]},
-  { id: "wordorder", sec: "Basics", title: "Word order (verb second)", summary: "The conjugated verb loves position 2.", blocks: [
-    { p: "In a main clause the conjugated verb is always the second element. If something other than the subject comes first, the subject moves to just after the verb." },
-    { ex: [["Ich gehe heute ins Kino.", "I'm going to the cinema today."], ["Heute gehe ich ins Kino.", "Today I'm going to the cinema."]] },
-    { tip: "Order of extra info: Time – Manner – Place (TeKaMoLo). 'Ich fahre morgen mit dem Bus nach München.'" },
-  ]},
+  {
+    id: "pronouns", sec: "Basics", title: "Pronouns · sein, haben, werden", summary: "The building blocks plus the three essential irregular verbs.", blocks: [
+      { p: "Personal pronouns (subject): ich, du, er/sie/es, wir, ihr, sie/Sie. 'Sie' (formal you) is always capitalised." },
+      { table: { head: ["", "sein (be)", "haben (have)", "werden (become)"], rows: [["ich", "bin", "habe", "werde"], ["du", "bist", "hast", "wirst"], ["er/sie/es", "ist", "hat", "wird"], ["wir", "sind", "haben", "werden"], ["ihr", "seid", "habt", "werdet"], ["sie/Sie", "sind", "haben", "werden"]] } },
+      { ex: [["Ich bin müde.", "I am tired."], ["Hast du Zeit?", "Do you have time?"], ["Es wird kalt.", "It's getting cold."]] },
+    ]
+  },
+  {
+    id: "present", sec: "Basics", title: "Present tense", summary: "Regular -en endings plus the vowel-changing irregular stems.", blocks: [
+      { p: "Drop -en from the infinitive and add endings to the stem (lernen → lern-):" },
+      { table: { head: ["", "lernen", "wohnen", "arbeiten"], rows: [["ich", "lerne", "wohne", "arbeite"], ["du", "lernst", "wohnst", "arbeitest"], ["er/sie/es", "lernt", "wohnt", "arbeitet"], ["wir", "lernen", "wohnen", "arbeiten"], ["ihr", "lernt", "wohnt", "arbeitet"], ["sie/Sie", "lernen", "wohnen", "arbeiten"]] } },
+      { tip: "Stems ending in -t/-d add an extra -e- in du/er/ihr: du arbeitest, er findet." },
+      { p: "Some common verbs change their stem vowel in the du / er-sie-es forms:" },
+      { ex: [["lesen → du liest, er liest", "to read"], ["sprechen → du sprichst, er spricht", "to speak"], ["fahren → du fährst, er fährt", "to drive"], ["essen → du isst, er isst", "to eat"]] },
+    ]
+  },
+  {
+    id: "register", sec: "Basics", title: "du, ihr or Sie?", summary: "Choosing the right 'you' — informal vs formal.", blocks: [
+      { p: "du = one person you know well (friends, family, children). ihr = several people you know well. Sie = formal, for one or several people (strangers, officials, shops). Always capitalise Sie." },
+      { ex: [["Wie heißt du?", "informal, one person"], ["Wie heißt ihr?", "informal, a group"], ["Wie heißen Sie?", "formal"]] },
+      { tip: "In Bavaria you'll also hear 'Servus' and 'Grüß Gott' — but stick to Sie with people you don't know." },
+    ]
+  },
+  {
+    id: "wordorder", sec: "Basics", title: "Word order (verb second)", summary: "The conjugated verb loves position 2.", blocks: [
+      { p: "In a main clause the conjugated verb is always the second element. If something other than the subject comes first, the subject moves to just after the verb." },
+      { ex: [["Ich gehe heute ins Kino.", "I'm going to the cinema today."], ["Heute gehe ich ins Kino.", "Today I'm going to the cinema."]] },
+      { tip: "Order of extra info: Time – Manner – Place (TeKaMoLo). 'Ich fahre morgen mit dem Bus nach München.'" },
+    ]
+  },
 
   // ===== QUESTIONS & NEGATION =====
-  { id: "questions", sec: "Questions & Negation", title: "Asking questions", summary: "Yes/no inversion, W-questions, and which/how-many.", blocks: [
-    { p: "Yes/no question: put the verb first. 'Kommst du?' 'Hast du Zeit?'" },
-    { table: { head: ["W-word", "Meaning"], rows: [["Wer?", "Who?"], ["Was?", "What?"], ["Wo? / Wohin? / Woher?", "Where? / Where to? / From where?"], ["Wann?", "When?"], ["Warum?", "Why?"], ["Wie?", "How?"], ["Wie viel? / Wie viele?", "How much? / How many?"], ["Welcher/Welche/Welches?", "Which?"]] } },
-    { ex: [["Woher kommst du?", "Where are you from?"], ["Welches Buch liest du?", "Which book are you reading?"], ["Was für ein Auto ist das?", "What kind of car is that?"]] },
-  ]},
-  { id: "negation", sec: "Questions & Negation", title: "Negation: nicht vs kein", summary: "Two ways to say no — pick by what you're negating.", blocks: [
-    { p: "nicht negates a verb, adjective or whole sentence. kein negates a noun (it replaces ein and 'some')." },
-    { table: { head: ["kein", "masc", "fem", "neut", "Plural"], rows: [["Nominativ", "kein", "keine", "kein", "keine"], ["Akkusativ", "keinen", "keine", "kein", "keine"], ["Dativ", "keinem", "keiner", "keinem", "keinen"]] } },
-    { ex: [["Ich komme nicht.", "I'm not coming."], ["Das ist nicht gut.", "That's not good."], ["Ich habe kein Geld.", "I have no money."], ["Sie hat keine Zeit.", "She has no time."]] },
-  ]},
+  {
+    id: "questions", sec: "Questions & Negation", title: "Asking questions", summary: "Yes/no inversion, W-questions, and which/how-many.", blocks: [
+      { p: "Yes/no question: put the verb first. 'Kommst du?' 'Hast du Zeit?'" },
+      { table: { head: ["W-word", "Meaning"], rows: [["Wer?", "Who?"], ["Was?", "What?"], ["Wo? / Wohin? / Woher?", "Where? / Where to? / From where?"], ["Wann?", "When?"], ["Warum?", "Why?"], ["Wie?", "How?"], ["Wie viel? / Wie viele?", "How much? / How many?"], ["Welcher/Welche/Welches?", "Which?"]] } },
+      { ex: [["Woher kommst du?", "Where are you from?"], ["Welches Buch liest du?", "Which book are you reading?"], ["Was für ein Auto ist das?", "What kind of car is that?"]] },
+    ]
+  },
+  {
+    id: "negation", sec: "Questions & Negation", title: "Negation: nicht vs kein", summary: "Two ways to say no — pick by what you're negating.", blocks: [
+      { p: "nicht negates a verb, adjective or whole sentence. kein negates a noun (it replaces ein and 'some')." },
+      { table: { head: ["kein", "masc", "fem", "neut", "Plural"], rows: [["Nominativ", "kein", "keine", "kein", "keine"], ["Akkusativ", "keinen", "keine", "kein", "keine"], ["Dativ", "keinem", "keiner", "keinem", "keinen"]] } },
+      { ex: [["Ich komme nicht.", "I'm not coming."], ["Das ist nicht gut.", "That's not good."], ["Ich habe kein Geld.", "I have no money."], ["Sie hat keine Zeit.", "She has no time."]] },
+    ]
+  },
 
   // ===== NOUNS & CASES =====
-  { id: "articles", sec: "Nouns & Cases", title: "Articles & gender", summary: "der/die/das, ein/eine, kein — plus suffix shortcuts.", blocks: [
-    { p: "Definite (the): der (masc), die (fem), das (neut), die (plural). Indefinite (a): ein (masc/neut), eine (fem). Negative: kein/keine." },
-    { p: "Gender is mostly memorised, but endings hint strongly:" },
-    { ex: [["-ung, -heit, -keit, -schaft, -ion, -tät", "→ die"], ["-chen, -lein", "→ das"], ["-er (agent), -ling, -ismus", "→ der"], ["days, months, seasons", "→ der (der Montag, der Mai, der Sommer)"]] },
-  ]},
-  { id: "plurals", sec: "Nouns & Cases", title: "Plurals", summary: "No single rule — but common families.", blocks: [
-    { p: "Plurals are learned per word, but patterns help: -e (der Tisch → die Tische), -er + umlaut (das Buch → die Bücher), -(e)n (die Frau → die Frauen), -s (das Auto → die Autos), or no change (der Lehrer → die Lehrer)." },
-    { tip: "All plurals take die in the nominative, and add -n in the dative plural: mit den Kindern." },
-  ]},
-  { id: "cases", sec: "Nouns & Cases", title: "The four cases", summary: "Nominativ, Akkusativ, Dativ, Genitiv — with the full article tables.", blocks: [
-    { p: "Case shows a noun's job. The article changes; the noun itself usually doesn't (except dative plural +n and genitive +(e)s)." },
-    { table: { head: ["Definit", "masc", "fem", "neut", "Plural"], rows: [["Nominativ", "der", "die", "das", "die"], ["Akkusativ", "den", "die", "das", "die"], ["Dativ", "dem", "der", "dem", "den"], ["Genitiv", "des", "der", "des", "der"]] } },
-    { table: { head: ["Indefinit", "masc", "fem", "neut"], rows: [["Nominativ", "ein", "eine", "ein"], ["Akkusativ", "einen", "eine", "ein"], ["Dativ", "einem", "einer", "einem"], ["Genitiv", "eines", "einer", "eines"]] } },
-    { tip: "Only the masculine changes in the accusative (der → den, ein → einen). Open any noun card to see its full declension." },
-  ]},
-  { id: "akkusativ", sec: "Nouns & Cases", title: "Accusative (direct object)", summary: "The thing being acted on. Only masculine changes.", blocks: [
-    { p: "Used for the direct object, and after these prepositions (always accusative): durch, für, gegen, ohne, um." },
-    { ex: [["Ich sehe den Mann.", "I see the man."], ["Ich habe einen Bruder.", "I have a brother."], ["Das Geschenk ist für dich.", "The gift is for you."], ["Wir gehen durch den Park.", "We walk through the park."]] },
-  ]},
-  { id: "dativ", sec: "Nouns & Cases", title: "Dative (indirect object)", summary: "The recipient — and a fixed set of prepositions.", blocks: [
-    { p: "Definite: dem (masc/neut), der (fem), den + noun-n (plural). Always dative after: mit, bei, von, zu, aus, nach, seit, gegenüber." },
-    { ex: [["Ich gebe dem Kind das Buch.", "I give the child the book."], ["Ich fahre mit dem Bus.", "I travel by bus."], ["Ich komme aus der Türkei.", "I come from Turkey."]] },
-  ]},
-  { id: "procases", sec: "Nouns & Cases", title: "Pronouns in accusative & dative", summary: "me, you, him … and to me, to you, to him.", blocks: [
-    { table: { head: ["Nominativ", "Akkusativ", "Dativ"], rows: [["ich", "mich", "mir"], ["du", "dich", "dir"], ["er", "ihn", "ihm"], ["sie", "sie", "ihr"], ["es", "es", "ihm"], ["wir", "uns", "uns"], ["ihr", "euch", "euch"], ["sie/Sie", "sie/Sie", "ihnen/Ihnen"]] } },
-    { ex: [["Ich sehe dich.", "I see you. (accusative)"], ["Kannst du mir helfen?", "Can you help me? (dative)"], ["Ich gebe ihm das Buch.", "I give him the book."]] },
-  ]},
-  { id: "possessives", sec: "Nouns & Cases", title: "Possessives", summary: "mein, dein, sein … take ein-endings.", blocks: [
-    { p: "mein, dein, sein, ihr, unser, euer, ihr/Ihr. They follow the ein-pattern for gender and case." },
-    { ex: [["Das ist mein Buch.", "That is my book."], ["Wo ist deine Tasche?", "Where is your bag?"], ["Ich sehe seinen Bruder.", "I see his brother. (acc. masc → -en)"]] },
-  ]},
-  { id: "esgibt", sec: "Nouns & Cases", title: "es gibt (there is / are)", summary: "One handy phrase, always with the accusative.", blocks: [
-    { p: "'es gibt' = there is / there are. It never changes form and is always followed by the accusative." },
-    { ex: [["Es gibt einen Supermarkt.", "There is a supermarket."], ["Gibt es hier eine Toilette?", "Is there a toilet here?"], ["Es gibt keine Probleme.", "There are no problems."]] },
-  ]},
+  {
+    id: "articles", sec: "Nouns & Cases", title: "Articles & gender", summary: "der/die/das, ein/eine, kein — plus suffix shortcuts.", blocks: [
+      { p: "Definite (the): der (masc), die (fem), das (neut), die (plural). Indefinite (a): ein (masc/neut), eine (fem). Negative: kein/keine." },
+      { p: "Gender is mostly memorised, but endings hint strongly:" },
+      { ex: [["-ung, -heit, -keit, -schaft, -ion, -tät", "→ die"], ["-chen, -lein", "→ das"], ["-er (agent), -ling, -ismus", "→ der"], ["days, months, seasons", "→ der (der Montag, der Mai, der Sommer)"]] },
+    ]
+  },
+  {
+    id: "plurals", sec: "Nouns & Cases", title: "Plurals", summary: "No single rule — but common families.", blocks: [
+      { p: "Plurals are learned per word, but patterns help: -e (der Tisch → die Tische), -er + umlaut (das Buch → die Bücher), -(e)n (die Frau → die Frauen), -s (das Auto → die Autos), or no change (der Lehrer → die Lehrer)." },
+      { tip: "All plurals take die in the nominative, and add -n in the dative plural: mit den Kindern." },
+    ]
+  },
+  {
+    id: "cases", sec: "Nouns & Cases", title: "The four cases", summary: "Nominativ, Akkusativ, Dativ, Genitiv — with the full article tables.", blocks: [
+      { p: "Case shows a noun's job. The article changes; the noun itself usually doesn't (except dative plural +n and genitive +(e)s)." },
+      { table: { head: ["Definit", "masc", "fem", "neut", "Plural"], rows: [["Nominativ", "der", "die", "das", "die"], ["Akkusativ", "den", "die", "das", "die"], ["Dativ", "dem", "der", "dem", "den"], ["Genitiv", "des", "der", "des", "der"]] } },
+      { table: { head: ["Indefinit", "masc", "fem", "neut"], rows: [["Nominativ", "ein", "eine", "ein"], ["Akkusativ", "einen", "eine", "ein"], ["Dativ", "einem", "einer", "einem"], ["Genitiv", "eines", "einer", "eines"]] } },
+      { tip: "Only the masculine changes in the accusative (der → den, ein → einen). Open any noun card to see its full declension." },
+    ]
+  },
+  {
+    id: "akkusativ", sec: "Nouns & Cases", title: "Accusative (direct object)", summary: "The thing being acted on. Only masculine changes.", blocks: [
+      { p: "Used for the direct object, and after these prepositions (always accusative): durch, für, gegen, ohne, um." },
+      { ex: [["Ich sehe den Mann.", "I see the man."], ["Ich habe einen Bruder.", "I have a brother."], ["Das Geschenk ist für dich.", "The gift is for you."], ["Wir gehen durch den Park.", "We walk through the park."]] },
+    ]
+  },
+  {
+    id: "dativ", sec: "Nouns & Cases", title: "Dative (indirect object)", summary: "The recipient — and a fixed set of prepositions.", blocks: [
+      { p: "Definite: dem (masc/neut), der (fem), den + noun-n (plural). Always dative after: mit, bei, von, zu, aus, nach, seit, gegenüber." },
+      { ex: [["Ich gebe dem Kind das Buch.", "I give the child the book."], ["Ich fahre mit dem Bus.", "I travel by bus."], ["Ich komme aus der Türkei.", "I come from Turkey."]] },
+    ]
+  },
+  {
+    id: "procases", sec: "Nouns & Cases", title: "Pronouns in accusative & dative", summary: "me, you, him … and to me, to you, to him.", blocks: [
+      { table: { head: ["Nominativ", "Akkusativ", "Dativ"], rows: [["ich", "mich", "mir"], ["du", "dich", "dir"], ["er", "ihn", "ihm"], ["sie", "sie", "ihr"], ["es", "es", "ihm"], ["wir", "uns", "uns"], ["ihr", "euch", "euch"], ["sie/Sie", "sie/Sie", "ihnen/Ihnen"]] } },
+      { ex: [["Ich sehe dich.", "I see you. (accusative)"], ["Kannst du mir helfen?", "Can you help me? (dative)"], ["Ich gebe ihm das Buch.", "I give him the book."]] },
+    ]
+  },
+  {
+    id: "possessives", sec: "Nouns & Cases", title: "Possessives", summary: "mein, dein, sein … take ein-endings.", blocks: [
+      { p: "mein, dein, sein, ihr, unser, euer, ihr/Ihr. They follow the ein-pattern for gender and case." },
+      { ex: [["Das ist mein Buch.", "That is my book."], ["Wo ist deine Tasche?", "Where is your bag?"], ["Ich sehe seinen Bruder.", "I see his brother. (acc. masc → -en)"]] },
+    ]
+  },
+  {
+    id: "esgibt", sec: "Nouns & Cases", title: "es gibt (there is / are)", summary: "One handy phrase, always with the accusative.", blocks: [
+      { p: "'es gibt' = there is / there are. It never changes form and is always followed by the accusative." },
+      { ex: [["Es gibt einen Supermarkt.", "There is a supermarket."], ["Gibt es hier eine Toilette?", "Is there a toilet here?"], ["Es gibt keine Probleme.", "There are no problems."]] },
+    ]
+  },
 
   // ===== VERBS =====
-  { id: "modals", sec: "Verbs", title: "Modal verbs", summary: "können, müssen, wollen … verb 2nd, infinitive last.", blocks: [
-    { p: "The modal sits in position 2; the main verb goes to the end as an infinitive." },
-    { table: { head: ["", "können", "müssen", "wollen", "dürfen"], rows: [["ich", "kann", "muss", "will", "darf"], ["du", "kannst", "musst", "willst", "darfst"], ["er/sie/es", "kann", "muss", "will", "darf"], ["wir", "können", "müssen", "wollen", "dürfen"]] } },
-    { ex: [["Ich kann Deutsch sprechen.", "I can speak German."], ["Du musst jetzt gehen.", "You have to go now."], ["Darf ich hier rauchen?", "May I smoke here?"]] },
-  ]},
-  { id: "moechten", sec: "Verbs", title: "Likes & wishes: mögen, möchten, gern", summary: "How to say what you like and would like.", blocks: [
-    { p: "mögen = to like (something). möchten = would like (polite wish). gern + verb = to like doing something." },
-    { ex: [["Ich mag Kaffee.", "I like coffee."], ["Ich möchte einen Tee, bitte.", "I'd like a tea, please."], ["Ich spiele gern Fußball.", "I like playing football."]] },
-    { tip: "Preference ladder: gern → lieber → am liebsten. 'Ich trinke lieber Tee.' = I prefer tea." },
-  ]},
-  { id: "imperative", sec: "Verbs", title: "Imperative (commands)", summary: "Telling someone to do something.", blocks: [
-    { table: { head: ["Form", "How", "Example"], rows: [["du", "stem, no ending", "Komm! / Geh! / Nimm!"], ["ihr", "stem + -t", "Kommt! / Geht!"], ["Sie", "infinitive + Sie", "Kommen Sie! / Gehen Sie!"]] } },
-    { ex: [["Warte bitte hier!", "Wait here please! (du)"], ["Steh bitte auf!", "Get up please! (separable)"], ["Sprechen Sie langsamer, bitte.", "Speak more slowly, please. (Sie)"]] },
-    { tip: "e→i stem-changers keep the change (nehmen → Nimm!), but a→ä verbs drop the umlaut (fahren → Fahr!)." },
-  ]},
-  { id: "separable", sec: "Verbs", title: "Separable verbs", summary: "The prefix flies to the end of the clause.", blocks: [
-    { p: "Verbs like aufstehen, einkaufen, anrufen split in the present tense — the prefix moves to the end." },
-    { ex: [["Ich stehe um 7 auf.", "I get up at 7."], ["Er kauft jeden Tag ein.", "He shops every day."], ["Ich rufe dich später an.", "I'll call you later."]] },
-    { tip: "In the Perfekt the prefix rejoins around -ge-: aufgestanden, eingekauft, angerufen." },
-  ]},
-  { id: "perfekt", sec: "Verbs", title: "Perfekt tense", summary: "The everyday past: haben/sein + past participle.", blocks: [
-    { p: "haben or sein (position 2) + past participle (at the end). Participles: regular ge-…-t (gemacht), irregular ge-…-en (gegessen, getrunken)." },
-    { p: "Use sein for movement and change of state (gehen, fahren, kommen, bleiben, aufstehen); haben for everything else." },
-    { ex: [["Ich habe Pizza gegessen.", "I ate pizza."], ["Ich bin nach Hause gegangen.", "I went home."], ["Sie hat das Buch gelesen.", "She read the book."]] },
-  ]},
+  {
+    id: "modals", sec: "Verbs", title: "Modal verbs", summary: "können, müssen, wollen … verb 2nd, infinitive last.", blocks: [
+      { p: "The modal sits in position 2; the main verb goes to the end as an infinitive." },
+      { table: { head: ["", "können", "müssen", "wollen", "dürfen"], rows: [["ich", "kann", "muss", "will", "darf"], ["du", "kannst", "musst", "willst", "darfst"], ["er/sie/es", "kann", "muss", "will", "darf"], ["wir", "können", "müssen", "wollen", "dürfen"]] } },
+      { ex: [["Ich kann Deutsch sprechen.", "I can speak German."], ["Du musst jetzt gehen.", "You have to go now."], ["Darf ich hier rauchen?", "May I smoke here?"]] },
+    ]
+  },
+  {
+    id: "moechten", sec: "Verbs", title: "Likes & wishes: mögen, möchten, gern", summary: "How to say what you like and would like.", blocks: [
+      { p: "mögen = to like (something). möchten = would like (polite wish). gern + verb = to like doing something." },
+      { ex: [["Ich mag Kaffee.", "I like coffee."], ["Ich möchte einen Tee, bitte.", "I'd like a tea, please."], ["Ich spiele gern Fußball.", "I like playing football."]] },
+      { tip: "Preference ladder: gern → lieber → am liebsten. 'Ich trinke lieber Tee.' = I prefer tea." },
+    ]
+  },
+  {
+    id: "imperative", sec: "Verbs", title: "Imperative (commands)", summary: "Telling someone to do something.", blocks: [
+      { table: { head: ["Form", "How", "Example"], rows: [["du", "stem, no ending", "Komm! / Geh! / Nimm!"], ["ihr", "stem + -t", "Kommt! / Geht!"], ["Sie", "infinitive + Sie", "Kommen Sie! / Gehen Sie!"]] } },
+      { ex: [["Warte bitte hier!", "Wait here please! (du)"], ["Steh bitte auf!", "Get up please! (separable)"], ["Sprechen Sie langsamer, bitte.", "Speak more slowly, please. (Sie)"]] },
+      { tip: "e→i stem-changers keep the change (nehmen → Nimm!), but a→ä verbs drop the umlaut (fahren → Fahr!)." },
+    ]
+  },
+  {
+    id: "separable", sec: "Verbs", title: "Separable verbs", summary: "The prefix flies to the end of the clause.", blocks: [
+      { p: "Verbs like aufstehen, einkaufen, anrufen split in the present tense — the prefix moves to the end." },
+      { ex: [["Ich stehe um 7 auf.", "I get up at 7."], ["Er kauft jeden Tag ein.", "He shops every day."], ["Ich rufe dich später an.", "I'll call you later."]] },
+      { tip: "In the Perfekt the prefix rejoins around -ge-: aufgestanden, eingekauft, angerufen." },
+    ]
+  },
+  {
+    id: "perfekt", sec: "Verbs", title: "Perfekt tense", summary: "The everyday past: haben/sein + past participle.", blocks: [
+      { p: "haben or sein (position 2) + past participle (at the end). Participles: regular ge-…-t (gemacht), irregular ge-…-en (gegessen, getrunken)." },
+      { p: "Use sein for movement and change of state (gehen, fahren, kommen, bleiben, aufstehen); haben for everything else." },
+      { ex: [["Ich habe Pizza gegessen.", "I ate pizza."], ["Ich bin nach Hause gegangen.", "I went home."], ["Sie hat das Buch gelesen.", "She read the book."]] },
+    ]
+  },
 
   // ===== ADJECTIVES & ADVERBS =====
-  { id: "adjendings", sec: "Adjectives & Adverbs", title: "Adjective endings", summary: "Endings shift after der-words vs ein-words.", blocks: [
-    { p: "An adjective before a noun takes an ending. After a definite article (der/die/das) the endings are 'weak':" },
-    { table: { head: ["nach der", "masc", "fem", "neut", "Plural"], rows: [["Nominativ", "-e", "-e", "-e", "-en"], ["Akkusativ", "-en", "-e", "-e", "-en"], ["Dativ", "-en", "-en", "-en", "-en"]] } },
-    { p: "After an indefinite article (ein/kein/mein) the adjective carries more info ('mixed'):" },
-    { table: { head: ["nach ein", "masc", "fem", "neut"], rows: [["Nominativ", "-er", "-e", "-es"], ["Akkusativ", "-en", "-e", "-es"], ["Dativ", "-en", "-en", "-en"]] } },
-    { ex: [["der alte Mann / ein alter Mann", "the / an old man"], ["das kleine Kind / ein kleines Kind", "the / a small child"], ["Ich sehe den alten Mann.", "I see the old man. (acc → -en)"]] },
-    { tip: "With no article the adjective takes the der-endings itself: kalter Kaffee, frische Milch." },
-  ]},
-  { id: "comparison", sec: "Adjectives & Adverbs", title: "Comparison (bigger, biggest)", summary: "Comparative -er and superlative am …sten.", blocks: [
-    { p: "Comparative: adjective + -er (often + umlaut). Superlative: am + adjective + -sten. 'als' = than; 'so … wie' = as … as." },
-    { table: { head: ["Adjektiv", "Komparativ", "Superlativ"], rows: [["schnell", "schneller", "am schnellsten"], ["alt", "älter", "am ältesten"], ["gut", "besser", "am besten"], ["viel", "mehr", "am meisten"], ["gern", "lieber", "am liebsten"], ["hoch", "höher", "am höchsten"]] } },
-    { ex: [["Anna ist schneller als Tom.", "Anna is faster than Tom."], ["München ist so schön wie Wien.", "Munich is as nice as Vienna."]] },
-  ]},
-  { id: "adverbs", sec: "Adjectives & Adverbs", title: "Adverbs of frequency & time", summary: "How often, and when.", blocks: [
-    { p: "Frequency: immer (always), oft (often), manchmal (sometimes), selten (rarely), nie (never). They usually come right after the verb." },
-    { ex: [["Ich trinke immer Kaffee.", "I always drink coffee."], ["Er kommt selten zu spät.", "He's rarely late."]] },
-    { p: "Time words: heute (today), morgen (tomorrow), gestern (yesterday), jetzt (now), bald (soon), früh/spät (early/late)." },
-  ]},
+  {
+    id: "adjendings", sec: "Adjectives & Adverbs", title: "Adjective endings", summary: "Endings shift after der-words vs ein-words.", blocks: [
+      { p: "An adjective before a noun takes an ending. After a definite article (der/die/das) the endings are 'weak':" },
+      { table: { head: ["nach der", "masc", "fem", "neut", "Plural"], rows: [["Nominativ", "-e", "-e", "-e", "-en"], ["Akkusativ", "-en", "-e", "-e", "-en"], ["Dativ", "-en", "-en", "-en", "-en"]] } },
+      { p: "After an indefinite article (ein/kein/mein) the adjective carries more info ('mixed'):" },
+      { table: { head: ["nach ein", "masc", "fem", "neut"], rows: [["Nominativ", "-er", "-e", "-es"], ["Akkusativ", "-en", "-e", "-es"], ["Dativ", "-en", "-en", "-en"]] } },
+      { ex: [["der alte Mann / ein alter Mann", "the / an old man"], ["das kleine Kind / ein kleines Kind", "the / a small child"], ["Ich sehe den alten Mann.", "I see the old man. (acc → -en)"]] },
+      { tip: "With no article the adjective takes the der-endings itself: kalter Kaffee, frische Milch." },
+    ]
+  },
+  {
+    id: "comparison", sec: "Adjectives & Adverbs", title: "Comparison (bigger, biggest)", summary: "Comparative -er and superlative am …sten.", blocks: [
+      { p: "Comparative: adjective + -er (often + umlaut). Superlative: am + adjective + -sten. 'als' = than; 'so … wie' = as … as." },
+      { table: { head: ["Adjektiv", "Komparativ", "Superlativ"], rows: [["schnell", "schneller", "am schnellsten"], ["alt", "älter", "am ältesten"], ["gut", "besser", "am besten"], ["viel", "mehr", "am meisten"], ["gern", "lieber", "am liebsten"], ["hoch", "höher", "am höchsten"]] } },
+      { ex: [["Anna ist schneller als Tom.", "Anna is faster than Tom."], ["München ist so schön wie Wien.", "Munich is as nice as Vienna."]] },
+    ]
+  },
+  {
+    id: "adverbs", sec: "Adjectives & Adverbs", title: "Adverbs of frequency & time", summary: "How often, and when.", blocks: [
+      { p: "Frequency: immer (always), oft (often), manchmal (sometimes), selten (rarely), nie (never). They usually come right after the verb." },
+      { ex: [["Ich trinke immer Kaffee.", "I always drink coffee."], ["Er kommt selten zu spät.", "He's rarely late."]] },
+      { p: "Time words: heute (today), morgen (tomorrow), gestern (yesterday), jetzt (now), bald (soon), früh/spät (early/late)." },
+    ]
+  },
 
   // ===== SENTENCES & PREPOSITIONS =====
-  { id: "conjunctions", sec: "Sentences & Prepositions", title: "Conjunctions", summary: "Joining clauses — and what they do to word order.", blocks: [
-    { p: "Coordinating conjunctions (und, oder, aber, denn, sondern) sit between two main clauses and do NOT change word order — the verb stays second." },
-    { ex: [["Ich bleibe zu Hause, denn ich bin müde.", "I'm staying home, because I'm tired."], ["Ich trinke Tee, aber er trinkt Kaffee.", "I drink tea, but he drinks coffee."]] },
-    { p: "Subordinating conjunctions (weil, dass, wenn, ob) send the verb to the very end of their clause." },
-    { ex: [["Ich bleibe zu Hause, weil ich müde bin.", "… because I'm tired."], ["Ich weiß, dass du Recht hast.", "I know that you're right."]] },
-  ]},
-  { id: "wechsel", sec: "Sentences & Prepositions", title: "Two-way prepositions", summary: "Location vs. direction decides the case.", blocks: [
-    { p: "an, auf, hinter, in, neben, über, unter, vor, zwischen take the dative for location (where?) and the accusative for direction (where to?)." },
-    { ex: [["Ich bin im Café.", "I'm in the café. (location → dative)"], ["Ich gehe in das Café.", "I go into the café. (direction → accusative)"]] },
-    { tip: "Ask 'Wo?' → dative, 'Wohin?' → accusative." },
-  ]},
-  { id: "timeprep", sec: "Sentences & Prepositions", title: "Prepositions of time", summary: "am, um, im and friends.", blocks: [
-    { table: { head: ["Preposition", "Use", "Example"], rows: [["am", "days & dates", "am Montag, am 3. Mai"], ["um", "clock time", "um 8 Uhr"], ["im", "months & seasons", "im Januar, im Sommer"], ["von … bis", "from … to", "von 9 bis 17 Uhr"], ["seit", "since (dative)", "seit 2020"], ["vor / nach", "before / after (dative)", "vor dem Essen"]] } },
-    { ex: [["Am Wochenende schlafe ich lange.", "At the weekend I sleep in."], ["Der Kurs ist um 18 Uhr.", "The class is at 6 p.m."]] },
-  ]},
+  {
+    id: "conjunctions", sec: "Sentences & Prepositions", title: "Conjunctions", summary: "Joining clauses — and what they do to word order.", blocks: [
+      { p: "Coordinating conjunctions (und, oder, aber, denn, sondern) sit between two main clauses and do NOT change word order — the verb stays second." },
+      { ex: [["Ich bleibe zu Hause, denn ich bin müde.", "I'm staying home, because I'm tired."], ["Ich trinke Tee, aber er trinkt Kaffee.", "I drink tea, but he drinks coffee."]] },
+      { p: "Subordinating conjunctions (weil, dass, wenn, ob) send the verb to the very end of their clause." },
+      { ex: [["Ich bleibe zu Hause, weil ich müde bin.", "… because I'm tired."], ["Ich weiß, dass du Recht hast.", "I know that you're right."]] },
+    ]
+  },
+  {
+    id: "wechsel", sec: "Sentences & Prepositions", title: "Two-way prepositions", summary: "Location vs. direction decides the case.", blocks: [
+      { p: "an, auf, hinter, in, neben, über, unter, vor, zwischen take the dative for location (where?) and the accusative for direction (where to?)." },
+      { ex: [["Ich bin im Café.", "I'm in the café. (location → dative)"], ["Ich gehe in das Café.", "I go into the café. (direction → accusative)"]] },
+      { tip: "Ask 'Wo?' → dative, 'Wohin?' → accusative." },
+    ]
+  },
+  {
+    id: "timeprep", sec: "Sentences & Prepositions", title: "Prepositions of time", summary: "am, um, im and friends.", blocks: [
+      { table: { head: ["Preposition", "Use", "Example"], rows: [["am", "days & dates", "am Montag, am 3. Mai"], ["um", "clock time", "um 8 Uhr"], ["im", "months & seasons", "im Januar, im Sommer"], ["von … bis", "from … to", "von 9 bis 17 Uhr"], ["seit", "since (dative)", "seit 2020"], ["vor / nach", "before / after (dative)", "vor dem Essen"]] } },
+      { ex: [["Am Wochenende schlafe ich lange.", "At the weekend I sleep in."], ["Der Kurs ist um 18 Uhr.", "The class is at 6 p.m."]] },
+    ]
+  },
 
   // ===== NUMBERS & TIME =====
-  { id: "numbers", sec: "Numbers & Time", title: "Numbers", summary: "Counting, and the famous reversed teens.", blocks: [
-    { p: "0 null, 1 eins, 2 zwei, 3 drei, 4 vier, 5 fünf, 6 sechs, 7 sieben, 8 acht, 9 neun, 10 zehn, 11 elf, 12 zwölf." },
-    { p: "From 21, German says the units first: 21 = einundzwanzig (one-and-twenty), 34 = vierunddreißig. Hundreds: 100 hundert, 1000 tausend." },
-    { p: "Ordinals (1st, 2nd …): add -te up to 19, -ste from 20. Irregular: erste (1.), dritte (3.), siebte (7.), achte (8.)." },
-    { ex: [["Ich bin einundzwanzig Jahre alt.", "I'm 21 years old."], ["Heute ist der dritte Mai.", "Today is the 3rd of May."]] },
-  ]},
-  { id: "time", sec: "Numbers & Time", title: "Telling the time", summary: "Watch out — halb means half TO the next hour!", blocks: [
-    { p: "Es ist … Uhr. For minutes: 'nach' (past) and 'vor' (to). 'Viertel' = quarter." },
-    { ex: [["Es ist drei Uhr.", "It's three o'clock."], ["Es ist Viertel nach drei.", "3:15"], ["Es ist Viertel vor vier.", "3:45"], ["Es ist halb vier.", "3:30 (lit. 'half four' = half to four!)"]] },
-    { tip: "'halb' counts toward the NEXT hour: halb drei = 2:30, not 3:30. Officially you can also just say 'vierzehn Uhr dreißig'." },
-  ]},
-  { id: "dates", sec: "Numbers & Time", title: "Days, months & dates", summary: "All masculine — der Montag, der Mai.", blocks: [
-    { table: { head: ["Wochentage", "Monate (Jan–Jun)", "Monate (Jul–Dez)"], rows: [["Montag, Dienstag", "Januar, Februar", "Juli, August"], ["Mittwoch, Donnerstag", "März, April", "September, Oktober"], ["Freitag, Samstag, Sonntag", "Mai, Juni", "November, Dezember"]] } },
-    { p: "Days, months and seasons are all masculine (der). Seasons: der Frühling, der Sommer, der Herbst, der Winter." },
-    { ex: [["Welcher Tag ist heute?", "What day is it today?"], ["Am Montag, dem 12. April.", "On Monday the 12th of April."]] },
-  ]},
+  {
+    id: "numbers", sec: "Numbers & Time", title: "Numbers", summary: "Counting, and the famous reversed teens.", blocks: [
+      { p: "0 null, 1 eins, 2 zwei, 3 drei, 4 vier, 5 fünf, 6 sechs, 7 sieben, 8 acht, 9 neun, 10 zehn, 11 elf, 12 zwölf." },
+      { p: "From 21, German says the units first: 21 = einundzwanzig (one-and-twenty), 34 = vierunddreißig. Hundreds: 100 hundert, 1000 tausend." },
+      { p: "Ordinals (1st, 2nd …): add -te up to 19, -ste from 20. Irregular: erste (1.), dritte (3.), siebte (7.), achte (8.)." },
+      { ex: [["Ich bin einundzwanzig Jahre alt.", "I'm 21 years old."], ["Heute ist der dritte Mai.", "Today is the 3rd of May."]] },
+    ]
+  },
+  {
+    id: "time", sec: "Numbers & Time", title: "Telling the time", summary: "Watch out — halb means half TO the next hour!", blocks: [
+      { p: "Es ist … Uhr. For minutes: 'nach' (past) and 'vor' (to). 'Viertel' = quarter." },
+      { ex: [["Es ist drei Uhr.", "It's three o'clock."], ["Es ist Viertel nach drei.", "3:15"], ["Es ist Viertel vor vier.", "3:45"], ["Es ist halb vier.", "3:30 (lit. 'half four' = half to four!)"]] },
+      { tip: "'halb' counts toward the NEXT hour: halb drei = 2:30, not 3:30. Officially you can also just say 'vierzehn Uhr dreißig'." },
+    ]
+  },
+  {
+    id: "dates", sec: "Numbers & Time", title: "Days, months & dates", summary: "All masculine — der Montag, der Mai.", blocks: [
+      { table: { head: ["Wochentage", "Monate (Jan–Jun)", "Monate (Jul–Dez)"], rows: [["Montag, Dienstag", "Januar, Februar", "Juli, August"], ["Mittwoch, Donnerstag", "März, April", "September, Oktober"], ["Freitag, Samstag, Sonntag", "Mai, Juni", "November, Dezember"]] } },
+      { p: "Days, months and seasons are all masculine (der). Seasons: der Frühling, der Sommer, der Herbst, der Winter." },
+      { ex: [["Welcher Tag ist heute?", "What day is it today?"], ["Am Montag, dem 12. April.", "On Monday the 12th of April."]] },
+    ]
+  },
 ];
 
 const GRAMMAR_SECTIONS = ["Basics", "Questions & Negation", "Nouns & Cases", "Verbs", "Adjectives & Adverbs", "Sentences & Prepositions", "Numbers & Time"];
@@ -1118,7 +1184,11 @@ export default function DeutschMeister() {
   const [levelFilter, setLevelFilter] = useState("All");
 
   useEffect(() => { loadProgress().then(setProgress); }, []);
-  useEffect(() => { try { window.speechSynthesis.getVoices(); } catch {} }, []);
+  useEffect(() => { try { window.speechSynthesis.getVoices(); } catch { } }, []);
+  // Preload Google Identity Services eagerly so the Drive "Connect" button
+  // can call requestAccessToken() synchronously on click (required for the
+  // OAuth popup to work on iOS Safari).
+  useEffect(() => { drive.preloadGis().catch(() => { }); }, []);
 
   // ── Drive auto-sync: silently pull+merge on load, push on hide/unload ──
   const progressRef = useRef(progress);
@@ -1149,7 +1219,7 @@ export default function DeutschMeister() {
   useEffect(() => {
     const pushIfConnected = () => {
       if (!driveStatus.connected) return;
-      drive.pushProgress(progressRef.current, { interactive: false }).catch(() => {});
+      drive.pushProgress(progressRef.current, { interactive: false }).catch(() => { });
     };
     const onVisibility = () => { if (document.visibilityState === "hidden") pushIfConnected(); };
     document.addEventListener("visibilitychange", onVisibility);
@@ -1185,8 +1255,10 @@ export default function DeutschMeister() {
             <div style={{ display: "flex", gap: 4, background: "#161616", borderRadius: 9, padding: 4 }}>
               {[["quiz", "📚 Quiz"], ["browse", "🔍 Browse"], ["grammatik", "📖 Grammatik"], ["stats", "📊 Stats"]].map(([m, label]) => (
                 <button key={m} onClick={() => setView(m)}
-                  style={{ padding: "6px 10px", borderRadius: 6, border: "none", cursor: "pointer", fontSize: 12,
-                    background: view === m ? "#2a2a2a" : "transparent", color: view === m ? "#f1f5f9" : "#5b626f", fontWeight: view === m ? 600 : 400 }}>
+                  style={{
+                    padding: "6px 10px", borderRadius: 6, border: "none", cursor: "pointer", fontSize: 12,
+                    background: view === m ? "#2a2a2a" : "transparent", color: view === m ? "#f1f5f9" : "#5b626f", fontWeight: view === m ? 600 : 400
+                  }}>
                   {label}
                 </button>
               ))}
@@ -1198,8 +1270,10 @@ export default function DeutschMeister() {
             <div style={{ display: "flex", gap: 6 }}>
               {CATEGORIES.map((t, i) => (
                 <button key={t.id} onClick={() => setActiveCat(i)}
-                  style={{ flex: 1, padding: "8px 4px", borderRadius: 9, border: "none", cursor: "pointer", fontSize: 12.5, fontWeight: 600,
-                    background: activeCat === i ? t.color : "#161616", color: activeCat === i ? "#fff" : "#6b7280" }}>
+                  style={{
+                    flex: 1, padding: "8px 4px", borderRadius: 9, border: "none", cursor: "pointer", fontSize: 12.5, fontWeight: 600,
+                    background: activeCat === i ? t.color : "#161616", color: activeCat === i ? "#fff" : "#6b7280"
+                  }}>
                   {t.label}
                   <div style={{ fontSize: 10, fontWeight: 400, opacity: 0.75 }}>{DB[t.key].length}</div>
                 </button>
@@ -1212,8 +1286,10 @@ export default function DeutschMeister() {
             <div style={{ display: "flex", gap: 4, marginTop: 8 }}>
               {["All", ...allLevels].map((L) => (
                 <button key={L} onClick={() => setLevelFilter(L)}
-                  style={{ padding: "4px 12px", borderRadius: 7, border: "1px solid #2a2a2a", cursor: "pointer", fontSize: 11.5,
-                    background: levelFilter === L ? "#2a2a2a" : "transparent", color: levelFilter === L ? "#f1f5f9" : MUTE }}>{L}</button>
+                  style={{
+                    padding: "4px 12px", borderRadius: 7, border: "1px solid #2a2a2a", cursor: "pointer", fontSize: 11.5,
+                    background: levelFilter === L ? "#2a2a2a" : "transparent", color: levelFilter === L ? "#f1f5f9" : MUTE
+                  }}>{L}</button>
               ))}
             </div>
           )}
