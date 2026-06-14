@@ -22,6 +22,11 @@ const FILE_ID_KEY = "dm-drive-file-id";
 let tokenClient = null;
 let gisLoaded = null;
 
+// ── Eagerly start loading GIS so it's ready when the user clicks Connect ──
+export function preloadGis() {
+  return loadGis();
+}
+
 // ── Load the GIS script lazily (only when Drive sync is actually used) ──
 function loadGis() {
   if (gisLoaded) return gisLoaded;
