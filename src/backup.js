@@ -8,12 +8,18 @@ export function sanitizeProgress(obj) {
     const mastery = Math.max(0, Math.min(5, parseInt(v.mastery, 10) || 0));
     const correct = Math.max(0, parseInt(v.correct, 10) || 0);
     const total = Math.max(0, parseInt(v.total, 10) || 0);
-    out[k] = { mastery, correct, total };
+    const entry = { mastery, correct, total };
+    // Preserve the force-mastered flag and SRS schedule so backup/restore
+    // and Drive sync don't silently drop them (these run through here too).
+    if (v.skip) entry.skip = true;
+    if (Number.isFinite(v.last)) entry.last = v.last;
+    if (Number.isFinite(v.due)) entry.due = v.due;
+    out[k] = entry;
   }
   return out;
 }
 export function buildBackup(progress) {
-  return JSON.stringify({ app: "DeutschMeister", version: 2, exportedAt: new Date().toISOString(), progress }, null, 2);
+  return JSON.stringify({ app: "DeutschMeister", version: 3, exportedAt: new Date().toISOString(), progress }, null, 2);
 }
 export function parseBackup(raw) {
   const data = JSON.parse(raw);
