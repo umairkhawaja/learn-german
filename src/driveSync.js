@@ -21,28 +21,39 @@ const FILE_ID_KEY = "dm-drive-file-id";
 
 let tokenClient = null;
 let gisLoaded = null;
+let gisReady = false; // synchronous flag — true once the GIS script has fully loaded
 
-// ── Eagerly start loading GIS so it's ready when the user clicks Connect ──
-export function preloadGis() {
-  return loadGis();
-}
-
-// ── Load the GIS script lazily (only when Drive sync is actually used) ──
+// ── Load the GIS script ──────────────────────────────────────────────────────
 function loadGis() {
   if (gisLoaded) return gisLoaded;
   gisLoaded = new Promise((resolve, reject) => {
-    if (window.google && window.google.accounts) return resolve();
+    if (window.google && window.google.accounts) { gisReady = true; return resolve(); }
     const s = document.createElement("script");
     s.src = "https://accounts.google.com/gsi/client";
     s.async = true;
-    s.onload = () => resolve();
+    s.onload = () => { gisReady = true; resolve(); };
     s.onerror = () => reject(new Error("Failed to load Google Identity Services"));
     document.head.appendChild(s);
   });
   return gisLoaded;
 }
 
-// ── Token storage (in-memory access token, persisted only for this session) ──
+// ── Eagerly load GIS and initialise tokenClient on app mount so that by the
+// time the user taps "Connect", requestAccessToken() can be called with zero
+// awaits before it (iOS Safari requires this to allow the OAuth popup). ──────
+export function preloadGis() {
+  return loadGis().then(() => {
+    if (!tokenClient) {
+      tokenClient = window.google.accounts.oauth2.initTokenClient({
+        client_id: CLIENT_ID,
+        scope: SCOPE,
+        callback: () => { },
+      });
+    }
+  });
+}
+
+// ── Token storage (in-memory + sessionStorage fallback) ──────────────────────
 let cachedToken = null;
 
 async function loadCachedToken() {
@@ -76,25 +87,10 @@ export async function disconnect() {
   try { await storage.delete(FILE_ID_KEY); } catch { }
 }
 
-// ── Auth: opens Google's account picker / consent popup ──
-// Returns true on success, false if the user cancelled.
-export async function connect({ interactive = true } = {}) {
-  await loadGis();
-  if (CLIENT_ID.startsWith("YOUR_GOOGLE_OAUTH_CLIENT_ID")) {
-    throw new Error("Drive sync isn't configured yet — see README.md for setup steps.");
-  }
-
-  const existing = await loadCachedToken();
-  if (existing && !interactive) return true;
-
+// ── Internal: fire the GIS token request. Must be reached synchronously from
+// the click handler — never place an await before calling this. ───────────────
+function _doTokenRequest() {
   return new Promise((resolve, reject) => {
-    if (!tokenClient) {
-      tokenClient = window.google.accounts.oauth2.initTokenClient({
-        client_id: CLIENT_ID,
-        scope: SCOPE,
-        callback: () => { }, // overridden per-request below
-      });
-    }
     tokenClient.callback = (resp) => {
       if (resp.error) {
         if (resp.error === "popup_closed_by_user" || resp.error === "access_denied") {
@@ -106,7 +102,49 @@ export async function connect({ interactive = true } = {}) {
       }
       saveToken(resp.access_token, resp.expires_in || 3600).then(() => resolve(true));
     };
-    tokenClient.requestAccessToken({ prompt: interactive ? "consent" : "none" });
+    tokenClient.requestAccessToken({ prompt: "consent" });
+  });
+}
+
+// ── Auth: opens Google's account picker / consent popup ──
+// Returns true on success, false if the user cancelled.
+//
+// iOS Safari only allows window.open() (used internally by GIS) when called
+// synchronously within a user-gesture handler. Any await — even on an already-
+// resolved promise — breaks that context. So for the interactive path we check
+// all state synchronously (gisReady flag + in-memory cachedToken) and call
+// requestAccessToken with no awaits. preloadGis() must have been called on
+// app mount for this to work; if it hasn't finished yet we fall back to an
+// async path (desktop only — iOS will block the popup in that case).
+export function connect({ interactive = true } = {}) {
+  if (CLIENT_ID.startsWith("YOUR_GOOGLE_OAUTH_CLIENT_ID")) {
+    return Promise.reject(new Error("Drive sync isn't configured yet — see README.md for setup steps."));
+  }
+
+  if (!interactive) {
+    // No popup needed — async is fine.
+    return loadCachedToken().then(t => !!t);
+  }
+
+  // Synchronous fast path: GIS loaded + tokenClient ready (normal case after preloadGis).
+  // cachedToken is already in memory from the isConnected() call made on app mount.
+  if (gisReady && tokenClient) {
+    const hasToken = cachedToken && cachedToken.expiresAt > Date.now() + 60_000;
+    if (hasToken) return Promise.resolve(true);
+    return _doTokenRequest(); // ← synchronous from click handler
+  }
+
+  // Async fallback: preload didn't finish in time (or failed). The popup will
+  // be blocked on iOS but works fine on desktop and on retry after reload.
+  return loadGis().then(() => {
+    if (!tokenClient) {
+      tokenClient = window.google.accounts.oauth2.initTokenClient({
+        client_id: CLIENT_ID,
+        scope: SCOPE,
+        callback: () => { },
+      });
+    }
+    return _doTokenRequest();
   });
 }
 
@@ -130,7 +168,6 @@ async function driveFetch(url, token, opts = {}) {
     headers: { ...(opts.headers || {}), Authorization: `Bearer ${token}` },
   });
   if (res.status === 401) {
-    // token expired/revoked — clear it so the next attempt re-prompts
     cachedToken = null;
     try { await storage.delete(TOKEN_KEY); } catch { }
     throw new Error("Drive session expired — please reconnect.");
@@ -172,7 +209,7 @@ export async function pullProgress({ interactive = false } = {}) {
   if (!res.ok) throw new Error(`Drive download failed (${res.status})`);
   const raw = await res.text();
   if (!raw.trim()) return null;
-  return parseBackup(raw); // sanitized { [key]: {mastery, correct, total} }
+  return parseBackup(raw);
 }
 
 // ── Push progress to Drive (creates the file on first sync). ──
@@ -208,9 +245,8 @@ export async function pushProgress(progress, { interactive = false } = {}) {
   return true;
 }
 
-// ── Merge strategy for sync: for each word, keep whichever side has the
-// higher `total` (more attempts = more recent/authoritative). Ties keep
-// the higher mastery. Words only present on one side are kept as-is. ──
+// ── Merge strategy: keep whichever side has more attempts (more = more recent).
+// Ties go to higher mastery. Words only on one side are kept as-is. ──
 export function mergeProgress(local, remote) {
   const a = sanitizeProgress(local || {});
   const b = sanitizeProgress(remote || {});
