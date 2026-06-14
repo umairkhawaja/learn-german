@@ -67,7 +67,7 @@
     "sup": "am kühlsten",
     "opp": "warm / heiß",
     "ex": "Es ist heute kühl draußen.",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "glücklich",
@@ -247,7 +247,7 @@
     "sup": "am offensten",
     "opp": "geschlossen",
     "ex": "Das Fenster ist offen.",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "müde",
@@ -397,7 +397,7 @@
     "sup": "am geschlossensten",
     "opp": "offen",
     "ex": "Der Laden ist heute geschlossen.",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "dunkel",
@@ -507,7 +507,7 @@
     "sup": "am stolzesten",
     "opp": "schamvoll / bescheiden",
     "ex": "Ich bin stolz auf dich.",
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "sicher",
@@ -537,7 +537,7 @@
     "sup": "am bereitsten",
     "opp": "unbereit / nicht bereit",
     "ex": "Bist du bereit?",
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "schriftlich",
@@ -567,7 +567,7 @@
     "sup": "–",
     "opp": "gewöhnlich / normal",
     "ex": "Das war besonders lecker.",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "möglich",
@@ -597,7 +597,7 @@
     "sup": "am häufigsten",
     "opp": "selten",
     "ex": "Das ist ein häufiger Fehler.",
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "höflich",
@@ -647,7 +647,7 @@
     "sup": "am flüssigsten",
     "opp": "fest / stockend",
     "ex": "Er spricht flüssig Englisch.",
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "anders",
@@ -687,7 +687,7 @@
     "sup": "am spannendsten",
     "opp": "langweilig",
     "ex": "Der Film war sehr spannend.",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "mündlich",
@@ -697,7 +697,7 @@
     "sup": "am mündlichsten",
     "opp": "schriftlich",
     "ex": "Die Prüfung ist mündlich.",
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "ehrlich",
@@ -707,7 +707,7 @@
     "sup": "am ehrlichsten",
     "opp": "unehrlich / verlogen",
     "ex": "Sei ehrlich mit mir.",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "bequem",
@@ -737,7 +737,7 @@
     "sup": "am gemütlichsten",
     "opp": "unbehaglich / ungemütlich",
     "ex": "Das Café ist sehr gemütlich.",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "dankbar",
@@ -747,7 +747,7 @@
     "sup": "am dankbarsten",
     "opp": "undankbar",
     "ex": "Ich bin sehr dankbar.",
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "zufrieden",
@@ -757,7 +757,7 @@
     "sup": "am zufriedensten",
     "opp": "unzufrieden",
     "ex": "Ich bin zufrieden mit dem Ergebnis.",
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "neugierig",
@@ -767,7 +767,7 @@
     "sup": "am neugierigsten",
     "opp": "gleichgültig / desinteressiert",
     "ex": "Kinder sind sehr neugierig.",
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "später",
@@ -787,7 +787,7 @@
     "sup": "am nötigsten",
     "opp": "unnötig / überflüssig",
     "ex": "Das ist nicht nötig.",
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "ledig",
@@ -827,7 +827,7 @@
     "sup": "am peinlichsten",
     "opp": "stolz / selbstbewusst",
     "ex": "Das ist mir peinlich.",
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "zusammen",
@@ -837,7 +837,7 @@
     "sup": "–",
     "opp": "allein / getrennt",
     "ex": "Wir machen das zusammen.",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "selten",
@@ -847,7 +847,7 @@
     "sup": "am seltensten",
     "opp": "häufig / oft",
     "ex": "So etwas sieht man selten.",
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "zuständig",
@@ -857,7 +857,7 @@
     "sup": "am zuständigsten",
     "opp": "nicht zuständig",
     "ex": "Wer ist dafür zuständig?",
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "persönlich",
@@ -867,7 +867,7 @@
     "sup": "am persönlichsten",
     "opp": "unpersönlich",
     "ex": "Das ist eine persönliche Frage.",
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "faul",
@@ -887,7 +887,7 @@
     "sup": "–",
     "opp": "zusammen / gemeinsam",
     "ex": "Ich bin gerne allein.",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "dumm",
@@ -897,7 +897,7 @@
     "sup": "am dümmsten",
     "opp": "klug / schlau",
     "ex": "Das war eine dumme Idee.",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "gratis",
@@ -917,7 +917,7 @@
     "sup": "am aufgeregtesten",
     "opp": "ruhig / gelassen",
     "ex": "Ich bin ganz aufgeregt.",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "witzig",
@@ -937,7 +937,7 @@
     "sup": "am modernsten",
     "opp": "altmodisch",
     "ex": "Das Design ist sehr modern.",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "endlich",
@@ -947,7 +947,7 @@
     "sup": "–",
     "opp": "unendlich",
     "ex": "Endlich ist es fertig!",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "mutig",
@@ -957,7 +957,7 @@
     "sup": "am mutigsten",
     "opp": "feige",
     "ex": "Das war sehr mutig von dir.",
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "fröhlich",
@@ -967,7 +967,7 @@
     "sup": "am fröhlichsten",
     "opp": "traurig / ernst",
     "ex": "Sie ist immer fröhlich.",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "fertig",
@@ -1007,7 +1007,7 @@
     "sup": "am hungrigsten",
     "opp": "satt",
     "ex": "Nach der Arbeit bin ich immer hungrig.",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "durstig",
@@ -1017,7 +1017,7 @@
     "sup": "am durstigsten",
     "opp": "–",
     "ex": "Nach dem Sport bin ich sehr durstig.",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "frei",
@@ -1047,7 +1047,7 @@
     "sup": "am nächsten",
     "opp": "fern",
     "ex": "Der Supermarkt ist ganz nah.",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "fern",
@@ -1057,7 +1057,7 @@
     "sup": "am fernsten",
     "opp": "nah",
     "ex": "Das liegt in ferner Zukunft.",
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "böse",
@@ -1077,7 +1077,7 @@
     "sup": "am abhängigsten",
     "opp": "unabhängig",
     "ex": "Ich bin von meinem Gehalt abhängig.",
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "allgemein",
@@ -1087,7 +1087,7 @@
     "sup": "am allgemeinststen",
     "opp": "speziell",
     "ex": "Im Allgemeinen ist das Wetter hier gut.",
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "anstrengend",
@@ -1137,7 +1137,7 @@
     "sup": "am erfolgreichsten",
     "opp": "erfolglos",
     "ex": "Das Projekt war sehr erfolgreich.",
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "ernst",
@@ -1147,7 +1147,7 @@
     "sup": "am ernstesten",
     "opp": "lustig",
     "ex": "Das ist ein ernstes Problem.",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "fremd",
@@ -1177,7 +1177,7 @@
     "sup": "am geheimsten",
     "opp": "öffentlich",
     "ex": "Das Passwort ist streng geheim.",
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "genau",
@@ -1187,7 +1187,7 @@
     "sup": "am genauesten",
     "opp": "ungenau",
     "ex": "Das ist genau das, was ich suche!",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "hoch",
@@ -1217,7 +1217,7 @@
     "sup": "am knappsten",
     "opp": "reichlich",
     "ex": "Die Zeit ist sehr knapp.",
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "nass",
@@ -1247,7 +1247,7 @@
     "sup": "am öffentlichsten",
     "opp": "privat",
     "ex": "Wir nutzen öffentliche Verkehrsmittel.",
-    "lvl": "A1"
+    "lvl": "B1"
   },
   {
     "w": "riesig",
@@ -1257,7 +1257,7 @@
     "sup": "am riesigsten",
     "opp": "winzig",
     "ex": "Der Elefant ist riesig.",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "streng",
@@ -1277,7 +1277,7 @@
     "sup": "am tiefsten",
     "opp": "flach",
     "ex": "Der See ist sehr tief.",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "trocken",
@@ -1297,7 +1297,7 @@
     "sup": "–",
     "opp": "optional",
     "ex": "Ich muss dir unbedingt etwas erzählen!",
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "verschieden",
@@ -1307,7 +1307,7 @@
     "sup": "am verschiedensten",
     "opp": "gleich",
     "ex": "Wir haben verschiedene Meinungen.",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "wertvoll",
@@ -1317,7 +1317,7 @@
     "sup": "am wertvollsten",
     "opp": "wertlos",
     "ex": "Dieser Ring ist sehr wertvoll.",
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "super",
@@ -1867,7 +1867,7 @@
     "cmp": "sozialer",
     "sup": "am sozialsten",
     "ex": "Sehr wichtig sind auch soziale Netzwerke.",
-    "lvl": "A1"
+    "lvl": "B1"
   },
   {
     "w": "beendet",

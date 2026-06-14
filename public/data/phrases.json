@@ -32,21 +32,21 @@
     "e": "How are you?",
     "c": "Greetings",
     "ex": "Informal. Formal: 'Wie geht es Ihnen?'",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Mir geht es gut, danke.",
     "e": "I'm fine, thanks.",
     "c": "Greetings",
     "ex": "A standard reply to 'Wie geht's?'",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Tschüss!",
     "e": "Bye!",
     "c": "Greetings",
     "ex": "Informal. Bavarians also say 'Servus!' and 'Pfiat di!'",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Auf Wiedersehen!",
@@ -60,147 +60,147 @@
     "e": "See you later!",
     "c": "Greetings",
     "ex": "Also: 'Bis bald!' = See you soon.",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Bis morgen!",
     "e": "See you tomorrow!",
     "c": "Greetings",
     "ex": "Common when leaving work or class.",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Bitte.",
     "e": "Please / You're welcome / Here you go.",
     "c": "Politeness",
     "ex": "One of German's most versatile words — context decides the meaning.",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Danke schön!",
     "e": "Thank you very much!",
     "c": "Politeness",
     "ex": "Reply with 'Bitte schön!' or 'Gern geschehen.'",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Vielen Dank!",
     "e": "Many thanks!",
     "c": "Politeness",
     "ex": "A slightly stronger thank-you.",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Gern geschehen.",
     "e": "You're welcome.",
     "c": "Politeness",
     "ex": "Literally 'gladly done'. Also: 'Kein Problem.'",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Entschuldigung!",
     "e": "Excuse me! / Sorry!",
     "c": "Politeness",
     "ex": "Use to get attention or to apologise. Short form: 'Tschuldigung'.",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Es tut mir leid.",
     "e": "I'm sorry.",
     "c": "Politeness",
     "ex": "For genuine apologies, not just bumping into someone.",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Wie heißt du?",
     "e": "What's your name?",
     "c": "Introductions",
     "ex": "Informal. Formal: 'Wie heißen Sie?'",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Ich heiße ...",
     "e": "My name is ...",
     "c": "Introductions",
     "ex": "Also: 'Mein Name ist ...' (more formal).",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Freut mich!",
     "e": "Nice to meet you!",
     "c": "Introductions",
     "ex": "Short for 'Es freut mich, dich/Sie kennenzulernen.'",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Woher kommst du?",
     "e": "Where are you from?",
     "c": "Introductions",
     "ex": "Answer: 'Ich komme aus ...'",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Ich komme aus ...",
     "e": "I come from ...",
     "c": "Introductions",
     "ex": "'aus' + dative: aus der Türkei, aus Pakistan, aus Indien.",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Ich wohne in München.",
     "e": "I live in Munich.",
     "c": "Introductions",
     "ex": "'wohnen in' + dative for cities.",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Ich spreche ein bisschen Deutsch.",
     "e": "I speak a little German.",
     "c": "Introductions",
     "ex": "'ein bisschen' = a little; very handy hedge.",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Sprechen Sie Englisch?",
     "e": "Do you speak English?",
     "c": "Understanding",
     "ex": "Polite formal form with 'Sie'.",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Ich verstehe das nicht.",
     "e": "I don't understand that.",
     "c": "Understanding",
     "ex": "Or simply: 'Ich verstehe nicht.'",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Können Sie das wiederholen?",
     "e": "Can you repeat that?",
     "c": "Understanding",
     "ex": "Add 'bitte' to soften: '… bitte wiederholen?'",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Können Sie langsamer sprechen?",
     "e": "Can you speak more slowly?",
     "c": "Understanding",
     "ex": "'langsamer' = more slowly; a lifesaver for learners.",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Wie sagt man das auf Deutsch?",
     "e": "How do you say that in German?",
     "c": "Understanding",
     "ex": "'man' = one / you (impersonal).",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Was bedeutet das?",
     "e": "What does that mean?",
     "c": "Understanding",
     "ex": "Point at the word and ask this.",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Wie bitte?",
@@ -214,70 +214,70 @@
     "e": "How much does that cost?",
     "c": "Shopping",
     "ex": "Also: 'Wie viel kostet das?'",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Ich möchte das, bitte.",
     "e": "I would like that, please.",
     "c": "Shopping",
     "ex": "'ich möchte' = polite 'I would like'.",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Haben Sie ...?",
     "e": "Do you have ...?",
     "c": "Shopping",
     "ex": "'Haben Sie das in Größe M?' = Do you have this in size M?",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Ich nehme das.",
     "e": "I'll take it.",
     "c": "Shopping",
     "ex": "Used at the till or when deciding to buy.",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Kann ich mit Karte zahlen?",
     "e": "Can I pay by card?",
     "c": "Shopping",
     "ex": "Many small German shops are still cash-only — worth asking!",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "Ich schaue nur.",
     "e": "I'm just looking.",
     "c": "Shopping",
     "ex": "Polite reply to 'Kann ich Ihnen helfen?'",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "Die Speisekarte, bitte.",
     "e": "The menu, please.",
     "c": "Restaurant",
     "ex": "'die Speisekarte' = food menu; 'die Getränkekarte' = drinks menu.",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Ich hätte gern einen Kaffee.",
     "e": "I'd like a coffee.",
     "c": "Restaurant",
     "ex": "'ich hätte gern' = polite ordering phrase.",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "Zahlen, bitte!",
     "e": "The bill, please!",
     "c": "Restaurant",
     "ex": "Also: 'Die Rechnung, bitte.'",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Zusammen oder getrennt?",
     "e": "Together or separately?",
     "c": "Restaurant",
     "ex": "The waiter's question about splitting the bill.",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "Guten Appetit!",
@@ -291,84 +291,84 @@
     "e": "Cheers!",
     "c": "Restaurant",
     "ex": "Make eye contact when clinking glasses — it matters in Germany!",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Wo ist die Toilette?",
     "e": "Where is the toilet?",
     "c": "Directions",
     "ex": "Essential survival phrase. Also: 'das WC'.",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Wo ist der Bahnhof?",
     "e": "Where is the train station?",
     "c": "Directions",
     "ex": "'der Hauptbahnhof' (Hbf) = main station.",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Wie komme ich zum Zentrum?",
     "e": "How do I get to the centre?",
     "c": "Directions",
     "ex": "'zum' = zu dem (dative). 'zur' for feminine destinations.",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "Geradeaus, dann links.",
     "e": "Straight ahead, then left.",
     "c": "Directions",
     "ex": "'rechts' = right; 'links' = left; 'geradeaus' = straight on.",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Ein Ticket nach Berlin, bitte.",
     "e": "One ticket to Berlin, please.",
     "c": "Directions",
     "ex": "'nach' + city = to (a place).",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Wie spät ist es?",
     "e": "What time is it?",
     "c": "Small Talk",
     "ex": "Also: 'Wie viel Uhr ist es?'",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Schönes Wochenende!",
     "e": "Have a nice weekend!",
     "c": "Small Talk",
     "ex": "Said on Fridays; reply 'Danke, gleichfalls!'",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "Viel Spaß!",
     "e": "Have fun!",
     "c": "Small Talk",
     "ex": "'Viel Glück!' = Good luck; 'Alles Gute!' = All the best.",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Ich brauche einen Arzt.",
     "e": "I need a doctor.",
     "c": "Emergencies",
     "ex": "Emergency number in Germany: 112.",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "Ich fühle mich nicht gut.",
     "e": "I don't feel well.",
     "c": "Emergencies",
     "ex": "'sich fühlen' = to feel (reflexive).",
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "Hilfe!",
     "e": "Help!",
     "c": "Emergencies",
     "ex": "Shout this in an emergency. 'Rufen Sie die Polizei!' = Call the police!",
-    "lvl": null
+    "lvl": "A1"
   },
   {
     "w": "Hallo!",

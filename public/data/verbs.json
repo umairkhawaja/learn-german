@@ -741,7 +741,7 @@
       "ihr": "seid gefolgt",
       "sie": "sind gefolgt"
     },
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "stehen",
@@ -1051,7 +1051,7 @@
       "ihr": "habt geführt",
       "sie": "haben geführt"
     },
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "setzen",
@@ -1671,7 +1671,7 @@
       "ihr": "habt gebildet",
       "sie": "haben gebildet"
     },
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "erhalten",
@@ -1702,7 +1702,7 @@
       "ihr": "habt erhalten",
       "sie": "haben erhalten"
     },
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "umziehen",
@@ -1950,7 +1950,7 @@
       "ihr": "seid erschienen",
       "sie": "sind erschienen"
     },
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "anrufen",
@@ -2136,7 +2136,7 @@
       "ihr": "habt gehandelt",
       "sie": "haben gehandelt"
     },
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "erklären",
@@ -2508,7 +2508,7 @@
       "ihr": "habt verlassen",
       "sie": "haben verlassen"
     },
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "vergessen",
@@ -2570,7 +2570,7 @@
       "ihr": "seid entstanden",
       "sie": "sind entstanden"
     },
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "wählen",
@@ -2632,7 +2632,7 @@
       "ihr": "habt bestanden",
       "sie": "haben bestanden"
     },
-    "lvl": "A2"
+    "lvl": "B1"
   },
   {
     "w": "aufmachen",
@@ -2849,7 +2849,7 @@
       "ihr": "habt vorgehabt",
       "sie": "haben vorgehabt"
     },
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "zuhören",
@@ -3004,7 +3004,7 @@
       "ihr": "habt gelächelt",
       "sie": "haben gelächelt"
     },
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "vorstellen",
@@ -3035,7 +3035,7 @@
       "ihr": "habt vorgestellt",
       "sie": "haben vorgestellt"
     },
-    "lvl": "A1"
+    "lvl": "B1"
   },
   {
     "w": "benutzen",
@@ -3562,7 +3562,7 @@
       "ihr": "habt beworben",
       "sie": "haben beworben"
     },
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "bitten",
@@ -3655,7 +3655,7 @@
       "ihr": "habt entschieden",
       "sie": "haben entschieden"
     },
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "erkennen",
@@ -3686,7 +3686,7 @@
       "ihr": "habt erkannt",
       "sie": "haben erkannt"
     },
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "erwarten",
@@ -3841,7 +3841,7 @@
       "ihr": "habt geschafft",
       "sie": "haben geschafft"
     },
-    "lvl": "A1"
+    "lvl": "B1"
   },
   {
     "w": "verbringen",
@@ -3872,7 +3872,7 @@
       "ihr": "habt verbracht",
       "sie": "haben verbracht"
     },
-    "lvl": null
+    "lvl": "A2"
   },
   {
     "w": "vergleichen",
@@ -3903,7 +3903,7 @@
       "ihr": "habt verglichen",
       "sie": "haben verglichen"
     },
-    "lvl": "A2"
+    "lvl": "B1"
   },
   {
     "w": "versprechen",
@@ -3965,7 +3965,7 @@
       "ihr": "habt vorgeschlagen",
       "sie": "haben vorgeschlagen"
     },
-    "lvl": null
+    "lvl": "B1"
   },
   {
     "w": "buchstabieren",
@@ -7902,7 +7902,7 @@
       "ihr": "habt beachtet",
       "sie": "haben beachtet"
     },
-    "lvl": "A1"
+    "lvl": "B1"
   },
   {
     "w": "teilnehmen",
@@ -8243,7 +8243,7 @@
       "ihr": "habt bewegt",
       "sie": "haben bewegt"
     },
-    "lvl": "A1"
+    "lvl": "B1"
   },
   {
     "w": "reparieren",
@@ -10325,7 +10325,7 @@
       "ihr": "habt beschrieben",
       "sie": "haben beschrieben"
     },
-    "lvl": "A2"
+    "lvl": "B1"
   },
   {
     "w": "sich beschweren",
@@ -10513,7 +10513,7 @@
       "ihr": "habt diskutiert",
       "sie": "haben diskutiert"
     },
-    "lvl": "A2"
+    "lvl": "B1"
   },
   {
     "w": "sich duschen",
@@ -11574,7 +11574,7 @@
       "ihr": "habt untersucht",
       "sie": "haben untersucht"
     },
-    "lvl": "A2"
+    "lvl": "B1"
   },
   {
     "w": "vereinbaren",

@@ -6,7 +6,8 @@
     "st": "Coordinating (ADUSO)",
     "ce": "None — keeps word order",
     "ex": "Ich esse, denn ich habe Hunger.",
-    "mh": "ADUSO: D=denn. Unlike weil, denn does NOT kick verb to end."
+    "mh": "ADUSO: D=denn. Unlike weil, denn does NOT kick verb to end.",
+    "lvl": "A1"
   },
   {
     "w": "und",
@@ -15,7 +16,8 @@
     "st": "Coordinating (ADUSO)",
     "ce": "None — keeps word order",
     "ex": "Er liest und sie schreibt.",
-    "mh": "ADUSO: U=und."
+    "mh": "ADUSO: U=und.",
+    "lvl": "A1"
   },
   {
     "w": "sondern",
@@ -24,7 +26,8 @@
     "st": "Coordinating (ADUSO)",
     "ce": "None — keeps word order",
     "ex": "Ich trinke nicht Tee, sondern Kaffee.",
-    "mh": "ADUSO: S=sondern. Always follows a negation to correct it."
+    "mh": "ADUSO: S=sondern. Always follows a negation to correct it.",
+    "lvl": "A2"
   },
   {
     "w": "oder",
@@ -33,7 +36,8 @@
     "st": "Coordinating (ADUSO)",
     "ce": "None — keeps word order",
     "ex": "Gehen wir ins Kino, oder bleiben wir zu Hause?",
-    "mh": "ADUSO: O=oder."
+    "mh": "ADUSO: O=oder.",
+    "lvl": "A1"
   },
   {
     "w": "aber",
@@ -42,7 +46,8 @@
     "st": "Coordinating (ADUSO)",
     "ce": "None — keeps word order",
     "ex": "Ich bin müde, aber ich lerne weiter.",
-    "mh": "ADUSO: A=aber. Zero position — no word order change."
+    "mh": "ADUSO: A=aber. Zero position — no word order change.",
+    "lvl": "A1"
   },
   {
     "w": "wenn",
@@ -51,7 +56,8 @@
     "st": "Subordinating (Verb-Kicker)",
     "ce": "Verb to end (subordinating)",
     "ex": "Ruf mich an, wenn du Zeit hast.",
-    "mh": "Verb-Kicker. wenn=IF or recurring WHEN. For single past events use 'als'."
+    "mh": "Verb-Kicker. wenn=IF or recurring WHEN. For single past events use 'als'.",
+    "lvl": "A1"
   },
   {
     "w": "weil",
@@ -60,7 +66,8 @@
     "st": "Subordinating (Verb-Kicker)",
     "ce": "Verb to end (subordinating)",
     "ex": "Ich esse, weil ich Hunger habe.",
-    "mh": "Verb-Kicker! Verb RUNS to the END. weil vs denn: same meaning, different word order."
+    "mh": "Verb-Kicker! Verb RUNS to the END. weil vs denn: same meaning, different word order.",
+    "lvl": "A1"
   },
   {
     "w": "falls",
@@ -69,7 +76,8 @@
     "st": "Subordinating (Verb-Kicker)",
     "ce": "Verb to end (subordinating)",
     "ex": "Falls es regnet, bleibe ich zu Hause.",
-    "mh": "Verb-Kicker. falls = if something might happen (contingency)."
+    "mh": "Verb-Kicker. falls = if something might happen (contingency).",
+    "lvl": "B1"
   },
   {
     "w": "damit (conj.)",
@@ -78,7 +86,8 @@
     "st": "Subordinating (Verb-Kicker)",
     "ce": "Verb to end (subordinating)",
     "ex": "Lerne Deutsch, damit du in Berlin leben kannst.",
-    "mh": "Verb-Kicker as conjunction. Don't confuse with da-word 'damit' = with it."
+    "mh": "Verb-Kicker as conjunction. Don't confuse with da-word 'damit' = with it.",
+    "lvl": "B1"
   },
   {
     "w": "bevor",
@@ -87,7 +96,8 @@
     "st": "Subordinating (Verb-Kicker)",
     "ce": "Verb to end (subordinating)",
     "ex": "Wasch die Hände, bevor du isst.",
-    "mh": "Verb-Kicker. be+vor = before. Sounds close to English."
+    "mh": "Verb-Kicker. be+vor = before. Sounds close to English.",
+    "lvl": "A2"
   },
   {
     "w": "dass",
@@ -96,7 +106,8 @@
     "st": "Subordinating (Verb-Kicker)",
     "ce": "Verb to end (subordinating)",
     "ex": "Ich weiß, dass du klug bist.",
-    "mh": "Double-s. Verb kicks to end of clause."
+    "mh": "Double-s. Verb kicks to end of clause.",
+    "lvl": "A2"
   },
   {
     "w": "als",
@@ -105,7 +116,8 @@
     "st": "Subordinating (Verb-Kicker)",
     "ce": "Verb to end (subordinating)",
     "ex": "Als ich ein Kind war, spielte ich oft.",
-    "mh": "Verb-Kicker. als=WHEN for one-time past only. Also: 'bigger THAN' in comparisons."
+    "mh": "Verb-Kicker. als=WHEN for one-time past only. Also: 'bigger THAN' in comparisons.",
+    "lvl": "A2"
   },
   {
     "w": "ob",
@@ -114,7 +126,8 @@
     "st": "Subordinating (Verb-Kicker)",
     "ce": "Verb to end (subordinating)",
     "ex": "Ich weiß nicht, ob er kommt.",
-    "mh": "Verb-Kicker. Turns a yes/no question into an embedded clause."
+    "mh": "Verb-Kicker. Turns a yes/no question into an embedded clause.",
+    "lvl": "A2"
   },
   {
     "w": "nachdem",
@@ -123,7 +136,8 @@
     "st": "Subordinating (Verb-Kicker)",
     "ce": "Verb to end (subordinating)",
     "ex": "Nachdem er gegessen hatte, ging er schlafen.",
-    "mh": "Verb-Kicker. nach+dem = after. Tense in the nachdem clause is one step back."
+    "mh": "Verb-Kicker. nach+dem = after. Tense in the nachdem clause is one step back.",
+    "lvl": "B1"
   },
   {
     "w": "während",
@@ -132,7 +146,8 @@
     "st": "Subordinating (Verb-Kicker)",
     "ce": "Verb to end (subordinating)",
     "ex": "Ich lese, während er kocht.",
-    "mh": "Verb-Kicker as conjunction. Also a genitive preposition meaning 'during'."
+    "mh": "Verb-Kicker as conjunction. Also a genitive preposition meaning 'during'.",
+    "lvl": "A2"
   },
   {
     "w": "obwohl",
@@ -141,7 +156,8 @@
     "st": "Subordinating (Verb-Kicker)",
     "ce": "Verb to end (subordinating)",
     "ex": "Wir gehen raus, obwohl es regnet.",
-    "mh": "Verb-Kicker. ob+wohl = although. Signals contrast against expectation."
+    "mh": "Verb-Kicker. ob+wohl = although. Signals contrast against expectation.",
+    "lvl": "B1"
   },
   {
     "w": "trotzdem",
@@ -150,7 +166,8 @@
     "st": "Conjunctive Adverb (Inverter)",
     "ce": "Verb-Subject swap (inverter)",
     "ex": "Es regnet. Trotzdem gehe ich joggen.",
-    "mh": "Inverter. trotz+dem = despite that. Signals defiance of expectation."
+    "mh": "Inverter. trotz+dem = despite that. Signals defiance of expectation.",
+    "lvl": "B1"
   },
   {
     "w": "sonst",
@@ -159,7 +176,8 @@
     "st": "Conjunctive Adverb (Inverter)",
     "ce": "Verb-Subject swap (inverter)",
     "ex": "Beeil dich, sonst verpassen wir den Zug.",
-    "mh": "Inverter. Implies a warning or consequence."
+    "mh": "Inverter. Implies a warning or consequence.",
+    "lvl": "B1"
   },
   {
     "w": "deshalb",
@@ -168,7 +186,8 @@
     "st": "Conjunctive Adverb (Inverter)",
     "ce": "Verb-Subject swap (inverter)",
     "ex": "Es regnet. Deshalb bleibe ich hier.",
-    "mh": "Inverter: Connector + VERB + Subject. deshalb=darum, both mean therefore."
+    "mh": "Inverter: Connector + VERB + Subject. deshalb=darum, both mean therefore.",
+    "lvl": "A2"
   },
   {
     "w": "danach",
@@ -177,7 +196,8 @@
     "st": "Conjunctive Adverb (Inverter)",
     "ce": "Verb-Subject swap (inverter)",
     "ex": "Wir essen. Danach schauen wir einen Film.",
-    "mh": "Inverter. da+nach = after that. Signals time sequence."
+    "mh": "Inverter. da+nach = after that. Signals time sequence.",
+    "lvl": "A2"
   },
   {
     "w": "um",
@@ -186,7 +206,8 @@
     "st": "Accusative Only",
     "ce": "Accusative",
     "ex": "Wir sitzen um den Tisch. / um 9 Uhr",
-    "mh": "DOGFU: U=um. Accusative. Two uses: physically around + exact clock time."
+    "mh": "DOGFU: U=um. Accusative. Two uses: physically around + exact clock time.",
+    "lvl": "A1"
   },
   {
     "w": "für",
@@ -195,7 +216,8 @@
     "st": "Accusative Only",
     "ce": "Accusative",
     "ex": "Das Geschenk ist für den Hund.",
-    "mh": "DOGFU: F=für. Always Accusative. Very common."
+    "mh": "DOGFU: F=für. Always Accusative. Very common.",
+    "lvl": "A1"
   },
   {
     "w": "darum",
@@ -204,7 +226,8 @@
     "st": "Conjunctive Adverb (Inverter)",
     "ce": "Verb-Subject swap (inverter)",
     "ex": "Es ist spät. Darum gehe ich jetzt.",
-    "mh": "Inverter: same as deshalb. Both mean therefore/that's why."
+    "mh": "Inverter: same as deshalb. Both mean therefore/that's why.",
+    "lvl": "B1"
   },
   {
     "w": "ohne",
@@ -213,7 +236,8 @@
     "st": "Accusative Only",
     "ce": "Accusative",
     "ex": "Ich trinke Kaffee ohne die Milch.",
-    "mh": "DOGFU: O=ohne. Always Accusative."
+    "mh": "DOGFU: O=ohne. Always Accusative.",
+    "lvl": "A2"
   },
   {
     "w": "durch",
@@ -222,7 +246,8 @@
     "st": "Accusative Only",
     "ce": "Accusative",
     "ex": "Wir gehen durch den Wald.",
-    "mh": "DOGFU: D=durch. Always Accusative."
+    "mh": "DOGFU: D=durch. Always Accusative.",
+    "lvl": "A2"
   },
   {
     "w": "außerdem",
@@ -231,7 +256,8 @@
     "st": "Conjunctive Adverb (Inverter)",
     "ce": "Verb-Subject swap (inverter)",
     "ex": "Es ist spät. Außerdem bin ich müde.",
-    "mh": "Inverter. außer+dem = besides that. Adds another reason."
+    "mh": "Inverter. außer+dem = besides that. Adds another reason.",
+    "lvl": "B1"
   },
   {
     "w": "gegen",
@@ -240,7 +266,8 @@
     "st": "Accusative Only",
     "ce": "Accusative",
     "ex": "Er fährt gegen den Baum. / gegen 8 Uhr",
-    "mh": "DOGFU: G=gegen. Accusative. Two uses: physical opposition + approximate time."
+    "mh": "DOGFU: G=gegen. Accusative. Two uses: physical opposition + approximate time.",
+    "lvl": "A2"
   },
   {
     "w": "aus",
@@ -249,7 +276,8 @@
     "st": "Dative Only",
     "ce": "Dative",
     "ex": "Ich komme aus dem Haus. Ich bin aus Deutschland.",
-    "mh": "Blue Danube Dative. aus = out of / from (origin). Essential for introducing yourself."
+    "mh": "Blue Danube Dative. aus = out of / from (origin). Essential for introducing yourself.",
+    "lvl": "A1"
   },
   {
     "w": "mit",
@@ -258,7 +286,8 @@
     "st": "Dative Only",
     "ce": "Dative",
     "ex": "Ich fahre mit dem Auto. Kommst du mit?",
-    "mh": "Blue Danube Dative. mit = with. Also used for transport mode."
+    "mh": "Blue Danube Dative. mit = with. Also used for transport mode.",
+    "lvl": "A1"
   },
   {
     "w": "nach",
@@ -267,7 +296,8 @@
     "st": "Dative Only",
     "ce": "Dative",
     "ex": "Nach dem Essen gehen wir. Ich fahre nach Berlin.",
-    "mh": "Blue Danube Dative. nach = after (time) OR to (cities/countries without article)."
+    "mh": "Blue Danube Dative. nach = after (time) OR to (cities/countries without article).",
+    "lvl": "A1"
   },
   {
     "w": "bei",
@@ -276,7 +306,8 @@
     "st": "Dative Only",
     "ce": "Dative",
     "ex": "Ich bin beim Arzt. Ich wohne bei meinen Eltern.",
-    "mh": "Blue Danube Dative. bei = at/near/with. bei+dem = beim (contraction)."
+    "mh": "Blue Danube Dative. bei = at/near/with. bei+dem = beim (contraction).",
+    "lvl": "A2"
   },
   {
     "w": "seit",
@@ -285,7 +316,8 @@
     "st": "Dative Only",
     "ce": "Dative",
     "ex": "Ich lerne seit einem Jahr Deutsch.",
-    "mh": "Blue Danube Dative. seit = since/for ongoing. Always use present tense with seit!"
+    "mh": "Blue Danube Dative. seit = since/for ongoing. Always use present tense with seit!",
+    "lvl": "A2"
   },
   {
     "w": "außer",
@@ -294,7 +326,8 @@
     "st": "Dative Only",
     "ce": "Dative",
     "ex": "Alle außer dem Lehrer lachen.",
-    "mh": "Blue Danube Dative. außer = except for."
+    "mh": "Blue Danube Dative. außer = except for.",
+    "lvl": "B1"
   },
   {
     "w": "zu",
@@ -303,7 +336,8 @@
     "st": "Dative Only",
     "ce": "Dative",
     "ex": "Ich gehe zum Bahnhof. Ich gehe zur Schule.",
-    "mh": "Blue Danube Dative. zu+dem=zum, zu+der=zur. For places/people with article. nach for cities."
+    "mh": "Blue Danube Dative. zu+dem=zum, zu+der=zur. For places/people with article. nach for cities.",
+    "lvl": "A1"
   },
   {
     "w": "von",
@@ -312,7 +346,8 @@
     "st": "Dative Only",
     "ce": "Dative",
     "ex": "Das Buch ist von dem Autor. Ich komme von der Arbeit.",
-    "mh": "Blue Danube Dative. von = from/by. von+dem = vom (contraction)."
+    "mh": "Blue Danube Dative. von = from/by. von+dem = vom (contraction).",
+    "lvl": "A1"
   },
   {
     "w": "auf",
@@ -321,7 +356,8 @@
     "st": "Two-Way (Wechsel)",
     "ce": "Accusative or Dative",
     "ex": "Ich lege das Buch auf den Tisch. (Acc) / Das Buch liegt auf dem Tisch. (Dat)",
-    "mh": "Wohin?=Acc (movement), Wo?=Dat (location). auf = on top of horizontal surfaces."
+    "mh": "Wohin?=Acc (movement), Wo?=Dat (location). auf = on top of horizontal surfaces.",
+    "lvl": "A1"
   },
   {
     "w": "vor",
@@ -330,7 +366,8 @@
     "st": "Two-Way (Wechsel)",
     "ce": "Accusative or Dative",
     "ex": "Stell das Auto vor die Tür. (Acc) / Das Auto steht vor der Tür. (Dat)",
-    "mh": "Wohin?=Acc, Wo?=Dat. Also: vor kurzem (a little while ago)."
+    "mh": "Wohin?=Acc, Wo?=Dat. Also: vor kurzem (a little while ago).",
+    "lvl": "A1"
   },
   {
     "w": "statt",
@@ -339,7 +376,8 @@
     "st": "Genitive",
     "ce": "Genitive",
     "ex": "Statt des Tees trinke ich Kaffee.",
-    "mh": "Genitive in writing. statt/anstatt = instead of. Spoken: statt+Dative common."
+    "mh": "Genitive in writing. statt/anstatt = instead of. Spoken: statt+Dative common.",
+    "lvl": "B1"
   },
   {
     "w": "unter",
@@ -348,7 +386,8 @@
     "st": "Two-Way (Wechsel)",
     "ce": "Accusative or Dative",
     "ex": "Der Hund kriecht unter den Stuhl. (Acc) / Der Hund schläft unter dem Stuhl. (Dat)",
-    "mh": "Wohin?=Acc (movement), Wo?=Dat (location)."
+    "mh": "Wohin?=Acc (movement), Wo?=Dat (location).",
+    "lvl": "A1"
   },
   {
     "w": "hinter",
@@ -357,7 +396,8 @@
     "st": "Two-Way (Wechsel)",
     "ce": "Accusative or Dative",
     "ex": "Geh hinter das Haus! (Acc) / Wir stehen hinter dem Haus. (Dat)",
-    "mh": "Wohin?=Acc (movement), Wo?=Dat (location)."
+    "mh": "Wohin?=Acc (movement), Wo?=Dat (location).",
+    "lvl": "A1"
   },
   {
     "w": "über",
@@ -366,7 +406,8 @@
     "st": "Two-Way (Wechsel)",
     "ce": "Accusative or Dative",
     "ex": "Der Vogel fliegt über den Baum. (Acc) / Die Lampe hängt über dem Tisch. (Dat)",
-    "mh": "Wohin?=Acc, Wo?=Dat. Also: über = about (topic): Wir reden über das Wetter."
+    "mh": "Wohin?=Acc, Wo?=Dat. Also: über = about (topic): Wir reden über das Wetter.",
+    "lvl": "A1"
   },
   {
     "w": "zwischen",
@@ -375,7 +416,8 @@
     "st": "Two-Way (Wechsel)",
     "ce": "Accusative or Dative",
     "ex": "Ich lege es zwischen die Bücher. (Acc) / Es liegt zwischen den Büchern. (Dat)",
-    "mh": "Wohin?=Acc, Wo?=Dat. Plural dative adds -n to noun: Bücher → Büchern."
+    "mh": "Wohin?=Acc, Wo?=Dat. Plural dative adds -n to noun: Bücher → Büchern.",
+    "lvl": "A1"
   },
   {
     "w": "in",
@@ -384,7 +426,8 @@
     "st": "Two-Way (Wechsel)",
     "ce": "Accusative or Dative",
     "ex": "Ich gehe in den Park. (Acc) / Ich bin in dem Park. (Dat)",
-    "mh": "Wohin? (where to?) = Accusative. Wo? (where?) = Dative. Movement vs Location."
+    "mh": "Wohin? (where to?) = Accusative. Wo? (where?) = Dative. Movement vs Location.",
+    "lvl": "A1"
   },
   {
     "w": "an",
@@ -393,7 +436,8 @@
     "st": "Two-Way (Wechsel)",
     "ce": "Accusative or Dative",
     "ex": "Ich hänge das Bild an die Wand. (Acc) / Das Bild hängt an der Wand. (Dat)",
-    "mh": "Wohin?=Acc (movement), Wo?=Dat (location). an = on vertical surfaces + borders."
+    "mh": "Wohin?=Acc (movement), Wo?=Dat (location). an = on vertical surfaces + borders.",
+    "lvl": "A1"
   },
   {
     "w": "neben",
@@ -402,7 +446,8 @@
     "st": "Two-Way (Wechsel)",
     "ce": "Accusative or Dative",
     "ex": "Er setzt sich neben mich. (Acc) / Er sitzt neben mir. (Dat)",
-    "mh": "Wohin?=Acc (movement), Wo?=Dat (location)."
+    "mh": "Wohin?=Acc (movement), Wo?=Dat (location).",
+    "lvl": "A2"
   },
   {
     "w": "wegen",
@@ -411,7 +456,8 @@
     "st": "Genitive",
     "ce": "Genitive",
     "ex": "Wegen des Regens bleibe ich zu Hause.",
-    "mh": "Genitive in writing; Dative in speech (wegen dem Regen). Very common."
+    "mh": "Genitive in writing; Dative in speech (wegen dem Regen). Very common.",
+    "lvl": "B1"
   },
   {
     "w": "trotz",
@@ -420,7 +466,8 @@
     "st": "Genitive",
     "ce": "Genitive",
     "ex": "Trotz des Wetters gehen wir raus.",
-    "mh": "Genitive in writing. trotz = despite. Spoken: trotz+Dative also accepted."
+    "mh": "Genitive in writing. trotz = despite. Spoken: trotz+Dative also accepted.",
+    "lvl": "B1"
   },
   {
     "w": "nie",
@@ -429,7 +476,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Ich trinke nie Kaffee.",
-    "mh": "Time adverb. nie = never. niemals = never ever (emphatic)."
+    "mh": "Time adverb. nie = never. niemals = never ever (emphatic).",
+    "lvl": "A1"
   },
   {
     "w": "hier",
@@ -438,7 +486,8 @@
     "st": "Place Adverb",
     "ce": "None — keeps word order",
     "ex": "Hier bleiben wir.",
-    "mh": "Place adverb. hier=here, dort=there. Triggers inversion at sentence start."
+    "mh": "Place adverb. hier=here, dort=there. Triggers inversion at sentence start.",
+    "lvl": "A1"
   },
   {
     "w": "überall",
@@ -447,7 +496,8 @@
     "st": "Place Adverb",
     "ce": "None — keeps word order",
     "ex": "Überall gibt es WLAN.",
-    "mh": "Place adverb. überall = everywhere. Triggers inversion at sentence start."
+    "mh": "Place adverb. überall = everywhere. Triggers inversion at sentence start.",
+    "lvl": "A2"
   },
   {
     "w": "dort",
@@ -456,7 +506,8 @@
     "st": "Place Adverb",
     "ce": "None — keeps word order",
     "ex": "Dort steht mein Auto.",
-    "mh": "Place adverb. dort=there (further away), da=there (nearby/informal)."
+    "mh": "Place adverb. dort=there (further away), da=there (nearby/informal).",
+    "lvl": "A1"
   },
   {
     "w": "schon",
@@ -465,7 +516,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Ich habe schon gegessen.",
-    "mh": "Time adverb. schon = already (completed). schon vs noch: schon=already, noch=still/yet."
+    "mh": "Time adverb. schon = already (completed). schon vs noch: schon=already, noch=still/yet.",
+    "lvl": "A2"
   },
   {
     "w": "bald",
@@ -474,7 +526,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Bald kommt der Zug.",
-    "mh": "Time adverb. bald = soon."
+    "mh": "Time adverb. bald = soon.",
+    "lvl": "A2"
   },
   {
     "w": "drinnen",
@@ -483,7 +536,8 @@
     "st": "Place Adverb",
     "ce": "None — keeps word order",
     "ex": "Drinnen ist es warm.",
-    "mh": "Place adverb. drinnen=inside. Opposite of draußen."
+    "mh": "Place adverb. drinnen=inside. Opposite of draußen.",
+    "lvl": "A2"
   },
   {
     "w": "immer",
@@ -492,7 +546,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Sie ist immer pünktlich.",
-    "mh": "Time adverb. immer = always. immer+noch = still ongoing."
+    "mh": "Time adverb. immer = always. immer+noch = still ongoing.",
+    "lvl": "A1"
   },
   {
     "w": "später",
@@ -501,7 +556,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Später essen wir Pizza.",
-    "mh": "Time adverb. At sentence start triggers inversion."
+    "mh": "Time adverb. At sentence start triggers inversion.",
+    "lvl": "A2"
   },
   {
     "w": "noch",
@@ -510,7 +566,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Er schläft noch. / Noch nicht.",
-    "mh": "Time adverb. noch = still (ongoing). noch nicht = not yet. Also: noch ein = one more."
+    "mh": "Time adverb. noch = still (ongoing). noch nicht = not yet. Also: noch ein = one more.",
+    "lvl": "A1"
   },
   {
     "w": "heute",
@@ -519,7 +576,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Heute arbeitet er nicht.",
-    "mh": "Time adverb. Triggers inversion when sentence-initial."
+    "mh": "Time adverb. Triggers inversion when sentence-initial.",
+    "lvl": "A1"
   },
   {
     "w": "nirgendwo",
@@ -528,7 +586,8 @@
     "st": "Place Adverb",
     "ce": "None — keeps word order",
     "ex": "Nirgendwo kann ich es finden.",
-    "mh": "Place adverb. nirgendwo / nirgends = nowhere."
+    "mh": "Place adverb. nirgendwo / nirgends = nowhere.",
+    "lvl": "B1"
   },
   {
     "w": "jetzt",
@@ -537,7 +596,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Jetzt lerne ich Deutsch. / Ich lerne jetzt Deutsch.",
-    "mh": "Time adverb. At start of sentence → Verb+Subject swap. In middle → normal."
+    "mh": "Time adverb. At start of sentence → Verb+Subject swap. In middle → normal.",
+    "lvl": "A1"
   },
   {
     "w": "draußen",
@@ -546,7 +606,8 @@
     "st": "Place Adverb",
     "ce": "None — keeps word order",
     "ex": "Die Kinder spielen draußen.",
-    "mh": "Place adverb. draußen=outside, drinnen=inside."
+    "mh": "Place adverb. draußen=outside, drinnen=inside.",
+    "lvl": "A2"
   },
   {
     "w": "damit (da-word)",
@@ -555,7 +616,8 @@
     "st": "Pronominal Adverb (Da-Word)",
     "ce": "None — keeps word order",
     "ex": "Ich repariere es damit.",
-    "mh": "Da-Word: da+mit. Replaces mit+thing. Don't confuse with damit (conjunction = so that)."
+    "mh": "Da-Word: da+mit. Replaces mit+thing. Don't confuse with damit (conjunction = so that).",
+    "lvl": "B1"
   },
   {
     "w": "darauf",
@@ -564,7 +626,8 @@
     "st": "Pronominal Adverb (Da-Word)",
     "ce": "None — keeps word order",
     "ex": "Ich warte darauf.",
-    "mh": "Da-Word: dar+auf ('r' added). warten auf = to wait for → darauf."
+    "mh": "Da-Word: dar+auf ('r' added). warten auf = to wait for → darauf.",
+    "lvl": "B1"
   },
   {
     "w": "jemand",
@@ -573,7 +636,8 @@
     "st": "Indefinite Pronoun",
     "ce": "None — keeps word order",
     "ex": "Ich sehe jemanden an der Tür.",
-    "mh": "Indefinite pronoun. Changes case: jemand / jemanden (Acc) / jemandem (Dat)."
+    "mh": "Indefinite pronoun. Changes case: jemand / jemanden (Acc) / jemandem (Dat).",
+    "lvl": "A1"
   },
   {
     "w": "alles",
@@ -582,7 +646,8 @@
     "st": "Indefinite Pronoun",
     "ce": "None — keeps word order",
     "ex": "Alles ist in Ordnung.",
-    "mh": "Indefinite pronoun. Singular concept → singular verb. alles = everything."
+    "mh": "Indefinite pronoun. Singular concept → singular verb. alles = everything.",
+    "lvl": "A1"
   },
   {
     "w": "daran",
@@ -591,7 +656,8 @@
     "st": "Pronominal Adverb (Da-Word)",
     "ce": "None — keeps word order",
     "ex": "Ich denke daran.",
-    "mh": "Da-Word: dar+an ('r' because an starts with vowel). Replaces an+thing."
+    "mh": "Da-Word: dar+an ('r' because an starts with vowel). Replaces an+thing.",
+    "lvl": "B1"
   },
   {
     "w": "etwas",
@@ -600,7 +666,8 @@
     "st": "Indefinite Pronoun",
     "ce": "None — keeps word order",
     "ex": "Ich möchte etwas essen.",
-    "mh": "Indefinite pronoun for things. Never changes its ending. etwas = something."
+    "mh": "Indefinite pronoun for things. Never changes its ending. etwas = something.",
+    "lvl": "A1"
   },
   {
     "w": "dafür",
@@ -609,7 +676,8 @@
     "st": "Pronominal Adverb (Da-Word)",
     "ce": "None — keeps word order",
     "ex": "Ich interessiere mich dafür.",
-    "mh": "Da-Word: da+für. sich interessieren für = to be interested in → dafür."
+    "mh": "Da-Word: da+für. sich interessieren für = to be interested in → dafür.",
+    "lvl": "B1"
   },
   {
     "w": "darüber",
@@ -618,7 +686,8 @@
     "st": "Pronominal Adverb (Da-Word)",
     "ce": "None — keeps word order",
     "ex": "Wir sprechen darüber.",
-    "mh": "Da-Word: dar+über. 'r' added because über starts with vowel. Replaces über+thing."
+    "mh": "Da-Word: dar+über. 'r' added because über starts with vowel. Replaces über+thing.",
+    "lvl": "B1"
   },
   {
     "w": "dazu",
@@ -627,7 +696,8 @@
     "st": "Pronominal Adverb (Da-Word)",
     "ce": "None — keeps word order",
     "ex": "Was sagst du dazu?",
-    "mh": "Da-Word: da+zu. sagen zu = to say about → dazu."
+    "mh": "Da-Word: da+zu. sagen zu = to say about → dazu.",
+    "lvl": "B1"
   },
   {
     "w": "nichts",
@@ -636,7 +706,8 @@
     "st": "Indefinite Pronoun",
     "ce": "None — keeps word order",
     "ex": "Er hat nichts gesagt.",
-    "mh": "Indefinite pronoun for things. Never changes. nicht+s = not+thing = nothing."
+    "mh": "Indefinite pronoun for things. Never changes. nicht+s = not+thing = nothing.",
+    "lvl": "A1"
   },
   {
     "w": "man",
@@ -645,7 +716,8 @@
     "st": "Indefinite Pronoun",
     "ce": "None — keeps word order",
     "ex": "Hier darf man nicht rauchen.",
-    "mh": "Impersonal 'one'. Always 3rd person singular verb. Cannot be used as object."
+    "mh": "Impersonal 'one'. Always 3rd person singular verb. Cannot be used as object.",
+    "lvl": "A1"
   },
   {
     "w": "alle",
@@ -654,7 +726,8 @@
     "st": "Indefinite Pronoun",
     "ce": "None — keeps word order",
     "ex": "Alle sind heute glücklich.",
-    "mh": "Indefinite pronoun. Plural → plural verb. alle = all people/things."
+    "mh": "Indefinite pronoun. Plural → plural verb. alle = all people/things.",
+    "lvl": "A1"
   },
   {
     "w": "jeder",
@@ -663,7 +736,8 @@
     "st": "Indefinite Pronoun",
     "ce": "None — keeps word order",
     "ex": "Jeder muss ein Ticket kaufen.",
-    "mh": "Indefinite pronoun. Declines like an adjective: jeder/jede/jedes to match gender."
+    "mh": "Indefinite pronoun. Declines like an adjective: jeder/jede/jedes to match gender.",
+    "lvl": "A2"
   },
   {
     "w": "niemand",
@@ -672,7 +746,8 @@
     "st": "Indefinite Pronoun",
     "ce": "None — keeps word order",
     "ex": "Niemand hat das gesehen.",
-    "mh": "Indefinite pronoun. niemand / niemanden (Acc) / niemandem (Dat)."
+    "mh": "Indefinite pronoun. niemand / niemanden (Acc) / niemandem (Dat).",
+    "lvl": "A2"
   },
   {
     "w": "zuerst",
@@ -681,7 +756,8 @@
     "st": "Conjunctive Adverb (Inverter)",
     "ce": "Verb-Subject swap (inverter)",
     "ex": "Zuerst lerne ich Vokabeln. Dann mache ich Grammatik.",
-    "mh": "Inverter. zuerst = first of all. Great for ordering steps."
+    "mh": "Inverter. zuerst = first of all. Great for ordering steps.",
+    "lvl": "A2"
   },
   {
     "w": "jedoch",
@@ -690,7 +766,8 @@
     "st": "Conjunctive Adverb (Inverter)",
     "ce": "Verb-Subject swap (inverter)",
     "ex": "Ich mag Kaffee. Jedoch trinke ich ihn selten.",
-    "mh": "Inverter. jedoch = however, more formal than aber."
+    "mh": "Inverter. jedoch = however, more formal than aber.",
+    "lvl": "B1"
   },
   {
     "w": "endlich",
@@ -699,7 +776,8 @@
     "st": "Conjunctive Adverb (Inverter)",
     "ce": "Verb-Subject swap (inverter)",
     "ex": "Endlich bin ich fertig!",
-    "mh": "Inverter. endlich = finally (relief). schließlich = finally (conclusion/after all)."
+    "mh": "Inverter. endlich = finally (relief). schließlich = finally (conclusion/after all).",
+    "lvl": "A2"
   },
   {
     "w": "also",
@@ -708,7 +786,8 @@
     "st": "Conjunctive Adverb (Inverter)",
     "ce": "Verb-Subject swap (inverter)",
     "ex": "Ich bin müde. Also gehe ich schlafen.",
-    "mh": "Inverter. also ≠ 'also' in English! German also = so/therefore."
+    "mh": "Inverter. also ≠ 'also' in English! German also = so/therefore.",
+    "lvl": "A2"
   },
   {
     "w": "dann",
@@ -717,7 +796,8 @@
     "st": "Conjunctive Adverb (Inverter)",
     "ce": "Verb-Subject swap (inverter)",
     "ex": "Wir essen. Dann gehen wir spazieren.",
-    "mh": "Inverter. dann = then (sequence). Don't confuse with denn (because, coordinating)."
+    "mh": "Inverter. dann = then (sequence). Don't confuse with denn (because, coordinating).",
+    "lvl": "A1"
   },
   {
     "w": "leider",
@@ -726,7 +806,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Leider kann ich nicht kommen.",
-    "mh": "Modal adverb. leider = unfortunately. Triggers inversion at sentence start."
+    "mh": "Modal adverb. leider = unfortunately. Triggers inversion at sentence start.",
+    "lvl": "A2"
   },
   {
     "w": "nach Hause / zu Hause",
@@ -735,7 +816,8 @@
     "st": "Place Adverb",
     "ce": "None — keeps word order",
     "ex": "Ich gehe nach Hause. Ich bin zu Hause.",
-    "mh": "nach Hause = going home (direction). zu Hause = at home (location). Two fixed phrases!"
+    "mh": "nach Hause = going home (direction). zu Hause = at home (location). Two fixed phrases!",
+    "lvl": "A1"
   },
   {
     "w": "sehr",
@@ -744,7 +826,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Das ist sehr gut. Ich bin sehr müde.",
-    "mh": "Intensifier adverb. sehr = very. Cannot be used with verbs, only adj/adv."
+    "mh": "Intensifier adverb. sehr = very. Cannot be used with verbs, only adj/adv.",
+    "lvl": "A1"
   },
   {
     "w": "zusammen",
@@ -753,7 +836,8 @@
     "st": "Place Adverb",
     "ce": "None — keeps word order",
     "ex": "Wir machen das zusammen.",
-    "mh": "Place/manner adverb. zusammen = together. zusammen+kommen = to meet up."
+    "mh": "Place/manner adverb. zusammen = together. zusammen+kommen = to meet up.",
+    "lvl": "A1"
   },
   {
     "w": "auch",
@@ -762,7 +846,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Ich esse auch Gemüse. Kommst du auch?",
-    "mh": "Adverb, not an inverter. auch stays in the middle of the sentence."
+    "mh": "Adverb, not an inverter. auch stays in the middle of the sentence.",
+    "lvl": "A1"
   },
   {
     "w": "gern",
@@ -771,7 +856,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Ich esse gern Pizza. Ich helfe gern.",
-    "mh": "Adverb of attitude. gern/gerne = gladly/with pleasure. lieber = prefer. am liebsten = love most."
+    "mh": "Adverb of attitude. gern/gerne = gladly/with pleasure. lieber = prefer. am liebsten = love most.",
+    "lvl": "A1"
   },
   {
     "w": "nur",
@@ -780,7 +866,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Ich habe nur fünf Euro. Nur du kannst mir helfen.",
-    "mh": "Adverb of restriction. nur = only/just. Very high frequency."
+    "mh": "Adverb of restriction. nur = only/just. Very high frequency.",
+    "lvl": "A1"
   },
   {
     "w": "vielleicht",
@@ -789,7 +876,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Vielleicht komme ich morgen.",
-    "mh": "Modal adverb. vielleicht = maybe/perhaps. Triggers inversion at sentence start."
+    "mh": "Modal adverb. vielleicht = maybe/perhaps. Triggers inversion at sentence start.",
+    "lvl": "A2"
   },
   {
     "w": "dagegen",
@@ -798,7 +886,8 @@
     "st": "Pronominal Adverb (Da-Word)",
     "ce": "None — keeps word order",
     "ex": "Ich habe nichts dagegen.",
-    "mh": "Da-Word: da+gegen. nichts dagegen haben = to have no objection."
+    "mh": "Da-Word: da+gegen. nichts dagegen haben = to have no objection.",
+    "lvl": "B1"
   },
   {
     "w": "daraus",
@@ -807,7 +896,8 @@
     "st": "Pronominal Adverb (Da-Word)",
     "ce": "None — keeps word order",
     "ex": "Ich nehme das Buch. Ich lerne daraus.",
-    "mh": "Da-Word: dar+aus. Replaces aus+thing. 'r' added because aus starts with vowel."
+    "mh": "Da-Word: dar+aus. Replaces aus+thing. 'r' added because aus starts with vowel.",
+    "lvl": "B1"
   },
   {
     "w": "darin",
@@ -816,7 +906,8 @@
     "st": "Pronominal Adverb (Da-Word)",
     "ce": "None — keeps word order",
     "ex": "Die Schlüssel sind darin.",
-    "mh": "Da-Word: dar+in. 'r' added because in starts with vowel. Replaces in+thing."
+    "mh": "Da-Word: dar+in. 'r' added because in starts with vowel. Replaces in+thing.",
+    "lvl": "B1"
   },
   {
     "w": "daneben",
@@ -825,7 +916,8 @@
     "st": "Pronominal Adverb (Da-Word)",
     "ce": "None — keeps word order",
     "ex": "Ich sitze daneben.",
-    "mh": "Da-Word: da+neben. Replaces neben+thing."
+    "mh": "Da-Word: da+neben. Replaces neben+thing.",
+    "lvl": "B1"
   },
   {
     "w": "dahinter",
@@ -834,7 +926,8 @@
     "st": "Pronominal Adverb (Da-Word)",
     "ce": "None — keeps word order",
     "ex": "Das Haus steht dahinter.",
-    "mh": "Da-Word: da+hinter. Replaces hinter+thing."
+    "mh": "Da-Word: da+hinter. Replaces hinter+thing.",
+    "lvl": "B1"
   },
   {
     "w": "davor",
@@ -843,7 +936,8 @@
     "st": "Pronominal Adverb (Da-Word)",
     "ce": "None — keeps word order",
     "ex": "Das Auto steht davor.",
-    "mh": "Da-Word: da+vor. Replaces vor+thing."
+    "mh": "Da-Word: da+vor. Replaces vor+thing.",
+    "lvl": "B1"
   },
   {
     "w": "sobald",
@@ -852,7 +946,8 @@
     "st": "Subordinating (Verb-Kicker)",
     "ce": "Verb to end (subordinating)",
     "ex": "Ruf mich an, sobald du ankommst.",
-    "mh": "Verb-Kicker. so+bald = as soon as. Triggers an immediate reaction."
+    "mh": "Verb-Kicker. so+bald = as soon as. Triggers an immediate reaction.",
+    "lvl": "B1"
   },
   {
     "w": "solange",
@@ -861,7 +956,8 @@
     "st": "Subordinating (Verb-Kicker)",
     "ce": "Verb to end (subordinating)",
     "ex": "Solange du hier bist, bin ich glücklich.",
-    "mh": "Verb-Kicker. so+lange = as long as. Expresses a condition based on duration."
+    "mh": "Verb-Kicker. so+lange = as long as. Expresses a condition based on duration.",
+    "lvl": "B1"
   },
   {
     "w": "je … desto",
@@ -870,7 +966,8 @@
     "st": "Subordinating (Verb-Kicker)",
     "ce": "Verb to end (subordinating)",
     "ex": "Je mehr ich lerne, desto besser werde ich.",
-    "mh": "Fixed pair. je (verb to end) + desto (verb before subject). je mehr … desto besser."
+    "mh": "Fixed pair. je (verb to end) + desto (verb before subject). je mehr … desto besser.",
+    "lvl": "B1"
   },
   {
     "w": "seitdem",
@@ -879,7 +976,8 @@
     "st": "Subordinating (Verb-Kicker)",
     "ce": "Verb to end (subordinating)",
     "ex": "Seitdem er in Berlin wohnt, spricht er besser Deutsch.",
-    "mh": "Verb-Kicker. seit+dem = since then. For ongoing situations starting in the past."
+    "mh": "Verb-Kicker. seit+dem = since then. For ongoing situations starting in the past.",
+    "lvl": "B1"
   },
   {
     "w": "sodass",
@@ -888,7 +986,8 @@
     "st": "Subordinating (Verb-Kicker)",
     "ce": "Verb to end (subordinating)",
     "ex": "Er schrie so laut, sodass alle ihn hörten.",
-    "mh": "Verb-Kicker. so+dass = so that (result). Different from 'damit' (purpose/intention)."
+    "mh": "Verb-Kicker. so+dass = so that (result). Different from 'damit' (purpose/intention).",
+    "lvl": "B1"
   },
   {
     "w": "außerhalb",
@@ -897,7 +996,8 @@
     "st": "Genitive",
     "ce": "Genitive",
     "ex": "Außerhalb der Stadt ist es ruhig.",
-    "mh": "Genitive. außer+halb = outside of. Opposite: innerhalb (inside of/within)."
+    "mh": "Genitive. außer+halb = outside of. Opposite: innerhalb (inside of/within).",
+    "lvl": "B1"
   },
   {
     "w": "ab",
@@ -906,7 +1006,8 @@
     "st": "Dative Only",
     "ce": "Dative",
     "ex": "Ab dem ersten Januar gilt das neue Gesetz. Ab München fährt der Zug schnell.",
-    "mh": "Dative. ab = from (a point onwards). Very common for dates and departure points."
+    "mh": "Dative. ab = from (a point onwards). Very common for dates and departure points.",
+    "lvl": "A2"
   },
   {
     "w": "gegenüber",
@@ -915,7 +1016,8 @@
     "st": "Dative Only",
     "ce": "Dative",
     "ex": "Die Bäckerei ist dem Bahnhof gegenüber. Er ist mir gegenüber freundlich.",
-    "mh": "Dative. Can come BEFORE or AFTER the noun. gegenüber dem Bahnhof OR dem Bahnhof gegenüber."
+    "mh": "Dative. Can come BEFORE or AFTER the noun. gegenüber dem Bahnhof OR dem Bahnhof gegenüber.",
+    "lvl": "B1"
   },
   {
     "w": "innerhalb",
@@ -924,7 +1026,8 @@
     "st": "Genitive",
     "ce": "Genitive",
     "ex": "Innerhalb einer Stunde bin ich da.",
-    "mh": "Genitive. inner+halb = inside of/within. Very useful for deadlines and boundaries."
+    "mh": "Genitive. inner+halb = inside of/within. Very useful for deadlines and boundaries.",
+    "lvl": "B1"
   },
   {
     "w": "entlang",
@@ -933,7 +1036,8 @@
     "st": "Accusative Only",
     "ce": "Accusative",
     "ex": "Wir gehen die Straße entlang.",
-    "mh": "Accusative. Usually follows the noun (postposition): die Straße entlang."
+    "mh": "Accusative. Usually follows the noun (postposition): die Straße entlang.",
+    "lvl": "B1"
   },
   {
     "w": "selten",
@@ -942,7 +1046,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Ich esse selten Fleisch.",
-    "mh": "Time adverb. selten = seldom/rarely. Opposite of oft."
+    "mh": "Time adverb. selten = seldom/rarely. Opposite of oft.",
+    "lvl": "A2"
   },
   {
     "w": "manchmal",
@@ -951,7 +1056,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Manchmal esse ich zu viel.",
-    "mh": "Time adverb. manch+mal = sometimes. Part of frequency scale."
+    "mh": "Time adverb. manch+mal = sometimes. Part of frequency scale.",
+    "lvl": "A2"
   },
   {
     "w": "meistens",
@@ -960,7 +1066,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Meistens stehe ich um 7 Uhr auf.",
-    "mh": "Time adverb. meist+ens = mostly. Synonyms: normalerweise, gewöhnlich."
+    "mh": "Time adverb. meist+ens = mostly. Synonyms: normalerweise, gewöhnlich.",
+    "lvl": "A2"
   },
   {
     "w": "gestern",
@@ -969,7 +1076,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Gestern war ich müde.",
-    "mh": "Time adverb. gestern-heute-morgen = yesterday-today-tomorrow."
+    "mh": "Time adverb. gestern-heute-morgen = yesterday-today-tomorrow.",
+    "lvl": "A1"
   },
   {
     "w": "früher",
@@ -978,7 +1086,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Früher war alles anders.",
-    "mh": "Time adverb. früher = formerly/used to. Implies contrast with the present."
+    "mh": "Time adverb. früher = formerly/used to. Implies contrast with the present.",
+    "lvl": "A2"
   },
   {
     "w": "gleich",
@@ -987,7 +1096,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Ich bin gleich fertig. Der Bus kommt gleich.",
-    "mh": "Time adverb. gleich = in a moment / very soon. Also means 'equal/same' as adjective."
+    "mh": "Time adverb. gleich = in a moment / very soon. Also means 'equal/same' as adjective.",
+    "lvl": "A2"
   },
   {
     "w": "oft",
@@ -996,7 +1106,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Ich gehe oft ins Kino.",
-    "mh": "Time adverb. oft = often. Part of frequency scale."
+    "mh": "Time adverb. oft = often. Part of frequency scale.",
+    "lvl": "A1"
   },
   {
     "w": "sofort",
@@ -1005,7 +1116,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Ich komme sofort!",
-    "mh": "Time adverb. sofort = immediately. so+fort = right away. Very high frequency."
+    "mh": "Time adverb. sofort = immediately. so+fort = right away. Very high frequency.",
+    "lvl": "A2"
   },
   {
     "w": "morgens / abends / nachts",
@@ -1014,7 +1126,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Morgens trinke ich Kaffee. Abends sehe ich fern. Nachts schlafe ich.",
-    "mh": "Time adverbs with -s ending. morgens/abends/nachts/mittags = in the morning/evening/at night/at noon."
+    "mh": "Time adverbs with -s ending. morgens/abends/nachts/mittags = in the morning/evening/at night/at noon.",
+    "lvl": "A1"
   },
   {
     "w": "morgen",
@@ -1023,7 +1136,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Morgen fahre ich nach Berlin.",
-    "mh": "Time adverb. gestern-heute-morgen = yesterday-today-tomorrow. Essential trio."
+    "mh": "Time adverb. gestern-heute-morgen = yesterday-today-tomorrow. Essential trio.",
+    "lvl": "A1"
   },
   {
     "w": "zurück",
@@ -1032,7 +1146,8 @@
     "st": "Place Adverb",
     "ce": "None — keeps word order",
     "ex": "Ich komme gleich zurück. Geh zurück!",
-    "mh": "Place adverb. zurück = back. Essential in separable verbs: zurückgehen, zurückgeben."
+    "mh": "Place adverb. zurück = back. Essential in separable verbs: zurückgehen, zurückgeben.",
+    "lvl": "A1"
   },
   {
     "w": "weg",
@@ -1041,7 +1156,8 @@
     "st": "Place Adverb",
     "ce": "None — keeps word order",
     "ex": "Er ist weg. Geh weg!",
-    "mh": "Place adverb. weg = away/gone. Very common in separable verbs: weggehen, wegfahren."
+    "mh": "Place adverb. weg = away/gone. Very common in separable verbs: weggehen, wegfahren.",
+    "lvl": "A2"
   },
   {
     "w": "rechts",
@@ -1050,7 +1166,8 @@
     "st": "Place Adverb",
     "ce": "None — keeps word order",
     "ex": "Nehmen Sie die erste Straße rechts.",
-    "mh": "Place adverb. rechts=right. rechts+links = right and left."
+    "mh": "Place adverb. rechts=right. rechts+links = right and left.",
+    "lvl": "A1"
   },
   {
     "w": "links",
@@ -1059,7 +1176,8 @@
     "st": "Place Adverb",
     "ce": "None — keeps word order",
     "ex": "Biegen Sie links ab. Das Café ist links.",
-    "mh": "Place adverb. links=left, rechts=right, geradeaus=straight ahead. Essential for directions."
+    "mh": "Place adverb. links=left, rechts=right, geradeaus=straight ahead. Essential for directions.",
+    "lvl": "A1"
   },
   {
     "w": "geradeaus",
@@ -1068,7 +1186,8 @@
     "st": "Place Adverb",
     "ce": "None — keeps word order",
     "ex": "Gehen Sie immer geradeaus.",
-    "mh": "Place adverb. gerade+aus = straight ahead. Essential for giving directions."
+    "mh": "Place adverb. gerade+aus = straight ahead. Essential for giving directions.",
+    "lvl": "A1"
   },
   {
     "w": "oben",
@@ -1077,7 +1196,8 @@
     "st": "Place Adverb",
     "ce": "None — keeps word order",
     "ex": "Die Wohnung ist oben. Schau mal oben nach.",
-    "mh": "Place adverb. oben=up/above, unten=down/below. nach oben = upward (direction)."
+    "mh": "Place adverb. oben=up/above, unten=down/below. nach oben = upward (direction).",
+    "lvl": "A1"
   },
   {
     "w": "irgendwo",
@@ -1086,7 +1206,8 @@
     "st": "Place Adverb",
     "ce": "None — keeps word order",
     "ex": "Ich habe das Handy irgendwo gelassen.",
-    "mh": "Place adverb. irgend+wo = somewhere. irgend- prefix = some- (vague). nirgendwo = nowhere."
+    "mh": "Place adverb. irgend+wo = somewhere. irgend- prefix = some- (vague). nirgendwo = nowhere.",
+    "lvl": "B1"
   },
   {
     "w": "unten",
@@ -1095,7 +1216,8 @@
     "st": "Place Adverb",
     "ce": "None — keeps word order",
     "ex": "Warte unten auf mich.",
-    "mh": "Place adverb. unten=below/downstairs. Opposite of oben."
+    "mh": "Place adverb. unten=below/downstairs. Opposite of oben.",
+    "lvl": "A1"
   },
   {
     "w": "zu (adverb)",
@@ -1104,7 +1226,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Das ist zu teuer. Ich esse zu viel.",
-    "mh": "Adverb of degree. zu = too (excessive). Don't confuse with 'zu' (preposition = to)."
+    "mh": "Adverb of degree. zu = too (excessive). Don't confuse with 'zu' (preposition = to).",
+    "lvl": "A2"
   },
   {
     "w": "viele / viel",
@@ -1113,7 +1236,8 @@
     "st": "Indefinite Pronoun",
     "ce": "None — keeps word order",
     "ex": "Viele Leute sprechen Deutsch. Ich habe viel Zeit.",
-    "mh": "viele (pl.) = many people/things. viel (sg.) = a lot of (uncountable). Both extremely common."
+    "mh": "viele (pl.) = many people/things. viel (sg.) = a lot of (uncountable). Both extremely common.",
+    "lvl": "A1"
   },
   {
     "w": "beide / beides",
@@ -1122,7 +1246,8 @@
     "st": "Indefinite Pronoun",
     "ce": "None — keeps word order",
     "ex": "Ich mag beide. Beides ist möglich.",
-    "mh": "beide = both (people/things plural). beides = both things (singular concept)."
+    "mh": "beide = both (people/things plural). beides = both things (singular concept).",
+    "lvl": "A2"
   },
   {
     "w": "ein bisschen / ein paar",
@@ -1131,7 +1256,8 @@
     "st": "Indefinite Pronoun",
     "ce": "None — keeps word order",
     "ex": "Ich spreche ein bisschen Deutsch. Warte noch ein paar Minuten.",
-    "mh": "ein bisschen = a little (uncountable). ein paar = a few (countable plural). Both never decline."
+    "mh": "ein bisschen = a little (uncountable). ein paar = a few (countable plural). Both never decline.",
+    "lvl": "A1"
   },
   {
     "w": "irgendwann",
@@ -1140,7 +1266,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Irgendwann möchte ich nach Japan reisen.",
-    "mh": "Time adverb. irgend+wann = sometime/at some point. Vague future or past."
+    "mh": "Time adverb. irgend+wann = sometime/at some point. Vague future or past.",
+    "lvl": "B1"
   },
   {
     "w": "irgendwie",
@@ -1149,7 +1276,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Das müssen wir irgendwie lösen.",
-    "mh": "irgend- family: irgendwie (somehow), irgendwo (somewhere), irgendwann (sometime)."
+    "mh": "irgend- family: irgendwie (somehow), irgendwo (somewhere), irgendwann (sometime).",
+    "lvl": "B1"
   },
   {
     "w": "einige",
@@ -1158,7 +1286,8 @@
     "st": "Indefinite Pronoun",
     "ce": "None — keeps word order",
     "ex": "Einige Leute wissen das nicht. Ich habe einige Fragen.",
-    "mh": "Indefinite pronoun/adjective. einige = some/several. Plural, declines like an adjective."
+    "mh": "Indefinite pronoun/adjective. einige = some/several. Plural, declines like an adjective.",
+    "lvl": "B1"
   },
   {
     "w": "so",
@@ -1167,7 +1296,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "So viel! Das kann ich nicht so machen.",
-    "mh": "Intensifier + manner adverb. so = so/such/like that. So ein = what a (So ein Glück! = What luck!)."
+    "mh": "Intensifier + manner adverb. so = so/such/like that. So ein = what a (So ein Glück! = What luck!).",
+    "lvl": "A1"
   },
   {
     "w": "allerdings",
@@ -1176,7 +1306,8 @@
     "st": "Conjunctive Adverb (Inverter)",
     "ce": "Verb-Subject swap (inverter)",
     "ex": "Das Auto ist schön. Allerdings ist es zu teuer.",
-    "mh": "Inverter. Functions like a sophisticated 'aber' (but/however)."
+    "mh": "Inverter. Functions like a sophisticated 'aber' (but/however).",
+    "lvl": "B1"
   },
   {
     "w": "bereits",
@@ -1185,7 +1316,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Ich habe die E-Mail bereits gelesen.",
-    "mh": "Formal synonym for 'schon'. Very common in written A2/B1 texts."
+    "mh": "Formal synonym for 'schon'. Very common in written A2/B1 texts.",
+    "lvl": "B1"
   },
   {
     "w": "bisher",
@@ -1194,7 +1326,8 @@
     "st": "Time Adverb",
     "ce": "None — keeps word order",
     "ex": "Bisher gab es keine Probleme.",
-    "mh": "Time adverb. Often used with the Perfekt tense to recap the past up to the present."
+    "mh": "Time adverb. Often used with the Perfekt tense to recap the past up to the present.",
+    "lvl": "B1"
   },
   {
     "w": "dabei",
@@ -1203,7 +1336,8 @@
     "st": "Pronominal Adverb",
     "ce": "None — keeps word order",
     "ex": "Ich koche und höre dabei Musik.",
-    "mh": "Means doing two things at the same time. da+bei (at it)."
+    "mh": "Means doing two things at the same time. da+bei (at it).",
+    "lvl": "B1"
   },
   {
     "w": "deswegen",
@@ -1212,7 +1346,8 @@
     "st": "Conjunctive Adverb (Inverter)",
     "ce": "Verb-Subject swap (inverter)",
     "ex": "Ich war krank. Deswegen konnte ich nicht kommen.",
-    "mh": "Inverter. Exact synonym for 'deshalb' and 'darum'."
+    "mh": "Inverter. Exact synonym for 'deshalb' and 'darum'.",
+    "lvl": "B1"
   },
   {
     "w": "einerseits ... andererseits",
@@ -1221,7 +1356,8 @@
     "st": "Conjunctive Adverb (Inverter)",
     "ce": "Verb-Subject swap (inverter)",
     "ex": "Einerseits ist es teuer, andererseits ist die Qualität gut.",
-    "mh": "A two-part connector that triggers inversion after each word."
+    "mh": "A two-part connector that triggers inversion after each word.",
+    "lvl": "B1"
   },
   {
     "w": "entweder ... oder",
@@ -1230,7 +1366,8 @@
     "st": "Coordinating (Multi-part)",
     "ce": "None — keeps word order",
     "ex": "Entweder wir gehen ins Kino, oder wir bleiben zu Hause.",
-    "mh": "Two-part connector showing alternatives. 'oder' behaves like ADUSO (zero position)."
+    "mh": "Two-part connector showing alternatives. 'oder' behaves like ADUSO (zero position).",
+    "lvl": "B1"
   },
   {
     "w": "sowohl ... als auch",
@@ -1239,7 +1376,8 @@
     "st": "Coordinating (Multi-part)",
     "ce": "None — keeps word order",
     "ex": "Ich spreche sowohl Englisch als auch Deutsch.",
-    "mh": "Two-part connector linking two positive facts. No verb kicking!"
+    "mh": "Two-part connector linking two positive facts. No verb kicking!",
+    "lvl": "B1"
   },
   {
     "w": "weder ... noch",
@@ -1248,7 +1386,8 @@
     "st": "Coordinating (Multi-part)",
     "ce": "Verb-Subject swap (inverter)",
     "ex": "Er spricht weder Englisch noch Deutsch.",
-    "mh": "Two-part connector for double negatives. 'Noch' causes inversion if a verb follows it."
+    "mh": "Two-part connector for double negatives. 'Noch' causes inversion if a verb follows it.",
+    "lvl": "B1"
   },
   {
     "w": "nämlich",
@@ -1257,7 +1396,8 @@
     "st": "Explanatory Adverb",
     "ce": "None (sits in position 3)",
     "ex": "Ich gehe ins Bett. Ich bin nämlich sehr müde.",
-    "mh": "Translates to 'because' but acts as an adverb, usually placed AFTER the verb in the second clause."
+    "mh": "Translates to 'because' but acts as an adverb, usually placed AFTER the verb in the second clause.",
+    "lvl": "B1"
   },
   {
     "w": "schließlich",
@@ -1266,7 +1406,8 @@
     "st": "Time / Conjunctive Adverb",
     "ce": "Verb-Subject swap (inverter)",
     "ex": "Schließlich haben wir eine Lösung gefunden.",
-    "mh": "Signals the conclusion of a story or an ultimate realization."
+    "mh": "Signals the conclusion of a story or an ultimate realization.",
+    "lvl": "B1"
   },
   {
     "w": "stattdessen",
@@ -1275,7 +1416,8 @@
     "st": "Conjunctive Adverb (Inverter)",
     "ce": "Verb-Subject swap (inverter)",
     "ex": "Wir gehen nicht ins Kino. Stattdessen bleiben wir hier.",
-    "mh": "Inverter. Adverb form of the preposition 'statt'."
+    "mh": "Inverter. Adverb form of the preposition 'statt'.",
+    "lvl": "B1"
   },
   {
     "w": "tatsächlich",
@@ -1284,7 +1426,8 @@
     "st": "Modal Adverb",
     "ce": "None — keeps word order",
     "ex": "Das ist tatsächlich wahr.",
-    "mh": "Used to confirm something surprising but true. From 'die Tatsache' (fact)."
+    "mh": "Used to confirm something surprising but true. From 'die Tatsache' (fact).",
+    "lvl": "B1"
   },
   {
     "w": "überhaupt",
@@ -1293,7 +1436,8 @@
     "st": "Modal Adverb",
     "ce": "None — keeps word order",
     "ex": "Ich habe überhaupt keine Zeit.",
-    "mh": "Used to strengthen a negative ('überhaupt nicht' = not at all) or as a broad generalization."
+    "mh": "Used to strengthen a negative ('überhaupt nicht' = not at all) or as a broad generalization.",
+    "lvl": "B1"
   },
   {
     "w": "übrigens",
@@ -1302,6 +1446,7 @@
     "st": "Modal Adverb",
     "ce": "Verb-Subject swap (inverter)",
     "ex": "Übrigens, hast du meine E-Mail bekommen?",
-    "mh": "Very common conversation filler used to introduce an afterthought."
+    "mh": "Very common conversation filler used to introduce an afterthought.",
+    "lvl": "B1"
   }
 ]
