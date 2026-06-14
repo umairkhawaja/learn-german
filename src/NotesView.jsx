@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback, useMemo } from "react";
 import { NotionRenderer } from "react-notion-x";
 import "react-notion-x/src/styles.css";
 import { NOTION_PAGES, NOTION_PROXY_URL } from "./notesConfig";
@@ -35,16 +35,33 @@ function SetupNotice() {
 }
 
 function NotionPage({ pageId, proxyUrl }) {
+  const [pageStack, setPageStack] = useState([pageId]);
+  const currentId = pageStack[pageStack.length - 1];
   const [recordMap, setRecordMap] = useState(null);
   const [error, setError] = useState(null);
 
   useEffect(() => {
     setRecordMap(null);
     setError(null);
-    fetchNotionPage(pageId, proxyUrl)
+    fetchNotionPage(currentId, proxyUrl)
       .then(setRecordMap)
       .catch((e) => setError(e.message));
-  }, [pageId, proxyUrl]);
+  }, [currentId, proxyUrl]);
+
+  const pushPage = useCallback((id) => setPageStack((s) => [...s, id]), []);
+  const popPage = useCallback(() => setPageStack((s) => s.slice(0, -1)), []);
+
+  const PageLink = useMemo(() => function PageLink({ href, children, className, style }) {
+    // mapPageUrl returns "#<rawId>" — extract it
+    const subId = href?.startsWith("#") ? href.slice(1) : null;
+    if (!subId) return <a href={href} className={className} style={style}>{children}</a>;
+    return (
+      <a href="#" className={className} style={style}
+        onClick={(e) => { e.preventDefault(); pushPage(subId); }}>
+        {children}
+      </a>
+    );
+  }, [pushPage]);
 
   if (error) {
     return (
@@ -54,18 +71,28 @@ function NotionPage({ pageId, proxyUrl }) {
     );
   }
 
-  if (!recordMap) {
-    return <div style={{ color: FAINT, fontSize: 13, padding: "20px 0" }}>Loading…</div>;
-  }
-
   return (
-    <div className="dm-notion-wrap">
-      <NotionRenderer
-        recordMap={recordMap}
-        fullPage={false}
-        darkMode={true}
-        disableHeader={true}
-      />
+    <div>
+      {pageStack.length > 1 && (
+        <button onClick={popPage}
+          style={{ marginBottom: 14, background: "transparent", border: "1px solid #2a2a2a", borderRadius: 8, padding: "6px 14px", color: MUTE, fontSize: 13, cursor: "pointer" }}>
+          ← Back
+        </button>
+      )}
+      {!recordMap ? (
+        <div style={{ color: FAINT, fontSize: 13, padding: "20px 0" }}>Loading…</div>
+      ) : (
+        <div className="dm-notion-wrap">
+          <NotionRenderer
+            recordMap={recordMap}
+            fullPage={false}
+            darkMode={true}
+            disableHeader={true}
+            mapPageUrl={(id) => `#${id.replace(/-/g, "")}`}
+            components={{ PageLink }}
+          />
+        </div>
+      )}
     </div>
   );
 }

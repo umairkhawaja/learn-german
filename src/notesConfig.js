@@ -10,11 +10,11 @@ export const NOTION_PROXY_URL = import.meta.env.VITE_NOTION_PROXY_URL ?? null;
 export const NOTION_PAGES = {
   A1: [
     {
-      label: "A1-1 Grammar (26 Videos)",
+      label: "A1-1 Grammar",
       pageId: "36af11d2d82181e7936cf17fd6a35fc7",
     },
     {
-      label: "A1-2 Grammar (31 Videos)",
+      label: "A1-2 Grammar",
       pageId: "36af11d2d8218136807edebb2c764850",
     },
   ],
