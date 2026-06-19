@@ -17,7 +17,7 @@ export function StatsView({ progress, setProgress, levelFilter, driveStatus, set
     pool.forEach((it) => {
       const p = progress[keyOf(cat.id, it)];
       if (p && p.total > 0) { cSeen++; seen++; cCorrect += p.correct; cTot += p.total; totCorrect += p.correct; totAns += p.total; }
-      if (p && p.mastery >= 4) { cMast++; mastered++; }
+      if (p && (p.skip || p.mastery >= 4)) { cMast++; mastered++; }
     });
     totalWords += pool.length;
     return { cat, total: pool.length, seen: cSeen, mastered: cMast, correct: cCorrect, answered: cTot };
@@ -33,7 +33,7 @@ export function StatsView({ progress, setProgress, levelFilter, driveStatus, set
       total++;
       const p = progress[keyOf(cat.id, it)];
       if (p && p.total > 0) lSeen++;
-      if (p && p.mastery >= 4) lMast++;
+      if (p && (p.skip || p.mastery >= 4)) lMast++;
     });
     return { code, total, mastered: lMast, seen: lSeen, meta: LEVELS.find((l) => l.code === code) };
   });

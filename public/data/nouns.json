@@ -3410,16 +3410,6 @@
     "lvl": "A2"
   },
   {
-    "w": "das Bürgeramt",
-    "a": "das",
-    "e": "municipality / borough office",
-    "c": "Government & Society",
-    "p": "die Bürgerämter",
-    "ex": "Das Bürgeramt ist dienstags geöffnet.",
-    "n": "Where you do your Anmeldung and get ID cards and certificates. Book an appointment online well in advance.",
-    "lvl": "B1"
-  },
-  {
     "w": "die Masterarbeit",
     "a": "die",
     "e": "thesis / dissertation",
@@ -4017,16 +4007,6 @@
     "p": "die Kritiken",
     "ex": "Ich lese immer die Kritiken.",
     "n": "Also: criticism (a critique). 'Konstruktive Kritik' = constructive criticism. Also a review (Filmkritik).",
-    "lvl": "B1"
-  },
-  {
-    "w": "das Übergabeprotokoll",
-    "a": "das",
-    "e": "handover protocol (apartment)",
-    "c": "Home & Living",
-    "p": "die Übergabeprotokolle",
-    "ex": "Das Übergabeprotokoll ist wichtig.",
-    "n": "Documents apartment condition at move-in/out. Critical for getting Kaution back.",
     "lvl": "B1"
   },
   {
@@ -4738,16 +4718,6 @@
     "ex": "Ich arbeite heute in der Nachtschicht.",
     "n": "Frühschicht = early shift, Spätschicht = late shift, Nachtschicht = night shift.",
     "lvl": "A1"
-  },
-  {
-    "w": "die möblierte Wohnung",
-    "a": "die",
-    "e": "furnished apartment",
-    "c": "Home & Living",
-    "p": "die möblierten Wohnungen",
-    "ex": "Ich suche eine möblierte Wohnung.",
-    "n": "'Möbliert' = furnished; 'teilmöbliert' = partly furnished; 'unmöbliert' = unfurnished.",
-    "lvl": "B1"
   },
   {
     "w": "die Konferenz",
@@ -5522,15 +5492,6 @@
     "lvl": "A1"
   },
   {
-    "w": "das Chanson",
-    "a": "das",
-    "e": "chanson",
-    "c": "Abstract Concepts",
-    "p": "die Chansons",
-    "ex": "Das Chanson kommt aus ...",
-    "lvl": "A1"
-  },
-  {
     "w": "Italien",
     "a": "",
     "e": "Italy",
@@ -5684,15 +5645,6 @@
     "lvl": "A1"
   },
   {
-    "w": "Hi",
-    "a": "",
-    "e": "Hi",
-    "c": "Abstract Concepts",
-    "p": "",
-    "ex": "Hi, ich bin Lars.",
-    "lvl": "A1"
-  },
-  {
     "w": "das",
     "a": "",
     "e": "the, that",
@@ -5771,15 +5723,6 @@
     "c": "Abstract Concepts",
     "p": "die Punkte",
     "ex": ". AnnettMoeller@einrot(Punkt)com",
-    "lvl": "A1"
-  },
-  {
-    "w": "der Unterstrich",
-    "a": "der",
-    "e": "underscore",
-    "c": "Abstract Concepts",
-    "p": "",
-    "ex": "_ Annett(Unterstrich)Moeller@einrot.com",
     "lvl": "A1"
   },
   {
@@ -6287,15 +6230,6 @@
     "lvl": "A1"
   },
   {
-    "w": "der",
-    "a": "",
-    "e": "the",
-    "c": "Abstract Concepts",
-    "p": "die das, die",
-    "ex": "Wo ist der Schlüssel? Wo ist das Buch?",
-    "lvl": "A1"
-  },
-  {
     "w": "der MP3-Player",
     "a": "der",
     "e": "MP3 player",
@@ -6395,15 +6329,6 @@
     "lvl": "A1"
   },
   {
-    "w": "die Stundentin",
-    "a": "die",
-    "e": "(female) student",
-    "c": "Time & Calendar",
-    "p": "die Stundentin nen",
-    "ex": "Nora ist Studentin.",
-    "lvl": "A1"
-  },
-  {
     "w": "das Sportprogramm",
     "a": "das",
     "e": "sports programme",
@@ -6455,15 +6380,6 @@
     "c": "Transport & City",
     "p": "",
     "ex": "Stefan spielt Basketball.",
-    "lvl": "A1"
-  },
-  {
-    "w": "der/die Deutsche",
-    "a": "",
-    "e": "Germans",
-    "c": "Abstract Concepts",
-    "p": "die der/die Deutschen",
-    "ex": "Viele Deutsche spielen Fußball.",
     "lvl": "A1"
   },
   {
@@ -6707,15 +6623,6 @@
     "c": "Technology & Media",
     "p": "die Fernseher",
     "ex": "Der Fernseher ist schwarz.",
-    "lvl": "A1"
-  },
-  {
-    "w": "Ex-",
-    "a": "",
-    "e": "ex-",
-    "c": "Abstract Concepts",
-    "p": "",
-    "ex": "Michael ist mein Ex-Mitbewohner.",
     "lvl": "A1"
   },
   {
@@ -6966,7 +6873,7 @@
     "a": "die",
     "e": "hot chocolate",
     "c": "Food & Drink",
-    "p": "die heiße Schokoladen",
+    "p": "",
     "ex": "Ich möchte eine heiße Schokolade, bitte.",
     "lvl": "A1"
   },
@@ -7085,15 +6992,6 @@
     "c": "Abstract Concepts",
     "p": "die Colas",
     "ex": "Eine Cola, bitte.",
-    "lvl": "A1"
-  },
-  {
-    "w": "Hey",
-    "a": "",
-    "e": "Hey",
-    "c": "Abstract Concepts",
-    "p": "",
-    "ex": "Hey, Lisa!",
     "lvl": "A1"
   },
   {
@@ -7457,24 +7355,6 @@
     "lvl": "A1"
   },
   {
-    "w": "die Buchausleihe",
-    "a": "die",
-    "e": "library loan service",
-    "c": "Home & Living",
-    "p": "die Buchausleihen",
-    "ex": "Die Buchausleihe ist von 9 bis 21 Uhr geöffnet.",
-    "lvl": "A1"
-  },
-  {
-    "w": "der Musik-Lesesaal",
-    "a": "der",
-    "e": "music reading room",
-    "c": "Education & Culture",
-    "p": "die Musik-LesesaalLesesäle",
-    "ex": "Ich besuche den Musik-Lesesaal.",
-    "lvl": "A1"
-  },
-  {
     "w": "die Öffnungszeit",
     "a": "die",
     "e": "opening hours (plural)",
@@ -7688,15 +7568,6 @@
     "c": "Food & Drink",
     "p": "",
     "ex": "Essen und Trinken",
-    "lvl": "A1"
-  },
-  {
-    "w": "Indisch",
-    "a": "",
-    "e": "Indian",
-    "c": "Abstract Concepts",
-    "p": "",
-    "ex": "Isst Thomas gern Indisch?",
     "lvl": "A1"
   },
   {
@@ -8384,30 +8255,12 @@
     "lvl": "A1"
   },
   {
-    "w": "die Tickethotline",
-    "a": "die",
-    "e": "ticket hotline",
-    "c": "Transport & City",
-    "p": "die Tickethotlines",
-    "ex": "Tickets gibt es bei der Tickethotline.",
-    "lvl": "A1"
-  },
-  {
     "w": "der Hip Hop",
     "a": "der",
     "e": "hip-hop",
     "c": "Abstract Concepts",
     "p": "",
     "ex": "Ich liebe Hip Hop!",
-    "lvl": "A1"
-  },
-  {
-    "w": "der Dance Contest",
-    "a": "der",
-    "e": "dance contest",
-    "c": "Abstract Concepts",
-    "p": "die Dance Contests",
-    "ex": "Er ist bei dem Dance Contest dabei.",
     "lvl": "A1"
   },
   {
@@ -8489,15 +8342,6 @@
     "c": "Abstract Concepts",
     "p": "",
     "ex": "Wer mag Metal?",
-    "lvl": "A1"
-  },
-  {
-    "w": "das Hip Hop-Festival",
-    "a": "das",
-    "e": "hip-hop festival",
-    "c": "Abstract Concepts",
-    "p": "die Hip Hop-Festivals",
-    "ex": "Wer fährt im Sommer zum Hip Hop-Festival?",
     "lvl": "A1"
   },
   {
@@ -8636,15 +8480,6 @@
     "lvl": "A1"
   },
   {
-    "w": "die Nr. (= Nummer",
-    "a": "die",
-    "e": "no. (= number)",
-    "c": "Abstract Concepts",
-    "p": "die Nr. (= Nummern)",
-    "ex": "Ich wohne in der Blücherstraße Nr. 12.",
-    "lvl": "A1"
-  },
-  {
     "w": "P.S.",
     "a": "",
     "e": "P.S.",
@@ -8759,15 +8594,6 @@
     "c": "Food & Drink",
     "p": "die Suppen",
     "ex": "Eine Suppe und ein Bier kosten 10 Euro.",
-    "lvl": "A1"
-  },
-  {
-    "w": "die To-Do-Liste",
-    "a": "die",
-    "e": "to-do list",
-    "c": "Abstract Concepts",
-    "p": "die To-Do-Listen",
-    "ex": "Ich habe eine To-Do-Liste.",
     "lvl": "A1"
   },
   {
@@ -9491,15 +9317,6 @@
     "lvl": "A1"
   },
   {
-    "w": "der Login",
-    "a": "der",
-    "e": "login",
-    "c": "Abstract Concepts",
-    "p": "die Logins",
-    "ex": "Letzter Login war um 12:04:00.",
-    "lvl": "A1"
-  },
-  {
     "w": "die Registrierung",
     "a": "die",
     "e": "registration",
@@ -9626,21 +9443,12 @@
     "lvl": "A1"
   },
   {
-    "w": "der Programmiererin",
-    "a": "der",
+    "w": "die Programmiererin",
+    "a": "die",
     "e": "(female) programmer",
     "c": "Technology & Media",
     "p": "die Programmiererinnen",
     "ex": "Programmiererinnen verschicken die ersten",
-    "lvl": "A1"
-  },
-  {
-    "w": "das Telefonieren",
-    "a": "das",
-    "e": "to telephone, to make a",
-    "c": "Technology & Media",
-    "p": "",
-    "ex": "Telefonieren im Internet ist möglich.",
     "lvl": "A1"
   },
   {
@@ -9896,15 +9704,6 @@
     "lvl": "A1"
   },
   {
-    "w": "die Musik-Arena",
-    "a": "die",
-    "e": "music arena",
-    "c": "Education & Culture",
-    "p": "die Musik-Arenen",
-    "ex": "Das ist die Musik-Arena.",
-    "lvl": "A1"
-  },
-  {
     "w": "der Wortanfang",
     "a": "der",
     "e": "beginning of the word",
@@ -10031,15 +9830,6 @@
     "lvl": "A1"
   },
   {
-    "w": "der Ermäßigte",
-    "a": "der",
-    "e": "concession",
-    "c": "Abstract Concepts",
-    "p": "die Ermäßigten",
-    "ex": "Ermäßigte bezahlen 4 €.",
-    "lvl": "A1"
-  },
-  {
     "w": "die Gruppe",
     "a": "die",
     "e": "group",
@@ -10130,15 +9920,6 @@
     "lvl": "A1"
   },
   {
-    "w": "der Museumsshop",
-    "a": "der",
-    "e": "museum shop",
-    "c": "Education & Culture",
-    "p": "die Museumsshops",
-    "ex": "Beim Museumsshop bekommt man Postkarten.",
-    "lvl": "A1"
-  },
-  {
     "w": "die Postkarte",
     "a": "die",
     "e": "postcard",
@@ -10190,15 +9971,6 @@
     "c": "Travel & Places",
     "p": "",
     "ex": "Angela möchte eine Postkarte nach Kanada",
-    "lvl": "A1"
-  },
-  {
-    "w": "das Einkaufen",
-    "a": "das",
-    "e": "shopping",
-    "c": "Shopping & Money",
-    "p": "",
-    "ex": "Das ist das Thema Einkaufen.",
     "lvl": "A1"
   },
   {
@@ -10280,15 +10052,6 @@
     "c": "Technology & Media",
     "p": "die Fotografinnen",
     "ex": "Ich bin Fotografin und wohne in Essen.",
-    "lvl": "A1"
-  },
-  {
-    "w": "das Fotostudio",
-    "a": "das",
-    "e": "photographic studio",
-    "c": "Technology & Media",
-    "p": "die Fotostudios",
-    "ex": "Mein Fotostudium ist im Zentrum.",
     "lvl": "A1"
   },
   {
@@ -10418,15 +10181,6 @@
     "lvl": "A1"
   },
   {
-    "w": "das Kopieren",
-    "a": "das",
-    "e": "copying",
-    "c": "Abstract Concepts",
-    "p": "",
-    "ex": "Wählen Sie „Kopieren“.",
-    "lvl": "A1"
-  },
-  {
     "w": "die Einstellung",
     "a": "die",
     "e": "setting",
@@ -10487,15 +10241,6 @@
     "c": "Abstract Concepts",
     "p": "die Dateien",
     "ex": "Auf „Datei wählen“ klicken.",
-    "lvl": "A1"
-  },
-  {
-    "w": "das Durchsuchen",
-    "a": "das",
-    "e": "search",
-    "c": "Nature & Weather",
-    "p": "",
-    "ex": "Auf „Durchsuchen“ klicken.",
     "lvl": "A1"
   },
   {
@@ -10976,15 +10721,6 @@
     "lvl": "A1"
   },
   {
-    "w": "das Informationsmaterial",
-    "a": "das",
-    "e": "information material",
-    "c": "Abstract Concepts",
-    "p": "",
-    "ex": "In jede Mappe muss auch das",
-    "lvl": "A1"
-  },
-  {
     "w": "die Partnerin",
     "a": "die",
     "e": "(female) partner",
@@ -11336,24 +11072,6 @@
     "lvl": "A1"
   },
   {
-    "w": "die Chorprobe",
-    "a": "die",
-    "e": "choir practice",
-    "c": "Abstract Concepts",
-    "p": "die Chorproben",
-    "ex": "Ich muss zur Chorprobe.",
-    "lvl": "A1"
-  },
-  {
-    "w": "Wirklich?",
-    "a": "",
-    "e": "Really?",
-    "c": "Abstract Concepts",
-    "p": "",
-    "ex": "Versprichst du es wirklich?",
-    "lvl": "A1"
-  },
-  {
     "w": "das Picknick",
     "a": "das",
     "e": "picnic",
@@ -11396,15 +11114,6 @@
     "c": "Time & Calendar",
     "p": "",
     "ex": "Nach 25 Jahren findet die Silberhochzeit statt.",
-    "lvl": "A1"
-  },
-  {
-    "w": "die Goldene Hochzeit",
-    "a": "die",
-    "e": "Golden Wedding",
-    "c": "Time & Calendar",
-    "p": "",
-    "ex": "Nach 50 Jahren findet die Goldene Hochzeit",
     "lvl": "A1"
   },
   {
@@ -11552,15 +11261,6 @@
     "lvl": "A1"
   },
   {
-    "w": "das Feriencamp",
-    "a": "das",
-    "e": "holiday camp",
-    "c": "Travel & Places",
-    "p": "die Feriencamps",
-    "ex": "Ich arbeite in einem Feriencamp.",
-    "lvl": "A1"
-  },
-  {
     "w": "der Journalismus",
     "a": "der",
     "e": "journalism",
@@ -11642,15 +11342,6 @@
     "lvl": "A1"
   },
   {
-    "w": "die Promoterin",
-    "a": "die",
-    "e": "(female) promoter",
-    "c": "Abstract Concepts",
-    "p": "die Promoterinnen",
-    "ex": "Wir suchen eine Promoterin ab August.",
-    "lvl": "A1"
-  },
-  {
     "w": "der Tourismus",
     "a": "der",
     "e": "tourism",
@@ -11705,15 +11396,6 @@
     "lvl": "A1"
   },
   {
-    "w": "das Ferienpark-WiFi",
-    "a": "das",
-    "e": "holiday park WiFi",
-    "c": "Travel & Places",
-    "p": "",
-    "ex": "Man kann das Ferienpark-WiFi benutzen.",
-    "lvl": "A1"
-  },
-  {
     "w": "die Fremdsprache",
     "a": "die",
     "e": "foreign language",
@@ -11738,15 +11420,6 @@
     "c": "Abstract Concepts",
     "p": "die Korrekturen",
     "ex": "Ich mache heute die Korrekturen.",
-    "lvl": "A1"
-  },
-  {
-    "w": "die Fotorecherche",
-    "a": "die",
-    "e": "photo research",
-    "c": "Technology & Media",
-    "p": "die Fotorecherchen",
-    "ex": "Wir machen eine Fotorecherche.",
     "lvl": "A1"
   },
   {
@@ -11795,15 +11468,6 @@
     "lvl": "A1"
   },
   {
-    "w": "der Ausbildungsweg",
-    "a": "der",
-    "e": "training options",
-    "c": "Transport & City",
-    "p": "die Ausbildungswege",
-    "ex": "Hier möchten wir verschiedene",
-    "lvl": "A1"
-  },
-  {
     "w": "die Konditorei",
     "a": "die",
     "e": "confectioner's, cake shop",
@@ -11828,15 +11492,6 @@
     "c": "People & Relationships",
     "p": "",
     "ex": "Ich habe eine Ausbildung zum",
-    "lvl": "A1"
-  },
-  {
-    "w": "Tourismuskaufmänner",
-    "a": "",
-    "e": "trainee",
-    "c": "People & Relationships",
-    "p": "",
-    "ex": "",
     "lvl": "A1"
   },
   {
@@ -11909,15 +11564,6 @@
     "c": "Abstract Concepts",
     "p": "die Gymnasien",
     "ex": "Jetzt arbeite ich in einem Gymnasium.",
-    "lvl": "A1"
-  },
-  {
-    "w": "das Online-Modemagazin",
-    "a": "das",
-    "e": "online fashion magazine",
-    "c": "Technology & Media",
-    "p": "die Online-Modemagazine",
-    "ex": "Jetzt arbeite ich in Berlin bei einem",
     "lvl": "A1"
   },
   {
@@ -12110,15 +11756,6 @@
     "lvl": "A1"
   },
   {
-    "w": "die Wintersportsaison",
-    "a": "die",
-    "e": "winter sports season",
-    "c": "Time & Calendar",
-    "p": "die Wintersportsaisons",
-    "ex": "Heute ist der Start der Wintersportsaison.",
-    "lvl": "A1"
-  },
-  {
     "w": "der Skiort",
     "a": "der",
     "e": "ski resort",
@@ -12159,15 +11796,6 @@
     "a": "das",
     "e": "skiing",
     "c": "Abstract Concepts",
-    "p": "",
-    "ex": "Touristen kommen zum Skifahren oder",
-    "lvl": "A1"
-  },
-  {
-    "w": "das Snowboarden",
-    "a": "das",
-    "e": "snowboarding",
-    "c": "Nature & Weather",
     "p": "",
     "ex": "Touristen kommen zum Skifahren oder",
     "lvl": "A1"
@@ -12461,15 +12089,6 @@
     "lvl": "A1"
   },
   {
-    "w": "der Marketingleiter",
-    "a": "der",
-    "e": "marketing manager",
-    "c": "Work & Career",
-    "p": "die Marketingleiter",
-    "ex": "Er hat den Job als Marketingleiter bekommen.",
-    "lvl": "A1"
-  },
-  {
     "w": "der Halsschmerz",
     "a": "der",
     "e": "sore throat",
@@ -12485,15 +12104,6 @@
     "c": "Body & Health",
     "p": "die Ohrenschmerzen",
     "ex": "Haben Sie Ohrenschmerzen?",
-    "lvl": "A1"
-  },
-  {
-    "w": "der Zwiebeltee",
-    "a": "der",
-    "e": "onion tea",
-    "c": "Food & Drink",
-    "p": "die Zwiebeltees",
-    "ex": "Trinken Sie viel Tee und Wasser (z.B. einen",
     "lvl": "A1"
   },
   {
@@ -12812,24 +12422,6 @@
     "lvl": "A1"
   },
   {
-    "w": "das Tanzstudio",
-    "a": "das",
-    "e": "dance studio",
-    "c": "Abstract Concepts",
-    "p": "die Tanzstudios",
-    "ex": "Ich bin heute im Tanzstudio.",
-    "lvl": "A1"
-  },
-  {
-    "w": "die Salsa",
-    "a": "die",
-    "e": "salsa",
-    "c": "Abstract Concepts",
-    "p": "die Salsas",
-    "ex": "Wo kann man Salsa lernen?",
-    "lvl": "A1"
-  },
-  {
     "w": "Lateinamerika",
     "a": "",
     "e": "Latin America",
@@ -13010,24 +12602,6 @@
     "lvl": "A1"
   },
   {
-    "w": "der Jazztanz",
-    "a": "der",
-    "e": "jazz dance",
-    "c": "Abstract Concepts",
-    "p": "die Jazztänze",
-    "ex": "Am Mittwoche mache ich den Kurs Jazztanz.",
-    "lvl": "A1"
-  },
-  {
-    "w": "das Kinderturnen",
-    "a": "das",
-    "e": "kids' gymnastics",
-    "c": "People & Relationships",
-    "p": "",
-    "ex": "Für die Kinder gibt es Kinderturnen.",
-    "lvl": "A1"
-  },
-  {
     "w": "das Workout",
     "a": "das",
     "e": "workout",
@@ -13100,15 +12674,6 @@
     "lvl": "A1"
   },
   {
-    "w": "das Joggen",
-    "a": "das",
-    "e": "jogging",
-    "c": "Abstract Concepts",
-    "p": "",
-    "ex": "Ich habe keine Lust auf Joggen.",
-    "lvl": "A1"
-  },
-  {
     "w": "die Sportart",
     "a": "die",
     "e": "sport",
@@ -13169,15 +12734,6 @@
     "c": "Abstract Concepts",
     "p": "die Müslis",
     "ex": "Valerie braucht noch Müsli fürs Frühstück.",
-    "lvl": "A1"
-  },
-  {
-    "w": "die Schreibwaren",
-    "a": "die",
-    "e": "stationery",
-    "c": "Transport & City",
-    "p": "",
-    "ex": "Ich brauche noch Schreibwaren fürs Büro.",
     "lvl": "A1"
   },
   {
@@ -13730,15 +13286,6 @@
     "lvl": "A1"
   },
   {
-    "w": "das Pink",
-    "a": "das",
-    "e": "pink",
-    "c": "Abstract Concepts",
-    "p": "",
-    "ex": "Pink ist meine Lieblingsfarbe.",
-    "lvl": "A1"
-  },
-  {
     "w": "die Lederjacke",
     "a": "die",
     "e": "leather jacket",
@@ -13937,15 +13484,6 @@
     "lvl": "A1"
   },
   {
-    "w": "der Englische Garten",
-    "a": "der",
-    "e": "English Garden",
-    "c": "Home & Living",
-    "p": "",
-    "ex": "Der Englische Garten ist der Lieblingsort",
-    "lvl": "A1"
-  },
-  {
     "w": "der Lieblingsort",
     "a": "der",
     "e": "favourite place",
@@ -14006,15 +13544,6 @@
     "c": "People & Relationships",
     "p": "die Mädels",
     "ex": "Hey Mädels, unser München-Wochenende",
-    "lvl": "A1"
-  },
-  {
-    "w": "Wohin?",
-    "a": "",
-    "e": "where … to",
-    "c": "Abstract Concepts",
-    "p": "",
-    "ex": "Wohin wollen wir am Wochenende gehen?",
     "lvl": "A1"
   },
   {
@@ -14333,15 +13862,6 @@
     "lvl": "A1"
   },
   {
-    "w": "das Richtige",
-    "a": "das",
-    "e": "(the) right (thing)",
-    "c": "Government & Society",
-    "p": "",
-    "ex": "Wassersport war genau das Richtige für uns.",
-    "lvl": "A1"
-  },
-  {
     "w": "die Übernachtung",
     "a": "die",
     "e": "night, overnight stay",
@@ -14401,15 +13921,6 @@
     "e": "shower",
     "c": "Home & Living",
     "p": "die Duschen",
-    "ex": "Alle unsere Zimmer haben ein Bad mit Dusche,",
-    "lvl": "A1"
-  },
-  {
-    "w": "das WIFI",
-    "a": "das",
-    "e": "WiFi",
-    "c": "Abstract Concepts",
-    "p": "",
     "ex": "Alle unsere Zimmer haben ein Bad mit Dusche,",
     "lvl": "A1"
   },
@@ -14630,15 +14141,6 @@
     "lvl": "A1"
   },
   {
-    "w": "das Klettern",
-    "a": "das",
-    "e": "climb",
-    "c": "Abstract Concepts",
-    "p": "",
-    "ex": "Top-Wetter beim Klettern im Schwarzwald.",
-    "lvl": "A1"
-  },
-  {
     "w": "die Bergtour",
     "a": "die",
     "e": "mountain tour",
@@ -14666,15 +14168,6 @@
     "lvl": "A1"
   },
   {
-    "w": "das Board",
-    "a": "das",
-    "e": "board",
-    "c": "Abstract Concepts",
-    "p": "die Boards",
-    "ex": "Aber das Board ist oft sehr schnell.",
-    "lvl": "A1"
-  },
-  {
     "w": "die Lieblingsjahreszeit",
     "a": "die",
     "e": "favourite season",
@@ -14690,15 +14183,6 @@
     "c": "Time & Calendar",
     "p": "die Sommermonate",
     "ex": "Die Deutschen lieben die Sommermonate.",
-    "lvl": "A1"
-  },
-  {
-    "w": "der Winter-Fan",
-    "a": "der",
-    "e": "winter fan",
-    "c": "Time & Calendar",
-    "p": "die Winter-Fans",
-    "ex": "Viele Menschen sind Winter-Fans.",
     "lvl": "A1"
   },
   {
@@ -14891,24 +14375,6 @@
     "lvl": "A1"
   },
   {
-    "w": "der Coworker",
-    "a": "der",
-    "e": "(male) coworker",
-    "c": "Abstract Concepts",
-    "p": "die Coworker",
-    "ex": "Dort lerne ich ein paar Coworker kennen.",
-    "lvl": "A1"
-  },
-  {
-    "w": "die Coworkerin",
-    "a": "die",
-    "e": "(female) coworker",
-    "c": "Abstract Concepts",
-    "p": "die Coworkerinnen",
-    "ex": "Dort lerne ich ein paar Coworkerinnen kennen.",
-    "lvl": "A1"
-  },
-  {
     "w": "das Aerobic",
     "a": "das",
     "e": "aerobics",
@@ -15080,30 +14546,12 @@
     "lvl": "A1"
   },
   {
-    "w": "die Ruhezone",
-    "a": "die",
-    "e": "quiet zone",
-    "c": "Abstract Concepts",
-    "p": "die Ruhezonen",
-    "ex": "Das ist eine Ruhezone.",
-    "lvl": "A1"
-  },
-  {
     "w": "das Parken",
     "a": "das",
     "e": "parking",
     "c": "Transport & City",
     "p": "",
     "ex": "Das Parken ist hier verboten.",
-    "lvl": "A1"
-  },
-  {
-    "w": "das Fotografieren",
-    "a": "das",
-    "e": "photography",
-    "c": "Technology & Media",
-    "p": "",
-    "ex": "Das Fotografieren ist hier erlaubt.",
     "lvl": "A1"
   },
   {
@@ -15158,15 +14606,6 @@
     "c": "Education & Culture",
     "p": "die Fotokurse",
     "ex": "Ich mache einen Fotokurs.",
-    "lvl": "A1"
-  },
-  {
-    "w": "das Sprach-Tandem",
-    "a": "das",
-    "e": "language tandem",
-    "c": "Education & Culture",
-    "p": "die Sprach-Tandems",
-    "ex": "Das Sprach-Tandem ist toll.",
     "lvl": "A1"
   },
   {
@@ -15246,7 +14685,7 @@
     "a": "der",
     "e": "answering machine",
     "c": "Education & Culture",
-    "p": "die anrufen",
+    "p": "die Anrufbeantworter",
     "ex": "Wir sind im Moment nicht da.",
     "lvl": "A2"
   },
@@ -15341,15 +14780,6 @@
     "lvl": "A2"
   },
   {
-    "w": "der/das Blog",
-    "a": "",
-    "e": "blog",
-    "c": "Technology & Media",
-    "p": "die der/das Blogs",
-    "ex": "Ich schreibe einen Blog über Mode.",
-    "lvl": "A2"
-  },
-  {
     "w": "die Bohne",
     "a": "die",
     "e": "bean",
@@ -15383,15 +14813,6 @@
     "c": "Abstract Concepts",
     "p": "die Clubs",
     "ex": "Gibt es hier einen Tennis-Club/Klub?",
-    "lvl": "A2"
-  },
-  {
-    "w": "der/das Comic",
-    "a": "",
-    "e": "comic",
-    "c": "Technology & Media",
-    "p": "die der/das Comics",
-    "ex": "Mein Sohn liest immer nur Comics.",
     "lvl": "A2"
   },
   {
@@ -15462,7 +14883,7 @@
     "a": "der",
     "e": "spouse",
     "c": "People & Relationships",
-    "p": "die das",
+    "p": "die Ehepartner",
     "ex": "Möchtest du ein Ei zum Frühstück?",
     "lvl": "A2"
   },
@@ -15498,7 +14919,7 @@
     "a": "das",
     "e": "food / meal",
     "c": "Food & Drink",
-    "p": "die etwas",
+    "p": "die Essen",
     "ex": "Das Essen in der Cafeteria ist meistens ganz gut.",
     "lvl": "A2"
   },
@@ -15552,7 +14973,7 @@
     "a": "der",
     "e": "camera",
     "c": "Technology & Media",
-    "p": "die FotoapparateIch",
+    "p": "die Fotoapparate",
     "ex": "möchte mir einen Fotoapparat kaufen.",
     "lvl": "A2"
   },
@@ -15642,7 +15063,7 @@
     "a": "der",
     "e": "hamburger",
     "c": "Abstract Concepts",
-    "p": "die die",
+    "p": "die Hamburger",
     "ex": "Einen Hamburger ohne Salat, bitte.",
     "lvl": "A2"
   },
@@ -15696,7 +15117,7 @@
     "a": "der",
     "e": "kindergarten",
     "c": "Home & Living",
-    "p": "die KindergärtenDie",
+    "p": "die Kindergärten",
     "ex": "kleine Laura geht schon in den Kindergarten.",
     "lvl": "A2"
   },
@@ -15716,15 +15137,6 @@
     "c": "Abstract Concepts",
     "p": "",
     "ex": "Kosmetik können Sie im Erdgeschoss kaufen.",
-    "lvl": "A2"
-  },
-  {
-    "w": "der/das Laptop",
-    "a": "",
-    "e": "laptop",
-    "c": "Technology & Media",
-    "p": "die der/das Laptops",
-    "ex": "Ich brauche einen neuen Laptop.",
     "lvl": "A2"
   },
   {
@@ -15768,7 +15180,7 @@
     "a": "das",
     "e": "girl",
     "c": "People & Relationships",
-    "p": "die der",
+    "p": "die Mädchen",
     "ex": "Familie Kurz bekommt ein Baby.",
     "lvl": "A2"
   },
@@ -15777,7 +15189,7 @@
     "a": "die",
     "e": "team",
     "c": "People & Relationships",
-    "p": "die MannschaftenMeine",
+    "p": "die Mannschaften",
     "ex": "Lieblingsmannschaft hat 1:0 verloren.",
     "lvl": "A2"
   },
@@ -15813,7 +15225,7 @@
     "a": "das",
     "e": "means / remedy",
     "c": "Abstract Concepts",
-    "p": "die die",
+    "p": "die Mittel",
     "ex": "Haben Sie ein Mittel gegen Magenschmerzen?",
     "lvl": "A2"
   },
@@ -15840,7 +15252,7 @@
     "a": "der",
     "e": "scooter",
     "c": "Transport & City",
-    "p": "die müde",
+    "p": "die Motorroller",
     "ex": "Oskar fährt mit dem Motorroller zur Arbeit.",
     "lvl": "A2"
   },
@@ -15903,7 +15315,7 @@
     "a": "das",
     "e": "poster",
     "c": "Abstract Concepts",
-    "p": "die die",
+    "p": "die Poster",
     "ex": "Das Poster hängt über dem Bett.",
     "lvl": "A2"
   },
@@ -15939,7 +15351,7 @@
     "a": "das",
     "e": "puzzle / riddle",
     "c": "Abstract Concepts",
-    "p": "die rauchen",
+    "p": "die Rätsel",
     "ex": "Das Rätsel ist schwierig!",
     "lvl": "A2"
   },
@@ -16272,7 +15684,7 @@
     "a": "der",
     "e": "competition",
     "c": "Abstract Concepts",
-    "p": "die WettbewerbeMein",
+    "p": "die Wettbewerbe",
     "ex": "Sohn hat bei einem Wettbewerb gewonnen.",
     "lvl": "A2"
   },
@@ -16335,7 +15747,7 @@
     "a": "der",
     "e": "note / slip",
     "c": "Abstract Concepts",
-    "p": "die das",
+    "p": "die Zettel",
     "ex": "Hast du einen Zettel für mich?",
     "lvl": "A2"
   },
@@ -16346,6 +15758,441 @@
     "c": "Abstract Concepts",
     "p": "die Zirkusse",
     "ex": "gehen wir mit den Kindern in den Zirkus.",
+    "lvl": "A2"
+  },
+  {
+    "w": "das Bürgeramt",
+    "a": "das",
+    "e": "municipality / borough office",
+    "c": "Government & Society",
+    "p": "die Bürgerämter",
+    "ex": "Das Bürgeramt ist dienstags geöffnet.",
+    "n": "Where you do your Anmeldung and get ID cards and certificates. Book an appointment online well in advance.",
+    "lvl": "B1"
+  },
+  {
+    "w": "das Übergabeprotokoll",
+    "a": "das",
+    "e": "handover protocol (apartment)",
+    "c": "Home & Living",
+    "p": "die Übergabeprotokolle",
+    "ex": "Das Übergabeprotokoll ist wichtig.",
+    "n": "Documents apartment condition at move-in/out. Critical for getting Kaution back.",
+    "lvl": "B1"
+  },
+  {
+    "w": "die möblierte Wohnung",
+    "a": "die",
+    "e": "furnished apartment",
+    "c": "Home & Living",
+    "p": "die möblierten Wohnungen",
+    "ex": "Ich suche eine möblierte Wohnung.",
+    "n": "'Möbliert' = furnished; 'teilmöbliert' = partly furnished; 'unmöbliert' = unfurnished.",
+    "lvl": "B1"
+  },
+  {
+    "w": "das Chanson",
+    "a": "das",
+    "e": "chanson",
+    "c": "Abstract Concepts",
+    "p": "die Chansons",
+    "ex": "Das Chanson kommt aus ...",
+    "lvl": "A1"
+  },
+  {
+    "w": "der Unterstrich",
+    "a": "der",
+    "e": "underscore",
+    "c": "Abstract Concepts",
+    "p": "",
+    "ex": "_ Annett(Unterstrich)Moeller@einrot.com",
+    "lvl": "A1"
+  },
+  {
+    "w": "der/die Deutsche",
+    "a": "",
+    "e": "Germans",
+    "c": "Abstract Concepts",
+    "p": "die der/die Deutschen",
+    "ex": "Viele Deutsche spielen Fußball.",
+    "lvl": "A1"
+  },
+  {
+    "w": "die Buchausleihe",
+    "a": "die",
+    "e": "library loan service",
+    "c": "Home & Living",
+    "p": "die Buchausleihen",
+    "ex": "Die Buchausleihe ist von 9 bis 21 Uhr geöffnet.",
+    "lvl": "A1"
+  },
+  {
+    "w": "der Musik-Lesesaal",
+    "a": "der",
+    "e": "music reading room",
+    "c": "Education & Culture",
+    "p": "die Musik-LesesaalLesesäle",
+    "ex": "Ich besuche den Musik-Lesesaal.",
+    "lvl": "A1"
+  },
+  {
+    "w": "die Tickethotline",
+    "a": "die",
+    "e": "ticket hotline",
+    "c": "Transport & City",
+    "p": "die Tickethotlines",
+    "ex": "Tickets gibt es bei der Tickethotline.",
+    "lvl": "A1"
+  },
+  {
+    "w": "die To-Do-Liste",
+    "a": "die",
+    "e": "to-do list",
+    "c": "Abstract Concepts",
+    "p": "die To-Do-Listen",
+    "ex": "Ich habe eine To-Do-Liste.",
+    "lvl": "A1"
+  },
+  {
+    "w": "der Login",
+    "a": "der",
+    "e": "login",
+    "c": "Abstract Concepts",
+    "p": "die Logins",
+    "ex": "Letzter Login war um 12:04:00.",
+    "lvl": "A1"
+  },
+  {
+    "w": "das Telefonieren",
+    "a": "das",
+    "e": "to telephone, to make a",
+    "c": "Technology & Media",
+    "p": "",
+    "ex": "Telefonieren im Internet ist möglich.",
+    "lvl": "A1"
+  },
+  {
+    "w": "die Musik-Arena",
+    "a": "die",
+    "e": "music arena",
+    "c": "Education & Culture",
+    "p": "die Musik-Arenen",
+    "ex": "Das ist die Musik-Arena.",
+    "lvl": "A1"
+  },
+  {
+    "w": "der Ermäßigte",
+    "a": "der",
+    "e": "concession",
+    "c": "Abstract Concepts",
+    "p": "die Ermäßigten",
+    "ex": "Ermäßigte bezahlen 4 €.",
+    "lvl": "A1"
+  },
+  {
+    "w": "der Museumsshop",
+    "a": "der",
+    "e": "museum shop",
+    "c": "Education & Culture",
+    "p": "die Museumsshops",
+    "ex": "Beim Museumsshop bekommt man Postkarten.",
+    "lvl": "A1"
+  },
+  {
+    "w": "das Einkaufen",
+    "a": "das",
+    "e": "shopping",
+    "c": "Shopping & Money",
+    "p": "",
+    "ex": "Das ist das Thema Einkaufen.",
+    "lvl": "A1"
+  },
+  {
+    "w": "das Fotostudio",
+    "a": "das",
+    "e": "photographic studio",
+    "c": "Technology & Media",
+    "p": "die Fotostudios",
+    "ex": "Mein Fotostudium ist im Zentrum.",
+    "lvl": "A1"
+  },
+  {
+    "w": "das Kopieren",
+    "a": "das",
+    "e": "copying",
+    "c": "Abstract Concepts",
+    "p": "",
+    "ex": "Wählen Sie „Kopieren“.",
+    "lvl": "A1"
+  },
+  {
+    "w": "das Durchsuchen",
+    "a": "das",
+    "e": "search",
+    "c": "Nature & Weather",
+    "p": "",
+    "ex": "Auf „Durchsuchen“ klicken.",
+    "lvl": "A1"
+  },
+  {
+    "w": "das Informationsmaterial",
+    "a": "das",
+    "e": "information material",
+    "c": "Abstract Concepts",
+    "p": "",
+    "ex": "In jede Mappe muss auch das",
+    "lvl": "A1"
+  },
+  {
+    "w": "die Chorprobe",
+    "a": "die",
+    "e": "choir practice",
+    "c": "Abstract Concepts",
+    "p": "die Chorproben",
+    "ex": "Ich muss zur Chorprobe.",
+    "lvl": "A1"
+  },
+  {
+    "w": "die Goldene Hochzeit",
+    "a": "die",
+    "e": "Golden Wedding",
+    "c": "Time & Calendar",
+    "p": "",
+    "ex": "Nach 50 Jahren findet die Goldene Hochzeit",
+    "lvl": "A1"
+  },
+  {
+    "w": "das Feriencamp",
+    "a": "das",
+    "e": "holiday camp",
+    "c": "Travel & Places",
+    "p": "die Feriencamps",
+    "ex": "Ich arbeite in einem Feriencamp.",
+    "lvl": "A1"
+  },
+  {
+    "w": "die Promoterin",
+    "a": "die",
+    "e": "(female) promoter",
+    "c": "Abstract Concepts",
+    "p": "die Promoterinnen",
+    "ex": "Wir suchen eine Promoterin ab August.",
+    "lvl": "A1"
+  },
+  {
+    "w": "die Fotorecherche",
+    "a": "die",
+    "e": "photo research",
+    "c": "Technology & Media",
+    "p": "die Fotorecherchen",
+    "ex": "Wir machen eine Fotorecherche.",
+    "lvl": "A1"
+  },
+  {
+    "w": "der Ausbildungsweg",
+    "a": "der",
+    "e": "training options",
+    "c": "Transport & City",
+    "p": "die Ausbildungswege",
+    "ex": "Hier möchten wir verschiedene",
+    "lvl": "A1"
+  },
+  {
+    "w": "Tourismuskaufmänner",
+    "a": "",
+    "e": "trainee",
+    "c": "People & Relationships",
+    "p": "",
+    "ex": "",
+    "lvl": "A1"
+  },
+  {
+    "w": "das Online-Modemagazin",
+    "a": "das",
+    "e": "online fashion magazine",
+    "c": "Technology & Media",
+    "p": "die Online-Modemagazine",
+    "ex": "Jetzt arbeite ich in Berlin bei einem",
+    "lvl": "A1"
+  },
+  {
+    "w": "die Wintersportsaison",
+    "a": "die",
+    "e": "winter sports season",
+    "c": "Time & Calendar",
+    "p": "die Wintersportsaisons",
+    "ex": "Heute ist der Start der Wintersportsaison.",
+    "lvl": "A1"
+  },
+  {
+    "w": "das Snowboarden",
+    "a": "das",
+    "e": "snowboarding",
+    "c": "Nature & Weather",
+    "p": "",
+    "ex": "Touristen kommen zum Skifahren oder",
+    "lvl": "A1"
+  },
+  {
+    "w": "der Marketingleiter",
+    "a": "der",
+    "e": "marketing manager",
+    "c": "Work & Career",
+    "p": "die Marketingleiter",
+    "ex": "Er hat den Job als Marketingleiter bekommen.",
+    "lvl": "A1"
+  },
+  {
+    "w": "der Zwiebeltee",
+    "a": "der",
+    "e": "onion tea",
+    "c": "Food & Drink",
+    "p": "die Zwiebeltees",
+    "ex": "Trinken Sie viel Tee und Wasser (z.B. einen",
+    "lvl": "A1"
+  },
+  {
+    "w": "das Tanzstudio",
+    "a": "das",
+    "e": "dance studio",
+    "c": "Abstract Concepts",
+    "p": "die Tanzstudios",
+    "ex": "Ich bin heute im Tanzstudio.",
+    "lvl": "A1"
+  },
+  {
+    "w": "die Salsa",
+    "a": "die",
+    "e": "salsa",
+    "c": "Abstract Concepts",
+    "p": "die Salsas",
+    "ex": "Wo kann man Salsa lernen?",
+    "lvl": "A1"
+  },
+  {
+    "w": "der Jazztanz",
+    "a": "der",
+    "e": "jazz dance",
+    "c": "Abstract Concepts",
+    "p": "die Jazztänze",
+    "ex": "Am Mittwoche mache ich den Kurs Jazztanz.",
+    "lvl": "A1"
+  },
+  {
+    "w": "das Kinderturnen",
+    "a": "das",
+    "e": "kids' gymnastics",
+    "c": "People & Relationships",
+    "p": "",
+    "ex": "Für die Kinder gibt es Kinderturnen.",
+    "lvl": "A1"
+  },
+  {
+    "w": "das Joggen",
+    "a": "das",
+    "e": "jogging",
+    "c": "Abstract Concepts",
+    "p": "",
+    "ex": "Ich habe keine Lust auf Joggen.",
+    "lvl": "A1"
+  },
+  {
+    "w": "die Schreibwaren",
+    "a": "die",
+    "e": "stationery",
+    "c": "Transport & City",
+    "p": "",
+    "ex": "Ich brauche noch Schreibwaren fürs Büro.",
+    "lvl": "A1"
+  },
+  {
+    "w": "das Pink",
+    "a": "das",
+    "e": "pink",
+    "c": "Abstract Concepts",
+    "p": "",
+    "ex": "Pink ist meine Lieblingsfarbe.",
+    "lvl": "A1"
+  },
+  {
+    "w": "der Englische Garten",
+    "a": "der",
+    "e": "English Garden",
+    "c": "Home & Living",
+    "p": "",
+    "ex": "Der Englische Garten ist der Lieblingsort",
+    "lvl": "A1"
+  },
+  {
+    "w": "das Richtige",
+    "a": "das",
+    "e": "(the) right (thing)",
+    "c": "Government & Society",
+    "p": "",
+    "ex": "Wassersport war genau das Richtige für uns.",
+    "lvl": "A1"
+  },
+  {
+    "w": "das Klettern",
+    "a": "das",
+    "e": "climb",
+    "c": "Abstract Concepts",
+    "p": "",
+    "ex": "Top-Wetter beim Klettern im Schwarzwald.",
+    "lvl": "A1"
+  },
+  {
+    "w": "das Board",
+    "a": "das",
+    "e": "board",
+    "c": "Abstract Concepts",
+    "p": "die Boards",
+    "ex": "Aber das Board ist oft sehr schnell.",
+    "lvl": "A1"
+  },
+  {
+    "w": "die Ruhezone",
+    "a": "die",
+    "e": "quiet zone",
+    "c": "Abstract Concepts",
+    "p": "die Ruhezonen",
+    "ex": "Das ist eine Ruhezone.",
+    "lvl": "A1"
+  },
+  {
+    "w": "das Fotografieren",
+    "a": "das",
+    "e": "photography",
+    "c": "Technology & Media",
+    "p": "",
+    "ex": "Das Fotografieren ist hier erlaubt.",
+    "lvl": "A1"
+  },
+  {
+    "w": "der/das Blog",
+    "a": "",
+    "e": "blog",
+    "c": "Technology & Media",
+    "p": "die der/das Blogs",
+    "ex": "Ich schreibe einen Blog über Mode.",
+    "lvl": "A2"
+  },
+  {
+    "w": "der/das Comic",
+    "a": "",
+    "e": "comic",
+    "c": "Technology & Media",
+    "p": "die der/das Comics",
+    "ex": "Mein Sohn liest immer nur Comics.",
+    "lvl": "A2"
+  },
+  {
+    "w": "der/das Laptop",
+    "a": "",
+    "e": "laptop",
+    "c": "Technology & Media",
+    "p": "die der/das Laptops",
+    "ex": "Ich brauche einen neuen Laptop.",
     "lvl": "A2"
   }
 ]

@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "nouns:check": "node scripts/validate-nouns.mjs",
+    "nouns:fix": "node scripts/validate-nouns.mjs --apply"
   },
   "dependencies": {
     "idb-keyval": "^6.2.1",

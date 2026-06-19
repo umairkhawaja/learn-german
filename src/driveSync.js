@@ -246,7 +246,9 @@ export async function pushProgress(progress, { interactive = false } = {}) {
 }
 
 // ── Merge strategy: keep whichever side has more attempts (more = more recent).
-// Ties go to higher mastery. Words only on one side are kept as-is. ──
+// Ties go to higher mastery. Words only on one side are kept as-is.
+// The force-mastered (`skip`) flag is sticky: it doesn't move quiz totals, so
+// it must be OR'd across sides or a sync would silently drop it. ──
 export function mergeProgress(local, remote) {
   const a = sanitizeProgress(local || {});
   const b = sanitizeProgress(remote || {});
@@ -254,9 +256,8 @@ export function mergeProgress(local, remote) {
   for (const [k, rv] of Object.entries(b)) {
     const lv = out[k];
     if (!lv) { out[k] = rv; continue; }
-    if (rv.total > lv.total || (rv.total === lv.total && rv.mastery > lv.mastery)) {
-      out[k] = rv;
-    }
+    const winner = (rv.total > lv.total || (rv.total === lv.total && rv.mastery > lv.mastery)) ? rv : lv;
+    out[k] = (lv.skip || rv.skip) ? { ...winner, skip: true } : winner;
   }
   return out;
 }
