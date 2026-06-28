@@ -1692,5 +1692,26 @@
     "c": "Function Word",
     "ex": "liegt zwischen Frankfurt und Stuttgart.",
     "lvl": "A2"
+  },
+  {
+    "w": "mitten",
+    "e": "in the middle (of)",
+    "c": "Adverb",
+    "ex": "Wir standen mitten im Park.",
+    "lvl": "A1"
+  },
+  {
+    "w": "eben",
+    "e": "just (now) / flat",
+    "c": "Adverb",
+    "ex": "Sie ist eben erst gegangen.",
+    "lvl": "A1"
+  },
+  {
+    "w": "ihnen",
+    "e": "them (dative)",
+    "c": "Function Word",
+    "ex": "Ich gebe ihnen das Buch.",
+    "lvl": "A1"
   }
 ]
