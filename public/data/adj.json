@@ -3115,5 +3115,45 @@
     "sup": "am einverstandensten",
     "ex": "",
     "lvl": "A2"
+  },
+  {
+    "w": "eingeladen",
+    "e": "invited",
+    "c": "States",
+    "cmp": "–",
+    "sup": "–",
+    "opp": "–",
+    "ex": "Wir sind herzlich eingeladen.",
+    "lvl": "A1"
+  },
+  {
+    "w": "geschieden",
+    "e": "divorced",
+    "c": "States",
+    "cmp": "–",
+    "sup": "–",
+    "opp": "verheiratet",
+    "ex": "Meine Eltern sind geschieden.",
+    "lvl": "A1"
+  },
+  {
+    "w": "verboten",
+    "e": "forbidden / banned",
+    "c": "States",
+    "cmp": "–",
+    "sup": "–",
+    "opp": "erlaubt",
+    "ex": "Rauchen ist hier verboten.",
+    "lvl": "A1"
+  },
+  {
+    "w": "gebrochen",
+    "e": "broken",
+    "c": "States",
+    "cmp": "–",
+    "sup": "–",
+    "opp": "heil / ganz",
+    "ex": "Mein Arm ist gebrochen.",
+    "lvl": "A1"
   }
 ]

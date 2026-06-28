@@ -33,11 +33,39 @@ export function VerbTable({ v }) {
           ))}
         </tbody>
       </table>
-      <div style={{ marginTop: 8, fontSize: 12.5, color: MUTE }}>
-        Partizip II: <span style={{ color: TXT, fontWeight: 600 }}>{v.p2}</span>
-        {"  ·  "}Perfekt mit: <span style={{ color: v.hs === "sein" ? COLORS.streak : COLORS.der, fontWeight: 700 }}>{v.hs}</span>
-        {"  ·  "}<span style={{ color: FAINT }}>{({ irr: "irregular", mix: "mixed", reg: "regular" })[v.t]}</span>
+      <div style={{ marginTop: 8, fontSize: 12.5, color: MUTE, display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center" }}>
+        <span>Partizip II: <span style={{ color: TXT, fontWeight: 600 }}>{v.p2}</span></span>
+        <span>{"·"}</span>
+        <span>Perfekt mit: <span style={{ color: v.hs === "sein" ? COLORS.streak : COLORS.der, fontWeight: 700 }}>{v.hs}</span></span>
+        <span>{"·"}</span>
+        <span style={{ color: FAINT }}>{({ irr: "irregular", mix: "mixed", reg: "regular" })[v.t]}</span>
+        {v.sep && (
+          <span style={{ background: "#1e293b", color: "#7dd3fc", borderRadius: 6, padding: "2px 8px", fontSize: 11, fontWeight: 700, letterSpacing: 0.3 }}>trennbar · separable</span>
+        )}
       </div>
+
+      {v.ex && v.ex.length > 0 && (
+        <div style={{ marginTop: 12 }}>
+          <div style={{ fontSize: 11, color: FAINT, textTransform: "uppercase", letterSpacing: 0.5, marginBottom: 5 }}>Beispiele</div>
+          <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+            {(Array.isArray(v.ex) ? v.ex : [v.ex]).map((ex, i) => {
+              const [de, en] = typeof ex === "string" ? ex.split(" — ") : [ex.de, ex.en];
+              return (
+                <div key={i} style={{ fontSize: 13, lineHeight: 1.5 }}>
+                  <span style={{ color: TXT }}>{de}</span>
+                  {en && <span style={{ color: FAINT }}> — {en}</span>}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      {v.n && (
+        <div style={{ marginTop: 10, fontSize: 12.5, color: "#9aa6b6", background: "#13161c", border: "1px solid #1f2630", borderRadius: 8, padding: "7px 10px", lineHeight: 1.5 }}>
+          💡 {v.n}
+        </div>
+      )}
     </div>
   );
 }
