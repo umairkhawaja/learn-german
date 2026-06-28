@@ -3,7 +3,7 @@ import { useState, useMemo, useCallback, useRef, useEffect } from "react";
 import { COLORS, TXT, MUTE } from "../config/theme";
 import { lvlOf } from "../config/levels";
 import { subcatsOf } from "../config/categories";
-import { keyOf } from "../engine/progress";
+import { keyOf, isMastered } from "../engine/progress";
 import { pickSession } from "../engine/quiz";
 import { QuizRunner } from "./QuizRunner";
 
@@ -21,7 +21,7 @@ export function QuizView({ cat, progress, setProgress, levelFilter, db }) {
     return db[cat.key].filter((x) => {
       if (levelFilter !== "All" && lvlOf(x) !== levelFilter) return false;
       if (catFilter !== "All" && cat.catOf(x) !== catFilter) return false;
-      if (progress[keyOf(cat.id, x)]?.skip) return false;
+      if (isMastered(progress[keyOf(cat.id, x)])) return false;
       return true;
     });
   }, [cat, catFilter, levelFilter, db, progress]);
