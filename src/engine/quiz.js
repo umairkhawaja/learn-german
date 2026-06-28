@@ -1,5 +1,5 @@
 // ── Quiz engine: question building + session selection ────────
-import { keyOf } from "./progress";
+import { keyOf, isMastered } from "./progress";
 import { lvlOf } from "../config/levels";
 
 export const SESSION_LEN = 10;
@@ -71,7 +71,7 @@ export function pickDueReview(db, categories, progress, levelFilter) {
     for (const it of pool) {
       if (levelFilter !== "All" && lvlOf(it) !== levelFilter) continue;
       const p = progress[keyOf(cat.id, it)];
-      if (!p || p.skip) continue;        // only words you've actually practised
+      if (!p || isMastered(p)) continue; // only practised, not-yet-mastered words
       if (p.due && p.due > now) continue; // not due yet
       const overdueDays = p.due ? Math.max(0, (now - p.due) / 86400000) : 1;
       weighted.push({ it: { it, cat }, w: 1 + Math.min(overdueDays, 30) });
@@ -91,7 +91,7 @@ export function dueCount(db, categories, progress, levelFilter) {
     for (const it of db[cat.key] || []) {
       if (levelFilter !== "All" && lvlOf(it) !== levelFilter) continue;
       const p = progress[keyOf(cat.id, it)];
-      if (p && !p.skip && (!p.due || p.due <= now)) n++;
+      if (p && !isMastered(p) && (!p.due || p.due <= now)) n++;
     }
   }
   return n;

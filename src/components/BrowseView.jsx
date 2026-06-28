@@ -3,7 +3,7 @@ import { useState, useMemo } from "react";
 import { COLORS, TXT, MUTE, FAINT } from "../config/theme";
 import { lvlOf } from "../config/levels";
 import { subcatsOf } from "../config/categories";
-import { keyOf, saveProgress } from "../engine/progress";
+import { keyOf, saveProgress, isMastered } from "../engine/progress";
 import { MasterBtn, SpeakBtn } from "./ui";
 
 export function BrowseView({ cat, progress, setProgress, levelFilter, db }) {
@@ -53,18 +53,19 @@ export function BrowseView({ cat, progress, setProgress, levelFilter, db }) {
         {filtered.map((it) => {
           const k = keyOf(cat.id, it);
           const p = progress[k] || { mastery: 0, correct: 0, total: 0 };
+          const mastered = isMastered(p);
           const isOpen = expanded === k;
           return (
             <div key={k} onClick={() => setExpanded(isOpen ? null : k)}
-              style={{ background: p.skip ? "#0d1a0d" : "#141414", border: `1px solid ${isOpen ? cat.color + "55" : p.skip ? "#22c55e33" : "#242424"}`, borderRadius: 12, padding: "11px 14px", cursor: "pointer", transition: "border-color .15s" }}>
+              style={{ background: mastered ? "#0d1a0d" : "#141414", border: `1px solid ${isOpen ? cat.color + "55" : mastered ? "#22c55e33" : "#242424"}`, borderRadius: 12, padding: "11px 14px", cursor: "pointer", transition: "border-color .15s" }}>
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 10 }}>
                 <div style={{ minWidth: 0 }}>
-                  <span style={{ fontWeight: 700, fontSize: 15.5, color: p.skip ? "#6b7280" : COLORS.txtStrong }}>{it.w}</span>
+                  <span style={{ fontWeight: 700, fontSize: 15.5, color: mastered ? "#6b7280" : COLORS.txtStrong }}>{it.w}</span>
                   <span style={{ marginLeft: 8, fontSize: 13, color: MUTE }}>{it.e}</span>
-                  {p.skip && <span style={{ marginLeft: 8, fontSize: 10, color: COLORS.success, background: "#0a2a16", border: "1px solid #22c55e33", borderRadius: 4, padding: "1px 5px", fontWeight: 600 }}>mastered</span>}
+                  {mastered && <span style={{ marginLeft: 8, fontSize: 10, color: COLORS.success, background: "#0a2a16", border: "1px solid #22c55e33", borderRadius: 4, padding: "1px 5px", fontWeight: 600 }}>mastered</span>}
                 </div>
                 <div style={{ display: "flex", gap: 6, alignItems: "center", flex: "0 0 auto" }}>
-                  {p.total > 0 && !p.skip && (
+                  {p.total > 0 && !mastered && (
                     <span style={{ fontSize: 11, color: p.mastery >= 4 ? COLORS.success : p.correct / p.total >= 0.7 ? "#eab308" : COLORS.streak, background: "#1f1f1f", borderRadius: 5, padding: "2px 7px", fontWeight: 600 }}>
                       {"★".repeat(p.mastery)}{"☆".repeat(5 - p.mastery)}
                     </span>

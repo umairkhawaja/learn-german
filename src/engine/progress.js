@@ -33,6 +33,16 @@ export function keyOf(catId, item) {
   return catId + ":" + item.w;
 }
 
+// A word counts as "mastered" — and is hidden from quiz + review — once it
+// reaches 4+ star mastery automatically, or is force-mastered via the
+// "Mark as mastered" button (`skip`). This matches the threshold Stats and
+// Browse use to display the green "mastered" label, so the label and the
+// hide-from-practice behaviour stay in sync.
+export const MASTERY_THRESHOLD = 4;
+export function isMastered(p) {
+  return !!p && (p.skip || p.mastery >= MASTERY_THRESHOLD);
+}
+
 // Leitner-style intervals (days) indexed by mastery level 0..5.
 const INTERVALS_DAYS = [0, 1, 3, 7, 16, 35];
 const DAY = 86400000;
