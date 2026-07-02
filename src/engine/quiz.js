@@ -4,6 +4,14 @@ import { lvlOf } from "../config/levels";
 
 export const SESSION_LEN = 10;
 
+// True when a data field is usable as a quiz answer. Entries use "" or "–"
+// for forms that don't exist (countries have no article/plural, some
+// adjectives have no comparative/opposite) — a mode must skip those items
+// or it builds questions whose correct answer isn't among the options.
+export function hasField(v) {
+  return v != null && String(v).trim() !== "" && v !== "–";
+}
+
 export function shuffle(arr) {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {
@@ -68,8 +76,10 @@ export function pickDueReview(db, categories, progress, levelFilter) {
   const weighted = [];
   for (const cat of categories) {
     const pool = db[cat.key] || [];
+    const mode = cat.modes[0]; // review always asks the translation question
     for (const it of pool) {
       if (levelFilter !== "All" && lvlOf(it) !== levelFilter) continue;
+      if (mode.eligible && !mode.eligible(it)) continue;
       const p = progress[keyOf(cat.id, it)];
       if (!p || isMastered(p)) continue; // only practised, not-yet-mastered words
       if (p.due && p.due > now) continue; // not due yet

@@ -31,7 +31,9 @@ export function BackupPanel({ progress, setProgress, driveStatus, setDriveStatus
   const doImport = (raw) => {
     try {
       const incoming = parseBackup(raw);
-      const merged = { ...progress, ...incoming };
+      // Same per-word merge as Drive sync: an older backup must not clobber
+      // newer local entries wholesale (keeps the side with more attempts).
+      const merged = drive.mergeProgress(progress, incoming);
       setProgress(merged); saveProgress(merged);
       setMsg({ ok: true, t: `Restored ${Object.keys(incoming).length} words.` });
       setText("");

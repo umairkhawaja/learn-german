@@ -37,15 +37,20 @@ import { NotesView } from "./NotesView";
 export default function DeutschMeister() {
   const [db, setDb] = useState(null);
   const [progress, setProgress] = useState({});
+  // Drive sync must not pull-merge (or push) until the local progress has
+  // been read from IndexedDB, or it races against loadProgress: a merge
+  // against the initial {} can be overwritten by the later local setProgress,
+  // and a push of {} would clobber the remote backup.
+  const [progressLoaded, setProgressLoaded] = useState(false);
   const [view, setView] = useState("quiz"); // quiz | review | browse | cheatsheet | notes | stats
   const [activeCat, setActiveCat] = useState(0);
   const [levelFilter, setLevelFilter] = useState("All");
 
   useEffect(() => { loadDB().then(setDb); }, []);
-  useEffect(() => { loadProgress().then(setProgress); }, []);
+  useEffect(() => { loadProgress().then((p) => { setProgress(p); setProgressLoaded(true); }); }, []);
   useEffect(() => { try { window.speechSynthesis.getVoices(); } catch { } }, []);
 
-  const { driveStatus, setDriveStatus } = useDriveSync(progress, setProgress);
+  const { driveStatus, setDriveStatus } = useDriveSync(progress, setProgress, progressLoaded);
 
   const cat = CATEGORIES[activeCat];
   const due = useMemo(

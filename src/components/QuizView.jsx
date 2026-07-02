@@ -22,9 +22,10 @@ export function QuizView({ cat, progress, setProgress, levelFilter, db }) {
       if (levelFilter !== "All" && lvlOf(x) !== levelFilter) return false;
       if (catFilter !== "All" && cat.catOf(x) !== catFilter) return false;
       if (isMastered(progress[keyOf(cat.id, x)])) return false;
+      if (modeDef.eligible && !modeDef.eligible(x)) return false;
       return true;
     });
-  }, [cat, catFilter, levelFilter, db, progress]);
+  }, [cat, catFilter, levelFilter, db, progress, modeDef]);
 
   const buildQueue = useCallback((weak) => {
     const items = pickSession(pool, progressRef.current, cat.id, weak);
