@@ -1,6 +1,6 @@
 # Deutsch Meister — PWA
 
-An installable, offline German A1 trainer (909 words + grammar reference), converted
+An installable, offline German trainer (2,900+ words across CEFR levels + grammar reference), converted
 from the original single-file artifact into a standard Vite + React Progressive Web App.
 No backend, no network — all data is bundled and progress is stored on-device.
 

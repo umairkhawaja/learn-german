@@ -22,6 +22,17 @@ export default {
     }
 
     const url = new URL(request.url);
+
+    // Only proxy the single endpoint the app needs — without this the worker
+    // is an open proxy anyone can use to relay arbitrary POSTs to notion.so
+    // under this account's free-tier quota.
+    if (request.method !== "POST") {
+      return new Response("Method not allowed", { status: 405 });
+    }
+    if (url.pathname !== "/api/v3/loadPageChunk") {
+      return new Response("Not found", { status: 404 });
+    }
+
     const notionUrl = "https://www.notion.so" + url.pathname + url.search;
 
     const notionResponse = await fetch(notionUrl, {

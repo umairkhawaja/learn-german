@@ -14,7 +14,7 @@ export default defineConfig({
       manifest: {
         name: "Deutsch Meister",
         short_name: "Deutsch",
-        description: "A1 German vocabulary & grammar trainer — 909 words, quizzes, grammar reference.",
+        description: "German vocabulary & grammar trainer — quizzes, spaced repetition, grammar reference.",
         lang: "en",
         theme_color: "#0a0a0a",
         background_color: "#0a0a0a",
