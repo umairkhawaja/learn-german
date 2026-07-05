@@ -6,7 +6,7 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { COLORS, TXT, MUTE, FAINT } from "../config/theme";
 import { keyOf, applyAnswer, saveProgress } from "../engine/progress";
-import { SpeakBtn } from "./ui";
+import { SpeakBtn, ExampleLine } from "./ui";
 
 export function QuizRunner({ queue, progress, setProgress, accent, controls, onRestart, onPracticeWeak }) {
   const [idx, setIdx] = useState(0);
@@ -134,7 +134,7 @@ export function QuizRunner({ queue, progress, setProgress, accent, controls, onR
             <div style={{ fontSize: 13, color: MUTE }}>
               Answer: <span style={{ color: COLORS.successText, fontWeight: 700 }}>{q.answer}</span>
             </div>
-            {item.ex && <div style={{ marginTop: 8, fontSize: 13, color: FAINT, fontStyle: "italic" }}>„{item.ex}"</div>}
+            {item.ex && !Array.isArray(item.ex) && <ExampleLine text={item.ex} style={{ marginTop: 8 }} />}
             {cat.detail(item)}
           </div>
         )}

@@ -28,6 +28,7 @@ import { useDriveSync } from "./engine/useDriveSync";
 import { Header } from "./components/Header";
 import { BottomNav } from "./components/BottomNav";
 import { QuizView } from "./components/QuizView";
+import { ExercisesView } from "./components/ExercisesView";
 import { ReviewView } from "./components/ReviewView";
 import { BrowseView } from "./components/BrowseView";
 import { CheatsheetView } from "./components/CheatsheetView";
@@ -85,6 +86,7 @@ export default function DeutschMeister() {
 
       <div style={{ maxWidth: 680, margin: "0 auto", padding: "18px 16px 96px", width: "100%" }}>
         {view === "quiz" && <QuizView key={cat.id} cat={cat} progress={progress} setProgress={setProgress} levelFilter={levelFilter} db={db} />}
+        {view === "exercises" && <ExercisesView levelFilter={levelFilter} />}
         {view === "review" && <ReviewView progress={progress} setProgress={setProgress} levelFilter={levelFilter} db={db} />}
         {view === "browse" && <BrowseView key={cat.id} cat={cat} progress={progress} setProgress={setProgress} levelFilter={levelFilter} db={db} />}
         {view === "cheatsheet" && <CheatsheetView />}

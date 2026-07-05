@@ -4,7 +4,7 @@ import { COLORS, TXT, MUTE, FAINT } from "../config/theme";
 import { lvlOf } from "../config/levels";
 import { subcatsOf } from "../config/categories";
 import { keyOf, saveProgress, isMastered } from "../engine/progress";
-import { MasterBtn, SpeakBtn } from "./ui";
+import { MasterBtn, SpeakBtn, ExampleLine } from "./ui";
 
 export function BrowseView({ cat, progress, setProgress, levelFilter, db }) {
   const [search, setSearch] = useState("");
@@ -76,7 +76,7 @@ export function BrowseView({ cat, progress, setProgress, levelFilter, db }) {
               </div>
               {isOpen && (
                 <div className="dm-reveal" style={{ marginTop: 9, borderTop: "1px solid #242424", paddingTop: 9 }}>
-                  {it.ex && <div style={{ fontSize: 13, color: "#9aa6b6", fontStyle: "italic" }}>„{it.ex}"</div>}
+                  <ExampleLine text={it.ex} />
                   {cat.detail(it)}
                 </div>
               )}
