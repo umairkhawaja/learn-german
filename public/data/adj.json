@@ -3155,5 +3155,687 @@
   "opp": "heil / ganz",
   "ex": "Mein Arm ist gebrochen. — My arm is broken.",
   "lvl": "A1"
+ },
+ {
+  "w": "ähnlich",
+  "e": "similar",
+  "c": "Quality & Value",
+  "cmp": "ähnlicher",
+  "sup": "am ähnlichsten",
+  "opp": "verschieden",
+  "ex": "Du siehst deiner Mutter sehr ähnlich. — You look very similar to your mother.",
+  "lvl": "A2"
+ },
+ {
+  "w": "ärgerlich",
+  "e": "annoying / annoyed",
+  "c": "Emotion & Feeling",
+  "cmp": "ärgerlicher",
+  "sup": "am ärgerlichsten",
+  "opp": "erfreulich",
+  "ex": "Das ist wirklich ärgerlich! — That's really annoying!",
+  "lvl": "A2"
+ },
+ {
+  "w": "doppelt",
+  "e": "double / twice",
+  "c": "Size & Quantity",
+  "opp": "halb",
+  "ex": "Du hast die Datei doppelt gespeichert. — You saved the file twice.",
+  "lvl": "A2"
+ },
+ {
+  "w": "hübsch",
+  "e": "pretty",
+  "c": "Describing People",
+  "cmp": "hübscher",
+  "sup": "am hübschesten",
+  "opp": "hässlich",
+  "ex": "Das ist ein hübsches Kleid. — That's a pretty dress.",
+  "lvl": "A2"
+ },
+ {
+  "w": "kompliziert",
+  "e": "complicated",
+  "c": "Quality & Value",
+  "cmp": "komplizierter",
+  "sup": "am kompliziertesten",
+  "opp": "einfach",
+  "ex": "Die Grammatik ist gar nicht so kompliziert. — The grammar isn't that complicated at all.",
+  "lvl": "A2"
+ },
+ {
+  "w": "niedrig",
+  "e": "low",
+  "c": "Physical Properties",
+  "cmp": "niedriger",
+  "sup": "am niedrigsten",
+  "opp": "hoch",
+  "ex": "Die Preise sind hier niedrig. — Prices are low here.",
+  "lvl": "A2"
+ },
+ {
+  "w": "satt",
+  "e": "full (after eating)",
+  "c": "States",
+  "cmp": "satter",
+  "sup": "am sattesten",
+  "opp": "hungrig",
+  "ex": "Danke, ich bin satt. — Thanks, I'm full.",
+  "lvl": "A2"
+ },
+ {
+  "w": "schlank",
+  "e": "slim",
+  "c": "Describing People",
+  "cmp": "schlanker",
+  "sup": "am schlanksten",
+  "opp": "dick",
+  "ex": "Er ist groß und schlank. — He is tall and slim.",
+  "lvl": "A2"
+ },
+ {
+  "w": "seltsam",
+  "e": "strange / odd",
+  "c": "Quality & Value",
+  "cmp": "seltsamer",
+  "sup": "am seltsamsten",
+  "opp": "normal",
+  "ex": "Ein seltsames Geräusch kommt aus dem Keller. — A strange noise is coming from the cellar.",
+  "lvl": "A2"
+ },
+ {
+  "w": "still",
+  "e": "quiet / silent",
+  "c": "Quality & Value",
+  "cmp": "stiller",
+  "sup": "am stillsten",
+  "opp": "laut",
+  "ex": "Bitte sei still, das Baby schläft. — Please be quiet, the baby is sleeping.",
+  "lvl": "A2"
+ },
+ {
+  "w": "verletzt",
+  "e": "injured / hurt",
+  "c": "States",
+  "opp": "gesund",
+  "ex": "Bei dem Unfall wurde niemand verletzt. — Nobody was injured in the accident.",
+  "lvl": "A2"
+ },
+ {
+  "w": "verrückt",
+  "e": "crazy",
+  "c": "Describing People",
+  "cmp": "verrückter",
+  "sup": "am verrücktesten",
+  "opp": "vernünftig",
+  "ex": "Das ist eine verrückte Idee! — That's a crazy idea!",
+  "lvl": "A2"
+ },
+ {
+  "w": "angenehm",
+  "e": "pleasant",
+  "c": "Quality & Value",
+  "cmp": "angenehmer",
+  "sup": "am angenehmsten",
+  "opp": "unangenehm",
+  "ex": "Hier ist es angenehm kühl. — It's pleasantly cool here.",
+  "lvl": "B1"
+ },
+ {
+  "w": "aufmerksam",
+  "e": "attentive",
+  "c": "Describing People",
+  "cmp": "aufmerksamer",
+  "sup": "am aufmerksamsten",
+  "opp": "unaufmerksam",
+  "ex": "Die Schüler hören aufmerksam zu. — The students listen attentively.",
+  "lvl": "B1"
+ },
+ {
+  "w": "ausführlich",
+  "e": "detailed / in detail",
+  "c": "Quality & Value",
+  "cmp": "ausführlicher",
+  "sup": "am ausführlichsten",
+  "opp": "kurz",
+  "ex": "Er hat alles ausführlich erklärt. — He explained everything in detail.",
+  "lvl": "B1"
+ },
+ {
+  "w": "ausgezeichnet",
+  "e": "excellent",
+  "c": "Quality & Value",
+  "opp": "schlecht",
+  "ex": "Das Essen war ausgezeichnet! — The food was excellent!",
+  "lvl": "B1"
+ },
+ {
+  "w": "berufstätig",
+  "e": "employed / working",
+  "c": "States",
+  "opp": "arbeitslos",
+  "ex": "Beide Eltern sind berufstätig. — Both parents work.",
+  "lvl": "B1"
+ },
+ {
+  "w": "bescheiden",
+  "e": "modest",
+  "c": "Describing People",
+  "cmp": "bescheidener",
+  "sup": "am bescheidensten",
+  "opp": "arrogant",
+  "ex": "Trotz ihres Erfolgs ist sie sehr bescheiden. — Despite her success she is very modest.",
+  "lvl": "B1"
+ },
+ {
+  "w": "bewusst",
+  "e": "conscious / aware; deliberate",
+  "c": "Quality & Value",
+  "cmp": "bewusster",
+  "sup": "am bewusstesten",
+  "opp": "unbewusst",
+  "ex": "Mir ist das Problem bewusst. — I am aware of the problem.",
+  "lvl": "B1"
+ },
+ {
+  "w": "digital",
+  "e": "digital",
+  "c": "Quality & Value",
+  "opp": "analog",
+  "ex": "Die Rechnung kommt nur noch digital. — The invoice now only comes digitally.",
+  "lvl": "B1"
+ },
+ {
+  "w": "durchschnittlich",
+  "e": "average",
+  "c": "Size & Quantity",
+  "opp": "außergewöhnlich",
+  "ex": "Er verdient ein durchschnittliches Gehalt. — He earns an average salary.",
+  "lvl": "B1"
+ },
+ {
+  "w": "ehemalig",
+  "e": "former",
+  "c": "Time & Frequency",
+  "opp": "zukünftig",
+  "ex": "Mein ehemaliger Kollege arbeitet jetzt in Berlin. — My former colleague now works in Berlin.",
+  "lvl": "B1"
+ },
+ {
+  "w": "einsam",
+  "e": "lonely",
+  "c": "Emotion & Feeling",
+  "cmp": "einsamer",
+  "sup": "am einsamsten",
+  "opp": "gesellig",
+  "ex": "Ohne Freunde fühlt man sich schnell einsam. — Without friends you quickly feel lonely.",
+  "lvl": "B1"
+ },
+ {
+  "w": "einzeln",
+  "e": "individual / single",
+  "c": "Size & Quantity",
+  "opp": "gemeinsam",
+  "ex": "Die Schuhe werden nicht einzeln verkauft. — The shoes are not sold individually.",
+  "lvl": "B1"
+ },
+ {
+  "w": "einzig",
+  "e": "only / sole",
+  "c": "Size & Quantity",
+  "ex": "Das ist die einzige Möglichkeit. — That is the only possibility.",
+  "lvl": "B1"
+ },
+ {
+  "w": "empfindlich",
+  "e": "sensitive",
+  "c": "Describing People",
+  "cmp": "empfindlicher",
+  "sup": "am empfindlichsten",
+  "opp": "robust",
+  "ex": "Meine Haut ist sehr empfindlich. — My skin is very sensitive.",
+  "lvl": "B1"
+ },
+ {
+  "w": "endgültig",
+  "e": "final / definitive",
+  "c": "Time & Frequency",
+  "opp": "vorläufig",
+  "ex": "Die Entscheidung ist endgültig. — The decision is final.",
+  "lvl": "B1"
+ },
+ {
+  "w": "entfernt",
+  "e": "distant / away",
+  "c": "Distance & Position",
+  "cmp": "entfernter",
+  "sup": "am entferntesten",
+  "opp": "nah",
+  "ex": "Der Bahnhof ist zwei Kilometer entfernt. — The station is two kilometres away.",
+  "lvl": "B1"
+ },
+ {
+  "w": "enttäuscht",
+  "e": "disappointed",
+  "c": "Emotion & Feeling",
+  "cmp": "enttäuschter",
+  "sup": "am enttäuschtesten",
+  "opp": "begeistert",
+  "ex": "Ich bin enttäuscht von dem Film. — I'm disappointed by the film.",
+  "lvl": "B1"
+ },
+ {
+  "w": "erfahren",
+  "e": "experienced",
+  "c": "Describing People",
+  "cmp": "erfahrener",
+  "sup": "am erfahrensten",
+  "opp": "unerfahren",
+  "ex": "Sie ist eine erfahrene Ärztin. — She is an experienced doctor.",
+  "lvl": "B1"
+ },
+ {
+  "w": "fair",
+  "e": "fair",
+  "c": "Quality & Value",
+  "cmp": "fairer",
+  "sup": "am fairsten",
+  "opp": "unfair",
+  "ex": "Der Schiedsrichter war sehr fair. — The referee was very fair.",
+  "lvl": "B1"
+ },
+ {
+  "w": "finanziell",
+  "e": "financial(ly)",
+  "c": "Quality & Value",
+  "ex": "Finanziell geht es der Familie gut. — Financially the family is doing well.",
+  "lvl": "B1"
+ },
+ {
+  "w": "geeignet",
+  "e": "suitable",
+  "c": "Quality & Value",
+  "cmp": "geeigneter",
+  "sup": "am geeignetsten",
+  "opp": "ungeeignet",
+  "ex": "Der Film ist für Kinder nicht geeignet. — The film is not suitable for children.",
+  "lvl": "B1"
+ },
+ {
+  "w": "geduldig",
+  "e": "patient",
+  "c": "Describing People",
+  "cmp": "geduldiger",
+  "sup": "am geduldigsten",
+  "opp": "ungeduldig",
+  "ex": "Die Lehrerin ist sehr geduldig mit uns. — The teacher is very patient with us.",
+  "lvl": "B1"
+ },
+ {
+  "w": "gerecht",
+  "e": "just / fair",
+  "c": "Quality & Value",
+  "cmp": "gerechter",
+  "sup": "am gerechtesten",
+  "opp": "ungerecht",
+  "ex": "Die Strafe war gerecht. — The punishment was just.",
+  "lvl": "B1"
+ },
+ {
+  "w": "gleichzeitig",
+  "e": "simultaneous(ly)",
+  "c": "Time & Frequency",
+  "opp": "nacheinander",
+  "ex": "Alle haben gleichzeitig geredet. — Everyone talked at the same time.",
+  "lvl": "B1"
+ },
+ {
+  "w": "großzügig",
+  "e": "generous",
+  "c": "Describing People",
+  "cmp": "großzügiger",
+  "sup": "am großzügigsten",
+  "opp": "geizig",
+  "ex": "Das war ein großzügiges Geschenk. — That was a generous gift.",
+  "lvl": "B1"
+ },
+ {
+  "w": "heftig",
+  "e": "violent / intense",
+  "c": "Quality & Value",
+  "cmp": "heftiger",
+  "sup": "am heftigsten",
+  "opp": "leicht",
+  "ex": "Es gab einen heftigen Sturm. — There was a violent storm.",
+  "lvl": "B1"
+ },
+ {
+  "w": "hilfsbereit",
+  "e": "helpful (person)",
+  "c": "Describing People",
+  "cmp": "hilfsbereiter",
+  "sup": "am hilfsbereitesten",
+  "opp": "egoistisch",
+  "ex": "Unsere Nachbarn sind sehr hilfsbereit. — Our neighbours are very helpful.",
+  "lvl": "B1"
+ },
+ {
+  "w": "hervorragend",
+  "e": "outstanding",
+  "c": "Quality & Value",
+  "opp": "miserabel",
+  "ex": "Sie spricht hervorragend Deutsch. — She speaks outstanding German.",
+  "lvl": "B1"
+ },
+ {
+  "w": "komplett",
+  "e": "complete(ly)",
+  "c": "Size & Quantity",
+  "opp": "unvollständig",
+  "ex": "Die Wohnung ist komplett möbliert. — The flat is completely furnished.",
+  "lvl": "B1"
+ },
+ {
+  "w": "konkret",
+  "e": "concrete / specific",
+  "c": "Quality & Value",
+  "cmp": "konkreter",
+  "sup": "am konkretesten",
+  "opp": "vage",
+  "ex": "Hast du einen konkreten Vorschlag? — Do you have a concrete suggestion?",
+  "lvl": "B1"
+ },
+ {
+  "w": "körperlich",
+  "e": "physical(ly)",
+  "c": "Body & Health",
+  "opp": "geistig",
+  "ex": "Die Arbeit ist körperlich anstrengend. — The work is physically demanding.",
+  "lvl": "B1"
+ },
+ {
+  "w": "kreativ",
+  "e": "creative",
+  "c": "Describing People",
+  "cmp": "kreativer",
+  "sup": "am kreativsten",
+  "opp": "fantasielos",
+  "ex": "Sie findet immer kreative Lösungen. — She always finds creative solutions.",
+  "lvl": "B1"
+ },
+ {
+  "w": "kritisch",
+  "e": "critical",
+  "c": "Quality & Value",
+  "cmp": "kritischer",
+  "sup": "am kritischsten",
+  "opp": "unkritisch",
+  "ex": "Er stellt viele kritische Fragen. — He asks a lot of critical questions.",
+  "lvl": "B1"
+ },
+ {
+  "w": "lebendig",
+  "e": "lively / alive",
+  "c": "Quality & Value",
+  "cmp": "lebendiger",
+  "sup": "am lebendigsten",
+  "opp": "tot",
+  "ex": "Der Unterricht war sehr lebendig. — The lesson was very lively.",
+  "lvl": "B1"
+ },
+ {
+  "w": "mehrere",
+  "e": "several",
+  "c": "Size & Quantity",
+  "opp": "wenige",
+  "ex": "Ich habe mehrere E-Mails geschrieben. — I wrote several e-mails.",
+  "lvl": "B1"
+ },
+ {
+  "w": "motiviert",
+  "e": "motivated",
+  "c": "Emotion & Feeling",
+  "cmp": "motivierter",
+  "sup": "am motiviertesten",
+  "opp": "lustlos",
+  "ex": "Das Team ist hoch motiviert. — The team is highly motivated.",
+  "lvl": "B1"
+ },
+ {
+  "w": "nachhaltig",
+  "e": "sustainable",
+  "c": "Quality & Value",
+  "cmp": "nachhaltiger",
+  "sup": "am nachhaltigsten",
+  "opp": "umweltschädlich",
+  "ex": "Wir versuchen, nachhaltig zu leben. — We try to live sustainably.",
+  "lvl": "B1"
+ },
+ {
+  "w": "optimistisch",
+  "e": "optimistic",
+  "c": "Emotion & Feeling",
+  "cmp": "optimistischer",
+  "sup": "am optimistischsten",
+  "opp": "pessimistisch",
+  "ex": "Ich bin optimistisch, dass es klappt. — I'm optimistic that it will work out.",
+  "lvl": "B1"
+ },
+ {
+  "w": "pessimistisch",
+  "e": "pessimistic",
+  "c": "Emotion & Feeling",
+  "cmp": "pessimistischer",
+  "sup": "am pessimistischsten",
+  "opp": "optimistisch",
+  "ex": "Sei nicht so pessimistisch! — Don't be so pessimistic!",
+  "lvl": "B1"
+ },
+ {
+  "w": "realistisch",
+  "e": "realistic",
+  "c": "Quality & Value",
+  "cmp": "realistischer",
+  "sup": "am realistischsten",
+  "opp": "unrealistisch",
+  "ex": "Der Plan ist nicht realistisch. — The plan is not realistic.",
+  "lvl": "B1"
+ },
+ {
+  "w": "regional",
+  "e": "regional",
+  "c": "Quality & Value",
+  "opp": "überregional",
+  "ex": "Wir kaufen regionales Gemüse. — We buy regional vegetables.",
+  "lvl": "B1"
+ },
+ {
+  "w": "sinnvoll",
+  "e": "sensible / meaningful",
+  "c": "Quality & Value",
+  "cmp": "sinnvoller",
+  "sup": "am sinnvollsten",
+  "opp": "sinnlos",
+  "ex": "Es ist sinnvoll, früh zu buchen. — It makes sense to book early.",
+  "lvl": "B1"
+ },
+ {
+  "w": "schädlich",
+  "e": "harmful",
+  "c": "Quality & Value",
+  "cmp": "schädlicher",
+  "sup": "am schädlichsten",
+  "opp": "nützlich",
+  "ex": "Rauchen ist schädlich für die Gesundheit. — Smoking is harmful to your health.",
+  "lvl": "B1"
+ },
+ {
+  "w": "selbstbewusst",
+  "e": "self-confident",
+  "c": "Describing People",
+  "cmp": "selbstbewusster",
+  "sup": "am selbstbewusstesten",
+  "opp": "schüchtern",
+  "ex": "Sie tritt sehr selbstbewusst auf. — She comes across as very self-confident.",
+  "lvl": "B1"
+ },
+ {
+  "w": "sparsam",
+  "e": "thrifty / economical",
+  "c": "Describing People",
+  "cmp": "sparsamer",
+  "sup": "am sparsamsten",
+  "opp": "verschwenderisch",
+  "ex": "Meine Großeltern leben sehr sparsam. — My grandparents live very thriftily.",
+  "lvl": "B1"
+ },
+ {
+  "w": "ständig",
+  "e": "constant(ly)",
+  "c": "Time & Frequency",
+  "opp": "selten",
+  "ex": "Er schaut ständig auf sein Handy. — He constantly looks at his phone.",
+  "lvl": "B1"
+ },
+ {
+  "w": "tatsächlich",
+  "e": "actual(ly) / real(ly)",
+  "c": "Quality & Value",
+  "opp": "angeblich",
+  "ex": "Er hat tatsächlich gewonnen! — He actually won!",
+  "lvl": "B1"
+ },
+ {
+  "w": "technisch",
+  "e": "technical",
+  "c": "Quality & Value",
+  "ex": "Wir haben ein technisches Problem. — We have a technical problem.",
+  "lvl": "B1"
+ },
+ {
+  "w": "tolerant",
+  "e": "tolerant",
+  "c": "Describing People",
+  "cmp": "toleranter",
+  "sup": "am tolerantesten",
+  "opp": "intolerant",
+  "ex": "Meine Eltern sind sehr tolerant. — My parents are very tolerant.",
+  "lvl": "B1"
+ },
+ {
+  "w": "üblich",
+  "e": "usual / customary",
+  "c": "Time & Frequency",
+  "opp": "ungewöhnlich",
+  "ex": "In Deutschland ist Trinkgeld üblich. — Tipping is customary in Germany.",
+  "lvl": "B1"
+ },
+ {
+  "w": "umweltfreundlich",
+  "e": "environmentally friendly",
+  "c": "Quality & Value",
+  "cmp": "umweltfreundlicher",
+  "sup": "am umweltfreundlichsten",
+  "opp": "umweltschädlich",
+  "ex": "Das Fahrrad ist das umweltfreundlichste Verkehrsmittel. — The bicycle is the most environmentally friendly means of transport.",
+  "lvl": "B1"
+ },
+ {
+  "w": "unbekannt",
+  "e": "unknown",
+  "c": "Quality & Value",
+  "opp": "bekannt",
+  "ex": "Der Täter ist noch unbekannt. — The culprit is still unknown.",
+  "lvl": "B1"
+ },
+ {
+  "w": "ungewöhnlich",
+  "e": "unusual",
+  "c": "Quality & Value",
+  "cmp": "ungewöhnlicher",
+  "sup": "am ungewöhnlichsten",
+  "opp": "üblich",
+  "ex": "Das ist ein ungewöhnlicher Name. — That's an unusual name.",
+  "lvl": "B1"
+ },
+ {
+  "w": "verantwortlich",
+  "e": "responsible",
+  "c": "Quality & Value",
+  "ex": "Wer ist für das Projekt verantwortlich? — Who is responsible for the project?",
+  "lvl": "B1"
+ },
+ {
+  "w": "vernünftig",
+  "e": "sensible / reasonable",
+  "c": "Describing People",
+  "cmp": "vernünftiger",
+  "sup": "am vernünftigsten",
+  "opp": "unvernünftig",
+  "ex": "Sei vernünftig und geh zum Arzt! — Be sensible and go to the doctor!",
+  "lvl": "B1"
+ },
+ {
+  "w": "verständlich",
+  "e": "understandable / comprehensible",
+  "c": "Quality & Value",
+  "cmp": "verständlicher",
+  "sup": "am verständlichsten",
+  "opp": "unverständlich",
+  "ex": "Die Erklärung war gut verständlich. — The explanation was easy to understand.",
+  "lvl": "B1"
+ },
+ {
+  "w": "vielfältig",
+  "e": "diverse / varied",
+  "c": "Quality & Value",
+  "cmp": "vielfältiger",
+  "sup": "am vielfältigsten",
+  "opp": "eintönig",
+  "ex": "Das Kursangebot ist sehr vielfältig. — The range of courses is very diverse.",
+  "lvl": "B1"
+ },
+ {
+  "w": "vollständig",
+  "e": "complete",
+  "c": "Size & Quantity",
+  "opp": "unvollständig",
+  "ex": "Die Unterlagen sind vollständig. — The documents are complete.",
+  "lvl": "B1"
+ },
+ {
+  "w": "wirtschaftlich",
+  "e": "economic(al)",
+  "c": "Quality & Value",
+  "cmp": "wirtschaftlicher",
+  "sup": "am wirtschaftlichsten",
+  "ex": "Die wirtschaftliche Lage ist stabil. — The economic situation is stable.",
+  "lvl": "B1"
+ },
+ {
+  "w": "zahlreich",
+  "e": "numerous",
+  "c": "Size & Quantity",
+  "opp": "wenige",
+  "ex": "Zahlreiche Gäste kamen zur Eröffnung. — Numerous guests came to the opening.",
+  "lvl": "B1"
+ },
+ {
+  "w": "zuverlässig",
+  "e": "reliable",
+  "c": "Describing People",
+  "cmp": "zuverlässiger",
+  "sup": "am zuverlässigsten",
+  "opp": "unzuverlässig",
+  "ex": "Er ist ein zuverlässiger Kollege. — He is a reliable colleague.",
+  "lvl": "B1"
+ },
+ {
+  "w": "zusätzlich",
+  "e": "additional",
+  "c": "Size & Quantity",
+  "ex": "Das kostet zusätzlich zehn Euro. — That costs an additional ten euros.",
+  "lvl": "B1"
  }
 ]

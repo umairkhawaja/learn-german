@@ -817,5 +817,278 @@
   "c": "Small Talk",
   "ex": "Ich bin heute Abend mit Lisa verabredet. — I am meeting Lisa this evening.",
   "lvl": "A2"
+ },
+ {
+  "w": "Viel Glück!",
+  "e": "Good luck!",
+  "c": "Politeness",
+  "ex": "Before an exam, a job interview, etc.",
+  "lvl": "A2"
+ },
+ {
+  "w": "Viel Erfolg!",
+  "e": "Good luck! / Much success!",
+  "c": "Politeness",
+  "ex": "More formal than 'Viel Glück' — for exams and work.",
+  "lvl": "A2"
+ },
+ {
+  "w": "Herzlichen Glückwunsch!",
+  "e": "Congratulations!",
+  "c": "Politeness",
+  "ex": "'Herzlichen Glückwunsch zum Geburtstag!' = Happy birthday!",
+  "lvl": "A2"
+ },
+ {
+  "w": "Mach's gut!",
+  "e": "Take care! / All the best!",
+  "c": "Small Talk",
+  "ex": "Informal goodbye between friends.",
+  "lvl": "A2"
+ },
+ {
+  "w": "Keine Ahnung.",
+  "e": "No idea.",
+  "c": "Small Talk",
+  "ex": "Casual answer when you don't know something.",
+  "lvl": "A2"
+ },
+ {
+  "w": "Das macht nichts.",
+  "e": "That doesn't matter. / No problem.",
+  "c": "Small Talk",
+  "ex": "Reply when someone apologizes.",
+  "lvl": "A2"
+ },
+ {
+  "w": "In Ordnung.",
+  "e": "All right. / OK.",
+  "c": "Small Talk",
+  "ex": "Agreement: 'Treffen wir uns um 8? — In Ordnung.'",
+  "lvl": "A2"
+ },
+ {
+  "w": "Einen Moment, bitte.",
+  "e": "One moment, please.",
+  "c": "Politeness",
+  "ex": "On the phone or at a counter.",
+  "lvl": "A2"
+ },
+ {
+  "w": "Die Rechnung, bitte!",
+  "e": "The bill, please!",
+  "c": "Restaurant",
+  "ex": "Also: 'Wir möchten zahlen, bitte.'",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich möchte einen Termin vereinbaren.",
+  "e": "I would like to make an appointment.",
+  "c": "Politeness",
+  "ex": "At the doctor's, hairdresser's, or an office.",
+  "lvl": "A2"
+ },
+ {
+  "w": "Wo tut es weh?",
+  "e": "Where does it hurt?",
+  "c": "Emergencies",
+  "ex": "Doctor's standard question. Answer: 'Mein Hals tut weh.'",
+  "lvl": "A2"
+ },
+ {
+  "w": "Der Zug hat Verspätung.",
+  "e": "The train is delayed.",
+  "c": "Directions",
+  "ex": "Deutsche Bahn essential. Also: 'Der Zug fällt aus.' = The train is cancelled.",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich hätte gern ein Zimmer für zwei Nächte.",
+  "e": "I'd like a room for two nights.",
+  "c": "Small Talk",
+  "ex": "Hotel booking phrase; 'hätte gern' = polite would-like.",
+  "lvl": "A2"
+ },
+ {
+  "w": "Was darf es sein?",
+  "e": "What can I get you?",
+  "c": "Shopping",
+  "ex": "Typical question at the bakery or butcher's counter.",
+  "lvl": "A2"
+ },
+ {
+  "w": "Sonst noch etwas?",
+  "e": "Anything else?",
+  "c": "Shopping",
+  "ex": "Standard follow-up at market stalls; answer: 'Nein, danke, das ist alles.'",
+  "lvl": "A2"
+ },
+ {
+  "w": "Meiner Meinung nach ...",
+  "e": "In my opinion ...",
+  "c": "Opinion & Discussion",
+  "ex": "B1 exam gold: 'Meiner Meinung nach ist das eine gute Idee.'",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich bin der Meinung, dass ...",
+  "e": "I am of the opinion that ...",
+  "c": "Opinion & Discussion",
+  "ex": "Introduces an opinion in discussions and essays.",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich schlage vor, dass ...",
+  "e": "I suggest that ...",
+  "c": "Opinion & Discussion",
+  "ex": "For making suggestions: 'Ich schlage vor, dass wir uns am Freitag treffen.'",
+  "lvl": "B1"
+ },
+ {
+  "w": "Es kommt darauf an.",
+  "e": "It depends.",
+  "c": "Opinion & Discussion",
+  "ex": "Common answer: 'Es kommt darauf an, wie viel Zeit ich habe.'",
+  "lvl": "B1"
+ },
+ {
+  "w": "Da bin ich anderer Meinung.",
+  "e": "I disagree. / I'm of a different opinion.",
+  "c": "Opinion & Discussion",
+  "ex": "Polite disagreement in a discussion.",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich bin ganz deiner Meinung.",
+  "e": "I completely agree with you.",
+  "c": "Opinion & Discussion",
+  "ex": "Agreement; formal: 'Ich bin ganz Ihrer Meinung.'",
+  "lvl": "B1"
+ },
+ {
+  "w": "Das kommt nicht in Frage!",
+  "e": "That's out of the question!",
+  "c": "Opinion & Discussion",
+  "ex": "Strong refusal.",
+  "lvl": "B1"
+ },
+ {
+  "w": "Es lohnt sich.",
+  "e": "It's worth it.",
+  "c": "Idioms & Connectors",
+  "ex": "'Der Film lohnt sich wirklich!' = The film is really worth seeing.",
+  "lvl": "B1"
+ },
+ {
+  "w": "auf jeden Fall",
+  "e": "definitely / in any case",
+  "c": "Idioms & Connectors",
+  "ex": "'Kommst du mit? — Auf jeden Fall!' Opposite: auf keinen Fall.",
+  "lvl": "B1"
+ },
+ {
+  "w": "auf keinen Fall",
+  "e": "no way / under no circumstances",
+  "c": "Idioms & Connectors",
+  "ex": "Strong refusal: 'Das mache ich auf keinen Fall.'",
+  "lvl": "B1"
+ },
+ {
+  "w": "vor allem",
+  "e": "above all / especially",
+  "c": "Idioms & Connectors",
+  "ex": "'Ich mag deutsche Städte, vor allem München.'",
+  "lvl": "B1"
+ },
+ {
+  "w": "unter anderem",
+  "e": "among other things (u.a.)",
+  "c": "Idioms & Connectors",
+  "ex": "'Wir haben unter anderem über Politik gesprochen.'",
+  "lvl": "B1"
+ },
+ {
+  "w": "in der Regel",
+  "e": "as a rule / usually",
+  "c": "Idioms & Connectors",
+  "ex": "'In der Regel arbeite ich bis 17 Uhr.'",
+  "lvl": "B1"
+ },
+ {
+  "w": "im Vergleich zu",
+  "e": "compared to",
+  "c": "Idioms & Connectors",
+  "ex": "'Im Vergleich zu Berlin ist München teuer.'",
+  "lvl": "B1"
+ },
+ {
+  "w": "im Gegensatz zu",
+  "e": "in contrast to",
+  "c": "Idioms & Connectors",
+  "ex": "'Im Gegensatz zu mir mag er keinen Sport.'",
+  "lvl": "B1"
+ },
+ {
+  "w": "eine Rolle spielen",
+  "e": "to play a role / to matter",
+  "c": "Idioms & Connectors",
+  "ex": "'Geld spielt für mich keine große Rolle.'",
+  "lvl": "B1"
+ },
+ {
+  "w": "zur Verfügung stehen",
+  "e": "to be available",
+  "c": "Idioms & Connectors",
+  "ex": "Formal: 'Ich stehe Ihnen gern zur Verfügung.' = I'm at your disposal.",
+  "lvl": "B1"
+ },
+ {
+  "w": "Bescheid geben",
+  "e": "to let someone know",
+  "c": "Idioms & Connectors",
+  "ex": "'Gib mir Bescheid, wenn du da bist!' = Let me know when you're there!",
+  "lvl": "B1"
+ },
+ {
+  "w": "sich Gedanken machen",
+  "e": "to think about / to worry",
+  "c": "Idioms & Connectors",
+  "ex": "'Mach dir keine Gedanken!' = Don't worry!",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich mache mir Sorgen um ...",
+  "e": "I'm worried about ...",
+  "c": "Opinion & Discussion",
+  "ex": "'Ich mache mir Sorgen um meine Prüfung.'",
+  "lvl": "B1"
+ },
+ {
+  "w": "Könnten Sie mir bitte helfen?",
+  "e": "Could you please help me?",
+  "c": "Politeness",
+  "ex": "Konjunktiv II politeness — more polite than 'Können Sie ...?'",
+  "lvl": "B1"
+ },
+ {
+  "w": "Wie wäre es mit ...?",
+  "e": "How about ...?",
+  "c": "Opinion & Discussion",
+  "ex": "Suggestion: 'Wie wäre es mit einem Spaziergang?'",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich habe vor, ... zu ...",
+  "e": "I plan to ...",
+  "c": "Opinion & Discussion",
+  "ex": "'Ich habe vor, im Sommer nach Italien zu fahren.'",
+  "lvl": "B1"
+ },
+ {
+  "w": "Im Großen und Ganzen ...",
+  "e": "On the whole ...",
+  "c": "Idioms & Connectors",
+  "ex": "'Im Großen und Ganzen bin ich zufrieden.'",
+  "lvl": "B1"
  }
 ]

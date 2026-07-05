@@ -1720,5 +1720,348 @@
   "c": "Pronoun",
   "ex": "Wie heißen Sie? — What is your name?",
   "lvl": "A1"
+ },
+ {
+  "w": "darum",
+  "e": "that's why / therefore",
+  "c": "Function Word",
+  "ex": "Es regnet, darum bleiben wir zu Hause. — It's raining, that's why we're staying home.",
+  "lvl": "A2"
+ },
+ {
+  "w": "etwa",
+  "e": "about / approximately",
+  "c": "Adverb",
+  "ex": "Der Kurs kostet etwa 200 Euro. — The course costs about 200 euros.",
+  "lvl": "A2"
+ },
+ {
+  "w": "kaum",
+  "e": "hardly / barely",
+  "c": "Adverb",
+  "ex": "Ich habe letzte Nacht kaum geschlafen. — I hardly slept last night.",
+  "lvl": "A2"
+ },
+ {
+  "w": "los",
+  "e": "going on; loose",
+  "c": "Adverb",
+  "ex": "Was ist hier los? — What's going on here?",
+  "lvl": "A2"
+ },
+ {
+  "w": "trotzdem",
+  "e": "nevertheless / anyway",
+  "c": "Function Word",
+  "ex": "Es war teuer, trotzdem habe ich es gekauft. — It was expensive; I bought it anyway.",
+  "lvl": "A2"
+ },
+ {
+  "w": "überhaupt",
+  "e": "at all / in general",
+  "c": "Adverb",
+  "ex": "Ich habe überhaupt keine Zeit. — I have no time at all.",
+  "lvl": "A2"
+ },
+ {
+  "w": "übrigens",
+  "e": "by the way",
+  "c": "Adverb",
+  "ex": "Übrigens, morgen habe ich Geburtstag. — By the way, tomorrow is my birthday.",
+  "lvl": "A2"
+ },
+ {
+  "w": "ungefähr",
+  "e": "approximately / roughly",
+  "c": "Adverb",
+  "ex": "Die Fahrt dauert ungefähr eine Stunde. — The journey takes roughly an hour.",
+  "lvl": "A2"
+ },
+ {
+  "w": "vorne",
+  "e": "at the front",
+  "c": "Adverb",
+  "ex": "Wir sitzen im Kino ganz vorne. — We're sitting right at the front in the cinema.",
+  "lvl": "A2"
+ },
+ {
+  "w": "ziemlich",
+  "e": "quite / rather",
+  "c": "Adverb",
+  "ex": "Der Test war ziemlich schwer. — The test was quite hard.",
+  "lvl": "A2"
+ },
+ {
+  "w": "zufällig",
+  "e": "by chance",
+  "c": "Adverb",
+  "ex": "Ich habe ihn zufällig im Supermarkt getroffen. — I met him by chance in the supermarket.",
+  "lvl": "A2"
+ },
+ {
+  "w": "deswegen",
+  "e": "that's why / therefore",
+  "c": "Function Word",
+  "ex": "Ich war krank, deswegen konnte ich nicht kommen. — I was ill, that's why I couldn't come.",
+  "lvl": "A2"
+ },
+ {
+  "w": "allerdings",
+  "e": "however / though",
+  "c": "Function Word",
+  "ex": "Das Hotel ist schön, allerdings sehr teuer. — The hotel is nice, however very expensive.",
+  "lvl": "B1"
+ },
+ {
+  "w": "anschließend",
+  "e": "afterwards",
+  "c": "Adverb",
+  "ex": "Wir essen zuerst, anschließend gehen wir spazieren. — We'll eat first, and afterwards go for a walk.",
+  "lvl": "B1"
+ },
+ {
+  "w": "beinahe",
+  "e": "almost / nearly",
+  "c": "Adverb",
+  "ex": "Ich hätte beinahe den Bus verpasst. — I almost missed the bus.",
+  "lvl": "B1"
+ },
+ {
+  "w": "bereits",
+  "e": "already",
+  "c": "Adverb",
+  "ex": "Der Zug ist bereits abgefahren. — The train has already left.",
+  "lvl": "B1"
+ },
+ {
+  "w": "beziehungsweise",
+  "e": "or rather / respectively (bzw.)",
+  "c": "Function Word",
+  "ex": "Der Kurs beginnt im März beziehungsweise April. — The course starts in March or April, respectively.",
+  "lvl": "B1"
+ },
+ {
+  "w": "bloß",
+  "e": "just / only",
+  "c": "Adverb",
+  "ex": "Was soll ich bloß machen? — What on earth should I do?",
+  "lvl": "B1"
+ },
+ {
+  "w": "daher",
+  "e": "therefore / hence",
+  "c": "Function Word",
+  "ex": "Er ist krank, daher kommt er nicht. — He is ill; hence he isn't coming.",
+  "lvl": "B1"
+ },
+ {
+  "w": "dennoch",
+  "e": "nevertheless",
+  "c": "Function Word",
+  "ex": "Es war verboten, dennoch hat er es getan. — It was forbidden; nevertheless he did it.",
+  "lvl": "B1"
+ },
+ {
+  "w": "ebenfalls",
+  "e": "likewise / as well",
+  "c": "Adverb",
+  "ex": "Schönes Wochenende! — Danke, ebenfalls! — Have a nice weekend! — Thanks, you too!",
+  "lvl": "B1"
+ },
+ {
+  "w": "eher",
+  "e": "rather / sooner",
+  "c": "Adverb",
+  "ex": "Das ist eher ein Problem für den Chef. — That's more of a problem for the boss.",
+  "lvl": "B1"
+ },
+ {
+  "w": "einerseits",
+  "e": "on the one hand",
+  "c": "Function Word",
+  "ex": "Einerseits ist der Job interessant, andererseits schlecht bezahlt. — On the one hand the job is interesting, on the other badly paid.",
+  "lvl": "B1"
+ },
+ {
+  "w": "andererseits",
+  "e": "on the other hand",
+  "c": "Function Word",
+  "ex": "Einerseits will ich sparen, andererseits brauche ich Urlaub. — On the one hand I want to save, on the other I need a holiday.",
+  "lvl": "B1"
+ },
+ {
+  "w": "falls",
+  "e": "in case / if",
+  "c": "Function Word",
+  "ex": "Falls es regnet, bleiben wir zu Hause. — In case it rains, we'll stay home.",
+  "lvl": "B1"
+ },
+ {
+  "w": "heutzutage",
+  "e": "nowadays",
+  "c": "Adverb",
+  "ex": "Heutzutage bezahlt man oft mit dem Handy. — Nowadays people often pay with their phone.",
+  "lvl": "B1"
+ },
+ {
+  "w": "immerhin",
+  "e": "at least / after all",
+  "c": "Adverb",
+  "ex": "Es war anstrengend, aber immerhin hat es Spaß gemacht. — It was exhausting, but at least it was fun.",
+  "lvl": "B1"
+ },
+ {
+  "w": "indem",
+  "e": "by (doing something)",
+  "c": "Function Word",
+  "ex": "Man lernt eine Sprache, indem man sie spricht. — You learn a language by speaking it.",
+  "lvl": "B1"
+ },
+ {
+  "w": "insgesamt",
+  "e": "in total / altogether",
+  "c": "Adverb",
+  "ex": "Insgesamt waren fünfzig Gäste da. — In total there were fifty guests.",
+  "lvl": "B1"
+ },
+ {
+  "w": "inzwischen",
+  "e": "meanwhile / by now",
+  "c": "Adverb",
+  "ex": "Inzwischen spricht sie sehr gut Deutsch. — By now she speaks German very well.",
+  "lvl": "B1"
+ },
+ {
+  "w": "jedenfalls",
+  "e": "in any case / anyway",
+  "c": "Adverb",
+  "ex": "Ich jedenfalls glaube ihm nicht. — I, in any case, don't believe him.",
+  "lvl": "B1"
+ },
+ {
+  "w": "jedoch",
+  "e": "however",
+  "c": "Function Word",
+  "ex": "Er wollte kommen, jedoch wurde er krank. — He wanted to come; however, he got ill.",
+  "lvl": "B1"
+ },
+ {
+  "w": "kürzlich",
+  "e": "recently",
+  "c": "Adverb",
+  "ex": "Ich habe kürzlich ein tolles Buch gelesen. — I recently read a great book.",
+  "lvl": "B1"
+ },
+ {
+  "w": "nachdem",
+  "e": "after (conjunction)",
+  "c": "Function Word",
+  "ex": "Nachdem wir gegessen hatten, gingen wir spazieren. — After we had eaten, we went for a walk.",
+  "lvl": "B1"
+ },
+ {
+  "w": "obwohl",
+  "e": "although",
+  "c": "Function Word",
+  "ex": "Obwohl es regnete, sind wir gewandert. — Although it was raining, we went hiking.",
+  "lvl": "B1"
+ },
+ {
+  "w": "seitdem",
+  "e": "since then / since",
+  "c": "Function Word",
+  "ex": "Seitdem er in München wohnt, sehen wir uns öfter. — Since he's been living in Munich, we see each other more often.",
+  "lvl": "B1"
+ },
+ {
+  "w": "sobald",
+  "e": "as soon as",
+  "c": "Function Word",
+  "ex": "Ich rufe dich an, sobald ich zu Hause bin. — I'll call you as soon as I'm home.",
+  "lvl": "B1"
+ },
+ {
+  "w": "solange",
+  "e": "as long as",
+  "c": "Function Word",
+  "ex": "Solange es nicht regnet, sitzen wir draußen. — As long as it doesn't rain, we'll sit outside.",
+  "lvl": "B1"
+ },
+ {
+  "w": "sowieso",
+  "e": "anyway / in any case",
+  "c": "Adverb",
+  "ex": "Ich fahre sowieso in die Stadt, ich kann dich mitnehmen. — I'm going to town anyway, I can take you along.",
+  "lvl": "B1"
+ },
+ {
+  "w": "stattdessen",
+  "e": "instead",
+  "c": "Adverb",
+  "ex": "Kein Kaffee mehr? Dann nehme ich stattdessen Tee. — No more coffee? Then I'll have tea instead.",
+  "lvl": "B1"
+ },
+ {
+  "w": "trotz",
+  "e": "despite (+ Genitiv)",
+  "c": "Function Word",
+  "ex": "Trotz des Regens fand das Fest statt. — Despite the rain, the festival took place.",
+  "lvl": "B1"
+ },
+ {
+  "w": "vermutlich",
+  "e": "presumably / probably",
+  "c": "Adverb",
+  "ex": "Er kommt vermutlich etwas später. — He'll presumably come a bit later.",
+  "lvl": "B1"
+ },
+ {
+  "w": "während",
+  "e": "while / during",
+  "c": "Function Word",
+  "ex": "Während ich koche, deckst du den Tisch. — While I cook, you set the table. Also preposition + Genitiv: während des Essens.",
+  "lvl": "B1"
+ },
+ {
+  "w": "zunächst",
+  "e": "first (of all) / initially",
+  "c": "Adverb",
+  "ex": "Zunächst müssen wir einen Plan machen. — First of all we have to make a plan.",
+  "lvl": "B1"
+ },
+ {
+  "w": "zumindest",
+  "e": "at least",
+  "c": "Adverb",
+  "ex": "Zumindest hat es nicht geregnet. — At least it didn't rain.",
+  "lvl": "B1"
+ },
+ {
+  "w": "schließlich",
+  "e": "finally / after all",
+  "c": "Adverb",
+  "ex": "Schließlich haben wir eine Lösung gefunden. — Finally we found a solution.",
+  "lvl": "B1"
+ },
+ {
+  "w": "weder ... noch",
+  "e": "neither ... nor",
+  "c": "Function Word",
+  "ex": "Ich habe weder Zeit noch Geld. — I have neither time nor money.",
+  "lvl": "B1"
+ },
+ {
+  "w": "entweder ... oder",
+  "e": "either ... or",
+  "c": "Function Word",
+  "ex": "Entweder gehen wir ins Kino oder wir bleiben zu Hause. — Either we go to the cinema or we stay home.",
+  "lvl": "B1"
+ },
+ {
+  "w": "sowohl ... als auch",
+  "e": "both ... and",
+  "c": "Function Word",
+  "ex": "Sie spricht sowohl Englisch als auch Deutsch. — She speaks both English and German.",
+  "lvl": "B1"
  }
 ]

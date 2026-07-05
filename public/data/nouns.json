@@ -16149,5 +16149,2145 @@
   "p": "die der/das Laptops",
   "ex": "Ich brauche einen neuen Laptop.",
   "lvl": "A2"
+ },
+ {
+  "w": "der Absender",
+  "a": "der",
+  "e": "sender",
+  "c": "Technology & Media",
+  "p": "die Absender",
+  "ex": "Der Absender steht oben links auf dem Brief.",
+  "lvl": "A2",
+  "n": "Opposite: der Empfänger (recipient)."
+ },
+ {
+  "w": "das Benzin",
+  "a": "das",
+  "e": "petrol / gasoline",
+  "c": "Transport & City",
+  "p": "–",
+  "ex": "Das Benzin ist schon wieder teurer geworden.",
+  "lvl": "A2",
+  "n": "No plural. 'tanken' = to fill up; diesel = der Diesel."
+ },
+ {
+  "w": "der Bart",
+  "a": "der",
+  "e": "beard",
+  "c": "Body & Health",
+  "p": "die Bärte",
+  "ex": "Mein Bruder hat jetzt einen Bart.",
+  "lvl": "A2"
+ },
+ {
+  "w": "die Batterie",
+  "a": "die",
+  "e": "battery",
+  "c": "Technology & Media",
+  "p": "die Batterien",
+  "ex": "Die Batterie von der Fernbedienung ist leer.",
+  "lvl": "A2",
+  "n": "Rechargeable battery in a phone/laptop = der Akku."
+ },
+ {
+  "w": "der Blick",
+  "a": "der",
+  "e": "view / glance",
+  "c": "Abstract Concepts",
+  "p": "die Blicke",
+  "ex": "Das Zimmer hat einen schönen Blick auf die Berge.",
+  "lvl": "A2",
+  "n": "'einen Blick werfen auf' = to take a look at; 'auf den ersten Blick' = at first sight."
+ },
+ {
+  "w": "der Blitz",
+  "a": "der",
+  "e": "lightning",
+  "c": "Nature & Weather",
+  "p": "die Blitze",
+  "ex": "Hast du den Blitz gesehen?",
+  "lvl": "A2",
+  "n": "Also the camera flash. Verb: blitzen."
+ },
+ {
+  "w": "der Donner",
+  "a": "der",
+  "e": "thunder",
+  "c": "Nature & Weather",
+  "p": "die Donner",
+  "ex": "Nach dem Blitz kommt der Donner.",
+  "lvl": "A2",
+  "n": "Usually singular. 'das Gewitter' = thunderstorm."
+ },
+ {
+  "w": "das Dokument",
+  "a": "das",
+  "e": "document",
+  "c": "Technology & Media",
+  "p": "die Dokumente",
+  "ex": "Bitte bringen Sie alle Dokumente mit.",
+  "lvl": "A2",
+  "n": "Papers for officials: die Unterlagen, die Papiere."
+ },
+ {
+  "w": "das Pflaster",
+  "a": "das",
+  "e": "plaster / band-aid",
+  "c": "Body & Health",
+  "p": "die Pflaster",
+  "ex": "Ich brauche ein Pflaster für die Wunde.",
+  "lvl": "A2",
+  "n": "Also: street pavement (das Kopfsteinpflaster)."
+ },
+ {
+  "w": "das Sonderangebot",
+  "a": "das",
+  "e": "special offer",
+  "c": "Shopping & Money",
+  "p": "die Sonderangebote",
+  "ex": "Die Äpfel sind heute im Sonderangebot.",
+  "lvl": "A2",
+  "n": "Short form in ads: 'im Angebot'."
+ },
+ {
+  "w": "der Spielplatz",
+  "a": "der",
+  "e": "playground",
+  "c": "Transport & City",
+  "p": "die Spielplätze",
+  "ex": "Die Kinder sind auf dem Spielplatz.",
+  "lvl": "A2"
+ },
+ {
+  "w": "die Steckdose",
+  "a": "die",
+  "e": "power socket",
+  "c": "Home & Living",
+  "p": "die Steckdosen",
+  "ex": "Gibt es hier eine Steckdose für mein Ladekabel?",
+  "lvl": "A2",
+  "n": "der Stecker = plug; der Strom = electricity."
+ },
+ {
+  "w": "der Teilnehmer",
+  "a": "der",
+  "e": "participant",
+  "c": "Education & Culture",
+  "p": "die Teilnehmer",
+  "ex": "Der Kurs hat zwölf Teilnehmer.",
+  "lvl": "A2",
+  "n": "Female: die Teilnehmerin. Verb: teilnehmen an + Dativ."
+ },
+ {
+  "w": "der Turm",
+  "a": "der",
+  "e": "tower",
+  "c": "Travel & Places",
+  "p": "die Türme",
+  "ex": "Vom Turm hat man einen tollen Blick über die Stadt.",
+  "lvl": "A2"
+ },
+ {
+  "w": "die Untersuchung",
+  "a": "die",
+  "e": "examination / check-up",
+  "c": "Body & Health",
+  "p": "die Untersuchungen",
+  "ex": "Die Untersuchung beim Arzt dauert eine halbe Stunde.",
+  "lvl": "A2",
+  "n": "Verb: untersuchen."
+ },
+ {
+  "w": "das Verbot",
+  "a": "das",
+  "e": "ban / prohibition",
+  "c": "Government & Society",
+  "p": "die Verbote",
+  "ex": "Hier gilt ein Verbot für Autos.",
+  "lvl": "A2",
+  "n": "Verb: verbieten. Opposite: die Erlaubnis."
+ },
+ {
+  "w": "die Werbung",
+  "a": "die",
+  "e": "advertising / commercial",
+  "c": "Technology & Media",
+  "p": "die Werbungen",
+  "ex": "Im Fernsehen kommt zu viel Werbung.",
+  "lvl": "A2",
+  "n": "Usually singular. 'Werbung machen für' = to advertise."
+ },
+ {
+  "w": "die Wiese",
+  "a": "die",
+  "e": "meadow / lawn",
+  "c": "Nature & Weather",
+  "p": "die Wiesen",
+  "ex": "Wir machen ein Picknick auf der Wiese.",
+  "lvl": "A2"
+ },
+ {
+  "w": "das Würstchen",
+  "a": "das",
+  "e": "small sausage",
+  "c": "Food & Drink",
+  "p": "die Würstchen",
+  "ex": "Zum Frühstück gibt es Würstchen mit Brot.",
+  "lvl": "A2",
+  "n": "Diminutive of die Wurst."
+ },
+ {
+  "w": "der Zuschauer",
+  "a": "der",
+  "e": "spectator / viewer",
+  "c": "Education & Culture",
+  "p": "die Zuschauer",
+  "ex": "Die Zuschauer klatschen nach dem Spiel.",
+  "lvl": "A2",
+  "n": "Female: die Zuschauerin. Verb: zuschauen."
+ },
+ {
+  "w": "die Kuh",
+  "a": "die",
+  "e": "cow",
+  "c": "Nature & Weather",
+  "p": "die Kühe",
+  "ex": "Auf dem Bauernhof gibt es viele Kühe.",
+  "lvl": "A2"
+ },
+ {
+  "w": "die Verabredung",
+  "a": "die",
+  "e": "appointment / date (with a person)",
+  "c": "People & Relationships",
+  "p": "die Verabredungen",
+  "ex": "Ich habe heute Abend eine Verabredung mit Lena.",
+  "lvl": "A2",
+  "n": "'verabredet sein' = to have plans with someone. Business appointment = der Termin."
+ },
+ {
+  "w": "der Löwe",
+  "a": "der",
+  "e": "lion",
+  "c": "Nature & Weather",
+  "p": "die Löwen",
+  "ex": "Im Zoo haben wir Löwen gesehen.",
+  "lvl": "A2",
+  "n": "Weak noun: den/dem Löwen."
+ },
+ {
+  "w": "der Pfeffer",
+  "a": "der",
+  "e": "pepper",
+  "c": "Food & Drink",
+  "p": "–",
+  "ex": "Kannst du mir Salz und Pfeffer geben?",
+  "lvl": "A2",
+  "n": "No plural."
+ },
+ {
+  "w": "der Sturm",
+  "a": "der",
+  "e": "storm",
+  "c": "Nature & Weather",
+  "p": "die Stürme",
+  "ex": "Bei dem Sturm bleiben wir lieber zu Hause.",
+  "lvl": "A2",
+  "n": "Thunderstorm = das Gewitter."
+ },
+ {
+  "w": "das Ufer",
+  "a": "das",
+  "e": "shore / bank",
+  "c": "Nature & Weather",
+  "p": "die Ufer",
+  "ex": "Wir sitzen am Ufer des Sees.",
+  "lvl": "A2"
+ },
+ {
+  "w": "der Verband",
+  "a": "der",
+  "e": "bandage; association",
+  "c": "Body & Health",
+  "p": "die Verbände",
+  "ex": "Die Ärztin macht mir einen Verband um den Arm.",
+  "lvl": "A2",
+  "n": "Also: organisation/association (der Sportverband)."
+ },
+ {
+  "w": "der Spiegel",
+  "a": "der",
+  "e": "mirror",
+  "c": "Home & Living",
+  "p": "die Spiegel",
+  "ex": "Im Bad hängt ein großer Spiegel.",
+  "lvl": "A2"
+ },
+ {
+  "w": "der Vorhang",
+  "a": "der",
+  "e": "curtain",
+  "c": "Home & Living",
+  "p": "die Vorhänge",
+  "ex": "Machst du bitte die Vorhänge zu?",
+  "lvl": "A2",
+  "n": "Die Gardine is a light/net curtain."
+ },
+ {
+  "w": "das Kissen",
+  "a": "das",
+  "e": "pillow / cushion",
+  "c": "Home & Living",
+  "p": "die Kissen",
+  "ex": "Ich schlafe am liebsten mit zwei Kissen.",
+  "lvl": "A2"
+ },
+ {
+  "w": "die Decke",
+  "a": "die",
+  "e": "blanket; ceiling",
+  "c": "Home & Living",
+  "p": "die Decken",
+  "ex": "Mir ist kalt, gibst du mir eine Decke?",
+  "lvl": "A2",
+  "n": "Two meanings: blanket and ceiling (an der Decke = on the ceiling)."
+ },
+ {
+  "w": "der Nagel",
+  "a": "der",
+  "e": "nail",
+  "c": "Home & Living",
+  "p": "die Nägel",
+  "ex": "Ich brauche einen Nagel für das Bild.",
+  "lvl": "A2",
+  "n": "Also fingernail (der Fingernagel)."
+ },
+ {
+  "w": "der Hammer",
+  "a": "der",
+  "e": "hammer",
+  "c": "Home & Living",
+  "p": "die Hämmer",
+  "ex": "Wo ist der Hammer?",
+  "lvl": "A2",
+  "n": "Colloquial: 'Das ist der Hammer!' = That's awesome/unbelievable!"
+ },
+ {
+  "w": "das Werkzeug",
+  "a": "das",
+  "e": "tool(s)",
+  "c": "Home & Living",
+  "p": "die Werkzeuge",
+  "ex": "Das Werkzeug liegt im Keller.",
+  "lvl": "A2",
+  "n": "Often used as a collective singular."
+ },
+ {
+  "w": "der Aufschnitt",
+  "a": "der",
+  "e": "cold cuts / sliced cheese and meat",
+  "c": "Food & Drink",
+  "p": "–",
+  "ex": "Zum Abendbrot essen wir Brot mit Aufschnitt.",
+  "lvl": "A2",
+  "n": "No plural. Typical German 'Abendbrot' word."
+ },
+ {
+  "w": "das Gebäck",
+  "a": "das",
+  "e": "pastries / biscuits",
+  "c": "Food & Drink",
+  "p": "–",
+  "ex": "Zum Kaffee gibt es Gebäck.",
+  "lvl": "A2",
+  "n": "No plural; collective noun."
+ },
+ {
+  "w": "der Aufkleber",
+  "a": "der",
+  "e": "sticker",
+  "c": "Technology & Media",
+  "p": "die Aufkleber",
+  "ex": "An seinem Koffer kleben viele Aufkleber.",
+  "lvl": "A2",
+  "n": "Verb: kleben = to stick."
+ },
+ {
+  "w": "der Empfang",
+  "a": "der",
+  "e": "reception",
+  "c": "Travel & Places",
+  "p": "die Empfänge",
+  "ex": "Bitte melden Sie sich am Empfang.",
+  "lvl": "A2",
+  "n": "Hotel/office reception; also phone signal: 'Ich habe keinen Empfang.'"
+ },
+ {
+  "w": "der Gewinn",
+  "a": "der",
+  "e": "profit / prize / win",
+  "c": "Shopping & Money",
+  "p": "die Gewinne",
+  "ex": "Der Hauptgewinn ist eine Reise nach Rom.",
+  "lvl": "A2",
+  "n": "Verb: gewinnen. Opposite: der Verlust."
+ },
+ {
+  "w": "die Mitteilung",
+  "a": "die",
+  "e": "message / notification",
+  "c": "Technology & Media",
+  "p": "die Mitteilungen",
+  "ex": "Ich habe eine Mitteilung von der Schule bekommen.",
+  "lvl": "A2",
+  "n": "Verb: mitteilen. More formal than die Nachricht."
+ },
+ {
+  "w": "der Notruf",
+  "a": "der",
+  "e": "emergency call",
+  "c": "Body & Health",
+  "p": "die Notrufe",
+  "ex": "Der Notruf in Deutschland ist die 112.",
+  "lvl": "A2",
+  "n": "110 = police, 112 = fire/ambulance."
+ },
+ {
+  "w": "der Sitz",
+  "a": "der",
+  "e": "seat",
+  "c": "Transport & City",
+  "p": "die Sitze",
+  "ex": "Die Sitze im Zug sind sehr bequem.",
+  "lvl": "A2",
+  "n": "der Sitzplatz = (reserved) seat."
+ },
+ {
+  "w": "der Sportverein",
+  "a": "der",
+  "e": "sports club",
+  "c": "Education & Culture",
+  "p": "die Sportvereine",
+  "ex": "Mein Sohn ist im Sportverein.",
+  "lvl": "A2",
+  "n": "'im Verein sein' — club culture is big in Germany."
+ },
+ {
+  "w": "der Sänger",
+  "a": "der",
+  "e": "singer",
+  "c": "Education & Culture",
+  "p": "die Sänger",
+  "ex": "Der Sänger der Band ist sehr bekannt.",
+  "lvl": "A2",
+  "n": "Female: die Sängerin."
+ },
+ {
+  "w": "das Lokal",
+  "a": "das",
+  "e": "pub / restaurant",
+  "c": "Food & Drink",
+  "p": "die Lokale",
+  "ex": "Wir treffen uns in einem kleinen Lokal.",
+  "lvl": "A2",
+  "n": "Cosier/more local than das Restaurant; also die Kneipe (pub)."
+ },
+ {
+  "w": "die Grillparty",
+  "a": "die",
+  "e": "barbecue party",
+  "c": "People & Relationships",
+  "p": "die Grillpartys",
+  "ex": "Am Samstag machen wir eine Grillparty im Garten.",
+  "lvl": "A2",
+  "n": "Very common summer word; verb: grillen."
+ },
+ {
+  "w": "der Regenschirm",
+  "a": "der",
+  "e": "umbrella",
+  "c": "Home & Living",
+  "p": "die Regenschirme",
+  "ex": "Nimm den Regenschirm mit, es regnet gleich!",
+  "lvl": "A2",
+  "n": "Short: der Schirm (already for sun too: der Sonnenschirm)."
+ },
+ {
+  "w": "der Antrag",
+  "a": "der",
+  "e": "application (form)",
+  "c": "Government & Society",
+  "p": "die Anträge",
+  "ex": "Ich stelle einen Antrag auf Wohngeld.",
+  "lvl": "B1",
+  "n": "'einen Antrag stellen' = to file an application. Verb: beantragen."
+ },
+ {
+  "w": "die Anlage",
+  "a": "die",
+  "e": "attachment; facility; investment",
+  "c": "Work & Career",
+  "p": "die Anlagen",
+  "ex": "Im Anhang finden Sie die Anlage zum Vertrag.",
+  "lvl": "B1",
+  "n": "In e-mails/letters: attachment. Also Sportanlage (facility), Geldanlage (investment)."
+ },
+ {
+  "w": "die Anleitung",
+  "a": "die",
+  "e": "instructions / manual",
+  "c": "Technology & Media",
+  "p": "die Anleitungen",
+  "ex": "Lies zuerst die Anleitung, bevor du das Regal aufbaust.",
+  "lvl": "B1",
+  "n": "die Bedienungsanleitung = user manual."
+ },
+ {
+  "w": "der Anbieter",
+  "a": "der",
+  "e": "provider / supplier",
+  "c": "Shopping & Money",
+  "p": "die Anbieter",
+  "ex": "Welcher Anbieter ist für Handyverträge am günstigsten?",
+  "lvl": "B1",
+  "n": "Verb: anbieten. Internetanbieter, Stromanbieter."
+ },
+ {
+  "w": "die Absicht",
+  "a": "die",
+  "e": "intention",
+  "c": "Abstract Concepts",
+  "p": "die Absichten",
+  "ex": "Das war keine Absicht, entschuldige!",
+  "lvl": "B1",
+  "n": "'mit Absicht' = on purpose. Adjective: absichtlich."
+ },
+ {
+  "w": "das Abenteuer",
+  "a": "das",
+  "e": "adventure",
+  "c": "Abstract Concepts",
+  "p": "die Abenteuer",
+  "ex": "Die Reise durch Südamerika war ein echtes Abenteuer.",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Abfall",
+  "a": "der",
+  "e": "waste / rubbish",
+  "c": "Home & Living",
+  "p": "die Abfälle",
+  "ex": "Bitte trennen Sie den Abfall.",
+  "lvl": "B1",
+  "n": "Synonym: der Müll. der Abfalleimer = rubbish bin."
+ },
+ {
+  "w": "der Abschnitt",
+  "a": "der",
+  "e": "section / paragraph",
+  "c": "Education & Culture",
+  "p": "die Abschnitte",
+  "ex": "Lesen Sie den zweiten Abschnitt des Textes.",
+  "lvl": "B1",
+  "n": "Also period of life: der Lebensabschnitt."
+ },
+ {
+  "w": "der Anspruch",
+  "a": "der",
+  "e": "claim / entitlement; demand",
+  "c": "Government & Society",
+  "p": "die Ansprüche",
+  "ex": "Sie haben Anspruch auf 30 Tage Urlaub.",
+  "lvl": "B1",
+  "n": "'Anspruch haben auf + Akk' = to be entitled to. 'hohe Ansprüche' = high standards."
+ },
+ {
+  "w": "der Aufenthalt",
+  "a": "der",
+  "e": "stay; stopover",
+  "c": "Travel & Places",
+  "p": "die Aufenthalte",
+  "ex": "Der Zug hat zehn Minuten Aufenthalt in Mannheim.",
+  "lvl": "B1",
+  "n": "die Aufenthaltserlaubnis = residence permit."
+ },
+ {
+  "w": "die Aufnahme",
+  "a": "die",
+  "e": "recording; admission",
+  "c": "Technology & Media",
+  "p": "die Aufnahmen",
+  "ex": "Die Aufnahme von dem Konzert ist super geworden.",
+  "lvl": "B1",
+  "n": "Verb: aufnehmen = to record / to admit."
+ },
+ {
+  "w": "die Ausfahrt",
+  "a": "die",
+  "e": "exit (motorway); driveway",
+  "c": "Transport & City",
+  "p": "die Ausfahrten",
+  "ex": "Nehmen Sie die Ausfahrt München-Ost.",
+  "lvl": "B1",
+  "n": "'Ausfahrt freihalten!' = Keep the driveway clear!"
+ },
+ {
+  "w": "die Aushilfe",
+  "a": "die",
+  "e": "temporary help / temp worker",
+  "c": "Work & Career",
+  "p": "die Aushilfen",
+  "ex": "Der Supermarkt sucht eine Aushilfe für samstags.",
+  "lvl": "B1",
+  "n": "'als Aushilfe arbeiten' = to work as a temp."
+ },
+ {
+  "w": "die Aussicht",
+  "a": "die",
+  "e": "view; prospect",
+  "c": "Travel & Places",
+  "p": "die Aussichten",
+  "ex": "Von der Terrasse hat man eine tolle Aussicht.",
+  "lvl": "B1",
+  "n": "Also figurative: 'gute Aussichten auf den Job' = good prospects."
+ },
+ {
+  "w": "die Aussprache",
+  "a": "die",
+  "e": "pronunciation",
+  "c": "Education & Culture",
+  "p": "die Aussprachen",
+  "ex": "Deine Aussprache ist schon sehr gut!",
+  "lvl": "B1",
+  "n": "Verb: aussprechen."
+ },
+ {
+  "w": "der Beamte",
+  "a": "der",
+  "e": "civil servant",
+  "c": "Work & Career",
+  "p": "die Beamten",
+  "ex": "Mein Onkel ist Beamter bei der Stadt.",
+  "lvl": "B1",
+  "n": "Adjective declension: ein Beamter, der Beamte. Female: die Beamtin."
+ },
+ {
+  "w": "der Bedarf",
+  "a": "der",
+  "e": "need / demand",
+  "c": "Abstract Concepts",
+  "p": "–",
+  "ex": "Es gibt großen Bedarf an Pflegekräften.",
+  "lvl": "B1",
+  "n": "No plural. 'bei Bedarf' = if needed."
+ },
+ {
+  "w": "die Bedingung",
+  "a": "die",
+  "e": "condition / requirement",
+  "c": "Abstract Concepts",
+  "p": "die Bedingungen",
+  "ex": "Gute Bezahlung ist meine Bedingung für den Job.",
+  "lvl": "B1",
+  "n": "'unter einer Bedingung' = on one condition. die Arbeitsbedingungen = working conditions."
+ },
+ {
+  "w": "die Begründung",
+  "a": "die",
+  "e": "reason / justification",
+  "c": "Abstract Concepts",
+  "p": "die Begründungen",
+  "ex": "Für die Absage gab es keine Begründung.",
+  "lvl": "B1",
+  "n": "Verb: begründen."
+ },
+ {
+  "w": "der Beleg",
+  "a": "der",
+  "e": "receipt / proof",
+  "c": "Shopping & Money",
+  "p": "die Belege",
+  "ex": "Bitte heben Sie den Beleg für die Steuer auf.",
+  "lvl": "B1",
+  "n": "Synonym: die Quittung. Verb: belegen = to prove."
+ },
+ {
+  "w": "die Beratung",
+  "a": "die",
+  "e": "consultation / advice",
+  "c": "Work & Career",
+  "p": "die Beratungen",
+  "ex": "Die Beratung bei der Bank war sehr hilfreich.",
+  "lvl": "B1",
+  "n": "Verb: beraten. der Berater = consultant."
+ },
+ {
+  "w": "der Betrieb",
+  "a": "der",
+  "e": "company / business; operation",
+  "c": "Work & Career",
+  "p": "die Betriebe",
+  "ex": "In unserem Betrieb arbeiten fünfzig Leute.",
+  "lvl": "B1",
+  "n": "'außer Betrieb' = out of order; 'in Betrieb' = in operation."
+ },
+ {
+  "w": "die Betreuung",
+  "a": "die",
+  "e": "care / supervision",
+  "c": "People & Relationships",
+  "p": "–",
+  "ex": "Die Betreuung der Kinder ist gut organisiert.",
+  "lvl": "B1",
+  "n": "Usually singular. die Kinderbetreuung = childcare."
+ },
+ {
+  "w": "der Beweis",
+  "a": "der",
+  "e": "proof / evidence",
+  "c": "Abstract Concepts",
+  "p": "die Beweise",
+  "ex": "Die Polizei hat keine Beweise gefunden.",
+  "lvl": "B1",
+  "n": "Verb: beweisen."
+ },
+ {
+  "w": "der Bewohner",
+  "a": "der",
+  "e": "resident / inhabitant",
+  "c": "Home & Living",
+  "p": "die Bewohner",
+  "ex": "Die Bewohner des Hauses treffen sich im Hof.",
+  "lvl": "B1",
+  "n": "Female: die Bewohnerin. Verb: bewohnen."
+ },
+ {
+  "w": "die Botschaft",
+  "a": "die",
+  "e": "embassy; message",
+  "c": "Government & Society",
+  "p": "die Botschaften",
+  "ex": "Für das Visum musst du zur Botschaft gehen.",
+  "lvl": "B1",
+  "n": "Two meanings: embassy and (important) message."
+ },
+ {
+  "w": "die Bremse",
+  "a": "die",
+  "e": "brake",
+  "c": "Transport & City",
+  "p": "die Bremsen",
+  "ex": "Die Bremsen am Fahrrad funktionieren nicht.",
+  "lvl": "B1",
+  "n": "Verb: bremsen."
+ },
+ {
+  "w": "die Broschüre",
+  "a": "die",
+  "e": "brochure",
+  "c": "Technology & Media",
+  "p": "die Broschüren",
+  "ex": "In der Broschüre stehen alle Informationen zum Kurs.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Chance",
+  "a": "die",
+  "e": "chance / opportunity",
+  "c": "Abstract Concepts",
+  "p": "die Chancen",
+  "ex": "Das ist eine große Chance für dich.",
+  "lvl": "B1",
+  "n": "Pronounced French-style: 'Schangse'. Synonym: die Gelegenheit."
+ },
+ {
+  "w": "die Darstellung",
+  "a": "die",
+  "e": "presentation / depiction",
+  "c": "Education & Culture",
+  "p": "die Darstellungen",
+  "ex": "Die Darstellung der Fakten war sehr klar.",
+  "lvl": "B1",
+  "n": "Verb: darstellen."
+ },
+ {
+  "w": "das Denkmal",
+  "a": "das",
+  "e": "monument / memorial",
+  "c": "Travel & Places",
+  "p": "die Denkmäler",
+  "ex": "Das Denkmal steht mitten auf dem Platz.",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Dieb",
+  "a": "der",
+  "e": "thief",
+  "c": "Government & Society",
+  "p": "die Diebe",
+  "ex": "Die Polizei hat den Dieb gefasst.",
+  "lvl": "B1",
+  "n": "der Diebstahl = theft. Verb: stehlen."
+ },
+ {
+  "w": "der Dienst",
+  "a": "der",
+  "e": "service / duty",
+  "c": "Work & Career",
+  "p": "die Dienste",
+  "ex": "Mein Mann hat heute Nacht Dienst im Krankenhaus.",
+  "lvl": "B1",
+  "n": "'im Dienst sein' = to be on duty. der Kundendienst = customer service."
+ },
+ {
+  "w": "das Diplom",
+  "a": "das",
+  "e": "diploma / degree",
+  "c": "Education & Culture",
+  "p": "die Diplome",
+  "ex": "Sie hat ein Diplom in Informatik.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Einrichtung",
+  "a": "die",
+  "e": "furnishing; institution",
+  "c": "Home & Living",
+  "p": "die Einrichtungen",
+  "ex": "Die Einrichtung der Wohnung ist sehr modern.",
+  "lvl": "B1",
+  "n": "Verb: einrichten. Also public institution: öffentliche Einrichtung."
+ },
+ {
+  "w": "die Eigenschaft",
+  "a": "die",
+  "e": "quality / characteristic",
+  "c": "Abstract Concepts",
+  "p": "die Eigenschaften",
+  "ex": "Geduld ist seine beste Eigenschaft.",
+  "lvl": "B1"
+ },
+ {
+  "w": "das Einkommen",
+  "a": "das",
+  "e": "income",
+  "c": "Shopping & Money",
+  "p": "die Einkommen",
+  "ex": "Das Einkommen reicht für die hohe Miete kaum.",
+  "lvl": "B1",
+  "n": "Related: das Gehalt (salary), der Lohn (wage)."
+ },
+ {
+  "w": "die Entfernung",
+  "a": "die",
+  "e": "distance",
+  "c": "Travel & Places",
+  "p": "die Entfernungen",
+  "ex": "Die Entfernung zwischen den Städten beträgt 50 Kilometer.",
+  "lvl": "B1",
+  "n": "Adjective: entfernt = away/distant."
+ },
+ {
+  "w": "die Enttäuschung",
+  "a": "die",
+  "e": "disappointment",
+  "c": "Emotions & Mind",
+  "p": "die Enttäuschungen",
+  "ex": "Die Niederlage war eine große Enttäuschung.",
+  "lvl": "B1",
+  "n": "Verb: enttäuschen; enttäuscht sein."
+ },
+ {
+  "w": "das Ereignis",
+  "a": "das",
+  "e": "event / occurrence",
+  "c": "Abstract Concepts",
+  "p": "die Ereignisse",
+  "ex": "Die Hochzeit war das Ereignis des Jahres.",
+  "lvl": "B1",
+  "n": "More formal than das Erlebnis (personal experience)."
+ },
+ {
+  "w": "die Erklärung",
+  "a": "die",
+  "e": "explanation; declaration",
+  "c": "Abstract Concepts",
+  "p": "die Erklärungen",
+  "ex": "Für sein Verhalten gibt es keine Erklärung.",
+  "lvl": "B1",
+  "n": "Verb: erklären. die Steuererklärung = tax declaration."
+ },
+ {
+  "w": "die Erwartung",
+  "a": "die",
+  "e": "expectation",
+  "c": "Emotions & Mind",
+  "p": "die Erwartungen",
+  "ex": "Der Film hat meine Erwartungen erfüllt.",
+  "lvl": "B1",
+  "n": "Verb: erwarten."
+ },
+ {
+  "w": "das Fahrzeug",
+  "a": "das",
+  "e": "vehicle",
+  "c": "Transport & City",
+  "p": "die Fahrzeuge",
+  "ex": "Auf dem Parkplatz stehen viele Fahrzeuge.",
+  "lvl": "B1",
+  "n": "Formal umbrella term for Auto, Lkw, Motorrad …"
+ },
+ {
+  "w": "der Fall",
+  "a": "der",
+  "e": "case; fall",
+  "c": "Abstract Concepts",
+  "p": "die Fälle",
+  "ex": "In diesem Fall rufen Sie bitte die Polizei.",
+  "lvl": "B1",
+  "n": "'auf jeden Fall' = definitely; 'auf keinen Fall' = no way. Also grammar case."
+ },
+ {
+  "w": "die Fantasie",
+  "a": "die",
+  "e": "imagination / fantasy",
+  "c": "Emotions & Mind",
+  "p": "die Fantasien",
+  "ex": "Kinder haben viel Fantasie.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Forderung",
+  "a": "die",
+  "e": "demand / claim",
+  "c": "Government & Society",
+  "p": "die Forderungen",
+  "ex": "Die Gewerkschaft stellt hohe Forderungen.",
+  "lvl": "B1",
+  "n": "Verb: fordern."
+ },
+ {
+  "w": "der Gegenstand",
+  "a": "der",
+  "e": "object / item",
+  "c": "Abstract Concepts",
+  "p": "die Gegenstände",
+  "ex": "Bitte keine persönlichen Gegenstände im Büro lassen.",
+  "lvl": "B1",
+  "n": "Formal synonym for das Ding."
+ },
+ {
+  "w": "das Gebiet",
+  "a": "das",
+  "e": "area / region; field",
+  "c": "Travel & Places",
+  "p": "die Gebiete",
+  "ex": "In diesem Gebiet gibt es viele Wälder.",
+  "lvl": "B1",
+  "n": "Also field of expertise: 'auf diesem Gebiet' = in this field."
+ },
+ {
+  "w": "die Gebühr",
+  "a": "die",
+  "e": "fee / charge",
+  "c": "Shopping & Money",
+  "p": "die Gebühren",
+  "ex": "Für das Konto zahle ich keine Gebühren.",
+  "lvl": "B1",
+  "n": "die Studiengebühren = tuition fees."
+ },
+ {
+  "w": "das Gebäude",
+  "a": "das",
+  "e": "building",
+  "c": "Transport & City",
+  "p": "die Gebäude",
+  "ex": "Das Gebäude hat zehn Stockwerke.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Geburt",
+  "a": "die",
+  "e": "birth",
+  "c": "People & Relationships",
+  "p": "die Geburten",
+  "ex": "Nach der Geburt bleibt sie ein Jahr zu Hause.",
+  "lvl": "B1",
+  "n": "der Geburtstag, der Geburtsort, die Geburtsurkunde (birth certificate)."
+ },
+ {
+  "w": "das Gedächtnis",
+  "a": "das",
+  "e": "memory (faculty)",
+  "c": "Emotions & Mind",
+  "p": "die Gedächtnisse",
+  "ex": "Mein Opa hat ein sehr gutes Gedächtnis.",
+  "lvl": "B1",
+  "n": "Memory as ability; a single memory = die Erinnerung."
+ },
+ {
+  "w": "das Gedicht",
+  "a": "das",
+  "e": "poem",
+  "c": "Education & Culture",
+  "p": "die Gedichte",
+  "ex": "Wir lernen ein Gedicht von Goethe auswendig.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Gegend",
+  "a": "die",
+  "e": "area / neighbourhood",
+  "c": "Travel & Places",
+  "p": "die Gegenden",
+  "ex": "Wir wohnen in einer ruhigen Gegend.",
+  "lvl": "B1",
+  "n": "Synonym: die Umgebung."
+ },
+ {
+  "w": "das Geheimnis",
+  "a": "das",
+  "e": "secret",
+  "c": "Abstract Concepts",
+  "p": "die Geheimnisse",
+  "ex": "Kannst du ein Geheimnis für dich behalten?",
+  "lvl": "B1",
+  "n": "Adjective: geheim."
+ },
+ {
+  "w": "das Gehirn",
+  "a": "das",
+  "e": "brain",
+  "c": "Body & Health",
+  "p": "die Gehirne",
+  "ex": "Das Gehirn braucht viel Energie.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Gewohnheit",
+  "a": "die",
+  "e": "habit",
+  "c": "Abstract Concepts",
+  "p": "die Gewohnheiten",
+  "ex": "Früh aufstehen ist für mich eine Gewohnheit geworden.",
+  "lvl": "B1",
+  "n": "'aus Gewohnheit' = out of habit. Verb: sich gewöhnen an."
+ },
+ {
+  "w": "das Guthaben",
+  "a": "das",
+  "e": "credit / balance",
+  "c": "Shopping & Money",
+  "p": "die Guthaben",
+  "ex": "Mein Handy-Guthaben ist fast leer.",
+  "lvl": "B1",
+  "n": "Prepaid credit or positive account balance."
+ },
+ {
+  "w": "der Handel",
+  "a": "der",
+  "e": "trade / commerce",
+  "c": "Shopping & Money",
+  "p": "–",
+  "ex": "Der Handel mit Autos läuft gut.",
+  "lvl": "B1",
+  "n": "No plural. der Einzelhandel = retail. Verb: handeln."
+ },
+ {
+  "w": "die Handlung",
+  "a": "die",
+  "e": "plot; action",
+  "c": "Education & Culture",
+  "p": "die Handlungen",
+  "ex": "Die Handlung des Films ist spannend.",
+  "lvl": "B1",
+  "n": "Plot of a book/film; also formal for action."
+ },
+ {
+  "w": "der Hersteller",
+  "a": "der",
+  "e": "manufacturer",
+  "c": "Work & Career",
+  "p": "die Hersteller",
+  "ex": "Der Hersteller gibt zwei Jahre Garantie.",
+  "lvl": "B1",
+  "n": "Verb: herstellen = to produce."
+ },
+ {
+  "w": "der Humor",
+  "a": "der",
+  "e": "humour",
+  "c": "Emotions & Mind",
+  "p": "–",
+  "ex": "Er hat einen besonderen Humor.",
+  "lvl": "B1",
+  "n": "No plural. 'Sinn für Humor' = sense of humour."
+ },
+ {
+  "w": "die Katastrophe",
+  "a": "die",
+  "e": "catastrophe / disaster",
+  "c": "Nature & Weather",
+  "p": "die Katastrophen",
+  "ex": "Das Hochwasser war eine Katastrophe für die Region.",
+  "lvl": "B1",
+  "n": "Colloquial: 'Das ist eine Katastrophe!' = It's a disaster!"
+ },
+ {
+  "w": "der Kandidat",
+  "a": "der",
+  "e": "candidate",
+  "c": "Government & Society",
+  "p": "die Kandidaten",
+  "ex": "Drei Kandidaten bewerben sich um die Stelle.",
+  "lvl": "B1",
+  "n": "Weak noun: den/dem Kandidaten. Female: die Kandidatin."
+ },
+ {
+  "w": "die Karriere",
+  "a": "die",
+  "e": "career",
+  "c": "Work & Career",
+  "p": "die Karrieren",
+  "ex": "Sie macht Karriere in der IT-Branche.",
+  "lvl": "B1",
+  "n": "'Karriere machen' = to climb the career ladder."
+ },
+ {
+  "w": "die Kenntnis",
+  "a": "die",
+  "e": "knowledge (of something)",
+  "c": "Education & Culture",
+  "p": "die Kenntnisse",
+  "ex": "Gute Deutschkenntnisse sind Voraussetzung für den Job.",
+  "lvl": "B1",
+  "n": "Usually plural: Sprachkenntnisse, Computerkenntnisse."
+ },
+ {
+  "w": "das Kennzeichen",
+  "a": "das",
+  "e": "license plate; mark",
+  "c": "Transport & City",
+  "p": "die Kennzeichen",
+  "ex": "Haben Sie sich das Kennzeichen des Autos gemerkt?",
+  "lvl": "B1",
+  "n": "M = München, B = Berlin on German plates."
+ },
+ {
+  "w": "der Knochen",
+  "a": "der",
+  "e": "bone",
+  "c": "Body & Health",
+  "p": "die Knochen",
+  "ex": "Er hat sich beim Skifahren einen Knochen gebrochen.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Konkurrenz",
+  "a": "die",
+  "e": "competition (rivals)",
+  "c": "Work & Career",
+  "p": "–",
+  "ex": "Die Konkurrenz ist billiger als wir.",
+  "lvl": "B1",
+  "n": "No plural. der Konkurrent = competitor. Contest = der Wettbewerb."
+ },
+ {
+  "w": "die Konsequenz",
+  "a": "die",
+  "e": "consequence",
+  "c": "Abstract Concepts",
+  "p": "die Konsequenzen",
+  "ex": "Sein Verhalten hat Konsequenzen.",
+  "lvl": "B1",
+  "n": "Synonym: die Folge."
+ },
+ {
+  "w": "der Krieg",
+  "a": "der",
+  "e": "war",
+  "c": "Government & Society",
+  "p": "die Kriege",
+  "ex": "Viele Menschen fliehen vor dem Krieg.",
+  "lvl": "B1",
+  "n": "Opposite: der Frieden = peace."
+ },
+ {
+  "w": "die Krise",
+  "a": "die",
+  "e": "crisis",
+  "c": "Government & Society",
+  "p": "die Krisen",
+  "ex": "Die Firma steckt in einer Krise.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Laune",
+  "a": "die",
+  "e": "mood",
+  "c": "Emotions & Mind",
+  "p": "die Launen",
+  "ex": "Der Chef hat heute schlechte Laune.",
+  "lvl": "B1",
+  "n": "'gute/schlechte Laune haben'. Synonym: die Stimmung."
+ },
+ {
+  "w": "das Lager",
+  "a": "das",
+  "e": "warehouse; camp",
+  "c": "Work & Career",
+  "p": "die Lager",
+  "ex": "Die Ware ist noch im Lager.",
+  "lvl": "B1",
+  "n": "'auf Lager' = in stock. das Ferienlager = holiday camp."
+ },
+ {
+  "w": "die Lage",
+  "a": "die",
+  "e": "situation; location",
+  "c": "Abstract Concepts",
+  "p": "die Lagen",
+  "ex": "Die Wohnung hat eine zentrale Lage.",
+  "lvl": "B1",
+  "n": "'in der Lage sein zu' = to be able to."
+ },
+ {
+  "w": "die Länge",
+  "a": "die",
+  "e": "length",
+  "c": "Abstract Concepts",
+  "p": "die Längen",
+  "ex": "Der Fluss hat eine Länge von 300 Kilometern.",
+  "lvl": "B1",
+  "n": "Adjective: lang. Also die Breite, die Höhe, die Tiefe."
+ },
+ {
+  "w": "der Lärm",
+  "a": "der",
+  "e": "noise",
+  "c": "Home & Living",
+  "p": "–",
+  "ex": "Der Lärm von der Baustelle stört mich beim Arbeiten.",
+  "lvl": "B1",
+  "n": "No plural. Louder/more negative than das Geräusch (sound)."
+ },
+ {
+  "w": "die Lieferung",
+  "a": "die",
+  "e": "delivery",
+  "c": "Shopping & Money",
+  "p": "die Lieferungen",
+  "ex": "Die Lieferung kommt morgen zwischen 9 und 12 Uhr.",
+  "lvl": "B1",
+  "n": "Verb: liefern. der Lieferant = supplier."
+ },
+ {
+  "w": "das Lob",
+  "a": "das",
+  "e": "praise",
+  "c": "Abstract Concepts",
+  "p": "–",
+  "ex": "Für ihre Arbeit bekam sie viel Lob.",
+  "lvl": "B1",
+  "n": "No plural. Verb: loben. Opposite: die Kritik."
+ },
+ {
+  "w": "der Mangel",
+  "a": "der",
+  "e": "lack / shortage; defect",
+  "c": "Abstract Concepts",
+  "p": "die Mängel",
+  "ex": "Es gibt einen Mangel an Wohnungen.",
+  "lvl": "B1",
+  "n": "'Mangel an + Dativ' = lack of. In contracts: die Mängel = defects."
+ },
+ {
+  "w": "das Merkmal",
+  "a": "das",
+  "e": "feature / characteristic",
+  "c": "Abstract Concepts",
+  "p": "die Merkmale",
+  "ex": "Ein wichtiges Merkmal der Stadt ist der alte Turm.",
+  "lvl": "B1",
+  "n": "Verb: sich merken = to remember."
+ },
+ {
+  "w": "das Mitleid",
+  "a": "das",
+  "e": "pity / compassion",
+  "c": "Emotions & Mind",
+  "p": "–",
+  "ex": "Ich habe Mitleid mit den Tieren im Zoo.",
+  "lvl": "B1",
+  "n": "No plural. 'Mitleid haben mit + Dativ'."
+ },
+ {
+  "w": "die Mühe",
+  "a": "die",
+  "e": "effort / trouble",
+  "c": "Abstract Concepts",
+  "p": "die Mühen",
+  "ex": "Sie hat sich viel Mühe mit dem Essen gegeben.",
+  "lvl": "B1",
+  "n": "'sich Mühe geben' = to make an effort. 'Der Aufwand lohnt die Mühe.'"
+ },
+ {
+  "w": "der Muskel",
+  "a": "der",
+  "e": "muscle",
+  "c": "Body & Health",
+  "p": "die Muskeln",
+  "ex": "Nach dem Training tun mir alle Muskeln weh.",
+  "lvl": "B1",
+  "n": "der Muskelkater = sore muscles."
+ },
+ {
+  "w": "der Nachweis",
+  "a": "der",
+  "e": "proof / certificate",
+  "c": "Government & Society",
+  "p": "die Nachweise",
+  "ex": "Für das Visum brauchen Sie einen Nachweis über Ihr Einkommen.",
+  "lvl": "B1",
+  "n": "Verb: nachweisen. Common in official German."
+ },
+ {
+  "w": "die Nachfrage",
+  "a": "die",
+  "e": "demand; inquiry",
+  "c": "Shopping & Money",
+  "p": "die Nachfragen",
+  "ex": "Die Nachfrage nach E-Autos steigt.",
+  "lvl": "B1",
+  "n": "Economics: Angebot und Nachfrage = supply and demand."
+ },
+ {
+  "w": "der Notfall",
+  "a": "der",
+  "e": "emergency",
+  "c": "Body & Health",
+  "p": "die Notfälle",
+  "ex": "Im Notfall wählen Sie die 112.",
+  "lvl": "B1",
+  "n": "'für den Notfall' = just in case. die Notaufnahme = ER."
+ },
+ {
+  "w": "die Oberfläche",
+  "a": "die",
+  "e": "surface",
+  "c": "Abstract Concepts",
+  "p": "die Oberflächen",
+  "ex": "Die Oberfläche des Tisches ist ganz glatt.",
+  "lvl": "B1",
+  "n": "Also user interface: die Benutzeroberfläche."
+ },
+ {
+  "w": "die Organisation",
+  "a": "die",
+  "e": "organization",
+  "c": "Government & Society",
+  "p": "die Organisationen",
+  "ex": "Die Organisation des Festes hat viel Zeit gekostet.",
+  "lvl": "B1",
+  "n": "Verb: organisieren."
+ },
+ {
+  "w": "das Original",
+  "a": "das",
+  "e": "original",
+  "c": "Education & Culture",
+  "p": "die Originale",
+  "ex": "Bringen Sie bitte das Original und eine Kopie mit.",
+  "lvl": "B1",
+  "n": "Adjective: originell = witty/creative (false friend!)."
+ },
+ {
+  "w": "die Pflege",
+  "a": "die",
+  "e": "care / nursing",
+  "c": "Body & Health",
+  "p": "–",
+  "ex": "Die Pflege der alten Menschen kostet viel Kraft.",
+  "lvl": "B1",
+  "n": "No plural. das Pflegeheim = nursing home; die Pflegeversicherung."
+ },
+ {
+  "w": "die Pflicht",
+  "a": "die",
+  "e": "duty / obligation",
+  "c": "Government & Society",
+  "p": "die Pflichten",
+  "ex": "Es ist deine Pflicht, pünktlich zu kommen.",
+  "lvl": "B1",
+  "n": "Opposite: das Recht. 'Pflicht sein' = to be compulsory."
+ },
+ {
+  "w": "die Presse",
+  "a": "die",
+  "e": "press (media)",
+  "c": "Technology & Media",
+  "p": "–",
+  "ex": "Die Presse berichtet über den Skandal.",
+  "lvl": "B1",
+  "n": "No plural in this meaning. die Pressekonferenz."
+ },
+ {
+  "w": "das Prinzip",
+  "a": "das",
+  "e": "principle",
+  "c": "Abstract Concepts",
+  "p": "die Prinzipien",
+  "ex": "Aus Prinzip esse ich kein Fleisch.",
+  "lvl": "B1",
+  "n": "'im Prinzip' = in principle."
+ },
+ {
+  "w": "die Produktion",
+  "a": "die",
+  "e": "production",
+  "c": "Work & Career",
+  "p": "die Produktionen",
+  "ex": "Die Produktion läuft rund um die Uhr.",
+  "lvl": "B1",
+  "n": "Verb: produzieren."
+ },
+ {
+  "w": "das Protokoll",
+  "a": "das",
+  "e": "minutes / record",
+  "c": "Work & Career",
+  "p": "die Protokolle",
+  "ex": "Wer schreibt heute das Protokoll der Sitzung?",
+  "lvl": "B1",
+  "n": "'Protokoll führen' = to take the minutes."
+ },
+ {
+  "w": "der Rand",
+  "a": "der",
+  "e": "edge / margin",
+  "c": "Abstract Concepts",
+  "p": "die Ränder",
+  "ex": "Wir wohnen am Rand der Stadt.",
+  "lvl": "B1",
+  "n": "'am Rande' = on the edge/margins. der Stadtrand = outskirts."
+ },
+ {
+  "w": "der Rasen",
+  "a": "der",
+  "e": "lawn",
+  "c": "Home & Living",
+  "p": "die Rasen",
+  "ex": "Am Samstag muss ich den Rasen mähen.",
+  "lvl": "B1",
+  "n": "'Rasen betreten verboten!' = Keep off the grass!"
+ },
+ {
+  "w": "der Ratschlag",
+  "a": "der",
+  "e": "piece of advice",
+  "c": "Abstract Concepts",
+  "p": "die Ratschläge",
+  "ex": "Danke für deinen Ratschlag!",
+  "lvl": "B1",
+  "n": "Short: der Rat. Verb: raten."
+ },
+ {
+  "w": "die Reaktion",
+  "a": "die",
+  "e": "reaction",
+  "c": "Abstract Concepts",
+  "p": "die Reaktionen",
+  "ex": "Seine Reaktion auf die Kritik war sehr ruhig.",
+  "lvl": "B1",
+  "n": "Verb: reagieren auf + Akk."
+ },
+ {
+  "w": "die Regierung",
+  "a": "die",
+  "e": "government",
+  "c": "Government & Society",
+  "p": "die Regierungen",
+  "ex": "Die Regierung plant ein neues Gesetz.",
+  "lvl": "B1",
+  "n": "Verb: regieren. die Bundesregierung."
+ },
+ {
+  "w": "die Reihenfolge",
+  "a": "die",
+  "e": "order / sequence",
+  "c": "Abstract Concepts",
+  "p": "die Reihenfolgen",
+  "ex": "Bringen Sie die Sätze in die richtige Reihenfolge.",
+  "lvl": "B1",
+  "n": "'der Reihe nach' = one after the other."
+ },
+ {
+  "w": "die Reklamation",
+  "a": "die",
+  "e": "complaint (about goods)",
+  "c": "Shopping & Money",
+  "p": "die Reklamationen",
+  "ex": "Mit der Reklamation gehen Sie bitte zum Kundendienst.",
+  "lvl": "B1",
+  "n": "Verb: reklamieren. Complaint about behaviour = die Beschwerde."
+ },
+ {
+  "w": "der Respekt",
+  "a": "der",
+  "e": "respect",
+  "c": "People & Relationships",
+  "p": "–",
+  "ex": "Die Schüler haben großen Respekt vor der Lehrerin.",
+  "lvl": "B1",
+  "n": "No plural. 'Respekt vor + Dativ'."
+ },
+ {
+  "w": "die Rolle",
+  "a": "die",
+  "e": "role",
+  "c": "Abstract Concepts",
+  "p": "die Rollen",
+  "ex": "Sie spielt die wichtigste Rolle im Film.",
+  "lvl": "B1",
+  "n": "'Das spielt keine Rolle.' = That doesn't matter."
+ },
+ {
+  "w": "der Schaden",
+  "a": "der",
+  "e": "damage",
+  "c": "Abstract Concepts",
+  "p": "die Schäden",
+  "ex": "Der Sturm hat große Schäden verursacht.",
+  "lvl": "B1",
+  "n": "der Schadenersatz = compensation. Verb: schaden + Dativ."
+ },
+ {
+  "w": "der Schatten",
+  "a": "der",
+  "e": "shadow / shade",
+  "c": "Nature & Weather",
+  "p": "die Schatten",
+  "ex": "Bei der Hitze bleiben wir lieber im Schatten.",
+  "lvl": "B1",
+  "n": "'34 Grad im Schatten'."
+ },
+ {
+  "w": "der Schreck",
+  "a": "der",
+  "e": "fright / shock",
+  "c": "Emotions & Mind",
+  "p": "–",
+  "ex": "Ich habe einen richtigen Schreck bekommen.",
+  "lvl": "B1",
+  "n": "Usually singular. Adjective: schrecklich = terrible."
+ },
+ {
+  "w": "die Schulden",
+  "a": "die",
+  "e": "debts",
+  "c": "Shopping & Money",
+  "p": "–",
+  "ex": "Er hat hohe Schulden bei der Bank.",
+  "lvl": "B1",
+  "n": "Plural only. 'Schulden machen' = to run up debts. Singular die Schuld = guilt/fault."
+ },
+ {
+  "w": "die Schwierigkeit",
+  "a": "die",
+  "e": "difficulty",
+  "c": "Abstract Concepts",
+  "p": "die Schwierigkeiten",
+  "ex": "Am Anfang hatte ich Schwierigkeiten mit der Sprache.",
+  "lvl": "B1",
+  "n": "Adjective: schwierig."
+ },
+ {
+  "w": "die Sicherheit",
+  "a": "die",
+  "e": "safety / security",
+  "c": "Government & Society",
+  "p": "–",
+  "ex": "Die Sicherheit der Kinder ist am wichtigsten.",
+  "lvl": "B1",
+  "n": "'zur Sicherheit' = just to be safe. Adjective: sicher."
+ },
+ {
+  "w": "die Sitzung",
+  "a": "die",
+  "e": "meeting / session",
+  "c": "Work & Career",
+  "p": "die Sitzungen",
+  "ex": "Die Sitzung dauert schon zwei Stunden.",
+  "lvl": "B1",
+  "n": "Synonym: die Besprechung, das Meeting."
+ },
+ {
+  "w": "die Spende",
+  "a": "die",
+  "e": "donation",
+  "c": "Government & Society",
+  "p": "die Spenden",
+  "ex": "Die Organisation lebt von Spenden.",
+  "lvl": "B1",
+  "n": "Verb: spenden. die Blutspende = blood donation."
+ },
+ {
+  "w": "der Staat",
+  "a": "der",
+  "e": "state / country",
+  "c": "Government & Society",
+  "p": "die Staaten",
+  "ex": "Der Staat zahlt das Kindergeld.",
+  "lvl": "B1",
+  "n": "die Staatsangehörigkeit = nationality."
+ },
+ {
+  "w": "der Stern",
+  "a": "der",
+  "e": "star",
+  "c": "Nature & Weather",
+  "p": "die Sterne",
+  "ex": "Heute Nacht sieht man viele Sterne.",
+  "lvl": "B1",
+  "n": "Hotel ratings: ein Fünf-Sterne-Hotel."
+ },
+ {
+  "w": "der Stoff",
+  "a": "der",
+  "e": "fabric / material; subject matter",
+  "c": "Abstract Concepts",
+  "p": "die Stoffe",
+  "ex": "Der Stoff des Kleides fühlt sich weich an.",
+  "lvl": "B1",
+  "n": "Also school material: der Lernstoff. der Rohstoff = raw material."
+ },
+ {
+  "w": "die Strecke",
+  "a": "die",
+  "e": "route / distance",
+  "c": "Transport & City",
+  "p": "die Strecken",
+  "ex": "Die Strecke von Hamburg nach Berlin dauert zwei Stunden.",
+  "lvl": "B1",
+  "n": "'auf der Strecke' = on the route."
+ },
+ {
+  "w": "der Streit",
+  "a": "der",
+  "e": "argument / quarrel",
+  "c": "People & Relationships",
+  "p": "die Streits",
+  "ex": "Nach dem Streit haben sie zwei Tage nicht gesprochen.",
+  "lvl": "B1",
+  "n": "Verb: (sich) streiten. 'Streit haben mit'."
+ },
+ {
+  "w": "der Studiengang",
+  "a": "der",
+  "e": "degree programme",
+  "c": "Education & Culture",
+  "p": "die Studiengänge",
+  "ex": "Welcher Studiengang interessiert dich am meisten?",
+  "lvl": "B1",
+  "n": "der Bachelorstudiengang, der Masterstudiengang."
+ },
+ {
+  "w": "die Summe",
+  "a": "die",
+  "e": "sum / amount",
+  "c": "Shopping & Money",
+  "p": "die Summen",
+  "ex": "Am Ende der Rechnung steht die Summe.",
+  "lvl": "B1",
+  "n": "Synonym: der Betrag."
+ },
+ {
+  "w": "die Technik",
+  "a": "die",
+  "e": "technology; technique",
+  "c": "Technology & Media",
+  "p": "die Techniken",
+  "ex": "Die moderne Technik macht vieles leichter.",
+  "lvl": "B1",
+  "n": "Adjective: technisch. der Techniker."
+ },
+ {
+  "w": "die Teilzeit",
+  "a": "die",
+  "e": "part-time",
+  "c": "Work & Career",
+  "p": "–",
+  "ex": "Nach der Elternzeit arbeitet sie in Teilzeit.",
+  "lvl": "B1",
+  "n": "No plural. Opposite: die Vollzeit. 'Teilzeit arbeiten'."
+ },
+ {
+  "w": "der Ton",
+  "a": "der",
+  "e": "sound; tone",
+  "c": "Technology & Media",
+  "p": "die Töne",
+  "ex": "Beim Video ist der Ton zu leise.",
+  "lvl": "B1",
+  "n": "Also tone of voice: 'Der Ton macht die Musik.'"
+ },
+ {
+  "w": "der Transport",
+  "a": "der",
+  "e": "transport",
+  "c": "Transport & City",
+  "p": "die Transporte",
+  "ex": "Der Transport der Möbel kostet extra.",
+  "lvl": "B1",
+  "n": "Verb: transportieren."
+ },
+ {
+  "w": "der Umgang",
+  "a": "der",
+  "e": "dealing with / contact",
+  "c": "People & Relationships",
+  "p": "–",
+  "ex": "Der Umgang mit Kunden macht ihr Spaß.",
+  "lvl": "B1",
+  "n": "No plural. 'der Umgang mit + Dativ' = dealing with."
+ },
+ {
+  "w": "die Unterhaltung",
+  "a": "die",
+  "e": "conversation; entertainment",
+  "c": "People & Relationships",
+  "p": "die Unterhaltungen",
+  "ex": "Wir hatten eine interessante Unterhaltung über Politik.",
+  "lvl": "B1",
+  "n": "Verb: sich unterhalten. Also entertainment: die Unterhaltungssendung."
+ },
+ {
+  "w": "die Unterlagen",
+  "a": "die",
+  "e": "documents / papers",
+  "c": "Work & Career",
+  "p": "–",
+  "ex": "Bitte schicken Sie uns Ihre Bewerbungsunterlagen.",
+  "lvl": "B1",
+  "n": "Plural only. Synonym: die Dokumente, die Papiere."
+ },
+ {
+  "w": "die Unterstützung",
+  "a": "die",
+  "e": "support",
+  "c": "Abstract Concepts",
+  "p": "–",
+  "ex": "Danke für deine Unterstützung beim Umzug!",
+  "lvl": "B1",
+  "n": "Usually singular. Verb: unterstützen."
+ },
+ {
+  "w": "das Urteil",
+  "a": "das",
+  "e": "judgement / verdict",
+  "c": "Government & Society",
+  "p": "die Urteile",
+  "ex": "Das Gericht hat sein Urteil gesprochen.",
+  "lvl": "B1",
+  "n": "Verb: beurteilen / verurteilen. das Vorurteil = prejudice."
+ },
+ {
+  "w": "das Verfahren",
+  "a": "das",
+  "e": "procedure / process",
+  "c": "Government & Society",
+  "p": "die Verfahren",
+  "ex": "Das Verfahren für das Visum dauert drei Monate.",
+  "lvl": "B1",
+  "n": "Official/legal contexts."
+ },
+ {
+  "w": "das Vergnügen",
+  "a": "das",
+  "e": "pleasure / fun",
+  "c": "Emotions & Mind",
+  "p": "die Vergnügen",
+  "ex": "Viel Vergnügen im Kino!",
+  "lvl": "B1",
+  "n": "'Mit Vergnügen!' = With pleasure!"
+ },
+ {
+  "w": "das Verhältnis",
+  "a": "das",
+  "e": "relationship; ratio",
+  "c": "People & Relationships",
+  "p": "die Verhältnisse",
+  "ex": "Ich habe ein gutes Verhältnis zu meinen Nachbarn.",
+  "lvl": "B1",
+  "n": "Plural: die Verhältnisse = circumstances/conditions."
+ },
+ {
+  "w": "der Verlust",
+  "a": "der",
+  "e": "loss",
+  "c": "Abstract Concepts",
+  "p": "die Verluste",
+  "ex": "Der Verlust des Passes war ein großes Problem.",
+  "lvl": "B1",
+  "n": "Verb: verlieren. Opposite: der Gewinn."
+ },
+ {
+  "w": "die Vermutung",
+  "a": "die",
+  "e": "assumption / guess",
+  "c": "Abstract Concepts",
+  "p": "die Vermutungen",
+  "ex": "Das ist nur eine Vermutung, kein Beweis.",
+  "lvl": "B1",
+  "n": "Verb: vermuten."
+ },
+ {
+  "w": "die Vereinbarung",
+  "a": "die",
+  "e": "agreement / arrangement",
+  "c": "Work & Career",
+  "p": "die Vereinbarungen",
+  "ex": "Wir haben eine Vereinbarung getroffen.",
+  "lvl": "B1",
+  "n": "Verb: vereinbaren. 'eine Vereinbarung treffen'."
+ },
+ {
+  "w": "die Verletzung",
+  "a": "die",
+  "e": "injury",
+  "c": "Body & Health",
+  "p": "die Verletzungen",
+  "ex": "Mit dieser Verletzung darfst du keinen Sport machen.",
+  "lvl": "B1",
+  "n": "Verb: (sich) verletzen."
+ },
+ {
+  "w": "die Verpackung",
+  "a": "die",
+  "e": "packaging",
+  "c": "Shopping & Money",
+  "p": "die Verpackungen",
+  "ex": "Die Verpackung kommt in die gelbe Tonne.",
+  "lvl": "B1",
+  "n": "Verb: verpacken. Waste-sorting vocabulary!"
+ },
+ {
+  "w": "das Verständnis",
+  "a": "das",
+  "e": "understanding / sympathy",
+  "c": "Emotions & Mind",
+  "p": "–",
+  "ex": "Vielen Dank für Ihr Verständnis!",
+  "lvl": "B1",
+  "n": "No plural. 'Verständnis haben für + Akk'."
+ },
+ {
+  "w": "der Vertreter",
+  "a": "der",
+  "e": "representative; substitute",
+  "c": "Work & Career",
+  "p": "die Vertreter",
+  "ex": "Unser Arzt ist im Urlaub, aber es gibt einen Vertreter.",
+  "lvl": "B1",
+  "n": "Female: die Vertreterin. Verb: vertreten."
+ },
+ {
+  "w": "die Verwaltung",
+  "a": "die",
+  "e": "administration",
+  "c": "Government & Society",
+  "p": "die Verwaltungen",
+  "ex": "Er arbeitet in der Verwaltung der Universität.",
+  "lvl": "B1",
+  "n": "Verb: verwalten. die Stadtverwaltung = city administration."
+ },
+ {
+  "w": "der Verwandte",
+  "a": "der",
+  "e": "relative",
+  "c": "People & Relationships",
+  "p": "die Verwandten",
+  "ex": "Am Wochenende besuchen wir Verwandte in Köln.",
+  "lvl": "B1",
+  "n": "Adjective declension: ein Verwandter. die Verwandtschaft = relatives."
+ },
+ {
+  "w": "das Vorbild",
+  "a": "das",
+  "e": "role model",
+  "c": "People & Relationships",
+  "p": "die Vorbilder",
+  "ex": "Meine Oma ist mein großes Vorbild.",
+  "lvl": "B1",
+  "n": "'ein Vorbild sein für + Akk'."
+ },
+ {
+  "w": "das Vorstellungsgespräch",
+  "a": "das",
+  "e": "job interview",
+  "c": "Work & Career",
+  "p": "die Vorstellungsgespräche",
+  "ex": "Morgen habe ich ein Vorstellungsgespräch bei einer Softwarefirma.",
+  "lvl": "B1",
+  "n": "'sich vorstellen' = to introduce oneself."
+ },
+ {
+  "w": "das Vorurteil",
+  "a": "das",
+  "e": "prejudice",
+  "c": "Government & Society",
+  "p": "die Vorurteile",
+  "ex": "Er hat keine Vorurteile gegenüber anderen Kulturen.",
+  "lvl": "B1",
+  "n": "'Vorurteile haben gegenüber + Dativ'."
+ },
+ {
+  "w": "die Ware",
+  "a": "die",
+  "e": "goods / merchandise",
+  "c": "Shopping & Money",
+  "p": "die Waren",
+  "ex": "Die Ware kommt direkt vom Hersteller.",
+  "lvl": "B1",
+  "n": "das Warenhaus = department store."
+ },
+ {
+  "w": "der Wert",
+  "a": "der",
+  "e": "value / worth",
+  "c": "Abstract Concepts",
+  "p": "die Werte",
+  "ex": "Der Wert des Autos sinkt jedes Jahr.",
+  "lvl": "B1",
+  "n": "'Wert legen auf + Akk' = to attach importance to. Adjective: wertvoll."
+ },
+ {
+  "w": "das Wunder",
+  "a": "das",
+  "e": "miracle / wonder",
+  "c": "Abstract Concepts",
+  "p": "die Wunder",
+  "ex": "Es ist ein Wunder, dass nichts passiert ist.",
+  "lvl": "B1",
+  "n": "'kein Wunder' = no wonder. Adjective: wunderbar."
+ },
+ {
+  "w": "die Zahlung",
+  "a": "die",
+  "e": "payment",
+  "c": "Shopping & Money",
+  "p": "die Zahlungen",
+  "ex": "Die Zahlung ist per Karte oder bar möglich.",
+  "lvl": "B1",
+  "n": "Verb: zahlen. die Ratenzahlung = payment by instalments."
+ },
+ {
+  "w": "das Zeichen",
+  "a": "das",
+  "e": "sign / signal",
+  "c": "Abstract Concepts",
+  "p": "die Zeichen",
+  "ex": "Das rote Zeichen bedeutet Stopp.",
+  "lvl": "B1",
+  "n": "das Verkehrszeichen = traffic sign. Verb: zeichnen = to draw."
+ },
+ {
+  "w": "die Zeile",
+  "a": "die",
+  "e": "line (of text)",
+  "c": "Education & Culture",
+  "p": "die Zeilen",
+  "ex": "Lesen Sie die ersten fünf Zeilen des Textes.",
+  "lvl": "B1",
+  "n": "'zwischen den Zeilen lesen' = to read between the lines."
+ },
+ {
+  "w": "das Zertifikat",
+  "a": "das",
+  "e": "certificate",
+  "c": "Education & Culture",
+  "p": "die Zertifikate",
+  "ex": "Nach der Prüfung bekommst du ein Zertifikat.",
+  "lvl": "B1",
+  "n": "das Goethe-Zertifikat B1!"
+ },
+ {
+  "w": "der Zeuge",
+  "a": "der",
+  "e": "witness",
+  "c": "Government & Society",
+  "p": "die Zeugen",
+  "ex": "Die Polizei sucht Zeugen für den Unfall.",
+  "lvl": "B1",
+  "n": "Weak noun: den/dem Zeugen. Female: die Zeugin."
+ },
+ {
+  "w": "der Zuschlag",
+  "a": "der",
+  "e": "surcharge",
+  "c": "Transport & City",
+  "p": "die Zuschläge",
+  "ex": "Für den ICE zahlen Sie einen Zuschlag.",
+  "lvl": "B1",
+  "n": "Verb: zuschlagen has other meanings — the noun is mainly for extra fees."
+ },
+ {
+  "w": "der Zustand",
+  "a": "der",
+  "e": "condition / state",
+  "c": "Abstract Concepts",
+  "p": "die Zustände",
+  "ex": "Die Wohnung ist in einem guten Zustand.",
+  "lvl": "B1",
+  "n": "Plural die Zustände = (bad) conditions: 'Das sind ja Zustände!'"
+ },
+ {
+  "w": "die Zustimmung",
+  "a": "die",
+  "e": "approval / consent",
+  "c": "Government & Society",
+  "p": "–",
+  "ex": "Der Plan fand große Zustimmung.",
+  "lvl": "B1",
+  "n": "Usually singular. Verb: zustimmen + Dativ. Opposite: die Ablehnung."
+ },
+ {
+  "w": "der Zweck",
+  "a": "der",
+  "e": "purpose",
+  "c": "Abstract Concepts",
+  "p": "die Zwecke",
+  "ex": "Welchen Zweck hat diese Regel?",
+  "lvl": "B1",
+  "n": "'Es hat keinen Zweck.' = There's no point."
+ },
+ {
+  "w": "das Parlament",
+  "a": "das",
+  "e": "parliament",
+  "c": "Government & Society",
+  "p": "die Parlamente",
+  "ex": "Das Parlament stimmt über das Gesetz ab.",
+  "lvl": "B1",
+  "n": "In Germany: der Bundestag."
+ },
+ {
+  "w": "die Gemeinde",
+  "a": "die",
+  "e": "municipality / community",
+  "c": "Government & Society",
+  "p": "die Gemeinden",
+  "ex": "Unsere Gemeinde baut einen neuen Kindergarten.",
+  "lvl": "B1",
+  "n": "Smallest administrative unit; also church community."
+ },
+ {
+  "w": "der Bürgermeister",
+  "a": "der",
+  "e": "mayor",
+  "c": "Government & Society",
+  "p": "die Bürgermeister",
+  "ex": "Die Bürgermeisterin eröffnet das Stadtfest.",
+  "lvl": "B1",
+  "n": "Female: die Bürgermeisterin."
+ },
+ {
+  "w": "das Gewissen",
+  "a": "das",
+  "e": "conscience",
+  "c": "Emotions & Mind",
+  "p": "–",
+  "ex": "Ich habe ein schlechtes Gewissen, weil ich nicht geholfen habe.",
+  "lvl": "B1",
+  "n": "No plural. 'ein gutes/schlechtes Gewissen haben'."
+ },
+ {
+  "w": "die Spannung",
+  "a": "die",
+  "e": "tension / suspense",
+  "c": "Emotions & Mind",
+  "p": "die Spannungen",
+  "ex": "Vor dem Finale steigt die Spannung.",
+  "lvl": "B1",
+  "n": "Adjective: spannend. Also electrical voltage."
+ },
+ {
+  "w": "die Sehnsucht",
+  "a": "die",
+  "e": "longing / yearning",
+  "c": "Emotions & Mind",
+  "p": "die Sehnsüchte",
+  "ex": "Ich habe Sehnsucht nach dem Meer.",
+  "lvl": "B1",
+  "n": "'Sehnsucht haben nach + Dativ'. Very German word!"
+ },
+ {
+  "w": "das Schicksal",
+  "a": "das",
+  "e": "fate / destiny",
+  "c": "Abstract Concepts",
+  "p": "die Schicksale",
+  "ex": "Das Schicksal hat uns zusammengebracht.",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Verlag",
+  "a": "der",
+  "e": "publishing house",
+  "c": "Education & Culture",
+  "p": "die Verlage",
+  "ex": "Der Verlag veröffentlicht das Buch im Herbst.",
+  "lvl": "B1",
+  "n": "Verb: verlegen = to publish."
+ },
+ {
+  "w": "die Szene",
+  "a": "die",
+  "e": "scene",
+  "c": "Education & Culture",
+  "p": "die Szenen",
+  "ex": "Die letzte Szene des Films war sehr traurig.",
+  "lvl": "B1",
+  "n": "Also subculture: die Musikszene."
+ },
+ {
+  "w": "der Sprecher",
+  "a": "der",
+  "e": "speaker / spokesperson",
+  "c": "Technology & Media",
+  "p": "die Sprecher",
+  "ex": "Der Sprecher der Regierung informiert die Presse.",
+  "lvl": "B1",
+  "n": "Female: die Sprecherin. der Muttersprachler = native speaker."
+ },
+ {
+  "w": "die Rettung",
+  "a": "die",
+  "e": "rescue",
+  "c": "Body & Health",
+  "p": "die Rettungen",
+  "ex": "Die Rettung kam nach fünf Minuten.",
+  "lvl": "B1",
+  "n": "Verb: retten. der Rettungswagen = ambulance."
+ },
+ {
+  "w": "die Recherche",
+  "a": "die",
+  "e": "research (journalistic)",
+  "c": "Education & Culture",
+  "p": "die Recherchen",
+  "ex": "Für den Artikel waren lange Recherchen nötig.",
+  "lvl": "B1",
+  "n": "Verb: recherchieren. Academic research = die Forschung."
+ },
+ {
+  "w": "der Speicher",
+  "a": "der",
+  "e": "storage / memory; attic",
+  "c": "Technology & Media",
+  "p": "die Speicher",
+  "ex": "Der Speicher von meinem Handy ist voll.",
+  "lvl": "B1",
+  "n": "Verb: speichern = to save (a file)."
  }
 ]
