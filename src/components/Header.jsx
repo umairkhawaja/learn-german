@@ -7,6 +7,7 @@ import { LevelSwitcher } from "./LevelSwitcher";
 // The single source of truth for the app's views. Bottom nav reuses it.
 export const VIEWS = [
   { id: "quiz", label: "Quiz", icon: "📚" },
+  { id: "exercises", label: "Exercises", icon: "✏️" },
   { id: "review", label: "Review", icon: "🔁" },
   { id: "browse", label: "Browse", icon: "🔍" },
   { id: "cheatsheet", label: "Cheatsheet", icon: "📖" },
@@ -15,7 +16,7 @@ export const VIEWS = [
 ];
 
 const NO_LEVELS = new Set(["cheatsheet", "notes"]);
-const NO_CATEGORIES = new Set(["review", "stats", "cheatsheet", "notes"]);
+const NO_CATEGORIES = new Set(["review", "stats", "cheatsheet", "notes", "exercises"]);
 
 export function Header({ db, view, setView, levelFilter, setLevelFilter, activeCat, setActiveCat, dueCount }) {
   const totalWords = CATEGORIES.reduce((s, c) => s + db[c.key].length, 0);

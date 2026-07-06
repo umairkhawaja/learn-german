@@ -25,9 +25,11 @@ import { loadDB } from "./data/db";
 import { loadProgress } from "./engine/progress";
 import { dueCount } from "./engine/quiz";
 import { useDriveSync } from "./engine/useDriveSync";
+import { useCloudSync } from "./engine/useCloudSync";
 import { Header } from "./components/Header";
 import { BottomNav } from "./components/BottomNav";
 import { QuizView } from "./components/QuizView";
+import { ExercisesView } from "./components/ExercisesView";
 import { ReviewView } from "./components/ReviewView";
 import { BrowseView } from "./components/BrowseView";
 import { CheatsheetView } from "./components/CheatsheetView";
@@ -37,15 +39,24 @@ import { NotesView } from "./NotesView";
 export default function DeutschMeister() {
   const [db, setDb] = useState(null);
   const [progress, setProgress] = useState({});
+  // Drive sync must not pull-merge (or push) until the local progress has
+  // been read from IndexedDB, or it races against loadProgress: a merge
+  // against the initial {} can be overwritten by the later local setProgress,
+  // and a push of {} would clobber the remote backup.
+  const [progressLoaded, setProgressLoaded] = useState(false);
   const [view, setView] = useState("quiz"); // quiz | review | browse | cheatsheet | notes | stats
   const [activeCat, setActiveCat] = useState(0);
   const [levelFilter, setLevelFilter] = useState("All");
 
   useEffect(() => { loadDB().then(setDb); }, []);
-  useEffect(() => { loadProgress().then(setProgress); }, []);
+  useEffect(() => { loadProgress().then((p) => { setProgress(p); setProgressLoaded(true); }); }, []);
   useEffect(() => { try { window.speechSynthesis.getVoices(); } catch { } }, []);
 
-  const { driveStatus, setDriveStatus } = useDriveSync(progress, setProgress);
+  // Primary sync channel: durable Cloudflare KV store (baked-in key, no login,
+  // survives IndexedDB eviction). Drive sync is kept below only for a one-time
+  // import of the old snapshot to seed the cloud store.
+  const { cloudStatus, setCloudStatus } = useCloudSync(progress, setProgress, progressLoaded);
+  const { driveStatus, setDriveStatus } = useDriveSync(progress, setProgress, progressLoaded);
 
   const cat = CATEGORIES[activeCat];
   const due = useMemo(
@@ -80,11 +91,12 @@ export default function DeutschMeister() {
 
       <div style={{ maxWidth: 680, margin: "0 auto", padding: "18px 16px 96px", width: "100%" }}>
         {view === "quiz" && <QuizView key={cat.id} cat={cat} progress={progress} setProgress={setProgress} levelFilter={levelFilter} db={db} />}
+        {view === "exercises" && <ExercisesView levelFilter={levelFilter} />}
         {view === "review" && <ReviewView progress={progress} setProgress={setProgress} levelFilter={levelFilter} db={db} />}
         {view === "browse" && <BrowseView key={cat.id} cat={cat} progress={progress} setProgress={setProgress} levelFilter={levelFilter} db={db} />}
         {view === "cheatsheet" && <CheatsheetView />}
         {view === "notes" && <NotesView />}
-        {view === "stats" && <StatsView progress={progress} setProgress={setProgress} levelFilter={levelFilter} driveStatus={driveStatus} setDriveStatus={setDriveStatus} db={db} />}
+        {view === "stats" && <StatsView progress={progress} setProgress={setProgress} levelFilter={levelFilter} driveStatus={driveStatus} setDriveStatus={setDriveStatus} cloudStatus={cloudStatus} setCloudStatus={setCloudStatus} db={db} />}
       </div>
 
       <BottomNav view={view} setView={setView} dueCount={due} />

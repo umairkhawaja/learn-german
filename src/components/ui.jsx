@@ -88,3 +88,18 @@ export function SpeakBtn({ text, color = COLORS.der, size = 30 }) {
     >🔊</button>
   );
 }
+
+// Renders a bilingual example string ("German — English") with the
+// translation in fainter type. Falls back to plain render if no dash.
+export function ExampleLine({ text, style }) {
+  if (!text) return null;
+  const idx = text.indexOf(" — ");
+  const de = idx >= 0 ? text.slice(0, idx) : text;
+  const en = idx >= 0 ? text.slice(idx + 3) : null;
+  return (
+    <div style={{ fontSize: 13, fontStyle: "italic", ...style }}>
+      <span style={{ color: "#9aa6b6" }}>„{de}"</span>
+      {en && <span style={{ color: FAINT }}> — {en}</span>}
+    </div>
+  );
+}

@@ -41,6 +41,8 @@ jobs:
         run: npm run build
         env:
           VITE_NOTION_PROXY_URL: ${{ secrets.VITE_NOTION_PROXY_URL }}
+          VITE_SYNC_URL: ${{ secrets.VITE_SYNC_URL }}
+          VITE_SYNC_KEY: ${{ secrets.VITE_SYNC_KEY }}
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

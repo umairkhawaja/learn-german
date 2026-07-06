@@ -102,7 +102,10 @@ function _doTokenRequest() {
       }
       saveToken(resp.access_token, resp.expires_in || 3600).then(() => resolve(true));
     };
-    tokenClient.requestAccessToken({ prompt: "consent" });
+    // Empty prompt lets Google decide: first-ever connect still shows the
+    // consent screen, but reconnects (e.g. after the ~1h token expiry) get a
+    // popup that auto-closes without asking for account or consent again.
+    tokenClient.requestAccessToken({ prompt: "" });
   });
 }
 
@@ -196,9 +199,16 @@ async function findFileId(token) {
   return null;
 }
 
+// The cached file id can go stale (file removed from Drive, e.g. after a
+// disconnect elsewhere) — a 404 on it must drop the cache so the next
+// attempt re-lists (and, for push, re-creates) instead of failing forever.
+async function forgetFileId() {
+  try { await storage.delete(FILE_ID_KEY); } catch { }
+}
+
 // ── Pull progress from Drive. Returns null if no remote file exists yet,
 // or if not connected and interactive=false. ──
-export async function pullProgress({ interactive = false } = {}) {
+export async function pullProgress({ interactive = false, _retry = true } = {}) {
   const token = await ensureToken({ interactive });
   if (!token) return null;
 
@@ -206,6 +216,10 @@ export async function pullProgress({ interactive = false } = {}) {
   if (!fileId) return null;
 
   const res = await driveFetch(`https://www.googleapis.com/drive/v3/files/${fileId}?alt=media`, token);
+  if (res.status === 404) {
+    await forgetFileId();
+    return _retry ? pullProgress({ interactive, _retry: false }) : null;
+  }
   if (!res.ok) throw new Error(`Drive download failed (${res.status})`);
   const raw = await res.text();
   if (!raw.trim()) return null;
@@ -213,7 +227,7 @@ export async function pullProgress({ interactive = false } = {}) {
 }
 
 // ── Push progress to Drive (creates the file on first sync). ──
-export async function pushProgress(progress, { interactive = false } = {}) {
+export async function pushProgress(progress, { interactive = false, _retry = true } = {}) {
   const token = await ensureToken({ interactive });
   if (!token) return false;
 
@@ -221,12 +235,18 @@ export async function pushProgress(progress, { interactive = false } = {}) {
   const fileId = await findFileId(token);
   const metadata = { name: FILE_NAME, mimeType: "application/json" };
 
+  // keepalive lets the request survive tab-hide/unload (the auto-push path);
+  // the payload is far below the 64 KB keepalive body limit.
   if (fileId) {
     const res = await driveFetch(
       `https://www.googleapis.com/upload/drive/v3/files/${fileId}?uploadType=media`,
       token,
-      { method: "PATCH", headers: { "Content-Type": "application/json" }, body: json }
+      { method: "PATCH", headers: { "Content-Type": "application/json" }, body: json, keepalive: true }
     );
+    if (res.status === 404 && _retry) {
+      await forgetFileId();
+      return pushProgress(progress, { interactive, _retry: false });
+    }
     if (!res.ok) throw new Error(`Drive upload failed (${res.status})`);
   } else {
     metadata.parents = ["appDataFolder"];
@@ -236,7 +256,7 @@ export async function pushProgress(progress, { interactive = false } = {}) {
     const res = await driveFetch(
       "https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart&fields=id",
       token,
-      { method: "POST", body: form }
+      { method: "POST", body: form, keepalive: true }
     );
     if (!res.ok) throw new Error(`Drive create failed (${res.status})`);
     const data = await res.json();
