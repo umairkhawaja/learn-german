@@ -1,0 +1,27 @@
+# Cloudflare config for the progress-sync Worker (durable KV-backed progress store).
+#
+# The Notion proxy (worker/notion-proxy.js) is deployed separately with explicit
+# CLI flags and is unaffected by this file. This config is the default target of
+# a plain `npx wrangler deploy`.
+#
+# Setup:
+#   1. npx wrangler kv namespace create PROGRESS_KV
+#        → copy the printed `id` into the kv_namespaces block below.
+#   2. npx wrangler secret put SYNC_KEYS
+#        → enter a comma-separated allowlist of secret sync keys.
+#   3. npx wrangler deploy
+#
+# Then point the app at it (see .env.example):
+#   VITE_SYNC_URL=https://deutschmeister-progress-sync.<subdomain>.workers.dev
+#   VITE_SYNC_KEY=<one of the keys you put in SYNC_KEYS>
+
+name = "deutschmeister-progress-sync"
+main = "worker/progress-sync.js"
+compatibility_date = "2024-01-01"
+
+kv_namespaces = [
+  { binding = "PROGRESS_KV", id = "f106883183fa4e58839285d1e43f2f83" }
+]
+
+# SYNC_KEYS is a secret — do NOT put it here. Set it with:
+#   npx wrangler secret put SYNC_KEYS

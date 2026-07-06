@@ -92,5 +92,53 @@ Drive REST API directly via `fetch`.
   attempts wins (ties broken by higher mastery) — so two devices can be used
   interchangeably without losing progress.
 
+## Cloud sync (durable, login-free — the primary channel)
+Google Drive sync works but has two rough edges: its OAuth token expires roughly
+hourly and can't refresh without a fresh sign-in ("keeps disconnecting"), and
+because progress ultimately lives in IndexedDB, iOS's ~7-day PWA storage eviction
+can wipe local mastery so mastered words reappear in the deck until you reconnect.
+
+Cloud sync fixes both by storing progress on a **Cloudflare Worker + KV** store,
+reached with a **secret key baked into the build** — no login, ever, and it
+survives storage eviction. On load the app pulls the cloud snapshot, merges it
+with local, and pushes back; it also pushes on tab-hide/close. This is now the
+primary sync channel; Drive is kept only to import an old snapshot once.
+
+**One-time setup (developer):**
+1. Create the KV namespace:
+   ```bash
+   npx wrangler kv namespace create PROGRESS_KV
+   ```
+   Copy the printed `id` into `wrangler.toml` (the `kv_namespaces` block).
+2. Set the secret key allowlist (comma-separated; one long random string is fine
+   for personal use):
+   ```bash
+   npx wrangler secret put SYNC_KEYS
+   ```
+3. Deploy the Worker (uses `wrangler.toml`, which targets `worker/progress-sync.js`):
+   ```bash
+   npx wrangler deploy
+   ```
+   The existing Notion proxy deploys separately and is unaffected.
+4. In `.env.local` (see `.env.example`) set:
+   ```
+   VITE_SYNC_URL=https://deutschmeister-progress-sync.<subdomain>.workers.dev
+   VITE_SYNC_KEY=<one of the keys you put in SYNC_KEYS>
+   ```
+   Rebuild and deploy the app (`npm run build`, push `dist/`).
+
+**Using it:** nothing to do — when `VITE_SYNC_URL` + `VITE_SYNC_KEY` are set, the
+**Stats → Backup & restore** panel shows "☁️ Cloud sync (active)" and syncs
+automatically. To bring your existing progress over, connect Google Drive once
+under the same panel — it imports the latest Drive snapshot and seeds the cloud
+store; after that you can ignore Drive.
+
+**Merge strategy** is shared with Drive: per word, whichever side has more total
+attempts wins (ties → higher mastery); the force-mastered `skip` flag is sticky.
+
+**Endpoints** (`worker/progress-sync.js`): `GET /progress` and `PUT /progress`,
+both gated by the `X-Sync-Key` header. The KV entry is namespaced by a SHA-256
+hash of the key, so the raw secret never appears in a key name.
+
 ## Updating
 After deploying a new build, the service worker auto-updates the installed app on next launch.

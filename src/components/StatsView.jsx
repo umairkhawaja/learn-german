@@ -7,7 +7,7 @@ import { keyOf, clearProgress, isMastered } from "../engine/progress";
 import { StatTile } from "./ui";
 import { BackupPanel } from "./BackupPanel";
 
-export function StatsView({ progress, setProgress, levelFilter, driveStatus, setDriveStatus, db }) {
+export function StatsView({ progress, setProgress, levelFilter, driveStatus, setDriveStatus, cloudStatus, setCloudStatus, db }) {
   const [confirm, setConfirm] = useState(false);
 
   let mastered = 0, seen = 0, totalWords = 0, totCorrect = 0, totAns = 0;
@@ -89,7 +89,7 @@ export function StatsView({ progress, setProgress, levelFilter, driveStatus, set
         })}
       </div>
 
-      <BackupPanel progress={progress} setProgress={setProgress} driveStatus={driveStatus} setDriveStatus={setDriveStatus} />
+      <BackupPanel progress={progress} setProgress={setProgress} driveStatus={driveStatus} setDriveStatus={setDriveStatus} cloudStatus={cloudStatus} setCloudStatus={setCloudStatus} />
 
       <div style={{ marginTop: 22, textAlign: "center" }}>
         {!confirm ? (

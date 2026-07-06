@@ -25,6 +25,7 @@ import { loadDB } from "./data/db";
 import { loadProgress } from "./engine/progress";
 import { dueCount } from "./engine/quiz";
 import { useDriveSync } from "./engine/useDriveSync";
+import { useCloudSync } from "./engine/useCloudSync";
 import { Header } from "./components/Header";
 import { BottomNav } from "./components/BottomNav";
 import { QuizView } from "./components/QuizView";
@@ -51,6 +52,10 @@ export default function DeutschMeister() {
   useEffect(() => { loadProgress().then((p) => { setProgress(p); setProgressLoaded(true); }); }, []);
   useEffect(() => { try { window.speechSynthesis.getVoices(); } catch { } }, []);
 
+  // Primary sync channel: durable Cloudflare KV store (baked-in key, no login,
+  // survives IndexedDB eviction). Drive sync is kept below only for a one-time
+  // import of the old snapshot to seed the cloud store.
+  const { cloudStatus, setCloudStatus } = useCloudSync(progress, setProgress, progressLoaded);
   const { driveStatus, setDriveStatus } = useDriveSync(progress, setProgress, progressLoaded);
 
   const cat = CATEGORIES[activeCat];
@@ -91,7 +96,7 @@ export default function DeutschMeister() {
         {view === "browse" && <BrowseView key={cat.id} cat={cat} progress={progress} setProgress={setProgress} levelFilter={levelFilter} db={db} />}
         {view === "cheatsheet" && <CheatsheetView />}
         {view === "notes" && <NotesView />}
-        {view === "stats" && <StatsView progress={progress} setProgress={setProgress} levelFilter={levelFilter} driveStatus={driveStatus} setDriveStatus={setDriveStatus} db={db} />}
+        {view === "stats" && <StatsView progress={progress} setProgress={setProgress} levelFilter={levelFilter} driveStatus={driveStatus} setDriveStatus={setDriveStatus} cloudStatus={cloudStatus} setCloudStatus={setCloudStatus} db={db} />}
       </div>
 
       <BottomNav view={view} setView={setView} dueCount={due} />

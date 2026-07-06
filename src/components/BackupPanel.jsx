@@ -5,8 +5,9 @@ import { storage } from "../storage";
 import { saveProgress } from "../engine/progress";
 import { buildBackup, parseBackup, shareOrDownloadBackup, copyBackup } from "../backup";
 import * as drive from "../driveSync";
+import * as cloud from "../cloudSync";
 
-export function BackupPanel({ progress, setProgress, driveStatus, setDriveStatus }) {
+export function BackupPanel({ progress, setProgress, driveStatus, setDriveStatus, cloudStatus, setCloudStatus }) {
   const [open, setOpen] = useState(false);
   const [text, setText] = useState("");
   const [msg, setMsg] = useState(null);
@@ -50,7 +51,23 @@ export function BackupPanel({ progress, setProgress, driveStatus, setDriveStatus
     e.target.value = "";
   };
 
-  // ── Google Drive sync ──
+  // ── Cloud sync (primary): durable Cloudflare KV store, no login ──
+  const cloudSyncNow = async () => {
+    setCloudStatus((s) => ({ ...s, busy: true, error: null }));
+    try {
+      const remote = await cloud.pullProgress();
+      const merged = remote ? cloud.mergeProgress(progress, remote) : progress;
+      if (remote) { setProgress(merged); await saveProgress(merged); }
+      await cloud.pushProgress(merged);
+      setCloudStatus((s) => ({ ...s, busy: false, lastSync: Date.now(), error: null }));
+      setMsg({ ok: true, t: "Synced with cloud." });
+    } catch (e) {
+      setCloudStatus((s) => ({ ...s, busy: false, error: e.message }));
+      setMsg({ ok: false, t: e.message });
+    }
+  };
+
+  // ── Google Drive (one-time import) ──
   // IMPORTANT: drive.connect() must be invoked synchronously, in the same
   // tick as the click event — no `await` before it — or iOS Safari treats
   // the resulting window.open() as not user-initiated and silently blocks
@@ -69,8 +86,14 @@ export function BackupPanel({ progress, setProgress, driveStatus, setDriveStatus
           await saveProgress(merged);
         }
         await drive.pushProgress(merged, { interactive: false });
+        // Seed the durable cloud store with the Drive snapshot so ongoing sync
+        // no longer depends on Drive (which needs a fresh login each hour).
+        if (cloud.isConfigured()) {
+          await cloud.pushProgress(merged).catch(() => {});
+          setCloudStatus((s) => ({ ...s, lastSync: Date.now(), error: null }));
+        }
         setDriveStatus({ connected: true, busy: false, lastSync: Date.now(), error: null });
-        setMsg({ ok: true, t: "Connected to Google Drive and synced." });
+        setMsg({ ok: true, t: cloud.isConfigured() ? "Imported from Drive into cloud sync." : "Connected to Google Drive and synced." });
       })
       .catch((e) => {
         setDriveStatus((s) => ({ ...s, busy: false, error: e.message }));
@@ -129,9 +152,24 @@ export function BackupPanel({ progress, setProgress, driveStatus, setDriveStatus
           {msg && <div style={{ marginTop: 8, fontSize: 12.5, color: msg.ok ? COLORS.successText : COLORS.dangerText }}>{msg.ok ? "✓ " : "✗ "}{msg.t}</div>}
           <div style={{ marginTop: 8, fontSize: 11, color: "#3f4651", lineHeight: 1.5 }}>Restoring merges into your current progress; words missing from a backup stay at zero, so older backups still work after new words are added.</div>
 
-          {/* Google Drive sync */}
+          {/* Cloud sync (primary) */}
+          {cloudStatus && cloudStatus.configured && (
+            <div style={{ marginTop: 16, paddingTop: 14, borderTop: `1px solid ${COLORS.border}` }}>
+              <div style={{ fontSize: 12, color: FAINT, marginBottom: 8 }}>☁️ Cloud sync <span style={{ color: COLORS.successText }}>(active)</span>:</div>
+              <button onClick={cloudSyncNow} disabled={cloudStatus.busy}
+                style={{ width: "100%", background: COLORS.der, border: "none", borderRadius: 10, padding: "10px", color: "#fff", fontSize: 13, fontWeight: 700, cursor: cloudStatus.busy ? "default" : "pointer", opacity: cloudStatus.busy ? 0.6 : 1 }}>
+                {cloudStatus.busy ? "Syncing…" : "↻ Sync now"}
+              </button>
+              <div style={{ fontSize: 11, color: "#3f4651", marginTop: 8, lineHeight: 1.5 }}>
+                Auto-syncs in the background to a private cloud store — no login, and it survives your device clearing app storage.{cloudStatus.lastSync ? ` Last synced ${new Date(cloudStatus.lastSync).toLocaleString()}.` : ""}
+              </div>
+              {cloudStatus.error && <div style={{ marginTop: 6, fontSize: 12, color: COLORS.dangerText }}>✗ {cloudStatus.error}</div>}
+            </div>
+          )}
+
+          {/* Google Drive (one-time import to seed cloud sync) */}
           <div style={{ marginTop: 16, paddingTop: 14, borderTop: `1px solid ${COLORS.border}` }}>
-            <div style={{ fontSize: 12, color: FAINT, marginBottom: 8 }}>☁️ Google Drive sync:</div>
+            <div style={{ fontSize: 12, color: FAINT, marginBottom: 8 }}>{cloudStatus && cloudStatus.configured ? "📥 Import old progress from Google Drive:" : "☁️ Google Drive sync:"}</div>
             {!driveStatus.connected ? (
               <button onClick={driveConnect} disabled={driveStatus.busy}
                 style={{ width: "100%", background: "#1a1a1a", border: `1px solid ${COLORS.borderSoft}`, borderRadius: 10, padding: "10px", color: TXT, fontSize: 13, fontWeight: 600, cursor: driveStatus.busy ? "default" : "pointer", opacity: driveStatus.busy ? 0.6 : 1 }}>
@@ -150,9 +188,11 @@ export function BackupPanel({ progress, setProgress, driveStatus, setDriveStatus
               </div>
             )}
             <div style={{ fontSize: 11, color: "#3f4651", marginTop: 8, lineHeight: 1.5 }}>
-              {driveStatus.connected
-                ? `Auto-syncs in the background. ${driveStatus.lastSync ? `Last synced ${new Date(driveStatus.lastSync).toLocaleString()}.` : ""}`
-                : "Stores progress in your Drive's hidden app folder (not visible in your normal Drive files) — syncs automatically across devices once connected."}
+              {cloudStatus && cloudStatus.configured
+                ? "Cloud sync above is your live channel. Use this once to pull an old snapshot out of Drive into it — after that you don't need Drive."
+                : (driveStatus.connected
+                  ? `Auto-syncs in the background. ${driveStatus.lastSync ? `Last synced ${new Date(driveStatus.lastSync).toLocaleString()}.` : ""}`
+                  : "Stores progress in your Drive's hidden app folder (not visible in your normal Drive files) — syncs automatically across devices once connected.")}
             </div>
             {driveStatus.error && <div style={{ marginTop: 6, fontSize: 12, color: COLORS.dangerText }}>✗ {driveStatus.error}</div>}
           </div>

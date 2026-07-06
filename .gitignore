@@ -3,3 +3,6 @@ dist/
 .env.local
 scripts/.cache/
 public/data/*.bak
+
+# Vite temp files
+vite.config.js.timestamp-*.mjs

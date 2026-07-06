@@ -17,7 +17,27 @@ export const NOTION_PAGES = {
       label: "A1-2 Grammar",
       pageId: "36af11d2d8218136807edebb2c764850",
     },
+    {
+      label: "A1 Course (Learn German)",
+      pageId: "394f11d2d821819bb371de4037fd632d",
+    },
   ],
-  A2: [],
-  B1: [],
+  A2: [
+    {
+      label: "A2 Course (Learn German)",
+      pageId: "394f11d2d821818e8218e0378cb6393c",
+    },
+  ],
+  B1: [
+    {
+      label: "B1 Course (Learn German)",
+      pageId: "394f11d2d82181abbe50e81c6aa55b95",
+    },
+  ],
+  B2: [
+    {
+      label: "B2 Course (Learn German)",
+      pageId: "394f11d2d821814796d2cd9775ae2318",
+    },
+  ],
 };
