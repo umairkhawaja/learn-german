@@ -18,8 +18,11 @@ export function sanitizeProgress(obj) {
   }
   return out;
 }
-export function buildBackup(progress) {
-  return JSON.stringify({ app: "DeutschMeister", version: 3, exportedAt: new Date().toISOString(), progress }, null, 2);
+// `pretty` (default) is for human-facing file/clipboard exports. Network sync
+// passes { pretty: false } to roughly halve the payload — indentation alone can
+// push a full-progress blob well past the browser's 64 KiB keepalive-fetch cap.
+export function buildBackup(progress, { pretty = true } = {}) {
+  return JSON.stringify({ app: "DeutschMeister", version: 3, exportedAt: new Date().toISOString(), progress }, null, pretty ? 2 : undefined);
 }
 export function parseBackup(raw) {
   const data = JSON.parse(raw);

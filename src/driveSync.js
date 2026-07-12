@@ -227,21 +227,24 @@ export async function pullProgress({ interactive = false, _retry = true } = {}) 
 }
 
 // ── Push progress to Drive (creates the file on first sync). ──
-export async function pushProgress(progress, { interactive = false, _retry = true } = {}) {
+// `keepalive` is opt-in for the same reason as cloudSync.pushProgress: a full
+// progress blob exceeds the 64 KiB keepalive-fetch cap, so only the genuine
+// page-unload handler sets it (best-effort). Everything else uses a normal
+// request that completes regardless of size. Compact JSON keeps it small.
+export async function pushProgress(progress, { interactive = false, keepalive = false, _retry = true } = {}) {
   const token = await ensureToken({ interactive });
   if (!token) return false;
 
-  const json = buildBackup(progress);
+  const json = buildBackup(progress, { pretty: false });
   const fileId = await findFileId(token);
   const metadata = { name: FILE_NAME, mimeType: "application/json" };
 
-  // keepalive lets the request survive tab-hide/unload (the auto-push path);
-  // the payload is far below the 64 KB keepalive body limit.
+  const ka = keepalive ? { keepalive: true } : {};
   if (fileId) {
     const res = await driveFetch(
       `https://www.googleapis.com/upload/drive/v3/files/${fileId}?uploadType=media`,
       token,
-      { method: "PATCH", headers: { "Content-Type": "application/json" }, body: json, keepalive: true }
+      { method: "PATCH", headers: { "Content-Type": "application/json" }, body: json, ...ka }
     );
     if (res.status === 404 && _retry) {
       await forgetFileId();
@@ -256,7 +259,7 @@ export async function pushProgress(progress, { interactive = false, _retry = tru
     const res = await driveFetch(
       "https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart&fields=id",
       token,
-      { method: "POST", body: form, keepalive: true }
+      { method: "POST", body: form, ...ka }
     );
     if (!res.ok) throw new Error(`Drive create failed (${res.status})`);
     const data = await res.json();

@@ -44,16 +44,23 @@ export async function pullProgress() {
   }
 }
 
-// Push progress to the cloud store. `keepalive` lets the request survive a
-// tab-hide/unload (the auto-push path).
-export async function pushProgress(progress) {
+// Push progress to the cloud store.
+//
+// `keepalive` MUST stay off for the normal paths (load-time sync, "Sync now",
+// tab-hide). The Fetch spec rejects a keepalive request whose body exceeds
+// 64 KiB, and a real progress blob crosses that after a few hundred words — the
+// rejection was swallowed by the auto-push .catch(), so the store never got
+// written. Only the genuine page-unload handler opts in, where keepalive is the
+// only way the request survives at all; it's best-effort, and the next app open
+// re-pushes via the load effect regardless. Compact JSON keeps the body small.
+export async function pushProgress(progress, { keepalive = false } = {}) {
   if (!isConfigured()) return false;
-  const json = buildBackup(progress);
+  const json = buildBackup(progress, { pretty: false });
   const res = await fetch(`${SYNC_URL}/progress`, {
     method: "PUT",
     headers: { "X-Sync-Key": SYNC_KEY, "Content-Type": "application/json" },
     body: json,
-    keepalive: true,
+    ...(keepalive ? { keepalive: true } : {}),
   });
   if (res.status === 401) throw new Error("Cloud sync key rejected — check VITE_SYNC_KEY.");
   if (!res.ok) throw new Error(`Cloud push failed (${res.status})`);

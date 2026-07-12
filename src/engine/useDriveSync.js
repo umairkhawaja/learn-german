@@ -44,16 +44,20 @@ export function useDriveSync(progress, setProgress, progressLoaded) {
 
   // Push when the tab is hidden or unloaded.
   useEffect(() => {
-    const pushIfConnected = () => {
+    const pushIfConnected = (keepalive) => {
       if (!driveStatus.connected || !loadedRef.current) return;
-      drive.pushProgress(progressRef.current, { interactive: false }).catch(() => { });
+      drive.pushProgress(progressRef.current, { interactive: false, keepalive }).catch(() => { });
     };
-    const onVisibility = () => { if (document.visibilityState === "hidden") pushIfConnected(); };
+    // Tab-hide: page still alive, normal request completes for any size. Real
+    // unload: keepalive is the only option and is best-effort (large blobs may
+    // still be dropped — the next open re-pushes via the load effect).
+    const onVisibility = () => { if (document.visibilityState === "hidden") pushIfConnected(false); };
+    const onUnload = () => pushIfConnected(true);
     document.addEventListener("visibilitychange", onVisibility);
-    window.addEventListener("beforeunload", pushIfConnected);
+    window.addEventListener("beforeunload", onUnload);
     return () => {
       document.removeEventListener("visibilitychange", onVisibility);
-      window.removeEventListener("beforeunload", pushIfConnected);
+      window.removeEventListener("beforeunload", onUnload);
     };
   }, [driveStatus.connected]);
 

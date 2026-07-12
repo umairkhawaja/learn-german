@@ -53,16 +53,20 @@ export function useCloudSync(progress, setProgress, progressLoaded) {
 
   // Push when the tab is hidden or unloaded.
   useEffect(() => {
-    const push = () => {
+    const push = (keepalive) => {
       if (!cloud.isConfigured() || !loadedRef.current) return;
-      cloud.pushProgress(progressRef.current).catch(() => {});
+      cloud.pushProgress(progressRef.current, { keepalive }).catch(() => {});
     };
-    const onVisibility = () => { if (document.visibilityState === "hidden") push(); };
+    // Tab-hide: the page is still alive, so a normal request completes even for
+    // a large blob. Real unload: keepalive is the only way it survives (and it's
+    // best-effort — the load effect re-pushes on next open).
+    const onVisibility = () => { if (document.visibilityState === "hidden") push(false); };
+    const onUnload = () => push(true);
     document.addEventListener("visibilitychange", onVisibility);
-    window.addEventListener("beforeunload", push);
+    window.addEventListener("beforeunload", onUnload);
     return () => {
       document.removeEventListener("visibilitychange", onVisibility);
-      window.removeEventListener("beforeunload", push);
+      window.removeEventListener("beforeunload", onUnload);
     };
   }, []);
 
