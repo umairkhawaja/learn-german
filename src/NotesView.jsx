@@ -1,14 +1,41 @@
 import { useState, useEffect, useCallback, useMemo } from "react";
 import { NotionRenderer } from "react-notion-x";
 import "react-notion-x/src/styles.css";
-import { NOTION_PAGES, NOTION_PROXY_URL } from "./notesConfig";
-import { fetchNotionPage } from "./notionClient";
+import {
+  NOTION_PROXY_URL,
+  NOTION_ROOT_PAGE_ID,
+  NOTE_LEVELS,
+  GENERAL_LABEL,
+} from "./notesConfig";
+import { fetchNotionPage, fetchNotionChildPages } from "./notionClient";
 
 const TXT = "#e2e8f0";
 const MUTE = "#8b94a3";
 const FAINT = "#5b626f";
 
-const LEVELS = Object.keys(NOTION_PAGES).filter((l) => NOTION_PAGES[l].length > 0);
+// Match a leading level token in a subpage title, ignoring a leading emoji.
+// "🇩🇪 A1 Course Notes — Learn German" → "A1".
+function levelOf(title) {
+  const m = (title || "").match(/\b([ABC][12])\b/i);
+  const token = m ? m[1].toUpperCase() : null;
+  return token && NOTE_LEVELS.includes(token) ? token : null;
+}
+
+// Turn a flat list of subpages into { level: [{ label, pageId }] } groups,
+// preserving NOTE_LEVELS order and appending a General bucket last.
+function groupByLevel(childPages) {
+  const groups = {};
+  for (const { pageId, title } of childPages) {
+    const level = levelOf(title) ?? GENERAL_LABEL;
+    (groups[level] ??= []).push({ label: title || "Untitled", pageId });
+  }
+  const ordered = {};
+  for (const level of NOTE_LEVELS) {
+    if (groups[level]) ordered[level] = groups[level];
+  }
+  if (groups[GENERAL_LABEL]) ordered[GENERAL_LABEL] = groups[GENERAL_LABEL];
+  return ordered;
+}
 
 function SetupNotice() {
   return (
@@ -98,10 +125,28 @@ function NotionPage({ pageId, proxyUrl }) {
 }
 
 export function NotesView() {
-  const [level, setLevel] = useState(LEVELS[0] ?? null);
+  const [groups, setGroups] = useState(null);
+  const [loadError, setLoadError] = useState(null);
+  const [level, setLevel] = useState(null);
   const [pageIdx, setPageIdx] = useState(0);
 
-  const pages = level ? NOTION_PAGES[level] : [];
+  // Load the subpages of the "German Notes" root page once, then group by level.
+  useEffect(() => {
+    if (!NOTION_PROXY_URL) return;
+    let cancelled = false;
+    fetchNotionChildPages(NOTION_ROOT_PAGE_ID, NOTION_PROXY_URL)
+      .then((childPages) => {
+        if (cancelled) return;
+        const grouped = groupByLevel(childPages);
+        setGroups(grouped);
+        setLevel(Object.keys(grouped)[0] ?? null);
+      })
+      .catch((e) => !cancelled && setLoadError(e.message));
+    return () => { cancelled = true; };
+  }, []);
+
+  const levels = groups ? Object.keys(groups) : [];
+  const pages = level && groups ? groups[level] : [];
   const currentPage = pages[pageIdx] ?? null;
 
   if (!NOTION_PROXY_URL) {
@@ -115,12 +160,32 @@ export function NotesView() {
     );
   }
 
+  if (loadError) {
+    return (
+      <div style={{ color: "#fca5a5", fontSize: 13, padding: "20px 0" }}>
+        Failed to load notes: {loadError}
+      </div>
+    );
+  }
+
+  if (!groups) {
+    return <div style={{ color: FAINT, fontSize: 13, padding: "20px 0" }}>Loading…</div>;
+  }
+
+  if (levels.length === 0) {
+    return (
+      <div style={{ color: FAINT, fontSize: 13, padding: "20px 0" }}>
+        No note pages found in the German Notes page.
+      </div>
+    );
+  }
+
   return (
     <div>
       {/* Level tabs */}
-      {LEVELS.length > 1 && (
+      {levels.length > 1 && (
         <div style={{ display: "flex", gap: 6, marginBottom: 14 }}>
-          {LEVELS.map((l) => (
+          {levels.map((l) => (
             <button key={l} onClick={() => { setLevel(l); setPageIdx(0); }}
               style={{
                 padding: "6px 14px", borderRadius: 8, border: `1px solid ${level === l ? "#3b82f6" : "#2a2a2a"}`,
@@ -153,7 +218,7 @@ export function NotesView() {
         <NotionPage key={currentPage.pageId} pageId={currentPage.pageId} proxyUrl={NOTION_PROXY_URL} />
       ) : (
         <div style={{ color: FAINT, fontSize: 13, padding: "20px 0" }}>
-          No pages configured for {level} yet. Add them to <code>src/notesConfig.js</code>.
+          No pages for {level} yet. Add a "{level} …" subpage under the German Notes page in Notion.
         </div>
       )}
     </div>

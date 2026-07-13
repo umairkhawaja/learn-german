@@ -1,43 +1,21 @@
-// Notion page IDs for each level's grammar notes.
-// To add a new page: paste the ID from the URL (the 32-char hex at the end).
-// To add a new level: add a key and an array of { label, pageId } objects.
+// Grammar notes are read live from a single Notion page: "German Notes".
+// That page contains one subpage per level (A1/A2/B1/B2 Course Notes) plus
+// general grammar-topic pages (Cases, Satz Struktur, …). The Notes view reads
+// this page's subpages directly, so adding a subpage in Notion makes it appear
+// in the app automatically — no code change needed.
+//
+//   https://umairkhawaja.notion.site/German-Notes-36af11d2d82181c38df8f4389657061d
 //
 // The proxy URL is read from the VITE_NOTION_PROXY_URL env variable.
 // See worker/notion-proxy.js for the one-time Cloudflare Worker setup.
 
 export const NOTION_PROXY_URL = import.meta.env.VITE_NOTION_PROXY_URL ?? null;
 
-export const NOTION_PAGES = {
-  A1: [
-    {
-      label: "A1-1 Grammar",
-      pageId: "36af11d2d82181e7936cf17fd6a35fc7",
-    },
-    {
-      label: "A1-2 Grammar",
-      pageId: "36af11d2d8218136807edebb2c764850",
-    },
-    {
-      label: "A1 Course (Learn German)",
-      pageId: "394f11d2d821819bb371de4037fd632d",
-    },
-  ],
-  A2: [
-    {
-      label: "A2 Course (Learn German)",
-      pageId: "394f11d2d821818e8218e0378cb6393c",
-    },
-  ],
-  B1: [
-    {
-      label: "B1 Course (Learn German)",
-      pageId: "394f11d2d82181abbe50e81c6aa55b95",
-    },
-  ],
-  B2: [
-    {
-      label: "B2 Course (Learn German)",
-      pageId: "394f11d2d821814796d2cd9775ae2318",
-    },
-  ],
-};
+// The "German Notes" root page (the 32-char hex from its URL).
+export const NOTION_ROOT_PAGE_ID = "36af11d2d82181c38df8f4389657061d";
+
+// Level tabs, in display order. A subpage is assigned to a level when its title
+// starts with one of these tokens (e.g. "A1 Course Notes" → A1). Subpages that
+// match no level are grouped under GENERAL_LABEL.
+export const NOTE_LEVELS = ["A1", "A2", "B1", "B2"];
+export const GENERAL_LABEL = "Grammar";

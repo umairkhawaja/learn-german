@@ -32,3 +32,34 @@ export async function fetchNotionPage(pageId, proxyUrl) {
   const json = await res.json();
   return json.recordMap;
 }
+
+// Notion wraps each record as { value: <block> } but newer responses use a
+// double-nested { value: { value: <block> } }. Handle both.
+function blockValue(record) {
+  const v = record?.value;
+  return v?.value ?? v ?? null;
+}
+
+function titleOf(block) {
+  const segs = block?.properties?.title;
+  if (!segs) return "";
+  return segs.map((seg) => seg[0]).join("").trim();
+}
+
+// Fetch a Notion page and return its immediate child subpages, in document
+// order, as { pageId, title } objects (pageId is the un-dashed 32-char id).
+export async function fetchNotionChildPages(rootPageId, proxyUrl) {
+  const recordMap = await fetchNotionPage(rootPageId, proxyUrl);
+  const blocks = recordMap?.block ?? {};
+  const root = blockValue(blocks[toDashedId(rootPageId)]);
+  const content = root?.content ?? [];
+
+  const pages = [];
+  for (const childId of content) {
+    const block = blockValue(blocks[childId]);
+    if (block?.type === "page") {
+      pages.push({ pageId: childId.replace(/-/g, ""), title: titleOf(block) });
+    }
+  }
+  return pages;
+}
