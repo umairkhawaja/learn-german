@@ -1,0 +1,1099 @@
+<!doctype html>
+<html lang="de" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A1 → A2.1 Brückentag</title>
+<style>:root{color-scheme:dark}body{margin:0;padding:0;background:#0D1315;color:#E8EFF1}img{max-width:100%}[hidden]:not([hidden=until-found]){display:none!important}</style>
+</head>
+<body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<style>
+:root{
+  --paper:#EDF1F3;
+  --surface:#FFFFFF;
+  --surface-2:#F5F8F9;
+  --ink:#141A1D;
+  --ink-2:#3F4E55;
+  --ink-3:#6D7E86;
+  --rule:#D2DCE0;
+  --rule-2:#E3EAED;
+  --accent:#12545F;
+  --accent-soft:#DDECEE;
+  --amber:#9A5B06;
+  --amber-soft:#F7E9D3;
+  --m:#1F5FA8;      /* der */
+  --f:#A8253B;      /* die */
+  --n:#1E7150;      /* das */
+  --p:#5E44A0;      /* Plural */
+  --m-bg:#E3EDF8; --f-bg:#F8E4E7; --n-bg:#DFF0E8; --p-bg:#EAE5F7;
+  --done:#1E7150;
+  --shadow:0 1px 2px rgba(20,26,29,.05), 0 6px 18px -10px rgba(20,26,29,.28);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0D1315; --surface:#141C1F; --surface-2:#182226;
+    --ink:#E8EFF1; --ink-2:#AFC0C6; --ink-3:#7E9199;
+    --rule:#26343A; --rule-2:#1E2A2F;
+    --accent:#6ECBD6; --accent-soft:#173238;
+    --amber:#E0A458; --amber-soft:#33260F;
+    --m:#7FB4EE; --f:#EF9AA6; --n:#78D3AC; --p:#B4A2EE;
+    --m-bg:#16283A; --f-bg:#341D23; --n-bg:#123024; --p-bg:#241E3A;
+    --done:#78D3AC;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -14px rgba(0,0,0,.8);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0D1315; --surface:#141C1F; --surface-2:#182226;
+  --ink:#E8EFF1; --ink-2:#AFC0C6; --ink-3:#7E9199;
+  --rule:#26343A; --rule-2:#1E2A2F;
+  --accent:#6ECBD6; --accent-soft:#173238;
+  --amber:#E0A458; --amber-soft:#33260F;
+  --m:#7FB4EE; --f:#EF9AA6; --n:#78D3AC; --p:#B4A2EE;
+  --m-bg:#16283A; --f-bg:#341D23; --n-bg:#123024; --p-bg:#241E3A;
+  --done:#78D3AC;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -14px rgba(0,0,0,.8);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:16px; line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:920px; margin:0 auto; padding:0 20px 80px}
+h1,h2,h3,h4{font-family:"Bricolage Grotesque","IBM Plex Sans",sans-serif; text-wrap:balance; margin:0}
+code,.mono,td.f,th.f{font-family:"IBM Plex Mono",ui-monospace,monospace}
+
+/* ---------- masthead ---------- */
+.mast{padding:44px 0 22px; border-bottom:2px solid var(--ink); display:flex; flex-direction:column; gap:14px}
+.eyebrow{font-family:"IBM Plex Mono",monospace; font-size:11.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--accent); font-weight:600}
+h1{font-size:clamp(34px,7vw,56px); line-height:1.02; font-weight:800; letter-spacing:-.025em}
+h1 .arrow{color:var(--accent)}
+.dek{color:var(--ink-2); max-width:60ch; font-size:17px}
+.metarow{display:flex; flex-wrap:wrap; gap:8px 22px; font-size:13px; color:var(--ink-3);
+  font-family:"IBM Plex Mono",monospace}
+.metarow b{color:var(--ink); font-weight:600}
+
+/* ---------- progress ---------- */
+.progress{position:sticky; top:0; z-index:20; background:var(--paper);
+  border-bottom:1px solid var(--rule); padding:10px 0 11px; margin-bottom:34px}
+.progress-inner{max-width:920px; margin:0 auto; padding:0 20px; display:flex; align-items:center; gap:14px}
+.bar{flex:1; height:7px; background:var(--rule-2); border-radius:99px; overflow:hidden; border:1px solid var(--rule)}
+.bar span{display:block; height:100%; width:0%; background:var(--accent); transition:width .35s ease}
+.pcount{font-family:"IBM Plex Mono",monospace; font-size:12.5px; color:var(--ink-2); white-space:nowrap;
+  font-variant-numeric:tabular-nums}
+.pcount b{color:var(--ink)}
+.reset{background:none; border:1px solid var(--rule); color:var(--ink-3); font:inherit; font-size:11.5px;
+  padding:3px 9px; border-radius:5px; cursor:pointer}
+.reset:hover{color:var(--ink); border-color:var(--ink-3)}
+
+/* ---------- section headings ---------- */
+.sec{margin-top:56px}
+.sec-head{display:flex; align-items:baseline; gap:14px; padding-bottom:10px; border-bottom:1px solid var(--rule); margin-bottom:26px}
+.sec-head h2{font-size:clamp(22px,3.6vw,30px); font-weight:700; letter-spacing:-.02em}
+.sec-head .note{font-size:13px; color:var(--ink-3); margin-left:auto; font-family:"IBM Plex Mono",monospace}
+
+/* ---------- schedule rail ---------- */
+.rail{display:flex; flex-direction:column; gap:16px}
+.blk{background:var(--surface); border:1px solid var(--rule); border-radius:10px; box-shadow:var(--shadow);
+  display:grid; grid-template-columns:96px 1fr; overflow:hidden}
+.blk.key{border-left:4px solid var(--amber)}
+.clock{background:var(--surface-2); border-right:1px solid var(--rule-2); padding:18px 12px;
+  display:flex; flex-direction:column; align-items:center; gap:2px; text-align:center}
+.clock .t{font-family:"IBM Plex Mono",monospace; font-size:15px; font-weight:600; font-variant-numeric:tabular-nums}
+.clock .t2{font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--ink-3); font-variant-numeric:tabular-nums}
+.clock .dur{margin-top:8px; font-size:11px; font-family:"IBM Plex Mono",monospace; letter-spacing:.06em;
+  color:var(--accent); border:1px solid var(--rule); background:var(--surface); border-radius:99px; padding:2px 8px}
+.body{padding:18px 20px 20px; min-width:0}
+.blk h3{font-size:19px; font-weight:700; letter-spacing:-.01em; margin-bottom:3px}
+.why{font-size:13.5px; color:var(--ink-3); margin-bottom:14px; font-style:italic}
+.stripe{display:inline-block; font-size:10.5px; font-family:"IBM Plex Mono",monospace; letter-spacing:.1em;
+  text-transform:uppercase; color:var(--amber); background:var(--amber-soft); padding:2px 7px; border-radius:4px;
+  margin-bottom:8px; font-weight:600}
+
+/* ---------- checklist items ---------- */
+ul.items{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:2px}
+ul.items li{display:flex; gap:10px; align-items:flex-start; padding:6px 0; border-top:1px solid var(--rule-2)}
+ul.items li:first-child{border-top:none}
+ul.items input{margin:5px 0 0; width:15px; height:15px; accent-color:var(--accent); flex:none; cursor:pointer}
+ul.items label{flex:1; min-width:0; cursor:pointer; font-size:14.5px; line-height:1.5}
+ul.items input:checked + label{color:var(--ink-3); text-decoration:line-through; text-decoration-color:var(--rule)}
+.kind{font-family:"IBM Plex Mono",monospace; font-size:10.5px; letter-spacing:.08em; text-transform:uppercase;
+  color:var(--ink-3); border:1px solid var(--rule); border-radius:4px; padding:1px 6px; margin-right:7px;
+  white-space:nowrap; vertical-align:1px}
+.kind.v{color:var(--accent); border-color:var(--accent); background:var(--accent-soft)}
+.len{font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--ink-3); font-variant-numeric:tabular-nums}
+a{color:var(--accent); text-decoration-color:var(--rule); text-underline-offset:2px}
+a:hover{text-decoration-color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent); outline-offset:2px; border-radius:3px}
+
+/* ---------- tables ---------- */
+.tblwrap{overflow-x:auto; border:1px solid var(--rule); border-radius:8px; background:var(--surface); margin:0}
+table{border-collapse:collapse; width:100%; font-size:14px; min-width:420px}
+th,td{padding:7px 12px; text-align:left; border-bottom:1px solid var(--rule-2); white-space:nowrap}
+thead th{background:var(--surface-2); font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.08em;
+  text-transform:uppercase; color:var(--ink-3); font-weight:600; border-bottom:1px solid var(--rule)}
+tbody tr:last-child td{border-bottom:none}
+td.rowh{font-family:"IBM Plex Mono",monospace; font-size:12px; letter-spacing:.05em; text-transform:uppercase;
+  color:var(--ink-3); background:var(--surface-2); font-weight:600}
+td.f{font-weight:500}
+.g-m{color:var(--m)} .g-f{color:var(--f)} .g-n{color:var(--n)} .g-p{color:var(--p)}
+th.h-m{color:var(--m); background:var(--m-bg)} th.h-f{color:var(--f); background:var(--f-bg)}
+th.h-n{color:var(--n); background:var(--n-bg)} th.h-p{color:var(--p); background:var(--p-bg)}
+
+/* ---------- reference cards ---------- */
+.ref{display:flex; flex-direction:column; gap:14px}
+.card{background:var(--surface); border:1px solid var(--rule); border-radius:10px; box-shadow:var(--shadow); overflow:hidden}
+.card > summary{list-style:none; cursor:pointer; padding:14px 18px; display:flex; align-items:baseline; gap:12px;
+  font-family:"Bricolage Grotesque",sans-serif; font-weight:700; font-size:17px; letter-spacing:-.01em}
+.card > summary::-webkit-details-marker{display:none}
+.card > summary::after{content:"+"; margin-left:auto; font-family:"IBM Plex Mono",monospace; font-size:19px;
+  color:var(--ink-3); font-weight:400; line-height:1}
+.card[open] > summary::after{content:"–"}
+.card[open] > summary{border-bottom:1px solid var(--rule-2)}
+.card .tag{font-family:"IBM Plex Mono",monospace; font-size:10.5px; letter-spacing:.08em; text-transform:uppercase;
+  color:var(--ink-3); font-weight:500}
+.cbody{padding:16px 18px 20px; display:flex; flex-direction:column; gap:16px}
+.cbody p{margin:0; font-size:14.5px; color:var(--ink-2)}
+.cbody h4{font-size:12px; font-family:"IBM Plex Mono",monospace; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--ink-3); font-weight:600}
+.cbody ul{margin:0; padding-left:19px; font-size:14.5px; color:var(--ink-2); display:flex; flex-direction:column; gap:5px}
+.de{font-family:"IBM Plex Mono",monospace; font-size:13.5px; color:var(--ink); font-weight:500}
+.en{color:var(--ink-3); font-style:italic}
+.rule-box{border-left:3px solid var(--accent); background:var(--accent-soft); padding:11px 14px; border-radius:0 7px 7px 0;
+  font-size:14.5px; color:var(--ink)}
+.rule-box .lbl{display:block; font-family:"IBM Plex Mono",monospace; font-size:10.5px; letter-spacing:.1em;
+  text-transform:uppercase; color:var(--accent); font-weight:600; margin-bottom:4px}
+.grid2{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:14px}
+
+/* ---------- Satzklammer diagram ---------- */
+.klammer{background:var(--surface-2); border:1px solid var(--rule); border-radius:8px; padding:18px 14px 12px;
+  overflow-x:auto}
+.kl-row{display:grid; grid-template-columns:repeat(4,minmax(78px,1fr)); gap:6px; min-width:400px; margin-bottom:14px}
+.kl-row:last-child{margin-bottom:0}
+.kl-cell{font-family:"IBM Plex Mono",monospace; font-size:13.5px; padding:7px 9px; border-radius:5px;
+  background:var(--surface); border:1px solid var(--rule-2); text-align:center; white-space:nowrap; overflow:hidden;
+  text-overflow:ellipsis}
+.kl-cell.v1{background:var(--accent-soft); border-color:var(--accent); color:var(--accent); font-weight:600}
+.kl-cell.v2{background:var(--amber-soft); border-color:var(--amber); color:var(--amber); font-weight:600}
+.kl-lab{font-family:"IBM Plex Mono",monospace; font-size:10px; letter-spacing:.08em; text-transform:uppercase;
+  color:var(--ink-3); text-align:center; padding-bottom:3px}
+
+/* ---------- trip wires ---------- */
+.wires{display:grid; grid-template-columns:repeat(auto-fit,minmax(270px,1fr)); gap:1px; background:var(--rule);
+  border:1px solid var(--rule); border-radius:10px; overflow:hidden}
+.wire{background:var(--surface); padding:14px 16px}
+.wire .bad{display:block; font-family:"IBM Plex Mono",monospace; font-size:13.5px; color:var(--f);
+  text-decoration:line-through; text-decoration-thickness:1px}
+.wire .good{display:block; font-family:"IBM Plex Mono",monospace; font-size:13.5px; color:var(--n); font-weight:500; margin-top:2px}
+.wire .exp{display:block; font-size:12.5px; color:var(--ink-3); margin-top:6px; line-height:1.45}
+
+/* ---------- split: assumed vs taught ---------- */
+.split{display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:14px}
+.col{background:var(--surface); border:1px solid var(--rule); border-radius:10px; padding:16px 18px 18px; box-shadow:var(--shadow)}
+.col.assumed{border-top:3px solid var(--amber)}
+.col.taught{border-top:3px solid var(--accent)}
+.col h3{font-size:16px; margin-bottom:3px}
+.col .sub{font-size:12.5px; color:var(--ink-3); margin-bottom:12px; font-family:"IBM Plex Mono",monospace}
+.col ul{margin:0; padding-left:18px; font-size:14px; color:var(--ink-2); display:flex; flex-direction:column; gap:6px}
+
+/* ---------- cheat-sheet index ---------- */
+.index{display:flex; flex-wrap:wrap; align-items:center; gap:7px; margin-bottom:20px;
+  padding:14px 16px; background:var(--surface); border:1px solid var(--rule); border-radius:10px}
+.ix-lab{font-family:"IBM Plex Mono",monospace; font-size:10.5px; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--ink-3); font-weight:600; margin-right:4px}
+.index a{font-size:13px; text-decoration:none; color:var(--ink-2); border:1px solid var(--rule);
+  background:var(--surface-2); border-radius:99px; padding:3px 11px; white-space:nowrap}
+.index a:hover{color:var(--accent); border-color:var(--accent); background:var(--accent-soft)}
+.index .reset{margin-left:auto}
+
+/* ---------- algorithm list ---------- */
+ol.algo{margin:0; padding:0; list-style:none; counter-reset:step; display:flex; flex-direction:column; gap:0}
+ol.algo li{counter-increment:step; position:relative; padding:11px 0 11px 42px; border-top:1px solid var(--rule-2);
+  font-size:14.5px; color:var(--ink-2); line-height:1.5}
+ol.algo li:first-child{border-top:none}
+ol.algo li::before{content:counter(step); position:absolute; left:0; top:11px; width:26px; height:26px;
+  display:flex; align-items:center; justify-content:center; border-radius:50%; background:var(--accent-soft);
+  color:var(--accent); border:1px solid var(--accent); font-family:"IBM Plex Mono",monospace;
+  font-size:12px; font-weight:600}
+ol.algo li strong{color:var(--ink)}
+
+@media print{
+  .progress,.index,.reset{display:none !important}
+  .card{break-inside:avoid; box-shadow:none}
+  .card > summary::after{display:none}
+  body{background:#fff}
+}
+
+footer{margin-top:60px; padding-top:22px; border-top:1px solid var(--rule); font-size:13px; color:var(--ink-3)}
+footer h4{font-size:11px; font-family:"IBM Plex Mono",monospace; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--ink-3); margin-bottom:8px}
+footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:4px}
+@media (max-width:560px){
+  .blk{grid-template-columns:1fr}
+  .clock{flex-direction:row; justify-content:flex-start; gap:12px; border-right:none;
+    border-bottom:1px solid var(--rule-2); padding:10px 16px}
+  .clock .dur{margin-top:0; margin-left:auto}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none !important; animation:none !important}}
+</style>
+
+<div class="progress">
+  <div class="progress-inner">
+    <div class="bar"><span id="fill"></span></div>
+    <div class="pcount"><b id="pdone">0</b>/<span id="ptotal">0</span> erledigt · <b id="pmin">225</b> Min übrig</div>
+    <button class="reset" id="reset" type="button">Zurücksetzen</button>
+  </div>
+</div>
+
+<div class="wrap">
+
+<header class="mast">
+  <div class="eyebrow">Sonntag, 6. September 2026 · Ein Tag · 3 h 45</div>
+  <h1>A1 <span class="arrow">→</span> A2.1 Brückentag</h1>
+  <p class="dek">Everything DeutschAkademie's A2.1 assumes you already own, compressed into one sitting. Six blocks, 2 h 10 of hand-picked video, 1 h 35 of drilling. The cheat sheet below is the thing you keep open in class tomorrow.</p>
+  <div class="metarow">
+    <span><b>Ziel</b> A1.2 sicher, A1+ komfortabel</span>
+    <span><b>Video</b> 130 Min</span>
+    <span><b>Üben</b> 95 Min</span>
+    <span><b>Kurs</b> morgen, A2.1 semi-intensiv</span>
+  </div>
+</header>
+
+<!-- ============ WHAT A2.1 ASSUMES ============ -->
+<section class="sec" id="scope">
+  <div class="sec-head">
+    <h2>Was A2.1 voraussetzt</h2>
+    <span class="note">read this first · 3 Min</span>
+  </div>
+  <div class="split">
+    <div class="col assumed">
+      <h3>Assumed — must be automatic</h3>
+      <p class="sub">Today's entire job</p>
+      <ul>
+        <li>Präsens: regular, stem-changing (<span class="de">du fährst, er spricht</span>), <span class="de">sein / haben / werden</span></li>
+        <li>All six modal verbs + <span class="de">möchten</span>, present tense</li>
+        <li>Nominativ / Akkusativ / Dativ — articles, <span class="de">kein-</span>, possessives, pronouns</li>
+        <li>Verb in position 2; W-Fragen vs. Ja/Nein-Fragen</li>
+        <li>Satzklammer with modals and separable verbs</li>
+        <li>Akkusativ- and Dativ-Präpositionen, plus the contractions</li>
+        <li>Perfekt: <span class="de">haben/sein</span> + Partizip II, ~50 participles</li>
+        <li>Präteritum of <span class="de">sein</span> and <span class="de">haben</span> (<span class="de">war, hatte</span>)</li>
+        <li><span class="de">nicht</span> vs. <span class="de">kein</span>; Imperativ; <span class="de">und/aber/oder/denn/sondern</span></li>
+        <li>Numbers, clock time, dates, plural formation</li>
+      </ul>
+    </div>
+    <div class="col taught">
+      <h3>Taught in A2.1 — don't pre-study</h3>
+      <p class="sub">You'll get these in class</p>
+      <ul>
+        <li>Perfekt <em>drilled properly</em> + the Satzklammer formalised</li>
+        <li>Präteritum of the modal verbs (<span class="de">konnte, musste, wollte</span>)</li>
+        <li>Adjektivdeklination after der-, ein- and zero articles</li>
+        <li>Wechselpräpositionen: <span class="de">Wo?</span> + Dativ vs. <span class="de">Wohin?</span> + Akkusativ</li>
+        <li>Konjunktiv II: <span class="de">könnte, sollte, würde</span></li>
+        <li><span class="de">weil / dass / wenn</span> — subordinate clause word order</li>
+        <li>Reflexive verbs, Komparativ / Superlativ</li>
+      </ul>
+    </div>
+  </div>
+  <div class="rule-box" style="margin-top:14px">
+    <span class="lbl">Priorisierung</span>
+    If you run short on time, cut Block 4 (prepositions — read the tables instead). Never cut Block 2 or 5: cases and Perfekt are what every single A2.1 lesson stands on, and they're what the placement test measured.
+  </div>
+</section>
+
+<!-- ============ THE DAY ============ -->
+<section class="sec" id="plan">
+  <div class="sec-head">
+    <h2>Der Ablauf</h2>
+    <span class="note">6 Blöcke · 225 Min</span>
+  </div>
+  <div class="rail">
+
+    <article class="blk" data-min="15">
+      <div class="clock"><span class="t">00:00</span><span class="t2">00:15</span><span class="dur">15 Min</span></div>
+      <div class="body">
+        <h3>1 · Diagnose</h3>
+        <p class="why">Don't study what you already know. Find the holes first, then let them steer the day.</p>
+        <ul class="items">
+          <li><input type="checkbox" id="c1a"><label for="c1a"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=-3TFXzLlJ38" target="_blank" rel="noopener">Test Your German — Level A1</a> · <span class="len">11:31</span> — pause on every question, answer out loud, note each miss.</label></li>
+          <li><input type="checkbox" id="c1b"><label for="c1b"><span class="kind">Notieren</span>Write down every item you got wrong. Those topics get double drill time later.</label></li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="blk key" data-min="55">
+      <div class="clock"><span class="t">00:15</span><span class="t2">01:10</span><span class="dur">55 Min</span></div>
+      <div class="body">
+        <span class="stripe">Nicht auslassen</span>
+        <h3>2 · Die Fälle — Nominativ, Akkusativ, Dativ</h3>
+        <p class="why">The single highest-leverage hour. Adjective endings in A2.1 are built directly on top of this table; if the case is wrong the ending can't be right.</p>
+        <ul class="items">
+          <li><input type="checkbox" id="c2a"><label for="c2a"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=bZL5OB61XXM" target="_blank" rel="noopener">Nominativ? Akkusativ? Dativ? — 3 Cases in German</a> · <span class="len">25:38</span></label></li>
+          <li><input type="checkbox" id="c2b"><label for="c2b"><span class="kind">Schreiben</span>Reproduce the full article table (<a href="#ref-kasus">below</a>) from memory on paper — der/ein/kein/mein across all three cases. Repeat until clean.</label></li>
+          <li><input type="checkbox" id="c2c"><label for="c2c"><span class="kind">Üben</span><a href="https://www.deutschakademie.de/online-deutschkurs/deutschkurs/nach-level/A1" target="_blank" rel="noopener">DeutschAkademie A1 Grammatiktrainer</a> — the Artikel and Kasus sets, ~15 Min. Free, and it's your own school's material.</label></li>
+          <li><input type="checkbox" id="c2d"><label for="c2d"><span class="kind">Sprechen</span>Say 10 sentences aloud with a dative object: <span class="de">Ich gebe meinem Bruder das Buch.</span> Change the recipient each time.</label></li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="blk" data-min="45">
+      <div class="clock"><span class="t">01:10</span><span class="t2">01:55</span><span class="dur">45 Min</span></div>
+      <div class="body">
+        <h3>3 · Verben und die Satzklammer</h3>
+        <p class="why">A2.1 opens with separable verbs and the sentence bracket. Arrive already able to put the second verb part at the end without thinking.</p>
+        <ul class="items">
+          <li><input type="checkbox" id="c3a"><label for="c3a"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=bD4vSw6AWps" target="_blank" rel="noopener">Modalverben — Modal verbs</a> · <span class="len">10:12</span></label></li>
+          <li><input type="checkbox" id="c3b"><label for="c3b"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=le-mSvX_Ekk" target="_blank" rel="noopener">Trennbare Verben — Separable verbs</a> · <span class="len">10:39</span></label></li>
+          <li><input type="checkbox" id="c3c"><label for="c3c"><span class="kind">Schreiben</span>Write your whole <span class="de">Tagesablauf</span> — 12 sentences, every one with either a modal or a separable verb. <span class="de">Ich stehe um 6:30 Uhr auf. Dann muss ich zur Arbeit fahren.</span></label></li>
+          <li><input type="checkbox" id="c3d"><label for="c3d"><span class="kind">Üben</span><a href="https://www.schubert-verlag.de/aufgaben/uebungen_a1/a1_uebungen_index.htm" target="_blank" rel="noopener">Schubert-Verlag A1 Online-Übungen</a> — the Verben and Satzbau chapters, ~10 Min.</label></li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="blk" data-min="40">
+      <div class="clock"><span class="t">01:55</span><span class="t2">02:35</span><span class="dur">40 Min</span></div>
+      <div class="body">
+        <h3>4 · Präpositionen</h3>
+        <p class="why">The lists are pure memory work, so memory work is what this block is. A2.1 adds the two-way prepositions on top — you need the fixed ones locked first.</p>
+        <ul class="items">
+          <li><input type="checkbox" id="c4a"><label for="c4a"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=HLBQveKnADU" target="_blank" rel="noopener">Akkusativ-Präpositionen</a> · <span class="len">10:49</span></label></li>
+          <li><input type="checkbox" id="c4b"><label for="c4b"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=X6db08GLuHw" target="_blank" rel="noopener">Präpositionen im Dativ</a> · <span class="len">14:22</span></label></li>
+          <li><input type="checkbox" id="c4c"><label for="c4c"><span class="kind">Auswendig</span>Learn both lists as chants: <span class="de">durch–für–gegen–ohne–um</span> and <span class="de">aus–außer–bei–mit–nach–seit–von–zu</span>. Say them until they're one word each.</label></li>
+          <li><input type="checkbox" id="c4d"><label for="c4d"><span class="kind">Schreiben</span>One sentence per preposition, 13 total, all about your actual week in München.</label></li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="blk key" data-min="45">
+      <div class="clock"><span class="t">02:35</span><span class="t2">03:20</span><span class="dur">45 Min</span></div>
+      <div class="body">
+        <span class="stripe">Nicht auslassen</span>
+        <h3>5 · Perfekt und Präteritum</h3>
+        <p class="why">A2.1's very first vocabulary theme is talking about the past — family memories, last weekend, what you did. This block is the price of admission.</p>
+        <ul class="items">
+          <li><input type="checkbox" id="c5a"><label for="c5a"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=pEundIQVwmU" target="_blank" rel="noopener">Perfekt · Partizip II — full lesson</a> · <span class="len">25:30</span></label></li>
+          <li><input type="checkbox" id="c5b"><label for="c5b"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=nmyEEsPEv-k" target="_blank" rel="noopener">war oder hatte — Präteritum von sein/haben</a> · <span class="len">08:03</span></label></li>
+          <li><input type="checkbox" id="c5c"><label for="c5c"><span class="kind">Auswendig</span>Drill the <a href="#ref-perfekt">participle list below</a>. Cover the right column, say the participle <em>with its auxiliary</em>: <span class="de">ist gefahren</span>, not <span class="de">gefahren</span>.</label></li>
+          <li><input type="checkbox" id="c5d"><label for="c5d"><span class="kind">Schreiben</span>Ten sentences about yesterday in Perfekt. Then rewrite the three with <span class="de">sein</span> and justify each one to yourself.</label></li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="blk" data-min="25">
+      <div class="clock"><span class="t">03:20</span><span class="t2">03:45</span><span class="dur">25 Min</span></div>
+      <div class="body">
+        <h3>6 · Output — alles zusammen</h3>
+        <p class="why">Production, not recognition. This is the part that actually shows up tomorrow when the teacher asks you something.</p>
+        <ul class="items">
+          <li><input type="checkbox" id="c6a"><label for="c6a"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=DWkaLIghET8" target="_blank" rel="noopener">Konjunktionen — und, aber, oder, denn, sondern</a> · <span class="len">14:00</span></label></li>
+          <li><input type="checkbox" id="c6b"><label for="c6b"><span class="kind">Schreiben</span>A 120-word text: <span class="de">Mein letztes Wochenende.</span> Must contain — Perfekt, one modal, one separable verb, two dative objects, three different connectors.</label></li>
+          <li><input type="checkbox" id="c6c"><label for="c6c"><span class="kind">Sprechen</span>Read it aloud twice. Then say it again without looking. Stumbles mark tomorrow's questions.</label></li>
+        </ul>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ CHEAT SHEET ============ -->
+<section class="sec" id="spick">
+  <div class="sec-head">
+    <h2>Spickzettel</h2>
+    <span class="note">14 Karten · die ganze A1-Grammatik</span>
+  </div>
+  <div class="index">
+    <span class="ix-lab">Springen zu</span>
+    <a href="#ref-kasus">Artikel &amp; Kasus</a>
+    <a href="#ref-possessiv">Possessiv &amp; dies-</a>
+    <a href="#ref-pronomen">Pronomen</a>
+    <a href="#ref-nomen">Genus &amp; Plural</a>
+    <a href="#ref-praesens">Präsens</a>
+    <a href="#ref-perfekt">Perfekt</a>
+    <a href="#ref-praeteritum">Präteritum</a>
+    <a href="#ref-satzbau">Satzbau-Algorithmus</a>
+    <a href="#ref-fragen">Fragen</a>
+    <a href="#ref-praep">Präpositionen</a>
+    <a href="#ref-zahlen">Zahlen &amp; Uhrzeit</a>
+    <a href="#ref-zeit">Zeitangaben</a>
+    <a href="#ref-negation">Negation &amp; Imperativ</a>
+    <a href="#ref-konj">Konjunktionen</a>
+    <button class="reset" id="toggleall" type="button">Alle öffnen</button>
+  </div>
+
+  <div class="ref">
+
+    <details class="card" id="ref-kasus" open>
+      <summary>1 · Artikel &amp; Kasus <span class="tag">der · die · das</span></summary>
+      <div class="cbody">
+        <h4>Bestimmter Artikel</h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th></th><th class="h-m">maskulin</th><th class="h-f">feminin</th><th class="h-n">neutrum</th><th class="h-p">Plural</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh">Nominativ</td><td class="f g-m">der</td><td class="f g-f">die</td><td class="f g-n">das</td><td class="f g-p">die</td></tr>
+            <tr><td class="rowh">Akkusativ</td><td class="f g-m"><strong>den</strong></td><td class="f g-f">die</td><td class="f g-n">das</td><td class="f g-p">die</td></tr>
+            <tr><td class="rowh">Dativ</td><td class="f g-m"><strong>dem</strong></td><td class="f g-f"><strong>der</strong></td><td class="f g-n"><strong>dem</strong></td><td class="f g-p"><strong>den</strong> …n</td></tr>
+          </tbody>
+        </table></div>
+        <h4>Unbestimmter &amp; negativer Artikel</h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th></th><th class="h-m">maskulin</th><th class="h-f">feminin</th><th class="h-n">neutrum</th><th class="h-p">Plural</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh">Nominativ</td><td class="f g-m">ein / kein</td><td class="f g-f">eine / keine</td><td class="f g-n">ein / kein</td><td class="f g-p">— / keine</td></tr>
+            <tr><td class="rowh">Akkusativ</td><td class="f g-m"><strong>einen / keinen</strong></td><td class="f g-f">eine / keine</td><td class="f g-n">ein / kein</td><td class="f g-p">— / keine</td></tr>
+            <tr><td class="rowh">Dativ</td><td class="f g-m"><strong>einem / keinem</strong></td><td class="f g-f"><strong>einer / keiner</strong></td><td class="f g-n"><strong>einem / keinem</strong></td><td class="f g-p">— / <strong>keinen</strong> …n</td></tr>
+          </tbody>
+        </table></div>
+        <div class="rule-box"><span class="lbl">Der einzige Trick</span>
+          Only <strong>masculine</strong> changes in the accusative — <span class="de">der → den</span>, one letter. The dative is where all four columns move. Learn the dative row as a unit: <span class="de">dem · der · dem · den</span>.</div>
+        <h4>Welchen Kasus? — die Entscheidung</h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th>Frage</th><th>Kasus</th><th>Beispiel</th></tr></thead>
+          <tbody>
+            <tr><td class="f">Wer / Was macht?</td><td class="rowh">Nominativ</td><td><span class="de"><strong>Der Mann</strong> arbeitet.</span> — subject, and after <span class="de">sein / werden / bleiben / heißen</span></td></tr>
+            <tr><td class="f">Wen / Was?</td><td class="rowh">Akkusativ</td><td><span class="de">Ich sehe <strong>den Mann</strong>.</span> — direct object; after <span class="de">durch für gegen ohne um</span></td></tr>
+            <tr><td class="f">Wem?</td><td class="rowh">Dativ</td><td><span class="de">Ich helfe <strong>dem Mann</strong>.</span> — indirect object; after <span class="de">aus außer bei mit nach seit von zu</span>; after dative verbs</td></tr>
+          </tbody>
+        </table></div>
+        <h4>Dativ Plural</h4>
+        <p>Always <span class="de">den</span> + a noun ending in <span class="de">-n</span>: <span class="de">mit den Kinder<strong>n</strong></span>, <span class="de">bei meinen Freunde<strong>n</strong></span>, <span class="de">aus den Häuser<strong>n</strong></span>. Plurals already ending in <span class="de">-n</span> or <span class="de">-s</span> don't change: <span class="de">mit den Autos</span>.</p>
+      </div>
+    </details>
+
+    <details class="card" id="ref-possessiv">
+      <summary>2 · Possessiv-, Demonstrativ- &amp; Frageartikel <span class="tag">mein · dies- · welch-</span></summary>
+      <div class="cbody">
+        <h4>Die Stämme</h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th>ich</th><th>du</th><th>er</th><th>sie</th><th>es</th><th>wir</th><th>ihr</th><th>sie</th><th>Sie</th></tr></thead>
+          <tbody><tr><td class="f">mein</td><td class="f">dein</td><td class="f">sein</td><td class="f">ihr</td><td class="f">sein</td><td class="f">unser</td><td class="f">euer</td><td class="f">ihr</td><td class="f">Ihr</td></tr></tbody>
+        </table></div>
+        <p>Every one of them takes exactly the <span class="de">ein-/kein-</span> endings from card 1.</p>
+        <div class="tblwrap"><table>
+          <thead><tr><th>mein</th><th class="h-m">maskulin</th><th class="h-f">feminin</th><th class="h-n">neutrum</th><th class="h-p">Plural</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh">Nominativ</td><td class="f g-m">mein</td><td class="f g-f">meine</td><td class="f g-n">mein</td><td class="f g-p">meine</td></tr>
+            <tr><td class="rowh">Akkusativ</td><td class="f g-m"><strong>meinen</strong></td><td class="f g-f">meine</td><td class="f g-n">mein</td><td class="f g-p">meine</td></tr>
+            <tr><td class="rowh">Dativ</td><td class="f g-m"><strong>meinem</strong></td><td class="f g-f"><strong>meiner</strong></td><td class="f g-n"><strong>meinem</strong></td><td class="f g-p"><strong>meinen</strong> …n</td></tr>
+          </tbody>
+        </table></div>
+        <div class="rule-box"><span class="lbl">Zwei Fallen</span>
+          <span class="de">euer</span> drops its second <span class="de">e</span> once an ending is added: <span class="de">euer Auto → eu<strong>re</strong> Autos, eu<strong>ren</strong> Bruder</span>. And <span class="de">ihr</span> means both <em>her</em> and <em>their</em>; capitalised <span class="de">Ihr</span> means <em>your</em> (formal).</div>
+        <h4>dies- und welch- — sie folgen dem der-Muster</h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th></th><th class="h-m">maskulin</th><th class="h-f">feminin</th><th class="h-n">neutrum</th><th class="h-p">Plural</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh">Nominativ</td><td class="f g-m">dieser</td><td class="f g-f">diese</td><td class="f g-n">dieses</td><td class="f g-p">diese</td></tr>
+            <tr><td class="rowh">Akkusativ</td><td class="f g-m"><strong>diesen</strong></td><td class="f g-f">diese</td><td class="f g-n">dieses</td><td class="f g-p">diese</td></tr>
+            <tr><td class="rowh">Dativ</td><td class="f g-m"><strong>diesem</strong></td><td class="f g-f"><strong>dieser</strong></td><td class="f g-n"><strong>diesem</strong></td><td class="f g-p"><strong>diesen</strong> …n</td></tr>
+          </tbody>
+        </table></div>
+        <p><span class="de">welch-</span> takes the identical endings: <span class="de">Welch<strong>er</strong> Mantel ist deiner? Welch<strong>en</strong> Mantel nimmst du?</span></p>
+      </div>
+    </details>
+
+    <details class="card" id="ref-pronomen">
+      <summary>3 · Pronomen <span class="tag">Nom · Akk · Dat</span></summary>
+      <div class="cbody">
+        <div class="tblwrap"><table>
+          <thead><tr><th>Kasus</th><th>ich</th><th>du</th><th class="h-m">er</th><th class="h-f">sie</th><th class="h-n">es</th><th>wir</th><th>ihr</th><th class="h-p">sie</th><th>Sie</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh">Nominativ</td><td class="f">ich</td><td class="f">du</td><td class="f g-m">er</td><td class="f g-f">sie</td><td class="f g-n">es</td><td class="f">wir</td><td class="f">ihr</td><td class="f g-p">sie</td><td class="f">Sie</td></tr>
+            <tr><td class="rowh">Akkusativ</td><td class="f">mich</td><td class="f">dich</td><td class="f g-m"><strong>ihn</strong></td><td class="f g-f">sie</td><td class="f g-n">es</td><td class="f">uns</td><td class="f">euch</td><td class="f g-p">sie</td><td class="f">Sie</td></tr>
+            <tr><td class="rowh">Dativ</td><td class="f">mir</td><td class="f">dir</td><td class="f g-m"><strong>ihm</strong></td><td class="f g-f"><strong>ihr</strong></td><td class="f g-n"><strong>ihm</strong></td><td class="f">uns</td><td class="f">euch</td><td class="f g-p"><strong>ihnen</strong></td><td class="f">Ihnen</td></tr>
+          </tbody>
+        </table></div>
+        <p>A pronoun replaces a noun and copies its <em>gender</em>, not its English translation: <span class="de">Der Tisch? <strong>Er</strong> ist alt. Ich kaufe <strong>ihn</strong>.</span> — a table is "he" in German.</p>
+        <div class="grid2">
+          <div>
+            <h4>Verben mit Dativ</h4>
+            <p class="de">helfen · danken · gefallen · gehören · antworten · glauben · passen · schmecken · gratulieren · folgen · wehtun</p>
+            <p><span class="de">Das Buch gehört <strong>mir</strong>. Das Kleid steht <strong>dir</strong>.</span> <span class="en">— no accusative anywhere.</span></p>
+          </div>
+          <div>
+            <h4>Dativ + Akkusativ</h4>
+            <p class="de">geben · zeigen · schenken · bringen · schicken · erklären · empfehlen · leihen</p>
+            <p><span class="de">Ich schenke <strong>ihr</strong> (Dat) <strong>einen Ring</strong> (Akk).</span> <span class="en">— person before thing.</span></p>
+          </div>
+        </div>
+        <div class="rule-box"><span class="lbl">Reihenfolge</span>
+          Two nouns → <strong>Dativ first</strong> (<span class="de">Ich gebe dem Mann das Buch</span>). Two pronouns → <strong>Akkusativ first</strong> (<span class="de">Ich gebe es ihm</span>). One of each → <strong>pronoun first</strong> (<span class="de">Ich gebe ihm das Buch</span> / <span class="de">Ich gebe es dem Mann</span>).</div>
+      </div>
+    </details>
+
+    <details class="card" id="ref-nomen">
+      <summary>4 · Nomen — Genus &amp; Plural <span class="tag">Singular → Plural</span></summary>
+      <div class="cbody">
+        <h4>Die fünf Pluralmuster</h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th>Endung</th><th>typisch für</th><th>Singular</th><th>Plural</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh">-(e)n</td><td>fast alle femininen Nomen</td><td class="f g-f">die Frau · die Blume · die Zeitung</td><td class="f">die Frau<strong>en</strong> · die Blume<strong>n</strong> · die Zeitung<strong>en</strong></td></tr>
+            <tr><td class="rowh">-e / ⸚e</td><td>viele maskuline, einige neutrale</td><td class="f g-m">der Tisch · der Stuhl</td><td class="f">die Tisch<strong>e</strong> · die St<strong>ü</strong>hl<strong>e</strong></td></tr>
+            <tr><td class="rowh">-er / ⸚er</td><td>viele kurze neutrale</td><td class="f g-n">das Kind · das Buch</td><td class="f">die Kind<strong>er</strong> · die B<strong>ü</strong>ch<strong>er</strong></td></tr>
+            <tr><td class="rowh">-s</td><td>Fremdwörter, Abkürzungen</td><td class="f g-n">das Auto · das Handy</td><td class="f">die Auto<strong>s</strong> · die Handy<strong>s</strong></td></tr>
+            <tr><td class="rowh">— / ⸚</td><td>Nomen auf -er, -en, -el</td><td class="f g-m">der Lehrer · der Vater</td><td class="f">die Lehrer · die V<strong>ä</strong>ter</td></tr>
+          </tbody>
+        </table></div>
+        <p>Feminine job titles: <span class="de">-in → -innen</span> (<span class="de">die Lehrerin → die Lehrer<strong>innen</strong></span>). The plural article is <span class="g-p de">die</span> for every gender — the gender only matters again in the dative plural (<span class="de">den …n</span>).</p>
+        <h4>Genus erraten — die verlässlichen Endungen</h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th>Artikel</th><th>Endungen</th><th>Beispiele</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh g-m">der</td><td class="f">-er (Person) · -ling · -ismus · -ant · -or</td><td>Lehrer, Frühling, Motor · Tage, Monate, Jahreszeiten, Wetter, Himmelsrichtungen</td></tr>
+            <tr><td class="rowh g-f">die</td><td class="f">-ung · -heit · -keit · -schaft · -ion · -tät · -ei · -ik · -ur</td><td>Wohnung, Freiheit, Möglichkeit, Wissenschaft, Nation, Universität</td></tr>
+            <tr><td class="rowh g-n">das</td><td class="f">-chen · -lein · -ment · -um · -ma · -tum</td><td>Mädchen, Dokument, Museum · substantivierte Verben: das Essen, das Lernen</td></tr>
+          </tbody>
+        </table></div>
+        <div class="rule-box"><span class="lbl">Lerntechnik</span>
+          Never learn a noun alone. Learn <span class="de">der Tisch, die Tische</span> as one three-word chunk — article, word, plural. Getting the gender wrong later costs you every case ending built on it.</div>
+      </div>
+    </details>
+
+    <details class="card" id="ref-praesens">
+      <summary>5 · Verben im Präsens <span class="tag">Konjugation</span></summary>
+      <div class="cbody">
+        <div class="tblwrap"><table>
+          <thead><tr><th></th><th>regelmäßig<br>machen</th><th>-t/-d Stamm<br>arbeiten</th><th>-s/-ß/-z Stamm<br>heißen</th><th>sein</th><th>haben</th><th>werden</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh">ich</td><td class="f">mache</td><td class="f">arbeite</td><td class="f">heiße</td><td class="f">bin</td><td class="f">habe</td><td class="f">werde</td></tr>
+            <tr><td class="rowh">du</td><td class="f">mach<strong>st</strong></td><td class="f">arbeit<strong>e</strong>st</td><td class="f">heiß<strong>t</strong></td><td class="f">bist</td><td class="f">hast</td><td class="f">wirst</td></tr>
+            <tr><td class="rowh">er/sie/es</td><td class="f">mach<strong>t</strong></td><td class="f">arbeit<strong>e</strong>t</td><td class="f">heißt</td><td class="f">ist</td><td class="f">hat</td><td class="f">wird</td></tr>
+            <tr><td class="rowh">wir</td><td class="f">mach<strong>en</strong></td><td class="f">arbeiten</td><td class="f">heißen</td><td class="f">sind</td><td class="f">haben</td><td class="f">werden</td></tr>
+            <tr><td class="rowh">ihr</td><td class="f">mach<strong>t</strong></td><td class="f">arbeit<strong>e</strong>t</td><td class="f">heißt</td><td class="f">seid</td><td class="f">habt</td><td class="f">werdet</td></tr>
+            <tr><td class="rowh">sie/Sie</td><td class="f">mach<strong>en</strong></td><td class="f">arbeiten</td><td class="f">heißen</td><td class="f">sind</td><td class="f">haben</td><td class="f">werden</td></tr>
+          </tbody>
+        </table></div>
+        <h4>Vokalwechsel — nur bei du und er/sie/es</h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th>Wechsel</th><th>Verben</th><th>du</th><th>er / sie / es</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh">a → ä</td><td>fahren, schlafen, tragen, fallen, halten, waschen, gefallen</td><td class="f">fährst</td><td class="f">fährt</td></tr>
+            <tr><td class="rowh">au → äu</td><td>laufen</td><td class="f">läufst</td><td class="f">läuft</td></tr>
+            <tr><td class="rowh">e → i</td><td>sprechen, essen, geben, helfen, treffen, vergessen, nehmen*</td><td class="f">sprichst</td><td class="f">spricht</td></tr>
+            <tr><td class="rowh">e → ie</td><td>sehen, lesen, empfehlen</td><td class="f">siehst</td><td class="f">sieht</td></tr>
+          </tbody>
+        </table></div>
+        <p>* <span class="de">nehmen → du nimmst, er nimmt</span> (double m). The vowel <strong>never</strong> changes in <span class="de">ich</span>, <span class="de">wir</span>, <span class="de">ihr</span>, <span class="de">sie</span>.</p>
+        <h4>Modalverben — kein -e bei ich, kein -t bei er/sie/es</h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th></th><th>können<br><span class="en">ability</span></th><th>müssen<br><span class="en">necessity</span></th><th>wollen<br><span class="en">want</span></th><th>dürfen<br><span class="en">permission</span></th><th>sollen<br><span class="en">should</span></th><th>mögen<br><span class="en">like</span></th><th>möchten<br><span class="en">would like</span></th></tr></thead>
+          <tbody>
+            <tr><td class="rowh">ich</td><td class="f">kann</td><td class="f">muss</td><td class="f">will</td><td class="f">darf</td><td class="f">soll</td><td class="f">mag</td><td class="f">möchte</td></tr>
+            <tr><td class="rowh">du</td><td class="f">kannst</td><td class="f">musst</td><td class="f">willst</td><td class="f">darfst</td><td class="f">sollst</td><td class="f">magst</td><td class="f">möchtest</td></tr>
+            <tr><td class="rowh">er/sie/es</td><td class="f">kann</td><td class="f">muss</td><td class="f">will</td><td class="f">darf</td><td class="f">soll</td><td class="f">mag</td><td class="f">möchte</td></tr>
+            <tr><td class="rowh">wir</td><td class="f">können</td><td class="f">müssen</td><td class="f">wollen</td><td class="f">dürfen</td><td class="f">sollen</td><td class="f">mögen</td><td class="f">möchten</td></tr>
+            <tr><td class="rowh">ihr</td><td class="f">könnt</td><td class="f">müsst</td><td class="f">wollt</td><td class="f">dürft</td><td class="f">sollt</td><td class="f">mögt</td><td class="f">möchtet</td></tr>
+            <tr><td class="rowh">sie/Sie</td><td class="f">können</td><td class="f">müssen</td><td class="f">wollen</td><td class="f">dürfen</td><td class="f">sollen</td><td class="f">mögen</td><td class="f">möchten</td></tr>
+          </tbody>
+        </table></div>
+        <p><span class="de">nicht müssen</span> = <em>don't have to</em>. <span class="de">nicht dürfen</span> = <em>must not</em>. That distinction gets tested.</p>
+        <h4>Trennbare vs. untrennbare Verben</h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th>Typ</th><th>Präfixe</th><th>Präsens</th><th>Partizip II</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh">trennbar</td><td class="f">auf- an- aus- ein- mit- nach- vor- zu- ab- zurück- weg- los- fern-</td><td class="f">Ich stehe um 7 Uhr <strong>auf</strong>.</td><td class="f">auf<strong>ge</strong>standen</td></tr>
+            <tr><td class="rowh">untrennbar</td><td class="f">be- emp- ent- er- ge- miss- ver- zer-</td><td class="f">Ich <strong>be</strong>suche meine Familie.</td><td class="f">besucht <span class="en">(kein ge-)</span></td></tr>
+          </tbody>
+        </table></div>
+      </div>
+    </details>
+
+    <details class="card" id="ref-perfekt">
+      <summary>6 · Perfekt &amp; Partizip II <span class="tag">gesprochene Vergangenheit</span></summary>
+      <div class="cbody">
+        <p><span class="de">haben</span> or <span class="de">sein</span> in position 2, Partizip II at the very end. In speech this is <em>the</em> past tense.</p>
+        <div class="tblwrap"><table>
+          <thead><tr><th>Verbtyp</th><th>Bildung</th><th>Beispiel</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh">regelmäßig</td><td class="f">ge- + Stamm + -t</td><td class="f">machen → <strong>gemacht</strong></td></tr>
+            <tr><td class="rowh">Stamm auf -t/-d</td><td class="f">ge- + Stamm + -et</td><td class="f">arbeiten → <strong>gearbeitet</strong></td></tr>
+            <tr><td class="rowh">unregelmäßig</td><td class="f">ge- + (neuer) Stamm + -en</td><td class="f">sprechen → <strong>gesprochen</strong></td></tr>
+            <tr><td class="rowh">auf -ieren</td><td class="f">kein ge-, endet auf -t</td><td class="f">studieren → <strong>studiert</strong></td></tr>
+            <tr><td class="rowh">trennbar</td><td class="f">Präfix + ge- + Rest</td><td class="f">einkaufen → <strong>eingekauft</strong></td></tr>
+            <tr><td class="rowh">untrennbar</td><td class="f">kein ge-</td><td class="f">besuchen → <strong>besucht</strong></td></tr>
+          </tbody>
+        </table></div>
+        <div class="rule-box"><span class="lbl">haben oder sein?</span>
+          <strong>sein</strong> for movement from A to B (<span class="de">gehen, fahren, fliegen, kommen, laufen, reisen, umziehen, steigen</span>), for a change of state (<span class="de">aufstehen, einschlafen, aufwachen, werden, sterben, wachsen</span>), and for four irregulars: <span class="de">sein, bleiben, passieren, gelingen</span>. <strong>haben</strong> for everything else — the large majority, including every verb with an accusative object.</div>
+        <h4>Die 40, die du können musst</h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th>Infinitiv</th><th>Partizip II</th><th>Infinitiv</th><th>Partizip II</th></tr></thead>
+          <tbody>
+            <tr><td>sein</td><td class="f g-n">ist gewesen</td><td>gehen</td><td class="f g-n">ist gegangen</td></tr>
+            <tr><td>haben</td><td class="f">hat gehabt</td><td>fahren</td><td class="f g-n">ist gefahren</td></tr>
+            <tr><td>werden</td><td class="f g-n">ist geworden</td><td>kommen</td><td class="f g-n">ist gekommen</td></tr>
+            <tr><td>bleiben</td><td class="f g-n">ist geblieben</td><td>laufen</td><td class="f g-n">ist gelaufen</td></tr>
+            <tr><td>fliegen</td><td class="f g-n">ist geflogen</td><td>schwimmen</td><td class="f g-n">ist geschwommen</td></tr>
+            <tr><td>aufstehen</td><td class="f g-n">ist aufgestanden</td><td>einschlafen</td><td class="f g-n">ist eingeschlafen</td></tr>
+            <tr><td>passieren</td><td class="f g-n">ist passiert</td><td>umziehen</td><td class="f g-n">ist umgezogen</td></tr>
+            <tr><td>essen</td><td class="f">hat gegessen</td><td>trinken</td><td class="f">hat getrunken</td></tr>
+            <tr><td>sprechen</td><td class="f">hat gesprochen</td><td>lesen</td><td class="f">hat gelesen</td></tr>
+            <tr><td>sehen</td><td class="f">hat gesehen</td><td>schreiben</td><td class="f">hat geschrieben</td></tr>
+            <tr><td>nehmen</td><td class="f">hat genommen</td><td>geben</td><td class="f">hat gegeben</td></tr>
+            <tr><td>finden</td><td class="f">hat gefunden</td><td>helfen</td><td class="f">hat geholfen</td></tr>
+            <tr><td>treffen</td><td class="f">hat getroffen</td><td>schlafen</td><td class="f">hat geschlafen</td></tr>
+            <tr><td>stehen</td><td class="f">hat gestanden</td><td>sitzen</td><td class="f">hat gesessen</td></tr>
+            <tr><td>liegen</td><td class="f">hat gelegen</td><td>tun</td><td class="f">hat getan</td></tr>
+            <tr><td>bringen</td><td class="f">hat gebracht</td><td>denken</td><td class="f">hat gedacht</td></tr>
+            <tr><td>wissen</td><td class="f">hat gewusst</td><td>kennen</td><td class="f">hat gekannt</td></tr>
+            <tr><td>verstehen</td><td class="f">hat verstanden</td><td>vergessen</td><td class="f">hat vergessen</td></tr>
+            <tr><td>bekommen</td><td class="f">hat bekommen</td><td>beginnen</td><td class="f">hat begonnen</td></tr>
+            <tr><td>anrufen</td><td class="f">hat angerufen</td><td>einladen</td><td class="f">hat eingeladen</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+    </details>
+
+    <details class="card" id="ref-praeteritum">
+      <summary>7 · Präteritum <span class="tag">geschriebene Vergangenheit</span></summary>
+      <div class="cbody">
+        <p>At A1 you only <em>produce</em> three of these. The rest is recognition — and A2.1 will add the modal verbs in week one.</p>
+        <h4>Pflicht — sein, haben, es gibt</h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th></th><th>sein</th><th>haben</th><th>es gibt</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh">ich</td><td class="f">war</td><td class="f">hatte</td><td class="f" rowspan="6">es <strong>gab</strong></td></tr>
+            <tr><td class="rowh">du</td><td class="f">warst</td><td class="f">hattest</td></tr>
+            <tr><td class="rowh">er/sie/es</td><td class="f">war</td><td class="f">hatte</td></tr>
+            <tr><td class="rowh">wir</td><td class="f">waren</td><td class="f">hatten</td></tr>
+            <tr><td class="rowh">ihr</td><td class="f">wart</td><td class="f">hattet</td></tr>
+            <tr><td class="rowh">sie/Sie</td><td class="f">waren</td><td class="f">hatten</td></tr>
+          </tbody>
+        </table></div>
+        <p><span class="de">Gestern <strong>war</strong> ich in Nürnberg. Ich <strong>hatte</strong> keine Zeit. Es <strong>gab</strong> viele Leute.</span> Note that <span class="de">ich</span> and <span class="de">er/sie/es</span> are identical — that's true of every verb in the Präteritum.</p>
+        <h4>Das Muster (zum Erkennen)</h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th></th><th>regelmäßig<br>machen</th><th>unregelmäßig<br>gehen</th><th>Mischverb<br>bringen</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh">ich</td><td class="f">mach<strong>te</strong></td><td class="f">ging</td><td class="f">brachte</td></tr>
+            <tr><td class="rowh">du</td><td class="f">mach<strong>test</strong></td><td class="f">gingst</td><td class="f">brachtest</td></tr>
+            <tr><td class="rowh">er/sie/es</td><td class="f">mach<strong>te</strong></td><td class="f">ging</td><td class="f">brachte</td></tr>
+            <tr><td class="rowh">wir</td><td class="f">mach<strong>ten</strong></td><td class="f">gingen</td><td class="f">brachten</td></tr>
+            <tr><td class="rowh">ihr</td><td class="f">mach<strong>tet</strong></td><td class="f">gingt</td><td class="f">brachtet</td></tr>
+            <tr><td class="rowh">sie/Sie</td><td class="f">mach<strong>ten</strong></td><td class="f">gingen</td><td class="f">brachten</td></tr>
+          </tbody>
+        </table></div>
+        <h4>Modalverben im Präteritum <span class="tag">Vorschau A2.1</span></h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th>Infinitiv</th><th>können</th><th>müssen</th><th>wollen</th><th>dürfen</th><th>sollen</th><th>mögen</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh">ich / er</td><td class="f">konnte</td><td class="f">musste</td><td class="f">wollte</td><td class="f">durfte</td><td class="f">sollte</td><td class="f">mochte</td></tr>
+            <tr><td class="rowh">wir / sie</td><td class="f">konnten</td><td class="f">mussten</td><td class="f">wollten</td><td class="f">durften</td><td class="f">sollten</td><td class="f">mochten</td></tr>
+          </tbody>
+        </table></div>
+        <p>The umlaut disappears — that's the whole trick. Modals are used in the Präteritum even in speech: <span class="de">Ich <strong>musste</strong> arbeiten</span>, not <span class="de">Ich habe arbeiten müssen</span>.</p>
+      </div>
+    </details>
+
+    <details class="card" id="ref-satzbau">
+      <summary>8 · Satzbau — der Algorithmus <span class="tag">Wortstellung</span></summary>
+      <div class="cbody">
+        <p>Run these seven steps in order and the word order comes out right every time.</p>
+        <ol class="algo">
+          <li><strong>Pick the sentence type.</strong> Statement · W-question · yes/no question · imperative.</li>
+          <li><strong>Place the conjugated verb.</strong> Position <strong>2</strong> in a statement and a W-question. Position <strong>1</strong> in a yes/no question and an imperative. It never goes anywhere else.</li>
+          <li><strong>Send the second verb part to the end.</strong> Infinitive after a modal, Partizip II in the Perfekt, the separable prefix. Now the bracket is closed and everything else fills the middle.</li>
+          <li><strong>Fill position 1 with exactly one element.</strong> Usually the subject; front a time or place for emphasis instead. If position 1 isn't the subject, the subject moves right behind the verb — it never sits in front of it.</li>
+          <li><strong>Order the middle: pronouns, then TeKaMoLo.</strong> All pronouns come first, then <strong>Te</strong>mporal (wann) → <strong>Ka</strong>usal (warum) → <strong>Mo</strong>dal (wie) → <strong>Lo</strong>kal (wo/wohin).</li>
+          <li><strong>Order the two objects.</strong> Noun + noun → Dativ first. Pronoun + pronoun → Akkusativ first. Mixed → pronoun first.</li>
+          <li><strong>Place nicht last of all.</strong> At the end of the sentence, but always <em>before</em> the closing bracket, a predicate adjective, or a prepositional phrase.</li>
+        </ol>
+        <h4>Die Satzklammer</h4>
+        <div class="klammer">
+          <div class="kl-row">
+            <div class="kl-lab">Position 1</div><div class="kl-lab">Verb — Pos. 2</div><div class="kl-lab">Mittelfeld</div><div class="kl-lab">Klammer zu</div>
+          </div>
+          <div class="kl-row">
+            <div class="kl-cell">Ich</div><div class="kl-cell v1">muss</div><div class="kl-cell">morgen früh</div><div class="kl-cell v2">aufstehen.</div>
+          </div>
+          <div class="kl-row">
+            <div class="kl-cell">Morgen</div><div class="kl-cell v1">stehe</div><div class="kl-cell">ich früh</div><div class="kl-cell v2">auf.</div>
+          </div>
+          <div class="kl-row">
+            <div class="kl-cell">Gestern</div><div class="kl-cell v1">habe</div><div class="kl-cell">ich viel</div><div class="kl-cell v2">gearbeitet.</div>
+          </div>
+          <div class="kl-row">
+            <div class="kl-cell">Wann</div><div class="kl-cell v1">bist</div><div class="kl-cell">du nach München</div><div class="kl-cell v2">gekommen?</div>
+          </div>
+          <div class="kl-row">
+            <div class="kl-cell">—</div><div class="kl-cell v1">Kannst</div><div class="kl-cell">du mir das</div><div class="kl-cell v2">erklären?</div>
+          </div>
+        </div>
+        <h4>TeKaMoLo im Mittelfeld</h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th>Te — wann?</th><th>Ka — warum?</th><th>Mo — wie?</th><th>Lo — wo / wohin?</th></tr></thead>
+          <tbody>
+            <tr><td class="f">morgen</td><td class="f">wegen der Arbeit</td><td class="f">mit dem Zug</td><td class="f">nach Berlin</td></tr>
+          </tbody>
+        </table></div>
+        <p class="de">Ich fahre morgen wegen der Arbeit mit dem Zug nach Berlin.</p>
+        <div class="rule-box"><span class="lbl">Position 0</span>
+          <span class="de">und · aber · oder · denn · sondern</span> sit <em>outside</em> the count and change nothing after them: <span class="de">Ich bleibe zu Hause, <strong>denn</strong> ich bin müde.</span> (<span class="de">weil</span> is the one that throws the verb to the end — that's A2.1's job, not today's.)</div>
+      </div>
+    </details>
+
+    <details class="card" id="ref-fragen">
+      <summary>9 · Fragen &amp; W-Wörter <span class="tag">wer · wen · wem</span></summary>
+      <div class="cbody">
+        <div class="tblwrap"><table>
+          <thead><tr><th>W-Wort</th><th>fragt nach</th><th>Beispiel</th></tr></thead>
+          <tbody>
+            <tr><td class="f g-m">wer</td><td>Person — Nominativ</td><td class="de">Wer wohnt hier?</td></tr>
+            <tr><td class="f g-m">wen</td><td>Person — Akkusativ</td><td class="de">Wen triffst du?</td></tr>
+            <tr><td class="f g-m">wem</td><td>Person — Dativ</td><td class="de">Wem hilfst du?</td></tr>
+            <tr><td class="f">was</td><td>Sache</td><td class="de">Was machst du?</td></tr>
+            <tr><td class="f">wo</td><td>Ort — Position</td><td class="de">Wo wohnst du?</td></tr>
+            <tr><td class="f">wohin</td><td>Ort — Richtung</td><td class="de">Wohin gehst du?</td></tr>
+            <tr><td class="f">woher</td><td>Herkunft</td><td class="de">Woher kommst du?</td></tr>
+            <tr><td class="f">wann</td><td>Zeitpunkt</td><td class="de">Wann fängt der Kurs an?</td></tr>
+            <tr><td class="f">wie lange</td><td>Dauer</td><td class="de">Wie lange lernst du Deutsch?</td></tr>
+            <tr><td class="f">wie oft</td><td>Häufigkeit</td><td class="de">Wie oft gehst du ins Kino?</td></tr>
+            <tr><td class="f">wie</td><td>Art und Weise</td><td class="de">Wie kommst du zur Arbeit?</td></tr>
+            <tr><td class="f">wie viel / wie viele</td><td>Menge — nicht zählbar / zählbar</td><td class="de">Wie viel kostet das? Wie viele Kinder hast du?</td></tr>
+            <tr><td class="f">warum</td><td>Grund</td><td class="de">Warum lernst du Deutsch?</td></tr>
+            <tr><td class="f">welch-</td><td>Auswahl</td><td class="de">Welchen Kurs machst du?</td></tr>
+            <tr><td class="f">was für ein-</td><td>Art / Eigenschaft</td><td class="de">Was für eine Wohnung suchst du?</td></tr>
+          </tbody>
+        </table></div>
+        <div class="grid2">
+          <div>
+            <h4>Ja/Nein-Frage — Verb zuerst</h4>
+            <p class="de">Kommst du morgen?<br>Hast du Zeit?<br>Kannst du mir helfen?</p>
+          </div>
+          <div>
+            <h4>Doch</h4>
+            <p>A negative question gets <span class="de">doch</span>, not <span class="de">ja</span>:</p>
+            <p class="de">— Kommst du nicht mit?<br>— <strong>Doch</strong>, ich komme. <span class="en">(yes, I am)</span><br>— <strong>Nein</strong>, ich bleibe hier.</p>
+          </div>
+        </div>
+      </div>
+    </details>
+
+    <details class="card" id="ref-praep">
+      <summary>10 · Präpositionen <span class="tag">Kasus &amp; Verschmelzung</span></summary>
+      <div class="cbody">
+        <div class="grid2">
+          <div>
+            <h4>Immer Akkusativ</h4>
+            <p class="de" style="font-size:16px">durch · für · gegen · ohne · um</p>
+            <p>(plus <span class="de">bis</span>, <span class="de">entlang</span>)</p>
+            <p class="de">Ich gehe <strong>durch den</strong> Park.<br>Das ist <strong>für meinen</strong> Bruder.<br><strong>Ohne dich</strong> gehe ich nicht.</p>
+          </div>
+          <div>
+            <h4>Immer Dativ</h4>
+            <p class="de" style="font-size:16px">aus · außer · bei · mit · nach · seit · von · zu</p>
+            <p>(plus <span class="de">gegenüber</span>, <span class="de">ab</span>)</p>
+            <p class="de">Ich fahre <strong>mit dem</strong> Bus.<br>Ich wohne <strong>seit einem</strong> Jahr hier.<br>Ich komme <strong>aus der</strong> Arbeit.</p>
+          </div>
+        </div>
+        <h4>Wechselpräpositionen — die neun <span class="tag">Kern von A2.1</span></h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th>Präposition</th><th>Wo? → Dativ</th><th>Wohin? → Akkusativ</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh">in</td><td class="f">Ich bin <strong>in der</strong> Küche.</td><td class="f">Ich gehe <strong>in die</strong> Küche.</td></tr>
+            <tr><td class="rowh">auf</td><td class="f">Das Buch liegt <strong>auf dem</strong> Tisch.</td><td class="f">Ich lege es <strong>auf den</strong> Tisch.</td></tr>
+            <tr><td class="rowh">an</td><td class="f">Das Bild hängt <strong>an der</strong> Wand.</td><td class="f">Ich hänge es <strong>an die</strong> Wand.</td></tr>
+            <tr><td class="rowh">unter · über</td><td class="f">Die Katze schläft <strong>unter dem</strong> Bett.</td><td class="f">Sie geht <strong>unter das</strong> Bett.</td></tr>
+            <tr><td class="rowh">vor · hinter</td><td class="f">Ich warte <strong>vor dem</strong> Haus.</td><td class="f">Ich stelle mich <strong>vor das</strong> Haus.</td></tr>
+            <tr><td class="rowh">neben · zwischen</td><td class="f">Er sitzt <strong>neben mir</strong>.</td><td class="f">Er setzt sich <strong>neben mich</strong>.</td></tr>
+          </tbody>
+        </table></div>
+        <p>Paired verbs give it away: <span class="de">stellen/stehen · legen/liegen · setzen/sitzen · hängen/hängen</span> — the first of each pair is movement (Akkusativ), the second is position (Dativ).</p>
+        <h4>Verschmelzungen</h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th>Dativ</th><th>=</th><th>Akkusativ</th><th>=</th></tr></thead>
+          <tbody>
+            <tr><td class="f">in dem</td><td class="f">im</td><td class="f">in das</td><td class="f">ins</td></tr>
+            <tr><td class="f">an dem</td><td class="f">am</td><td class="f">an das</td><td class="f">ans</td></tr>
+            <tr><td class="f">bei dem</td><td class="f">beim</td><td class="f">auf das</td><td class="f">aufs</td></tr>
+            <tr><td class="f">von dem</td><td class="f">vom</td><td class="f">für das</td><td class="f">fürs</td></tr>
+            <tr><td class="f">zu dem</td><td class="f">zum</td><td class="f">um das</td><td class="f">ums</td></tr>
+            <tr><td class="f">zu der</td><td class="f">zur</td><td class="f">durch das</td><td class="f">durchs</td></tr>
+          </tbody>
+        </table></div>
+        <h4>Ort und Richtung — die Fallen</h4>
+        <ul>
+          <li><span class="de">nach</span> + cities and article-less countries — <span class="de">nach München, nach Pakistan</span></li>
+          <li><span class="de">in die / in den</span> + countries that take an article — <span class="de">in die Schweiz, in die Türkei, in den Iran</span></li>
+          <li><span class="de">zu</span> + people and institutions — <span class="de">zum Arzt, zur Arbeit, zu meiner Schwester</span></li>
+          <li><span class="de">aus</span> = where you're from, <span class="de">von</span> = where you've just been — <span class="de">Ich komme aus Pakistan. Ich komme von der Arbeit.</span></li>
+          <li><span class="de">nach Hause</span> = going home · <span class="de">zu Hause</span> = being at home</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="card" id="ref-zahlen">
+      <summary>11 · Zahlen, Uhrzeit &amp; Datum <span class="tag">Uhrzeit lesen</span></summary>
+      <div class="cbody">
+        <h4>Zahlen</h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th>0–10</th><th>11–20</th><th>Zehner</th><th>groß</th></tr></thead>
+          <tbody>
+            <tr><td class="f">0 null · 1 eins · 2 zwei</td><td class="f">11 elf · 12 zwölf</td><td class="f">20 zwanzig</td><td class="f">100 (ein)hundert</td></tr>
+            <tr><td class="f">3 drei · 4 vier · 5 fünf</td><td class="f">13 dreizehn · 14 vierzehn</td><td class="f">30 drei<strong>ß</strong>ig</td><td class="f">1 000 (ein)tausend</td></tr>
+            <tr><td class="f">6 sechs · 7 sieben</td><td class="f">15 fünfzehn · 16 <strong>sech</strong>zehn</td><td class="f">40 vierzig · 50 fünfzig</td><td class="f">1 000 000 eine Million</td></tr>
+            <tr><td class="f">8 acht · 9 neun · 10 zehn</td><td class="f">17 <strong>sieb</strong>zehn · 18 achtzehn · 19 neunzehn</td><td class="f">60 <strong>sech</strong>zig · 70 <strong>sieb</strong>zig · 80 achtzig · 90 neunzig</td><td class="f">Jahre: 1996 = neunzehnhundert&shy;sechsundneunzig</td></tr>
+          </tbody>
+        </table></div>
+        <div class="rule-box"><span class="lbl">Die Regel</span>
+          Units come <em>before</em> tens, and the whole number is one word: <span class="de">47 = <strong>sieben</strong>und<strong>vierzig</strong></span>, <span class="de">234 = zweihundertvierunddreißig</span>. Irregulars to memorise: <span class="de">16 sechzehn, 17 siebzehn, 30 dreißig, 60 sechzig, 70 siebzig</span>.</div>
+        <h4>Uhrzeit — offiziell (24 Std.)</h4>
+        <p>Timetables, appointments, anything written. Just read the digits: <span class="de">13:45 → dreizehn Uhr fünfundvierzig</span>. <span class="de">08:05 → acht Uhr fünf</span>.</p>
+        <h4>Uhrzeit — inoffiziell (12 Std.)</h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th>Uhr</th><th>man sagt</th><th>Uhr</th><th>man sagt</th></tr></thead>
+          <tbody>
+            <tr><td class="f">13:00</td><td class="f">ein Uhr / eins</td><td class="f">13:30</td><td class="f"><strong>halb zwei</strong></td></tr>
+            <tr><td class="f">13:05</td><td class="f">fünf nach eins</td><td class="f">13:35</td><td class="f">fünf nach halb zwei</td></tr>
+            <tr><td class="f">13:10</td><td class="f">zehn nach eins</td><td class="f">13:40</td><td class="f">zwanzig vor zwei</td></tr>
+            <tr><td class="f">13:15</td><td class="f">Viertel nach eins</td><td class="f">13:45</td><td class="f">Viertel vor zwei</td></tr>
+            <tr><td class="f">13:20</td><td class="f">zwanzig nach eins</td><td class="f">13:50</td><td class="f">zehn vor zwei</td></tr>
+            <tr><td class="f">13:25</td><td class="f">fünf vor halb zwei</td><td class="f">13:55</td><td class="f">fünf vor zwei</td></tr>
+          </tbody>
+        </table></div>
+        <div class="rule-box"><span class="lbl">halb</span>
+          <span class="de">halb zwei</span> is <strong>13:30</strong>, not 14:30. German counts <em>towards</em> the coming hour — half way to two. This is the single most common time mistake English speakers make.</div>
+        <p><span class="de">Wie spät ist es?</span> / <span class="de">Wie viel Uhr ist es?</span> → <span class="de">Es ist halb acht.</span> · <span class="de">Um wie viel Uhr?</span> → <span class="de"><strong>Um</strong> halb acht.</span></p>
+        <h4>Ordinalzahlen &amp; Datum</h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th>Regel</th><th>Bildung</th><th>Beispiele</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh">1. – 19.</td><td class="f">Zahl + <strong>-te</strong></td><td class="f">der zwei<strong>te</strong>, vier<strong>te</strong>, zehn<strong>te</strong></td></tr>
+            <tr><td class="rowh">ab 20.</td><td class="f">Zahl + <strong>-ste</strong></td><td class="f">der zwanzig<strong>ste</strong>, einunddreißig<strong>ste</strong></td></tr>
+            <tr><td class="rowh">unregelmäßig</td><td class="f">—</td><td class="f">1. der <strong>erste</strong> · 3. der <strong>dritte</strong> · 7. der <strong>siebte</strong> · 8. der <strong>achte</strong></td></tr>
+          </tbody>
+        </table></div>
+        <p><span class="de">Der Wievielte ist heute?</span> → <span class="de">Heute ist <strong>der</strong> 6. September.</span> (der sechs<strong>te</strong>)<br>
+        <span class="de">Wann hast du Geburtstag?</span> → <span class="de"><strong>Am</strong> 6. September.</span> (am sechs<strong>ten</strong> September)</p>
+        <h4>Wochentage, Monate, Jahreszeiten — alle maskulin</h4>
+        <p class="de g-m">Montag · Dienstag · Mittwoch · Donnerstag · Freitag · Samstag · Sonntag</p>
+        <p class="de g-m">Januar · Februar · März · April · Mai · Juni · Juli · August · September · Oktober · November · Dezember</p>
+        <p class="de g-m">der Frühling · der Sommer · der Herbst · der Winter</p>
+      </div>
+    </details>
+
+    <details class="card" id="ref-zeit">
+      <summary>12 · Zeitangaben &amp; Adverbien <span class="tag">am · im · um</span></summary>
+      <div class="cbody">
+        <div class="tblwrap"><table>
+          <thead><tr><th>Präposition</th><th>wofür</th><th>Beispiel</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh">um</td><td>Uhrzeit</td><td class="f">um 8 Uhr, um halb neun</td></tr>
+            <tr><td class="rowh">am</td><td>Tage, Datum, Tageszeiten</td><td class="f">am Montag, am 6. September, am Morgen, am Wochenende</td></tr>
+            <tr><td class="rowh">im</td><td>Monate, Jahreszeiten</td><td class="f">im Juli, im Winter, im Jahr 2026</td></tr>
+            <tr><td class="rowh">von … bis</td><td>Zeitraum</td><td class="f">von 9 bis 17 Uhr, von Montag bis Freitag</td></tr>
+            <tr><td class="rowh">seit + Dativ</td><td>seither, dauert an</td><td class="f">seit zwei Jahren, seit Januar</td></tr>
+            <tr><td class="rowh">vor + Dativ</td><td>davor, vorbei</td><td class="f">vor zwei Jahren, vor dem Essen</td></tr>
+            <tr><td class="rowh">in + Dativ</td><td>Zukunft</td><td class="f">in zwei Wochen, in einer Stunde</td></tr>
+            <tr><td class="rowh">ohne</td><td>Uhrzeit als Antwort</td><td class="f">— Wann? — Morgen. Nächste Woche. Heute Abend.</td></tr>
+          </tbody>
+        </table></div>
+        <p>Exception worth memorising: <span class="de"><strong>in der</strong> Nacht</span>, not <span class="de">am</span>. And bare adverbs take no preposition at all: <span class="de">heute, morgen, gestern, nächste Woche, letztes Jahr</span>.</p>
+        <h4>Häufigkeit</h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th>100 %</th><th></th><th></th><th></th><th></th><th>0 %</th></tr></thead>
+          <tbody><tr><td class="f">immer</td><td class="f">meistens</td><td class="f">oft</td><td class="f">manchmal</td><td class="f">selten</td><td class="f">nie</td></tr></tbody>
+        </table></div>
+        <p>Regular habits get an <span class="de">-s</span>: <span class="de">montags, abends, morgens</span> — <span class="de">Montags gehe ich schwimmen.</span></p>
+        <h4>Reihenfolge erzählen</h4>
+        <p class="de">zuerst → dann → danach → später → am Ende / schließlich</p>
+        <p class="en">Remember these count as position 1: <span class="de">Dann <strong>gehe ich</strong> nach Hause.</span></p>
+      </div>
+    </details>
+
+    <details class="card" id="ref-negation">
+      <summary>13 · Negation &amp; Imperativ <span class="tag">nicht · kein</span></summary>
+      <div class="cbody">
+        <div class="grid2">
+          <div>
+            <h4>nicht oder kein</h4>
+            <ul>
+              <li><span class="de">kein-</span> negates a noun that has <span class="de">ein</span> or no article at all: <span class="de">Ich habe <strong>keine</strong> Zeit. Das ist <strong>kein</strong> Problem.</span></li>
+              <li><span class="de">nicht</span> negates everything else — verbs, adjectives, adverbs, and nouns carrying <span class="de">der</span> or a possessive: <span class="de">Das ist <strong>nicht</strong> mein Auto.</span></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Wo steht nicht?</h4>
+            <ul>
+              <li>At the end by default: <span class="de">Ich verstehe das <strong>nicht</strong>.</span></li>
+              <li>Before the closing bracket: <span class="de">Ich rufe dich heute <strong>nicht</strong> an.</span></li>
+              <li>Before an adjective: <span class="de">Der Film war <strong>nicht</strong> gut.</span></li>
+              <li>Before a prepositional phrase: <span class="de">Ich fahre <strong>nicht</strong> nach Berlin.</span></li>
+            </ul>
+          </div>
+        </div>
+        <h4>Imperativ</h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th></th><th>kommen</th><th>sprechen</th><th>fahren</th><th>sein</th><th>haben</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh">du</td><td class="f">Komm!</td><td class="f">Sprich!</td><td class="f">Fahr!</td><td class="f">Sei!</td><td class="f">Hab!</td></tr>
+            <tr><td class="rowh">ihr</td><td class="f">Kommt!</td><td class="f">Sprecht!</td><td class="f">Fahrt!</td><td class="f">Seid!</td><td class="f">Habt!</td></tr>
+            <tr><td class="rowh">Sie</td><td class="f">Kommen Sie!</td><td class="f">Sprechen Sie!</td><td class="f">Fahren Sie!</td><td class="f">Seien Sie!</td><td class="f">Haben Sie!</td></tr>
+          </tbody>
+        </table></div>
+        <p>The <span class="de">du</span>-form drops the <span class="de">-st</span> and the pronoun. It <em>keeps</em> an e→i change (<span class="de">Sprich!</span>) but <em>loses</em> the umlaut (<span class="de">Fahr!</span>, never <span class="de">Fähr!</span>). The <span class="de">Sie</span>-form keeps its pronoun. Soften anything with <span class="de">bitte</span> or <span class="de">mal</span>: <span class="de">Komm mal her, bitte.</span></p>
+      </div>
+    </details>
+
+    <details class="card" id="ref-konj">
+      <summary>14 · Konjunktionen <span class="tag">Position 0</span></summary>
+      <div class="cbody">
+        <div class="tblwrap"><table>
+          <thead><tr><th>Konjunktion</th><th>Bedeutung</th><th>Beispiel</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh">und</td><td>addition</td><td class="f">Ich lerne Deutsch <strong>und</strong> ich arbeite in München.</td></tr>
+            <tr><td class="rowh">oder</td><td>alternative</td><td class="f">Wir gehen ins Kino <strong>oder</strong> wir bleiben zu Hause.</td></tr>
+            <tr><td class="rowh">aber</td><td>contrast</td><td class="f">Der Kurs ist schwer, <strong>aber</strong> er macht Spaß.</td></tr>
+            <tr><td class="rowh">denn</td><td>reason — <em>because</em></td><td class="f">Ich bleibe zu Hause, <strong>denn</strong> ich bin müde.</td></tr>
+            <tr><td class="rowh">sondern</td><td>correction after a negative</td><td class="f">Ich komme nicht heute, <strong>sondern</strong> morgen.</td></tr>
+          </tbody>
+        </table></div>
+        <p>All five occupy "position 0" — the sentence after them is built exactly as if they weren't there, subject first, verb second.</p>
+        <div class="rule-box"><span class="lbl">aber oder sondern?</span>
+          <span class="de">sondern</span> only works after a negation, and only when it corrects it: <span class="de">Das ist <strong>kein</strong> Tee, <strong>sondern</strong> Kaffee.</span> Everything else that contrasts takes <span class="de">aber</span>.</div>
+        <div class="rule-box"><span class="lbl">Vorschau A2.1</span>
+          <span class="de">weil</span>, <span class="de">dass</span> and <span class="de">wenn</span> do the opposite — they push the conjugated verb to the very end: <span class="de">Ich bleibe zu Hause, <strong>weil</strong> ich müde <strong>bin</strong>.</span> Recognise the pattern now; you'll drill it in class.</div>
+      </div>
+    </details>
+
+  </div>
+</section>
+
+<!-- ============ TRIP WIRES ============ -->
+<section class="sec" id="wires">
+  <div class="sec-head">
+    <h2>Stolperfallen</h2>
+    <span class="note">the eight that cost marks</span>
+  </div>
+  <div class="wires">
+    <div class="wire"><span class="bad">Ich habe nach Hause gegangen.</span><span class="good">Ich bin nach Hause gegangen.</span><span class="exp">Movement A → B always takes <span class="de">sein</span>. Rehearse the participle together with its auxiliary and this stops happening.</span></div>
+    <div class="wire"><span class="bad">Ich helfe dich.</span><span class="good">Ich helfe dir.</span><span class="exp"><span class="de">helfen</span> is a dative verb, and it looks nothing like one. Same for <span class="de">danken, gefallen, gehören, antworten</span>.</span></div>
+    <div class="wire"><span class="bad">Morgen ich muss arbeiten.</span><span class="good">Morgen muss ich arbeiten.</span><span class="exp">Something other than the subject in position 1 pushes the subject <em>behind</em> the verb. The verb never leaves position 2.</span></div>
+    <div class="wire"><span class="bad">Ich kann sprechen Deutsch.</span><span class="good">Ich kann Deutsch sprechen.</span><span class="exp">The infinitive closes the bracket. Everything else lives inside it.</span></div>
+    <div class="wire"><span class="bad">Ich fahre mit der Bus.</span><span class="good">Ich fahre mit dem Bus.</span><span class="exp"><span class="de">mit</span> is dative, and <span class="de">der Bus</span> is masculine: <span class="de">der → dem</span>. The eight dative prepositions never take anything else.</span></div>
+    <div class="wire"><span class="bad">Ich habe nicht Zeit.</span><span class="good">Ich habe keine Zeit.</span><span class="exp">A bare noun gets <span class="de">kein-</span>, not <span class="de">nicht</span>.</span></div>
+    <div class="wire"><span class="bad">Ich habe gestern telefoniert mit ihm.</span><span class="good">Ich habe gestern mit ihm telefoniert.</span><span class="exp">The participle is the last word. Nothing follows it — no prepositional phrase, no afterthought.</span></div>
+    <div class="wire"><span class="bad">Er sprecht sehr schnell.</span><span class="good">Er spricht sehr schnell.</span><span class="exp">The vowel change hits exactly two people: <span class="de">du</span> and <span class="de">er/sie/es</span>. Nowhere else.</span></div>
+  </div>
+</section>
+
+<!-- ============ OPTIONAL ============ -->
+<section class="sec" id="extra">
+  <div class="sec-head">
+    <h2>Wenn Zeit bleibt</h2>
+    <span class="note">heute Abend · optional</span>
+  </div>
+  <div class="blk" style="grid-template-columns:1fr">
+    <div class="body">
+      <p class="why">Not required for tomorrow. Best used tonight in bed, or on the U-Bahn on the way to class.</p>
+      <ul class="items optional">
+        <li><input type="checkbox" id="x1"><label for="x1"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=dTdc9sPFQig" target="_blank" rel="noopener">Wo? oder Wohin? Teil 1</a> · <span class="len">13:36</span> — a head start on A2.1's Wechselpräpositionen.</label></li>
+        <li><input type="checkbox" id="x2"><label for="x2"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=GueeAMLvV4w" target="_blank" rel="noopener">Wo? oder Wohin? Teil 2</a> · <span class="len">13:39</span></label></li>
+        <li><input type="checkbox" id="x3"><label for="x3"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=HySduWqqPcU" target="_blank" rel="noopener">kein oder nicht</a> · <span class="len">11:51</span></label></li>
+        <li><input type="checkbox" id="x4"><label for="x4"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=sBUR0Q9ZTN4" target="_blank" rel="noopener">Possessivartikel</a> · <span class="len">13:54</span></label></li>
+        <li><input type="checkbox" id="x5"><label for="x5"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=2b44fRJYg5Y" target="_blank" rel="noopener">Imperativ</a> · <span class="len">11:44</span></label></li>
+        <li><input type="checkbox" id="x6"><label for="x6"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=SYUbBeAB2CU" target="_blank" rel="noopener">25 Verbs and their Perfect</a> · <span class="len">10:28</span> — pure repetition drill, good for passive listening.</label></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <h4>Quellen</h4>
+  <ul>
+    <li>Videos: <a href="https://www.youtube.com/@LearnGermanOriginal" target="_blank" rel="noopener">Learn German (LearnGermanOriginal)</a> — durations verified against the A1 and A1/A2 Grammar playlists.</li>
+    <li>Syllabus scope: <a href="https://www.deutschakademie.de/en/german-courses-levels-a1-to-c2/a2-german-course/" target="_blank" rel="noopener">DeutschAkademie A2 course description</a> (A2.1 grammar and vocabulary modules).</li>
+    <li>A1 requirements cross-check: <a href="https://www.olesentuition.co.uk/single-post/german-grammar-guide-for-the-goethe-a1-exam" target="_blank" rel="noopener">Goethe A1 grammar guide</a>.</li>
+    <li>Übungen: <a href="https://www.deutschakademie.de/online-deutschkurs/deutschkurs/nach-level/A1" target="_blank" rel="noopener">DeutschAkademie Grammatiktrainer A1</a> · <a href="https://www.schubert-verlag.de/aufgaben/uebungen_a1/a1_uebungen_index.htm" target="_blank" rel="noopener">Schubert-Verlag A1</a>.</li>
+  </ul>
+</footer>
+
+</div>
+
+<script>
+(function(){
+  var KEY = "a1bridge.v1";
+  var boxes = Array.prototype.slice.call(document.querySelectorAll('ul.items:not(.optional) input[type=checkbox]'));
+  var allBoxes = Array.prototype.slice.call(document.querySelectorAll('ul.items input[type=checkbox]'));
+  var fill = document.getElementById('fill');
+  var pdone = document.getElementById('pdone');
+  var ptotal = document.getElementById('ptotal');
+  var pmin = document.getElementById('pmin');
+
+  // minutes attributed to each block, spread over its own items
+  var weights = {};
+  Array.prototype.forEach.call(document.querySelectorAll('.blk[data-min]'), function(blk){
+    var mins = parseInt(blk.getAttribute('data-min'), 10) || 0;
+    var items = blk.querySelectorAll('ul.items input[type=checkbox]');
+    for (var i = 0; i < items.length; i++) weights[items[i].id] = mins / items.length;
+  });
+
+  function load(){
+    try {
+      var raw = localStorage.getItem(KEY);
+      if (!raw) return {};
+      return JSON.parse(raw) || {};
+    } catch (e) { return {}; }
+  }
+  function save(state){
+    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+  }
+
+  function render(){
+    var done = 0, minsLeft = 0;
+    boxes.forEach(function(b){
+      if (b.checked) done++;
+      else minsLeft += (weights[b.id] || 0);
+    });
+    var pct = boxes.length ? Math.round(done / boxes.length * 100) : 0;
+    fill.style.width = pct + '%';
+    pdone.textContent = done;
+    ptotal.textContent = boxes.length;
+    pmin.textContent = Math.round(minsLeft);
+  }
+
+  var state = load();
+  allBoxes.forEach(function(b){
+    if (state[b.id]) b.checked = true;
+    b.addEventListener('change', function(){
+      state[b.id] = b.checked;
+      save(state);
+      render();
+    });
+  });
+  render();
+
+  var toggle = document.getElementById('toggleall');
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.card'));
+  toggle.addEventListener('click', function(){
+    var openAll = cards.some(function(c){ return !c.open; });
+    cards.forEach(function(c){ c.open = openAll; });
+    toggle.textContent = openAll ? 'Alle schließen' : 'Alle öffnen';
+  });
+
+  // deep links from the plan should reveal the card they point at
+  function openTarget(){
+    var id = location.hash.slice(1);
+    if (!id) return;
+    var el = document.getElementById(id);
+    if (el && el.tagName === 'DETAILS') el.open = true;
+  }
+  window.addEventListener('hashchange', openTarget);
+  openTarget();
+
+  document.getElementById('reset').addEventListener('click', function(){
+    allBoxes.forEach(function(b){ b.checked = false; });
+    state = {};
+    save(state);
+    render();
+  });
+})();
+</script>
+
+</body></html>

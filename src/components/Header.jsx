@@ -11,12 +11,13 @@ export const VIEWS = [
   { id: "review", label: "Review", icon: "🔁" },
   { id: "browse", label: "Browse", icon: "🔍" },
   { id: "cheatsheet", label: "Cheatsheet", icon: "📖" },
+  { id: "bridge", label: "Bridge", icon: "🌉" },
   { id: "notes", label: "Notes", icon: "📝" },
   { id: "stats", label: "Stats", icon: "📊" },
 ];
 
-const NO_LEVELS = new Set(["cheatsheet", "notes"]);
-const NO_CATEGORIES = new Set(["review", "stats", "cheatsheet", "notes", "exercises"]);
+const NO_LEVELS = new Set(["cheatsheet", "notes", "bridge"]);
+const NO_CATEGORIES = new Set(["review", "stats", "cheatsheet", "notes", "exercises", "bridge"]);
 
 export function Header({ db, view, setView, levelFilter, setLevelFilter, activeCat, setActiveCat, dueCount }) {
   const totalWords = CATEGORIES.reduce((s, c) => s + db[c.key].length, 0);
