@@ -1,0 +1,2368 @@
+[
+ {
+  "w": "Ich bin der Meinung, dass …",
+  "e": "I'm of the opinion that …",
+  "ex": "Ich bin der Meinung, dass wir mehr Zeit brauchen. — I'm of the opinion that we need more time.",
+  "c": "Meinung",
+  "lvl": "A2"
+ },
+ {
+  "w": "Meiner Meinung nach …",
+  "e": "In my opinion …",
+  "ex": "Meiner Meinung nach ist das keine gute Idee. — In my opinion that's not a good idea.",
+  "c": "Meinung",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich finde, dass …",
+  "e": "I think / I find that …",
+  "ex": "Ich finde, dass der Film zu lang war. — I think the film was too long.",
+  "c": "Meinung",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich glaube, dass …",
+  "e": "I believe that …",
+  "ex": "Ich glaube, dass er recht hat. — I believe he's right.",
+  "c": "Meinung",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich habe das Gefühl, dass …",
+  "e": "I have the feeling that …",
+  "ex": "Ich habe das Gefühl, dass niemand zuhört. — I have the feeling that nobody is listening.",
+  "c": "Meinung",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich habe den Eindruck, dass …",
+  "e": "I get the impression that …",
+  "ex": "Ich habe den Eindruck, dass sie gestresst ist. — I get the impression she's stressed.",
+  "c": "Meinung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Mir scheint, dass …",
+  "e": "It seems to me that …",
+  "ex": "Mir scheint, dass wir uns falsch verstanden haben. — It seems to me we misunderstood each other.",
+  "c": "Meinung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Aus meiner Sicht …",
+  "e": "From my point of view …",
+  "ex": "Aus meiner Sicht lohnt sich das nicht. — From my point of view it's not worth it.",
+  "c": "Meinung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Meiner Ansicht nach …",
+  "e": "In my view …",
+  "ex": "Meiner Ansicht nach fehlt hier ein Plan. — In my view a plan is missing here.",
+  "c": "Meinung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich gehe davon aus, dass …",
+  "e": "I assume that …",
+  "ex": "Ich gehe davon aus, dass alle kommen. — I assume everyone is coming.",
+  "c": "Meinung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Man kann davon ausgehen, dass …",
+  "e": "One can assume that …",
+  "ex": "Man kann davon ausgehen, dass es teurer wird. — One can assume it will get more expensive.",
+  "c": "Meinung",
+  "lvl": "B2"
+ },
+ {
+  "w": "Ich vermute, dass …",
+  "e": "I suspect that …",
+  "ex": "Ich vermute, dass der Zug Verspätung hat. — I suspect the train is delayed.",
+  "c": "Meinung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich bin (fest) davon überzeugt, dass …",
+  "e": "I'm (firmly) convinced that …",
+  "ex": "Ich bin fest davon überzeugt, dass es klappt. — I'm firmly convinced it will work.",
+  "c": "Meinung",
+  "lvl": "B2"
+ },
+ {
+  "w": "Ich bin mir sicher, dass …",
+  "e": "I'm sure that …",
+  "ex": "Ich bin mir sicher, dass wir uns kennen. — I'm sure we know each other.",
+  "c": "Meinung",
+  "lvl": "A2"
+ },
+ {
+  "w": "Für mich steht fest, dass …",
+  "e": "For me it's certain that …",
+  "ex": "Für mich steht fest, dass wir umziehen. — For me it's settled that we're moving.",
+  "c": "Meinung",
+  "lvl": "B2"
+ },
+ {
+  "w": "Ich würde behaupten, dass …",
+  "e": "I would claim that …",
+  "ex": "Ich würde behaupten, dass das die beste Lösung ist. — I'd claim that's the best solution.",
+  "c": "Meinung",
+  "lvl": "B2"
+ },
+ {
+  "w": "Ich vertrete den Standpunkt, dass …",
+  "e": "I take the position that …",
+  "ex": "Ich vertrete den Standpunkt, dass Bildung kostenlos sein sollte. — I take the position that education should be free.",
+  "c": "Meinung",
+  "lvl": "C1"
+ },
+ {
+  "w": "Ich vertrete die Auffassung, dass …",
+  "e": "I hold the view that …",
+  "ex": "Ich vertrete die Auffassung, dass man das anders lösen kann. — I hold the view that this can be solved differently.",
+  "c": "Meinung",
+  "lvl": "C1"
+ },
+ {
+  "w": "Meines Erachtens …",
+  "e": "In my estimation …",
+  "ex": "Meines Erachtens ist der Vorschlag realistisch. — In my estimation the proposal is realistic.",
+  "c": "Meinung",
+  "lvl": "C1"
+ },
+ {
+  "w": "Soweit ich das beurteilen kann, …",
+  "e": "As far as I can judge, …",
+  "ex": "Soweit ich das beurteilen kann, läuft alles gut. — As far as I can judge, everything is going well.",
+  "c": "Meinung",
+  "lvl": "B2"
+ },
+ {
+  "w": "Wenn ich mich nicht irre, …",
+  "e": "If I'm not mistaken, …",
+  "ex": "Wenn ich mich nicht irre, war das letzte Woche. — If I'm not mistaken, that was last week.",
+  "c": "Meinung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Meiner Erfahrung nach …",
+  "e": "In my experience …",
+  "ex": "Meiner Erfahrung nach dauert das länger. — In my experience that takes longer.",
+  "c": "Meinung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ein Vorteil ist, dass …",
+  "e": "One advantage is that …",
+  "ex": "Ein Vorteil ist, dass man Zeit spart. — One advantage is that you save time.",
+  "c": "Meinung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ein Nachteil ist, dass …",
+  "e": "One disadvantage is that …",
+  "ex": "Ein Nachteil ist, dass es teuer ist. — One disadvantage is that it's expensive.",
+  "c": "Meinung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Einerseits …, andererseits …",
+  "e": "On the one hand …, on the other hand …",
+  "ex": "Einerseits ist es praktisch, andererseits sehr teuer. — On the one hand it's practical, on the other very expensive.",
+  "c": "Meinung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Es lässt sich nicht leugnen, dass …",
+  "e": "It can't be denied that …",
+  "ex": "Es lässt sich nicht leugnen, dass sich viel geändert hat. — It can't be denied that a lot has changed.",
+  "c": "Meinung",
+  "lvl": "B2"
+ },
+ {
+  "w": "Verglichen mit …",
+  "e": "Compared with …",
+  "ex": "Verglichen mit München ist Berlin günstig. — Compared with Munich, Berlin is cheap.",
+  "c": "Meinung",
+  "lvl": "B2"
+ },
+ {
+  "w": "Ein wesentlicher Aspekt ist, dass …",
+  "e": "An essential aspect is that …",
+  "ex": "Ein wesentlicher Aspekt ist, dass alle mitmachen. — An essential aspect is that everyone joins in.",
+  "c": "Meinung",
+  "lvl": "C1"
+ },
+ {
+  "w": "Was denkst du dazu?",
+  "e": "What do you think about it?",
+  "ex": "Und du, was denkst du dazu? — And you, what do you think about it?",
+  "c": "Meinung",
+  "lvl": "A2"
+ },
+ {
+  "w": "Wie siehst du das?",
+  "e": "How do you see it?",
+  "ex": "Wie siehst du das mit dem Umzug? — How do you see the move?",
+  "c": "Meinung",
+  "lvl": "A2"
+ },
+ {
+  "w": "Wie stehst du dazu?",
+  "e": "What's your stance on it?",
+  "ex": "Wie stehst du dazu, am Wochenende zu arbeiten? — What's your stance on working weekends?",
+  "c": "Meinung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Wie findest du das?",
+  "e": "What do you think of that?",
+  "ex": "Wie findest du das neue Büro? — What do you think of the new office?",
+  "c": "Meinung",
+  "lvl": "A2"
+ },
+ {
+  "w": "Das sehe ich genauso.",
+  "e": "I see it exactly the same way.",
+  "ex": "Das sehe ich genauso wie du. — I see it exactly the same way as you.",
+  "c": "Zustimmen",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich bin ganz deiner Meinung.",
+  "e": "I completely agree with you.",
+  "ex": "Da bin ich ganz deiner Meinung. — On that I completely agree with you.",
+  "c": "Zustimmen",
+  "lvl": "A2"
+ },
+ {
+  "w": "Da hast du recht.",
+  "e": "You're right about that.",
+  "ex": "Stimmt, da hast du recht. — True, you're right about that.",
+  "c": "Zustimmen",
+  "lvl": "A2"
+ },
+ {
+  "w": "Das stimmt.",
+  "e": "That's true.",
+  "ex": "Das stimmt, so war es. — That's true, that's how it was.",
+  "c": "Zustimmen",
+  "lvl": "A2"
+ },
+ {
+  "w": "Das denke ich auch.",
+  "e": "I think so too.",
+  "ex": "Das denke ich auch, genau deshalb. — I think so too, exactly for that reason.",
+  "c": "Zustimmen",
+  "lvl": "A2"
+ },
+ {
+  "w": "Genau!",
+  "e": "Exactly!",
+  "ex": "Genau, das meine ich! — Exactly, that's what I mean!",
+  "c": "Zustimmen",
+  "lvl": "A2"
+ },
+ {
+  "w": "Absolut!",
+  "e": "Absolutely!",
+  "ex": "Absolut, da bin ich dabei. — Absolutely, I'm in.",
+  "c": "Zustimmen",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich stimme dir voll und ganz zu.",
+  "e": "I agree with you completely.",
+  "ex": "Ich stimme dir voll und ganz zu. — I agree with you completely.",
+  "c": "Zustimmen",
+  "lvl": "B1"
+ },
+ {
+  "w": "Dem kann ich nur zustimmen.",
+  "e": "I can only agree with that.",
+  "ex": "Dem kann ich nur zustimmen. — I can only agree with that.",
+  "c": "Zustimmen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Das klingt vernünftig.",
+  "e": "That sounds reasonable.",
+  "ex": "Dein Plan klingt vernünftig. — Your plan sounds reasonable.",
+  "c": "Zustimmen",
+  "lvl": "B1"
+ },
+ {
+  "w": "Da ist was dran.",
+  "e": "There's something to that.",
+  "ex": "Da ist was dran, das stimmt. — There's something to that, it's true.",
+  "c": "Zustimmen",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich teile deine Meinung.",
+  "e": "I share your opinion.",
+  "ex": "In diesem Punkt teile ich deine Meinung. — On this point I share your opinion.",
+  "c": "Zustimmen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Das ist auch meine Erfahrung.",
+  "e": "That's my experience too.",
+  "ex": "Das ist auch meine Erfahrung mit dem Amt. — That's my experience with the authorities too.",
+  "c": "Zustimmen",
+  "lvl": "B1"
+ },
+ {
+  "w": "Auf jeden Fall!",
+  "e": "Definitely! / In any case!",
+  "ex": "Auf jeden Fall komme ich mit. — I'm definitely coming along.",
+  "c": "Zustimmen",
+  "lvl": "A2"
+ },
+ {
+  "w": "Das sehe ich anders.",
+  "e": "I see it differently.",
+  "ex": "Ehrlich gesagt sehe ich das anders. — Honestly, I see it differently.",
+  "c": "Widersprechen",
+  "lvl": "A2"
+ },
+ {
+  "w": "Da bin ich anderer Meinung.",
+  "e": "I'm of a different opinion there.",
+  "ex": "Da bin ich ganz anderer Meinung. — I'm of quite a different opinion there.",
+  "c": "Widersprechen",
+  "lvl": "B1"
+ },
+ {
+  "w": "Das stimmt zwar, aber …",
+  "e": "That's true, but …",
+  "ex": "Das stimmt zwar, aber es hilft uns nicht. — That's true, but it doesn't help us.",
+  "c": "Widersprechen",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich verstehe, was du meinst, aber …",
+  "e": "I see what you mean, but …",
+  "ex": "Ich verstehe, was du meinst, aber es ist zu riskant. — I see what you mean, but it's too risky.",
+  "c": "Widersprechen",
+  "lvl": "B1"
+ },
+ {
+  "w": "Man sollte jedoch bedenken, dass …",
+  "e": "One should however consider that …",
+  "ex": "Man sollte jedoch bedenken, dass die Kosten steigen. — One should however consider that costs are rising.",
+  "c": "Widersprechen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Da habe ich so meine Bedenken.",
+  "e": "I have my doubts about that.",
+  "ex": "Bei dem Plan habe ich so meine Bedenken. — I have my doubts about that plan.",
+  "c": "Widersprechen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Da bin ich skeptisch.",
+  "e": "I'm sceptical about that.",
+  "ex": "Ehrlich gesagt bin ich da skeptisch. — Honestly, I'm sceptical about that.",
+  "c": "Widersprechen",
+  "lvl": "B1"
+ },
+ {
+  "w": "Das überzeugt mich nicht.",
+  "e": "That doesn't convince me.",
+  "ex": "Dein Argument überzeugt mich nicht. — Your argument doesn't convince me.",
+  "c": "Widersprechen",
+  "lvl": "B1"
+ },
+ {
+  "w": "Da muss ich dir widersprechen.",
+  "e": "I have to disagree with you there.",
+  "ex": "Da muss ich dir leider widersprechen. — I'm afraid I have to disagree with you there.",
+  "c": "Widersprechen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Ganz im Gegenteil.",
+  "e": "Quite the opposite.",
+  "ex": "Ganz im Gegenteil, es war sehr gut. — Quite the opposite, it was very good.",
+  "c": "Widersprechen",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich kann mir nicht vorstellen, dass …",
+  "e": "I can't imagine that …",
+  "ex": "Ich kann mir nicht vorstellen, dass das funktioniert. — I can't imagine that working.",
+  "c": "Widersprechen",
+  "lvl": "B1"
+ },
+ {
+  "w": "So kann man das nicht sagen.",
+  "e": "You can't really say it like that.",
+  "ex": "So kann man das meiner Meinung nach nicht sagen. — In my opinion you can't say it like that.",
+  "c": "Widersprechen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Ich sehe das etwas anders, denn …",
+  "e": "I see it somewhat differently, because …",
+  "ex": "Ich sehe das etwas anders, denn wir haben wenig Zeit. — I see it somewhat differently, because we have little time.",
+  "c": "Widersprechen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Ihre Ansicht in allen Ehren, aber …",
+  "e": "With all due respect to your view, but …",
+  "ex": "Ihre Ansicht in allen Ehren, aber das ist zu teuer. — With all due respect to your view, that's too expensive.",
+  "c": "Widersprechen",
+  "lvl": "C1"
+ },
+ {
+  "w": "Ich kann mich dem nicht anschließen.",
+  "e": "I can't go along with that.",
+  "ex": "Ich kann mich dem leider nicht anschließen. — I'm afraid I can't go along with that.",
+  "c": "Widersprechen",
+  "lvl": "C1"
+ },
+ {
+  "w": "Da wäre ich mir nicht so sicher.",
+  "e": "I wouldn't be so sure about that.",
+  "ex": "Da wäre ich mir nicht so sicher, ob das reicht. — I wouldn't be so sure that's enough.",
+  "c": "Widersprechen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Ich halte das für falsch.",
+  "e": "I consider that wrong.",
+  "ex": "Ich halte diese Entscheidung für falsch. — I consider this decision wrong.",
+  "c": "Widersprechen",
+  "lvl": "B1"
+ },
+ {
+  "w": "Darf ich kurz etwas dazu sagen?",
+  "e": "May I briefly say something about that?",
+  "ex": "Entschuldigung, darf ich kurz etwas dazu sagen? — Excuse me, may I briefly say something about that?",
+  "c": "Diskussion",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich würde gern etwas ergänzen.",
+  "e": "I'd like to add something.",
+  "ex": "Ich würde gern noch etwas dazu ergänzen. — I'd like to add something to that.",
+  "c": "Diskussion",
+  "lvl": "B2"
+ },
+ {
+  "w": "Darf ich dich kurz unterbrechen?",
+  "e": "May I interrupt you briefly?",
+  "ex": "Entschuldigung, darf ich dich kurz unterbrechen? — Sorry, may I interrupt you briefly?",
+  "c": "Diskussion",
+  "lvl": "B1"
+ },
+ {
+  "w": "Lass mich bitte ausreden.",
+  "e": "Please let me finish speaking.",
+  "ex": "Lass mich bitte kurz ausreden. — Please let me just finish speaking.",
+  "c": "Diskussion",
+  "lvl": "B1"
+ },
+ {
+  "w": "Habe ich dich richtig verstanden, dass …?",
+  "e": "Did I understand you correctly that …?",
+  "ex": "Habe ich dich richtig verstanden, dass du absagst? — Did I understand correctly that you're cancelling?",
+  "c": "Diskussion",
+  "lvl": "B1"
+ },
+ {
+  "w": "Kannst du das noch einmal anders erklären?",
+  "e": "Can you explain that differently again?",
+  "ex": "Kannst du das bitte noch einmal anders erklären? — Can you please explain that differently again?",
+  "c": "Diskussion",
+  "lvl": "B1"
+ },
+ {
+  "w": "Um noch einmal darauf zurückzukommen …",
+  "e": "To come back to that once more …",
+  "ex": "Um noch einmal auf die Kosten zurückzukommen … — To come back to the costs once more …",
+  "c": "Diskussion",
+  "lvl": "B2"
+ },
+ {
+  "w": "Das Wichtigste ist für mich, dass …",
+  "e": "The most important thing for me is that …",
+  "ex": "Das Wichtigste ist für mich, dass es sicher ist. — The most important thing for me is that it's safe.",
+  "c": "Diskussion",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich möchte betonen, dass …",
+  "e": "I'd like to stress that …",
+  "ex": "Ich möchte betonen, dass wir das zusammen entscheiden. — I'd like to stress that we decide this together.",
+  "c": "Diskussion",
+  "lvl": "B2"
+ },
+ {
+  "w": "Kurz gesagt, …",
+  "e": "In short, …",
+  "ex": "Kurz gesagt, es hat nicht funktioniert. — In short, it didn't work.",
+  "c": "Diskussion",
+  "lvl": "B1"
+ },
+ {
+  "w": "Um es auf den Punkt zu bringen, …",
+  "e": "To put it in a nutshell, …",
+  "ex": "Um es auf den Punkt zu bringen: Wir brauchen mehr Zeit. — To put it in a nutshell: we need more time.",
+  "c": "Diskussion",
+  "lvl": "B2"
+ },
+ {
+  "w": "Zusammenfassend lässt sich sagen, dass …",
+  "e": "To summarise, one can say that …",
+  "ex": "Zusammenfassend lässt sich sagen, dass es gut lief. — To summarise, one can say it went well.",
+  "c": "Diskussion",
+  "lvl": "B2"
+ },
+ {
+  "w": "Wir kommen so nicht weiter.",
+  "e": "We're not getting anywhere like this.",
+  "ex": "Ich glaube, wir kommen so nicht weiter. — I think we're not getting anywhere like this.",
+  "c": "Diskussion",
+  "lvl": "B2"
+ },
+ {
+  "w": "Wie wäre es, wenn …?",
+  "e": "How about if …?",
+  "ex": "Wie wäre es, wenn wir morgen anfangen? — How about we start tomorrow?",
+  "c": "Diskussion",
+  "lvl": "B1"
+ },
+ {
+  "w": "Was hältst du von …?",
+  "e": "What do you think of …?",
+  "ex": "Was hältst du von dem Vorschlag? — What do you think of the proposal?",
+  "c": "Diskussion",
+  "lvl": "B1"
+ },
+ {
+  "w": "Darauf könnten wir uns einigen.",
+  "e": "We could agree on that.",
+  "ex": "Darauf könnten wir uns vielleicht einigen. — We could perhaps agree on that.",
+  "c": "Diskussion",
+  "lvl": "B2"
+ },
+ {
+  "w": "Lass uns Folgendes vereinbaren: …",
+  "e": "Let's agree on the following: …",
+  "ex": "Lass uns Folgendes vereinbaren: Du schreibst, ich rufe an. — Let's agree on the following: you write, I'll call.",
+  "c": "Diskussion",
+  "lvl": "B2"
+ },
+ {
+  "w": "Was gibt's Neues?",
+  "e": "What's new?",
+  "ex": "Na, was gibt's Neues bei dir? — So, what's new with you?",
+  "c": "Small Talk",
+  "lvl": "A2"
+ },
+ {
+  "w": "Nicht viel. Und bei dir?",
+  "e": "Not much. And with you?",
+  "ex": "Nicht viel. Und bei dir so? — Not much. And with you?",
+  "c": "Small Talk",
+  "lvl": "A2"
+ },
+ {
+  "w": "Wie läuft's?",
+  "e": "How's it going?",
+  "ex": "Wie läuft's bei der Arbeit? — How's it going at work?",
+  "c": "Small Talk",
+  "lvl": "A2"
+ },
+ {
+  "w": "Na, alles gut?",
+  "e": "Hey, all good?",
+  "ex": "Na, alles gut bei dir? — Hey, all good with you?",
+  "c": "Small Talk",
+  "lvl": "A2"
+ },
+ {
+  "w": "Gut, und selbst?",
+  "e": "Good, and yourself?",
+  "ex": "Danke, gut – und selbst? — Thanks, good – and yourself?",
+  "c": "Small Talk",
+  "lvl": "A2"
+ },
+ {
+  "w": "Was machst du so?",
+  "e": "What are you up to (these days)?",
+  "ex": "Und was machst du so am Wochenende? — And what are you up to at the weekend?",
+  "c": "Small Talk",
+  "lvl": "A2"
+ },
+ {
+  "w": "Was hast du am Wochenende vor?",
+  "e": "What are your plans for the weekend?",
+  "ex": "Was hast du eigentlich am Wochenende vor? — What are your plans for the weekend, actually?",
+  "c": "Small Talk",
+  "lvl": "A2"
+ },
+ {
+  "w": "Wie war dein Wochenende?",
+  "e": "How was your weekend?",
+  "ex": "Und, wie war dein Wochenende? — So, how was your weekend?",
+  "c": "Small Talk",
+  "lvl": "A2"
+ },
+ {
+  "w": "Wie war dein Tag?",
+  "e": "How was your day?",
+  "ex": "Erzähl, wie war dein Tag? — Tell me, how was your day?",
+  "c": "Small Talk",
+  "lvl": "A2"
+ },
+ {
+  "w": "Was machst du beruflich?",
+  "e": "What do you do for a living?",
+  "ex": "Und was machst du beruflich? — And what do you do for a living?",
+  "c": "Small Talk",
+  "lvl": "A2"
+ },
+ {
+  "w": "Wie lange wohnst du schon hier?",
+  "e": "How long have you been living here?",
+  "ex": "Wie lange wohnst du schon in München? — How long have you been living in Munich?",
+  "c": "Small Talk",
+  "lvl": "A2"
+ },
+ {
+  "w": "Du kannst mich gern duzen.",
+  "e": "Feel free to use \"du\" with me.",
+  "ex": "Wir sind hier locker – du kannst mich gern duzen. — We're informal here – feel free to use \"du\".",
+  "c": "Small Talk",
+  "lvl": "B1"
+ },
+ {
+  "w": "Es war schön, dich zu sehen.",
+  "e": "It was nice to see you.",
+  "ex": "Es war wirklich schön, dich zu sehen. — It was really nice to see you.",
+  "c": "Small Talk",
+  "lvl": "A2"
+ },
+ {
+  "w": "Wann sehen wir uns wieder?",
+  "e": "When will we see each other again?",
+  "ex": "Und wann sehen wir uns wieder? — And when will we see each other again?",
+  "c": "Small Talk",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich freue mich auf unser Treffen.",
+  "e": "I'm looking forward to our meeting.",
+  "ex": "Ich freue mich schon auf unser Treffen. — I'm already looking forward to our meeting.",
+  "c": "Small Talk",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich melde mich.",
+  "e": "I'll be in touch.",
+  "ex": "Ich melde mich nächste Woche. — I'll be in touch next week.",
+  "c": "Small Talk",
+  "lvl": "B1"
+ },
+ {
+  "w": "Lass bald wieder von dir hören!",
+  "e": "Stay in touch!",
+  "ex": "Lass bald wieder von dir hören, ja? — Stay in touch, okay?",
+  "c": "Small Talk",
+  "lvl": "B1"
+ },
+ {
+  "w": "Wir sollten mal was zusammen machen.",
+  "e": "We should do something together sometime.",
+  "ex": "Wir sollten mal wieder was zusammen machen. — We should do something together again sometime.",
+  "c": "Verabredung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Hast du Lust auf einen Kaffee?",
+  "e": "Do you feel like a coffee?",
+  "ex": "Hast du Lust auf einen Kaffee nach der Arbeit? — Do you feel like a coffee after work?",
+  "c": "Verabredung",
+  "lvl": "A2"
+ },
+ {
+  "w": "Lass uns etwas trinken gehen!",
+  "e": "Let's go for a drink!",
+  "ex": "Lass uns nachher etwas trinken gehen! — Let's go for a drink later!",
+  "c": "Verabredung",
+  "lvl": "A2"
+ },
+ {
+  "w": "Passt es dir am Freitag?",
+  "e": "Does Friday work for you?",
+  "ex": "Passt es dir am Freitag um sieben? — Does Friday at seven work for you?",
+  "c": "Verabredung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Das passt mir gut.",
+  "e": "That works well for me.",
+  "ex": "Dienstag passt mir gut. — Tuesday works well for me.",
+  "c": "Verabredung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Da kann ich leider nicht.",
+  "e": "Unfortunately I can't then.",
+  "ex": "Am Samstag kann ich leider nicht. — Unfortunately I can't on Saturday.",
+  "c": "Verabredung",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich muss mal schauen, ob es klappt.",
+  "e": "I'll have to see whether it works out.",
+  "ex": "Ich muss mal schauen, ob es zeitlich klappt. — I'll have to see whether it works out time-wise.",
+  "c": "Verabredung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Sollen wir uns um sieben treffen?",
+  "e": "Shall we meet at seven?",
+  "ex": "Sollen wir uns um sieben vor dem Kino treffen? — Shall we meet at seven in front of the cinema?",
+  "c": "Verabredung",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich sage dir noch Bescheid.",
+  "e": "I'll let you know.",
+  "ex": "Ich sage dir morgen noch Bescheid. — I'll let you know tomorrow.",
+  "c": "Verabredung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Können wir das verschieben?",
+  "e": "Can we postpone that?",
+  "ex": "Können wir das auf nächste Woche verschieben? — Can we postpone that to next week?",
+  "c": "Verabredung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich muss leider absagen.",
+  "e": "Unfortunately I have to cancel.",
+  "ex": "Ich muss für morgen leider absagen. — Unfortunately I have to cancel for tomorrow.",
+  "c": "Verabredung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Es hat sich etwas dazwischengeschoben.",
+  "e": "Something came up.",
+  "ex": "Tut mir leid, es hat sich etwas dazwischengeschoben. — Sorry, something came up.",
+  "c": "Verabredung",
+  "lvl": "B2"
+ },
+ {
+  "w": "Abgemacht!",
+  "e": "It's a deal!",
+  "ex": "Freitag um acht? Abgemacht! — Friday at eight? It's a deal!",
+  "c": "Verabredung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Das klingt gut.",
+  "e": "That sounds good.",
+  "ex": "Dein Vorschlag klingt gut. — Your suggestion sounds good.",
+  "c": "Verabredung",
+  "lvl": "A2"
+ },
+ {
+  "w": "Das passt.",
+  "e": "That works.",
+  "ex": "Um sechs? Das passt. — At six? That works.",
+  "c": "Verabredung",
+  "lvl": "A2"
+ },
+ {
+  "w": "Lass mich eine Nacht darüber schlafen.",
+  "e": "Let me sleep on it.",
+  "ex": "Ich lass mal eine Nacht darüber schlafen. — Let me sleep on it.",
+  "c": "Verabredung",
+  "lvl": "B2"
+ },
+ {
+  "w": "Ich kann nichts versprechen.",
+  "e": "I can't promise anything.",
+  "ex": "Ich versuche es, aber ich kann nichts versprechen. — I'll try, but I can't promise anything.",
+  "c": "Verabredung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich schaue, wenn ich Zeit habe.",
+  "e": "I'll take a look when I have time.",
+  "ex": "Ich schaue es mir an, wenn ich Zeit habe. — I'll look at it when I have time.",
+  "c": "Verabredung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Echt?",
+  "e": "Really?",
+  "ex": "Echt? Das wusste ich nicht. — Really? I didn't know that.",
+  "c": "Reagieren",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ach so!",
+  "e": "Oh, I see!",
+  "ex": "Ach so, jetzt verstehe ich. — Oh I see, now I understand.",
+  "c": "Reagieren",
+  "lvl": "A2"
+ },
+ {
+  "w": "Alles klar!",
+  "e": "Got it! / All right!",
+  "ex": "Alles klar, dann machen wir das so. — All right, then let's do it that way.",
+  "c": "Reagieren",
+  "lvl": "A2"
+ },
+ {
+  "w": "Verstehe.",
+  "e": "I see.",
+  "ex": "Verstehe, das ist natürlich blöd. — I see, that's annoying of course.",
+  "c": "Reagieren",
+  "lvl": "A2"
+ },
+ {
+  "w": "Wie schade!",
+  "e": "What a shame!",
+  "ex": "Wie schade, dass du nicht kommst. — What a shame you're not coming.",
+  "c": "Reagieren",
+  "lvl": "A2"
+ },
+ {
+  "w": "Wie ärgerlich!",
+  "e": "How annoying!",
+  "ex": "Wie ärgerlich, dass der Zug ausfällt. — How annoying that the train is cancelled.",
+  "c": "Reagieren",
+  "lvl": "B1"
+ },
+ {
+  "w": "Das tut mir leid.",
+  "e": "I'm sorry (about that).",
+  "ex": "Das tut mir wirklich leid für dich. — I'm really sorry for you.",
+  "c": "Reagieren",
+  "lvl": "A2"
+ },
+ {
+  "w": "Keine Sorge!",
+  "e": "No worries!",
+  "ex": "Keine Sorge, das schaffen wir. — No worries, we'll manage.",
+  "c": "Reagieren",
+  "lvl": "A2"
+ },
+ {
+  "w": "Kein Problem.",
+  "e": "No problem.",
+  "ex": "Kein Problem, ich mache das. — No problem, I'll do it.",
+  "c": "Reagieren",
+  "lvl": "A2"
+ },
+ {
+  "w": "Keine Ursache.",
+  "e": "Don't mention it.",
+  "ex": "Danke! – Keine Ursache. — Thanks! – Don't mention it.",
+  "c": "Reagieren",
+  "lvl": "B1"
+ },
+ {
+  "w": "Gern geschehen.",
+  "e": "You're welcome.",
+  "ex": "Vielen Dank! – Gern geschehen. — Thank you! – You're welcome.",
+  "c": "Reagieren",
+  "lvl": "A2"
+ },
+ {
+  "w": "Na klar!",
+  "e": "Of course!",
+  "ex": "Na klar helfe ich dir. — Of course I'll help you.",
+  "c": "Reagieren",
+  "lvl": "A2"
+ },
+ {
+  "w": "Selbstverständlich.",
+  "e": "Naturally / Of course.",
+  "ex": "Selbstverständlich übernehme ich das. — Of course I'll take care of that.",
+  "c": "Reagieren",
+  "lvl": "B1"
+ },
+ {
+  "w": "Um Gottes willen!",
+  "e": "For heaven's sake!",
+  "ex": "Um Gottes willen, was ist passiert? — For heaven's sake, what happened?",
+  "c": "Reagieren",
+  "lvl": "B2"
+ },
+ {
+  "w": "Da bin ich baff.",
+  "e": "I'm stunned.",
+  "ex": "Ehrlich? Da bin ich baff. — Really? I'm stunned.",
+  "c": "Reagieren",
+  "lvl": "B2"
+ },
+ {
+  "w": "Das ist ja der Hammer!",
+  "e": "That's amazing / unbelievable!",
+  "ex": "Du hast den Job? Das ist ja der Hammer! — You got the job? That's amazing!",
+  "c": "Reagieren",
+  "lvl": "B1"
+ },
+ {
+  "w": "Quatsch!",
+  "e": "Nonsense!",
+  "ex": "Quatsch, das stimmt doch gar nicht. — Nonsense, that's not true at all.",
+  "c": "Reagieren",
+  "lvl": "B1"
+ },
+ {
+  "w": "Doch!",
+  "e": "Yes it is! (contradicting a negative)",
+  "ex": "Du warst nicht da! – Doch, war ich! — You weren't there! – Yes I was!",
+  "c": "Reagieren",
+  "lvl": "A2"
+ },
+ {
+  "w": "Jein.",
+  "e": "Yes and no.",
+  "ex": "Gefällt es dir? – Jein. — Do you like it? – Yes and no.",
+  "c": "Reagieren",
+  "lvl": "B1"
+ },
+ {
+  "w": "Mal sehen.",
+  "e": "We'll see.",
+  "ex": "Mal sehen, wie das Wetter wird. — We'll see how the weather turns out.",
+  "c": "Vage",
+  "lvl": "A2"
+ },
+ {
+  "w": "Kann sein.",
+  "e": "Could be.",
+  "ex": "Kann sein, dass er es vergessen hat. — Could be that he forgot it.",
+  "c": "Vage",
+  "lvl": "A2"
+ },
+ {
+  "w": "Eigentlich schon, aber …",
+  "e": "Actually yes, but …",
+  "ex": "Eigentlich schon, aber ich habe keine Zeit. — Actually yes, but I don't have time.",
+  "c": "Vage",
+  "lvl": "B1"
+ },
+ {
+  "w": "Es kommt darauf an.",
+  "e": "It depends.",
+  "ex": "Es kommt darauf an, wie viel es kostet. — It depends how much it costs.",
+  "c": "Vage",
+  "lvl": "B1"
+ },
+ {
+  "w": "Das hängt davon ab, ob …",
+  "e": "That depends on whether …",
+  "ex": "Das hängt davon ab, ob ich frei bekomme. — That depends on whether I get time off.",
+  "c": "Vage",
+  "lvl": "B1"
+ },
+ {
+  "w": "mehr oder weniger",
+  "e": "more or less",
+  "ex": "Das ist mehr oder weniger dasselbe. — That's more or less the same.",
+  "c": "Vage",
+  "lvl": "B1"
+ },
+ {
+  "w": "sozusagen",
+  "e": "so to speak",
+  "ex": "Er ist sozusagen mein Chef. — He's my boss, so to speak.",
+  "c": "Vage",
+  "lvl": "B1"
+ },
+ {
+  "w": "irgendwie",
+  "e": "somehow",
+  "ex": "Irgendwie fühlt sich das falsch an. — Somehow that feels wrong.",
+  "c": "Vage",
+  "lvl": "A2"
+ },
+ {
+  "w": "so ungefähr",
+  "e": "roughly / about like that",
+  "ex": "Es dauert so ungefähr zwei Stunden. — It takes roughly two hours.",
+  "c": "Vage",
+  "lvl": "A2"
+ },
+ {
+  "w": "im Großen und Ganzen",
+  "e": "by and large",
+  "ex": "Im Großen und Ganzen bin ich zufrieden. — By and large I'm satisfied.",
+  "c": "Vage",
+  "lvl": "B2"
+ },
+ {
+  "w": "in gewisser Weise",
+  "e": "in a certain way",
+  "ex": "In gewisser Weise hast du recht. — In a certain way you're right.",
+  "c": "Vage",
+  "lvl": "B2"
+ },
+ {
+  "w": "Ich bin mir nicht sicher, ob …",
+  "e": "I'm not sure whether …",
+  "ex": "Ich bin mir nicht sicher, ob das reicht. — I'm not sure whether that's enough.",
+  "c": "Vage",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ehrlich gesagt …",
+  "e": "To be honest …",
+  "ex": "Ehrlich gesagt habe ich keine Lust. — To be honest I don't feel like it.",
+  "c": "Vage",
+  "lvl": "B1"
+ },
+ {
+  "w": "Um ehrlich zu sein, …",
+  "e": "To be honest, …",
+  "ex": "Um ehrlich zu sein, das war langweilig. — To be honest, that was boring.",
+  "c": "Vage",
+  "lvl": "B1"
+ },
+ {
+  "w": "Wie gesagt, …",
+  "e": "As I said, …",
+  "ex": "Wie gesagt, ich melde mich morgen. — As I said, I'll be in touch tomorrow.",
+  "c": "Diskussion",
+  "lvl": "B1"
+ },
+ {
+  "w": "Auf keinen Fall!",
+  "e": "No way!",
+  "ex": "Auf keinen Fall mache ich das noch mal. — No way am I doing that again.",
+  "c": "Reagieren",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich habe keine Ahnung.",
+  "e": "I have no idea.",
+  "ex": "Ehrlich, ich habe keine Ahnung. — Honestly, I have no idea.",
+  "c": "Reagieren",
+  "lvl": "A2"
+ },
+ {
+  "w": "Das ist mir egal.",
+  "e": "I don't mind / I don't care.",
+  "ex": "Wo wir essen, ist mir egal. — Where we eat, I don't mind.",
+  "c": "Reagieren",
+  "lvl": "A2"
+ },
+ {
+  "w": "Das ist mir zu viel.",
+  "e": "That's too much for me.",
+  "ex": "Zwei Termine am Tag – das ist mir zu viel. — Two appointments a day – that's too much for me.",
+  "c": "Reagieren",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich habe die Nase voll.",
+  "e": "I've had enough of it.",
+  "ex": "Ich habe die Nase voll von diesem Chaos. — I've had enough of this chaos.",
+  "c": "Umgangssprache",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich habe (keinen) Bock darauf.",
+  "e": "I (don't) feel like it.",
+  "ex": "Ich habe echt keinen Bock auf die Party. — I really don't feel like going to the party.",
+  "c": "Umgangssprache",
+  "lvl": "B1"
+ },
+ {
+  "w": "Läuft bei dir!",
+  "e": "Things are going well for you!",
+  "ex": "Neue Wohnung? Läuft bei dir! — New flat? Things are going well for you!",
+  "c": "Umgangssprache",
+  "lvl": "B1"
+ },
+ {
+  "w": "Krass!",
+  "e": "Wild! / Intense!",
+  "ex": "Krass, das hätte ich nicht gedacht. — Wild, I wouldn't have thought that.",
+  "c": "Umgangssprache",
+  "lvl": "B1"
+ },
+ {
+  "w": "Das ist voll der Stress.",
+  "e": "That's really stressful.",
+  "ex": "Der Umzug ist voll der Stress. — The move is really stressful.",
+  "c": "Umgangssprache",
+  "lvl": "B1"
+ },
+ {
+  "w": "Alter!",
+  "e": "Dude!",
+  "ex": "Alter, das war knapp! — Dude, that was close!",
+  "c": "Umgangssprache",
+  "lvl": "B1"
+ },
+ {
+  "w": "Mach's gut!",
+  "e": "Take care!",
+  "ex": "Mach's gut, bis nächste Woche! — Take care, see you next week!",
+  "c": "Small Talk",
+  "lvl": "A2"
+ },
+ {
+  "w": "Komm gut nach Hause!",
+  "e": "Get home safe!",
+  "ex": "Tschüss, komm gut nach Hause! — Bye, get home safe!",
+  "c": "Small Talk",
+  "lvl": "A2"
+ },
+ {
+  "w": "Schönen Feierabend!",
+  "e": "Have a nice evening (after work)!",
+  "ex": "Bis morgen, schönen Feierabend! — See you tomorrow, have a nice evening!",
+  "c": "Small Talk",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ebenfalls!",
+  "e": "Likewise!",
+  "ex": "Schönes Wochenende! – Ebenfalls! — Have a nice weekend! – Likewise!",
+  "c": "Small Talk",
+  "lvl": "A2"
+ },
+ {
+  "w": "Danke, dir auch!",
+  "e": "Thanks, you too!",
+  "ex": "Schönen Tag noch! – Danke, dir auch! — Have a nice day! – Thanks, you too!",
+  "c": "Small Talk",
+  "lvl": "A2"
+ },
+ {
+  "w": "eine Entscheidung treffen",
+  "e": "to make a decision",
+  "ex": "Wir haben die Entscheidung getroffen, umzuziehen. — We've made the decision to move.",
+  "c": "Nomen-Verb",
+  "lvl": "B1"
+ },
+ {
+  "w": "eine Frage stellen",
+  "e": "to ask a question",
+  "ex": "Darf ich eine Frage stellen? — May I ask a question?",
+  "c": "Nomen-Verb",
+  "lvl": "A2"
+ },
+ {
+  "w": "einen Termin vereinbaren",
+  "e": "to arrange an appointment",
+  "ex": "Ich möchte einen Termin vereinbaren. — I'd like to arrange an appointment.",
+  "c": "Nomen-Verb",
+  "lvl": "B1"
+ },
+ {
+  "w": "einen Termin absagen",
+  "e": "to cancel an appointment",
+  "ex": "Ich muss den Termin leider absagen. — I'm afraid I have to cancel the appointment.",
+  "c": "Nomen-Verb",
+  "lvl": "B1"
+ },
+ {
+  "w": "einen Antrag stellen",
+  "e": "to submit an application",
+  "ex": "Ich habe einen Antrag auf Elterngeld gestellt. — I submitted an application for parental allowance.",
+  "c": "Nomen-Verb",
+  "lvl": "B1"
+ },
+ {
+  "w": "einen Vertrag abschließen",
+  "e": "to sign / conclude a contract",
+  "ex": "Morgen schließe ich den Vertrag ab. — Tomorrow I'll sign the contract.",
+  "c": "Nomen-Verb",
+  "lvl": "B1"
+ },
+ {
+  "w": "einen Vertrag kündigen",
+  "e": "to terminate a contract",
+  "ex": "Ich habe den Vertrag fristgerecht gekündigt. — I terminated the contract on time.",
+  "c": "Nomen-Verb",
+  "lvl": "B1"
+ },
+ {
+  "w": "Bescheid geben",
+  "e": "to let someone know",
+  "ex": "Gib mir bitte Bescheid, wenn du da bist. — Please let me know when you're there.",
+  "c": "Nomen-Verb",
+  "lvl": "B1"
+ },
+ {
+  "w": "Bescheid wissen",
+  "e": "to be in the know",
+  "ex": "Ich weiß schon Bescheid, danke. — I already know about it, thanks.",
+  "c": "Nomen-Verb",
+  "lvl": "B1"
+ },
+ {
+  "w": "einen Eindruck machen",
+  "e": "to make an impression",
+  "ex": "Er hat einen guten Eindruck gemacht. — He made a good impression.",
+  "c": "Nomen-Verb",
+  "lvl": "B1"
+ },
+ {
+  "w": "einen Rat geben",
+  "e": "to give advice",
+  "ex": "Darf ich dir einen Rat geben? — May I give you a piece of advice?",
+  "c": "Nomen-Verb",
+  "lvl": "B1"
+ },
+ {
+  "w": "Feierabend machen",
+  "e": "to finish work for the day",
+  "ex": "Ich mache jetzt Feierabend. — I'm finishing work now.",
+  "c": "Nomen-Verb",
+  "lvl": "B1"
+ },
+ {
+  "w": "Abstand halten",
+  "e": "to keep one's distance",
+  "ex": "Bitte Abstand halten! — Please keep your distance!",
+  "c": "Nomen-Verb",
+  "lvl": "B1"
+ },
+ {
+  "w": "einen Vortrag halten",
+  "e": "to give a presentation",
+  "ex": "Nächste Woche halte ich einen Vortrag. — Next week I'm giving a presentation.",
+  "c": "Nomen-Verb",
+  "lvl": "B1"
+ },
+ {
+  "w": "eine Rede halten",
+  "e": "to give a speech",
+  "ex": "Der Chef hält gleich eine Rede. — The boss is about to give a speech.",
+  "c": "Nomen-Verb",
+  "lvl": "B1"
+ },
+ {
+  "w": "ein Gespräch führen",
+  "e": "to have a conversation",
+  "ex": "Wir müssen ein ernstes Gespräch führen. — We need to have a serious conversation.",
+  "c": "Nomen-Verb",
+  "lvl": "B2"
+ },
+ {
+  "w": "unter Druck stehen",
+  "e": "to be under pressure",
+  "ex": "Ich stehe gerade ziemlich unter Druck. — I'm under quite a lot of pressure right now.",
+  "c": "Nomen-Verb",
+  "lvl": "B2"
+ },
+ {
+  "w": "in Erfüllung gehen",
+  "e": "to come true",
+  "ex": "Ich hoffe, dein Wunsch geht in Erfüllung. — I hope your wish comes true.",
+  "c": "Nomen-Verb",
+  "lvl": "B2"
+ },
+ {
+  "w": "die Hoffnung aufgeben",
+  "e": "to give up hope",
+  "ex": "Ich gebe die Hoffnung nicht auf. — I'm not giving up hope.",
+  "c": "Nomen-Verb",
+  "lvl": "B1"
+ },
+ {
+  "w": "eine Lösung finden",
+  "e": "to find a solution",
+  "ex": "Wir werden schon eine Lösung finden. — We'll find a solution.",
+  "c": "Nomen-Verb",
+  "lvl": "B1"
+ },
+ {
+  "w": "sich Mühe geben",
+  "e": "to make an effort",
+  "ex": "Er gibt sich wirklich Mühe. — He's really making an effort.",
+  "c": "Nomen-Verb",
+  "lvl": "B1"
+ },
+ {
+  "w": "in Ruhe lassen",
+  "e": "to leave someone alone",
+  "ex": "Lass mich bitte kurz in Ruhe. — Please leave me alone for a moment.",
+  "c": "Nomen-Verb",
+  "lvl": "B1"
+ },
+ {
+  "w": "Platz nehmen",
+  "e": "to take a seat",
+  "ex": "Nehmen Sie bitte Platz. — Please take a seat.",
+  "c": "Nomen-Verb",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Ruhe bewahren",
+  "e": "to keep calm",
+  "ex": "Wichtig ist, die Ruhe zu bewahren. — The important thing is to keep calm.",
+  "c": "Nomen-Verb",
+  "lvl": "B2"
+ },
+ {
+  "w": "ein Versprechen halten",
+  "e": "to keep a promise",
+  "ex": "Er hat sein Versprechen gehalten. — He kept his promise.",
+  "c": "Nomen-Verb",
+  "lvl": "B1"
+ },
+ {
+  "w": "Rücksicht nehmen auf",
+  "e": "to be considerate of",
+  "ex": "Nimm bitte Rücksicht auf die Nachbarn. — Please be considerate of the neighbours.",
+  "c": "Nomen-Verb",
+  "lvl": "B2"
+ },
+ {
+  "w": "Verantwortung übernehmen",
+  "e": "to take responsibility",
+  "ex": "Ich übernehme die Verantwortung dafür. — I'll take responsibility for it.",
+  "c": "Nomen-Verb",
+  "lvl": "B2"
+ },
+ {
+  "w": "eine Rolle spielen",
+  "e": "to play a role / to matter",
+  "ex": "Das Geld spielt keine Rolle. — The money doesn't matter.",
+  "c": "Nomen-Verb",
+  "lvl": "B1"
+ },
+ {
+  "w": "zur Verfügung stehen",
+  "e": "to be available",
+  "ex": "Ich stehe gern zur Verfügung. — I'm happy to be available.",
+  "c": "Nomen-Verb",
+  "lvl": "B2"
+ },
+ {
+  "w": "in Frage kommen",
+  "e": "to be an option",
+  "ex": "Das kommt für mich nicht in Frage. — That's out of the question for me.",
+  "c": "Nomen-Verb",
+  "lvl": "B2"
+ },
+ {
+  "w": "Schluss machen mit",
+  "e": "to put an end to",
+  "ex": "Ich mache Schluss mit dem Rauchen. — I'm quitting smoking.",
+  "c": "Nomen-Verb",
+  "lvl": "B1"
+ },
+ {
+  "w": "etwas in Ordnung bringen",
+  "e": "to sort something out",
+  "ex": "Ich bringe das morgen in Ordnung. — I'll sort that out tomorrow.",
+  "c": "Nomen-Verb",
+  "lvl": "B1"
+ },
+ {
+  "w": "etwas zur Folge haben",
+  "e": "to result in something",
+  "ex": "Der Fehler hatte hohe Kosten zur Folge. — The mistake resulted in high costs.",
+  "c": "Nomen-Verb",
+  "lvl": "B2"
+ },
+ {
+  "w": "Hilfe leisten",
+  "e": "to render assistance",
+  "ex": "Er hat sofort erste Hilfe geleistet. — He immediately gave first aid.",
+  "c": "Nomen-Verb",
+  "lvl": "B2"
+ },
+ {
+  "w": "eine Pause machen",
+  "e": "to take a break",
+  "ex": "Lass uns kurz eine Pause machen. — Let's take a short break.",
+  "c": "Nomen-Verb",
+  "lvl": "A2"
+ },
+ {
+  "w": "Sport treiben",
+  "e": "to do sport",
+  "ex": "Ich treibe dreimal die Woche Sport. — I do sport three times a week.",
+  "c": "Nomen-Verb",
+  "lvl": "A2"
+ },
+ {
+  "w": "Notizen machen",
+  "e": "to take notes",
+  "ex": "Ich mache mir kurz Notizen. — I'll just take some notes.",
+  "c": "Nomen-Verb",
+  "lvl": "A2"
+ },
+ {
+  "w": "Fehler machen",
+  "e": "to make mistakes",
+  "ex": "Jeder macht mal Fehler. — Everyone makes mistakes sometimes.",
+  "c": "Nomen-Verb",
+  "lvl": "A2"
+ },
+ {
+  "w": "sich freuen auf",
+  "e": "to look forward to",
+  "ex": "Ich freue mich auf den Urlaub. — I'm looking forward to the holiday.",
+  "c": "Verb + Präposition",
+  "lvl": "A2"
+ },
+ {
+  "w": "sich freuen über",
+  "e": "to be pleased about",
+  "ex": "Ich habe mich über dein Geschenk gefreut. — I was pleased about your present.",
+  "c": "Verb + Präposition",
+  "lvl": "B1"
+ },
+ {
+  "w": "sich interessieren für",
+  "e": "to be interested in",
+  "ex": "Ich interessiere mich für Geschichte. — I'm interested in history.",
+  "c": "Verb + Präposition",
+  "lvl": "A2"
+ },
+ {
+  "w": "sich ärgern über",
+  "e": "to be annoyed about",
+  "ex": "Ich ärgere mich über die Verspätung. — I'm annoyed about the delay.",
+  "c": "Verb + Präposition",
+  "lvl": "B1"
+ },
+ {
+  "w": "sich kümmern um",
+  "e": "to take care of",
+  "ex": "Ich kümmere mich um die Anmeldung. — I'll take care of the registration.",
+  "c": "Verb + Präposition",
+  "lvl": "B1"
+ },
+ {
+  "w": "sich bewerben um",
+  "e": "to apply for",
+  "ex": "Ich bewerbe mich um die Stelle. — I'm applying for the position.",
+  "c": "Verb + Präposition",
+  "lvl": "B1"
+ },
+ {
+  "w": "sich gewöhnen an",
+  "e": "to get used to",
+  "ex": "Ich habe mich an das Wetter gewöhnt. — I've got used to the weather.",
+  "c": "Verb + Präposition",
+  "lvl": "B1"
+ },
+ {
+  "w": "sich beschweren über",
+  "e": "to complain about",
+  "ex": "Er beschwert sich über den Lärm. — He's complaining about the noise.",
+  "c": "Verb + Präposition",
+  "lvl": "B1"
+ },
+ {
+  "w": "sich verlassen auf",
+  "e": "to rely on",
+  "ex": "Auf ihn kann man sich verlassen. — You can rely on him.",
+  "c": "Verb + Präposition",
+  "lvl": "B2"
+ },
+ {
+  "w": "sich entscheiden für",
+  "e": "to decide on",
+  "ex": "Ich habe mich für die Wohnung entschieden. — I decided on the flat.",
+  "c": "Verb + Präposition",
+  "lvl": "B1"
+ },
+ {
+  "w": "sich erinnern an",
+  "e": "to remember",
+  "ex": "Ich erinnere mich gut an den Tag. — I remember the day well.",
+  "c": "Verb + Präposition",
+  "lvl": "B1"
+ },
+ {
+  "w": "warten auf",
+  "e": "to wait for",
+  "ex": "Ich warte seit einer Stunde auf dich. — I've been waiting an hour for you.",
+  "c": "Verb + Präposition",
+  "lvl": "A2"
+ },
+ {
+  "w": "denken an",
+  "e": "to think of",
+  "ex": "Ich denke oft an zu Hause. — I often think of home.",
+  "c": "Verb + Präposition",
+  "lvl": "A2"
+ },
+ {
+  "w": "teilnehmen an",
+  "e": "to take part in",
+  "ex": "Ich nehme am Kurs teil. — I'm taking part in the course.",
+  "c": "Verb + Präposition",
+  "lvl": "B1"
+ },
+ {
+  "w": "sprechen über",
+  "e": "to talk about",
+  "ex": "Wir sprechen gerade über das Projekt. — We're just talking about the project.",
+  "c": "Verb + Präposition",
+  "lvl": "A2"
+ },
+ {
+  "w": "abhängen von",
+  "e": "to depend on",
+  "ex": "Das hängt vom Wetter ab. — That depends on the weather.",
+  "c": "Verb + Präposition",
+  "lvl": "B1"
+ },
+ {
+  "w": "achten auf",
+  "e": "to pay attention to",
+  "ex": "Achte bitte auf die Zeit. — Please pay attention to the time.",
+  "c": "Verb + Präposition",
+  "lvl": "B1"
+ },
+ {
+  "w": "sich bedanken für",
+  "e": "to thank for",
+  "ex": "Ich möchte mich für deine Hilfe bedanken. — I'd like to thank you for your help.",
+  "c": "Verb + Präposition",
+  "lvl": "B1"
+ },
+ {
+  "w": "bestehen aus",
+  "e": "to consist of",
+  "ex": "Das Team besteht aus fünf Leuten. — The team consists of five people.",
+  "c": "Verb + Präposition",
+  "lvl": "B1"
+ },
+ {
+  "w": "sich handeln um",
+  "e": "to be a matter of",
+  "ex": "Es handelt sich um einen Fehler. — It's a matter of an error.",
+  "c": "Verb + Präposition",
+  "lvl": "B2"
+ },
+ {
+  "w": "rechnen mit",
+  "e": "to reckon with / expect",
+  "ex": "Ich rechne mit Verspätung. — I'm expecting a delay.",
+  "c": "Verb + Präposition",
+  "lvl": "B2"
+ },
+ {
+  "w": "aufhören mit",
+  "e": "to stop doing",
+  "ex": "Ich höre mit dem Rauchen auf. — I'm stopping smoking.",
+  "c": "Verb + Präposition",
+  "lvl": "B1"
+ },
+ {
+  "w": "sich vorbereiten auf",
+  "e": "to prepare for",
+  "ex": "Ich bereite mich auf die Prüfung vor. — I'm preparing for the exam.",
+  "c": "Verb + Präposition",
+  "lvl": "B1"
+ },
+ {
+  "w": "Bescheid sagen",
+  "e": "to say the word / let know",
+  "ex": "Sag einfach Bescheid, wenn du Hilfe brauchst. — Just say the word if you need help.",
+  "c": "Alltag",
+  "lvl": "B1"
+ },
+ {
+  "w": "Kannst du mir einen Gefallen tun?",
+  "e": "Can you do me a favour?",
+  "ex": "Kannst du mir kurz einen Gefallen tun? — Can you do me a quick favour?",
+  "c": "Alltag",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich bin gleich zurück.",
+  "e": "I'll be right back.",
+  "ex": "Warte kurz, ich bin gleich zurück. — Wait a moment, I'll be right back.",
+  "c": "Alltag",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich bin unterwegs.",
+  "e": "I'm on my way.",
+  "ex": "Ich bin schon unterwegs zu dir. — I'm already on my way to you.",
+  "c": "Alltag",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich komme etwas später.",
+  "e": "I'll be a bit late.",
+  "ex": "Ich komme leider etwas später. — Unfortunately I'll be a bit late.",
+  "c": "Alltag",
+  "lvl": "A2"
+ },
+ {
+  "w": "Es hat nicht geklappt.",
+  "e": "It didn't work out.",
+  "ex": "Leider hat es nicht geklappt. — Unfortunately it didn't work out.",
+  "c": "Alltag",
+  "lvl": "B1"
+ },
+ {
+  "w": "Das lässt sich machen.",
+  "e": "That can be arranged.",
+  "ex": "Kein Problem, das lässt sich machen. — No problem, that can be arranged.",
+  "c": "Alltag",
+  "lvl": "B2"
+ },
+ {
+  "w": "Da kann man nichts machen.",
+  "e": "Nothing can be done about it.",
+  "ex": "Schade, aber da kann man nichts machen. — Too bad, but nothing can be done about it.",
+  "c": "Alltag",
+  "lvl": "B1"
+ },
+ {
+  "w": "Das wird schon.",
+  "e": "It'll be fine.",
+  "ex": "Keine Sorge, das wird schon. — Don't worry, it'll be fine.",
+  "c": "Alltag",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich habe es eilig.",
+  "e": "I'm in a hurry.",
+  "ex": "Sorry, ich habe es gerade eilig. — Sorry, I'm in a hurry right now.",
+  "c": "Alltag",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich habe mich verlaufen.",
+  "e": "I've got lost (on foot).",
+  "ex": "Entschuldigung, ich habe mich verlaufen. — Excuse me, I've got lost.",
+  "c": "Unterwegs",
+  "lvl": "B1"
+ },
+ {
+  "w": "Wie komme ich am besten zu …?",
+  "e": "What's the best way to get to …?",
+  "ex": "Wie komme ich am besten zum Hauptbahnhof? — What's the best way to get to the main station?",
+  "c": "Unterwegs",
+  "lvl": "A2"
+ },
+ {
+  "w": "Fährt dieser Bus nach …?",
+  "e": "Does this bus go to …?",
+  "ex": "Entschuldigung, fährt dieser Bus nach Schwabing? — Excuse me, does this bus go to Schwabing?",
+  "c": "Unterwegs",
+  "lvl": "A2"
+ },
+ {
+  "w": "Von welchem Gleis fährt der Zug?",
+  "e": "Which platform does the train leave from?",
+  "ex": "Von welchem Gleis fährt der Zug nach Berlin? — Which platform does the train to Berlin leave from?",
+  "c": "Unterwegs",
+  "lvl": "A2"
+ },
+ {
+  "w": "Der Zug hat Verspätung.",
+  "e": "The train is delayed.",
+  "ex": "Der Zug hat zwanzig Minuten Verspätung. — The train is twenty minutes late.",
+  "c": "Unterwegs",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich muss umsteigen.",
+  "e": "I have to change (trains).",
+  "ex": "Ich muss in Pasing umsteigen. — I have to change at Pasing.",
+  "c": "Unterwegs",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ist dieser Platz noch frei?",
+  "e": "Is this seat still free?",
+  "ex": "Entschuldigung, ist dieser Platz noch frei? — Excuse me, is this seat still free?",
+  "c": "Unterwegs",
+  "lvl": "A2"
+ },
+ {
+  "w": "Könnten Sie mir das auf der Karte zeigen?",
+  "e": "Could you show me that on the map?",
+  "ex": "Könnten Sie mir das bitte auf der Karte zeigen? — Could you please show me that on the map?",
+  "c": "Unterwegs",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich hätte gern …",
+  "e": "I'd like …",
+  "ex": "Ich hätte gern einen Kaffee, bitte. — I'd like a coffee, please.",
+  "c": "Restaurant",
+  "lvl": "A2"
+ },
+ {
+  "w": "Was können Sie empfehlen?",
+  "e": "What can you recommend?",
+  "ex": "Was können Sie uns empfehlen? — What can you recommend to us?",
+  "c": "Restaurant",
+  "lvl": "A2"
+ },
+ {
+  "w": "Zum Mitnehmen, bitte.",
+  "e": "To take away, please.",
+  "ex": "Einen Kaffee zum Mitnehmen, bitte. — A coffee to take away, please.",
+  "c": "Restaurant",
+  "lvl": "A2"
+ },
+ {
+  "w": "Die Rechnung, bitte.",
+  "e": "The bill, please.",
+  "ex": "Wir würden gern zahlen – die Rechnung, bitte. — We'd like to pay – the bill, please.",
+  "c": "Restaurant",
+  "lvl": "A2"
+ },
+ {
+  "w": "Zusammen oder getrennt?",
+  "e": "Together or separately?",
+  "ex": "Zahlen Sie zusammen oder getrennt? — Are you paying together or separately?",
+  "c": "Restaurant",
+  "lvl": "A2"
+ },
+ {
+  "w": "Stimmt so.",
+  "e": "Keep the change.",
+  "ex": "Zwanzig Euro – stimmt so. — Twenty euros – keep the change.",
+  "c": "Restaurant",
+  "lvl": "B1"
+ },
+ {
+  "w": "Hat es geschmeckt?",
+  "e": "Did you enjoy it?",
+  "ex": "Und, hat es Ihnen geschmeckt? — So, did you enjoy it?",
+  "c": "Restaurant",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich bin allergisch gegen …",
+  "e": "I'm allergic to …",
+  "ex": "Ich bin allergisch gegen Nüsse. — I'm allergic to nuts.",
+  "c": "Restaurant",
+  "lvl": "A2"
+ },
+ {
+  "w": "Haben Sie vegetarische Gerichte?",
+  "e": "Do you have vegetarian dishes?",
+  "ex": "Haben Sie auch vegetarische Gerichte? — Do you also have vegetarian dishes?",
+  "c": "Restaurant",
+  "lvl": "A2"
+ },
+ {
+  "w": "Könnten wir bitte bestellen?",
+  "e": "Could we order, please?",
+  "ex": "Entschuldigung, könnten wir bitte bestellen? — Excuse me, could we order please?",
+  "c": "Restaurant",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich melde mich krank.",
+  "e": "I'm calling in sick.",
+  "ex": "Ich melde mich heute krank. — I'm calling in sick today.",
+  "c": "Arbeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich bin im Homeoffice.",
+  "e": "I'm working from home.",
+  "ex": "Morgen bin ich im Homeoffice. — Tomorrow I'm working from home.",
+  "c": "Arbeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich kümmere mich darum.",
+  "e": "I'll take care of it.",
+  "ex": "Kein Problem, ich kümmere mich darum. — No problem, I'll take care of it.",
+  "c": "Arbeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich gebe dir Bescheid, sobald ich mehr weiß.",
+  "e": "I'll let you know as soon as I know more.",
+  "ex": "Ich gebe dir Bescheid, sobald ich mehr weiß. — I'll let you know as soon as I know more.",
+  "c": "Arbeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Das steht auf meiner Liste.",
+  "e": "That's on my list.",
+  "ex": "Keine Sorge, das steht auf meiner Liste. — Don't worry, that's on my list.",
+  "c": "Arbeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Können wir das kurz besprechen?",
+  "e": "Can we discuss that briefly?",
+  "ex": "Können wir das nachher kurz besprechen? — Can we briefly discuss that later?",
+  "c": "Arbeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich schicke dir das per Mail.",
+  "e": "I'll send you that by email.",
+  "ex": "Ich schicke dir die Unterlagen per Mail. — I'll send you the documents by email.",
+  "c": "Arbeit",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich bin in einem Termin.",
+  "e": "I'm in a meeting.",
+  "ex": "Ich bin gerade in einem Termin. — I'm in a meeting right now.",
+  "c": "Arbeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich habe es auf dem Schirm.",
+  "e": "I've got it on my radar.",
+  "ex": "Keine Sorge, ich habe es auf dem Schirm. — Don't worry, I've got it on my radar.",
+  "c": "Arbeit",
+  "lvl": "B2"
+ },
+ {
+  "w": "Das ist noch in Arbeit.",
+  "e": "That's still in progress.",
+  "ex": "Der Bericht ist noch in Arbeit. — The report is still in progress.",
+  "c": "Arbeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich hänge etwas hinterher.",
+  "e": "I'm running a bit behind.",
+  "ex": "Ich hänge diese Woche etwas hinterher. — I'm running a bit behind this week.",
+  "c": "Arbeit",
+  "lvl": "B2"
+ },
+ {
+  "w": "Das hat Priorität.",
+  "e": "That has priority.",
+  "ex": "Diese Aufgabe hat Priorität. — This task has priority.",
+  "c": "Arbeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Können wir den Termin verschieben?",
+  "e": "Can we move the appointment?",
+  "ex": "Können wir den Termin auf Donnerstag verschieben? — Can we move the appointment to Thursday?",
+  "c": "Arbeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich melde mich bei dir.",
+  "e": "I'll get back to you.",
+  "ex": "Ich melde mich morgen bei dir. — I'll get back to you tomorrow.",
+  "c": "Arbeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Vielen Dank im Voraus.",
+  "e": "Many thanks in advance.",
+  "ex": "Vielen Dank im Voraus für Ihre Hilfe. — Many thanks in advance for your help.",
+  "c": "Arbeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Mit freundlichen Grüßen",
+  "e": "Kind regards (letter closing)",
+  "ex": "Mit freundlichen Grüßen, Umair — Kind regards, Umair",
+  "c": "Arbeit",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich beziehe mich auf Ihre E-Mail vom …",
+  "e": "I refer to your email of …",
+  "ex": "Ich beziehe mich auf Ihre E-Mail vom 3. Mai. — I refer to your email of 3 May.",
+  "c": "Arbeit",
+  "lvl": "B2"
+ },
+ {
+  "w": "Könnten Sie mir bitte mitteilen, ob …?",
+  "e": "Could you please let me know whether …?",
+  "ex": "Könnten Sie mir bitte mitteilen, ob der Termin steht? — Could you please let me know whether the appointment is confirmed?",
+  "c": "Arbeit",
+  "lvl": "B2"
+ },
+ {
+  "w": "Ich würde mich über eine Rückmeldung freuen.",
+  "e": "I'd appreciate a reply.",
+  "ex": "Ich würde mich über eine kurze Rückmeldung freuen. — I'd appreciate a brief reply.",
+  "c": "Arbeit",
+  "lvl": "B2"
+ },
+ {
+  "w": "Es geht mir nicht gut.",
+  "e": "I'm not feeling well.",
+  "ex": "Heute geht es mir nicht so gut. — I'm not feeling so well today.",
+  "c": "Gesundheit",
+  "lvl": "A2"
+ },
+ {
+  "w": "Mir ist schlecht.",
+  "e": "I feel sick.",
+  "ex": "Mir ist seit heute Morgen schlecht. — I've felt sick since this morning.",
+  "c": "Gesundheit",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich habe starke Kopfschmerzen.",
+  "e": "I have a bad headache.",
+  "ex": "Seit gestern habe ich starke Kopfschmerzen. — I've had a bad headache since yesterday.",
+  "c": "Gesundheit",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich brauche einen Termin beim Arzt.",
+  "e": "I need a doctor's appointment.",
+  "ex": "Ich brauche dringend einen Termin beim Arzt. — I urgently need a doctor's appointment.",
+  "c": "Gesundheit",
+  "lvl": "A2"
+ },
+ {
+  "w": "Gute Besserung!",
+  "e": "Get well soon!",
+  "ex": "Gute Besserung, ruh dich aus! — Get well soon, get some rest!",
+  "c": "Gesundheit",
+  "lvl": "A2"
+ },
+ {
+  "w": "Können Sie mir bitte helfen?",
+  "e": "Can you help me, please?",
+  "ex": "Entschuldigung, können Sie mir bitte helfen? — Excuse me, can you help me please?",
+  "c": "Gesundheit",
+  "lvl": "A2"
+ },
+ {
+  "w": "Rufen Sie bitte einen Krankenwagen!",
+  "e": "Please call an ambulance!",
+  "ex": "Schnell, rufen Sie bitte einen Krankenwagen! — Quick, please call an ambulance!",
+  "c": "Gesundheit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich habe mich verletzt.",
+  "e": "I've hurt myself.",
+  "ex": "Ich habe mich beim Sport verletzt. — I hurt myself doing sport.",
+  "c": "Gesundheit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich bin krankgeschrieben.",
+  "e": "I'm signed off sick.",
+  "ex": "Ich bin bis Freitag krankgeschrieben. — I'm signed off sick until Friday.",
+  "c": "Gesundheit",
+  "lvl": "B2"
+ },
+ {
+  "w": "Ich muss einen Termin absagen.",
+  "e": "I have to cancel an appointment.",
+  "ex": "Ich muss meinen Termin leider absagen. — I'm afraid I have to cancel my appointment.",
+  "c": "Alltag",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich möchte mich anmelden.",
+  "e": "I'd like to register.",
+  "ex": "Ich möchte mich beim Bürgerbüro anmelden. — I'd like to register at the citizens' office.",
+  "c": "Alltag",
+  "lvl": "B1"
+ },
+ {
+  "w": "Welche Unterlagen brauche ich?",
+  "e": "Which documents do I need?",
+  "ex": "Welche Unterlagen brauche ich für den Antrag? — Which documents do I need for the application?",
+  "c": "Alltag",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich habe eine Frage zu meiner Rechnung.",
+  "e": "I have a question about my bill.",
+  "ex": "Guten Tag, ich habe eine Frage zu meiner Rechnung. — Hello, I have a question about my bill.",
+  "c": "Alltag",
+  "lvl": "B1"
+ },
+ {
+  "w": "Könnten Sie das bitte wiederholen?",
+  "e": "Could you repeat that, please?",
+  "ex": "Entschuldigung, könnten Sie das bitte wiederholen? — Sorry, could you repeat that please?",
+  "c": "Alltag",
+  "lvl": "A2"
+ },
+ {
+  "w": "Könnten Sie bitte etwas langsamer sprechen?",
+  "e": "Could you speak a bit more slowly, please?",
+  "ex": "Könnten Sie bitte etwas langsamer sprechen? — Could you speak a bit more slowly, please?",
+  "c": "Alltag",
+  "lvl": "A2"
+ },
+ {
+  "w": "Wie schreibt man das?",
+  "e": "How do you spell that?",
+  "ex": "Wie schreibt man das, bitte? — How do you spell that, please?",
+  "c": "Alltag",
+  "lvl": "A2"
+ },
+ {
+  "w": "Was bedeutet das genau?",
+  "e": "What exactly does that mean?",
+  "ex": "Entschuldigung, was bedeutet das genau? — Excuse me, what exactly does that mean?",
+  "c": "Alltag",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich verstehe nur Bahnhof.",
+  "e": "I don't understand a thing.",
+  "ex": "Sorry, ich verstehe nur Bahnhof. — Sorry, I don't understand a thing.",
+  "c": "Redewendungen",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich drücke dir die Daumen.",
+  "e": "I'll keep my fingers crossed for you.",
+  "ex": "Ich drücke dir die Daumen für morgen! — I'll keep my fingers crossed for you tomorrow!",
+  "c": "Redewendungen",
+  "lvl": "B1"
+ },
+ {
+  "w": "Schwein haben",
+  "e": "to get lucky",
+  "ex": "Du hast echt Schwein gehabt. — You really got lucky.",
+  "c": "Redewendungen",
+  "lvl": "B1"
+ },
+ {
+  "w": "Das ist mir Wurst.",
+  "e": "I couldn't care less.",
+  "ex": "Ob wir gehen oder nicht, ist mir Wurst. — Whether we go or not, I couldn't care less.",
+  "c": "Redewendungen",
+  "lvl": "B1"
+ },
+ {
+  "w": "Am Ball bleiben",
+  "e": "to stick with it",
+  "ex": "Du musst am Ball bleiben, dann klappt es. — You have to stick with it, then it'll work.",
+  "c": "Redewendungen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Auf der Leitung stehen",
+  "e": "to be slow on the uptake",
+  "ex": "Sorry, ich stehe gerade auf der Leitung. — Sorry, I'm being slow right now.",
+  "c": "Redewendungen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Den Nagel auf den Kopf treffen",
+  "e": "to hit the nail on the head",
+  "ex": "Damit hast du den Nagel auf den Kopf getroffen. — With that you hit the nail on the head.",
+  "c": "Redewendungen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Ein Brett vor dem Kopf haben",
+  "e": "to be dense about something obvious",
+  "ex": "Ich hatte total ein Brett vor dem Kopf. — I was completely dense about it.",
+  "c": "Redewendungen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Seinen Senf dazugeben",
+  "e": "to add one's two cents",
+  "ex": "Er muss immer seinen Senf dazugeben. — He always has to add his two cents.",
+  "c": "Redewendungen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Da haben wir den Salat.",
+  "e": "Now we're in a mess.",
+  "ex": "Server abgestürzt – da haben wir den Salat. — Server crashed – now we're in a mess.",
+  "c": "Redewendungen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Einen Kater haben",
+  "e": "to have a hangover",
+  "ex": "Nach der Party habe ich einen Kater. — After the party I have a hangover.",
+  "c": "Redewendungen",
+  "lvl": "B1"
+ },
+ {
+  "w": "Die Katze im Sack kaufen",
+  "e": "to buy a pig in a poke",
+  "ex": "Ich kaufe doch nicht die Katze im Sack. — I'm not buying a pig in a poke.",
+  "c": "Redewendungen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Butter bei die Fische!",
+  "e": "Get to the point!",
+  "ex": "Jetzt mal Butter bei die Fische – was kostet es? — Now get to the point – what does it cost?",
+  "c": "Redewendungen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Durch die Blume sagen",
+  "e": "to say something indirectly",
+  "ex": "Er hat es durch die Blume gesagt. — He said it indirectly.",
+  "c": "Redewendungen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Blaumachen",
+  "e": "to skive off work",
+  "ex": "Er hat gestern einfach blaugemacht. — He simply skived off yesterday.",
+  "c": "Redewendungen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Das ist nicht mein Bier.",
+  "e": "That's not my problem.",
+  "ex": "Sorry, das ist nicht mein Bier. — Sorry, that's not my problem.",
+  "c": "Redewendungen",
+  "lvl": "B1"
+ },
+ {
+  "w": "Etwas unter den Teppich kehren",
+  "e": "to sweep something under the rug",
+  "ex": "Das Problem wurde unter den Teppich gekehrt. — The problem was swept under the rug.",
+  "c": "Redewendungen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Das ist Schnee von gestern.",
+  "e": "That's old news.",
+  "ex": "Vergiss es, das ist Schnee von gestern. — Forget it, that's old news.",
+  "c": "Redewendungen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Jemanden auf den Arm nehmen",
+  "e": "to pull someone's leg",
+  "ex": "Du nimmst mich auf den Arm, oder? — You're pulling my leg, right?",
+  "c": "Redewendungen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Die Nase voll haben von",
+  "e": "to be fed up with",
+  "ex": "Ich habe die Nase voll von den Ausreden. — I'm fed up with the excuses.",
+  "c": "Redewendungen",
+  "lvl": "B1"
+ },
+ {
+  "w": "Es geht um Leben und Tod.",
+  "e": "It's a matter of life and death.",
+  "ex": "Keine Panik, es geht nicht um Leben und Tod. — No panic, it's not a matter of life and death.",
+  "c": "Redewendungen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Alles hat seine Zeit.",
+  "e": "Everything in due time.",
+  "ex": "Keine Eile – alles hat seine Zeit. — No rush – everything in due time.",
+  "c": "Redewendungen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Übung macht den Meister.",
+  "e": "Practice makes perfect.",
+  "ex": "Nicht aufgeben: Übung macht den Meister. — Don't give up: practice makes perfect.",
+  "c": "Redewendungen",
+  "lvl": "B1"
+ },
+ {
+  "w": "Aller Anfang ist schwer.",
+  "e": "All beginnings are hard.",
+  "ex": "Keine Sorge, aller Anfang ist schwer. — Don't worry, all beginnings are hard.",
+  "c": "Redewendungen",
+  "lvl": "B1"
+ },
+ {
+  "w": "Es lohnt sich (nicht).",
+  "e": "It's (not) worth it.",
+  "ex": "Der Umweg lohnt sich wirklich. — The detour is really worth it.",
+  "c": "Alltag",
+  "lvl": "B1"
+ },
+ {
+  "w": "Es kommt nicht in Frage.",
+  "e": "It's out of the question.",
+  "ex": "Nein, das kommt nicht in Frage. — No, that's out of the question.",
+  "c": "Alltag",
+  "lvl": "B2"
+ },
+ {
+  "w": "Das ist Geschmackssache.",
+  "e": "That's a matter of taste.",
+  "ex": "Ob das schön ist, ist Geschmackssache. — Whether that's beautiful is a matter of taste.",
+  "c": "Alltag",
+  "lvl": "B2"
+ },
+ {
+  "w": "Das ist einen Versuch wert.",
+  "e": "That's worth a try.",
+  "ex": "Warum nicht? Das ist einen Versuch wert. — Why not? That's worth a try.",
+  "c": "Alltag",
+  "lvl": "B2"
+ },
+ {
+  "w": "Da bin ich ganz bei dir.",
+  "e": "I'm completely with you on that.",
+  "ex": "Da bin ich ganz bei dir. — I'm completely with you on that.",
+  "c": "Zustimmen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Das kann ich nachvollziehen.",
+  "e": "I can understand that.",
+  "ex": "Deine Reaktion kann ich gut nachvollziehen. — I can well understand your reaction.",
+  "c": "Zustimmen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Das leuchtet mir ein.",
+  "e": "That makes sense to me.",
+  "ex": "Ja, das leuchtet mir ein. — Yes, that makes sense to me.",
+  "c": "Zustimmen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Da ist etwas dran, aber …",
+  "e": "There's something in that, but …",
+  "ex": "Da ist etwas dran, aber ich sehe ein Risiko. — There's something in that, but I see a risk.",
+  "c": "Widersprechen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Ich würde eher sagen, dass …",
+  "e": "I'd rather say that …",
+  "ex": "Ich würde eher sagen, dass es am Timing lag. — I'd rather say it was down to the timing.",
+  "c": "Widersprechen",
+  "lvl": "B2"
+ },
+ {
+  "w": "Ich habe da gemischte Gefühle.",
+  "e": "I have mixed feelings about that.",
+  "ex": "Bei dem Angebot habe ich gemischte Gefühle. — I have mixed feelings about that offer.",
+  "c": "Vage",
+  "lvl": "B2"
+ },
+ {
+  "w": "Das muss ich mir überlegen.",
+  "e": "I need to think about that.",
+  "ex": "Das muss ich mir noch überlegen. — I still need to think about that.",
+  "c": "Vage",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich lasse es dich wissen.",
+  "e": "I'll let you know.",
+  "ex": "Sobald ich es weiß, lasse ich es dich wissen. — As soon as I know, I'll let you know.",
+  "c": "Alltag",
+  "lvl": "B1"
+ },
+ {
+  "w": "Wenn es dir recht ist, …",
+  "e": "If that's all right with you, …",
+  "ex": "Wenn es dir recht ist, komme ich später. — If that's all right with you, I'll come later.",
+  "c": "Höflichkeit",
+  "lvl": "B2"
+ },
+ {
+  "w": "Wäre es möglich, dass …?",
+  "e": "Would it be possible that …?",
+  "ex": "Wäre es möglich, dass wir früher anfangen? — Would it be possible for us to start earlier?",
+  "c": "Höflichkeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Dürfte ich Sie kurz stören?",
+  "e": "Might I disturb you briefly?",
+  "ex": "Entschuldigung, dürfte ich Sie kurz stören? — Excuse me, might I disturb you briefly?",
+  "c": "Höflichkeit",
+  "lvl": "B2"
+ },
+ {
+  "w": "Es wäre nett, wenn du …",
+  "e": "It would be nice if you …",
+  "ex": "Es wäre nett, wenn du kurz Bescheid gibst. — It would be nice if you let me know.",
+  "c": "Höflichkeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Vielen Dank für deine Hilfe.",
+  "e": "Many thanks for your help.",
+  "ex": "Vielen Dank für deine Hilfe gestern. — Many thanks for your help yesterday.",
+  "c": "Höflichkeit",
+  "lvl": "A2"
+ },
+ {
+  "w": "Das ist sehr nett von dir.",
+  "e": "That's very kind of you.",
+  "ex": "Das ist wirklich sehr nett von dir. — That's really very kind of you.",
+  "c": "Höflichkeit",
+  "lvl": "A2"
+ },
+ {
+  "w": "Entschuldige die Verspätung.",
+  "e": "Sorry for the delay.",
+  "ex": "Entschuldige die Verspätung, der Zug fiel aus. — Sorry for the delay, the train was cancelled.",
+  "c": "Höflichkeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich wollte mich nur kurz melden.",
+  "e": "I just wanted to check in.",
+  "ex": "Ich wollte mich nur kurz melden und Hallo sagen. — I just wanted to check in and say hi.",
+  "c": "Höflichkeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Nichts für ungut.",
+  "e": "No hard feelings.",
+  "ex": "War nicht so gemeint – nichts für ungut. — It wasn't meant like that – no hard feelings.",
+  "c": "Höflichkeit",
+  "lvl": "B2"
+ },
+ {
+  "w": "Das bedeutet mir viel.",
+  "e": "That means a lot to me.",
+  "ex": "Danke, das bedeutet mir viel. — Thanks, that means a lot to me.",
+  "c": "Höflichkeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Super gemacht!",
+  "e": "Well done!",
+  "ex": "Super gemacht, weiter so! — Well done, keep it up!",
+  "c": "Höflichkeit",
+  "lvl": "A2"
+ },
+ {
+  "w": "Viel Erfolg!",
+  "e": "Good luck (with it)!",
+  "ex": "Viel Erfolg bei der Prüfung! — Good luck with the exam!",
+  "c": "Höflichkeit",
+  "lvl": "A2"
+ },
+ {
+  "w": "Schönen Tag noch!",
+  "e": "Have a nice day!",
+  "ex": "Danke und schönen Tag noch! — Thanks and have a nice day!",
+  "c": "Höflichkeit",
+  "lvl": "A2"
+ }
+]

@@ -6,3 +6,9 @@ public/data/*.bak
 
 # Vite temp files
 vite.config.js.timestamp-*.mjs
+
+# Local scratch
+_to_delete/
+.buildcheck*/
+.claude/
+memory/

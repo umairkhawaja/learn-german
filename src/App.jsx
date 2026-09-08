@@ -29,7 +29,7 @@ import { useCloudSync } from "./engine/useCloudSync";
 import { Header } from "./components/Header";
 import { BottomNav } from "./components/BottomNav";
 import { QuizView } from "./components/QuizView";
-import { ExercisesView } from "./components/ExercisesView";
+import { ChunksView } from "./components/ChunksView";
 import { BrowseView } from "./components/BrowseView";
 import { CheatsheetView } from "./components/CheatsheetView";
 import { StatsView } from "./components/StatsView";
@@ -43,7 +43,7 @@ export default function DeutschMeister() {
   // against the initial {} can be overwritten by the later local setProgress,
   // and a push of {} would clobber the remote backup.
   const [progressLoaded, setProgressLoaded] = useState(false);
-  const [view, setView] = useState("quiz"); // quiz | exercises | browse | cheatsheet | notes | stats
+  const [view, setView] = useState("quiz"); // quiz | chunks | browse | cheatsheet | notes | stats
   const [activeCat, setActiveCat] = useState(0);
   const [levelFilter, setLevelFilter] = useState("All");
 
@@ -95,7 +95,7 @@ export default function DeutschMeister() {
       ) : (
       <div style={{ maxWidth: 680, margin: "0 auto", padding: "18px 16px 96px", width: "100%" }}>
         {view === "quiz" && <QuizView key={cat.id} cat={cat} progress={progress} setProgress={setProgress} levelFilter={levelFilter} db={db} />}
-        {view === "exercises" && <ExercisesView levelFilter={levelFilter} />}
+        {view === "chunks" && <ChunksView progress={progress} setProgress={setProgress} />}
         {view === "browse" && <BrowseView key={cat.id} cat={cat} progress={progress} setProgress={setProgress} levelFilter={levelFilter} db={db} />}
         {view === "notes" && <NotesView />}
         {view === "stats" && <StatsView progress={progress} setProgress={setProgress} levelFilter={levelFilter} driveStatus={driveStatus} setDriveStatus={setDriveStatus} cloudStatus={cloudStatus} setCloudStatus={setCloudStatus} db={db} />}

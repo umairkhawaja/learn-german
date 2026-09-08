@@ -7,15 +7,16 @@ import { LevelSwitcher } from "./LevelSwitcher";
 // The single source of truth for the app's views. Bottom nav reuses it.
 export const VIEWS = [
   { id: "quiz", label: "Quiz", icon: "📚" },
-  { id: "exercises", label: "Exercises", icon: "✏️" },
+  { id: "chunks", label: "Chunks", icon: "🧩" },
   { id: "browse", label: "Browse", icon: "🔍" },
   { id: "cheatsheet", label: "Spickzettel", icon: "📖" },
   { id: "notes", label: "Notes", icon: "📝" },
   { id: "stats", label: "Stats", icon: "📊" },
 ];
 
-const NO_LEVELS = new Set(["cheatsheet", "notes"]);
-const NO_CATEGORIES = new Set(["stats", "cheatsheet", "notes", "exercises"]);
+// Chunks brings its own level chips (A2+ only), so the shared switcher is hidden there.
+const NO_LEVELS = new Set(["cheatsheet", "notes", "chunks"]);
+const NO_CATEGORIES = new Set(["stats", "cheatsheet", "notes", "chunks"]);
 
 export function Header({ db, view, setView, levelFilter, setLevelFilter, activeCat, setActiveCat, backlogCount }) {
   const totalWords = CATEGORIES.reduce((s, c) => s + db[c.key].length, 0);

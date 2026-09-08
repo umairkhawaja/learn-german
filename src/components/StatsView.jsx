@@ -1,14 +1,30 @@
 // ── Stats view: per-level + per-category progress, backup, reset
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { COLORS, TXT, MUTE, FAINT } from "../config/theme";
 import { LEVELS, lvlOf, levelsPresent } from "../config/levels";
 import { CATEGORIES } from "../config/categories";
 import { keyOf, clearProgress, isMastered } from "../engine/progress";
 import { StatTile } from "./ui";
+import { CHUNK_CAT_ID } from "./ChunksView";
 import { BackupPanel } from "./BackupPanel";
 
 export function StatsView({ progress, setProgress, levelFilter, driveStatus, setDriveStatus, cloudStatus, setCloudStatus, db }) {
   const [confirm, setConfirm] = useState(false);
+
+  // Chunks live outside the category registry (their own tab and card UI),
+  // so their mastery is rolled up here from public/data/chunks.json.
+  const [chunks, setChunks] = useState([]);
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}data/chunks.json`)
+      .then((r) => r.json()).then(setChunks).catch(() => setChunks([]));
+  }, []);
+  const chunkScope = chunks.filter((x) => levelFilter === "All" || x.lvl === levelFilter);
+  const chunkStats = chunkScope.reduce((a, x) => {
+    const p = progress[keyOf(CHUNK_CAT_ID, x)];
+    if (p && p.total > 0) { a.seen++; a.correct += p.correct; a.answered += p.total; }
+    if (isMastered(p)) a.mastered++;
+    return a;
+  }, { seen: 0, mastered: 0, correct: 0, answered: 0 });
 
   let mastered = 0, seen = 0, totalWords = 0, totCorrect = 0, totAns = 0;
   const perCat = CATEGORIES.map((cat) => {
@@ -88,6 +104,23 @@ export function StatsView({ progress, setProgress, levelFilter, driveStatus, set
           );
         })}
       </div>
+
+      {chunkScope.length > 0 && (
+        <div style={{ marginTop: 18 }}>
+          <div style={{ fontSize: 11, color: FAINT, textTransform: "uppercase", letterSpacing: 0.5, marginBottom: 8 }}>Chunks</div>
+          <div style={{ background: COLORS.surface, border: `1px solid ${COLORS.border}`, borderRadius: 12, padding: 15 }}>
+            <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 8 }}>
+              <span style={{ color: "#14b8a6", fontWeight: 700 }}>Everyday chunks</span>
+              <span style={{ color: MUTE, fontSize: 13 }}>{chunkStats.seen}/{chunkScope.length} seen · {chunkStats.mastered} mastered</span>
+            </div>
+            <div style={{ position: "relative", background: "#1f1f1f", borderRadius: 999, height: 7, marginBottom: 8, overflow: "hidden" }}>
+              <div style={{ position: "absolute", inset: 0, width: `${chunkScope.length ? (chunkStats.seen / chunkScope.length) * 100 : 0}%`, background: "#14b8a655", borderRadius: 999, transition: "width .5s" }} />
+              <div style={{ position: "absolute", inset: 0, width: `${chunkScope.length ? (chunkStats.mastered / chunkScope.length) * 100 : 0}%`, background: "#14b8a6", borderRadius: 999, transition: "width .5s" }} />
+            </div>
+            <div style={{ fontSize: 12, color: FAINT }}>{chunkStats.answered > 0 ? `${chunkStats.correct}/${chunkStats.answered} recalled (${Math.round((chunkStats.correct / chunkStats.answered) * 100)}%)` : "No chunk practice yet"}</div>
+          </div>
+        </div>
+      )}
 
       <BackupPanel progress={progress} setProgress={setProgress} driveStatus={driveStatus} setDriveStatus={setDriveStatus} cloudStatus={cloudStatus} setCloudStatus={setCloudStatus} />
 
