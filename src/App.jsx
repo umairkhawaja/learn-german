@@ -6,7 +6,7 @@
                    Fetched at runtime; no rebuild needed. Tag an entry with
                    lvl:"A2" to assign a level (no `lvl` → "A1").
    • Add a level → add one row to src/config/levels.js and tag data with
-                   that code. The switcher, counts, filters, review and
+                   that code. The switcher, counts, filters and
                    stats all pick it up automatically.
    • Add a category → push one descriptor into src/config/categories.jsx
                    (key, colour, catOf, german, detail renderer, modes[])
@@ -23,14 +23,13 @@ import { COLORS, FONT } from "./config/theme";
 import { CATEGORIES } from "./config/categories";
 import { loadDB } from "./data/db";
 import { loadProgress } from "./engine/progress";
-import { dueCount } from "./engine/quiz";
+import { backlogCount } from "./engine/quiz";
 import { useDriveSync } from "./engine/useDriveSync";
 import { useCloudSync } from "./engine/useCloudSync";
 import { Header } from "./components/Header";
 import { BottomNav } from "./components/BottomNav";
 import { QuizView } from "./components/QuizView";
 import { ExercisesView } from "./components/ExercisesView";
-import { ReviewView } from "./components/ReviewView";
 import { BrowseView } from "./components/BrowseView";
 import { CheatsheetView } from "./components/CheatsheetView";
 import { StatsView } from "./components/StatsView";
@@ -44,7 +43,7 @@ export default function DeutschMeister() {
   // against the initial {} can be overwritten by the later local setProgress,
   // and a push of {} would clobber the remote backup.
   const [progressLoaded, setProgressLoaded] = useState(false);
-  const [view, setView] = useState("quiz"); // quiz | exercises | review | browse | cheatsheet | notes | stats
+  const [view, setView] = useState("quiz"); // quiz | exercises | browse | cheatsheet | notes | stats
   const [activeCat, setActiveCat] = useState(0);
   const [levelFilter, setLevelFilter] = useState("All");
 
@@ -59,8 +58,8 @@ export default function DeutschMeister() {
   const { driveStatus, setDriveStatus } = useDriveSync(progress, setProgress, progressLoaded);
 
   const cat = CATEGORIES[activeCat];
-  const due = useMemo(
-    () => (db ? dueCount(db, CATEGORIES, progress, levelFilter) : 0),
+  const backlog = useMemo(
+    () => (db ? backlogCount(db, CATEGORIES, progress, levelFilter) : 0),
     [db, progress, levelFilter]
   );
 
@@ -86,7 +85,7 @@ export default function DeutschMeister() {
         db={db} view={view} setView={setView}
         levelFilter={levelFilter} setLevelFilter={setLevelFilter}
         activeCat={activeCat} setActiveCat={setActiveCat}
-        dueCount={due}
+        backlogCount={backlog}
       />
 
       {/* The Spickzettel brings its own 960px layout and scrolls inside its
@@ -97,14 +96,13 @@ export default function DeutschMeister() {
       <div style={{ maxWidth: 680, margin: "0 auto", padding: "18px 16px 96px", width: "100%" }}>
         {view === "quiz" && <QuizView key={cat.id} cat={cat} progress={progress} setProgress={setProgress} levelFilter={levelFilter} db={db} />}
         {view === "exercises" && <ExercisesView levelFilter={levelFilter} />}
-        {view === "review" && <ReviewView progress={progress} setProgress={setProgress} levelFilter={levelFilter} db={db} />}
         {view === "browse" && <BrowseView key={cat.id} cat={cat} progress={progress} setProgress={setProgress} levelFilter={levelFilter} db={db} />}
         {view === "notes" && <NotesView />}
         {view === "stats" && <StatsView progress={progress} setProgress={setProgress} levelFilter={levelFilter} driveStatus={driveStatus} setDriveStatus={setDriveStatus} cloudStatus={cloudStatus} setCloudStatus={setCloudStatus} db={db} />}
       </div>
       )}
 
-      <BottomNav view={view} setView={setView} dueCount={due} />
+      <BottomNav view={view} setView={setView} backlogCount={backlog} />
     </div>
   );
 }

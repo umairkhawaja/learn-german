@@ -8,7 +8,6 @@ import { LevelSwitcher } from "./LevelSwitcher";
 export const VIEWS = [
   { id: "quiz", label: "Quiz", icon: "📚" },
   { id: "exercises", label: "Exercises", icon: "✏️" },
-  { id: "review", label: "Review", icon: "🔁" },
   { id: "browse", label: "Browse", icon: "🔍" },
   { id: "cheatsheet", label: "Spickzettel", icon: "📖" },
   { id: "notes", label: "Notes", icon: "📝" },
@@ -16,9 +15,9 @@ export const VIEWS = [
 ];
 
 const NO_LEVELS = new Set(["cheatsheet", "notes"]);
-const NO_CATEGORIES = new Set(["review", "stats", "cheatsheet", "notes", "exercises"]);
+const NO_CATEGORIES = new Set(["stats", "cheatsheet", "notes", "exercises"]);
 
-export function Header({ db, view, setView, levelFilter, setLevelFilter, activeCat, setActiveCat, dueCount }) {
+export function Header({ db, view, setView, levelFilter, setLevelFilter, activeCat, setActiveCat, backlogCount }) {
   const totalWords = CATEGORIES.reduce((s, c) => s + db[c.key].length, 0);
 
   return (
@@ -38,8 +37,8 @@ export function Header({ db, view, setView, levelFilter, setLevelFilter, activeC
                   background: view === id ? "#2a2a2a" : "transparent", color: view === id ? COLORS.txtStrong : "#5b626f", fontWeight: view === id ? 600 : 400,
                 }}>
                 {icon} {label}
-                {id === "review" && dueCount > 0 && (
-                  <span style={{ marginLeft: 4, fontSize: 10, color: "#fff", background: "#a855f7", borderRadius: 999, padding: "1px 5px", fontWeight: 700 }}>{dueCount}</span>
+                {id === "quiz" && backlogCount > 0 && (
+                  <span style={{ marginLeft: 4, fontSize: 10, color: "#fff", background: "#a855f7", borderRadius: 999, padding: "1px 5px", fontWeight: 700 }}>{backlogCount}</span>
                 )}
               </button>
             ))}

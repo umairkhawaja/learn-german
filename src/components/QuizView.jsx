@@ -1,10 +1,10 @@
 // ── Quiz view: single-category session with mode/filter controls
 import { useState, useMemo, useCallback, useRef, useEffect } from "react";
-import { COLORS, TXT, MUTE } from "../config/theme";
+import { COLORS, TXT, MUTE, FAINT } from "../config/theme";
 import { lvlOf } from "../config/levels";
 import { subcatsOf } from "../config/categories";
 import { keyOf, isMastered } from "../engine/progress";
-import { pickSession } from "../engine/quiz";
+import { pickSession, pickChunk } from "../engine/quiz";
 import { QuizRunner } from "./QuizRunner";
 
 export function QuizView({ cat, progress, setProgress, levelFilter, db }) {
@@ -27,6 +27,13 @@ export function QuizView({ cat, progress, setProgress, levelFilter, db }) {
     });
   }, [cat, catFilter, levelFilter, db, progress, modeDef]);
 
+  // The chunk currently being mastered — new words beyond it stay locked
+  // until every word already introduced (attempted) reaches mastery, or
+  // is marked mastered by hand.
+  const chunk = useMemo(() => pickChunk(pool, progress, cat.id), [pool, progress, cat.id]);
+  const isBacklogChunk = chunk.length > 0 && chunk.some((it) => progress[keyOf(cat.id, it)]?.total > 0);
+  const locked = Math.max(0, pool.length - chunk.length);
+
   const buildQueue = useCallback((weak) => {
     const items = pickSession(pool, progressRef.current, cat.id, weak);
     setQueue(items.map((it) => ({ item: it, cat, question: modeDef.build(it, pool) })));
@@ -38,6 +45,13 @@ export function QuizView({ cat, progress, setProgress, levelFilter, db }) {
   useEffect(() => { buildQueue(focusWeak); /* eslint-disable-next-line */ }, [mode, catFilter, cat, levelFilter]);
 
   const controls = (
+    <div>
+    {chunk.length > 0 && (
+      <div style={{ fontSize: 12, color: MUTE, marginBottom: 10, display: "flex", alignItems: "center", gap: 6, flexWrap: "wrap" }}>
+        <span>📦 {isBacklogChunk ? "Mastering" : "New chunk"}: <b style={{ color: cat.color }}>{chunk.length}</b> word{chunk.length === 1 ? "" : "s"}</span>
+        {locked > 0 && <span style={{ color: FAINT }}>· {locked} more word{locked === 1 ? "" : "s"} locked until these are mastered</span>}
+      </div>
+    )}
     <div style={{ display: "flex", gap: 8, marginBottom: 12, flexWrap: "wrap", alignItems: "center" }}>
       <div style={{ display: "flex", gap: 3, background: COLORS.surfaceAlt, borderRadius: 9, padding: 3, flexWrap: "wrap" }}>
         {cat.modes.map((m) => (
@@ -59,6 +73,7 @@ export function QuizView({ cat, progress, setProgress, levelFilter, db }) {
         style={{ padding: "6px 10px", borderRadius: 9, border: `1px solid ${focusWeak ? cat.color : COLORS.borderSoft}`, background: focusWeak ? cat.color + "22" : COLORS.surfaceAlt, color: focusWeak ? cat.color : MUTE, fontSize: 12, cursor: "pointer", fontWeight: 600 }}>
         ◎ Weak
       </button>
+    </div>
     </div>
   );
 

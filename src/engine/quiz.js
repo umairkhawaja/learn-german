@@ -45,11 +45,31 @@ export function mcq(prompt, sub, answer, options) {
   };
 }
 
-// ── Single-category session (spaced repetition) ───────────────
+// ── Chunked mastery: work a fixed-size batch of words until every
+// one is mastered before the next batch is introduced ─────────
+// `pool` is expected to already exclude mastered items (callers filter
+// via isMastered — see QuizView). "Backlog" = words already introduced
+// (attempted at least once) but not yet mastered; while any backlog
+// remains, no new words are pulled in. Only once the whole backlog is
+// cleared (mastered automatically or via "Mark as mastered") does the
+// next chunk of brand-new words unlock, in data order.
+export const CHUNK_SIZE = 10;
+
+export function pickChunk(pool, progress, catId, chunkSize = CHUNK_SIZE) {
+  const backlog = pool.filter((it) => {
+    const p = progress[keyOf(catId, it)];
+    return p && p.total > 0;
+  });
+  if (backlog.length > 0) return backlog;
+  return pool.slice(0, chunkSize);
+}
+
+// ── Single-category session, scoped to the active chunk ────────
 export function pickSession(pool, progress, catId, focusWeak) {
-  let candidates = pool;
+  const chunk = pickChunk(pool, progress, catId);
+  let candidates = chunk;
   if (focusWeak) {
-    const weak = pool.filter((it) => {
+    const weak = chunk.filter((it) => {
       const p = progress[keyOf(catId, it)];
       return !p || p.mastery < 3;
     });
@@ -66,42 +86,17 @@ export function pickSession(pool, progress, catId, focusWeak) {
   return weightedSample(weighted, SESSION_LEN);
 }
 
-// ── Cross-category "due today" review (SRS schedule) ──────────
-// Gathers items from every category whose `due` timestamp has passed
-// (or that have never been scheduled), weighted by how overdue they
-// are. Each result carries its category + a translation question so
-// QuizRunner can render a mixed deck.
-export function pickDueReview(db, categories, progress, levelFilter) {
-  const now = Date.now();
-  const weighted = [];
-  for (const cat of categories) {
-    const pool = db[cat.key] || [];
-    const mode = cat.modes[0]; // review always asks the translation question
-    for (const it of pool) {
-      if (levelFilter !== "All" && lvlOf(it) !== levelFilter) continue;
-      if (mode.eligible && !mode.eligible(it)) continue;
-      const p = progress[keyOf(cat.id, it)];
-      if (!p || isMastered(p)) continue; // only practised, not-yet-mastered words
-      if (p.due && p.due > now) continue; // not due yet
-      const overdueDays = p.due ? Math.max(0, (now - p.due) / 86400000) : 1;
-      weighted.push({ it: { it, cat }, w: 1 + Math.min(overdueDays, 30) });
-    }
-  }
-  const picked = weightedSample(weighted, SESSION_LEN);
-  return picked.map(({ it, cat }) => {
-    const mode = cat.modes[0]; // translation
-    return { item: it, cat, question: mode.build(it, db[cat.key]) };
-  });
-}
-
-export function dueCount(db, categories, progress, levelFilter) {
-  const now = Date.now();
+// Count of already-introduced-but-not-yet-mastered words, across every
+// category (subject to the level filter). Drives the "words to master"
+// badge on the Quiz tab — this is the backlog that blocks new words from
+// unlocking in any category that has one.
+export function backlogCount(db, categories, progress, levelFilter) {
   let n = 0;
   for (const cat of categories) {
     for (const it of db[cat.key] || []) {
       if (levelFilter !== "All" && lvlOf(it) !== levelFilter) continue;
       const p = progress[keyOf(cat.id, it)];
-      if (p && !isMastered(p) && (!p.due || p.due <= now)) n++;
+      if (p && p.total > 0 && !isMastered(p)) n++;
     }
   }
   return n;

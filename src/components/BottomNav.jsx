@@ -2,7 +2,7 @@
 import { COLORS } from "../config/theme";
 import { VIEWS } from "./Header";
 
-export function BottomNav({ view, setView, dueCount }) {
+export function BottomNav({ view, setView, backlogCount }) {
   return (
     <div className="dm-bottom-nav" style={{
       position: "fixed", bottom: 0, left: 0, right: 0, zIndex: 30,
@@ -22,8 +22,8 @@ export function BottomNav({ view, setView, dueCount }) {
             <span style={{ fontSize: 17, opacity: active ? 1 : 0.7 }}>{icon}</span>
             <span style={{ fontSize: 9.5, fontWeight: active ? 700 : 500 }}>{label}</span>
             {active && <span style={{ position: "absolute", top: 0, left: "50%", transform: "translateX(-50%)", width: 22, height: 2.5, background: "#a855f7", borderRadius: 999 }} />}
-            {id === "review" && dueCount > 0 && (
-              <span style={{ position: "absolute", top: 4, right: "50%", marginRight: -22, fontSize: 9, color: "#fff", background: "#a855f7", borderRadius: 999, padding: "0px 4px", fontWeight: 700 }}>{dueCount}</span>
+            {id === "quiz" && backlogCount > 0 && (
+              <span style={{ position: "absolute", top: 4, right: "50%", marginRight: -22, fontSize: 9, color: "#fff", background: "#a855f7", borderRadius: 999, padding: "0px 4px", fontWeight: 700 }}>{backlogCount}</span>
             )}
           </button>
         );
