@@ -1090,5 +1090,586 @@
   "c": "Idioms & Connectors",
   "ex": "'Im Großen und Ganzen bin ich zufrieden.'",
   "lvl": "B1"
+ },
+ {
+  "w": "Ich bin dran.",
+  "e": "It's my turn.",
+  "c": "Small Talk",
+  "ex": "Du bist dran! — It's your turn! Common at the counter, in queues and in games.",
+  "lvl": "A2"
+ },
+ {
+  "w": "Verzeihung!",
+  "e": "Pardon me!",
+  "c": "Politeness",
+  "ex": "Slightly more formal than Entschuldigung; you hear it from older speakers.",
+  "lvl": "A2"
+ },
+ {
+  "w": "Es freut mich!",
+  "e": "Pleased to meet you!",
+  "c": "Introductions",
+  "ex": "— Ich heiße Umair. — Es freut mich! Full form: 'Es freut mich, Sie kennenzulernen.'",
+  "lvl": "A1"
+ },
+ {
+  "w": "Ich muss gehen.",
+  "e": "I have to go.",
+  "c": "Small Talk",
+  "ex": "Tut mir leid, ich muss gehen. — Sorry, I have to go.",
+  "lvl": "A1"
+ },
+ {
+  "w": "Mir geht's nicht gut.",
+  "e": "I'm not doing well.",
+  "c": "Small Talk",
+  "ex": "— Wie geht's? — Mir geht's nicht so gut. Note the dative: MIR geht es gut.",
+  "lvl": "A1"
+ },
+ {
+  "w": "Wollen wir …?",
+  "e": "Shall we …?",
+  "c": "Small Talk",
+  "ex": "Wollen wir einen Kaffee trinken? — Shall we get a coffee? The standard way to suggest something.",
+  "lvl": "A2"
+ },
+ {
+  "w": "Wie interessant!",
+  "e": "How interesting!",
+  "c": "Small Talk",
+  "ex": "An easy reaction that keeps a conversation going.",
+  "lvl": "A1"
+ },
+ {
+  "w": "Wie lästig!",
+  "e": "How annoying!",
+  "c": "Small Talk",
+  "ex": "Der Zug fällt schon wieder aus? Wie lästig! — The train is cancelled again? How annoying!",
+  "lvl": "B1"
+ },
+ {
+  "w": "Wie schade!",
+  "e": "What a pity!",
+  "c": "Small Talk",
+  "ex": "Du kannst nicht kommen? Wie schade! — You can't come? What a pity!",
+  "lvl": "A1"
+ },
+ {
+  "w": "Wie schön!",
+  "e": "How lovely!",
+  "c": "Small Talk",
+  "ex": "Ihr heiratet? Wie schön! — You're getting married? How lovely!",
+  "lvl": "A1"
+ },
+ {
+  "w": "Möchtest du ins Kino gehen?",
+  "e": "Would you like to go to the cinema?",
+  "c": "Small Talk",
+  "ex": "The polite invitation pattern: Möchtest du + activity + infinitive?",
+  "lvl": "A1"
+ },
+ {
+  "w": "Danke, aber da kann ich nicht. Machen wir es an einem anderen Tag?",
+  "e": "Thanks, but I can't then. Shall we do it another day?",
+  "c": "Politeness",
+  "ex": "A soft refusal that keeps the door open — very German in tone.",
+  "lvl": "A2"
+ },
+ {
+  "w": "Welche Größe?",
+  "e": "What size?",
+  "c": "Shopping",
+  "ex": "— Welche Größe haben Sie? — Größe 42, bitte.",
+  "lvl": "A1"
+ },
+ {
+  "w": "Es passt nicht.",
+  "e": "It doesn't fit.",
+  "c": "Shopping",
+  "ex": "Die Hose passt mir nicht. — The trousers don't fit me. 'passen' takes the dative.",
+  "lvl": "A2"
+ },
+ {
+  "w": "Diese Farbe steht dir gut.",
+  "e": "That colour suits you.",
+  "c": "Shopping",
+  "ex": "'stehen' + Dativ = to suit someone. Das Kleid steht dir gut.",
+  "lvl": "A2"
+ },
+ {
+  "w": "im Sonderangebot kaufen",
+  "e": "to buy on special offer",
+  "c": "Shopping",
+  "ex": "Ich habe den Kaffee im Sonderangebot gekauft. — I bought the coffee on special offer.",
+  "lvl": "B1"
+ },
+ {
+  "w": "Geld ausgeben",
+  "e": "to spend money",
+  "c": "Shopping",
+  "ex": "Ich gebe zu viel Geld für Bücher aus. — I spend too much money on books. Separable: ausgeben.",
+  "lvl": "A2"
+ },
+ {
+  "w": "Geld zurückbekommen",
+  "e": "to get money back",
+  "c": "Shopping",
+  "ex": "Kann ich mein Geld zurückbekommen? — Can I get my money back?",
+  "lvl": "A2"
+ },
+ {
+  "w": "Wie viel kostet das?",
+  "e": "How much does that cost?",
+  "c": "Shopping",
+  "ex": "Was kostet das? works just as well.",
+  "lvl": "A1"
+ },
+ {
+  "w": "Hunger haben",
+  "e": "to be hungry",
+  "c": "Restaurant",
+  "ex": "Ich habe Hunger. — I'm hungry. German 'has' hunger rather than 'being' hungry.",
+  "lvl": "A1"
+ },
+ {
+  "w": "Durst haben",
+  "e": "to be thirsty",
+  "c": "Restaurant",
+  "ex": "Hast du Durst? — Are you thirsty? Also 'durstig sein'.",
+  "lvl": "A1"
+ },
+ {
+  "w": "zu Mittag essen",
+  "e": "to have lunch",
+  "c": "Restaurant",
+  "ex": "Wir essen um zwölf zu Mittag. — We have lunch at twelve.",
+  "lvl": "A1"
+ },
+ {
+  "w": "zu Abend essen",
+  "e": "to have dinner",
+  "c": "Restaurant",
+  "ex": "Wann essen wir zu Abend? — When are we having dinner?",
+  "lvl": "A1"
+ },
+ {
+  "w": "eine Diät machen",
+  "e": "to go on a diet",
+  "c": "Small Talk",
+  "ex": "Ich mache gerade eine Diät. — I'm on a diet at the moment.",
+  "lvl": "A2"
+ },
+ {
+  "w": "Kopfschmerzen haben",
+  "e": "to have a headache",
+  "c": "Emergencies",
+  "ex": "Ich habe Kopfschmerzen. — I have a headache. Same pattern: Bauchschmerzen, Zahnschmerzen, Rückenschmerzen.",
+  "lvl": "A1"
+ },
+ {
+  "w": "Magenschmerzen haben",
+  "e": "to have stomach ache",
+  "c": "Emergencies",
+  "ex": "Seit gestern habe ich Magenschmerzen. — I've had stomach ache since yesterday.",
+  "lvl": "A2"
+ },
+ {
+  "w": "Zahnschmerzen haben",
+  "e": "to have toothache",
+  "c": "Emergencies",
+  "ex": "Ich habe Zahnschmerzen und brauche einen Termin. — I have toothache and need an appointment.",
+  "lvl": "A2"
+ },
+ {
+  "w": "Fieber haben",
+  "e": "to have a fever",
+  "c": "Emergencies",
+  "ex": "Das Kind hat Fieber. — The child has a fever.",
+  "lvl": "A1"
+ },
+ {
+  "w": "eine Erkältung haben",
+  "e": "to have a cold",
+  "c": "Emergencies",
+  "ex": "Ich habe eine Erkältung. — I have a cold. Also 'erkältet sein'.",
+  "lvl": "A2"
+ },
+ {
+  "w": "die Grippe haben",
+  "e": "to have the flu",
+  "c": "Emergencies",
+  "ex": "Sie hat die Grippe und bleibt zu Hause. — She has the flu and is staying home.",
+  "lvl": "A2"
+ },
+ {
+  "w": "Mir ist schlecht.",
+  "e": "I feel sick / nauseous.",
+  "c": "Emergencies",
+  "ex": "Dative construction, like 'Mir ist kalt' and 'Mir ist warm'. Also 'Mir ist übel.'",
+  "lvl": "A2"
+ },
+ {
+  "w": "eine Allergie gegen etwas haben",
+  "e": "to be allergic to something",
+  "c": "Emergencies",
+  "ex": "Ich habe eine Allergie gegen Nüsse. — I'm allergic to nuts. Also 'allergisch gegen + Akk sein'.",
+  "lvl": "A2"
+ },
+ {
+  "w": "sich das Bein brechen",
+  "e": "to break one's leg",
+  "c": "Emergencies",
+  "ex": "Er hat sich das Bein gebrochen. — He broke his leg. German uses sich + dative, not a possessive.",
+  "lvl": "A2"
+ },
+ {
+  "w": "Sport treiben",
+  "e": "to do sport / exercise",
+  "c": "Small Talk",
+  "ex": "Man soll regelmäßig Sport treiben. — One should exercise regularly. Also 'Sport machen'.",
+  "lvl": "A2"
+ },
+ {
+  "w": "ins Fitness-Studio gehen",
+  "e": "to go to the gym",
+  "c": "Small Talk",
+  "ex": "Ich gehe dreimal pro Woche ins Fitness-Studio.",
+  "lvl": "A2"
+ },
+ {
+  "w": "tief einatmen",
+  "e": "to take a deep breath",
+  "c": "Small Talk",
+  "ex": "Um sich zu beruhigen, soll man tief einatmen. — To calm down you should take a deep breath.",
+  "lvl": "B1"
+ },
+ {
+  "w": "eine Brille tragen",
+  "e": "to wear glasses",
+  "c": "Small Talk",
+  "ex": "Ich trage seit meiner Kindheit eine Brille. — I've worn glasses since childhood.",
+  "lvl": "A1"
+ },
+ {
+  "w": "eine Glatze haben",
+  "e": "to be bald",
+  "c": "Small Talk",
+  "ex": "Mein Onkel hat eine Glatze. — My uncle is bald.",
+  "lvl": "B1"
+ },
+ {
+  "w": "den Bus nehmen",
+  "e": "to take the bus",
+  "c": "Directions",
+  "ex": "Nimm den Bus 54 bis zum Marienplatz. — Take bus 54 to Marienplatz.",
+  "lvl": "A1"
+ },
+ {
+  "w": "mit dem Bus fahren",
+  "e": "to go by bus",
+  "c": "Directions",
+  "ex": "Ich fahre jeden Tag mit dem Bus. — I go by bus every day. 'mit' + Dativ for all means of transport.",
+  "lvl": "A1"
+ },
+ {
+  "w": "die Straße überqueren",
+  "e": "to cross the road",
+  "c": "Directions",
+  "ex": "Überqueren Sie die Straße an der Ampel. — Cross the road at the traffic lights.",
+  "lvl": "A2"
+ },
+ {
+  "w": "immer geradeaus",
+  "e": "straight ahead",
+  "c": "Directions",
+  "ex": "Gehen Sie immer geradeaus, dann rechts. — Keep going straight ahead, then right.",
+  "lvl": "A1"
+ },
+ {
+  "w": "sich verlaufen",
+  "e": "to get lost (on foot)",
+  "c": "Directions",
+  "ex": "Wir haben uns in der Altstadt verlaufen. — We got lost in the old town.",
+  "lvl": "B1"
+ },
+ {
+  "w": "eine Wanderung machen",
+  "e": "to go for a hike",
+  "c": "Small Talk",
+  "ex": "Am Sonntag machen wir eine Wanderung in den Bergen.",
+  "lvl": "A2"
+ },
+ {
+  "w": "den Tisch decken",
+  "e": "to set the table",
+  "c": "Small Talk",
+  "ex": "Kannst du bitte den Tisch decken? — Can you set the table, please?",
+  "lvl": "A2"
+ },
+ {
+  "w": "den Tisch abräumen",
+  "e": "to clear the table",
+  "c": "Small Talk",
+  "ex": "Nach dem Essen räume ich den Tisch ab.",
+  "lvl": "A2"
+ },
+ {
+  "w": "den Müll wegbringen",
+  "e": "to take out the rubbish",
+  "c": "Small Talk",
+  "ex": "Bringst du bitte den Müll weg? — Will you take the rubbish out, please?",
+  "lvl": "A2"
+ },
+ {
+  "w": "das Haus aufräumen",
+  "e": "to tidy the house",
+  "c": "Small Talk",
+  "ex": "Samstags räume ich die Wohnung auf. — I tidy the flat on Saturdays.",
+  "lvl": "A1"
+ },
+ {
+  "w": "Wäsche waschen",
+  "e": "to do the laundry",
+  "c": "Small Talk",
+  "ex": "Ich muss noch Wäsche waschen. — I still need to do the laundry.",
+  "lvl": "A2"
+ },
+ {
+  "w": "die Gartenarbeit machen",
+  "e": "to do the gardening",
+  "c": "Small Talk",
+  "ex": "Mein Vater macht am Wochenende Gartenarbeit.",
+  "lvl": "B1"
+ },
+ {
+  "w": "sich die Zähne putzen",
+  "e": "to brush one's teeth",
+  "c": "Small Talk",
+  "ex": "Ich putze mir zweimal am Tag die Zähne. — I brush my teeth twice a day. Dative reflexive: mir.",
+  "lvl": "A1"
+ },
+ {
+  "w": "sich die Haare kämmen",
+  "e": "to comb one's hair",
+  "c": "Small Talk",
+  "ex": "Kämm dir bitte die Haare. — Comb your hair, please.",
+  "lvl": "A2"
+ },
+ {
+  "w": "sich das Gesicht waschen",
+  "e": "to wash one's face",
+  "c": "Small Talk",
+  "ex": "Ich wasche mir morgens das Gesicht mit kaltem Wasser.",
+  "lvl": "A2"
+ },
+ {
+  "w": "Fotos machen",
+  "e": "to take photos",
+  "c": "Small Talk",
+  "ex": "Darf ich hier Fotos machen? — May I take photos here?",
+  "lvl": "A1"
+ },
+ {
+  "w": "Klavier spielen",
+  "e": "to play the piano",
+  "c": "Small Talk",
+  "ex": "Ich spiele seit zehn Jahren Klavier. — Instruments take no article after spielen: Gitarre, Geige, Schlagzeug, Flöte, Trompete spielen.",
+  "lvl": "A1"
+ },
+ {
+  "w": "auf ein Konzert gehen",
+  "e": "to go to a concert",
+  "c": "Small Talk",
+  "ex": "Wir gehen am Freitag auf ein Konzert.",
+  "lvl": "A2"
+ },
+ {
+  "w": "ins Theater gehen",
+  "e": "to go to the theatre",
+  "c": "Small Talk",
+  "ex": "Meine Eltern gehen oft ins Theater.",
+  "lvl": "A2"
+ },
+ {
+  "w": "Musik über Kopfhörer hören",
+  "e": "to listen to music on headphones",
+  "c": "Small Talk",
+  "ex": "Unterwegs höre ich Musik über Kopfhörer.",
+  "lvl": "A2"
+ },
+ {
+  "w": "ein Tor schießen",
+  "e": "to score a goal",
+  "c": "Small Talk",
+  "ex": "Er hat in der letzten Minute ein Tor geschossen.",
+  "lvl": "A2"
+ },
+ {
+  "w": "eine Medaille gewinnen",
+  "e": "to win a medal",
+  "c": "Small Talk",
+  "ex": "Sie hat bei den Meisterschaften eine Medaille gewonnen.",
+  "lvl": "B1"
+ },
+ {
+  "w": "Schlittschuh laufen",
+  "e": "to ice skate",
+  "c": "Small Talk",
+  "ex": "Im Winter laufen wir Schlittschuh. — Like Ski fahren and Rad fahren: two words, no article.",
+  "lvl": "A2"
+ },
+ {
+  "w": "befördert werden",
+  "e": "to be promoted",
+  "c": "Opinion & Discussion",
+  "ex": "Sie ist letztes Jahr befördert worden. — She was promoted last year. Passive perfect: worden, not geworden.",
+  "lvl": "B1"
+ },
+ {
+  "w": "entlassen werden",
+  "e": "to be made redundant / fired",
+  "c": "Opinion & Discussion",
+  "ex": "Viele Kollegen wurden entlassen. — Many colleagues were let go.",
+  "lvl": "B1"
+ },
+ {
+  "w": "in Rente gehen",
+  "e": "to retire",
+  "c": "Opinion & Discussion",
+  "ex": "Mein Vater geht nächstes Jahr in Rente. — My father retires next year.",
+  "lvl": "B1"
+ },
+ {
+  "w": "eine Stelle suchen",
+  "e": "to look for a job",
+  "c": "Opinion & Discussion",
+  "ex": "Ich suche eine Stelle als Ingenieur. — I'm looking for a job as an engineer.",
+  "lvl": "A2"
+ },
+ {
+  "w": "Fragen stellen",
+  "e": "to ask questions",
+  "c": "Understanding",
+  "ex": "Bitte stellen Sie Fragen, wenn etwas unklar ist. — 'eine Frage stellen', never 'fragen machen'.",
+  "lvl": "A2"
+ },
+ {
+  "w": "Notizen machen",
+  "e": "to take notes",
+  "c": "Understanding",
+  "ex": "Ich mache mir im Kurs immer Notizen.",
+  "lvl": "A2"
+ },
+ {
+  "w": "an Gott glauben",
+  "e": "to believe in God",
+  "c": "Opinion & Discussion",
+  "ex": "'glauben an + Akkusativ' — a fixed preposition worth learning as a chunk.",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich interessiere mich für …",
+  "e": "I'm interested in …",
+  "c": "Opinion & Discussion",
+  "ex": "Ich interessiere mich für Musik, besonders für Rockmusik. — Always 'für + Akkusativ'.",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich träume davon, …",
+  "e": "I dream of …",
+  "c": "Opinion & Discussion",
+  "ex": "Ich träume davon, am Meer zu leben. — I dream of living by the sea. The da-word announces the zu-clause.",
+  "lvl": "B1"
+ },
+ {
+  "w": "Um gesund zu bleiben, soll man …",
+  "e": "To stay healthy, one should …",
+  "c": "Opinion & Discussion",
+  "ex": "Um gesund zu bleiben, soll man regelmäßig Sport treiben und genug schlafen. — A ready-made B1 opening.",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich bevorzuge …, weil …",
+  "e": "I prefer …, because …",
+  "c": "Opinion & Discussion",
+  "ex": "Ich bevorzuge Komödien, weil sie mich zum Lachen bringen. — Remember: weil sends the verb to the end.",
+  "lvl": "B1"
+ },
+ {
+  "w": "Der Film hat mir gut gefallen.",
+  "e": "I liked the film.",
+  "c": "Opinion & Discussion",
+  "ex": "'gefallen' takes the dative — the film pleases ME. Never 'Ich habe den Film gefallen.'",
+  "lvl": "A2"
+ },
+ {
+  "w": "Meiner Meinung nach …",
+  "e": "In my opinion …",
+  "c": "Opinion & Discussion",
+  "ex": "Meiner Meinung nach ist das zu teuer. — Counts as position 1, so the verb comes next.",
+  "lvl": "B1"
+ },
+ {
+  "w": "Wir müssen die Umwelt schützen.",
+  "e": "We have to protect the environment.",
+  "c": "Opinion & Discussion",
+  "ex": "A reliable B1 opinion sentence — pairs well with 'den Müll trennen' and 'Energie sparen'.",
+  "lvl": "B1"
+ },
+ {
+  "w": "den Müll trennen",
+  "e": "to separate the rubbish",
+  "c": "Opinion & Discussion",
+  "ex": "In Deutschland muss man den Müll trennen. — Papier, Bio, Restmüll and the Gelber Sack.",
+  "lvl": "B1"
+ },
+ {
+  "w": "sparsam mit etwas umgehen",
+  "e": "to use something sparingly",
+  "c": "Opinion & Discussion",
+  "ex": "Man soll sparsam mit Wasser und Strom umgehen. — 'umgehen mit + Dativ', separable.",
+  "lvl": "B1"
+ },
+ {
+  "w": "Es ist notwendig, … zu …",
+  "e": "It is necessary to …",
+  "c": "Opinion & Discussion",
+  "ex": "Es ist notwendig, einen Regenschirm mitzunehmen. — Note the zu inside the separable verb.",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich habe es satt.",
+  "e": "I'm fed up with it.",
+  "c": "Idioms & Connectors",
+  "ex": "Ich habe es satt, jeden Tag Prüfungen zu schreiben. — I'm fed up with sitting exams every day.",
+  "lvl": "B1"
+ },
+ {
+  "w": "in der Zwischenzeit",
+  "e": "in the meantime",
+  "c": "Idioms & Connectors",
+  "ex": "In der Zwischenzeit kannst du schon anfangen. — Also: mittlerweile, inzwischen.",
+  "lvl": "B1"
+ },
+ {
+  "w": "mehr oder weniger",
+  "e": "more or less",
+  "c": "Idioms & Connectors",
+  "ex": "Das Projekt ist mehr oder weniger fertig.",
+  "lvl": "A2"
+ },
+ {
+  "w": "ab und zu",
+  "e": "now and then",
+  "c": "Idioms & Connectors",
+  "ex": "Ab und zu gehe ich ins Kino. — Now and then I go to the cinema. Counts as position 1.",
+  "lvl": "A2"
+ },
+ {
+  "w": "eine Menge",
+  "e": "a lot of",
+  "c": "Idioms & Connectors",
+  "ex": "Ich habe eine Menge zu tun. — I have a lot to do.",
+  "lvl": "A2"
  }
 ]

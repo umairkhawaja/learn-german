@@ -2063,5 +2063,180 @@
   "c": "Function Word",
   "ex": "Sie spricht sowohl Englisch als auch Deutsch. — She speaks both English and German.",
   "lvl": "B1"
+ },
+ {
+  "w": "herum",
+  "e": "around",
+  "c": "Adverb",
+  "ex": "Wir sind den ganzen Tag herumgelaufen. — We walked around all day. Often as a prefix: herumlaufen, herumliegen.",
+  "lvl": "A2"
+ },
+ {
+  "w": "drüben",
+  "e": "over there",
+  "c": "Adverb",
+  "ex": "Der Bäcker ist da drüben. — The baker's is over there.",
+  "lvl": "A2"
+ },
+ {
+  "w": "irgendwo",
+  "e": "somewhere",
+  "c": "Adverb",
+  "ex": "Mein Schlüssel muss irgendwo hier sein. — My key must be somewhere here. Family: irgendwann, irgendwie, irgendwer, irgendetwas.",
+  "lvl": "A2"
+ },
+ {
+  "w": "gewöhnlich",
+  "e": "usually / ordinary",
+  "c": "Adverb",
+  "ex": "Gewöhnlich stehe ich um sechs auf. — I usually get up at six. Also 'normalerweise'.",
+  "lvl": "A2"
+ },
+ {
+  "w": "niemals",
+  "e": "never (emphatic)",
+  "c": "Adverb",
+  "ex": "Das würde ich niemals tun. — I would never do that. Stronger than plain 'nie'.",
+  "lvl": "A2"
+ },
+ {
+  "w": "öfters",
+  "e": "quite often",
+  "c": "Adverb",
+  "ex": "Ich gehe öfters ins Kino. — I go to the cinema quite often. Colloquial variant of 'öfter'.",
+  "lvl": "B1"
+ },
+ {
+  "w": "nochmals",
+  "e": "once again",
+  "c": "Adverb",
+  "ex": "Nochmals vielen Dank! — Thanks again! Also 'noch einmal'.",
+  "lvl": "A2"
+ },
+ {
+  "w": "erstens",
+  "e": "firstly",
+  "c": "Adverb",
+  "ex": "Erstens habe ich keine Zeit, zweitens kein Geld. — Firstly I have no time, secondly no money. Series: erstens, zweitens, drittens.",
+  "lvl": "B1"
+ },
+ {
+  "w": "mittlerweile",
+  "e": "by now / in the meantime",
+  "c": "Adverb",
+  "ex": "Mittlerweile spreche ich ganz gut Deutsch. — By now I speak German quite well.",
+  "lvl": "B1"
+ },
+ {
+  "w": "unterwegs",
+  "e": "on the way / out and about",
+  "c": "Adverb",
+  "ex": "Ich bin gerade unterwegs. — I'm on my way right now.",
+  "lvl": "A2"
+ },
+ {
+  "w": "genügend",
+  "e": "enough / sufficient",
+  "c": "Function Word",
+  "ex": "Wir haben genügend Zeit. — We have enough time. Interchangeable with 'genug'.",
+  "lvl": "A2"
+ },
+ {
+  "w": "verschiedene",
+  "e": "various / different",
+  "c": "Function Word",
+  "ex": "Es gibt verschiedene Möglichkeiten. — There are various options. Takes plural adjective endings.",
+  "lvl": "A2"
+ },
+ {
+  "w": "jeden Tag",
+  "e": "every day",
+  "c": "Adverb",
+  "ex": "Ich lerne jeden Tag Deutsch. — Accusative without a preposition marks a stretch of time: jeden Tag, letzte Woche, nächstes Jahr.",
+  "lvl": "A1"
+ },
+ {
+  "w": "einmal, zweimal, dreimal",
+  "e": "once, twice, three times",
+  "c": "Adverb",
+  "ex": "Ich gehe zweimal pro Woche schwimmen. — Number + -mal. Also 'dreimal in der Woche'.",
+  "lvl": "A1"
+ },
+ {
+  "w": "das Meiste",
+  "e": "most of it",
+  "c": "Function Word",
+  "ex": "Das Meiste habe ich schon erledigt. — I've already done most of it. Also 'die meisten Leute'.",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Einzige",
+  "e": "the only one",
+  "c": "Function Word",
+  "ex": "Er war der Einzige, der geholfen hat. — He was the only one who helped. Adjectival noun: die Einzige, das Einzige.",
+  "lvl": "B1"
+ },
+ {
+  "w": "innerhalb",
+  "e": "within (+ Genitiv)",
+  "c": "Function Word",
+  "ex": "Innerhalb einer Woche bekommen Sie Bescheid. — You'll hear within a week. Genitive preposition.",
+  "lvl": "B1"
+ },
+ {
+  "w": "außerhalb",
+  "e": "outside of (+ Genitiv)",
+  "c": "Function Word",
+  "ex": "Wir wohnen außerhalb der Stadt. — We live outside the city.",
+  "lvl": "B1"
+ },
+ {
+  "w": "entweder … oder",
+  "e": "either … or",
+  "c": "Function Word",
+  "ex": "Ich trinke entweder Tee oder Kaffee. — I drink either tea or coffee.",
+  "lvl": "A2"
+ },
+ {
+  "w": "weder … noch",
+  "e": "neither … nor",
+  "c": "Function Word",
+  "ex": "Ich habe weder Zeit noch Lust. — I have neither the time nor the inclination. No extra 'nicht' — it's already negative.",
+  "lvl": "B1"
+ },
+ {
+  "w": "normalerweise",
+  "e": "normally",
+  "c": "Adverb",
+  "ex": "Normalerweise fahre ich mit dem Rad. — Normally I cycle. Counts as position 1, so the verb comes next.",
+  "lvl": "A2"
+ },
+ {
+  "w": "dadurch",
+  "e": "through that / as a result",
+  "c": "Adverb",
+  "ex": "Ich übe viel; dadurch lerne ich schneller. — I practise a lot; as a result I learn faster.",
+  "lvl": "B1"
+ },
+ {
+  "w": "wahrscheinlich",
+  "e": "probably",
+  "c": "Adverb",
+  "ex": "Wahrscheinlich regnet es morgen. — It'll probably rain tomorrow.",
+  "lvl": "A2"
+ },
+ {
+  "w": "kommend-",
+  "e": "coming / next",
+  "c": "Function Word",
+  "ex": "in der kommenden Woche — in the coming week. Partizip I used as an adjective, so it takes endings.",
+  "lvl": "B1"
+ },
+ {
+  "w": "nächst-",
+  "e": "next",
+  "c": "Function Word",
+  "ex": "nächste Woche, nächsten Monat, im nächsten Jahr — an adjective, so the ending changes with the case.",
+  "lvl": "A1"
  }
 ]

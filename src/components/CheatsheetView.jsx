@@ -1,81 +1,49 @@
-// ── Cheatsheet view: searchable grammar reference ─────────────
-import { useState, useEffect } from "react";
-import { COLORS, TXT, MUTE, FAINT } from "../config/theme";
+// ── Cheatsheet view: the merged A1–B1 grammar reference ───────
+// The page is a self-contained static document (public/cheatsheet.html) with
+// its own typography, colour system, search box and level filter. It is
+// embedded in an iframe rather than ported to JSX so that its stylesheet stays
+// isolated from the app's — nothing leaks either way — and it keeps working as
+// a standalone page you can open directly at /cheatsheet.html or print.
+//
+// It replaces two earlier views: the JSON-driven cheatsheet (public/data/
+// cheatsheet.json) and the A1 Brückentag page (public/bruecke.html). Both are
+// merged into the single document; add new cards there, not here.
+import { useEffect, useRef, useState } from "react";
+import { COLORS, FAINT } from "../config/theme";
 
-function Block({ b }) {
-  if (b.p) return <p style={{ margin: "0 0 10px", fontSize: 13.5, color: "#c3cad6", lineHeight: 1.6 }}>{b.p}</p>;
-  if (b.tip) return <div style={{ fontSize: 12.5, color: "#9aa6b6", background: "#13161c", border: "1px solid #1f2630", borderRadius: 8, padding: "8px 11px", margin: "0 0 10px", lineHeight: 1.5 }}>💡 {b.tip}</div>;
-  if (b.ex) return (
-    <div style={{ margin: "0 0 10px", display: "flex", flexDirection: "column", gap: 4 }}>
-      {b.ex.map(([de, en], i) => (
-        <div key={i} style={{ fontSize: 13, lineHeight: 1.5 }}>
-          <span style={{ color: COLORS.txtStrong, fontWeight: 600 }}>{de}</span>
-          <span style={{ color: FAINT }}>  ·  {en}</span>
-        </div>
-      ))}
-    </div>
-  );
-  if (b.table) return (
-    <div style={{ overflowX: "auto", margin: "0 0 12px" }}>
-      <table style={{ borderCollapse: "collapse", fontSize: 12.5, minWidth: "100%" }}>
-        <thead><tr>{b.table.head.map((h, i) => <th key={i} style={{ textAlign: "left", padding: "4px 12px 4px 0", color: MUTE, fontWeight: 600, borderBottom: `1px solid ${COLORS.borderSoft}`, whiteSpace: "nowrap" }}>{h}</th>)}</tr></thead>
-        <tbody>{b.table.rows.map((r, ri) => (
-          <tr key={ri}>{r.map((c, ci) => <td key={ci} style={{ padding: "4px 12px 4px 0", color: ci === 0 ? MUTE : "#e2e8f0", fontStyle: ci === 0 ? "italic" : "normal", whiteSpace: "nowrap" }}>{c}</td>)}</tr>
-        ))}</tbody>
-      </table>
-    </div>
-  );
-  return null;
-}
+const SRC = `${import.meta.env.BASE_URL}cheatsheet.html`;
 
 export function CheatsheetView() {
-  const [data, setData] = useState(null);
-  const [open, setOpen] = useState("cases");
-  const [search, setSearch] = useState("");
+  const ref = useRef(null);
+  const [height, setHeight] = useState(600);
 
+  // Fill whatever viewport is left below the header, minus the bottom nav on
+  // narrow screens (it is fixed, so it would otherwise cover the last rows).
   useEffect(() => {
-    const base = import.meta.env.BASE_URL;
-    fetch(`${base}data/cheatsheet.json`).then((r) => r.json()).then(setData);
+    const fit = () => {
+      const top = ref.current?.getBoundingClientRect().top ?? 0;
+      const nav = window.innerWidth <= 640 ? 58 : 0;
+      setHeight(Math.max(360, window.innerHeight - top - nav));
+    };
+    fit();
+    window.addEventListener("resize", fit);
+    window.addEventListener("orientationchange", fit);
+    return () => {
+      window.removeEventListener("resize", fit);
+      window.removeEventListener("orientationchange", fit);
+    };
   }, []);
 
-  if (!data) return <div style={{ color: FAINT, textAlign: "center", padding: 40 }}>Loading…</div>;
-
-  const q = search.trim().toLowerCase();
-  const match = (t) => !q || t.title.toLowerCase().includes(q) || t.summary.toLowerCase().includes(q) || t.sec.toLowerCase().includes(q);
-
   return (
-    <div>
-      <input value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search grammar topics…"
-        style={{ width: "100%", background: COLORS.surfaceAlt, border: `1px solid ${COLORS.borderSoft}`, borderRadius: 10, padding: "9px 13px", color: TXT, fontSize: 14, marginBottom: 16 }} />
-      {data.sections.map((sec) => {
-        const topics = data.topics.filter((t) => t.sec === sec && match(t));
-        if (!topics.length) return null;
-        return (
-          <div key={sec} style={{ marginBottom: 18 }}>
-            <div style={{ fontSize: 11, color: COLORS.success, textTransform: "uppercase", letterSpacing: 1, fontWeight: 700, marginBottom: 8 }}>{sec}</div>
-            <div style={{ display: "flex", flexDirection: "column", gap: 7 }}>
-              {topics.map((t) => {
-                const isOpen = open === t.id;
-                return (
-                  <div key={t.id} onClick={() => setOpen(isOpen ? null : t.id)}
-                    style={{ background: COLORS.surface, border: `1px solid ${isOpen ? "#22c55e55" : COLORS.border}`, borderRadius: 12, padding: "12px 15px", cursor: "pointer", transition: "border-color .15s" }}>
-                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 10 }}>
-                      <span style={{ fontWeight: 700, fontSize: 15, color: COLORS.txtStrong }}>{t.title}</span>
-                      <span style={{ color: FAINT, fontSize: 14, transform: isOpen ? "rotate(90deg)" : "none", transition: "transform .15s" }}>›</span>
-                    </div>
-                    {!isOpen && <div style={{ fontSize: 12.5, color: MUTE, marginTop: 3 }}>{t.summary}</div>}
-                    {isOpen && (
-                      <div className="dm-reveal" style={{ marginTop: 12, borderTop: `1px solid ${COLORS.border}`, paddingTop: 12 }} onClick={(e) => e.stopPropagation()}>
-                        {t.blocks.map((b, i) => <Block key={i} b={b} />)}
-                      </div>
-                    )}
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        );
-      })}
+    <div ref={ref} style={{ width: "100%" }}>
+      <iframe
+        src={SRC}
+        title="Spickzettel — German grammar reference"
+        style={{ display: "block", width: "100%", height, border: "none", background: COLORS.bg }}
+      />
+      <noscript style={{ color: FAINT }}>
+        <a href={SRC}>Open the cheatsheet</a>
+      </noscript>
     </div>
   );
 }

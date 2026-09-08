@@ -3837,5 +3837,465 @@
   "c": "Size & Quantity",
   "ex": "Das kostet zusätzlich zehn Euro. — That costs an additional ten euros.",
   "lvl": "B1"
+ },
+ {
+  "w": "altmodisch",
+  "e": "old-fashioned",
+  "c": "Quality & Value",
+  "cmp": "altmodischer",
+  "sup": "am altmodischsten",
+  "opp": "modern",
+  "ex": "Sein Anzug ist ein bisschen altmodisch. — His suit is a little old-fashioned.",
+  "lvl": "A2"
+ },
+ {
+  "w": "flach",
+  "e": "flat / shallow",
+  "c": "Physical Properties",
+  "cmp": "flacher",
+  "sup": "am flachsten",
+  "opp": "steil / tief",
+  "ex": "Die Landschaft hier ist ganz flach. — The landscape here is completely flat.",
+  "lvl": "A2"
+ },
+ {
+  "w": "großartig",
+  "e": "great / magnificent",
+  "c": "Quality & Value",
+  "cmp": "großartiger",
+  "sup": "am großartigsten",
+  "opp": "mittelmäßig",
+  "ex": "Das Konzert war großartig. — The concert was great.",
+  "lvl": "A2"
+ },
+ {
+  "w": "korrekt",
+  "e": "correct",
+  "c": "Quality & Value",
+  "cmp": "korrekter",
+  "sup": "am korrektesten",
+  "opp": "falsch",
+  "ex": "Deine Antwort ist korrekt. — Your answer is correct.",
+  "lvl": "A2"
+ },
+ {
+  "w": "mobil",
+  "e": "mobile",
+  "c": "Physical Properties",
+  "cmp": "mobiler",
+  "sup": "am mobilsten",
+  "opp": "unbeweglich",
+  "ex": "Ohne Auto bin ich weniger mobil. — Without a car I'm less mobile.",
+  "lvl": "A2"
+ },
+ {
+  "w": "nutzlos",
+  "e": "useless",
+  "c": "Quality & Value",
+  "cmp": "nutzloser",
+  "sup": "am nutzlosesten",
+  "opp": "nützlich",
+  "ex": "Diese alte Software ist völlig nutzlos. — This old software is completely useless.",
+  "lvl": "A2"
+ },
+ {
+  "w": "populär",
+  "e": "popular",
+  "c": "Quality & Value",
+  "cmp": "populärer",
+  "sup": "am populärsten",
+  "opp": "unbekannt",
+  "ex": "Der Sänger ist bei jungen Leuten populär. — The singer is popular with young people.",
+  "lvl": "A2"
+ },
+ {
+  "w": "schlau",
+  "e": "clever / smart",
+  "c": "Describing People",
+  "cmp": "schlauer",
+  "sup": "am schlausten",
+  "opp": "dumm",
+  "ex": "Das war ein schlauer Plan. — That was a clever plan.",
+  "lvl": "A2"
+ },
+ {
+  "w": "schüchtern",
+  "e": "shy",
+  "c": "Describing People",
+  "cmp": "schüchterner",
+  "sup": "am schüchternsten",
+  "opp": "selbstbewusst",
+  "ex": "Als Kind war ich sehr schüchtern. — As a child I was very shy.",
+  "lvl": "A2"
+ },
+ {
+  "w": "tragbar",
+  "e": "portable / wearable",
+  "c": "Physical Properties",
+  "cmp": "tragbarer",
+  "sup": "am tragbarsten",
+  "opp": "stationär",
+  "ex": "Ein tragbarer Lautsprecher ist praktisch. — A portable speaker is handy.",
+  "lvl": "B1"
+ },
+ {
+  "w": "unglücklich",
+  "e": "unhappy",
+  "c": "Emotion & Feeling",
+  "cmp": "unglücklicher",
+  "sup": "am unglücklichsten",
+  "opp": "glücklich",
+  "ex": "Sie war unglücklich in ihrem Job. — She was unhappy in her job.",
+  "lvl": "A2"
+ },
+ {
+  "w": "unhöflich",
+  "e": "impolite / rude",
+  "c": "Describing People",
+  "cmp": "unhöflicher",
+  "sup": "am unhöflichsten",
+  "opp": "höflich",
+  "ex": "Es ist unhöflich, nicht zu grüßen. — It's rude not to say hello.",
+  "lvl": "A2"
+ },
+ {
+  "w": "gekocht",
+  "e": "cooked / boiled",
+  "c": "Physical Properties",
+  "cmp": "—",
+  "sup": "—",
+  "opp": "roh",
+  "ex": "Ich esse gern gekochte Eier. — I like boiled eggs.",
+  "lvl": "A2"
+ },
+ {
+  "w": "roh",
+  "e": "raw",
+  "c": "Physical Properties",
+  "cmp": "roher",
+  "sup": "am rohsten",
+  "opp": "gekocht",
+  "ex": "Rohes Gemüse ist gesund. — Raw vegetables are healthy.",
+  "lvl": "A2"
+ },
+ {
+  "w": "salzig",
+  "e": "salty",
+  "c": "Physical Properties",
+  "cmp": "salziger",
+  "sup": "am salzigsten",
+  "opp": "süß",
+  "ex": "Die Suppe ist mir zu salzig. — The soup is too salty for me.",
+  "lvl": "A2"
+ },
+ {
+  "w": "würzig",
+  "e": "well-seasoned / savoury",
+  "c": "Physical Properties",
+  "cmp": "würziger",
+  "sup": "am würzigsten",
+  "opp": "fad",
+  "ex": "Der Käse ist schön würzig. — The cheese is nicely savoury.",
+  "lvl": "B1"
+ },
+ {
+  "w": "glatt",
+  "e": "smooth / straight (hair) / slippery",
+  "c": "Physical Properties",
+  "cmp": "glatter",
+  "sup": "am glattesten",
+  "opp": "rau / lockig",
+  "ex": "Vorsicht, die Straße ist glatt. — Careful, the road is slippery.",
+  "lvl": "A2"
+ },
+ {
+  "w": "lockig",
+  "e": "curly",
+  "c": "Describing People",
+  "cmp": "lockiger",
+  "sup": "am lockigsten",
+  "opp": "glatt",
+  "ex": "Sie hat lange lockige Haare. — She has long curly hair.",
+  "lvl": "A2"
+ },
+ {
+  "w": "wellig",
+  "e": "wavy",
+  "c": "Describing People",
+  "cmp": "welliger",
+  "sup": "am welligsten",
+  "opp": "glatt",
+  "ex": "Meine Haare sind leicht wellig. — My hair is slightly wavy.",
+  "lvl": "B1"
+ },
+ {
+  "w": "mager",
+  "e": "skinny / lean / low-fat",
+  "c": "Describing People",
+  "cmp": "magerer",
+  "sup": "am magersten",
+  "opp": "fett",
+  "ex": "Ich kaufe mageren Joghurt. — I buy low-fat yoghurt.",
+  "lvl": "B1"
+ },
+ {
+  "w": "besorgt",
+  "e": "worried / concerned",
+  "c": "Emotion & Feeling",
+  "cmp": "besorgter",
+  "sup": "am besorgtesten",
+  "opp": "unbesorgt",
+  "ex": "Ich bin besorgt um meinen Vater. — I'm worried about my father.",
+  "lvl": "B1"
+ },
+ {
+  "w": "doof",
+  "e": "silly / stupid",
+  "c": "Describing People",
+  "cmp": "doofer",
+  "sup": "am doofsten",
+  "opp": "klug",
+  "ex": "Das war eine doofe Idee. — That was a silly idea.",
+  "lvl": "A2"
+ },
+ {
+  "w": "ernsthaft",
+  "e": "serious",
+  "c": "Describing People",
+  "cmp": "ernsthafter",
+  "sup": "am ernsthaftesten",
+  "opp": "oberflächlich",
+  "ex": "Wir müssen ernsthaft darüber reden. — We need to talk about it seriously.",
+  "lvl": "B1"
+ },
+ {
+  "w": "erschöpft",
+  "e": "exhausted",
+  "c": "Emotion & Feeling",
+  "cmp": "erschöpfter",
+  "sup": "am erschöpftesten",
+  "opp": "ausgeruht",
+  "ex": "Nach der Arbeit bin ich völlig erschöpft. — After work I'm completely exhausted.",
+  "lvl": "B1"
+ },
+ {
+  "w": "frech",
+  "e": "cheeky",
+  "c": "Describing People",
+  "cmp": "frecher",
+  "sup": "am frechsten",
+  "opp": "brav",
+  "ex": "Der Junge ist ganz schön frech. — That boy is pretty cheeky.",
+  "lvl": "A2"
+ },
+ {
+  "w": "gierig",
+  "e": "greedy",
+  "c": "Describing People",
+  "cmp": "gieriger",
+  "sup": "am gierigsten",
+  "opp": "genügsam",
+  "ex": "Sei nicht so gierig! — Don't be so greedy!",
+  "lvl": "B1"
+ },
+ {
+  "w": "humorvoll",
+  "e": "humorous / funny",
+  "c": "Describing People",
+  "cmp": "humorvoller",
+  "sup": "am humorvollsten",
+  "opp": "humorlos",
+  "ex": "Er ist ein humorvoller Mensch. — He's a person with a good sense of humour.",
+  "lvl": "B1"
+ },
+ {
+  "w": "unangenehm",
+  "e": "unpleasant / awkward",
+  "c": "Emotion & Feeling",
+  "cmp": "unangenehmer",
+  "sup": "am unangenehmsten",
+  "opp": "angenehm",
+  "ex": "Das war ein unangenehmes Gespräch. — That was an awkward conversation.",
+  "lvl": "A2"
+ },
+ {
+  "w": "locker",
+  "e": "loose / relaxed",
+  "c": "Physical Properties",
+  "cmp": "lockerer",
+  "sup": "am lockersten",
+  "opp": "eng / streng",
+  "ex": "Die Hose sitzt locker. — The trousers fit loosely.",
+  "lvl": "A2"
+ },
+ {
+  "w": "enorm",
+  "e": "enormous",
+  "c": "Size & Quantity",
+  "cmp": "enormer",
+  "sup": "am enormsten",
+  "opp": "gering",
+  "ex": "Der Unterschied ist enorm. — The difference is enormous.",
+  "lvl": "B1"
+ },
+ {
+  "w": "mittelgroß",
+  "e": "medium-sized",
+  "c": "Size & Quantity",
+  "cmp": "—",
+  "sup": "—",
+  "opp": "—",
+  "ex": "Wir suchen eine mittelgroße Wohnung. — We're looking for a medium-sized flat.",
+  "lvl": "A2"
+ },
+ {
+  "w": "riesengroß",
+  "e": "huge",
+  "c": "Size & Quantity",
+  "cmp": "—",
+  "sup": "—",
+  "opp": "winzig",
+  "ex": "Der Hund ist riesengroß. — The dog is huge.",
+  "lvl": "A2"
+ },
+ {
+  "w": "winzig",
+  "e": "tiny",
+  "c": "Size & Quantity",
+  "cmp": "winziger",
+  "sup": "am winzigsten",
+  "opp": "riesig",
+  "ex": "Die Wohnung ist winzig. — The flat is tiny.",
+  "lvl": "A2"
+ },
+ {
+  "w": "dreieckig",
+  "e": "triangular",
+  "c": "Physical Properties",
+  "cmp": "—",
+  "sup": "—",
+  "opp": "—",
+  "ex": "Das Schild ist dreieckig. — The sign is triangular.",
+  "lvl": "A2"
+ },
+ {
+  "w": "viereckig",
+  "e": "square / four-sided",
+  "c": "Physical Properties",
+  "cmp": "—",
+  "sup": "—",
+  "opp": "rund",
+  "ex": "Der Tisch ist viereckig. — The table is square.",
+  "lvl": "A2"
+ },
+ {
+  "w": "preisgünstig",
+  "e": "good value / inexpensive",
+  "c": "Quality & Value",
+  "cmp": "preisgünstiger",
+  "sup": "am preisgünstigsten",
+  "opp": "teuer",
+  "ex": "Das Hotel war sehr preisgünstig. — The hotel was very good value.",
+  "lvl": "B1"
+ },
+ {
+  "w": "unterirdisch",
+  "e": "underground",
+  "c": "Distance & Position",
+  "cmp": "—",
+  "sup": "—",
+  "opp": "oberirdisch",
+  "ex": "Die Garage ist unterirdisch. — The garage is underground.",
+  "lvl": "B1"
+ },
+ {
+  "w": "feucht",
+  "e": "damp / humid",
+  "c": "Physical Properties",
+  "cmp": "feuchter",
+  "sup": "am feuchtesten",
+  "opp": "trocken",
+  "ex": "Die Wände sind feucht. — The walls are damp.",
+  "lvl": "A2"
+ },
+ {
+  "w": "golden",
+  "e": "golden",
+  "c": "Physical Properties",
+  "cmp": "—",
+  "sup": "—",
+  "opp": "—",
+  "ex": "Sie trägt eine goldene Kette. — She's wearing a golden necklace.",
+  "lvl": "A2"
+ },
+ {
+  "w": "lila",
+  "e": "purple / lilac",
+  "c": "Physical Properties",
+  "cmp": "—",
+  "sup": "—",
+  "opp": "—",
+  "ex": "Ich mag das lila Kleid. — I like the purple dress.",
+  "lvl": "A1"
+ },
+ {
+  "w": "rosa",
+  "e": "pink",
+  "c": "Physical Properties",
+  "cmp": "—",
+  "sup": "—",
+  "opp": "—",
+  "ex": "Sie hat eine rosa Jacke. — She has a pink jacket.",
+  "lvl": "A1"
+ },
+ {
+  "w": "orangefarben",
+  "e": "orange (colour)",
+  "c": "Physical Properties",
+  "cmp": "—",
+  "sup": "—",
+  "opp": "—",
+  "ex": "Die Wand ist orangefarben. — The wall is orange.",
+  "lvl": "A2"
+ },
+ {
+  "w": "silbern",
+  "e": "silver",
+  "c": "Physical Properties",
+  "cmp": "—",
+  "sup": "—",
+  "opp": "—",
+  "ex": "Er hat eine silberne Uhr. — He has a silver watch.",
+  "lvl": "A2"
+ },
+ {
+  "w": "violett",
+  "e": "violet",
+  "c": "Physical Properties",
+  "cmp": "—",
+  "sup": "—",
+  "opp": "—",
+  "ex": "Der Himmel war fast violett. — The sky was almost violet.",
+  "lvl": "B1"
+ },
+ {
+  "w": "sofortig",
+  "e": "immediate",
+  "c": "Time & Frequency",
+  "cmp": "—",
+  "sup": "—",
+  "opp": "verzögert",
+  "ex": "Wir brauchen eine sofortige Antwort. — We need an immediate answer.",
+  "lvl": "B1"
+ },
+ {
+  "w": "pensioniert",
+  "e": "retired",
+  "c": "States",
+  "cmp": "—",
+  "sup": "—",
+  "opp": "berufstätig",
+  "ex": "Mein Vater ist seit zwei Jahren pensioniert. — My father has been retired for two years.",
+  "lvl": "B1"
  }
 ]

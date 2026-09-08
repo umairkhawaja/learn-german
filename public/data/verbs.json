@@ -17818,5 +17818,1726 @@
   },
   "n": "'an etwas (Dat) zweifeln'. Noun: der Zweifel. 'ohne Zweifel' = without doubt.",
   "lvl": "B1"
+ },
+ {
+  "w": "abschreiben",
+  "e": "to copy (from someone)",
+  "ex": [
+   "Er hat die Hausaufgaben einfach abgeschrieben. — He simply copied the homework.",
+   "Schreib bitte nicht bei mir ab! — Please don't copy off me!"
+  ],
+  "t": "irr",
+  "p2": "abgeschrieben",
+  "hs": "haben",
+  "pr": {
+   "ich": "schreibe ab",
+   "du": "schreibst ab",
+   "er": "schreibt ab",
+   "wir": "schreiben ab",
+   "ihr": "schreibt ab",
+   "sie": "schreiben ab"
+  },
+  "pt": {
+   "ich": "schrieb ab",
+   "du": "schriebst ab",
+   "er": "schrieb ab",
+   "wir": "schrieben ab",
+   "ihr": "schriebt ab"
+  },
+  "pk": {
+   "ich": "habe abgeschrieben",
+   "du": "hast abgeschrieben",
+   "er": "hat abgeschrieben",
+   "wir": "haben abgeschrieben",
+   "ihr": "habt abgeschrieben",
+   "sie": "haben abgeschrieben"
+  },
+  "n": "Separable, irregular (schrieb ab, abgeschrieben). In school it means to copy someone else's answers.",
+  "lvl": "B1",
+  "sep": true
+ },
+ {
+  "w": "anhalten",
+  "e": "to stop",
+  "ex": [
+   "Der Bus hält an der nächsten Haltestelle an. — The bus stops at the next stop.",
+   "Die Polizei hat mich angehalten. — The police stopped me."
+  ],
+  "t": "irr",
+  "p2": "angehalten",
+  "hs": "haben",
+  "pr": {
+   "ich": "halte an",
+   "du": "hältst an",
+   "er": "hält an",
+   "wir": "halten an",
+   "ihr": "haltet an",
+   "sie": "halten an"
+  },
+  "pt": {
+   "ich": "hielt an",
+   "du": "hieltest an",
+   "er": "hielt an",
+   "wir": "hielten an",
+   "ihr": "hieltet an"
+  },
+  "pk": {
+   "ich": "habe angehalten",
+   "du": "hast angehalten",
+   "er": "hat angehalten",
+   "wir": "haben angehalten",
+   "ihr": "habt angehalten",
+   "sie": "haben angehalten"
+  },
+  "n": "Separable, irregular with a→ä (du hältst an). 'Halt bitte hier an!' = stop here.",
+  "lvl": "A2",
+  "sep": true
+ },
+ {
+  "w": "anschalten",
+  "e": "to switch on",
+  "ex": [
+   "Schalte bitte das Licht an. — Please switch the light on.",
+   "Ich habe den Computer schon angeschaltet. — I've already switched the computer on."
+  ],
+  "t": "reg",
+  "p2": "angeschaltet",
+  "hs": "haben",
+  "pr": {
+   "ich": "schalte an",
+   "du": "schaltest an",
+   "er": "schaltet an",
+   "wir": "schalten an",
+   "ihr": "schaltet an",
+   "sie": "schalten an"
+  },
+  "pt": {
+   "ich": "schaltete an",
+   "du": "schaltetest an",
+   "er": "schaltete an",
+   "wir": "schalteten an",
+   "ihr": "schaltetet an"
+  },
+  "pk": {
+   "ich": "habe angeschaltet",
+   "du": "hast angeschaltet",
+   "er": "hat angeschaltet",
+   "wir": "haben angeschaltet",
+   "ihr": "habt angeschaltet",
+   "sie": "haben angeschaltet"
+  },
+  "n": "Separable. Opposite: ausschalten. Also einschalten for devices.",
+  "lvl": "A2",
+  "sep": true
+ },
+ {
+  "w": "angeln",
+  "e": "to fish",
+  "ex": [
+   "Mein Onkel angelt jedes Wochenende. — My uncle goes fishing every weekend.",
+   "Wir haben am See geangelt. — We fished at the lake."
+  ],
+  "t": "reg",
+  "p2": "geangelt",
+  "hs": "haben",
+  "pr": {
+   "ich": "angle",
+   "du": "angelst",
+   "er": "angelt",
+   "wir": "angeln",
+   "ihr": "angelt",
+   "sie": "angeln"
+  },
+  "pt": {
+   "ich": "angelte",
+   "du": "angeltest",
+   "er": "angelte",
+   "wir": "angelten",
+   "ihr": "angeltet"
+  },
+  "pk": {
+   "ich": "habe geangelt",
+   "du": "hast geangelt",
+   "er": "hat geangelt",
+   "wir": "haben geangelt",
+   "ihr": "habt geangelt",
+   "sie": "haben geangelt"
+  },
+  "n": "Verbs in -eln drop the e in the ich-form: ich angle.",
+  "lvl": "B1"
+ },
+ {
+  "w": "aufladen",
+  "e": "to charge / load up",
+  "ex": [
+   "Ich muss mein Handy aufladen. — I need to charge my phone.",
+   "Hast du den Akku aufgeladen? — Have you charged the battery?"
+  ],
+  "t": "irr",
+  "p2": "aufgeladen",
+  "hs": "haben",
+  "pr": {
+   "ich": "lade auf",
+   "du": "lädst auf",
+   "er": "lädt auf",
+   "wir": "laden auf",
+   "ihr": "ladet auf",
+   "sie": "laden auf"
+  },
+  "pt": {
+   "ich": "lud auf",
+   "du": "ludest auf",
+   "er": "lud auf",
+   "wir": "luden auf",
+   "ihr": "ludet auf"
+  },
+  "pk": {
+   "ich": "habe aufgeladen",
+   "du": "hast aufgeladen",
+   "er": "hat aufgeladen",
+   "wir": "haben aufgeladen",
+   "ihr": "habt aufgeladen",
+   "sie": "haben aufgeladen"
+  },
+  "n": "Separable, irregular a→ä. Used for phones and batteries: das Handy aufladen.",
+  "lvl": "A2",
+  "sep": true
+ },
+ {
+  "w": "aufwärmen",
+  "e": "to warm up",
+  "ex": [
+   "Ich wärme die Suppe auf. — I'm warming up the soup.",
+   "Vor dem Sport wärme ich mich auf. — I warm up before sport."
+  ],
+  "t": "reg",
+  "p2": "aufgewärmt",
+  "hs": "haben",
+  "pr": {
+   "ich": "wärme auf",
+   "du": "wärmst auf",
+   "er": "wärmt auf",
+   "wir": "wärmen auf",
+   "ihr": "wärmt auf",
+   "sie": "wärmen auf"
+  },
+  "pt": {
+   "ich": "wärmte auf",
+   "du": "wärmtest auf",
+   "er": "wärmte auf",
+   "wir": "wärmten auf",
+   "ihr": "wärmtet auf"
+  },
+  "pk": {
+   "ich": "habe aufgewärmt",
+   "du": "hast aufgewärmt",
+   "er": "hat aufgewärmt",
+   "wir": "haben aufgewärmt",
+   "ihr": "habt aufgewärmt",
+   "sie": "haben aufgewärmt"
+  },
+  "n": "Separable. Also reflexive for athletes: sich aufwärmen.",
+  "lvl": "A2",
+  "sep": true
+ },
+ {
+  "w": "beißen",
+  "e": "to bite",
+  "ex": [
+   "Der Hund hat mich gebissen. — The dog bit me.",
+   "Vorsicht, die Suppe ist heiß — beiß langsam. — Careful, the soup is hot."
+  ],
+  "t": "irr",
+  "p2": "gebissen",
+  "hs": "haben",
+  "pr": {
+   "ich": "beiße",
+   "du": "beißt",
+   "er": "beißt",
+   "wir": "beißen",
+   "ihr": "beißt",
+   "sie": "beißen"
+  },
+  "pt": {
+   "ich": "biss",
+   "du": "bissest",
+   "er": "biss",
+   "wir": "bissen",
+   "ihr": "bisset"
+  },
+  "pk": {
+   "ich": "habe gebissen",
+   "du": "hast gebissen",
+   "er": "hat gebissen",
+   "wir": "haben gebissen",
+   "ihr": "habt gebissen",
+   "sie": "haben gebissen"
+  },
+  "n": "Irregular (biss, gebissen). Stems in -ß take just -t in the du-form.",
+  "lvl": "A2"
+ },
+ {
+  "w": "berühren",
+  "e": "to touch",
+  "ex": [
+   "Bitte die Bilder nicht berühren. — Please don't touch the pictures.",
+   "Seine Worte haben mich berührt. — His words moved me."
+  ],
+  "t": "reg",
+  "p2": "berührt",
+  "hs": "haben",
+  "pr": {
+   "ich": "berühre",
+   "du": "berührst",
+   "er": "berührt",
+   "wir": "berühren",
+   "ihr": "berührt",
+   "sie": "berühren"
+  },
+  "pt": {
+   "ich": "berührte",
+   "du": "berührtest",
+   "er": "berührte",
+   "wir": "berührten",
+   "ihr": "berührtet"
+  },
+  "pk": {
+   "ich": "habe berührt",
+   "du": "hast berührt",
+   "er": "hat berührt",
+   "wir": "haben berührt",
+   "ihr": "habt berührt",
+   "sie": "haben berührt"
+  },
+  "n": "Inseparable be- prefix, so no ge- in the participle. Also figurative: 'Das hat mich berührt.'",
+  "lvl": "B1"
+ },
+ {
+  "w": "durchfallen",
+  "e": "to fail (an exam)",
+  "ex": [
+   "Ich bin durch die Prüfung gefallen. — I failed the exam.",
+   "Wenn du nicht lernst, fällst du durch. — If you don't study you'll fail."
+  ],
+  "t": "irr",
+  "p2": "durchgefallen",
+  "hs": "sein",
+  "pr": {
+   "ich": "falle durch",
+   "du": "fällst durch",
+   "er": "fällt durch",
+   "wir": "fallen durch",
+   "ihr": "fallt durch",
+   "sie": "fallen durch"
+  },
+  "pt": {
+   "ich": "fiel durch",
+   "du": "fielst durch",
+   "er": "fiel durch",
+   "wir": "fielen durch",
+   "ihr": "fielt durch"
+  },
+  "pk": {
+   "ich": "bin durchgefallen",
+   "du": "bist durchgefallen",
+   "er": "ist durchgefallen",
+   "wir": "sind durchgefallen",
+   "ihr": "seid durchgefallen",
+   "sie": "sind durchgefallen"
+  },
+  "n": "Separable here, and takes sein. 'durch die Prüfung fallen' = to fail the exam.",
+  "lvl": "B1",
+  "sep": true
+ },
+ {
+  "w": "einfrieren",
+  "e": "to freeze",
+  "ex": [
+   "Ich friere das Brot ein. — I'm freezing the bread.",
+   "Das Wasser ist über Nacht eingefroren. — The water froze overnight."
+  ],
+  "t": "irr",
+  "p2": "eingefroren",
+  "hs": "haben",
+  "pr": {
+   "ich": "friere ein",
+   "du": "frierst ein",
+   "er": "friert ein",
+   "wir": "friern ein",
+   "ihr": "friert ein",
+   "sie": "friern ein"
+  },
+  "pt": {
+   "ich": "fror ein",
+   "du": "frorst ein",
+   "er": "fror ein",
+   "wir": "froren ein",
+   "ihr": "frort ein"
+  },
+  "pk": {
+   "ich": "habe eingefroren",
+   "du": "hast eingefroren",
+   "er": "hat eingefroren",
+   "wir": "haben eingefroren",
+   "ihr": "habt eingefroren",
+   "sie": "haben eingefroren"
+  },
+  "n": "Separable, irregular. Takes haben when you freeze something, sein when something freezes.",
+  "lvl": "B1",
+  "sep": true
+ },
+ {
+  "w": "ermutigen",
+  "e": "to encourage",
+  "ex": [
+   "Meine Lehrerin hat mich sehr ermutigt. — My teacher encouraged me a lot.",
+   "Er ermutigt mich, weiterzumachen. — He encourages me to carry on."
+  ],
+  "t": "reg",
+  "p2": "ermutigt",
+  "hs": "haben",
+  "pr": {
+   "ich": "ermutige",
+   "du": "ermutigst",
+   "er": "ermutigt",
+   "wir": "ermutigen",
+   "ihr": "ermutigt",
+   "sie": "ermutigen"
+  },
+  "pt": {
+   "ich": "ermutigte",
+   "du": "ermutigtest",
+   "er": "ermutigte",
+   "wir": "ermutigten",
+   "ihr": "ermutigtet"
+  },
+  "pk": {
+   "ich": "habe ermutigt",
+   "du": "hast ermutigt",
+   "er": "hat ermutigt",
+   "wir": "haben ermutigt",
+   "ihr": "habt ermutigt",
+   "sie": "haben ermutigt"
+  },
+  "n": "Inseparable er- prefix — no ge-. 'jemanden zu etwas ermutigen'.",
+  "lvl": "B1"
+ },
+ {
+  "w": "experimentieren",
+  "e": "to experiment",
+  "ex": [
+   "Wir experimentieren mit neuen Methoden. — We're experimenting with new methods.",
+   "Sie hat lange mit dem Rezept experimentiert. — She experimented with the recipe for a long time."
+  ],
+  "t": "reg",
+  "p2": "experimentiert",
+  "hs": "haben",
+  "pr": {
+   "ich": "experimentiere",
+   "du": "experimentierst",
+   "er": "experimentiert",
+   "wir": "experimentiern",
+   "ihr": "experimentiert",
+   "sie": "experimentiern"
+  },
+  "pt": {
+   "ich": "experimentierte",
+   "du": "experimentiertest",
+   "er": "experimentierte",
+   "wir": "experimentierten",
+   "ihr": "experimentiertet"
+  },
+  "pk": {
+   "ich": "habe experimentiert",
+   "du": "hast experimentiert",
+   "er": "hat experimentiert",
+   "wir": "haben experimentiert",
+   "ihr": "habt experimentiert",
+   "sie": "haben experimentiert"
+  },
+  "n": "Verbs in -ieren never take ge- in the Partizip II.",
+  "lvl": "B1"
+ },
+ {
+  "w": "hacken",
+  "e": "to chop",
+  "ex": [
+   "Ich hacke die Zwiebeln. — I'm chopping the onions.",
+   "Er hat das Holz gehackt. — He chopped the wood."
+  ],
+  "t": "reg",
+  "p2": "gehackt",
+  "hs": "haben",
+  "pr": {
+   "ich": "hacke",
+   "du": "hackst",
+   "er": "hackt",
+   "wir": "hacken",
+   "ihr": "hackt",
+   "sie": "hacken"
+  },
+  "pt": {
+   "ich": "hackte",
+   "du": "hacktest",
+   "er": "hackte",
+   "wir": "hackten",
+   "ihr": "hacktet"
+  },
+  "pk": {
+   "ich": "habe gehackt",
+   "du": "hast gehackt",
+   "er": "hat gehackt",
+   "wir": "haben gehackt",
+   "ihr": "habt gehackt",
+   "sie": "haben gehackt"
+  },
+  "n": "Also 'to hack' a computer. Hackfleisch = minced meat.",
+  "lvl": "A2"
+ },
+ {
+  "w": "hassen",
+  "e": "to hate",
+  "ex": [
+   "Ich hasse es, früh aufzustehen. — I hate getting up early.",
+   "Sie hat diesen Film gehasst. — She hated that film."
+  ],
+  "t": "reg",
+  "p2": "gehasst",
+  "hs": "haben",
+  "pr": {
+   "ich": "hasse",
+   "du": "hasst",
+   "er": "hasst",
+   "wir": "hassen",
+   "ihr": "hasst",
+   "sie": "hassen"
+  },
+  "pt": {
+   "ich": "hasste",
+   "du": "hasstest",
+   "er": "hasste",
+   "wir": "hassten",
+   "ihr": "hasstet"
+  },
+  "pk": {
+   "ich": "habe gehasst",
+   "du": "hast gehasst",
+   "er": "hat gehasst",
+   "wir": "haben gehasst",
+   "ihr": "habt gehasst",
+   "sie": "haben gehasst"
+  },
+  "n": "Stems in -ss take just -t in the du-form: du hasst.",
+  "lvl": "A2"
+ },
+ {
+  "w": "hineingehen",
+  "e": "to go in / enter",
+  "ex": [
+   "Gehen wir hinein, es ist kalt. — Let's go in, it's cold.",
+   "Er ist ohne zu klopfen hineingegangen. — He went in without knocking."
+  ],
+  "t": "irr",
+  "p2": "hineingegangen",
+  "hs": "sein",
+  "pr": {
+   "ich": "gehe hinein",
+   "du": "gehst hinein",
+   "er": "geht hinein",
+   "wir": "gehen hinein",
+   "ihr": "geht hinein",
+   "sie": "gehen hinein"
+  },
+  "pt": {
+   "ich": "ging hinein",
+   "du": "gingst hinein",
+   "er": "ging hinein",
+   "wir": "gingen hinein",
+   "ihr": "gingt hinein"
+  },
+  "pk": {
+   "ich": "bin hineingegangen",
+   "du": "bist hineingegangen",
+   "er": "ist hineingegangen",
+   "wir": "sind hineingegangen",
+   "ihr": "seid hineingegangen",
+   "sie": "sind hineingegangen"
+  },
+  "n": "Separable, takes sein. In speech people usually just say 'reingehen'.",
+  "lvl": "B1",
+  "sep": true
+ },
+ {
+  "w": "hinfallen",
+  "e": "to fall over",
+  "ex": [
+   "Das Kind ist hingefallen. — The child fell over.",
+   "Pass auf, dass du nicht hinfällst! — Careful you don't fall over!"
+  ],
+  "t": "irr",
+  "p2": "hingefallen",
+  "hs": "sein",
+  "pr": {
+   "ich": "falle hin",
+   "du": "fällst hin",
+   "er": "fällt hin",
+   "wir": "fallen hin",
+   "ihr": "fallt hin",
+   "sie": "fallen hin"
+  },
+  "pt": {
+   "ich": "fiel hin",
+   "du": "fielst hin",
+   "er": "fiel hin",
+   "wir": "fielen hin",
+   "ihr": "fielt hin"
+  },
+  "pk": {
+   "ich": "bin hingefallen",
+   "du": "bist hingefallen",
+   "er": "ist hingefallen",
+   "wir": "sind hingefallen",
+   "ihr": "seid hingefallen",
+   "sie": "sind hingefallen"
+  },
+  "n": "Separable, sein, a→ä. For people falling down; 'fallen' alone works for objects.",
+  "lvl": "A2",
+  "sep": true
+ },
+ {
+  "w": "kaputtmachen",
+  "e": "to break something",
+  "ex": [
+   "Mach das Handy nicht kaputt! — Don't break the phone!",
+   "Wer hat den Stuhl kaputtgemacht? — Who broke the chair?"
+  ],
+  "t": "reg",
+  "p2": "kaputtgemacht",
+  "hs": "haben",
+  "pr": {
+   "ich": "mache kaputt",
+   "du": "machst kaputt",
+   "er": "macht kaputt",
+   "wir": "machen kaputt",
+   "ihr": "macht kaputt",
+   "sie": "machen kaputt"
+  },
+  "pt": {
+   "ich": "machte kaputt",
+   "du": "machtest kaputt",
+   "er": "machte kaputt",
+   "wir": "machten kaputt",
+   "ihr": "machtet kaputt"
+  },
+  "pk": {
+   "ich": "habe kaputtgemacht",
+   "du": "hast kaputtgemacht",
+   "er": "hat kaputtgemacht",
+   "wir": "haben kaputtgemacht",
+   "ihr": "habt kaputtgemacht",
+   "sie": "haben kaputtgemacht"
+  },
+  "n": "Separable and informal. Reflexively 'sich kaputtmachen' = to wear yourself out.",
+  "lvl": "A2",
+  "sep": true
+ },
+ {
+  "w": "küssen",
+  "e": "to kiss",
+  "ex": [
+   "Er küsst sie zum Abschied. — He kisses her goodbye.",
+   "Sie haben sich lange geküsst. — They kissed for a long time."
+  ],
+  "t": "reg",
+  "p2": "geküsst",
+  "hs": "haben",
+  "pr": {
+   "ich": "küsse",
+   "du": "küsst",
+   "er": "küsst",
+   "wir": "küssen",
+   "ihr": "küsst",
+   "sie": "küssen"
+  },
+  "pt": {
+   "ich": "küsste",
+   "du": "küsstest",
+   "er": "küsste",
+   "wir": "küssten",
+   "ihr": "küsstet"
+  },
+  "pk": {
+   "ich": "habe geküsst",
+   "du": "hast geküsst",
+   "er": "hat geküsst",
+   "wir": "haben geküsst",
+   "ihr": "habt geküsst",
+   "sie": "haben geküsst"
+  },
+  "n": "Stems in -ss take -t in the du-form. Reciprocal: sich küssen.",
+  "lvl": "A2"
+ },
+ {
+  "w": "nähen",
+  "e": "to sew",
+  "ex": [
+   "Meine Mutter näht meine Hosen selbst. — My mother sews my trousers herself.",
+   "Ich habe den Knopf angenäht. — I sewed the button on."
+  ],
+  "t": "reg",
+  "p2": "genäht",
+  "hs": "haben",
+  "pr": {
+   "ich": "nähe",
+   "du": "nähst",
+   "er": "näht",
+   "wir": "nähen",
+   "ihr": "näht",
+   "sie": "nähen"
+  },
+  "pt": {
+   "ich": "nähte",
+   "du": "nähtest",
+   "er": "nähte",
+   "wir": "nähten",
+   "ihr": "nähtet"
+  },
+  "pk": {
+   "ich": "habe genäht",
+   "du": "hast genäht",
+   "er": "hat genäht",
+   "wir": "haben genäht",
+   "ihr": "habt genäht",
+   "sie": "haben genäht"
+  },
+  "n": "Regular. die Nähmaschine = sewing machine.",
+  "lvl": "B1"
+ },
+ {
+  "w": "pflanzen",
+  "e": "to plant",
+  "ex": [
+   "Wir pflanzen im Frühling Tomaten. — We plant tomatoes in spring.",
+   "Er hat einen Baum gepflanzt. — He planted a tree."
+  ],
+  "t": "reg",
+  "p2": "gepflanzt",
+  "hs": "haben",
+  "pr": {
+   "ich": "pflanze",
+   "du": "pflanzt",
+   "er": "pflanzt",
+   "wir": "pflanzen",
+   "ihr": "pflanzt",
+   "sie": "pflanzen"
+  },
+  "pt": {
+   "ich": "pflanzte",
+   "du": "pflanztest",
+   "er": "pflanzte",
+   "wir": "pflanzten",
+   "ihr": "pflanztet"
+  },
+  "pk": {
+   "ich": "habe gepflanzt",
+   "du": "hast gepflanzt",
+   "er": "hat gepflanzt",
+   "wir": "haben gepflanzt",
+   "ihr": "habt gepflanzt",
+   "sie": "haben gepflanzt"
+  },
+  "n": "Stems in -z take just -t in the du-form: du pflanzt.",
+  "lvl": "A2"
+ },
+ {
+  "w": "radeln",
+  "e": "to cycle",
+  "ex": [
+   "Ich radle jeden Tag ins Büro. — I cycle to the office every day.",
+   "Wir sind an der Isar entlanggeradelt. — We cycled along the Isar."
+  ],
+  "t": "reg",
+  "p2": "geradelt",
+  "hs": "sein",
+  "pr": {
+   "ich": "radle",
+   "du": "radelst",
+   "er": "radelt",
+   "wir": "radeln",
+   "ihr": "radelt",
+   "sie": "radeln"
+  },
+  "pt": {
+   "ich": "radelte",
+   "du": "radeltest",
+   "er": "radelte",
+   "wir": "radelten",
+   "ihr": "radeltet"
+  },
+  "pk": {
+   "ich": "bin geradelt",
+   "du": "bist geradelt",
+   "er": "ist geradelt",
+   "wir": "sind geradelt",
+   "ihr": "seid geradelt",
+   "sie": "sind geradelt"
+  },
+  "n": "Verbs in -eln drop the e: ich radle. Takes sein (movement). 'Rad fahren' is the neutral alternative.",
+  "lvl": "B1"
+ },
+ {
+  "w": "sammeln",
+  "e": "to collect",
+  "ex": [
+   "Ich sammle alte Münzen. — I collect old coins.",
+   "Wir haben Geld für den Verein gesammelt. — We collected money for the club."
+  ],
+  "t": "reg",
+  "p2": "gesammelt",
+  "hs": "haben",
+  "pr": {
+   "ich": "sammle",
+   "du": "sammelst",
+   "er": "sammelt",
+   "wir": "sammeln",
+   "ihr": "sammelt",
+   "sie": "sammeln"
+  },
+  "pt": {
+   "ich": "sammelte",
+   "du": "sammeltest",
+   "er": "sammelte",
+   "wir": "sammelten",
+   "ihr": "sammeltet"
+  },
+  "pk": {
+   "ich": "habe gesammelt",
+   "du": "hast gesammelt",
+   "er": "hat gesammelt",
+   "wir": "haben gesammelt",
+   "ihr": "habt gesammelt",
+   "sie": "haben gesammelt"
+  },
+  "n": "Verbs in -eln drop the e: ich sammle. die Sammlung = the collection.",
+  "lvl": "A2"
+ },
+ {
+  "w": "saubermachen",
+  "e": "to clean up",
+  "ex": [
+   "Ich mache am Samstag die Wohnung sauber. — I clean the flat on Saturday.",
+   "Hast du schon saubergemacht? — Have you cleaned up yet?"
+  ],
+  "t": "reg",
+  "p2": "saubergemacht",
+  "hs": "haben",
+  "pr": {
+   "ich": "mache sauber",
+   "du": "machst sauber",
+   "er": "macht sauber",
+   "wir": "machen sauber",
+   "ihr": "macht sauber",
+   "sie": "machen sauber"
+  },
+  "pt": {
+   "ich": "machte sauber",
+   "du": "machtest sauber",
+   "er": "machte sauber",
+   "wir": "machten sauber",
+   "ihr": "machtet sauber"
+  },
+  "pk": {
+   "ich": "habe saubergemacht",
+   "du": "hast saubergemacht",
+   "er": "hat saubergemacht",
+   "wir": "haben saubergemacht",
+   "ihr": "habt saubergemacht",
+   "sie": "haben saubergemacht"
+  },
+  "n": "Separable. Also written 'sauber machen'. Synonym: putzen.",
+  "lvl": "A2",
+  "sep": true
+ },
+ {
+  "w": "schieben",
+  "e": "to push",
+  "ex": [
+   "Ich schiebe das Fahrrad den Berg hinauf. — I'm pushing the bike up the hill.",
+   "Er hat den Tisch zur Seite geschoben. — He pushed the table aside."
+  ],
+  "t": "irr",
+  "p2": "geschoben",
+  "hs": "haben",
+  "pr": {
+   "ich": "schiebe",
+   "du": "schiebst",
+   "er": "schiebt",
+   "wir": "schieben",
+   "ihr": "schiebt",
+   "sie": "schieben"
+  },
+  "pt": {
+   "ich": "schob",
+   "du": "schobst",
+   "er": "schob",
+   "wir": "schoben",
+   "ihr": "schobt"
+  },
+  "pk": {
+   "ich": "habe geschoben",
+   "du": "hast geschoben",
+   "er": "hat geschoben",
+   "wir": "haben geschoben",
+   "ihr": "habt geschoben",
+   "sie": "haben geschoben"
+  },
+  "n": "Irregular (schob, geschoben). Doors in Germany say 'ziehen' (pull) or 'drücken'/'schieben' (push).",
+  "lvl": "A2"
+ },
+ {
+  "w": "schreien",
+  "e": "to shout / scream",
+  "ex": [
+   "Das Baby schreit die ganze Nacht. — The baby screams all night.",
+   "Er hat vor Schmerz geschrien. — He screamed in pain."
+  ],
+  "t": "irr",
+  "p2": "geschrien",
+  "hs": "haben",
+  "pr": {
+   "ich": "schreie",
+   "du": "schreist",
+   "er": "schreit",
+   "wir": "schreien",
+   "ihr": "schreit",
+   "sie": "schreien"
+  },
+  "pt": {
+   "ich": "schrie",
+   "du": "schriest",
+   "er": "schrie",
+   "wir": "schrien",
+   "ihr": "schriet"
+  },
+  "pk": {
+   "ich": "habe geschrien",
+   "du": "hast geschrien",
+   "er": "hat geschrien",
+   "wir": "haben geschrien",
+   "ihr": "habt geschrien",
+   "sie": "haben geschrien"
+  },
+  "n": "Irregular (schrie, geschrien). Note the missing e in the participle.",
+  "lvl": "A2"
+ },
+ {
+  "w": "segeln",
+  "e": "to sail",
+  "ex": [
+   "Wir segeln jeden Sommer auf dem Bodensee. — We sail on Lake Constance every summer.",
+   "Sie sind bis nach Kroatien gesegelt. — They sailed all the way to Croatia."
+  ],
+  "t": "reg",
+  "p2": "gesegelt",
+  "hs": "sein",
+  "pr": {
+   "ich": "segle",
+   "du": "segelst",
+   "er": "segelt",
+   "wir": "segeln",
+   "ihr": "segelt",
+   "sie": "segeln"
+  },
+  "pt": {
+   "ich": "segelte",
+   "du": "segeltest",
+   "er": "segelte",
+   "wir": "segelten",
+   "ihr": "segeltet"
+  },
+  "pk": {
+   "ich": "bin gesegelt",
+   "du": "bist gesegelt",
+   "er": "ist gesegelt",
+   "wir": "sind gesegelt",
+   "ihr": "seid gesegelt",
+   "sie": "sind gesegelt"
+  },
+  "n": "Verbs in -eln drop the e: ich segle. Takes sein as a movement verb.",
+  "lvl": "B1"
+ },
+ {
+  "w": "speichern",
+  "e": "to save (a file)",
+  "ex": [
+   "Vergiss nicht, die Datei zu speichern. — Don't forget to save the file.",
+   "Ich habe deine Nummer gespeichert. — I've saved your number."
+  ],
+  "t": "reg",
+  "p2": "gespeichert",
+  "hs": "haben",
+  "pr": {
+   "ich": "speichere",
+   "du": "speicherst",
+   "er": "speichert",
+   "wir": "speichern",
+   "ihr": "speichert",
+   "sie": "speichern"
+  },
+  "pt": {
+   "ich": "speicherte",
+   "du": "speichertest",
+   "er": "speicherte",
+   "wir": "speicherten",
+   "ihr": "speichertet"
+  },
+  "pk": {
+   "ich": "habe gespeichert",
+   "du": "hast gespeichert",
+   "er": "hat gespeichert",
+   "wir": "haben gespeichert",
+   "ihr": "habt gespeichert",
+   "sie": "haben gespeichert"
+  },
+  "n": "The standard computing word. der Speicher = memory / storage.",
+  "lvl": "A2"
+ },
+ {
+  "w": "vergrößern",
+  "e": "to enlarge",
+  "ex": [
+   "Können Sie das Bild vergrößern? — Can you enlarge the picture?",
+   "Die Firma hat ihr Büro vergrößert. — The company enlarged its office."
+  ],
+  "t": "reg",
+  "p2": "vergrößert",
+  "hs": "haben",
+  "pr": {
+   "ich": "vergrößere",
+   "du": "vergrößerst",
+   "er": "vergrößert",
+   "wir": "vergrößern",
+   "ihr": "vergrößert",
+   "sie": "vergrößern"
+  },
+  "pt": {
+   "ich": "vergrößerte",
+   "du": "vergrößertest",
+   "er": "vergrößerte",
+   "wir": "vergrößerten",
+   "ihr": "vergrößertet"
+  },
+  "pk": {
+   "ich": "habe vergrößert",
+   "du": "hast vergrößert",
+   "er": "hat vergrößert",
+   "wir": "haben vergrößert",
+   "ihr": "habt vergrößert",
+   "sie": "haben vergrößert"
+  },
+  "n": "Inseparable ver- prefix — no ge-. Opposite: verkleinern.",
+  "lvl": "B1"
+ },
+ {
+  "w": "vermehren",
+  "e": "to increase / multiply",
+  "ex": [
+   "Die Zahl der Anmeldungen hat sich vermehrt. — The number of registrations has increased.",
+   "Bakterien vermehren sich sehr schnell. — Bacteria multiply very quickly."
+  ],
+  "t": "reg",
+  "p2": "vermehrt",
+  "hs": "haben",
+  "pr": {
+   "ich": "vermehre",
+   "du": "vermehrst",
+   "er": "vermehrt",
+   "wir": "vermehren",
+   "ihr": "vermehrt",
+   "sie": "vermehren"
+  },
+  "pt": {
+   "ich": "vermehrte",
+   "du": "vermehrtest",
+   "er": "vermehrte",
+   "wir": "vermehrten",
+   "ihr": "vermehrtet"
+  },
+  "pk": {
+   "ich": "habe vermehrt",
+   "du": "hast vermehrt",
+   "er": "hat vermehrt",
+   "wir": "haben vermehrt",
+   "ihr": "habt vermehrt",
+   "sie": "haben vermehrt"
+  },
+  "n": "Inseparable. Often reflexive: 'sich vermehren' = to multiply/reproduce.",
+  "lvl": "B1"
+ },
+ {
+  "w": "vermindern",
+  "e": "to reduce",
+  "ex": [
+   "Wir wollen die Kosten vermindern. — We want to reduce the costs.",
+   "Das Risiko wurde deutlich vermindert. — The risk was clearly reduced."
+  ],
+  "t": "reg",
+  "p2": "vermindert",
+  "hs": "haben",
+  "pr": {
+   "ich": "vermindere",
+   "du": "verminderst",
+   "er": "vermindert",
+   "wir": "vermindern",
+   "ihr": "vermindert",
+   "sie": "vermindern"
+  },
+  "pt": {
+   "ich": "verminderte",
+   "du": "vermindertest",
+   "er": "verminderte",
+   "wir": "verminderten",
+   "ihr": "vermindertet"
+  },
+  "pk": {
+   "ich": "habe vermindert",
+   "du": "hast vermindert",
+   "er": "hat vermindert",
+   "wir": "haben vermindert",
+   "ihr": "habt vermindert",
+   "sie": "haben vermindert"
+  },
+  "n": "Inseparable. More common everyday word: reduzieren or verringern.",
+  "lvl": "B1"
+ },
+ {
+  "w": "weitermachen",
+  "e": "to carry on",
+  "ex": [
+   "Machen wir nach der Pause weiter. — Let's carry on after the break.",
+   "Sie hat trotz allem weitergemacht. — She carried on despite everything."
+  ],
+  "t": "reg",
+  "p2": "weitergemacht",
+  "hs": "haben",
+  "pr": {
+   "ich": "mache weiter",
+   "du": "machst weiter",
+   "er": "macht weiter",
+   "wir": "machen weiter",
+   "ihr": "macht weiter",
+   "sie": "machen weiter"
+  },
+  "pt": {
+   "ich": "machte weiter",
+   "du": "machtest weiter",
+   "er": "machte weiter",
+   "wir": "machten weiter",
+   "ihr": "machtet weiter"
+  },
+  "pk": {
+   "ich": "habe weitergemacht",
+   "du": "hast weitergemacht",
+   "er": "hat weitergemacht",
+   "wir": "haben weitergemacht",
+   "ihr": "habt weitergemacht",
+   "sie": "haben weitergemacht"
+  },
+  "n": "Separable. 'Mach weiter so!' = keep it up!",
+  "lvl": "A2",
+  "sep": true
+ },
+ {
+  "w": "zerreißen",
+  "e": "to tear up",
+  "ex": [
+   "Er hat den Brief zerrissen. — He tore up the letter.",
+   "Die Hose ist am Knie zerrissen. — The trousers are torn at the knee."
+  ],
+  "t": "irr",
+  "p2": "zerrissen",
+  "hs": "haben",
+  "pr": {
+   "ich": "zerreiße",
+   "du": "zerreißt",
+   "er": "zerreißt",
+   "wir": "zerreißen",
+   "ihr": "zerreißt",
+   "sie": "zerreißen"
+  },
+  "pt": {
+   "ich": "zerriss",
+   "du": "zerrissest",
+   "er": "zerriss",
+   "wir": "zerrissen",
+   "ihr": "zerrisset"
+  },
+  "pk": {
+   "ich": "habe zerrissen",
+   "du": "hast zerrissen",
+   "er": "hat zerrissen",
+   "wir": "haben zerrissen",
+   "ihr": "habt zerrissen",
+   "sie": "haben zerrissen"
+  },
+  "n": "Inseparable zer- prefix — no ge-. Irregular (zerriss, zerrissen).",
+  "lvl": "B1"
+ },
+ {
+  "w": "ziehen",
+  "e": "to pull",
+  "ex": [
+   "Zieh bitte die Tür zu. — Please pull the door shut.",
+   "Wir sind letztes Jahr nach München gezogen. — We moved to Munich last year."
+  ],
+  "t": "irr",
+  "p2": "gezogen",
+  "hs": "haben",
+  "pr": {
+   "ich": "ziehe",
+   "du": "ziehst",
+   "er": "zieht",
+   "wir": "ziehen",
+   "ihr": "zieht",
+   "sie": "ziehen"
+  },
+  "pt": {
+   "ich": "zog",
+   "du": "zogst",
+   "er": "zog",
+   "wir": "zogen",
+   "ihr": "zogt"
+  },
+  "pk": {
+   "ich": "habe gezogen",
+   "du": "hast gezogen",
+   "er": "hat gezogen",
+   "wir": "haben gezogen",
+   "ihr": "habt gezogen",
+   "sie": "haben gezogen"
+  },
+  "n": "Irregular (zog, gezogen). With sein it means 'to move house': 'Ich bin nach München gezogen.'",
+  "lvl": "A2"
+ },
+ {
+  "w": "zurückfahren",
+  "e": "to drive back",
+  "ex": [
+   "Wann fährst du zurück? — When are you driving back?",
+   "Wir sind am Sonntag zurückgefahren. — We drove back on Sunday."
+  ],
+  "t": "irr",
+  "p2": "zurückgefahren",
+  "hs": "sein",
+  "pr": {
+   "ich": "fahre zurück",
+   "du": "fährst zurück",
+   "er": "fährt zurück",
+   "wir": "fahren zurück",
+   "ihr": "fahrt zurück",
+   "sie": "fahren zurück"
+  },
+  "pt": {
+   "ich": "fuhr zurück",
+   "du": "fuhrst zurück",
+   "er": "fuhr zurück",
+   "wir": "fuhren zurück",
+   "ihr": "fuhrt zurück"
+  },
+  "pk": {
+   "ich": "bin zurückgefahren",
+   "du": "bist zurückgefahren",
+   "er": "ist zurückgefahren",
+   "wir": "sind zurückgefahren",
+   "ihr": "seid zurückgefahren",
+   "sie": "sind zurückgefahren"
+  },
+  "n": "Separable, sein, a→ä.",
+  "lvl": "A2",
+  "sep": true
+ },
+ {
+  "w": "zurückgehen",
+  "e": "to go back",
+  "ex": [
+   "Ich gehe kurz zurück ins Büro. — I'm going back to the office for a moment.",
+   "Die Preise sind etwas zurückgegangen. — Prices have gone down a little."
+  ],
+  "t": "irr",
+  "p2": "zurückgegangen",
+  "hs": "sein",
+  "pr": {
+   "ich": "gehe zurück",
+   "du": "gehst zurück",
+   "er": "geht zurück",
+   "wir": "gehen zurück",
+   "ihr": "geht zurück",
+   "sie": "gehen zurück"
+  },
+  "pt": {
+   "ich": "ging zurück",
+   "du": "gingst zurück",
+   "er": "ging zurück",
+   "wir": "gingen zurück",
+   "ihr": "gingt zurück"
+  },
+  "pk": {
+   "ich": "bin zurückgegangen",
+   "du": "bist zurückgegangen",
+   "er": "ist zurückgegangen",
+   "wir": "sind zurückgegangen",
+   "ihr": "seid zurückgegangen",
+   "sie": "sind zurückgegangen"
+  },
+  "n": "Separable, sein. Also figurative: 'Die Zahlen gehen zurück' = the numbers are falling.",
+  "lvl": "A2",
+  "sep": true
+ },
+ {
+  "w": "zurückkehren",
+  "e": "to return",
+  "ex": [
+   "Er kehrt nächstes Jahr nach Deutschland zurück. — He is returning to Germany next year.",
+   "Sie ist nie zurückgekehrt. — She never returned."
+  ],
+  "t": "reg",
+  "p2": "zurückgekehrt",
+  "hs": "sein",
+  "pr": {
+   "ich": "kehre zurück",
+   "du": "kehrst zurück",
+   "er": "kehrt zurück",
+   "wir": "kehren zurück",
+   "ihr": "kehrt zurück",
+   "sie": "kehren zurück"
+  },
+  "pt": {
+   "ich": "kehrte zurück",
+   "du": "kehrtest zurück",
+   "er": "kehrte zurück",
+   "wir": "kehrten zurück",
+   "ihr": "kehrtet zurück"
+  },
+  "pk": {
+   "ich": "bin zurückgekehrt",
+   "du": "bist zurückgekehrt",
+   "er": "ist zurückgekehrt",
+   "wir": "sind zurückgekehrt",
+   "ihr": "seid zurückgekehrt",
+   "sie": "sind zurückgekehrt"
+  },
+  "n": "Separable, regular, takes sein. More formal than zurückkommen.",
+  "lvl": "B1",
+  "sep": true
+ },
+ {
+  "w": "sich bewegen",
+  "e": "to move",
+  "ex": [
+   "Ich bewege mich zu wenig. — I don't move enough.",
+   "Bitte bewegen Sie sich nicht. — Please don't move."
+  ],
+  "t": "reg",
+  "p2": "bewegt",
+  "hs": "haben",
+  "pr": {
+   "ich": "bewege",
+   "du": "bewegst",
+   "er": "bewegt",
+   "wir": "bewegen",
+   "ihr": "bewegt",
+   "sie": "bewegen"
+  },
+  "pt": {
+   "ich": "bewegte",
+   "du": "bewegtest",
+   "er": "bewegte",
+   "wir": "bewegten",
+   "ihr": "bewegtet"
+  },
+  "pk": {
+   "ich": "habe bewegt",
+   "du": "hast bewegt",
+   "er": "hat bewegt",
+   "wir": "haben bewegt",
+   "ihr": "habt bewegt",
+   "sie": "haben bewegt"
+  },
+  "n": "Inseparable be- prefix — no ge-. Reflexive for moving your own body; also non-reflexive: etwas bewegen.",
+  "lvl": "B1",
+  "refl": true
+ },
+ {
+  "w": "sich interessieren",
+  "e": "to be interested",
+  "ex": [
+   "Ich interessiere mich für Geschichte. — I'm interested in history.",
+   "Er hat sich nie für Sport interessiert. — He was never interested in sport."
+  ],
+  "t": "reg",
+  "p2": "interessiert",
+  "hs": "haben",
+  "pr": {
+   "ich": "interessiere",
+   "du": "interessierst",
+   "er": "interessiert",
+   "wir": "interessiern",
+   "ihr": "interessiert",
+   "sie": "interessiern"
+  },
+  "pt": {
+   "ich": "interessierte",
+   "du": "interessiertest",
+   "er": "interessierte",
+   "wir": "interessierten",
+   "ihr": "interessiertet"
+  },
+  "pk": {
+   "ich": "habe interessiert",
+   "du": "hast interessiert",
+   "er": "hat interessiert",
+   "wir": "haben interessiert",
+   "ihr": "habt interessiert",
+   "sie": "haben interessiert"
+  },
+  "n": "'sich interessieren für + Akkusativ'. -ieren verb, so no ge-.",
+  "lvl": "A2",
+  "refl": true
+ },
+ {
+  "w": "sich nähern",
+  "e": "to approach",
+  "ex": [
+   "Der Zug nähert sich dem Bahnhof. — The train is approaching the station.",
+   "Wir haben uns langsam genähert. — We approached slowly."
+  ],
+  "t": "reg",
+  "p2": "genähert",
+  "hs": "haben",
+  "pr": {
+   "ich": "nähere",
+   "du": "näherst",
+   "er": "nähert",
+   "wir": "nähern",
+   "ihr": "nähert",
+   "sie": "nähern"
+  },
+  "pt": {
+   "ich": "näherte",
+   "du": "nähertest",
+   "er": "näherte",
+   "wir": "näherten",
+   "ihr": "nähertet"
+  },
+  "pk": {
+   "ich": "habe genähert",
+   "du": "hast genähert",
+   "er": "hat genähert",
+   "wir": "haben genähert",
+   "ihr": "habt genähert",
+   "sie": "haben genähert"
+  },
+  "n": "Reflexive, takes the Dativ: 'sich einer Sache nähern'.",
+  "lvl": "B1",
+  "refl": true
+ },
+ {
+  "w": "sich setzen",
+  "e": "to sit down",
+  "ex": [
+   "Setz dich bitte! — Please sit down!",
+   "Ich habe mich ans Fenster gesetzt. — I sat down by the window."
+  ],
+  "t": "reg",
+  "p2": "gesetzt",
+  "hs": "haben",
+  "pr": {
+   "ich": "setze",
+   "du": "setzt",
+   "er": "setzt",
+   "wir": "setzen",
+   "ihr": "setzt",
+   "sie": "setzen"
+  },
+  "pt": {
+   "ich": "setzte",
+   "du": "setztest",
+   "er": "setzte",
+   "wir": "setzten",
+   "ihr": "setztet"
+  },
+  "pk": {
+   "ich": "habe gesetzt",
+   "du": "hast gesetzt",
+   "er": "hat gesetzt",
+   "wir": "haben gesetzt",
+   "ihr": "habt gesetzt",
+   "sie": "haben gesetzt"
+  },
+  "n": "The action of sitting down (Akkusativ). 'sitzen' is the state of being seated.",
+  "lvl": "A1",
+  "refl": true
+ },
+ {
+  "w": "sich hinlegen",
+  "e": "to lie down",
+  "ex": [
+   "Ich lege mich kurz hin. — I'm going to lie down for a bit.",
+   "Er hat sich auf das Sofa hingelegt. — He lay down on the sofa."
+  ],
+  "t": "reg",
+  "p2": "hingelegt",
+  "hs": "haben",
+  "pr": {
+   "ich": "lege hin",
+   "du": "legst hin",
+   "er": "legt hin",
+   "wir": "legen hin",
+   "ihr": "legt hin",
+   "sie": "legen hin"
+  },
+  "pt": {
+   "ich": "legte hin",
+   "du": "legtest hin",
+   "er": "legte hin",
+   "wir": "legten hin",
+   "ihr": "legtet hin"
+  },
+  "pk": {
+   "ich": "habe hingelegt",
+   "du": "hast hingelegt",
+   "er": "hat hingelegt",
+   "wir": "haben hingelegt",
+   "ihr": "habt hingelegt",
+   "sie": "haben hingelegt"
+  },
+  "n": "Separable and reflexive. 'liegen' is the state, 'sich hinlegen' the action.",
+  "lvl": "A2",
+  "sep": true,
+  "refl": true
+ },
+ {
+  "w": "sich verletzen",
+  "e": "to hurt oneself",
+  "ex": [
+   "Ich habe mich beim Sport verletzt. — I hurt myself doing sport.",
+   "Pass auf, dass du dich nicht verletzt. — Be careful not to hurt yourself."
+  ],
+  "t": "reg",
+  "p2": "verletzt",
+  "hs": "haben",
+  "pr": {
+   "ich": "verletze",
+   "du": "verletzt",
+   "er": "verletzt",
+   "wir": "verletzen",
+   "ihr": "verletzt",
+   "sie": "verletzen"
+  },
+  "pt": {
+   "ich": "verletzte",
+   "du": "verletztest",
+   "er": "verletzte",
+   "wir": "verletzten",
+   "ihr": "verletztet"
+  },
+  "pk": {
+   "ich": "habe verletzt",
+   "du": "hast verletzt",
+   "er": "hat verletzt",
+   "wir": "haben verletzt",
+   "ihr": "habt verletzt",
+   "sie": "haben verletzt"
+  },
+  "n": "Inseparable ver- — no ge-. 'sich am Bein verletzen' = to injure one's leg.",
+  "lvl": "A2",
+  "refl": true
+ },
+ {
+  "w": "sich ausziehen",
+  "e": "to get undressed",
+  "ex": [
+   "Zieh dir bitte die Schuhe aus. — Please take your shoes off.",
+   "Sie hat sich schnell ausgezogen. — She got undressed quickly."
+  ],
+  "t": "irr",
+  "p2": "ausgezogen",
+  "hs": "haben",
+  "pr": {
+   "ich": "ziehe aus",
+   "du": "ziehst aus",
+   "er": "zieht aus",
+   "wir": "ziehen aus",
+   "ihr": "zieht aus",
+   "sie": "ziehen aus"
+  },
+  "pt": {
+   "ich": "zog aus",
+   "du": "zogst aus",
+   "er": "zog aus",
+   "wir": "zogen aus",
+   "ihr": "zogt aus"
+  },
+  "pk": {
+   "ich": "habe ausgezogen",
+   "du": "hast ausgezogen",
+   "er": "hat ausgezogen",
+   "wir": "haben ausgezogen",
+   "ihr": "habt ausgezogen",
+   "sie": "haben ausgezogen"
+  },
+  "n": "Separable, irregular, reflexive. Non-reflexive it means to take a garment off, or to move out of a flat.",
+  "lvl": "A2",
+  "sep": true,
+  "refl": true
+ },
+ {
+  "w": "sich umziehen",
+  "e": "to get changed",
+  "ex": [
+   "Ich ziehe mich schnell um. — I'll get changed quickly.",
+   "Er hat sich vor dem Essen umgezogen. — He got changed before dinner."
+  ],
+  "t": "irr",
+  "p2": "umgezogen",
+  "hs": "haben",
+  "pr": {
+   "ich": "ziehe um",
+   "du": "ziehst um",
+   "er": "zieht um",
+   "wir": "ziehen um",
+   "ihr": "zieht um",
+   "sie": "ziehen um"
+  },
+  "pt": {
+   "ich": "zog um",
+   "du": "zogst um",
+   "er": "zog um",
+   "wir": "zogen um",
+   "ihr": "zogt um"
+  },
+  "pk": {
+   "ich": "habe umgezogen",
+   "du": "hast umgezogen",
+   "er": "hat umgezogen",
+   "wir": "haben umgezogen",
+   "ihr": "habt umgezogen",
+   "sie": "haben umgezogen"
+  },
+  "n": "Separable, irregular, reflexive. Without sich it means to move house (with sein).",
+  "lvl": "A2",
+  "sep": true,
+  "refl": true
+ },
+ {
+  "w": "sich verlaufen",
+  "e": "to get lost (on foot)",
+  "ex": [
+   "Wir haben uns im Wald verlaufen. — We got lost in the forest.",
+   "Ich verlaufe mich in dieser Stadt ständig. — I keep getting lost in this city."
+  ],
+  "t": "irr",
+  "p2": "verlaufen",
+  "hs": "haben",
+  "pr": {
+   "ich": "verlaufe",
+   "du": "verläufst",
+   "er": "verläuft",
+   "wir": "verlaufen",
+   "ihr": "verlauft",
+   "sie": "verlaufen"
+  },
+  "pt": {
+   "ich": "verlief",
+   "du": "verliefst",
+   "er": "verlief",
+   "wir": "verliefen",
+   "ihr": "verlieft"
+  },
+  "pk": {
+   "ich": "habe verlaufen",
+   "du": "hast verlaufen",
+   "er": "hat verlaufen",
+   "wir": "haben verlaufen",
+   "ihr": "habt verlaufen",
+   "sie": "haben verlaufen"
+  },
+  "n": "Inseparable ver- so no ge- in the participle. On foot; in a car it is 'sich verfahren'.",
+  "lvl": "B1",
+  "refl": true
+ },
+ {
+  "w": "sich verfahren",
+  "e": "to get lost (driving)",
+  "ex": [
+   "Ich habe mich auf dem Weg verfahren. — I got lost on the way.",
+   "Ohne Navi verfahre ich mich immer. — Without sat nav I always get lost."
+  ],
+  "t": "irr",
+  "p2": "verfahren",
+  "hs": "haben",
+  "pr": {
+   "ich": "verfahre",
+   "du": "verfährst",
+   "er": "verfährt",
+   "wir": "verfahren",
+   "ihr": "verfahrt",
+   "sie": "verfahren"
+  },
+  "pt": {
+   "ich": "verfuhr",
+   "du": "verfuhrst",
+   "er": "verfuhr",
+   "wir": "verfuhren",
+   "ihr": "verfuhrt"
+  },
+  "pk": {
+   "ich": "habe verfahren",
+   "du": "hast verfahren",
+   "er": "hat verfahren",
+   "wir": "haben verfahren",
+   "ihr": "habt verfahren",
+   "sie": "haben verfahren"
+  },
+  "n": "Inseparable ver- — no ge-. The driving counterpart of sich verlaufen.",
+  "lvl": "B1",
+  "refl": true
+ },
+ {
+  "w": "sich umarmen",
+  "e": "to hug",
+  "ex": [
+   "Sie umarmen sich zur Begrüßung. — They hug to say hello.",
+   "Wir haben uns lange umarmt. — We hugged for a long time."
+  ],
+  "t": "reg",
+  "p2": "umarmt",
+  "hs": "haben",
+  "pr": {
+   "ich": "umarme",
+   "du": "umarmst",
+   "er": "umarmt",
+   "wir": "umarmen",
+   "ihr": "umarmt",
+   "sie": "umarmen"
+  },
+  "pt": {
+   "ich": "umarmte",
+   "du": "umarmtest",
+   "er": "umarmte",
+   "wir": "umarmten",
+   "ihr": "umarmtet"
+  },
+  "pk": {
+   "ich": "habe umarmt",
+   "du": "hast umarmt",
+   "er": "hat umarmt",
+   "wir": "haben umarmt",
+   "ihr": "habt umarmt",
+   "sie": "haben umarmt"
+  },
+  "n": "Inseparable um- here — no ge-. Reciprocal: 'sie umarmen sich' = they hug each other.",
+  "lvl": "B1",
+  "refl": true
  }
 ]
