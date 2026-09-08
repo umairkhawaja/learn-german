@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>A1 → A2.1 Brückentag</title>
+<title>A1 Spickzettel</title>
 <style>:root{color-scheme:dark}body{margin:0;padding:0;background:#0D1315;color:#E8EFF1}img{max-width:100%}[hidden]:not([hidden=until-found]){display:none!important}</style>
-</head>
-<body>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+</head>
+<body>
 <style>
 :root{
   --paper:#EDF1F3;
@@ -78,58 +78,18 @@ h1 .arrow{color:var(--accent)}
   font-family:"IBM Plex Mono",monospace}
 .metarow b{color:var(--ink); font-weight:600}
 
-/* ---------- progress ---------- */
-.progress{position:sticky; top:0; z-index:20; background:var(--paper);
-  border-bottom:1px solid var(--rule); padding:10px 0 11px; margin-bottom:34px}
-.progress-inner{max-width:920px; margin:0 auto; padding:0 20px; display:flex; align-items:center; gap:14px}
-.bar{flex:1; height:7px; background:var(--rule-2); border-radius:99px; overflow:hidden; border:1px solid var(--rule)}
-.bar span{display:block; height:100%; width:0%; background:var(--accent); transition:width .35s ease}
-.pcount{font-family:"IBM Plex Mono",monospace; font-size:12.5px; color:var(--ink-2); white-space:nowrap;
-  font-variant-numeric:tabular-nums}
-.pcount b{color:var(--ink)}
 .reset{background:none; border:1px solid var(--rule); color:var(--ink-3); font:inherit; font-size:11.5px;
   padding:3px 9px; border-radius:5px; cursor:pointer}
 .reset:hover{color:var(--ink); border-color:var(--ink-3)}
+a{color:var(--accent); text-decoration-color:var(--rule); text-underline-offset:2px}
+a:hover{text-decoration-color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent); outline-offset:2px; border-radius:3px}
 
 /* ---------- section headings ---------- */
 .sec{margin-top:56px}
 .sec-head{display:flex; align-items:baseline; gap:14px; padding-bottom:10px; border-bottom:1px solid var(--rule); margin-bottom:26px}
 .sec-head h2{font-size:clamp(22px,3.6vw,30px); font-weight:700; letter-spacing:-.02em}
 .sec-head .note{font-size:13px; color:var(--ink-3); margin-left:auto; font-family:"IBM Plex Mono",monospace}
-
-/* ---------- schedule rail ---------- */
-.rail{display:flex; flex-direction:column; gap:16px}
-.blk{background:var(--surface); border:1px solid var(--rule); border-radius:10px; box-shadow:var(--shadow);
-  display:grid; grid-template-columns:96px 1fr; overflow:hidden}
-.blk.key{border-left:4px solid var(--amber)}
-.clock{background:var(--surface-2); border-right:1px solid var(--rule-2); padding:18px 12px;
-  display:flex; flex-direction:column; align-items:center; gap:2px; text-align:center}
-.clock .t{font-family:"IBM Plex Mono",monospace; font-size:15px; font-weight:600; font-variant-numeric:tabular-nums}
-.clock .t2{font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--ink-3); font-variant-numeric:tabular-nums}
-.clock .dur{margin-top:8px; font-size:11px; font-family:"IBM Plex Mono",monospace; letter-spacing:.06em;
-  color:var(--accent); border:1px solid var(--rule); background:var(--surface); border-radius:99px; padding:2px 8px}
-.body{padding:18px 20px 20px; min-width:0}
-.blk h3{font-size:19px; font-weight:700; letter-spacing:-.01em; margin-bottom:3px}
-.why{font-size:13.5px; color:var(--ink-3); margin-bottom:14px; font-style:italic}
-.stripe{display:inline-block; font-size:10.5px; font-family:"IBM Plex Mono",monospace; letter-spacing:.1em;
-  text-transform:uppercase; color:var(--amber); background:var(--amber-soft); padding:2px 7px; border-radius:4px;
-  margin-bottom:8px; font-weight:600}
-
-/* ---------- checklist items ---------- */
-ul.items{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:2px}
-ul.items li{display:flex; gap:10px; align-items:flex-start; padding:6px 0; border-top:1px solid var(--rule-2)}
-ul.items li:first-child{border-top:none}
-ul.items input{margin:5px 0 0; width:15px; height:15px; accent-color:var(--accent); flex:none; cursor:pointer}
-ul.items label{flex:1; min-width:0; cursor:pointer; font-size:14.5px; line-height:1.5}
-ul.items input:checked + label{color:var(--ink-3); text-decoration:line-through; text-decoration-color:var(--rule)}
-.kind{font-family:"IBM Plex Mono",monospace; font-size:10.5px; letter-spacing:.08em; text-transform:uppercase;
-  color:var(--ink-3); border:1px solid var(--rule); border-radius:4px; padding:1px 6px; margin-right:7px;
-  white-space:nowrap; vertical-align:1px}
-.kind.v{color:var(--accent); border-color:var(--accent); background:var(--accent-soft)}
-.len{font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--ink-3); font-variant-numeric:tabular-nums}
-a{color:var(--accent); text-decoration-color:var(--rule); text-underline-offset:2px}
-a:hover{text-decoration-color:var(--accent)}
-:focus-visible{outline:2px solid var(--accent); outline-offset:2px; border-radius:3px}
 
 /* ---------- tables ---------- */
 .tblwrap{overflow-x:auto; border:1px solid var(--rule); border-radius:8px; background:var(--surface); margin:0}
@@ -192,15 +152,6 @@ th.h-n{color:var(--n); background:var(--n-bg)} th.h-p{color:var(--p); background
 .wire .good{display:block; font-family:"IBM Plex Mono",monospace; font-size:13.5px; color:var(--n); font-weight:500; margin-top:2px}
 .wire .exp{display:block; font-size:12.5px; color:var(--ink-3); margin-top:6px; line-height:1.45}
 
-/* ---------- split: assumed vs taught ---------- */
-.split{display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:14px}
-.col{background:var(--surface); border:1px solid var(--rule); border-radius:10px; padding:16px 18px 18px; box-shadow:var(--shadow)}
-.col.assumed{border-top:3px solid var(--amber)}
-.col.taught{border-top:3px solid var(--accent)}
-.col h3{font-size:16px; margin-bottom:3px}
-.col .sub{font-size:12.5px; color:var(--ink-3); margin-bottom:12px; font-family:"IBM Plex Mono",monospace}
-.col ul{margin:0; padding-left:18px; font-size:14px; color:var(--ink-2); display:flex; flex-direction:column; gap:6px}
-
 /* ---------- cheat-sheet index ---------- */
 .index{display:flex; flex-wrap:wrap; align-items:center; gap:7px; margin-bottom:20px;
   padding:14px 16px; background:var(--surface); border:1px solid var(--rule); border-radius:10px}
@@ -223,7 +174,7 @@ ol.algo li::before{content:counter(step); position:absolute; left:0; top:11px; w
 ol.algo li strong{color:var(--ink)}
 
 @media print{
-  .progress,.index,.reset{display:none !important}
+  .index,.reset{display:none !important}
   .card{break-inside:avoid; box-shadow:none}
   .card > summary::after{display:none}
   body{background:#fff}
@@ -233,173 +184,21 @@ footer{margin-top:60px; padding-top:22px; border-top:1px solid var(--rule); font
 footer h4{font-size:11px; font-family:"IBM Plex Mono",monospace; letter-spacing:.1em; text-transform:uppercase;
   color:var(--ink-3); margin-bottom:8px}
 footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:4px}
-@media (max-width:560px){
-  .blk{grid-template-columns:1fr}
-  .clock{flex-direction:row; justify-content:flex-start; gap:12px; border-right:none;
-    border-bottom:1px solid var(--rule-2); padding:10px 16px}
-  .clock .dur{margin-top:0; margin-left:auto}
-}
 @media (prefers-reduced-motion:reduce){*{transition:none !important; animation:none !important}}
 </style>
-
-<div class="progress">
-  <div class="progress-inner">
-    <div class="bar"><span id="fill"></span></div>
-    <div class="pcount"><b id="pdone">0</b>/<span id="ptotal">0</span> erledigt · <b id="pmin">225</b> Min übrig</div>
-    <button class="reset" id="reset" type="button">Zurücksetzen</button>
-  </div>
-</div>
 
 <div class="wrap">
 
 <header class="mast">
-  <div class="eyebrow">Sonntag, 6. September 2026 · Ein Tag · 3 h 45</div>
-  <h1>A1 <span class="arrow">→</span> A2.1 Brückentag</h1>
-  <p class="dek">Everything DeutschAkademie's A2.1 assumes you already own, compressed into one sitting. Six blocks, 2 h 10 of hand-picked video, 1 h 35 of drilling. The cheat sheet below is the thing you keep open in class tomorrow.</p>
+  <div class="eyebrow">A1-Grammatik · komplett · 14 Karten</div>
+  <h1>Spickzettel <span class="arrow">A1</span></h1>
+  <p class="dek">The whole of A1 grammar on fourteen cards — articles and cases, verbs, Perfekt, word order, prepositions, time — plus the eight mistakes that cost marks. The reference to keep open in class.</p>
   <div class="metarow">
-    <span><b>Ziel</b> A1.2 sicher, A1+ komfortabel</span>
-    <span><b>Video</b> 130 Min</span>
-    <span><b>Üben</b> 95 Min</span>
-    <span><b>Kurs</b> morgen, A2.1 semi-intensiv</span>
+    <span><b>Karten</b> 14</span>
+    <span><b>Stolperfallen</b> 8</span>
+    <span><b>Niveau</b> A1 → A2.1</span>
   </div>
 </header>
-
-<!-- ============ WHAT A2.1 ASSUMES ============ -->
-<section class="sec" id="scope">
-  <div class="sec-head">
-    <h2>Was A2.1 voraussetzt</h2>
-    <span class="note">read this first · 3 Min</span>
-  </div>
-  <div class="split">
-    <div class="col assumed">
-      <h3>Assumed — must be automatic</h3>
-      <p class="sub">Today's entire job</p>
-      <ul>
-        <li>Präsens: regular, stem-changing (<span class="de">du fährst, er spricht</span>), <span class="de">sein / haben / werden</span></li>
-        <li>All six modal verbs + <span class="de">möchten</span>, present tense</li>
-        <li>Nominativ / Akkusativ / Dativ — articles, <span class="de">kein-</span>, possessives, pronouns</li>
-        <li>Verb in position 2; W-Fragen vs. Ja/Nein-Fragen</li>
-        <li>Satzklammer with modals and separable verbs</li>
-        <li>Akkusativ- and Dativ-Präpositionen, plus the contractions</li>
-        <li>Perfekt: <span class="de">haben/sein</span> + Partizip II, ~50 participles</li>
-        <li>Präteritum of <span class="de">sein</span> and <span class="de">haben</span> (<span class="de">war, hatte</span>)</li>
-        <li><span class="de">nicht</span> vs. <span class="de">kein</span>; Imperativ; <span class="de">und/aber/oder/denn/sondern</span></li>
-        <li>Numbers, clock time, dates, plural formation</li>
-      </ul>
-    </div>
-    <div class="col taught">
-      <h3>Taught in A2.1 — don't pre-study</h3>
-      <p class="sub">You'll get these in class</p>
-      <ul>
-        <li>Perfekt <em>drilled properly</em> + the Satzklammer formalised</li>
-        <li>Präteritum of the modal verbs (<span class="de">konnte, musste, wollte</span>)</li>
-        <li>Adjektivdeklination after der-, ein- and zero articles</li>
-        <li>Wechselpräpositionen: <span class="de">Wo?</span> + Dativ vs. <span class="de">Wohin?</span> + Akkusativ</li>
-        <li>Konjunktiv II: <span class="de">könnte, sollte, würde</span></li>
-        <li><span class="de">weil / dass / wenn</span> — subordinate clause word order</li>
-        <li>Reflexive verbs, Komparativ / Superlativ</li>
-      </ul>
-    </div>
-  </div>
-  <div class="rule-box" style="margin-top:14px">
-    <span class="lbl">Priorisierung</span>
-    If you run short on time, cut Block 4 (prepositions — read the tables instead). Never cut Block 2 or 5: cases and Perfekt are what every single A2.1 lesson stands on, and they're what the placement test measured.
-  </div>
-</section>
-
-<!-- ============ THE DAY ============ -->
-<section class="sec" id="plan">
-  <div class="sec-head">
-    <h2>Der Ablauf</h2>
-    <span class="note">6 Blöcke · 225 Min</span>
-  </div>
-  <div class="rail">
-
-    <article class="blk" data-min="15">
-      <div class="clock"><span class="t">00:00</span><span class="t2">00:15</span><span class="dur">15 Min</span></div>
-      <div class="body">
-        <h3>1 · Diagnose</h3>
-        <p class="why">Don't study what you already know. Find the holes first, then let them steer the day.</p>
-        <ul class="items">
-          <li><input type="checkbox" id="c1a"><label for="c1a"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=-3TFXzLlJ38" target="_blank" rel="noopener">Test Your German — Level A1</a> · <span class="len">11:31</span> — pause on every question, answer out loud, note each miss.</label></li>
-          <li><input type="checkbox" id="c1b"><label for="c1b"><span class="kind">Notieren</span>Write down every item you got wrong. Those topics get double drill time later.</label></li>
-        </ul>
-      </div>
-    </article>
-
-    <article class="blk key" data-min="55">
-      <div class="clock"><span class="t">00:15</span><span class="t2">01:10</span><span class="dur">55 Min</span></div>
-      <div class="body">
-        <span class="stripe">Nicht auslassen</span>
-        <h3>2 · Die Fälle — Nominativ, Akkusativ, Dativ</h3>
-        <p class="why">The single highest-leverage hour. Adjective endings in A2.1 are built directly on top of this table; if the case is wrong the ending can't be right.</p>
-        <ul class="items">
-          <li><input type="checkbox" id="c2a"><label for="c2a"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=bZL5OB61XXM" target="_blank" rel="noopener">Nominativ? Akkusativ? Dativ? — 3 Cases in German</a> · <span class="len">25:38</span></label></li>
-          <li><input type="checkbox" id="c2b"><label for="c2b"><span class="kind">Schreiben</span>Reproduce the full article table (<a href="#ref-kasus">below</a>) from memory on paper — der/ein/kein/mein across all three cases. Repeat until clean.</label></li>
-          <li><input type="checkbox" id="c2c"><label for="c2c"><span class="kind">Üben</span><a href="https://www.deutschakademie.de/online-deutschkurs/deutschkurs/nach-level/A1" target="_blank" rel="noopener">DeutschAkademie A1 Grammatiktrainer</a> — the Artikel and Kasus sets, ~15 Min. Free, and it's your own school's material.</label></li>
-          <li><input type="checkbox" id="c2d"><label for="c2d"><span class="kind">Sprechen</span>Say 10 sentences aloud with a dative object: <span class="de">Ich gebe meinem Bruder das Buch.</span> Change the recipient each time.</label></li>
-        </ul>
-      </div>
-    </article>
-
-    <article class="blk" data-min="45">
-      <div class="clock"><span class="t">01:10</span><span class="t2">01:55</span><span class="dur">45 Min</span></div>
-      <div class="body">
-        <h3>3 · Verben und die Satzklammer</h3>
-        <p class="why">A2.1 opens with separable verbs and the sentence bracket. Arrive already able to put the second verb part at the end without thinking.</p>
-        <ul class="items">
-          <li><input type="checkbox" id="c3a"><label for="c3a"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=bD4vSw6AWps" target="_blank" rel="noopener">Modalverben — Modal verbs</a> · <span class="len">10:12</span></label></li>
-          <li><input type="checkbox" id="c3b"><label for="c3b"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=le-mSvX_Ekk" target="_blank" rel="noopener">Trennbare Verben — Separable verbs</a> · <span class="len">10:39</span></label></li>
-          <li><input type="checkbox" id="c3c"><label for="c3c"><span class="kind">Schreiben</span>Write your whole <span class="de">Tagesablauf</span> — 12 sentences, every one with either a modal or a separable verb. <span class="de">Ich stehe um 6:30 Uhr auf. Dann muss ich zur Arbeit fahren.</span></label></li>
-          <li><input type="checkbox" id="c3d"><label for="c3d"><span class="kind">Üben</span><a href="https://www.schubert-verlag.de/aufgaben/uebungen_a1/a1_uebungen_index.htm" target="_blank" rel="noopener">Schubert-Verlag A1 Online-Übungen</a> — the Verben and Satzbau chapters, ~10 Min.</label></li>
-        </ul>
-      </div>
-    </article>
-
-    <article class="blk" data-min="40">
-      <div class="clock"><span class="t">01:55</span><span class="t2">02:35</span><span class="dur">40 Min</span></div>
-      <div class="body">
-        <h3>4 · Präpositionen</h3>
-        <p class="why">The lists are pure memory work, so memory work is what this block is. A2.1 adds the two-way prepositions on top — you need the fixed ones locked first.</p>
-        <ul class="items">
-          <li><input type="checkbox" id="c4a"><label for="c4a"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=HLBQveKnADU" target="_blank" rel="noopener">Akkusativ-Präpositionen</a> · <span class="len">10:49</span></label></li>
-          <li><input type="checkbox" id="c4b"><label for="c4b"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=X6db08GLuHw" target="_blank" rel="noopener">Präpositionen im Dativ</a> · <span class="len">14:22</span></label></li>
-          <li><input type="checkbox" id="c4c"><label for="c4c"><span class="kind">Auswendig</span>Learn both lists as chants: <span class="de">durch–für–gegen–ohne–um</span> and <span class="de">aus–außer–bei–mit–nach–seit–von–zu</span>. Say them until they're one word each.</label></li>
-          <li><input type="checkbox" id="c4d"><label for="c4d"><span class="kind">Schreiben</span>One sentence per preposition, 13 total, all about your actual week in München.</label></li>
-        </ul>
-      </div>
-    </article>
-
-    <article class="blk key" data-min="45">
-      <div class="clock"><span class="t">02:35</span><span class="t2">03:20</span><span class="dur">45 Min</span></div>
-      <div class="body">
-        <span class="stripe">Nicht auslassen</span>
-        <h3>5 · Perfekt und Präteritum</h3>
-        <p class="why">A2.1's very first vocabulary theme is talking about the past — family memories, last weekend, what you did. This block is the price of admission.</p>
-        <ul class="items">
-          <li><input type="checkbox" id="c5a"><label for="c5a"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=pEundIQVwmU" target="_blank" rel="noopener">Perfekt · Partizip II — full lesson</a> · <span class="len">25:30</span></label></li>
-          <li><input type="checkbox" id="c5b"><label for="c5b"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=nmyEEsPEv-k" target="_blank" rel="noopener">war oder hatte — Präteritum von sein/haben</a> · <span class="len">08:03</span></label></li>
-          <li><input type="checkbox" id="c5c"><label for="c5c"><span class="kind">Auswendig</span>Drill the <a href="#ref-perfekt">participle list below</a>. Cover the right column, say the participle <em>with its auxiliary</em>: <span class="de">ist gefahren</span>, not <span class="de">gefahren</span>.</label></li>
-          <li><input type="checkbox" id="c5d"><label for="c5d"><span class="kind">Schreiben</span>Ten sentences about yesterday in Perfekt. Then rewrite the three with <span class="de">sein</span> and justify each one to yourself.</label></li>
-        </ul>
-      </div>
-    </article>
-
-    <article class="blk" data-min="25">
-      <div class="clock"><span class="t">03:20</span><span class="t2">03:45</span><span class="dur">25 Min</span></div>
-      <div class="body">
-        <h3>6 · Output — alles zusammen</h3>
-        <p class="why">Production, not recognition. This is the part that actually shows up tomorrow when the teacher asks you something.</p>
-        <ul class="items">
-          <li><input type="checkbox" id="c6a"><label for="c6a"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=DWkaLIghET8" target="_blank" rel="noopener">Konjunktionen — und, aber, oder, denn, sondern</a> · <span class="len">14:00</span></label></li>
-          <li><input type="checkbox" id="c6b"><label for="c6b"><span class="kind">Schreiben</span>A 120-word text: <span class="de">Mein letztes Wochenende.</span> Must contain — Perfekt, one modal, one separable verb, two dative objects, three different connectors.</label></li>
-          <li><input type="checkbox" id="c6c"><label for="c6c"><span class="kind">Sprechen</span>Read it aloud twice. Then say it again without looking. Stumbles mark tomorrow's questions.</label></li>
-        </ul>
-      </div>
-    </article>
-
-  </div>
-</section>
 
 <!-- ============ CHEAT SHEET ============ -->
 <section class="sec" id="spick">
@@ -983,32 +782,10 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
   </div>
 </section>
 
-<!-- ============ OPTIONAL ============ -->
-<section class="sec" id="extra">
-  <div class="sec-head">
-    <h2>Wenn Zeit bleibt</h2>
-    <span class="note">heute Abend · optional</span>
-  </div>
-  <div class="blk" style="grid-template-columns:1fr">
-    <div class="body">
-      <p class="why">Not required for tomorrow. Best used tonight in bed, or on the U-Bahn on the way to class.</p>
-      <ul class="items optional">
-        <li><input type="checkbox" id="x1"><label for="x1"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=dTdc9sPFQig" target="_blank" rel="noopener">Wo? oder Wohin? Teil 1</a> · <span class="len">13:36</span> — a head start on A2.1's Wechselpräpositionen.</label></li>
-        <li><input type="checkbox" id="x2"><label for="x2"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=GueeAMLvV4w" target="_blank" rel="noopener">Wo? oder Wohin? Teil 2</a> · <span class="len">13:39</span></label></li>
-        <li><input type="checkbox" id="x3"><label for="x3"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=HySduWqqPcU" target="_blank" rel="noopener">kein oder nicht</a> · <span class="len">11:51</span></label></li>
-        <li><input type="checkbox" id="x4"><label for="x4"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=sBUR0Q9ZTN4" target="_blank" rel="noopener">Possessivartikel</a> · <span class="len">13:54</span></label></li>
-        <li><input type="checkbox" id="x5"><label for="x5"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=2b44fRJYg5Y" target="_blank" rel="noopener">Imperativ</a> · <span class="len">11:44</span></label></li>
-        <li><input type="checkbox" id="x6"><label for="x6"><span class="kind v">Video</span><a href="https://www.youtube.com/watch?v=SYUbBeAB2CU" target="_blank" rel="noopener">25 Verbs and their Perfect</a> · <span class="len">10:28</span> — pure repetition drill, good for passive listening.</label></li>
-      </ul>
-    </div>
-  </div>
-</section>
-
 <footer>
   <h4>Quellen</h4>
   <ul>
-    <li>Videos: <a href="https://www.youtube.com/@LearnGermanOriginal" target="_blank" rel="noopener">Learn German (LearnGermanOriginal)</a> — durations verified against the A1 and A1/A2 Grammar playlists.</li>
-    <li>Syllabus scope: <a href="https://www.deutschakademie.de/en/german-courses-levels-a1-to-c2/a2-german-course/" target="_blank" rel="noopener">DeutschAkademie A2 course description</a> (A2.1 grammar and vocabulary modules).</li>
+    <li>Syllabus scope: <a href="https://www.deutschakademie.de/en/german-courses-levels-a1-to-c2/a2-german-course/" target="_blank" rel="noopener">DeutschAkademie A2 course description</a>.</li>
     <li>A1 requirements cross-check: <a href="https://www.olesentuition.co.uk/single-post/german-grammar-guide-for-the-goethe-a1-exam" target="_blank" rel="noopener">Goethe A1 grammar guide</a>.</li>
     <li>Übungen: <a href="https://www.deutschakademie.de/online-deutschkurs/deutschkurs/nach-level/A1" target="_blank" rel="noopener">DeutschAkademie Grammatiktrainer A1</a> · <a href="https://www.schubert-verlag.de/aufgaben/uebungen_a1/a1_uebungen_index.htm" target="_blank" rel="noopener">Schubert-Verlag A1</a>.</li>
   </ul>
@@ -1018,57 +795,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
 
 <script>
 (function(){
-  var KEY = "a1bridge.v1";
-  var boxes = Array.prototype.slice.call(document.querySelectorAll('ul.items:not(.optional) input[type=checkbox]'));
-  var allBoxes = Array.prototype.slice.call(document.querySelectorAll('ul.items input[type=checkbox]'));
-  var fill = document.getElementById('fill');
-  var pdone = document.getElementById('pdone');
-  var ptotal = document.getElementById('ptotal');
-  var pmin = document.getElementById('pmin');
-
-  // minutes attributed to each block, spread over its own items
-  var weights = {};
-  Array.prototype.forEach.call(document.querySelectorAll('.blk[data-min]'), function(blk){
-    var mins = parseInt(blk.getAttribute('data-min'), 10) || 0;
-    var items = blk.querySelectorAll('ul.items input[type=checkbox]');
-    for (var i = 0; i < items.length; i++) weights[items[i].id] = mins / items.length;
-  });
-
-  function load(){
-    try {
-      var raw = localStorage.getItem(KEY);
-      if (!raw) return {};
-      return JSON.parse(raw) || {};
-    } catch (e) { return {}; }
-  }
-  function save(state){
-    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
-  }
-
-  function render(){
-    var done = 0, minsLeft = 0;
-    boxes.forEach(function(b){
-      if (b.checked) done++;
-      else minsLeft += (weights[b.id] || 0);
-    });
-    var pct = boxes.length ? Math.round(done / boxes.length * 100) : 0;
-    fill.style.width = pct + '%';
-    pdone.textContent = done;
-    ptotal.textContent = boxes.length;
-    pmin.textContent = Math.round(minsLeft);
-  }
-
-  var state = load();
-  allBoxes.forEach(function(b){
-    if (state[b.id]) b.checked = true;
-    b.addEventListener('change', function(){
-      state[b.id] = b.checked;
-      save(state);
-      render();
-    });
-  });
-  render();
-
+  // Expand or collapse every reference card at once.
   var toggle = document.getElementById('toggleall');
   var cards = Array.prototype.slice.call(document.querySelectorAll('.card'));
   toggle.addEventListener('click', function(){
@@ -1077,7 +804,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     toggle.textContent = openAll ? 'Alle schließen' : 'Alle öffnen';
   });
 
-  // deep links from the plan should reveal the card they point at
+  // A link to #ref-xyz should reveal the card it points at.
   function openTarget(){
     var id = location.hash.slice(1);
     if (!id) return;
@@ -1086,13 +813,6 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
   }
   window.addEventListener('hashchange', openTarget);
   openTarget();
-
-  document.getElementById('reset').addEventListener('click', function(){
-    allBoxes.forEach(function(b){ b.checked = false; });
-    state = {};
-    save(state);
-    render();
-  });
 })();
 </script>
 

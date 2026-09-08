@@ -11,7 +11,7 @@ export const VIEWS = [
   { id: "review", label: "Review", icon: "🔁" },
   { id: "browse", label: "Browse", icon: "🔍" },
   { id: "cheatsheet", label: "Cheatsheet", icon: "📖" },
-  { id: "bridge", label: "Bridge", icon: "🌉" },
+  { id: "bridge", label: "Spickzettel", icon: "🗒️" },
   { id: "notes", label: "Notes", icon: "📝" },
   { id: "stats", label: "Stats", icon: "📊" },
 ];
