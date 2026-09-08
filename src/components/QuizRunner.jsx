@@ -1,8 +1,8 @@
 // ── QuizRunner: reusable question-card / options / summary engine
 // Consumes a fixed queue of { item, cat, question } entries and owns
 // answering, keyboard control, streak, the SRS write-back, and the
-// session-summary screen. Shared by QuizView (single category) and
-// ReviewView (mixed "due today" deck).
+// session-summary screen. Used by QuizView, which scopes the queue to
+// the active chunk of words being mastered (see engine/quiz.js).
 import { useState, useEffect, useCallback, useRef } from "react";
 import { COLORS, TXT, MUTE, FAINT } from "../config/theme";
 import { keyOf, applyAnswer, saveProgress } from "../engine/progress";
