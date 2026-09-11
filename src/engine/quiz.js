@@ -125,3 +125,85 @@ function weightedSample(weighted, count) {
   }
   return out;
 }
+
+// ── Mixed deck: one level-wide, category-balanced flashcard deck ──
+// The chunked pickers above walk the data file in order, so a session
+// scoped to a single category always starts at the top of that file —
+// with 2 200+ nouns against ~150 grammar entries, practice collapses
+// onto the first page of nouns and never reaches the rest of the level.
+//
+// pickMixedDeck fixes both halves of that bias:
+//   • it draws from every selected category at once, round-robin, so
+//     each word type is represented however lopsided the data is;
+//   • within a category it samples the *whole* level pool at random
+//     (ordered by SRS priority, shuffled inside each tier) instead of
+//     slicing the first N entries.
+// The result is a fixed-size deck — default 40 — covering the full
+// scope of the chosen level (or of every level, when "All" is active).
+export const MIXED_DECK_SIZE = 40;
+
+// The four word types the mixed deck ships with. Phrases and Other can
+// be switched on in the view; these are the defaults.
+export const MIXED_CATEGORY_IDS = ["nouns", "verbs", "adj", "gram"];
+
+// 0 = due for review, 1 = started but not due yet, 2 = never seen.
+function srsTier(p, now) {
+  if (!p || !p.total) return 2;
+  return p.due == null || p.due <= now ? 0 : 1;
+}
+
+// Everything practisable right now: unmastered, in the chosen level and
+// in one of the chosen categories. Returned as { item, cat } entries.
+export function mixedPool(db, categories, progress, levelFilter, catIds = MIXED_CATEGORY_IDS) {
+  const out = [];
+  for (const cat of categories) {
+    if (!catIds.includes(cat.id)) continue;
+    for (const it of db[cat.key] || []) {
+      if (levelFilter !== "All" && lvlOf(it) !== levelFilter) continue;
+      if (isMastered(progress[keyOf(cat.id, it)])) continue;
+      out.push({ item: it, cat });
+    }
+  }
+  return out;
+}
+
+export function pickMixedDeck(
+  db, categories, progress, levelFilter,
+  { size = MIXED_DECK_SIZE, catIds = MIXED_CATEGORY_IDS } = {}
+) {
+  const now = Date.now();
+
+  // One priority queue per category: due words first, then words already
+  // started, then unseen ones — each tier shuffled so the draw spans the
+  // whole level rather than the head of the file.
+  const queues = [];
+  for (const cat of categories) {
+    if (!catIds.includes(cat.id)) continue;
+    const tiers = [[], [], []];
+    for (const it of db[cat.key] || []) {
+      if (levelFilter !== "All" && lvlOf(it) !== levelFilter) continue;
+      const p = progress[keyOf(cat.id, it)];
+      if (isMastered(p)) continue;
+      tiers[srsTier(p, now)].push({ item: it, cat });
+    }
+    const q = [...shuffle(tiers[0]), ...shuffle(tiers[1]), ...shuffle(tiers[2])];
+    if (q.length) queues.push(q);
+  }
+  if (queues.length === 0) return [];
+
+  // Round-robin: take the i-th word of every category before any
+  // category's (i+1)-th. Categories that run dry simply drop out, so a
+  // small category never caps the deck — it just stops contributing.
+  const deck = [];
+  for (let i = 0; deck.length < size; i++) {
+    let took = false;
+    for (const q of queues) {
+      if (i >= q.length) continue;
+      deck.push(q[i]);
+      took = true;
+      if (deck.length >= size) break;
+    }
+    if (!took) break;
+  }
+  return shuffle(deck);
+}

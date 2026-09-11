@@ -4,19 +4,24 @@ import { lvlOf } from "../config/levels";
 import { CATEGORIES } from "../config/categories";
 import { LevelSwitcher } from "./LevelSwitcher";
 
-// The single source of truth for the app's views. Bottom nav reuses it.
+// The single source of truth for the app's views. Bottom nav reuses it,
+// falling back to `short` where the full label no longer fits seven tabs
+// across a phone screen.
 export const VIEWS = [
+  { id: "mixed", label: "Mixed", icon: "🎲" },
   { id: "quiz", label: "Quiz", icon: "📚" },
   { id: "chunks", label: "Chunks", icon: "🧩" },
   { id: "browse", label: "Browse", icon: "🔍" },
-  { id: "cheatsheet", label: "Spickzettel", icon: "📖" },
+  { id: "cheatsheet", label: "Spickzettel", short: "Spick", icon: "📖" },
   { id: "notes", label: "Notes", icon: "📝" },
   { id: "stats", label: "Stats", icon: "📊" },
 ];
 
 // Chunks brings its own level chips (A2+ only), so the shared switcher is hidden there.
 const NO_LEVELS = new Set(["cheatsheet", "notes", "chunks"]);
-const NO_CATEGORIES = new Set(["stats", "cheatsheet", "notes", "chunks"]);
+// Mixed draws from several categories at once and picks them with its own
+// chips, so the single-category tab row would be meaningless there.
+const NO_CATEGORIES = new Set(["mixed", "stats", "cheatsheet", "notes", "chunks"]);
 
 export function Header({ db, view, setView, levelFilter, setLevelFilter, activeCat, setActiveCat, backlogCount }) {
   const totalWords = CATEGORIES.reduce((s, c) => s + db[c.key].length, 0);

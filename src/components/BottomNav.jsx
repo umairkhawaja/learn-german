@@ -10,17 +10,17 @@ export function BottomNav({ view, setView, backlogCount }) {
       borderTop: "1px solid #1e1e1e", display: "flex",
       paddingBottom: "env(safe-area-inset-bottom)",
     }}>
-      {VIEWS.map(({ id, label, icon }) => {
+      {VIEWS.map(({ id, label, short, icon }) => {
         const active = view === id;
         return (
           <button key={id} onClick={() => setView(id)}
             style={{
               flex: 1, background: "transparent", border: "none", cursor: "pointer",
-              padding: "8px 2px 9px", display: "flex", flexDirection: "column", alignItems: "center", gap: 2,
+              padding: "8px 1px 9px", minWidth: 0, display: "flex", flexDirection: "column", alignItems: "center", gap: 2,
               color: active ? COLORS.txtStrong : "#5b626f", position: "relative",
             }}>
             <span style={{ fontSize: 17, opacity: active ? 1 : 0.7 }}>{icon}</span>
-            <span style={{ fontSize: 9.5, fontWeight: active ? 700 : 500 }}>{label}</span>
+            <span style={{ fontSize: 9.5, fontWeight: active ? 700 : 500, whiteSpace: "nowrap" }}>{short || label}</span>
             {active && <span style={{ position: "absolute", top: 0, left: "50%", transform: "translateX(-50%)", width: 22, height: 2.5, background: "#a855f7", borderRadius: 999 }} />}
             {id === "quiz" && backlogCount > 0 && (
               <span style={{ position: "absolute", top: 4, right: "50%", marginRight: -22, fontSize: 9, color: "#fff", background: "#a855f7", borderRadius: 999, padding: "0px 4px", fontWeight: 700 }}>{backlogCount}</span>

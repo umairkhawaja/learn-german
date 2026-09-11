@@ -16,7 +16,7 @@
    This file is composition only. Logic lives in:
      config/   levels, categories, theme            (the extension cores)
      engine/   progress (+SRS), quiz, useDriveSync
-     components/ Header, BottomNav, the five views, QuizRunner, ui, detail
+     components/ Header, BottomNav, the views, QuizRunner, ui, detail
    ============================================================ */
 import { useState, useEffect, useMemo } from "react";
 import { COLORS, FONT } from "./config/theme";
@@ -28,6 +28,7 @@ import { useDriveSync } from "./engine/useDriveSync";
 import { useCloudSync } from "./engine/useCloudSync";
 import { Header } from "./components/Header";
 import { BottomNav } from "./components/BottomNav";
+import { MixedView } from "./components/MixedView";
 import { QuizView } from "./components/QuizView";
 import { ChunksView } from "./components/ChunksView";
 import { BrowseView } from "./components/BrowseView";
@@ -43,7 +44,10 @@ export default function DeutschMeister() {
   // against the initial {} can be overwritten by the later local setProgress,
   // and a push of {} would clobber the remote backup.
   const [progressLoaded, setProgressLoaded] = useState(false);
-  const [view, setView] = useState("quiz"); // quiz | chunks | browse | cheatsheet | notes | stats
+  // Mixed is the landing view: a 40-card deck drawn across nouns, verbs,
+  // adjectives and grammar, so practice starts on the whole level instead
+  // of the top of whichever category tab happens to be open.
+  const [view, setView] = useState("mixed"); // mixed | quiz | chunks | browse | cheatsheet | notes | stats
   const [activeCat, setActiveCat] = useState(0);
   const [levelFilter, setLevelFilter] = useState("All");
 
@@ -94,6 +98,7 @@ export default function DeutschMeister() {
         <CheatsheetView />
       ) : (
       <div style={{ maxWidth: 680, margin: "0 auto", padding: "18px 16px 96px", width: "100%" }}>
+        {view === "mixed" && <MixedView db={db} progress={progress} setProgress={setProgress} levelFilter={levelFilter} />}
         {view === "quiz" && <QuizView key={cat.id} cat={cat} progress={progress} setProgress={setProgress} levelFilter={levelFilter} db={db} />}
         {view === "chunks" && <ChunksView progress={progress} setProgress={setProgress} />}
         {view === "browse" && <BrowseView key={cat.id} cat={cat} progress={progress} setProgress={setProgress} levelFilter={levelFilter} db={db} />}
