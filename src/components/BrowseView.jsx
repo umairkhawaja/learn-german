@@ -60,7 +60,9 @@ export function BrowseView({ cat, progress, setProgress, levelFilter, db }) {
   // land halfway down a list you have not scrolled.
   useEffect(() => { setLimit(PAGE); }, [search, catFilter, status, cat, levelFilter]);
 
-  const cats = ["All", ...subcatsOf(cat, pool)];
+  // Memoised, or the identity changes on every render and the effect below
+  // re-runs each time.
+  const cats = useMemo(() => ["All", ...subcatsOf(cat, pool)], [cat, pool]);
   useEffect(() => {
     if (catFilter !== "All" && !cats.includes(catFilter)) setCatFilter("All");
   }, [cats, catFilter]);

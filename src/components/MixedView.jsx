@@ -91,7 +91,7 @@ function rehydrate(saved, db) {
   };
 }
 
-export function MixedView({ db, progress, setProgress, levelFilter, recordAnswer, dueCount = 0 }) {
+export function MixedView({ db, progress, setProgress, levelFilter, recordAnswer }) {
   const [catIds, setCatIds] = useState(MIXED_CATEGORY_IDS);
   const [size, setSize] = useState(MIXED_DECK_SIZE);
   const [flipped, setFlipped] = useState(false); // true → English side first
@@ -167,6 +167,19 @@ export function MixedView({ db, progress, setProgress, levelFilter, recordAnswer
     () => mixedPool(db, CATEGORIES, progress, levelFilter, catIds),
     [db, progress, levelFilter, catIds]
   );
+
+  // How many of *these* words are due. The header's count is app-wide, so
+  // using it here would offer "Review 5" and then deal two cards, or claim
+  // nothing is due while the categories you switched off are full of reviews.
+  const dueCount = useMemo(() => {
+    const now = Date.now();
+    let n = 0;
+    for (const { item, cat } of pool) {
+      const p = progress[keyOf(cat.id, item)];
+      if (p && p.total > 0 && (p.due == null || p.due <= now)) n++;
+    }
+    return n;
+  }, [pool, progress]);
 
   const scope = scopeOf(levelFilter, size, catIds, dueOnly);
 
@@ -370,7 +383,7 @@ export function MixedView({ db, progress, setProgress, levelFilter, recordAnswer
           </div>
           <div style={{ fontSize: 13, color: MUTE }}>
             {dueOnly
-              ? "Everything you have started is still resting. Turn Review off to meet new words."
+              ? "Nothing in these word types is due yet. Turn Review off to meet new words, or add a word type above."
               : "Every word in this level and these categories is mastered — switch level, or add a category above."}
           </div>
         </div>

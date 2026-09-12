@@ -150,7 +150,7 @@ export default function DeutschMeister() {
         <CheatsheetView />
       ) : (
         <main style={{ maxWidth: 680, margin: "0 auto", padding: "18px 16px 96px", width: "100%" }}>
-          {view === "mixed" && <MixedView db={db} {...shared} levelFilter={levelFilter} dueCount={due} />}
+          {view === "mixed" && <MixedView db={db} {...shared} levelFilter={levelFilter} />}
           {view === "quiz" && <QuizView key={cat.id} cat={cat} {...shared} levelFilter={levelFilter} db={db} />}
           {view === "chunks" && <ChunksView {...shared} />}
           {view === "browse" && <BrowseView key={cat.id} cat={cat} progress={progress} setProgress={setProgress} levelFilter={levelFilter} db={db} />}
