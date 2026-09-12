@@ -32,7 +32,7 @@
  {
   "w": "kalt",
   "e": "cold",
-  "c": "Physical Properties",
+  "c": "Weather & Seasons",
   "cmp": "kälter",
   "sup": "am kältesten",
   "opp": "warm / heiß",
@@ -62,7 +62,7 @@
  {
   "w": "kühl",
   "e": "cool / chilly",
-  "c": "Physical Properties",
+  "c": "Weather & Seasons",
   "cmp": "kühler",
   "sup": "am kühlsten",
   "opp": "warm / heiß",
@@ -162,7 +162,7 @@
  {
   "w": "heiß",
   "e": "hot",
-  "c": "Physical Properties",
+  "c": "Weather & Seasons",
   "cmp": "heißer",
   "sup": "am heißesten",
   "opp": "kalt / kühl",
@@ -282,7 +282,7 @@
  {
   "w": "hell",
   "e": "bright / light",
-  "c": "Physical Properties",
+  "c": "Farben",
   "cmp": "heller",
   "sup": "am hellsten",
   "opp": "dunkel",
@@ -393,8 +393,8 @@
   "w": "geschlossen",
   "e": "closed",
   "c": "Other",
-  "cmp": "geschlossener",
-  "sup": "am geschlossensten",
+  "cmp": "–",
+  "sup": "–",
   "opp": "offen",
   "ex": "Der Laden ist heute geschlossen.",
   "lvl": "A2"
@@ -402,7 +402,7 @@
  {
   "w": "dunkel",
   "e": "dark",
-  "c": "Physical Properties",
+  "c": "Farben",
   "cmp": "dunkler",
   "sup": "am dunkelsten",
   "opp": "hell",
@@ -462,7 +462,7 @@
  {
   "w": "warm",
   "e": "warm",
-  "c": "Physical Properties",
+  "c": "Weather & Seasons",
   "cmp": "wärmer",
   "sup": "am wärmsten",
   "opp": "kalt / kühl",
@@ -542,9 +542,9 @@
  {
   "w": "schriftlich",
   "e": "written",
-  "c": "Other",
-  "cmp": "schriftlicher",
-  "sup": "am schriftlichsten",
+  "c": "Work & Study",
+  "cmp": "–",
+  "sup": "–",
   "opp": "mündlich",
   "ex": "Ich brauche das schriftlich.",
   "lvl": "A2"
@@ -573,8 +573,8 @@
   "w": "möglich",
   "e": "possible",
   "c": "Other",
-  "cmp": "möglicher",
-  "sup": "am möglichsten",
+  "cmp": "–",
+  "sup": "–",
   "opp": "unmöglich",
   "ex": "Ist das möglich? — Is that possible?",
   "lvl": "A1"
@@ -680,21 +680,11 @@
   "lvl": "A1"
  },
  {
-  "w": "spännend",
-  "e": "exciting / thrilling",
-  "c": "Quality & Value",
-  "cmp": "spannender",
-  "sup": "am spannendsten",
-  "opp": "langweilig",
-  "ex": "Der Film war sehr spannend.",
-  "lvl": "A2"
- },
- {
   "w": "mündlich",
   "e": "oral / verbal",
-  "c": "Other",
-  "cmp": "mündlicher",
-  "sup": "am mündlichsten",
+  "c": "Work & Study",
+  "cmp": "–",
+  "sup": "–",
   "opp": "schriftlich",
   "ex": "Die Prüfung ist mündlich.",
   "lvl": "B1"
@@ -770,21 +760,11 @@
   "lvl": "B1"
  },
  {
-  "w": "später",
-  "e": "later",
-  "c": "Time & Frequency",
-  "cmp": "–",
-  "sup": "am spätesten",
-  "opp": "früher",
-  "ex": "Wir sehen uns später. — See you later.",
-  "lvl": "A1"
- },
- {
   "w": "nötig",
   "e": "necessary",
   "c": "Other",
-  "cmp": "nötiger",
-  "sup": "am nötigsten",
+  "cmp": "–",
+  "sup": "–",
   "opp": "unnötig / überflüssig",
   "ex": "Das ist nicht nötig.",
   "lvl": "B1"
@@ -830,31 +810,11 @@
   "lvl": "B1"
  },
  {
-  "w": "zusammen",
-  "e": "together",
-  "c": "Other",
-  "cmp": "–",
-  "sup": "–",
-  "opp": "allein / getrennt",
-  "ex": "Wir machen das zusammen. — We are doing this together.",
-  "lvl": "A1"
- },
- {
-  "w": "selten",
-  "e": "rare / seldom",
-  "c": "Time & Frequency",
-  "cmp": "seltener",
-  "sup": "am seltensten",
-  "opp": "häufig / oft",
-  "ex": "So etwas sieht man selten.",
-  "lvl": "B1"
- },
- {
   "w": "zuständig",
   "e": "responsible / in charge",
-  "c": "Other",
-  "cmp": "zuständiger",
-  "sup": "am zuständigsten",
+  "c": "Work & Study",
+  "cmp": "–",
+  "sup": "–",
   "opp": "nicht zuständig",
   "ex": "Wer ist dafür zuständig?",
   "lvl": "B1"
@@ -940,16 +900,6 @@
   "lvl": "A2"
  },
  {
-  "w": "endlich",
-  "e": "finally / at last",
-  "c": "Time & Frequency",
-  "cmp": "–",
-  "sup": "–",
-  "opp": "unendlich",
-  "ex": "Endlich ist es fertig!",
-  "lvl": "A2"
- },
- {
   "w": "mutig",
   "e": "brave / courageous",
   "c": "Describing People",
@@ -973,8 +923,8 @@
   "w": "fertig",
   "e": "finished / ready / done",
   "c": "Other",
-  "cmp": "fertiger",
-  "sup": "am fertigsten",
+  "cmp": "–",
+  "sup": "–",
   "opp": "unfertig / noch nicht fertig",
   "ex": "Ich bin fertig. — I am finished.",
   "lvl": "A1"
@@ -1002,7 +952,7 @@
  {
   "w": "hungrig",
   "e": "hungry",
-  "c": "Feelings & States",
+  "c": "Emotion & Feeling",
   "cmp": "hungriger",
   "sup": "am hungrigsten",
   "opp": "satt",
@@ -1012,7 +962,7 @@
  {
   "w": "durstig",
   "e": "thirsty",
-  "c": "Feelings & States",
+  "c": "Emotion & Feeling",
   "cmp": "durstiger",
   "sup": "am durstigsten",
   "opp": "–",
@@ -1022,9 +972,9 @@
  {
   "w": "frei",
   "e": "free / available / vacant",
-  "c": "States",
-  "cmp": "freier",
-  "sup": "am freisten",
+  "c": "Status & Condition",
+  "cmp": "–",
+  "sup": "–",
   "opp": "besetzt",
   "ex": "Ist dieser Platz noch frei? — Is this seat still free?",
   "lvl": "A1"
@@ -1032,9 +982,9 @@
  {
   "w": "besetzt",
   "e": "occupied / taken / busy",
-  "c": "States",
-  "cmp": "besetzter",
-  "sup": "am besetztesten",
+  "c": "Status & Condition",
+  "cmp": "–",
+  "sup": "–",
   "opp": "frei",
   "ex": "Die Toilette ist besetzt.",
   "lvl": "A2"
@@ -1062,7 +1012,7 @@
  {
   "w": "böse",
   "e": "angry / mean / evil",
-  "c": "Feelings & States",
+  "c": "Emotion & Feeling",
   "cmp": "böser",
   "sup": "am bösesten",
   "opp": "lieb",
@@ -1072,7 +1022,7 @@
  {
   "w": "abhängig",
   "e": "dependent",
-  "c": "States",
+  "c": "Status & Condition",
   "cmp": "abhängiger",
   "sup": "am abhängigsten",
   "opp": "unabhängig",
@@ -1123,8 +1073,8 @@
   "w": "eigen",
   "e": "own / unique",
   "c": "Other",
-  "cmp": "eigener",
-  "sup": "am eigensten",
+  "cmp": "–",
+  "sup": "–",
   "opp": "fremd",
   "ex": "Ich habe ein eigenes Auto.",
   "lvl": "A2"
@@ -1162,7 +1112,7 @@
  {
   "w": "gefährlich",
   "e": "dangerous",
-  "c": "States",
+  "c": "Status & Condition",
   "cmp": "gefährlicher",
   "sup": "am gefährlichsten",
   "opp": "sicher",
@@ -1222,7 +1172,7 @@
  {
   "w": "nass",
   "e": "wet",
-  "c": "Physical Properties",
+  "c": "Weather & Seasons",
   "cmp": "nässer",
   "sup": "am nassesten",
   "opp": "trocken",
@@ -1233,8 +1183,8 @@
   "w": "notwendig",
   "e": "necessary",
   "c": "Quality & Value",
-  "cmp": "notwendiger",
-  "sup": "am notwendigsten",
+  "cmp": "–",
+  "sup": "–",
   "opp": "unnötig",
   "ex": "Diese Maßnahme ist absolut notwendig.",
   "lvl": "A2"
@@ -1282,7 +1232,7 @@
  {
   "w": "trocken",
   "e": "dry",
-  "c": "Physical Properties",
+  "c": "Weather & Seasons",
   "cmp": "trockener",
   "sup": "am trockensten",
   "opp": "nass",
@@ -1348,7 +1298,7 @@
  {
   "w": "rot",
   "e": "red",
-  "c": "Other",
+  "c": "Farben",
   "cmp": "roter",
   "sup": "am rotesten",
   "ex": "Der Kugelschreiber ist rot. — The pen is red.",
@@ -1357,7 +1307,7 @@
  {
   "w": "blau",
   "e": "blue",
-  "c": "Other",
+  "c": "Farben",
   "cmp": "blauer",
   "sup": "am blausten",
   "ex": "Die Brille ist blau. — The glasses are blue.",
@@ -1366,7 +1316,7 @@
  {
   "w": "schwarz",
   "e": "black",
-  "c": "Other",
+  "c": "Farben",
   "cmp": "schwärzer",
   "sup": "am schwärzesten",
   "ex": "Der Kugelschreiber ist schwarz. — The pen is black.",
@@ -1375,7 +1325,7 @@
  {
   "w": "grün",
   "e": "green",
-  "c": "Other",
+  "c": "Farben",
   "cmp": "grüner",
   "sup": "am grünsten",
   "ex": "Der Kalender ist grün. — The calendar is green.",
@@ -1384,7 +1334,7 @@
  {
   "w": "weiß",
   "e": "white",
-  "c": "Other",
+  "c": "Farben",
   "cmp": "weißer",
   "sup": "am weißesten",
   "ex": "Das Handy ist weiß. — The phone is white.",
@@ -1393,7 +1343,7 @@
  {
   "w": "gelb",
   "e": "yellow",
-  "c": "Other",
+  "c": "Farben",
   "cmp": "gelber",
   "sup": "am gelbsten",
   "ex": "Die Bücher sind gelb. — The books are yellow.",
@@ -1402,7 +1352,7 @@
  {
   "w": "grau",
   "e": "grey",
-  "c": "Other",
+  "c": "Farben",
   "cmp": "grauer",
   "sup": "am grausten",
   "ex": "Der Bleistift ist grau. — The pencil is grey.",
@@ -1411,23 +1361,25 @@
  {
   "w": "orange",
   "e": "orange",
-  "c": "Other",
+  "c": "Farben",
   "ex": "Die Stifte sind orange. — The pens are orange.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "cmp": "–",
+  "sup": "–"
  },
  {
   "w": "pink",
   "e": "pink",
-  "c": "Other",
-  "cmp": "pinker",
-  "sup": "am pinksten",
+  "c": "Farben",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Der MP3-Player ist pink. — The MP3 player is pink.",
   "lvl": "A1"
  },
  {
   "w": "braun",
   "e": "brown",
-  "c": "Other",
+  "c": "Farben",
   "cmp": "brauner",
   "sup": "am braunsten",
   "ex": "Die Kalender sind braun. — The calendars are brown.",
@@ -1437,24 +1389,31 @@
   "w": "gern(e)",
   "e": "yes (Yes, I like it a lot.)",
   "c": "Other",
-  "cmp": "gern(e)er",
-  "sup": "am gern(e)sten",
+  "cmp": "lieber",
+  "sup": "am liebsten",
   "ex": "Ja, gern. — Yes, gladly.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Adverb"
  },
  {
   "w": "dies",
   "e": "this",
-  "c": "Other",
+  "c": "Function Words",
   "ex": "Was machen wir dieses Semester? — What are we doing this semester?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Artikelwort",
+  "cmp": "–",
+  "sup": "–"
  },
  {
   "w": "nächst",
   "e": "next",
-  "c": "Other",
+  "c": "Function Words",
   "ex": "Ich fahre nächstes Wochenende Ski. — I am going skiing next weekend.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Artikelwort",
+  "cmp": "–",
+  "sup": "–"
  },
  {
   "w": "lieb",
@@ -1468,166 +1427,180 @@
  {
   "w": "erst",
   "e": "first",
-  "c": "Other",
+  "c": "Numbers & Order",
   "ex": "Die erste Nachricht um acht Uhr drei: ... — The first message at 8:03: ...",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Ordinalzahl",
+  "cmp": "–",
+  "sup": "–"
  },
  {
   "w": "zweit",
   "e": "second",
-  "c": "Other",
+  "c": "Numbers & Order",
   "ex": "Die zweite Nachricht um acht Uhr drei: ... — The second message at 8:03: ...",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Ordinalzahl",
+  "cmp": "–",
+  "sup": "–"
  },
  {
   "w": "dritt",
   "e": "third",
-  "c": "Other",
+  "c": "Numbers & Order",
   "ex": "Die dritte Nachricht um elf Uhr eins: ... — The third message at 11:01: ...",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Ordinalzahl",
+  "cmp": "–",
+  "sup": "–"
  },
  {
   "w": "bestimmt",
   "e": "certainly, definitely",
-  "c": "Other",
-  "cmp": "bestimmter",
-  "sup": "am bestimmtesten",
+  "c": "Function Words",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Er sucht die Uhr bestimmt … — He is certainly looking for the watch ...",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Partikel"
  },
  {
   "w": "hoffentlich",
   "e": "hopefully",
-  "c": "Other",
-  "cmp": "hoffentlicher",
-  "sup": "am hoffentlichsten",
+  "c": "Time & Frequency",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Hoffentlich geht es schnell. — Hopefully it will be quick.",
-  "lvl": "A1"
- },
- {
-  "w": "dazu",
-  "e": "as well",
-  "c": "Other",
-  "cmp": "dazuer",
-  "sup": "am dazusten",
-  "ex": "Möchten Sie auch einen Salat dazu? — Would you also like a salad with it?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Adverb"
  },
  {
   "w": "okay",
   "e": "okay",
-  "c": "Other",
-  "cmp": "okayer",
-  "sup": "am okaysten",
+  "c": "Function Words",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Wie geht’s? – Alles okay. — How are you? – Everything is okay.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Partikel"
  },
  {
   "w": "schade",
   "e": "shame, pity (What a shame!)",
-  "c": "Other",
-  "cmp": "schader",
-  "sup": "am schadesten",
+  "c": "Function Words",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Hmm. Schade! — Hmm. What a shame!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Partikel"
  },
  {
   "w": "halb",
   "e": "half",
-  "c": "Size & Quantity",
-  "cmp": "halber",
-  "sup": "am halbsten",
+  "c": "Numbers & Order",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Es ist halb elf. — It is half past ten.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Zahlwort"
  },
  {
   "w": "live",
   "e": "live",
   "c": "Other",
-  "cmp": "liver",
-  "sup": "am livesten",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Die Band ist live in Hamburg. — The band is live in Hamburg.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Adverb"
  },
  {
   "w": "deutsch",
   "e": "German",
   "c": "Other",
-  "cmp": "deutscher",
-  "sup": "am deutschesten",
-  "ex": "Es spielt die deutsche Band „Die — The German band 'Die Fantastischen Vier' is playing.",
+  "cmp": "–",
+  "sup": "–",
+  "ex": "Es spielt die deutsche Band „Die Fantastischen Vier“. — The German band 'Die Fantastischen Vier' is playing.",
   "lvl": "A1"
  },
  {
   "w": "na",
   "e": "so",
-  "c": "Other",
-  "cmp": "naer",
-  "sup": "am nasten",
+  "c": "Function Words",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Na, wie geht’s? — So, how are you?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Partikel"
  },
  {
   "w": "online",
   "e": "online",
   "c": "Other",
-  "cmp": "onliner",
-  "sup": "am onlinesten",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Zuletzt online heute um 17:32. — Last online today at 17:32.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Adverb"
  },
  {
   "w": "geöffnet",
   "e": "open",
   "c": "Other",
-  "cmp": "geöffneter",
-  "sup": "am geöffnetesten",
-  "ex": "Alle Museen sind von 18:00 bis 24:00 Uhr — All museums are open from 6 p.m. to midnight.",
+  "cmp": "–",
+  "sup": "–",
+  "ex": "Alle Museen sind von 18:00 bis 24:00 Uhr geöffnet. — All museums are open from 6 p.m. to midnight.",
   "lvl": "A1"
  },
  {
   "w": "täglich",
   "e": "daily",
   "c": "Time & Frequency",
-  "cmp": "täglicher",
-  "sup": "am täglichsten",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Das Museum ist täglich geöffnet. — The museum is open daily.",
   "lvl": "A1"
  },
  {
   "w": "klar",
   "e": "here: of course",
-  "c": "Other",
-  "cmp": "klarer",
-  "sup": "am klarsten",
+  "c": "Function Words",
+  "cmp": "–",
+  "sup": "–",
   "opp": "unklar",
   "ex": "Ja, klar. — Yes, of course.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Partikel"
  },
  {
   "w": "letzt",
   "e": "last",
-  "c": "Other",
+  "c": "Function Words",
   "ex": "Nimm das letzte Stück Pizza! — Take the last piece of pizza!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Artikelwort",
+  "cmp": "–",
+  "sup": "–"
  },
  {
   "w": "mehr",
   "e": "more",
-  "c": "Other",
-  "cmp": "mehrer",
-  "sup": "am mehrsten",
+  "c": "Numbers & Order",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Ich kann nicht mehr. — I cannot go on anymore.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Zahlwort"
  },
  {
   "w": "lieber",
   "e": "rather (here: to prefer)",
   "c": "Other",
-  "cmp": "liebrer",
-  "sup": "am liebersten",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Ich möchte lieber grüne Äpfel. — I would rather have green apples.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Adverb"
  },
  {
   "w": "viel",
@@ -1649,11 +1622,12 @@
  {
   "w": "unterwegs",
   "e": "out and about",
-  "c": "Other",
-  "cmp": "unterwegser",
-  "sup": "am unterwegsesten",
+  "c": "Distance & Position",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Sie ist viel unterwegs. — She is out and about a lot.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Adverb"
  },
  {
   "w": "ordentlich",
@@ -1661,17 +1635,18 @@
   "c": "Other",
   "cmp": "ordentlicher",
   "sup": "am ordentlichsten",
-  "ex": "Als Sekretärin muss sie sehr ordentlich — As a secretary she has to work very tidily.",
+  "ex": "Als Sekretärin muss sie sehr ordentlich arbeiten. — As a secretary she has to work very tidily.",
   "lvl": "A1"
  },
  {
   "w": "pro",
   "e": "per",
-  "c": "Other",
-  "cmp": "proer",
-  "sup": "am prosten",
+  "c": "Function Words",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Er arbeitet vier Tage pro Woche. — He works four days per week.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Präposition"
  },
  {
   "w": "klasse",
@@ -1701,11 +1676,12 @@
  {
   "w": "echt",
   "e": "really",
-  "c": "Other",
-  "cmp": "echter",
-  "sup": "am echtesten",
+  "c": "Function Words",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Echt? Das Stück ist doch toll. — Really? But the play is great.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Partikel"
  },
  {
   "w": "herzlich",
@@ -1720,28 +1696,21 @@
   "w": "getrennt",
   "e": "separately",
   "c": "Other",
-  "cmp": "getrennter",
-  "sup": "am getrenntesten",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Zahlen Sie zusammen oder getrennt? — Are you paying together or separately?",
-  "lvl": "A1"
- },
- {
-  "w": "zurück",
-  "e": "here: change",
-  "c": "Other",
-  "cmp": "zurücker",
-  "sup": "am zurücksten",
-  "ex": "20 Euro für Sie zurück. — 20 euros change for you.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Adverb"
  },
  {
   "w": "nochmal",
   "e": "again",
-  "c": "Other",
-  "cmp": "nochmaler",
-  "sup": "am nochmalsten",
+  "c": "Time & Frequency",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Vielen Dank nochmal für die Einladung. — Many thanks again for the invitation.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Adverb"
  },
  {
   "w": "breit",
@@ -1756,7 +1725,7 @@
  {
   "w": "sonnig",
   "e": "sunny",
-  "c": "Other",
+  "c": "Weather & Seasons",
   "cmp": "sonniger",
   "sup": "am sonnigsten",
   "ex": "Der Balkon ist sehr sonnig. — The balcony is very sunny.",
@@ -1765,9 +1734,12 @@
  {
   "w": "ander",
   "e": "other",
-  "c": "Other",
+  "c": "Function Words",
   "ex": "Ich zeige Ihnen noch andere Wohnungen. — I will show you other apartments.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Artikelwort",
+  "cmp": "–",
+  "sup": "–"
  },
  {
   "w": "froh",
@@ -1809,20 +1781,22 @@
  {
   "w": "maximal",
   "e": "maximum",
-  "c": "Other",
-  "cmp": "maximaler",
-  "sup": "am maximalsten",
+  "c": "Numbers & Order",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Wir möchten maximal 700 Euro bezahlen. — We want to pay a maximum of 700 euros.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Zahlwort"
  },
  {
   "w": "total",
   "e": "absolutely",
-  "c": "Other",
-  "cmp": "totaler",
-  "sup": "am totalsten",
+  "c": "Function Words",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Das Hotel ist total schön. — The hotel is absolutely beautiful.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Partikel"
  },
  {
   "w": "chaotisch",
@@ -1852,15 +1826,6 @@
   "lvl": "A1"
  },
  {
-  "w": "ab",
-  "e": "from, as of",
-  "c": "Other",
-  "cmp": "aber",
-  "sup": "am absten",
-  "ex": "Ich bin ab heute Abend in Berlin. — I am in Berlin from this evening.",
-  "lvl": "A1"
- },
- {
   "w": "sozial",
   "e": "social",
   "c": "Other",
@@ -1872,9 +1837,9 @@
  {
   "w": "beendet",
   "e": "finished",
-  "c": "Other",
-  "cmp": "beendeter",
-  "sup": "am beendetesten",
+  "c": "Work & Study",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Der Anruf mit Bettina ist beendet. — The call with Bettina has ended.",
   "lvl": "A1"
  },
@@ -1885,34 +1850,36 @@
   "cmp": "frischer",
   "sup": "am frischesten",
   "opp": "alt / verdorben",
-  "ex": "Alles ist frisch, hier kommt nichts aus — Everything is fresh, nothing here comes from the freezer.",
+  "ex": "Alles ist frisch, hier kommt nichts aus der Tiefkühltruhe. — Everything is fresh, nothing here comes from the freezer.",
   "lvl": "A1"
  },
  {
   "w": "folgend(e)",
   "e": "the following",
-  "c": "Other",
-  "cmp": "folgend(e)er",
-  "sup": "am folgend(e)sten",
+  "c": "Function Words",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Folgende Fragen helfen Ihnen. — The following questions will help you.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Artikelwort"
  },
  {
   "w": "soweit",
   "e": "now the time has come",
-  "c": "Time & Frequency",
-  "cmp": "soweiter",
-  "sup": "am soweitesten",
+  "c": "Function Words",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Nun ist es soweit. — Now the time has come.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Partikel"
  },
  {
   "w": "international",
   "e": "international",
   "c": "Other",
-  "cmp": "internationaler",
-  "sup": "am internationalsten",
-  "ex": "Internationales Essen – sehr interessant! — International food — very interesting!",
+  "cmp": "–",
+  "sup": "–",
+  "ex": "Internationales Essen – sehr interessant! — International food – very interesting!",
   "lvl": "A1"
  },
  {
@@ -1945,37 +1912,39 @@
  {
   "w": "inklusive",
   "e": "including",
-  "c": "Other",
-  "cmp": "inklusiver",
-  "sup": "am inklusivesten",
+  "c": "Function Words",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Das Schlossticket gibt es inklusive Audioguide. — The castle ticket comes with an audio guide included.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Präposition"
  },
  {
   "w": "japanisch",
   "e": "Japanese",
   "c": "Other",
-  "cmp": "japanischer",
-  "sup": "am japanischesten",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Ich esse gern japanisches Essen. — I like eating Japanese food.",
   "lvl": "A1"
  },
  {
   "w": "normalerweise",
   "e": "normally",
-  "c": "Other",
-  "cmp": "normalerweiser",
-  "sup": "am normalerweisesten",
-  "ex": "Normalerweise brauche ich circa 20 Minuten — Normally I need about 20 minutes to get to work.",
-  "lvl": "A1"
+  "c": "Time & Frequency",
+  "cmp": "–",
+  "sup": "–",
+  "ex": "Normalerweise brauche ich circa 20 Minuten zur Arbeit. — Normally I need about 20 minutes to get to work.",
+  "lvl": "A1",
+  "wc": "Adverb"
  },
  {
   "w": "offiziell",
   "e": "official",
-  "c": "Other",
+  "c": "Work & Study",
   "cmp": "offizieller",
   "sup": "am offiziellsten",
-  "ex": "Pünktlichkeit ist bei offiziellen Terminen — Punctuality is important for official appointments.",
+  "ex": "Pünktlichkeit ist bei offiziellen Terminen wichtig. — Punctuality is important for official appointments.",
   "lvl": "A1"
  },
  {
@@ -2011,8 +1980,8 @@
   "w": "fix",
   "e": "smart, fast",
   "c": "Physical Properties",
-  "cmp": "fixer",
-  "sup": "am fixesten",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Sie sind wirklich fix! — You are really quick!",
   "lvl": "A1"
  },
@@ -2026,29 +1995,20 @@
   "lvl": "A1"
  },
  {
-  "w": "hinter",
-  "e": "behind",
-  "c": "Other",
-  "cmp": "hintrer",
-  "sup": "am hintersten",
-  "ex": "Die Pflanze ist hinter dem Drucker. — The plant is behind the printer.",
-  "lvl": "A1"
- },
- {
   "w": "privat",
   "e": "private",
-  "c": "Other",
+  "c": "Work & Study",
   "cmp": "privater",
   "sup": "am privatesten",
-  "ex": "Sie dürfen privat telefonieren, aber bitte in — You may make private calls, but please during the break.",
+  "ex": "Sie dürfen privat telefonieren, aber bitte in der Pause. — You may make private calls, but please during the break.",
   "lvl": "A1"
  },
  {
   "w": "geschafft",
   "e": "done, sorted",
   "c": "Other",
-  "cmp": "geschaffter",
-  "sup": "am geschafftesten",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Geschafft. Gute Arbeit, Kim. — Done. Good work, Kim.",
   "lvl": "A1"
  },
@@ -2074,18 +2034,19 @@
  {
   "w": "ebenso",
   "e": "as well",
-  "c": "Other",
-  "cmp": "ebensoer",
-  "sup": "am ebensosten",
+  "c": "Function Words",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Lukas und Lisa kommen ebenso. — Lukas and Lisa are coming as well.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Adverb"
  },
  {
   "w": "männlich",
   "e": "male",
   "c": "Other",
-  "cmp": "männlicher",
-  "sup": "am männlichsten",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Sein Geschlecht ist männlich. — His gender is male.",
   "lvl": "A1"
  },
@@ -2093,8 +2054,8 @@
   "w": "weiblich",
   "e": "female",
   "c": "Other",
-  "cmp": "weiblicher",
-  "sup": "am weiblichsten",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Ihr Geschlecht ist weiblich. — Her gender is female.",
   "lvl": "A1"
  },
@@ -2126,36 +2087,38 @@
  {
   "w": "selbst",
   "e": "themselves",
-  "c": "Other",
-  "cmp": "selbster",
-  "sup": "am selbstesten",
+  "c": "Function Words",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Im Garten machen sie noch alles selbst. — In the garden they still do everything themselves.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Artikelwort"
  },
  {
   "w": "tja",
   "e": "well",
-  "c": "Other",
-  "cmp": "tjaer",
-  "sup": "am tjasten",
+  "c": "Function Words",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Tja, das war vor 60 Jahren. — Well, that was 60 years ago.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Partikel"
  },
  {
   "w": "kommunikativ",
   "e": "communicative",
   "c": "Other",
-  "cmp": "kommunikativer",
-  "sup": "am kommunikativsten",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Sie sind: kommunikativ und freundlich. — You are: communicative and friendly.",
   "lvl": "A1"
  },
  {
   "w": "gesendet",
   "e": "sent",
-  "c": "Other",
-  "cmp": "gesendeter",
-  "sup": "am gesendetesten",
+  "c": "Work & Study",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Gesendet: 20. Juni, 20:41. — Sent: 20 June, 20:41.",
   "lvl": "A1"
  },
@@ -2174,7 +2137,7 @@
   "c": "Physical Properties",
   "cmp": "cooler",
   "sup": "am coolsten",
-  "ex": "Nach dem zweiten Interview war ich — After the second interview I was quite cool.",
+  "ex": "Nach dem zweiten Interview war ich ziemlich cool. — After the second interview I was quite cool.",
   "lvl": "A1"
  },
  {
@@ -2189,49 +2152,59 @@
  {
   "w": "wohl",
   "e": "probably",
-  "c": "Other",
-  "cmp": "wohler",
-  "sup": "am wohlsten",
+  "c": "Function Words",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Da muss ich wohl mehr Geld verdienen. — Then I will probably have to earn more money.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Partikel"
  },
  {
   "w": "siebt",
   "e": "seventh",
-  "c": "Other",
+  "c": "Numbers & Order",
   "ex": "Sie hat am siebten Juni Geburtstag. — Her birthday is on the seventh of June.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Ordinalzahl",
+  "cmp": "–",
+  "sup": "–"
  },
  {
   "w": "dreizehnt",
   "e": "thirteenth",
-  "c": "Other",
+  "c": "Numbers & Order",
   "ex": "Er hat am dreizehnten Mai Geburtstag. — His birthday is on the thirteenth of May.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Ordinalzahl",
+  "cmp": "–",
+  "sup": "–"
  },
  {
   "w": "siebenundzwanzigst",
   "e": "twenty-seventh",
-  "c": "Other",
-  "ex": "Er hat am siebenundzwanzigsten Jänner — His birthday is on the twenty-seventh of January.",
-  "lvl": "A1"
+  "c": "Numbers & Order",
+  "ex": "Er hat am siebenundzwanzigsten Januar Geburtstag. — His birthday is on the twenty-seventh of January.",
+  "lvl": "A1",
+  "wc": "Ordinalzahl",
+  "cmp": "–",
+  "sup": "–"
  },
  {
   "w": "fehlend",
   "e": "missing",
   "c": "Other",
-  "cmp": "fehlender",
-  "sup": "am fehlendesten",
-  "ex": "Ergänzen Sie die Anmeldung mit den — Complete the registration with the missing details.",
+  "cmp": "–",
+  "sup": "–",
+  "ex": "Ergänzen Sie die Anmeldung mit den fehlenden Angaben. — Complete the registration with the missing details.",
   "lvl": "A1"
  },
  {
   "w": "jährlich",
   "e": "every year, annually",
-  "c": "Other",
-  "cmp": "jährlicher",
-  "sup": "am jährlichsten",
-  "ex": "Jährlich haben 50% der Wintersportler — Every year 50% of winter sports enthusiasts have an accident.",
+  "c": "Time & Frequency",
+  "cmp": "–",
+  "sup": "–",
+  "ex": "Jährlich haben 50 % der Wintersportler einen Unfall. — Every year 50% of winter sports enthusiasts have an accident.",
   "lvl": "A1"
  },
  {
@@ -2246,26 +2219,28 @@
  {
   "w": "plötzlich",
   "e": "suddenly",
-  "c": "Other",
-  "cmp": "plötzlicher",
-  "sup": "am plötzlichsten",
-  "ex": "Plötzlich hatte ich sehr starke — Suddenly I had very severe pain.",
-  "lvl": "A1"
+  "c": "Time & Frequency",
+  "cmp": "–",
+  "sup": "–",
+  "ex": "Plötzlich hatte ich sehr starke Schmerzen. — Suddenly I had very severe pain.",
+  "lvl": "A1",
+  "wc": "Adverb"
  },
  {
   "w": "vormittags",
   "e": "in the morning, every morning",
-  "c": "Other",
-  "cmp": "vormittagser",
-  "sup": "am vormittagsesten",
+  "c": "Time & Frequency",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Wir sind vormittags gemeinsam Ski gefahren. — In the mornings we went skiing together.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Adverb"
  },
  {
   "w": "manch",
   "e": "some",
   "c": "Size & Quantity",
-  "ex": "Nebenwirkungen: Manche Personen — Side effects: some people lose their appetite.",
+  "ex": "Nebenwirkungen: Manche Personen verlieren den Appetit. — Side effects: some people lose their appetite.",
   "lvl": "A1"
  },
  {
@@ -2281,44 +2256,46 @@
   "w": "spontan",
   "e": "spontaneously, on the spur of",
   "c": "Other",
-  "cmp": "spontaner",
-  "sup": "am spontansten",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Hast du jetzt vielleicht spontan Zeit? — Do you happen to have time right now?",
   "lvl": "A1"
  },
  {
   "w": "einmal",
   "e": "once",
-  "c": "Other",
-  "cmp": "einmaler",
-  "sup": "am einmalsten",
+  "c": "Numbers & Order",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Einmal in der Woche macht Ute Gymnastik. — Once a week Ute does gymnastics.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Adverb"
  },
  {
   "w": "zweimal",
   "e": "twice",
-  "c": "Other",
-  "cmp": "zweimaler",
-  "sup": "am zweimalsten",
-  "ex": "Zweimal in der Woche gehe ich ins — Twice a week I go to the gym.",
-  "lvl": "A1"
+  "c": "Numbers & Order",
+  "cmp": "–",
+  "sup": "–",
+  "ex": "Zweimal in der Woche gehe ich ins Fitnessstudio. — Twice a week I go to the gym.",
+  "lvl": "A1",
+  "wc": "Adverb"
  },
  {
   "w": "aktuell",
   "e": "current, up-to-date",
-  "c": "Other",
-  "cmp": "aktueller",
-  "sup": "am aktuellsten",
+  "c": "Time & Frequency",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Wo finde ich aktuelle Informationen? — Where can I find current information?",
   "lvl": "A1"
  },
  {
   "w": "monatlich",
   "e": "monthly",
-  "c": "Other",
-  "cmp": "monatlicher",
-  "sup": "am monatlichsten",
+  "c": "Time & Frequency",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Den Kurs gibt es schon ab 34 € monatlich. — The course is available from €34 monthly.",
   "lvl": "A1"
  },
@@ -2326,62 +2303,49 @@
   "w": "sportlich",
   "e": "here: to participate in sports",
   "c": "Other",
-  "cmp": "sportlicher",
-  "sup": "am sportlichsten",
+  "cmp": "–",
+  "sup": "–",
   "ex": "61 % der Männer sind sportlich aktiv. — 61% of men are active in sports.",
   "lvl": "A1"
  },
  {
   "w": "regelmäßig",
   "e": "regularly",
-  "c": "Other",
-  "cmp": "regelmäßiger",
-  "sup": "am regelmäßigsten",
+  "c": "Time & Frequency",
+  "cmp": "–",
+  "sup": "–",
   "ex": "66 % machen regelmäßig Sport. — 66% do sport regularly.",
-  "lvl": "A1"
- },
- {
-  "w": "außerdem",
-  "e": "furthermore, also",
-  "c": "Other",
-  "cmp": "außerdemer",
-  "sup": "am außerdemsten",
-  "ex": "Außerdem essen Menschen in Deutschland — Furthermore, people in Germany eat too much fast food.",
-  "lvl": "A1"
- },
- {
-  "w": "dabei",
-  "e": "here: at the same time",
-  "c": "Other",
-  "cmp": "dabeier",
-  "sup": "am dabeisten",
-  "ex": "Ich möchte Urlaub machen und mich dabei — I want to go on holiday and relax at the same time.",
   "lvl": "A1"
  },
  {
   "w": "viert",
   "e": "fourth",
-  "c": "Other",
-  "ex": "Im vierten Stock kann man einen Kaffee — On the fourth floor you can have a coffee.",
-  "lvl": "A1"
+  "c": "Numbers & Order",
+  "ex": "Im vierten Stock kann man einen Kaffee trinken. — On the fourth floor you can have a coffee.",
+  "lvl": "A1",
+  "wc": "Ordinalzahl",
+  "cmp": "–",
+  "sup": "–"
  },
  {
   "w": "vorn(e)",
   "e": "at the front",
   "c": "Distance & Position",
-  "cmp": "vorn(e)er",
-  "sup": "am vorn(e)sten",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Die Kasse ist gleich dort vorne. — The checkout is right at the front there.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Adverb"
  },
  {
   "w": "samstags",
   "e": "on Saturday",
-  "c": "Other",
-  "cmp": "samstagser",
-  "sup": "am samstagsesten",
+  "c": "Time & Frequency",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Wir haben samstags länger geöffnet. — We are open longer on Saturdays.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Adverb"
  },
  {
   "w": "elegant",
@@ -2426,7 +2390,7 @@
   "c": "Other",
   "cmp": "femininer",
   "sup": "am femininsten",
-  "ex": "Hier seht ihr mein Lieblingsoutfit, feminin — Here you see my favourite outfit, feminine and classic.",
+  "ex": "Hier seht ihr mein Lieblingsoutfit, feminin und klassisch. — Here you see my favourite outfit, feminine and classic.",
   "lvl": "A1"
  },
  {
@@ -2435,26 +2399,28 @@
   "c": "Other",
   "cmp": "klassischer",
   "sup": "am klassischesten",
-  "ex": "Hier seht ihr mein Lieblingsoutfit, feminin — Here you see my favourite outfit, feminine and classic.",
+  "ex": "Sie trägt gern klassische Kleidung in dunklen Farben. — She likes wearing classic clothes in dark colours.",
   "lvl": "A1"
  },
  {
   "w": "bitteschön",
   "e": "what would you like?",
-  "c": "Other",
-  "cmp": "bitteschöner",
-  "sup": "am bitteschönsten",
+  "c": "Function Words",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Guten Morgen! Bitteschön? — Good morning! What would you like?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Partikel"
  },
  {
   "w": "gleichfalls",
   "e": "the same to you",
-  "c": "Other",
-  "cmp": "gleichfallser",
-  "sup": "am gleichfallsesten",
+  "c": "Function Words",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Danke, gleichfalls. — Thanks, the same to you.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Partikel"
  },
  {
   "w": "zentral",
@@ -2462,7 +2428,7 @@
   "c": "Distance & Position",
   "cmp": "zentraler",
   "sup": "am zentralsten",
-  "ex": "Zentral am Heumarkt gibt es frische — Centrally at the Heumarkt there are fresh vegetables.",
+  "ex": "Zentral am Heumarkt gibt es frisches Gemüse. — Centrally on the Heumarkt there are fresh vegetables.",
   "lvl": "A1"
  },
  {
@@ -2484,43 +2450,46 @@
  {
   "w": "sowie",
   "e": "as well as",
-  "c": "Other",
-  "cmp": "sowier",
-  "sup": "am sowiesten",
-  "ex": "Sie können umsteigen, sowie die Züge des — You can change to local service trains there as well.",
-  "lvl": "A1"
+  "c": "Function Words",
+  "cmp": "–",
+  "sup": "–",
+  "ex": "Dort fahren Busse sowie Züge des Nahverkehrs. — Buses as well as local service trains run there.",
+  "lvl": "A1",
+  "wc": "Adverb"
  },
  {
   "w": "automatisch",
   "e": "automatically",
   "c": "Other",
-  "cmp": "automatischer",
-  "sup": "am automatischesten",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Die Türen schließen automatisch. — The doors close automatically.",
   "lvl": "A1"
  },
  {
   "w": "dadurch",
   "e": "as a result",
-  "c": "Other",
-  "cmp": "dadurcher",
-  "sup": "am dadurchsten",
-  "ex": "Dadurch gibt es Verspätungen der Linien 3 — As a result there are delays on lines 3 and 5.",
-  "lvl": "A1"
+  "c": "Function Words",
+  "cmp": "–",
+  "sup": "–",
+  "ex": "Dadurch gibt es Verspätungen der Linien 3 und 5. — As a result there are delays on lines 3 and 5.",
+  "lvl": "A1",
+  "wc": "Adverb"
  },
  {
   "w": "dorthin",
   "e": "(to) there",
-  "c": "Other",
-  "cmp": "dorthiner",
-  "sup": "am dorthinsten",
+  "c": "Distance & Position",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Wie kommt man dorthin? — How do you get there?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Adverb"
  },
  {
   "w": "windig",
   "e": "windy",
-  "c": "Other",
+  "c": "Weather & Seasons",
   "cmp": "windiger",
   "sup": "am windigsten",
   "ex": "Es ist zu windig heute auf Sylt. — It is too windy today on Sylt.",
@@ -2529,7 +2498,7 @@
  {
   "w": "bewölkt",
   "e": "cloudy",
-  "c": "Other",
+  "c": "Weather & Seasons",
   "cmp": "bewölkter",
   "sup": "am bewölktesten",
   "ex": "Im Westen ist es den ganzen Tag bewölkt. — In the west it is cloudy all day.",
@@ -2538,20 +2507,22 @@
  {
   "w": "plus",
   "e": "plus",
-  "c": "Other",
-  "cmp": "pluser",
-  "sup": "am plusesten",
+  "c": "Numbers & Order",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Es sind plus 8 Grad. — It is plus 8 degrees.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Zahlwort"
  },
  {
   "w": "minus",
   "e": "minus",
-  "c": "Other",
-  "cmp": "minuser",
-  "sup": "am minusesten",
+  "c": "Numbers & Order",
+  "cmp": "–",
+  "sup": "–",
   "ex": "In der Nacht sind es minus 8 Grad. — At night it is minus 8 degrees.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Zahlwort"
  },
  {
   "w": "traumhaft",
@@ -2559,33 +2530,34 @@
   "c": "Other",
   "cmp": "traumhafter",
   "sup": "am traumhaftesten",
-  "ex": "Der Schwarzwald und die Berge sind — The Black Forest and the mountains are heavenly.",
+  "ex": "Der Schwarzwald und die Berge sind traumhaft. — The Black Forest and the mountains are heavenly.",
   "lvl": "A1"
  },
  {
   "w": "selbstständig",
   "e": "independently",
-  "c": "Other",
+  "c": "Work & Study",
   "cmp": "selbstständiger",
   "sup": "am selbstständigsten",
-  "ex": "Wie kann ich online als Übersetzer — How can I work independently online as a translator?",
+  "ex": "Wie kann ich online als Übersetzer selbstständig arbeiten? — How can I work independently online as a translator?",
   "lvl": "A1"
  },
  {
   "w": "momentan",
   "e": "at the moment",
-  "c": "Other",
-  "cmp": "momentaner",
-  "sup": "am momentansten",
-  "ex": "Wir suchen momentan Übersetzer für — We are currently looking for translators.",
-  "lvl": "A1"
+  "c": "Time & Frequency",
+  "cmp": "–",
+  "sup": "–",
+  "ex": "Wir suchen momentan Übersetzer für Deutsch und Englisch. — We are currently looking for translators for German and English.",
+  "lvl": "A1",
+  "wc": "Adverb"
  },
  {
   "w": "zeitlich",
   "e": "in terms of time",
   "c": "Other",
-  "cmp": "zeitlicher",
-  "sup": "am zeitlichsten",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Ich bin zeitlich flexibel. — I am flexible in terms of time.",
   "lvl": "A1"
  },
@@ -2601,36 +2573,19 @@
  {
   "w": "gesamt",
   "e": "whole",
-  "c": "Size & Quantity",
-  "cmp": "gesamter",
-  "sup": "am gesamtesten",
+  "c": "Numbers & Order",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Im gesamten Büro ist das Rauchen verboten. — Smoking is forbidden in the whole office.",
-  "lvl": "A1"
- },
- {
-  "w": "meistens",
-  "e": "mostly, usually",
-  "c": "Time & Frequency",
-  "cmp": "meistenser",
-  "sup": "am meistensesten",
-  "ex": "Meistens sind die öffentlichen Verkehrsmittel — Public transport is usually on time.",
-  "lvl": "A1"
- },
- {
-  "w": "geradeaus",
-  "e": "straight on",
-  "c": "Other",
-  "cmp": "geradeauser",
-  "sup": "am geradeausesten",
-  "ex": "Du gehst die Lessingstraße geradeaus und — You go straight along Lessingstraße.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "wc": "Zahlwort"
  },
  {
   "w": "erlaubt",
   "e": "permitted, allowed",
   "c": "Size & Quantity",
-  "cmp": "erlaubter",
-  "sup": "am erlaubtesten",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Ja natürlich, hier ist Parken erlaubt. — Yes of course, parking is allowed here.",
   "lvl": "A1"
  },
@@ -2644,47 +2599,31 @@
  {
   "w": "arbeitslos",
   "e": "unemployed",
-  "c": "Other",
-  "cmp": "arbeitsloser",
-  "sup": "am arbeitslosesten",
+  "c": "Work & Study",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Seit wann ist er schon arbeitslos?",
-  "lvl": "A2"
- },
- {
-  "w": "außer",
-  "e": "except",
-  "c": "Other",
-  "cmp": "außrer",
-  "sup": "am außersten",
-  "ex": "Außer Lisa möchte niemand den Film sehen.",
-  "lvl": "A2"
- },
- {
-  "w": "außerhalb",
-  "e": "outside of",
-  "c": "Other",
-  "cmp": "außerhalber",
-  "sup": "am außerhalbsten",
-  "ex": "Die Wohnung ist nicht in der Stadt, sie liegt etwas außerhalb.",
   "lvl": "A2"
  },
  {
   "w": "beide",
   "e": "both",
-  "c": "Other",
-  "cmp": "beider",
-  "sup": "am beidesten",
+  "c": "Numbers & Order",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Wir kommen beide.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "wc": "Zahlwort"
  },
  {
   "w": "bisschen",
   "e": "a little",
-  "c": "Size & Quantity",
-  "cmp": "bisschener",
-  "sup": "am bisschensten",
+  "c": "Numbers & Order",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Können Sie bitte ein bisschen lauter sprechen?",
-  "lvl": "A2"
+  "lvl": "A2",
+  "wc": "Zahlwort"
  },
  {
   "w": "bitter",
@@ -2707,7 +2646,7 @@
  {
   "w": "blond",
   "e": "blond",
-  "c": "Other",
+  "c": "Farben",
   "cmp": "blonder",
   "sup": "am blondesten",
   "ex": "Lisa hat blonde Haare.",
@@ -2716,7 +2655,7 @@
  {
   "w": "bunt",
   "e": "colourful",
-  "c": "Other",
+  "c": "Farben",
   "cmp": "bunter",
   "sup": "am buntesten",
   "ex": "Anna trägt gern bunte Kleider.",
@@ -2725,20 +2664,12 @@
  {
   "w": "damals",
   "e": "back then",
-  "c": "Distance & Position",
-  "cmp": "damalser",
-  "sup": "am damalsesten",
+  "c": "Time & Frequency",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Als Student hatte ich viel Zeit und wollte reisen.",
-  "lvl": "A2"
- },
- {
-  "w": "daneben",
-  "e": "next to it",
-  "c": "Other",
-  "cmp": "danebener",
-  "sup": "am danebensten",
-  "ex": "Du weißt doch, wo die Post ist.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "wc": "Adverb"
  },
  {
   "w": "dick",
@@ -2753,11 +2684,12 @@
  {
   "w": "drüben",
   "e": "over there",
-  "c": "Other",
-  "cmp": "drübener",
-  "sup": "am drübensten",
+  "c": "Distance & Position",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Da drüben ist die Haltestelle.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "wc": "Adverb"
  },
  {
   "w": "dünn",
@@ -2790,11 +2722,12 @@
  {
   "w": "einzel",
   "e": "single / individual",
-  "c": "Size & Quantity",
-  "cmp": "einzler",
-  "sup": "am einzelsten",
+  "c": "Numbers & Order",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Nicht alle zusammen.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "wc": "Zahlwort"
  },
  {
   "w": "fett",
@@ -2808,19 +2741,10 @@
  {
   "w": "freiwillig",
   "e": "voluntary",
-  "c": "Other",
-  "cmp": "freiwilliger",
-  "sup": "am freiwilligsten",
+  "c": "Work & Study",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Manchmal bleibe ich freiwillig länger im Büro.",
-  "lvl": "A2"
- },
- {
-  "w": "früher",
-  "e": "earlier / formerly",
-  "c": "Other",
-  "cmp": "frührer",
-  "sup": "am frühersten",
-  "ex": "Früher habe ich in Berlin gewohnt.",
   "lvl": "A2"
  },
  {
@@ -2836,9 +2760,9 @@
   "w": "geehrt",
   "e": "honoured / dear",
   "c": "Other",
-  "cmp": "geehrter",
-  "sup": "am geehrtesten",
-  "ex": "Sehr geehrte Damen und Herren,",
+  "cmp": "–",
+  "sup": "–",
+  "ex": "Sehr geehrte Damen und Herren, — Dear Sir or Madam,",
   "lvl": "A2"
  },
  {
@@ -2873,11 +2797,12 @@
  {
   "w": "lange",
   "e": "long / for a long time",
-  "c": "Physical Properties",
-  "cmp": "langer",
-  "sup": "am langesten",
+  "c": "Time & Frequency",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Wie lange fährt der Zug von Hamburg nach Berlin?",
-  "lvl": "A2"
+  "lvl": "A2",
+  "wc": "Adverb"
  },
  {
   "w": "meist",
@@ -2889,16 +2814,17 @@
  {
   "w": "nebenan",
   "e": "next door",
-  "c": "Other",
-  "cmp": "nebenaner",
-  "sup": "am nebenansten",
+  "c": "Distance & Position",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Das ist José.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "wc": "Adverb"
  },
  {
   "w": "neblig",
   "e": "foggy",
-  "c": "Other",
+  "c": "Weather & Seasons",
   "cmp": "nebliger",
   "sup": "am nebligsten",
   "ex": "Fahr vorsichtig!",
@@ -2955,8 +2881,8 @@
   "w": "schwanger",
   "e": "pregnant",
   "c": "Other",
-  "cmp": "schwangrer",
-  "sup": "am schwangersten",
+  "cmp": "–",
+  "sup": "–",
   "ex": "ist schwanger.",
   "lvl": "A2"
  },
@@ -2964,10 +2890,11 @@
   "w": "sogar",
   "e": "even",
   "c": "Other",
-  "cmp": "sogarer",
-  "sup": "am sogarsten",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Heute ist es sehr kalt.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "wc": "Adverb"
  },
  {
   "w": "spannend",
@@ -3010,37 +2937,40 @@
   "w": "tot",
   "e": "dead",
   "c": "Other",
-  "cmp": "toter",
-  "sup": "am totesten",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Großeltern sind schon lange tot.",
   "lvl": "A2"
  },
  {
   "w": "übermorgen",
   "e": "the day after tomorrow",
-  "c": "Other",
-  "cmp": "übermorgener",
-  "sup": "am übermorgensten",
+  "c": "Time & Frequency",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Morgen habe ich frei.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "wc": "Adverb"
  },
  {
   "w": "vorbei",
   "e": "over / past",
-  "c": "Other",
-  "cmp": "vorbeier",
-  "sup": "am vorbeisten",
+  "c": "Distance & Position",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Die Linie 8 fährt am Krankenhaus vorbei.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "wc": "Adverb"
  },
  {
   "w": "vorgestern",
   "e": "the day before yesterday",
-  "c": "Other",
-  "cmp": "vorgesterner",
-  "sup": "am vorgesternsten",
+  "c": "Time & Frequency",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Er hat mich vorgestern angerufen.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "wc": "Adverb"
  },
  {
   "w": "vorsichtig",
@@ -3054,11 +2984,12 @@
  {
   "w": "vorwärts",
   "e": "forward",
-  "c": "Other",
-  "cmp": "vorwärtser",
-  "sup": "am vorwärtsesten",
+  "c": "Distance & Position",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Fahren Sie bitte noch ein Stück vorwärts.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "wc": "Adverb"
  },
  {
   "w": "wach",
@@ -3074,8 +3005,8 @@
   "w": "wahr",
   "e": "true",
   "c": "Other",
-  "cmp": "wahrer",
-  "sup": "am wahrsten",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Das ist (nicht) wahr!",
   "lvl": "A2"
  },
@@ -3083,10 +3014,11 @@
   "w": "wahrscheinlich",
   "e": "probable / probably",
   "c": "Other",
-  "cmp": "wahrscheinlicher",
-  "sup": "am wahrscheinlichsten",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Wahrscheinlich mache ich im Herbst einen Deutschkurs.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "wc": "Adverb"
  },
  {
   "w": "weich",
@@ -3102,24 +3034,24 @@
   "w": "willkommen",
   "e": "welcome",
   "c": "Other",
-  "cmp": "willkommener",
-  "sup": "am willkommensten",
+  "cmp": "–",
+  "sup": "–",
   "ex": "willkommen in Berlin!",
   "lvl": "A2"
  },
  {
   "w": "einverstanden",
   "e": "agreed / in agreement",
-  "c": "Feelings & States",
-  "cmp": "einverstandener",
-  "sup": "am einverstandensten",
+  "c": "Emotion & Feeling",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Ich bin mit dem Plan einverstanden. — I agree with the plan.",
   "lvl": "A2"
  },
  {
   "w": "eingeladen",
   "e": "invited",
-  "c": "States",
+  "c": "Status & Condition",
   "cmp": "–",
   "sup": "–",
   "opp": "–",
@@ -3129,7 +3061,7 @@
  {
   "w": "geschieden",
   "e": "divorced",
-  "c": "States",
+  "c": "Work & Study",
   "cmp": "–",
   "sup": "–",
   "opp": "verheiratet",
@@ -3139,7 +3071,7 @@
  {
   "w": "verboten",
   "e": "forbidden / banned",
-  "c": "States",
+  "c": "Status & Condition",
   "cmp": "–",
   "sup": "–",
   "opp": "erlaubt",
@@ -3149,7 +3081,7 @@
  {
   "w": "gebrochen",
   "e": "broken",
-  "c": "States",
+  "c": "Status & Condition",
   "cmp": "–",
   "sup": "–",
   "opp": "heil / ganz",
@@ -3217,9 +3149,9 @@
  {
   "w": "satt",
   "e": "full (after eating)",
-  "c": "States",
-  "cmp": "satter",
-  "sup": "am sattesten",
+  "c": "Status & Condition",
+  "cmp": "–",
+  "sup": "–",
   "opp": "hungrig",
   "ex": "Danke, ich bin satt. — Thanks, I'm full.",
   "lvl": "A2"
@@ -3257,10 +3189,12 @@
  {
   "w": "verletzt",
   "e": "injured / hurt",
-  "c": "States",
+  "c": "Status & Condition",
   "opp": "gesund",
   "ex": "Bei dem Unfall wurde niemand verletzt. — Nobody was injured in the accident.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "cmp": "–",
+  "sup": "–"
  },
  {
   "w": "verrückt",
@@ -3313,10 +3247,12 @@
  {
   "w": "berufstätig",
   "e": "employed / working",
-  "c": "States",
+  "c": "Work & Study",
   "opp": "arbeitslos",
   "ex": "Beide Eltern sind berufstätig. — Both parents work.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "cmp": "–",
+  "sup": "–"
  },
  {
   "w": "bescheiden",
@@ -3552,7 +3488,9 @@
   "c": "Body & Health",
   "opp": "geistig",
   "ex": "Die Arbeit ist körperlich anstrengend. — The work is physically demanding.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "cmp": "–",
+  "sup": "–"
  },
  {
   "w": "kreativ",
@@ -3699,14 +3637,6 @@
   "lvl": "B1"
  },
  {
-  "w": "tatsächlich",
-  "e": "actual(ly) / real(ly)",
-  "c": "Quality & Value",
-  "opp": "angeblich",
-  "ex": "Er hat tatsächlich gewonnen! — He actually won!",
-  "lvl": "B1"
- },
- {
   "w": "technisch",
   "e": "technical",
   "c": "Quality & Value",
@@ -3808,8 +3738,8 @@
   "w": "wirtschaftlich",
   "e": "economic(al)",
   "c": "Quality & Value",
-  "cmp": "wirtschaftlicher",
-  "sup": "am wirtschaftlichsten",
+  "cmp": "–",
+  "sup": "–",
   "ex": "Die wirtschaftliche Lage ist stabil. — The economic situation is stable.",
   "lvl": "B1"
  },
@@ -3962,8 +3892,8 @@
   "w": "gekocht",
   "e": "cooked / boiled",
   "c": "Physical Properties",
-  "cmp": "—",
-  "sup": "—",
+  "cmp": "–",
+  "sup": "–",
   "opp": "roh",
   "ex": "Ich esse gern gekochte Eier. — I like boiled eggs.",
   "lvl": "A2"
@@ -3972,8 +3902,8 @@
   "w": "roh",
   "e": "raw",
   "c": "Physical Properties",
-  "cmp": "roher",
-  "sup": "am rohsten",
+  "cmp": "–",
+  "sup": "–",
   "opp": "gekocht",
   "ex": "Rohes Gemüse ist gesund. — Raw vegetables are healthy.",
   "lvl": "A2"
@@ -4172,8 +4102,8 @@
   "w": "dreieckig",
   "e": "triangular",
   "c": "Physical Properties",
-  "cmp": "—",
-  "sup": "—",
+  "cmp": "–",
+  "sup": "–",
   "opp": "—",
   "ex": "Das Schild ist dreieckig. — The sign is triangular.",
   "lvl": "A2"
@@ -4182,8 +4112,8 @@
   "w": "viereckig",
   "e": "square / four-sided",
   "c": "Physical Properties",
-  "cmp": "—",
-  "sup": "—",
+  "cmp": "–",
+  "sup": "–",
   "opp": "rund",
   "ex": "Der Tisch ist viereckig. — The table is square.",
   "lvl": "A2"
@@ -4202,8 +4132,8 @@
   "w": "unterirdisch",
   "e": "underground",
   "c": "Distance & Position",
-  "cmp": "—",
-  "sup": "—",
+  "cmp": "–",
+  "sup": "–",
   "opp": "oberirdisch",
   "ex": "Die Garage ist unterirdisch. — The garage is underground.",
   "lvl": "B1"
@@ -4211,7 +4141,7 @@
  {
   "w": "feucht",
   "e": "damp / humid",
-  "c": "Physical Properties",
+  "c": "Weather & Seasons",
   "cmp": "feuchter",
   "sup": "am feuchtesten",
   "opp": "trocken",
@@ -4221,9 +4151,9 @@
  {
   "w": "golden",
   "e": "golden",
-  "c": "Physical Properties",
-  "cmp": "—",
-  "sup": "—",
+  "c": "Farben",
+  "cmp": "–",
+  "sup": "–",
   "opp": "—",
   "ex": "Sie trägt eine goldene Kette. — She's wearing a golden necklace.",
   "lvl": "A2"
@@ -4231,9 +4161,9 @@
  {
   "w": "lila",
   "e": "purple / lilac",
-  "c": "Physical Properties",
-  "cmp": "—",
-  "sup": "—",
+  "c": "Farben",
+  "cmp": "–",
+  "sup": "–",
   "opp": "—",
   "ex": "Ich mag das lila Kleid. — I like the purple dress.",
   "lvl": "A1"
@@ -4241,9 +4171,9 @@
  {
   "w": "rosa",
   "e": "pink",
-  "c": "Physical Properties",
-  "cmp": "—",
-  "sup": "—",
+  "c": "Farben",
+  "cmp": "–",
+  "sup": "–",
   "opp": "—",
   "ex": "Sie hat eine rosa Jacke. — She has a pink jacket.",
   "lvl": "A1"
@@ -4251,9 +4181,9 @@
  {
   "w": "orangefarben",
   "e": "orange (colour)",
-  "c": "Physical Properties",
-  "cmp": "—",
-  "sup": "—",
+  "c": "Farben",
+  "cmp": "–",
+  "sup": "–",
   "opp": "—",
   "ex": "Die Wand ist orangefarben. — The wall is orange.",
   "lvl": "A2"
@@ -4261,9 +4191,9 @@
  {
   "w": "silbern",
   "e": "silver",
-  "c": "Physical Properties",
-  "cmp": "—",
-  "sup": "—",
+  "c": "Farben",
+  "cmp": "–",
+  "sup": "–",
   "opp": "—",
   "ex": "Er hat eine silberne Uhr. — He has a silver watch.",
   "lvl": "A2"
@@ -4271,9 +4201,9 @@
  {
   "w": "violett",
   "e": "violet",
-  "c": "Physical Properties",
-  "cmp": "—",
-  "sup": "—",
+  "c": "Farben",
+  "cmp": "–",
+  "sup": "–",
   "opp": "—",
   "ex": "Der Himmel war fast violett. — The sky was almost violet.",
   "lvl": "B1"
@@ -4282,8 +4212,8 @@
   "w": "sofortig",
   "e": "immediate",
   "c": "Time & Frequency",
-  "cmp": "—",
-  "sup": "—",
+  "cmp": "–",
+  "sup": "–",
   "opp": "verzögert",
   "ex": "Wir brauchen eine sofortige Antwort. — We need an immediate answer.",
   "lvl": "B1"
@@ -4291,9 +4221,9 @@
  {
   "w": "pensioniert",
   "e": "retired",
-  "c": "States",
-  "cmp": "—",
-  "sup": "—",
+  "c": "Work & Study",
+  "cmp": "–",
+  "sup": "–",
   "opp": "berufstätig",
   "ex": "Mein Vater ist seit zwei Jahren pensioniert. — My father has been retired for two years.",
   "lvl": "B1"

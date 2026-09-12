@@ -833,13 +833,6 @@
   "lvl": "A2"
  },
  {
-  "w": "Wie schade!",
-  "e": "What a shame!",
-  "ex": "Wie schade, dass du nicht kommst. — What a shame you're not coming.",
-  "c": "Reagieren",
-  "lvl": "A2"
- },
- {
   "w": "Wie ärgerlich!",
   "e": "How annoying!",
   "ex": "Wie ärgerlich, dass der Zug ausfällt. — How annoying that the train is cancelled.",
@@ -873,13 +866,6 @@
   "ex": "Danke! – Keine Ursache. — Thanks! – Don't mention it.",
   "c": "Reagieren",
   "lvl": "B1"
- },
- {
-  "w": "Gern geschehen.",
-  "e": "You're welcome.",
-  "ex": "Vielen Dank! – Gern geschehen. — Thank you! – You're welcome.",
-  "c": "Reagieren",
-  "lvl": "A2"
  },
  {
   "w": "Na klar!",
@@ -985,13 +971,6 @@
   "ex": "Er ist sozusagen mein Chef. — He's my boss, so to speak.",
   "c": "Vage",
   "lvl": "B1"
- },
- {
-  "w": "irgendwie",
-  "e": "somehow",
-  "ex": "Irgendwie fühlt sich das falsch an. — Somehow that feels wrong.",
-  "c": "Vage",
-  "lvl": "A2"
  },
  {
   "w": "so ungefähr",
@@ -1575,13 +1554,6 @@
   "lvl": "B1"
  },
  {
-  "w": "Bescheid sagen",
-  "e": "to say the word / let know",
-  "ex": "Sag einfach Bescheid, wenn du Hilfe brauchst. — Just say the word if you need help.",
-  "c": "Alltag",
-  "lvl": "B1"
- },
- {
   "w": "Kannst du mir einen Gefallen tun?",
   "e": "Can you do me a favour?",
   "ex": "Kannst du mir kurz einen Gefallen tun? — Can you do me a quick favour?",
@@ -1876,13 +1848,6 @@
   "lvl": "B1"
  },
  {
-  "w": "Mit freundlichen Grüßen",
-  "e": "Kind regards (letter closing)",
-  "ex": "Mit freundlichen Grüßen, Umair — Kind regards, Umair",
-  "c": "Arbeit",
-  "lvl": "A2"
- },
- {
   "w": "Ich beziehe mich auf Ihre E-Mail vom …",
   "e": "I refer to your email of …",
   "ex": "Ich beziehe mich auf Ihre E-Mail vom 3. Mai. — I refer to your email of 3 May.",
@@ -1928,13 +1893,6 @@
   "w": "Ich brauche einen Termin beim Arzt.",
   "e": "I need a doctor's appointment.",
   "ex": "Ich brauche dringend einen Termin beim Arzt. — I urgently need a doctor's appointment.",
-  "c": "Gesundheit",
-  "lvl": "A2"
- },
- {
-  "w": "Gute Besserung!",
-  "e": "Get well soon!",
-  "ex": "Gute Besserung, ruh dich aus! — Get well soon, get some rest!",
   "c": "Gesundheit",
   "lvl": "A2"
  },

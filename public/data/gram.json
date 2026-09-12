@@ -205,7 +205,7 @@
   "wt": "Preposition",
   "st": "Accusative Only",
   "ce": "Accusative",
-  "ex": "Wir sitzen um den Tisch. / um 9 Uhr — We are sitting around the table. / at 9 o'clock",
+  "ex": "Wir sitzen um den Tisch und essen um 9 Uhr. — We are sitting around the table and eating at 9 o'clock.",
   "mh": "DOGFU: U=um. Accusative. Two uses: physically around + exact clock time.",
   "lvl": "A1"
  },
@@ -265,7 +265,7 @@
   "wt": "Preposition",
   "st": "Accusative Only",
   "ce": "Accusative",
-  "ex": "Er fährt gegen den Baum. / gegen 8 Uhr",
+  "ex": "Er fährt gegen den Baum. — He drives into the tree.",
   "mh": "DOGFU: G=gegen. Accusative. Two uses: physical opposition + approximate time.",
   "lvl": "A2"
  },

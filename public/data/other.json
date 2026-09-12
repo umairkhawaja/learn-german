@@ -2,161 +2,105 @@
  {
   "w": "ich",
   "e": "I",
-  "c": "Function Word",
+  "c": "Pronoun",
   "ex": "Ich bin Nora. — I am Nora.",
   "lvl": "A1"
  },
  {
   "w": "mein, meine",
   "e": "my",
-  "c": "Function Word",
+  "c": "Pronoun",
   "ex": "Mein Name ist Karin Jungmann. — My name is Karin Jungmann.",
   "lvl": "A1"
  },
  {
   "w": "du",
   "e": "you",
-  "c": "Function Word",
+  "c": "Pronoun",
   "ex": "Wer bist du? — Who are you?",
-  "lvl": "A1"
- },
- {
-  "w": "und",
-  "e": "and",
-  "c": "Function Word",
-  "ex": "Und wie heißt du? — And what is your name?",
   "lvl": "A1"
  },
  {
   "w": "wer?",
   "e": "who?",
-  "c": "Function Word",
+  "c": "Question Word",
   "ex": "Wer bist du? — Who are you?",
   "lvl": "A1"
  },
  {
   "w": "wie?",
   "e": "how?",
-  "c": "Function Word",
+  "c": "Question Word",
   "ex": "Wie heißt du? (Wie ist dein Name?) — What is your name?",
   "lvl": "A1"
  },
  {
   "w": "woher?",
   "e": "from where?",
-  "c": "Function Word",
+  "c": "Question Word",
   "ex": "Woher kommst du? — Where do you come from?",
-  "lvl": "A1"
- },
- {
-  "w": "aus",
-  "e": "here: from",
-  "c": "Function Word",
-  "ex": "Ich komme aus Italien. — I come from Italy.",
   "lvl": "A1"
  },
  {
   "w": "wo?",
   "e": "where?",
-  "c": "Function Word",
+  "c": "Question Word",
   "ex": "Wo wohnst du? — Where do you live?",
-  "lvl": "A1"
- },
- {
-  "w": "in",
-  "e": "in",
-  "c": "Function Word",
-  "ex": "Ich wohne in Berlin. — I live in Berlin.",
   "lvl": "A1"
  },
  {
   "w": "welch-?",
   "e": "which?",
-  "c": "Function Word",
+  "c": "Question Word",
   "ex": "Welche Sprachen sprichst du? — Which languages do you speak?",
   "lvl": "A1"
  },
  {
   "w": "dein, deine",
   "e": "your",
-  "c": "Function Word",
+  "c": "Pronoun",
   "ex": "Wie ist dein Name? — What is your name?",
   "lvl": "A1"
  },
  {
   "w": "ein bisschen",
   "e": "a little",
-  "c": "Other",
+  "c": "Number & Time",
   "ex": "Ich spreche Englisch und ein bisschen Deutsch. — I speak English and a little German.",
   "lvl": "A1"
  },
  {
   "w": "@",
   "e": "@, at",
-  "c": "Other",
-  "ex": "@ = at AnnettMoeller(at)einrot.com — @ = at, as in AnnettMoeller(at)einrot.com",
-  "lvl": "A1"
- },
- {
-  "w": "von",
-  "e": "of (here: Anna’s)",
-  "c": "Function Word",
-  "ex": "Wie ist die E-Mail-Adresse von Anna? — What is Anna's email address?",
+  "c": "Particle",
+  "ex": "Meine E-Mail-Adresse ist AnnettMoeller@einrot.com. — My email address is AnnettMoeller@einrot.com ('@' is read as 'at').",
   "lvl": "A1"
  },
  {
   "w": "Herr (Anrede)",
   "e": "Mr",
-  "c": "Other",
+  "c": "Particle",
   "ex": "Ah, Sie sind Herr Kraft? — Ah, you are Mr Kraft?",
-  "lvl": "A1"
- },
- {
-  "w": "dann",
-  "e": "then",
-  "c": "Adverb",
-  "ex": "Dann kontrolliere ich Ihre Angaben. — Then I will check your details.",
-  "lvl": "A1"
- },
- {
-  "w": "hier",
-  "e": "here",
-  "c": "Function Word",
-  "ex": "Ich wohne hier in Frankfurt. — I live here in Frankfurt.",
-  "lvl": "A1"
- },
- {
-  "w": "sehr",
-  "e": "very",
-  "c": "Function Word",
-  "ex": "Sehr gut. Das ist dann alles. — Very good. That is everything then.",
   "lvl": "A1"
  },
  {
   "w": "Ihr, Ihre",
   "e": "your",
-  "c": "Other",
+  "c": "Pronoun",
   "ex": "Und wie ist Ihre Telefonnummer? — And what is your telephone number?",
-  "lvl": "A1"
- },
- {
-  "w": "denn",
-  "e": "then, so",
-  "c": "Function Word",
-  "ex": "Woher kommen Sie denn? — So where do you come from?",
   "lvl": "A1"
  },
  {
   "w": "Frau (Anrede)",
   "e": "Ms, Mrs",
-  "c": "Other",
-  "ex": "Welche Sprachen sprechen Sie, Frau — Which languages do you speak, Ms Milanova?",
+  "c": "Particle",
+  "ex": "Welche Sprachen sprechen Sie, Frau Milanova? — Which languages do you speak, Ms Milanova?",
   "lvl": "A1"
  },
  {
   "w": "es",
   "e": "it",
-  "c": "Function Word",
+  "c": "Pronoun",
   "ex": "Hallo Tim! Wie geht es dir? (Wie geht’s?) — Hello Tim! How are you?",
   "lvl": "A1"
  },
@@ -170,42 +114,28 @@
  {
   "w": "Ihnen (Sie)",
   "e": "you (formal)",
-  "c": "Other",
+  "c": "Pronoun",
   "ex": "Guten Tag, Herr Reuter. Wie geht es Ihnen? — Good day, Mr Reuter. How are you?",
   "lvl": "A1"
  },
  {
   "w": "dir (du)",
   "e": "you (informal)",
-  "c": "Other",
+  "c": "Pronoun",
   "ex": "Danke gut. Und dir? — Fine, thanks. And you?",
-  "lvl": "A1"
- },
- {
-  "w": "auch",
-  "e": "also",
-  "c": "Function Word",
-  "ex": "Auch gut. Danke. — Also good. Thanks.",
   "lvl": "A1"
  },
  {
   "w": "es geht",
   "e": "OK",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Wie geht’s Ihnen? - Danke! Es geht. — How are you? - Thanks! I am OK.",
-  "lvl": "A1"
- },
- {
-  "w": "so",
-  "e": "so",
-  "c": "Adverb",
-  "ex": "Wie geht’s? - Nicht so gut. — How are you? - Not so good.",
   "lvl": "A1"
  },
  {
   "w": "nicht",
   "e": "not",
-  "c": "Function Word",
+  "c": "Particle",
   "ex": "Wie geht’s? - Nicht gut. — How are you? - Not good.",
   "lvl": "A1"
  },
@@ -219,56 +149,28 @@
  {
   "w": "er",
   "e": "he",
-  "c": "Function Word",
+  "c": "Pronoun",
   "ex": "Das ist Alexis. Er kommt aus Frankreich. — This is Alexis. He comes from France.",
   "lvl": "A1"
  },
  {
   "w": "sie",
   "e": "she",
-  "c": "Function Word",
+  "c": "Pronoun",
   "ex": "Das ist Patricia. Sie kommt aus Mexiko. — This is Patricia. She comes from Mexico.",
-  "lvl": "A1"
- },
- {
-  "w": "aber",
-  "e": "but",
-  "c": "Function Word",
-  "ex": "Ich komme aus Polen, aber ich studiere in — I come from Poland, but I study in Germany.",
-  "lvl": "A1"
- },
- {
-  "w": "mit",
-  "e": "here: to",
-  "c": "Function Word",
-  "ex": "Er ist mit Maria verheiratet. — He is married to Maria.",
-  "lvl": "A1"
- },
- {
-  "w": "nur",
-  "e": "only",
-  "c": "Function Word",
-  "ex": "Ich spreche nur Deutsch. — I only speak German.",
   "lvl": "A1"
  },
  {
   "w": "ein, eine",
   "e": "a",
-  "c": "Other",
+  "c": "Article",
   "ex": "Sie macht einen Deutschkurs. — She is taking a German course.",
-  "lvl": "A1"
- },
- {
-  "w": "bei",
-  "e": "at",
-  "c": "Function Word",
-  "ex": "Sie arbeitet bei Siemens. — She works at Siemens.",
   "lvl": "A1"
  },
  {
   "w": "Herzlich willkommen",
   "e": "welcome",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Herzlich willkommen in Deutschland. — Welcome to Germany.",
   "lvl": "A1"
  },
@@ -282,7 +184,7 @@
  {
   "w": "sich vorstellen",
   "e": "to introduce oneself",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Stellen Sie sich vor. — Introduce yourself.",
   "lvl": "A1"
  },
@@ -296,141 +198,92 @@
  {
   "w": "was?",
   "e": "what?",
-  "c": "Function Word",
+  "c": "Question Word",
   "ex": "Was machen Sie beruflich? — What do you do for a living?",
   "lvl": "A1"
  },
  {
   "w": "beruflich machen",
   "e": "to do for a job",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Was machen Sie beruflich? — What do you do for a living?",
-  "lvl": "A1"
- },
- {
-  "w": "als",
-  "e": "as",
-  "c": "Adverb",
-  "ex": "Marijana Kovac arbeitet als Modedesignerin. — Marijana Kovac works as a fashion designer.",
-  "lvl": "A1"
- },
- {
-  "w": "für",
-  "e": "for",
-  "c": "Function Word",
-  "ex": "Sie macht Mode für Kinder. — She makes fashion for children.",
-  "lvl": "A1"
- },
- {
-  "w": "heute",
-  "e": "today",
-  "c": "Function Word",
-  "ex": "Zwei USB-Sticks kosten heute nur 12,90 Euro. — Two USB sticks cost only 12.90 euros today.",
   "lvl": "A1"
  },
  {
   "w": "Vielen Dank.",
   "e": "Thank you very much.",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Vielen Dank! — Thank you very much!",
   "lvl": "A1"
  },
  {
   "w": "verstanden (verstehen)",
   "e": "understood (to understand)",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Das habe ich nicht verstanden. — I did not understand that.",
   "lvl": "A1"
  },
  {
   "w": "noch einmal",
   "e": "again",
-  "c": "Other",
+  "c": "Adverb",
   "ex": "Können Sie das bitte noch einmal wiederholen. — Can you please repeat that again?",
   "lvl": "A1"
  },
  {
   "w": "da",
   "e": "there",
-  "c": "Function Word",
+  "c": "Adverb",
   "ex": "Das Sportprogramm ist da. — The sports programme is here.",
   "lvl": "A1"
  },
  {
   "w": "ja",
   "e": "yes",
-  "c": "Function Word",
+  "c": "Particle",
   "ex": "Ja, das geht. — Yes, that works.",
   "lvl": "A1"
  },
  {
   "w": "wir",
   "e": "we",
-  "c": "Function Word",
+  "c": "Pronoun",
   "ex": "Was machen wir? — What are we doing?",
   "lvl": "A1"
  },
  {
   "w": "gern(e) machen",
   "e": "to like doing",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Was machst du gern? — What do you like doing?",
   "lvl": "A1"
  },
  {
   "w": "nein",
   "e": "no",
-  "c": "Function Word",
+  "c": "Particle",
   "ex": "Nein, ich wandere nicht gern. — No, I do not like hiking.",
   "lvl": "A1"
  },
  {
   "w": "wann?",
   "e": "when?",
-  "c": "Function Word",
+  "c": "Question Word",
   "ex": "Wann machst du gern Sport? — When do you like doing sport?",
-  "lvl": "A1"
- },
- {
-  "w": "oder",
-  "e": "or",
-  "c": "Function Word",
-  "ex": "Am Morgen, am Nachmittag oder am Abend? — In the morning, in the afternoon or in the evening?",
   "lvl": "A1"
  },
  {
   "w": "Ski fahren",
   "e": "to ski",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Stefan und Julia fahren Ski. — Stefan and Julia are skiing.",
   "lvl": "A1"
  },
  {
   "w": "viele",
   "e": "many",
-  "c": "Function Word",
+  "c": "Number & Time",
   "ex": "Viele Deutsche spielen Fußball. — Many Germans play football.",
-  "lvl": "A1"
- },
- {
-  "w": "leider",
-  "e": "unfortunately",
-  "c": "Adverb",
-  "ex": "Nein, leider nicht. — No, unfortunately not.",
-  "lvl": "A1"
- },
- {
-  "w": "vielleicht",
-  "e": "maybe, perhaps",
-  "c": "Adverb",
-  "ex": "Ich fahre vielleicht Ski. — Maybe I will go skiing.",
-  "lvl": "A1"
- },
- {
-  "w": "gleich",
-  "e": "in a second, soon",
-  "c": "Adverb",
-  "ex": "Ich komme gleich. — I am coming right away.",
   "lvl": "A1"
  },
  {
@@ -443,36 +296,15 @@
  {
   "w": "bis",
   "e": "to",
-  "c": "Function Word",
+  "c": "Preposition",
   "ex": "circa 6.00 bis 9.00 Uhr (6 – 9 Uhr) — approximately 6 to 9 a.m.",
   "lvl": "A1"
  },
  {
   "w": "ihr",
   "e": "you",
-  "c": "Function Word",
+  "c": "Pronoun",
   "ex": "Kommt ihr? — Are you coming?",
-  "lvl": "A1"
- },
- {
-  "w": "deshalb",
-  "e": "therefore",
-  "c": "Adverb",
-  "ex": "Ich habe Geburtstag. Wir machen deshalb eine — It is my birthday. That is why we are having a party.",
-  "lvl": "A1"
- },
- {
-  "w": "um",
-  "e": "at",
-  "c": "Function Word",
-  "ex": "Die Party beginnt um 21.00 Uhr. — The party starts at 9 p.m.",
-  "lvl": "A1"
- },
- {
-  "w": "über",
-  "e": "over",
-  "c": "Function Word",
-  "ex": "Bleibt ihr über Nacht? — Are you staying overnight?",
   "lvl": "A1"
  },
  {
@@ -485,70 +317,35 @@
  {
   "w": "kein, keine",
   "e": "no",
-  "c": "Other",
+  "c": "Article",
   "ex": "Nein, ich habe keine Zeit. — No, I have no time.",
-  "lvl": "A1"
- },
- {
-  "w": "noch",
-  "e": "else",
-  "c": "Function Word",
-  "ex": "Brauchst du noch etwas? — Do you need anything else?",
-  "lvl": "A1"
- },
- {
-  "w": "etwas",
-  "e": "anything, something",
-  "c": "Function Word",
-  "ex": "Brauchst du noch etwas? — Do you need anything else?",
   "lvl": "A1"
  },
  {
   "w": "leid tun",
   "e": "to be sorry",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Tut mir leid. Hier ist kein Rucksack. — I am sorry. There is no backpack here.",
-  "lvl": "A1"
- },
- {
-  "w": "jetzt",
-  "e": "now",
-  "c": "Function Word",
-  "ex": "Im Wohnzimmer ist jetzt kein Basketball. — There is no basketball in the living room now.",
-  "lvl": "A1"
- },
- {
-  "w": "Keine Ahnung.",
-  "e": "No idea.",
-  "c": "Other",
-  "ex": "Was ist das? – Keine Ahnung! — What is that? – No idea!",
-  "lvl": "A1"
- },
- {
-  "w": "schon",
-  "e": "already",
-  "c": "Function Word",
-  "ex": "Möchten Sie schon etwas trinken? — Would you like something to drink already?",
   "lvl": "A1"
  },
  {
   "w": "mich (ich)",
   "e": "me (I)",
-  "c": "Other",
+  "c": "Pronoun",
   "ex": "Für mich ein Bier, bitte. — A beer for me, please.",
   "lvl": "A1"
  },
  {
   "w": "den (der)",
   "e": "the",
-  "c": "Other",
+  "c": "Article",
   "ex": "Ich möchte die Tagessuppe und den Grillteller. — I would like the soup of the day and the mixed grill.",
   "lvl": "A1"
  },
  {
   "w": "einen (ein)",
   "e": "a",
-  "c": "Other",
+  "c": "Article",
   "ex": "Möchten Sie auch einen Salat? — Would you also like a salad?",
   "lvl": "A1"
  },
@@ -562,84 +359,49 @@
  {
   "w": "einem (ein)",
   "e": "a",
-  "c": "Other",
+  "c": "Article",
   "ex": "Anja und Thomas essen in einem Bistro. — Anja and Thomas are eating in a bistro.",
   "lvl": "A1"
  },
  {
   "w": "zu Hause",
   "e": "at home",
-  "c": "Other",
-  "ex": "Am Abend sind sie zu Hause. — In the evening they are at home.",
-  "lvl": "A1"
- },
- {
-  "w": "genau",
-  "e": "exact(ly)",
   "c": "Adverb",
-  "ex": "Ja genau, ein Kaffee, ein Wasser und ein Bier. — Yes exactly, one coffee, one water and one beer.",
+  "ex": "Am Abend sind sie zu Hause. — In the evening they are at home.",
   "lvl": "A1"
  },
  {
   "w": "was (etwas)",
   "e": "something",
-  "c": "Other",
+  "c": "Article",
   "ex": "Und ich möchte auch was essen. — And I would also like something to eat.",
   "lvl": "A1"
  },
  {
   "w": "Viertel vor",
   "e": "quarter to",
-  "c": "Other",
+  "c": "Number & Time",
   "ex": "Der Film kommt um Viertel vor 9. — The film starts at a quarter to 9.",
-  "lvl": "A1"
- },
- {
-  "w": "vor",
-  "e": "to, before",
-  "c": "Function Word",
-  "ex": "Der Film kommt um Viertel vor 9. — The film starts at a quarter to 9.",
-  "lvl": "A1"
- },
- {
-  "w": "zu",
-  "e": "too",
-  "c": "Function Word",
-  "ex": "Viertel vor 11 ist zu spät. — A quarter to 11 is too late.",
   "lvl": "A1"
  },
  {
   "w": "bis dann",
   "e": "until then, so long",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Gut! Bis dann! — Good! Until then!",
-  "lvl": "A1"
- },
- {
-  "w": "nach",
-  "e": "past",
-  "c": "Function Word",
-  "ex": "Es ist 20 nach zehn. — It is 20 past ten.",
   "lvl": "A1"
  },
  {
   "w": "Viertel nach",
   "e": "quarter past",
-  "c": "Other",
+  "c": "Number & Time",
   "ex": "Es ist Viertel nach elf. — It is a quarter past eleven.",
-  "lvl": "A1"
- },
- {
-  "w": "an",
-  "e": "at",
-  "c": "Function Word",
-  "ex": "Premierentickets können Sie an der — You can buy premiere tickets at the box office.",
   "lvl": "A1"
  },
  {
   "w": "Lust haben",
   "e": "to feel like, to have a desire",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Hast du Lust? — Do you feel like it?",
   "lvl": "A1"
  },
@@ -658,72 +420,51 @@
   "lvl": "A1"
  },
  {
-  "w": "danach",
-  "e": "afterwards",
-  "c": "Adverb",
-  "ex": "Aber danach können wir in die Kneipe gehen. — But afterwards we can go to the pub.",
-  "lvl": "A1"
- },
- {
   "w": "so um",
   "e": "at about",
-  "c": "Other",
+  "c": "Adverb",
   "ex": "Wann kommst du? – So um halb sieben. — When are you coming? – At about half past six.",
   "lvl": "A1"
  },
  {
   "w": "zuletzt (zul.)",
   "e": "last",
-  "c": "Other",
+  "c": "Adverb",
   "ex": "Zuletzt online heute um 17:32. — Last online today at 17:32.",
   "lvl": "A1"
  },
  {
   "w": "unser, unsere",
   "e": "our",
-  "c": "Other",
+  "c": "Pronoun",
   "ex": "Kommt ihr am Samstag zu unserer Party? — Are you coming to our party on Saturday?",
-  "lvl": "A1"
- },
- {
-  "w": "alle",
-  "e": "all",
-  "c": "Function Word",
-  "ex": "Alle Museen sind von 18:00 bis 24:00 Uhr — All museums are open from 6 p.m. to midnight.",
   "lvl": "A1"
  },
  {
   "w": "warum?",
   "e": "why?",
-  "c": "Function Word",
+  "c": "Question Word",
   "ex": "Warum fragst du? — Why do you ask?",
   "lvl": "A1"
  },
  {
   "w": "Open Air",
   "e": "Open Air",
-  "c": "Other",
+  "c": "Particle",
   "ex": "Open Air heute im Stadtpark! — Open air today in the city park!",
   "lvl": "A1"
  },
  {
   "w": "euch (ihr)",
   "e": "you",
-  "c": "Other",
+  "c": "Pronoun",
   "ex": "Wann sehe ich euch? — When will I see you?",
-  "lvl": "A1"
- },
- {
-  "w": "auf",
-  "e": "at",
-  "c": "Function Word",
-  "ex": "Sie kaufen etwas auf dem Markt. — They are buying something at the market.",
   "lvl": "A1"
  },
  {
   "w": "mögen (mag)",
   "e": "to like",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Anja mag keine Birnen im Obstsalat. — Anja does not like pears in fruit salad.",
   "lvl": "A1"
  },
@@ -737,36 +478,22 @@
  {
   "w": "mir (ich)",
   "e": "me (I)",
-  "c": "Other",
+  "c": "Pronoun",
   "ex": "Geben Sie mir ein zwei Brötchen, bitte. — Give me two bread rolls, please.",
   "lvl": "A1"
  },
  {
   "w": "beide, beides",
   "e": "both",
-  "c": "Other",
+  "c": "Number & Time",
   "ex": "Er isst beides gern. — He likes eating both.",
   "lvl": "A1"
  },
  {
   "w": "satt sein",
   "e": "to have had enough (to eat)",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Ich bin satt. — I am full.",
-  "lvl": "A1"
- },
- {
-  "w": "oft",
-  "e": "often",
-  "c": "Adverb",
-  "ex": "Da ist der Alltag oft schwer. — Everyday life is often hard there.",
-  "lvl": "A1"
- },
- {
-  "w": "immer",
-  "e": "always",
-  "c": "Adverb",
-  "ex": "Im Büro ist immer viel los. — There is always a lot going on at the office.",
   "lvl": "A1"
  },
  {
@@ -784,59 +511,31 @@
   "lvl": "A1"
  },
  {
-  "w": "Klavier spielen",
-  "e": "to play the piano",
-  "c": "Other",
-  "ex": "Ich kann schon gut Klavier spielen. — I can already play the piano well.",
-  "lvl": "A1"
- },
- {
-  "w": "spazieren gehen",
-  "e": "to go for a walk",
-  "c": "Other",
-  "ex": "Sie geht mit dem Hund spazieren. — She goes for a walk with the dog.",
-  "lvl": "A1"
- },
- {
   "w": "doch",
   "e": "here: but, anyway",
-  "c": "Function Word",
+  "c": "Conjunction",
   "ex": "Ihr könnt ihn doch mitnehmen. — You can take him with you anyway.",
   "lvl": "A1"
  },
  {
   "w": "weit weg",
   "e": "far away",
-  "c": "Other",
+  "c": "Adverb",
   "ex": "Der Alltag ist weit weg. — Everyday life is far away.",
   "lvl": "A1"
  },
  {
   "w": "Spaß machen",
   "e": "to be fun",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Die Arbeit macht ihr viel Spaß. — She really enjoys the work.",
   "lvl": "A1"
  },
  {
   "w": "Violine spielen",
   "e": "to play the violin",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Sie spielt Violine. — She plays the violin.",
-  "lvl": "A1"
- },
- {
-  "w": "dort",
-  "e": "there",
-  "c": "Function Word",
-  "ex": "Sie ist dort Sekretärin. — She is a secretary there.",
-  "lvl": "A1"
- },
- {
-  "w": "nie",
-  "e": "never",
-  "c": "Adverb",
-  "ex": "Sie arbeitet nie am Vormittag. — She never works in the morning.",
   "lvl": "A1"
  },
  {
@@ -849,113 +548,50 @@
  {
   "w": "frei haben",
   "e": "to have free time",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Sie hat am Nachmittag frei. — She has the afternoon off.",
-  "lvl": "A1"
- },
- {
-  "w": "ein paar",
-  "e": "a few",
-  "c": "Other",
-  "ex": "Können wir ein paar Termine besprechen? — Can we discuss a few appointments?",
   "lvl": "A1"
  },
  {
   "w": "dabei sein",
   "e": "to be there",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Sie sind auch mit dabei. — They are also there.",
   "lvl": "A1"
  },
  {
   "w": "na klar",
   "e": "of course",
-  "c": "Other",
+  "c": "Particle",
   "ex": "Na klar möchte ich ihn sehen. — Of course I want to see him.",
-  "lvl": "A1"
- },
- {
-  "w": "links",
-  "e": "on the left",
-  "c": "Function Word",
-  "ex": "Jonas und ich sind hier an der Bühne links. — Jonas and I are here at the stage on the left.",
-  "lvl": "A1"
- },
- {
-  "w": "sich freuen",
-  "e": "to be delighted",
-  "c": "Other",
-  "ex": "Wir freuen uns auf dich! — We are looking forward to seeing you!",
   "lvl": "A1"
  },
  {
   "w": "euer, eure",
   "e": "your",
-  "c": "Other",
+  "c": "Pronoun",
   "ex": "Danke für eure Einladung! — Thanks for your invitation!",
-  "lvl": "A1"
- },
- {
-  "w": "bald",
-  "e": "soon",
-  "c": "Adverb",
-  "ex": "Du, ich feiere bald meinen 50. Geburtstag. — Hey, I am celebrating my 50th birthday soon.",
-  "lvl": "A1"
- },
- {
-  "w": "Bescheid geben",
-  "e": "to let someone know",
-  "c": "Other",
-  "ex": "Bitte gebt mir bis 10.9. Bescheid. — Please let me know by 10 September.",
   "lvl": "A1"
  },
  {
   "w": "Lieben Dank.",
   "e": "many thanks",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Lieben Dank für die Einladung. — Many thanks for the invitation.",
-  "lvl": "A1"
- },
- {
-  "w": "jemand",
-  "e": "anyone, someone",
-  "c": "Function Word",
-  "ex": "Hat jemand noch einen Wunsch? — Does anyone have another wish?",
   "lvl": "A1"
  },
  {
   "w": "Bis bald.",
   "e": "see you soon",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Bis bald. — See you soon.",
   "lvl": "A1"
  },
  {
   "w": "in Ruhe",
   "e": "in peace",
-  "c": "Other",
-  "ex": "Ich möchte in Ruhe arbeiten. — I want to work in peace.",
-  "lvl": "A1"
- },
- {
-  "w": "vor allem",
-  "e": "above all",
-  "c": "Other",
-  "ex": "Mir gefallen vor allem die Kinderzimmer. — I especially like the children's rooms.",
-  "lvl": "A1"
- },
- {
-  "w": "rechts",
-  "e": "on the right",
-  "c": "Function Word",
-  "ex": "Das hier rechts ist mein Arbeitszimmer. — Here on the right is my study.",
-  "lvl": "A1"
- },
- {
-  "w": "nämlich",
-  "e": "you see",
   "c": "Adverb",
-  "ex": "Ich koche nämlich sehr gern. — You see, I really like cooking.",
+  "ex": "Ich möchte in Ruhe arbeiten. — I want to work in peace.",
   "lvl": "A1"
  },
  {
@@ -968,70 +604,35 @@
  {
   "w": "südlich (von)",
   "e": "south",
-  "c": "Other",
+  "c": "Preposition",
   "ex": "Der Tegernsee ist südlich von München. — The Tegernsee is south of Munich.",
-  "lvl": "A1"
- },
- {
-  "w": "endlich",
-  "e": "at last",
-  "c": "Adverb",
-  "ex": "Ja endlich, wir hatten bis gestern Abend — Yes, at last — we had no internet until yesterday evening.",
   "lvl": "A1"
  },
  {
   "w": "Spaß haben",
   "e": "to have fun",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Hattet ihr Spaß? — Did you have fun?",
   "lvl": "A1"
  },
  {
   "w": "nach Hause",
   "e": "home",
-  "c": "Other",
-  "ex": "Ihr könnt dann dein Gepäck nach Hause — You can then take your luggage home.",
-  "lvl": "A1"
- },
- {
-  "w": "also",
-  "e": "here: in other words",
   "c": "Adverb",
-  "ex": "Vier von fünf Personen, also 80 %, schreiben — Four out of five people, in other words 80%, write messages.",
+  "ex": "Ihr könnt dann euer Gepäck nach Hause mitnehmen. — You can then take your luggage home.",
   "lvl": "A1"
  },
  {
   "w": "zum Beispiel",
   "e": "for example",
-  "c": "Other",
-  "ex": "Viele Menschen telefonieren zum Beispiel — Many people make calls, for example with Skype.",
-  "lvl": "A1"
- },
- {
-  "w": "besonders",
-  "e": "particularly",
   "c": "Adverb",
-  "ex": "Besonders junge Leute nutzen soziale — Young people in particular use social media.",
-  "lvl": "A1"
- },
- {
-  "w": "seit",
-  "e": "for (they have been",
-  "c": "Function Word",
-  "ex": "Sie telefonieren seit zwei Minuten und — They have been on the phone for two minutes.",
-  "lvl": "A1"
- },
- {
-  "w": "nichts",
-  "e": "nothing",
-  "c": "Function Word",
-  "ex": "Alles ist frisch, hier kommt nichts aus — Everything is fresh, nothing here comes from the freezer.",
+  "ex": "Viele Menschen telefonieren zum Beispiel mit Skype. — Many people make calls, for example with Skype.",
   "lvl": "A1"
  },
  {
   "w": "Na ja",
   "e": "well",
-  "c": "Other",
+  "c": "Particle",
   "ex": "Na ja, es geht so. — Well, it is so-so.",
   "lvl": "A1"
  },
@@ -1039,147 +640,91 @@
   "w": "genug",
   "e": "enough",
   "c": "Adverb",
-  "ex": "Wie immer essen wir Fondue und Sekt ist auch — As always we eat fondue, and there is enough sparkling wine.",
+  "ex": "Wie immer essen wir Fondue, und Sekt ist auch genug da. — As always we eat fondue, and there is enough sparkling wine too.",
   "lvl": "A1"
  },
  {
   "w": "sich kennen",
   "e": "to know each other",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Die Personen kennen sich. — The people know each other.",
-  "lvl": "A1"
- },
- {
-  "w": "ob",
-  "e": "whether",
-  "c": "Function Word",
-  "ex": "Schreibt mir bitte, ob ihr kommen könnt. — Please write to me whether you can come.",
   "lvl": "A1"
  },
  {
   "w": "Glückwunsch, Glückwünsche",
   "e": "congratulations (plural)",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Herzlichen Glückwunsch! — Congratulations!",
   "lvl": "A1"
  },
  {
   "w": "Frohe Weihnachten",
   "e": "merry Christmas",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Frohe Weihnachten! — Merry Christmas!",
   "lvl": "A1"
  },
  {
   "w": "Gitarre spielen",
   "e": "to play guitar",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Peter lernt gerade Gitarre spielen. — Peter is currently learning to play the guitar.",
   "lvl": "A1"
  },
  {
   "w": "uns (wir)",
   "e": "us (we)",
-  "c": "Other",
-  "ex": "Könnt ihr uns auf dem Stadtplan das Schloss — Can you show us the castle on the city map?",
+  "c": "Pronoun",
+  "ex": "Könnt ihr uns auf dem Stadtplan das Schloss zeigen? — Can you show us the castle on the city map?",
   "lvl": "A1"
  },
  {
   "w": "ihm (er)",
   "e": "him (he)",
-  "c": "Other",
+  "c": "Pronoun",
   "ex": "Schenk ihm doch das Buch. — Give him the book as a present.",
   "lvl": "A1"
  },
  {
   "w": "ihm (es)",
   "e": "(dative form of es)",
-  "c": "Other",
+  "c": "Pronoun",
   "ex": "Ich glaube der Hund mag dich. Ihm gefällt das. — I think the dog likes you. He likes that.",
-  "lvl": "A1"
- },
- {
-  "w": "sofort",
-  "e": "immediately",
-  "c": "Adverb",
-  "ex": "Ja, sofort. — Yes, immediately.",
   "lvl": "A1"
  },
  {
   "w": "bitte sehr",
   "e": "here: there you go",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Hier, bitte sehr. — Here, there you go.",
-  "lvl": "A1"
- },
- {
-  "w": "manchmal",
-  "e": "sometimes",
-  "c": "Adverb",
-  "ex": "Manchmal gibt es leider Stau. — Sometimes there is unfortunately a traffic jam.",
-  "lvl": "A1"
- },
- {
-  "w": "man",
-  "e": "one, people",
-  "c": "Function Word",
-  "ex": "Zum Arzt kommt man pünktlich. — You arrive on time at the doctor's.",
   "lvl": "A1"
  },
  {
   "w": "los sein",
   "e": "to be the matter",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Was ist los? — What is the matter?",
   "lvl": "A1"
  },
  {
   "w": "da sein",
   "e": "to be there",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Schön, dass Sie da sind. — Nice that you are here.",
   "lvl": "A1"
  },
  {
   "w": "Oh weh",
   "e": "oh dear",
-  "c": "Other",
+  "c": "Particle",
   "ex": "Oh weh, was für ein Chaos! — Oh dear, what chaos!",
-  "lvl": "A1"
- },
- {
-  "w": "sonst",
-  "e": "otherwise",
-  "c": "Adverb",
-  "ex": "Sonst wird sie richtig sauer auf mich! — Otherwise she will get really annoyed with me!",
-  "lvl": "A1"
- },
- {
-  "w": "unter",
-  "e": "under",
-  "c": "Function Word",
-  "ex": "Unter den Büchern ist der Kugelschreiber. — The pen is under the books.",
   "lvl": "A1"
  },
  {
   "w": "zu Mittag",
   "e": "for lunch",
-  "c": "Other",
+  "c": "Number & Time",
   "ex": "Was isst Magdalena zu Mittag? — What does Magdalena eat for lunch?",
-  "lvl": "A1"
- },
- {
-  "w": "zuerst",
-  "e": "first",
-  "c": "Adverb",
-  "ex": "Zuerst zeigen wir unser Konzept für — First we present our concept.",
-  "lvl": "A1"
- },
- {
-  "w": "unbedingt",
-  "e": "absolutely",
-  "c": "Adverb",
-  "ex": "Sie müssen unbedingt pünktlich sein. — You absolutely have to be on time.",
   "lvl": "A1"
  },
  {
@@ -1190,212 +735,156 @@
   "lvl": "A1"
  },
  {
-  "w": "allein",
-  "e": "alone",
-  "c": "Adverb",
-  "ex": "Die Kinder können immer allein draußen — The children can always play outside alone.",
-  "lvl": "A1"
- },
- {
-  "w": "ohne",
-  "e": "without",
-  "c": "Function Word",
-  "ex": "Lino kann nicht ohne Robert in den Park. — Lino cannot go to the park without Robert.",
-  "lvl": "A1"
- },
- {
-  "w": "niemand",
-  "e": "no one, nobody",
-  "c": "Function Word",
-  "ex": "Da darf uns niemand stören. — No one is allowed to disturb us there.",
-  "lvl": "A1"
- },
- {
   "w": "Mann, …",
   "e": "Gosh, …",
-  "c": "Other",
+  "c": "Particle",
   "ex": "Mann, das ist lange her. — Gosh, that was a long time ago.",
   "lvl": "A1"
  },
  {
   "w": "her sein",
   "e": "to be a long time ago",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Mann, das ist lange her. — Gosh, that was a long time ago.",
   "lvl": "A1"
  },
  {
   "w": "wem?",
   "e": "who? (dative)",
-  "c": "Function Word",
+  "c": "Question Word",
   "ex": "Mit wem sitzt deine Mutter hier im Garten? — Who is your mother sitting with here in the garden?",
   "lvl": "A1"
  },
  {
   "w": "wen?",
   "e": "who? (accusative)",
-  "c": "Function Word",
+  "c": "Question Word",
   "ex": "Und wen sieht man hier? — And who do you see here?",
   "lvl": "A1"
  },
  {
   "w": "zu Ende",
   "e": "over, finished",
-  "c": "Other",
+  "c": "Adverb",
   "ex": "Ah, die Pause ist zu Ende. — Ah, the break is over.",
   "lvl": "A1"
  },
  {
   "w": "in Ordnung",
   "e": "in order, okay",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Also, ich finde das Gehalt nicht in Ordnung. — Well, I do not think the salary is okay.",
-  "lvl": "A1"
- },
- {
-  "w": "durch",
-  "e": "through, around",
-  "c": "Function Word",
-  "ex": "Danach bin ich ein Jahr durch die Welt gereist. — After that I travelled around the world for a year.",
   "lvl": "A1"
  },
  {
   "w": "weh tun",
   "e": "to hurt",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Mein Arm tut sehr weh. — My arm hurts a lot.",
   "lvl": "A1"
  },
  {
   "w": "zum Glück",
   "e": "luckily",
-  "c": "Other",
-  "ex": "Zum Glück hat mich meine Freundin — Luckily my friend picked me up.",
+  "c": "Adverb",
+  "ex": "Zum Glück hat mich meine Freundin abgeholt. — Luckily my friend picked me up.",
   "lvl": "A1"
  },
  {
   "w": "aus sein",
   "e": "to be (switched) off",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Ja, aber die Handys sind aus. — Yes, but the phones are off.",
   "lvl": "A1"
  },
  {
   "w": "Bescheid sagen",
   "e": "to let someone know",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Okay. Sag Bescheid. — Okay. Let me know.",
   "lvl": "A1"
  },
  {
   "w": "Fahrrad fahren",
   "e": "to cycle, to ride a bicycle",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Ich bin Fahrrad gefahren. — I rode my bicycle.",
   "lvl": "A1"
  },
  {
   "w": "Snowboard fahren",
   "e": "to snowboard",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Ich bin Snowboard gefahren. — I went snowboarding.",
   "lvl": "A1"
  },
  {
   "w": "sich anziehen",
   "e": "to get dressed",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Aber ziehen Sie sich warm an. — But dress warmly.",
-  "lvl": "A1"
- },
- {
-  "w": "wenn",
-  "e": "if",
-  "c": "Function Word",
-  "ex": "Bitte rufen Sie an, wenn Sie nicht kommen — Please call if you cannot come.",
-  "lvl": "A1"
- },
- {
-  "w": "sich ausruhen",
-  "e": "to rest, to relax",
-  "c": "Other",
-  "ex": "Dann ruh dich aus! — Then have a rest!",
   "lvl": "A1"
  },
  {
   "w": "Fußball spielen",
   "e": "to play football",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Er spielt gerne Fußball. — He likes playing football.",
   "lvl": "A1"
  },
  {
   "w": "in einem",
   "e": "(all) in one",
-  "c": "Other",
-  "ex": "Das ist ein tolles Hobby und Musik und Sport — That is a great hobby — music and sport all in one.",
-  "lvl": "A1"
- },
- {
-  "w": "sich anmelden",
-  "e": "to register",
-  "c": "Other",
-  "ex": "Melden Sie sich heute noch an. — Register today.",
+  "c": "Adverb",
+  "ex": "Das ist ein tolles Hobby: Musik und Sport in einem. — That is a great hobby: music and sport in one.",
   "lvl": "A1"
  },
  {
   "w": "mindestens",
   "e": "at least",
   "c": "Adverb",
-  "ex": "Männer machen mindestens 2,5 Stunden Sport — Men do at least 2.5 hours of sport per week.",
+  "ex": "Männer machen mindestens 2,5 Stunden Sport pro Woche. — Men do at least 2.5 hours of sport per week.",
   "lvl": "A1"
  },
  {
   "w": "Recht haben",
   "e": "to be right",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Da hast du Recht. — You are right about that.",
   "lvl": "A1"
  },
  {
   "w": "bio (biologisch)",
   "e": "organic",
-  "c": "Other",
+  "c": "Particle",
   "ex": "Hier sind die Produkte 100 Prozent bio. — Here the products are 100 per cent organic.",
   "lvl": "A1"
  },
  {
   "w": "bis zu",
   "e": "as far as",
-  "c": "Other",
+  "c": "Preposition",
   "ex": "Dort kann man bis zu den Bergen sehen. — From there you can see as far as the mountains.",
   "lvl": "A1"
  },
  {
   "w": "an Bord",
   "e": "on board",
-  "c": "Other",
-  "ex": "Danke, dass Sie heute unser Gast an Bord — Thank you for being our guest on board today.",
-  "lvl": "A1"
- },
- {
-  "w": "sich duschen",
-  "e": "to have a shower",
-  "c": "Other",
-  "ex": "Ich will mich noch schnell duschen. — I quickly want to have a shower.",
+  "c": "Expression",
+  "ex": "Danke, dass Sie heute unser Gast an Bord sind. — Thank you for being our guest on board today.",
   "lvl": "A1"
  },
  {
   "w": "Schlitten fahren",
   "e": "to sled",
-  "c": "Other",
+  "c": "Expression",
   "ex": "Im Winter fahren wir oft Schlitten. — In winter we often go sledging.",
   "lvl": "A1"
  },
  {
   "w": "Nord-West (Singular)",
   "e": "north-west",
-  "c": "Other",
+  "c": "Number & Time",
   "ex": "Ab Mittag gibt es Wind aus Nord-West. — From midday there is wind from the north-west.",
   "lvl": "A1"
  },
@@ -1421,276 +910,129 @@
   "lvl": "A1"
  },
  {
-  "w": "ab",
-  "e": "from, as of",
-  "c": "Function Word",
-  "ex": "Ab morgen muss ich wieder arbeiten.",
-  "lvl": "A2"
- },
- {
   "w": "arm",
   "e": "poor",
-  "c": "Function Word",
+  "c": "Adjective",
   "ex": "Sie haben nicht viel Geld, sie sind arm.",
   "lvl": "A2"
  },
  {
   "w": "bar",
   "e": "in cash",
-  "c": "Function Word",
+  "c": "Adjective",
   "ex": "Muss ich bar zahlen oder geht‘s auch mit Karte?",
-  "lvl": "A2"
- },
- {
-  "w": "dass",
-  "e": "that (conj.)",
-  "c": "Function Word",
-  "ex": "Rico hat gesagt, dass er auch zur Party kommt.",
-  "lvl": "A2"
- },
- {
-  "w": "draußen",
-  "e": "outside",
-  "c": "Function Word",
-  "ex": "Das Wetter ist so schön.",
-  "lvl": "A2"
- },
- {
-  "w": "drinnen",
-  "e": "inside",
-  "c": "Function Word",
-  "ex": "Wollen Sie drinnen oder draußen sitzen?",
   "lvl": "A2"
  },
  {
   "w": "eigentlich",
   "e": "actually",
-  "c": "Function Word",
+  "c": "Adverb",
   "ex": "Wir wollten eigentlich Freunde besuchen, aber dann sind wir doch zu Hause geblieben.",
-  "lvl": "A2"
- },
- {
-  "w": "frei",
-  "e": "free",
-  "c": "Function Word",
-  "ex": "Entschuldigung, ist dieser Platz noch frei?",
   "lvl": "A2"
  },
  {
   "w": "geboren",
   "e": "born",
-  "c": "Function Word",
+  "c": "Adjective",
   "ex": "Ich bin in Zagreb geboren.",
-  "lvl": "A2"
- },
- {
-  "w": "gegen",
-  "e": "against / around",
-  "c": "Function Word",
-  "ex": "Fahr nicht gegen den Baum!",
-  "lvl": "A2"
- },
- {
-  "w": "gegenüber",
-  "e": "opposite",
-  "c": "Function Word",
-  "ex": "Die Post ist gegenüber vom Bahnhof.",
-  "lvl": "A2"
- },
- {
-  "w": "gestern",
-  "e": "yesterday",
-  "c": "Function Word",
-  "ex": "Gestern wollte ich dich anrufen.",
   "lvl": "A2"
  },
  {
   "w": "hinten",
   "e": "at the back",
-  "c": "Function Word",
+  "c": "Adverb",
   "ex": "Die Tür zum Aussteigen ist hinten.",
-  "lvl": "A2"
- },
- {
-  "w": "morgen",
-  "e": "tomorrow",
-  "c": "Function Word",
-  "ex": "Morgen beginnt die Schule erst um zehn Uhr.",
-  "lvl": "A2"
- },
- {
-  "w": "neben",
-  "e": "next to",
-  "c": "Function Word",
-  "ex": "Neben mir ist noch ein Platz frei.",
   "lvl": "A2"
  },
  {
   "w": "nirgends",
   "e": "nowhere",
-  "c": "Function Word",
+  "c": "Adverb",
   "ex": "Hier kann man nirgends parken.",
-  "lvl": "A2"
- },
- {
-  "w": "oben",
-  "e": "above / upstairs",
-  "c": "Function Word",
-  "ex": "Ich wohne oben im 4.",
-  "lvl": "A2"
- },
- {
-  "w": "offen",
-  "e": "open",
-  "c": "Function Word",
-  "ex": "Ist das Fenster im Bad noch offen?",
   "lvl": "A2"
  },
  {
   "w": "rund",
   "e": "round / about",
-  "c": "Function Word",
+  "c": "Number & Time",
   "ex": "Wohnzimmertisch ist rund.",
-  "lvl": "A2"
- },
- {
-  "w": "überall",
-  "e": "everywhere",
-  "c": "Function Word",
-  "ex": "Ich habe überall gesucht, aber ich kann meine Brille nicht finden.",
-  "lvl": "A2"
- },
- {
-  "w": "unten",
-  "e": "below / downstairs",
-  "c": "Function Word",
-  "ex": "Er wohnt ganz unten im Haus.",
-  "lvl": "A2"
- },
- {
-  "w": "verschieden",
-  "e": "different / various",
-  "c": "Function Word",
-  "ex": "Unsere beiden Kinder sind sehr verschieden.",
   "lvl": "A2"
  },
  {
   "w": "wann",
   "e": "when",
-  "c": "Function Word",
+  "c": "Question Word",
   "ex": "Wann bist du fertig?",
   "lvl": "A2"
  },
  {
   "w": "warum",
   "e": "why",
-  "c": "Function Word",
+  "c": "Question Word",
   "ex": "Warum kommt er nicht?",
   "lvl": "A2"
  },
  {
   "w": "was",
   "e": "what",
-  "c": "Function Word",
+  "c": "Question Word",
   "ex": "Was ist das?",
-  "lvl": "A2"
- },
- {
-  "w": "wegen",
-  "e": "because of",
-  "c": "Function Word",
-  "ex": "Wegen seiner Arbeit kann er leider nicht kommen.",
-  "lvl": "A2"
- },
- {
-  "w": "weil",
-  "e": "because",
-  "c": "Function Word",
-  "ex": "Ich kann nicht kommen, weil ich arbeiten muss.",
   "lvl": "A2"
  },
  {
   "w": "weiter",
   "e": "further / continue",
-  "c": "Function Word",
+  "c": "Adverb",
   "ex": "Der Bus fährt nicht weiter.",
   "lvl": "A2"
  },
  {
   "w": "wenigstens",
   "e": "at least",
-  "c": "Function Word",
+  "c": "Adverb",
   "ex": "Ich habe keinen Hunger.",
   "lvl": "A2"
  },
  {
   "w": "wie",
   "e": "how / as",
-  "c": "Function Word",
+  "c": "Question Word",
   "ex": "heißt du?",
   "lvl": "A2"
  },
  {
   "w": "wo",
   "e": "where",
-  "c": "Function Word",
+  "c": "Question Word",
   "ex": "waren Sie im Urlaub?",
   "lvl": "A2"
  },
  {
   "w": "woher",
   "e": "from where",
-  "c": "Function Word",
+  "c": "Question Word",
   "ex": "kommen Sie?",
   "lvl": "A2"
  },
  {
   "w": "wohin",
   "e": "to where",
-  "c": "Function Word",
+  "c": "Question Word",
   "ex": "fährt dieser Bus?",
-  "lvl": "A2"
- },
- {
-  "w": "zufrieden",
-  "e": "satisfied",
-  "c": "Function Word",
-  "ex": "bin mit der Wohnung zufrieden.",
   "lvl": "A2"
  },
  {
   "w": "zuletzt",
   "e": "last / finally",
-  "c": "Function Word",
+  "c": "Adverb",
   "ex": "haben uns vor drei Jahren zuletzt gesehen.",
   "lvl": "A2"
  },
  {
   "w": "zum",
   "e": "to the",
-  "c": "Function Word",
+  "c": "Preposition",
   "ex": "Freund hat viele Hobbys, zum Beispiel Lesen und Tanzen.",
-  "lvl": "A2"
- },
- {
-  "w": "zurück",
-  "e": "here: change",
-  "c": "Function Word",
-  "ex": "Fahrkarte nach Frankfurt und zurück, bitte.",
-  "lvl": "A2"
- },
- {
-  "w": "zusammen",
-  "e": "together",
-  "c": "Function Word",
-  "ex": "wir zusammen essen gehen?",
-  "lvl": "A2"
- },
- {
-  "w": "zwischen",
-  "e": "between",
-  "c": "Function Word",
-  "ex": "liegt zwischen Frankfurt und Stuttgart.",
   "lvl": "A2"
  },
  {
@@ -1710,7 +1052,7 @@
  {
   "w": "ihnen",
   "e": "them (dative)",
-  "c": "Function Word",
+  "c": "Pronoun",
   "ex": "Ich gebe ihnen das Buch. — I give them the book.",
   "lvl": "A1"
  },
@@ -1720,13 +1062,6 @@
   "c": "Pronoun",
   "ex": "Wie heißen Sie? — What is your name?",
   "lvl": "A1"
- },
- {
-  "w": "darum",
-  "e": "that's why / therefore",
-  "c": "Function Word",
-  "ex": "Es regnet, darum bleiben wir zu Hause. — It's raining, that's why we're staying home.",
-  "lvl": "A2"
  },
  {
   "w": "etwa",
@@ -1747,27 +1082,6 @@
   "e": "going on; loose",
   "c": "Adverb",
   "ex": "Was ist hier los? — What's going on here?",
-  "lvl": "A2"
- },
- {
-  "w": "trotzdem",
-  "e": "nevertheless / anyway",
-  "c": "Function Word",
-  "ex": "Es war teuer, trotzdem habe ich es gekauft. — It was expensive; I bought it anyway.",
-  "lvl": "A2"
- },
- {
-  "w": "überhaupt",
-  "e": "at all / in general",
-  "c": "Adverb",
-  "ex": "Ich habe überhaupt keine Zeit. — I have no time at all.",
-  "lvl": "A2"
- },
- {
-  "w": "übrigens",
-  "e": "by the way",
-  "c": "Adverb",
-  "ex": "Übrigens, morgen habe ich Geburtstag. — By the way, tomorrow is my birthday.",
   "lvl": "A2"
  },
  {
@@ -1799,20 +1113,6 @@
   "lvl": "A2"
  },
  {
-  "w": "deswegen",
-  "e": "that's why / therefore",
-  "c": "Function Word",
-  "ex": "Ich war krank, deswegen konnte ich nicht kommen. — I was ill, that's why I couldn't come.",
-  "lvl": "A2"
- },
- {
-  "w": "allerdings",
-  "e": "however / though",
-  "c": "Function Word",
-  "ex": "Das Hotel ist schön, allerdings sehr teuer. — The hotel is nice, however very expensive.",
-  "lvl": "B1"
- },
- {
   "w": "anschließend",
   "e": "afterwards",
   "c": "Adverb",
@@ -1827,16 +1127,9 @@
   "lvl": "B1"
  },
  {
-  "w": "bereits",
-  "e": "already",
-  "c": "Adverb",
-  "ex": "Der Zug ist bereits abgefahren. — The train has already left.",
-  "lvl": "B1"
- },
- {
   "w": "beziehungsweise",
   "e": "or rather / respectively (bzw.)",
-  "c": "Function Word",
+  "c": "Conjunction",
   "ex": "Der Kurs beginnt im März beziehungsweise April. — The course starts in March or April, respectively.",
   "lvl": "B1"
  },
@@ -1850,14 +1143,14 @@
  {
   "w": "daher",
   "e": "therefore / hence",
-  "c": "Function Word",
+  "c": "Conjunction",
   "ex": "Er ist krank, daher kommt er nicht. — He is ill; hence he isn't coming.",
   "lvl": "B1"
  },
  {
   "w": "dennoch",
   "e": "nevertheless",
-  "c": "Function Word",
+  "c": "Conjunction",
   "ex": "Es war verboten, dennoch hat er es getan. — It was forbidden; nevertheless he did it.",
   "lvl": "B1"
  },
@@ -1865,7 +1158,7 @@
   "w": "ebenfalls",
   "e": "likewise / as well",
   "c": "Adverb",
-  "ex": "Schönes Wochenende! — Danke, ebenfalls! — Have a nice weekend! — Thanks, you too!",
+  "ex": "Schönes Wochenende! – Danke, ebenfalls! — Have a nice weekend! – Thanks, you too!",
   "lvl": "B1"
  },
  {
@@ -1878,22 +1171,15 @@
  {
   "w": "einerseits",
   "e": "on the one hand",
-  "c": "Function Word",
+  "c": "Conjunction",
   "ex": "Einerseits ist der Job interessant, andererseits schlecht bezahlt. — On the one hand the job is interesting, on the other badly paid.",
   "lvl": "B1"
  },
  {
   "w": "andererseits",
   "e": "on the other hand",
-  "c": "Function Word",
+  "c": "Conjunction",
   "ex": "Einerseits will ich sparen, andererseits brauche ich Urlaub. — On the one hand I want to save, on the other I need a holiday.",
-  "lvl": "B1"
- },
- {
-  "w": "falls",
-  "e": "in case / if",
-  "c": "Function Word",
-  "ex": "Falls es regnet, bleiben wir zu Hause. — In case it rains, we'll stay home.",
   "lvl": "B1"
  },
  {
@@ -1913,7 +1199,7 @@
  {
   "w": "indem",
   "e": "by (doing something)",
-  "c": "Function Word",
+  "c": "Conjunction",
   "ex": "Man lernt eine Sprache, indem man sie spricht. — You learn a language by speaking it.",
   "lvl": "B1"
  },
@@ -1939,52 +1225,10 @@
   "lvl": "B1"
  },
  {
-  "w": "jedoch",
-  "e": "however",
-  "c": "Function Word",
-  "ex": "Er wollte kommen, jedoch wurde er krank. — He wanted to come; however, he got ill.",
-  "lvl": "B1"
- },
- {
   "w": "kürzlich",
   "e": "recently",
   "c": "Adverb",
   "ex": "Ich habe kürzlich ein tolles Buch gelesen. — I recently read a great book.",
-  "lvl": "B1"
- },
- {
-  "w": "nachdem",
-  "e": "after (conjunction)",
-  "c": "Function Word",
-  "ex": "Nachdem wir gegessen hatten, gingen wir spazieren. — After we had eaten, we went for a walk.",
-  "lvl": "B1"
- },
- {
-  "w": "obwohl",
-  "e": "although",
-  "c": "Function Word",
-  "ex": "Obwohl es regnete, sind wir gewandert. — Although it was raining, we went hiking.",
-  "lvl": "B1"
- },
- {
-  "w": "seitdem",
-  "e": "since then / since",
-  "c": "Function Word",
-  "ex": "Seitdem er in München wohnt, sehen wir uns öfter. — Since he's been living in Munich, we see each other more often.",
-  "lvl": "B1"
- },
- {
-  "w": "sobald",
-  "e": "as soon as",
-  "c": "Function Word",
-  "ex": "Ich rufe dich an, sobald ich zu Hause bin. — I'll call you as soon as I'm home.",
-  "lvl": "B1"
- },
- {
-  "w": "solange",
-  "e": "as long as",
-  "c": "Function Word",
-  "ex": "Solange es nicht regnet, sitzen wir draußen. — As long as it doesn't rain, we'll sit outside.",
   "lvl": "B1"
  },
  {
@@ -1995,31 +1239,10 @@
   "lvl": "B1"
  },
  {
-  "w": "stattdessen",
-  "e": "instead",
-  "c": "Adverb",
-  "ex": "Kein Kaffee mehr? Dann nehme ich stattdessen Tee. — No more coffee? Then I'll have tea instead.",
-  "lvl": "B1"
- },
- {
-  "w": "trotz",
-  "e": "despite (+ Genitiv)",
-  "c": "Function Word",
-  "ex": "Trotz des Regens fand das Fest statt. — Despite the rain, the festival took place.",
-  "lvl": "B1"
- },
- {
   "w": "vermutlich",
   "e": "presumably / probably",
   "c": "Adverb",
   "ex": "Er kommt vermutlich etwas später. — He'll presumably come a bit later.",
-  "lvl": "B1"
- },
- {
-  "w": "während",
-  "e": "while / during",
-  "c": "Function Word",
-  "ex": "Während ich koche, deckst du den Tisch. — While I cook, you set the table. Also preposition + Genitiv: während des Essens.",
   "lvl": "B1"
  },
  {
@@ -2037,52 +1260,10 @@
   "lvl": "B1"
  },
  {
-  "w": "schließlich",
-  "e": "finally / after all",
-  "c": "Adverb",
-  "ex": "Schließlich haben wir eine Lösung gefunden. — Finally we found a solution.",
-  "lvl": "B1"
- },
- {
-  "w": "weder ... noch",
-  "e": "neither ... nor",
-  "c": "Function Word",
-  "ex": "Ich habe weder Zeit noch Geld. — I have neither time nor money.",
-  "lvl": "B1"
- },
- {
-  "w": "entweder ... oder",
-  "e": "either ... or",
-  "c": "Function Word",
-  "ex": "Entweder gehen wir ins Kino oder wir bleiben zu Hause. — Either we go to the cinema or we stay home.",
-  "lvl": "B1"
- },
- {
-  "w": "sowohl ... als auch",
-  "e": "both ... and",
-  "c": "Function Word",
-  "ex": "Sie spricht sowohl Englisch als auch Deutsch. — She speaks both English and German.",
-  "lvl": "B1"
- },
- {
   "w": "herum",
   "e": "around",
   "c": "Adverb",
   "ex": "Wir sind den ganzen Tag herumgelaufen. — We walked around all day. Often as a prefix: herumlaufen, herumliegen.",
-  "lvl": "A2"
- },
- {
-  "w": "drüben",
-  "e": "over there",
-  "c": "Adverb",
-  "ex": "Der Bäcker ist da drüben. — The baker's is over there.",
-  "lvl": "A2"
- },
- {
-  "w": "irgendwo",
-  "e": "somewhere",
-  "c": "Adverb",
-  "ex": "Mein Schlüssel muss irgendwo hier sein. — My key must be somewhere here. Family: irgendwann, irgendwie, irgendwer, irgendetwas.",
   "lvl": "A2"
  },
  {
@@ -2128,23 +1309,16 @@
   "lvl": "B1"
  },
  {
-  "w": "unterwegs",
-  "e": "on the way / out and about",
-  "c": "Adverb",
-  "ex": "Ich bin gerade unterwegs. — I'm on my way right now.",
-  "lvl": "A2"
- },
- {
   "w": "genügend",
   "e": "enough / sufficient",
-  "c": "Function Word",
+  "c": "Number & Time",
   "ex": "Wir haben genügend Zeit. — We have enough time. Interchangeable with 'genug'.",
   "lvl": "A2"
  },
  {
   "w": "verschiedene",
   "e": "various / different",
-  "c": "Function Word",
+  "c": "Pronoun",
   "ex": "Es gibt verschiedene Möglichkeiten. — There are various options. Takes plural adjective endings.",
   "lvl": "A2"
  },
@@ -2158,85 +1332,51 @@
  {
   "w": "einmal, zweimal, dreimal",
   "e": "once, twice, three times",
-  "c": "Adverb",
+  "c": "Number & Time",
   "ex": "Ich gehe zweimal pro Woche schwimmen. — Number + -mal. Also 'dreimal in der Woche'.",
   "lvl": "A1"
  },
  {
   "w": "das Meiste",
   "e": "most of it",
-  "c": "Function Word",
+  "c": "Pronoun",
   "ex": "Das Meiste habe ich schon erledigt. — I've already done most of it. Also 'die meisten Leute'.",
   "lvl": "B1"
  },
  {
   "w": "der Einzige",
   "e": "the only one",
-  "c": "Function Word",
+  "c": "Pronoun",
   "ex": "Er war der Einzige, der geholfen hat. — He was the only one who helped. Adjectival noun: die Einzige, das Einzige.",
-  "lvl": "B1"
- },
- {
-  "w": "innerhalb",
-  "e": "within (+ Genitiv)",
-  "c": "Function Word",
-  "ex": "Innerhalb einer Woche bekommen Sie Bescheid. — You'll hear within a week. Genitive preposition.",
-  "lvl": "B1"
- },
- {
-  "w": "außerhalb",
-  "e": "outside of (+ Genitiv)",
-  "c": "Function Word",
-  "ex": "Wir wohnen außerhalb der Stadt. — We live outside the city.",
   "lvl": "B1"
  },
  {
   "w": "entweder … oder",
   "e": "either … or",
-  "c": "Function Word",
+  "c": "Conjunction",
   "ex": "Ich trinke entweder Tee oder Kaffee. — I drink either tea or coffee.",
   "lvl": "A2"
  },
  {
   "w": "weder … noch",
   "e": "neither … nor",
-  "c": "Function Word",
-  "ex": "Ich habe weder Zeit noch Lust. — I have neither the time nor the inclination. No extra 'nicht' — it's already negative.",
-  "lvl": "B1"
- },
- {
-  "w": "normalerweise",
-  "e": "normally",
-  "c": "Adverb",
-  "ex": "Normalerweise fahre ich mit dem Rad. — Normally I cycle. Counts as position 1, so the verb comes next.",
-  "lvl": "A2"
- },
- {
-  "w": "dadurch",
-  "e": "through that / as a result",
-  "c": "Adverb",
-  "ex": "Ich übe viel; dadurch lerne ich schneller. — I practise a lot; as a result I learn faster.",
-  "lvl": "B1"
- },
- {
-  "w": "wahrscheinlich",
-  "e": "probably",
-  "c": "Adverb",
-  "ex": "Wahrscheinlich regnet es morgen. — It'll probably rain tomorrow.",
-  "lvl": "A2"
+  "c": "Conjunction",
+  "ex": "Ich habe weder Zeit noch Lust. — I have neither the time nor the inclination.",
+  "lvl": "B1",
+  "n": "No extra 'nicht' — weder … noch is already negative."
  },
  {
   "w": "kommend-",
   "e": "coming / next",
-  "c": "Function Word",
-  "ex": "in der kommenden Woche — in the coming week. Partizip I used as an adjective, so it takes endings.",
+  "c": "Article",
+  "ex": "Wir sehen uns in der kommenden Woche. — We will see each other in the coming week.",
   "lvl": "B1"
  },
  {
   "w": "nächst-",
   "e": "next",
-  "c": "Function Word",
-  "ex": "nächste Woche, nächsten Monat, im nächsten Jahr — an adjective, so the ending changes with the case.",
+  "c": "Article",
+  "ex": "Nächste Woche fahre ich nach Hamburg. — Next week I am going to Hamburg.",
   "lvl": "A1"
  }
 ]

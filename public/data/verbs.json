@@ -10668,27 +10668,27 @@
   "p2": "angemeldet",
   "hs": "haben",
   "pr": {
-   "ich": "melde an",
-   "du": "meldest an",
-   "er": "meldet an",
-   "wir": "melden an",
-   "ihr": "meldet an",
-   "sie": "melden an"
+   "ich": "melde mich an",
+   "du": "meldest dich an",
+   "er": "meldet sich an",
+   "wir": "melden uns an",
+   "ihr": "meldet euch an",
+   "sie": "melden sich an"
   },
   "pt": {
-   "ich": "meldete an",
-   "du": "meldetest an",
-   "er": "meldete an",
-   "wir": "meldeten an",
-   "ihr": "meldetet an"
+   "ich": "meldete mich an",
+   "du": "meldetest dich an",
+   "er": "meldete sich an",
+   "wir": "meldeten uns an",
+   "ihr": "meldetet euch an"
   },
   "pk": {
-   "ich": "habe angemeldet",
-   "du": "hast angemeldet",
-   "er": "hat angemeldet",
-   "wir": "haben angemeldet",
-   "ihr": "habt angemeldet",
-   "sie": "haben angemeldet"
+   "ich": "habe mich angemeldet",
+   "du": "hast dich angemeldet",
+   "er": "hat sich angemeldet",
+   "wir": "haben uns angemeldet",
+   "ihr": "habt euch angemeldet",
+   "sie": "haben sich angemeldet"
   },
   "n": "Separable and reflexive. 'sich für/zu etwas anmelden' = to register / sign up.",
   "sep": true,
@@ -10706,27 +10706,27 @@
   "p2": "geärgert",
   "hs": "haben",
   "pr": {
-   "ich": "ärgere",
-   "du": "ärgerst",
-   "er": "ärgert",
-   "wir": "ärgern",
-   "ihr": "ärgert",
-   "sie": "ärgern"
+   "ich": "ärgere mich",
+   "du": "ärgerst dich",
+   "er": "ärgert sich",
+   "wir": "ärgern uns",
+   "ihr": "ärgert euch",
+   "sie": "ärgern sich"
   },
   "pt": {
-   "ich": "ärgerte",
-   "du": "ärgertest",
-   "er": "ärgerte",
-   "wir": "ärgerten",
-   "ihr": "ärgertet"
+   "ich": "ärgerte mich",
+   "du": "ärgertest dich",
+   "er": "ärgerte sich",
+   "wir": "ärgerten uns",
+   "ihr": "ärgertet euch"
   },
   "pk": {
-   "ich": "habe geärgert",
-   "du": "hast geärgert",
-   "er": "hat geärgert",
-   "wir": "haben geärgert",
-   "ihr": "habt geärgert",
-   "sie": "haben geärgert"
+   "ich": "habe mich geärgert",
+   "du": "hast dich geärgert",
+   "er": "hat sich geärgert",
+   "wir": "haben uns geärgert",
+   "ihr": "habt euch geärgert",
+   "sie": "haben sich geärgert"
   },
   "n": "Reflexive: 'sich ärgern über + Akk' = to be annoyed about. Verbs in -ern: ich ärgere mich.",
   "lvl": "A2",
@@ -10928,27 +10928,27 @@
   "p2": "ausgeruht",
   "hs": "haben",
   "pr": {
-   "ich": "ruhe aus",
-   "du": "ruhst aus",
-   "er": "ruht aus",
-   "wir": "ruhen aus",
-   "ihr": "ruht aus",
-   "sie": "ruhen aus"
+   "ich": "ruhe mich aus",
+   "du": "ruhst dich aus",
+   "er": "ruht sich aus",
+   "wir": "ruhen uns aus",
+   "ihr": "ruht euch aus",
+   "sie": "ruhen sich aus"
   },
   "pt": {
-   "ich": "ruhte aus",
-   "du": "ruhtest aus",
-   "er": "ruhte aus",
-   "wir": "ruhten aus",
-   "ihr": "ruhtet aus"
+   "ich": "ruhte mich aus",
+   "du": "ruhtest dich aus",
+   "er": "ruhte sich aus",
+   "wir": "ruhten uns aus",
+   "ihr": "ruhtet euch aus"
   },
   "pk": {
-   "ich": "habe ausgeruht",
-   "du": "hast ausgeruht",
-   "er": "hat ausgeruht",
-   "wir": "haben ausgeruht",
-   "ihr": "habt ausgeruht",
-   "sie": "haben ausgeruht"
+   "ich": "habe mich ausgeruht",
+   "du": "hast dich ausgeruht",
+   "er": "hat sich ausgeruht",
+   "wir": "haben uns ausgeruht",
+   "ihr": "habt euch ausgeruht",
+   "sie": "haben sich ausgeruht"
   },
   "n": "Separable and reflexive. 'sich ausruhen' = to rest / relax.",
   "sep": true,
@@ -11039,27 +11039,27 @@
   "p2": "bedankt",
   "hs": "haben",
   "pr": {
-   "ich": "bedanke",
-   "du": "bedankst",
-   "er": "bedankt",
-   "wir": "bedanken",
-   "ihr": "bedankt",
-   "sie": "bedanken"
+   "ich": "bedanke mich",
+   "du": "bedankst dich",
+   "er": "bedankt sich",
+   "wir": "bedanken uns",
+   "ihr": "bedankt euch",
+   "sie": "bedanken sich"
   },
   "pt": {
-   "ich": "bedankte",
-   "du": "bedanktest",
-   "er": "bedankte",
-   "wir": "bedankten",
-   "ihr": "bedanktet"
+   "ich": "bedankte mich",
+   "du": "bedanktest dich",
+   "er": "bedankte sich",
+   "wir": "bedankten uns",
+   "ihr": "bedanktet euch"
   },
   "pk": {
-   "ich": "habe bedankt",
-   "du": "hast bedankt",
-   "er": "hat bedankt",
-   "wir": "haben bedankt",
-   "ihr": "habt bedankt",
-   "sie": "haben bedankt"
+   "ich": "habe mich bedankt",
+   "du": "hast dich bedankt",
+   "er": "hat sich bedankt",
+   "wir": "haben uns bedankt",
+   "ihr": "habt euch bedankt",
+   "sie": "haben sich bedankt"
   },
   "n": "Reflexive: 'sich bei jemandem für etwas bedanken' = to thank someone for something. More formal feel than 'danken'. 'be-' inseparable.",
   "lvl": "A2",
@@ -11076,27 +11076,27 @@
   "p2": "beeilt",
   "hs": "haben",
   "pr": {
-   "ich": "beeile",
-   "du": "beeilst",
-   "er": "beeilt",
-   "wir": "beeilen",
-   "ihr": "beeilt",
-   "sie": "beeilen"
+   "ich": "beeile mich",
+   "du": "beeilst dich",
+   "er": "beeilt sich",
+   "wir": "beeilen uns",
+   "ihr": "beeilt euch",
+   "sie": "beeilen sich"
   },
   "pt": {
-   "ich": "beeilte",
-   "du": "beeiltest",
-   "er": "beeilte",
-   "wir": "beeilten",
-   "ihr": "beeiltet"
+   "ich": "beeilte mich",
+   "du": "beeiltest dich",
+   "er": "beeilte sich",
+   "wir": "beeilten uns",
+   "ihr": "beeiltet euch"
   },
   "pk": {
-   "ich": "habe beeilt",
-   "du": "hast beeilt",
-   "er": "hat beeilt",
-   "wir": "haben beeilt",
-   "ihr": "habt beeilt",
-   "sie": "haben beeilt"
+   "ich": "habe mich beeilt",
+   "du": "hast dich beeilt",
+   "er": "hat sich beeilt",
+   "wir": "haben uns beeilt",
+   "ihr": "habt euch beeilt",
+   "sie": "haben sich beeilt"
   },
   "n": "Reflexive: 'sich beeilen' = to hurry. 'be-' inseparable: beeilt.",
   "lvl": "A2",
@@ -11293,27 +11293,27 @@
   "p2": "beschwert",
   "hs": "haben",
   "pr": {
-   "ich": "beschwere",
-   "du": "beschwerst",
-   "er": "beschwert",
-   "wir": "beschweren",
-   "ihr": "beschwert",
-   "sie": "beschweren"
+   "ich": "beschwere mich",
+   "du": "beschwerst dich",
+   "er": "beschwert sich",
+   "wir": "beschweren uns",
+   "ihr": "beschwert euch",
+   "sie": "beschweren sich"
   },
   "pt": {
-   "ich": "beschwerte",
-   "du": "beschwertest",
-   "er": "beschwerte",
-   "wir": "beschwerten",
-   "ihr": "beschwertet"
+   "ich": "beschwerte mich",
+   "du": "beschwertest dich",
+   "er": "beschwerte sich",
+   "wir": "beschwerten uns",
+   "ihr": "beschwertet euch"
   },
   "pk": {
-   "ich": "habe beschwert",
-   "du": "hast beschwert",
-   "er": "hat beschwert",
-   "wir": "haben beschwert",
-   "ihr": "habt beschwert",
-   "sie": "haben beschwert"
+   "ich": "habe mich beschwert",
+   "du": "hast dich beschwert",
+   "er": "hat sich beschwert",
+   "wir": "haben uns beschwert",
+   "ihr": "habt euch beschwert",
+   "sie": "haben sich beschwert"
   },
   "n": "Reflexive: 'sich über etwas (Akk) bei jemandem beschweren' = to complain about something to someone. 'be-' inseparable.",
   "lvl": "A2",
@@ -11402,27 +11402,27 @@
   "p2": "beworben",
   "hs": "haben",
   "pr": {
-   "ich": "bewerbe",
-   "du": "bewirbst",
-   "er": "bewirbt",
-   "wir": "bewerben",
-   "ihr": "bewerbt",
-   "sie": "bewerben"
+   "ich": "bewerbe mich",
+   "du": "bewirbst dich",
+   "er": "bewirbt sich",
+   "wir": "bewerben uns",
+   "ihr": "bewerbt euch",
+   "sie": "bewerben sich"
   },
   "pt": {
-   "ich": "bewarb",
-   "du": "bewarbst",
-   "er": "bewarb",
-   "wir": "bewarben",
-   "ihr": "bewarbt"
+   "ich": "bewarb mich",
+   "du": "bewarbst dich",
+   "er": "bewarb sich",
+   "wir": "bewarben uns",
+   "ihr": "bewarbt euch"
   },
   "pk": {
-   "ich": "habe beworben",
-   "du": "hast beworben",
-   "er": "hat beworben",
-   "wir": "haben beworben",
-   "ihr": "habt beworben",
-   "sie": "haben beworben"
+   "ich": "habe mich beworben",
+   "du": "hast dich beworben",
+   "er": "hat sich beworben",
+   "wir": "haben uns beworben",
+   "ihr": "habt euch beworben",
+   "sie": "haben sich beworben"
   },
   "n": "Irregular and reflexive: e→i (du bewirbst dich). 'sich bewerben um/für + Akk' (the post) or 'bei + Dativ' (the company).",
   "lvl": "A2",
@@ -11511,27 +11511,27 @@
   "p2": "geduscht",
   "hs": "haben",
   "pr": {
-   "ich": "dusche",
-   "du": "duschst",
-   "er": "duscht",
-   "wir": "duschen",
-   "ihr": "duscht",
-   "sie": "duschen"
+   "ich": "dusche mich",
+   "du": "duschst dich",
+   "er": "duscht sich",
+   "wir": "duschen uns",
+   "ihr": "duscht euch",
+   "sie": "duschen sich"
   },
   "pt": {
-   "ich": "duschte",
-   "du": "duschtest",
-   "er": "duschte",
-   "wir": "duschten",
-   "ihr": "duschtet"
+   "ich": "duschte mich",
+   "du": "duschtest dich",
+   "er": "duschte sich",
+   "wir": "duschten uns",
+   "ihr": "duschtet euch"
   },
   "pk": {
-   "ich": "habe geduscht",
-   "du": "hast geduscht",
-   "er": "hat geduscht",
-   "wir": "haben geduscht",
-   "ihr": "habt geduscht",
-   "sie": "haben geduscht"
+   "ich": "habe mich geduscht",
+   "du": "hast dich geduscht",
+   "er": "hat sich geduscht",
+   "wir": "haben uns geduscht",
+   "ihr": "habt euch geduscht",
+   "sie": "haben sich geduscht"
   },
   "n": "Often reflexive: 'sich duschen' = to (have a) shower. Also used plainly: 'Ich dusche.'",
   "lvl": "A2",
@@ -11585,27 +11585,27 @@
   "p2": "eingetragen",
   "hs": "haben",
   "pr": {
-   "ich": "trage ein",
-   "du": "trägst ein",
-   "er": "trägt ein",
-   "wir": "tragen ein",
-   "ihr": "tragt ein",
-   "sie": "tragen ein"
+   "ich": "trage mich ein",
+   "du": "trägst dich ein",
+   "er": "trägt sich ein",
+   "wir": "tragen uns ein",
+   "ihr": "tragt euch ein",
+   "sie": "tragen sich ein"
   },
   "pt": {
-   "ich": "trug ein",
-   "du": "trugst ein",
-   "er": "trug ein",
-   "wir": "trugen ein",
-   "ihr": "trugt ein"
+   "ich": "trug mich ein",
+   "du": "trugst dich ein",
+   "er": "trug sich ein",
+   "wir": "trugen uns ein",
+   "ihr": "trugt euch ein"
   },
   "pk": {
-   "ich": "habe eingetragen",
-   "du": "hast eingetragen",
-   "er": "hat eingetragen",
-   "wir": "haben eingetragen",
-   "ihr": "habt eingetragen",
-   "sie": "haben eingetragen"
+   "ich": "habe mich eingetragen",
+   "du": "hast dich eingetragen",
+   "er": "hat sich eingetragen",
+   "wir": "haben uns eingetragen",
+   "ihr": "habt euch eingetragen",
+   "sie": "haben sich eingetragen"
   },
   "n": "Separable, irregular and reflexive: a→ä (du trägst dich ein). 'sich eintragen' = to sign / register oneself.",
   "sep": true,
@@ -11660,27 +11660,27 @@
   "p2": "erinnert",
   "hs": "haben",
   "pr": {
-   "ich": "erinnere",
-   "du": "erinnerst",
-   "er": "erinnert",
-   "wir": "erinnern",
-   "ihr": "erinnert",
-   "sie": "erinnern"
+   "ich": "erinnere mich",
+   "du": "erinnerst dich",
+   "er": "erinnert sich",
+   "wir": "erinnern uns",
+   "ihr": "erinnert euch",
+   "sie": "erinnern sich"
   },
   "pt": {
-   "ich": "erinnerte",
-   "du": "erinnertest",
-   "er": "erinnerte",
-   "wir": "erinnerten",
-   "ihr": "erinnertet"
+   "ich": "erinnerte mich",
+   "du": "erinnertest dich",
+   "er": "erinnerte sich",
+   "wir": "erinnerten uns",
+   "ihr": "erinnertet euch"
   },
   "pk": {
-   "ich": "habe erinnert",
-   "du": "hast erinnert",
-   "er": "hat erinnert",
-   "wir": "haben erinnert",
-   "ihr": "habt erinnert",
-   "sie": "haben erinnert"
+   "ich": "habe mich erinnert",
+   "du": "hast dich erinnert",
+   "er": "hat sich erinnert",
+   "wir": "haben uns erinnert",
+   "ihr": "habt euch erinnert",
+   "sie": "haben sich erinnert"
   },
   "n": "Reflexive: 'sich erinnern an + Akk' = to remember. 'er-' inseparable. Verbs in -ern: ich erinnere mich.",
   "lvl": "A2",
@@ -11769,27 +11769,27 @@
   "p2": "gefreut",
   "hs": "haben",
   "pr": {
-   "ich": "freue",
-   "du": "freust",
-   "er": "freut",
-   "wir": "freuen",
-   "ihr": "freut",
-   "sie": "freuen"
+   "ich": "freue mich",
+   "du": "freust dich",
+   "er": "freut sich",
+   "wir": "freuen uns",
+   "ihr": "freut euch",
+   "sie": "freuen sich"
   },
   "pt": {
-   "ich": "freute",
-   "du": "freutest",
-   "er": "freute",
-   "wir": "freuten",
-   "ihr": "freutet"
+   "ich": "freute mich",
+   "du": "freutest dich",
+   "er": "freute sich",
+   "wir": "freuten uns",
+   "ihr": "freutet euch"
   },
   "pk": {
-   "ich": "habe gefreut",
-   "du": "hast gefreut",
-   "er": "hat gefreut",
-   "wir": "haben gefreut",
-   "ihr": "habt gefreut",
-   "sie": "haben gefreut"
+   "ich": "habe mich gefreut",
+   "du": "hast dich gefreut",
+   "er": "hat sich gefreut",
+   "wir": "haben uns gefreut",
+   "ihr": "habt euch gefreut",
+   "sie": "haben sich gefreut"
   },
   "n": "Reflexive: 'sich freuen auf + Akk' = to look forward to (future); 'sich freuen über + Akk' = to be glad about (now/past).",
   "lvl": "A2",
@@ -11806,27 +11806,27 @@
   "p2": "gefühlt",
   "hs": "haben",
   "pr": {
-   "ich": "fühle",
-   "du": "fühlst",
-   "er": "fühlt",
-   "wir": "fühlen",
-   "ihr": "fühlt",
-   "sie": "fühlen"
+   "ich": "fühle mich",
+   "du": "fühlst dich",
+   "er": "fühlt sich",
+   "wir": "fühlen uns",
+   "ihr": "fühlt euch",
+   "sie": "fühlen sich"
   },
   "pt": {
-   "ich": "fühlte",
-   "du": "fühltest",
-   "er": "fühlte",
-   "wir": "fühlten",
-   "ihr": "fühltet"
+   "ich": "fühlte mich",
+   "du": "fühltest dich",
+   "er": "fühlte sich",
+   "wir": "fühlten uns",
+   "ihr": "fühltet euch"
   },
   "pk": {
-   "ich": "habe gefühlt",
-   "du": "hast gefühlt",
-   "er": "hat gefühlt",
-   "wir": "haben gefühlt",
-   "ihr": "habt gefühlt",
-   "sie": "haben gefühlt"
+   "ich": "habe mich gefühlt",
+   "du": "hast dich gefühlt",
+   "er": "hat sich gefühlt",
+   "wir": "haben uns gefühlt",
+   "ihr": "habt euch gefühlt",
+   "sie": "haben sich gefühlt"
   },
   "n": "Reflexive for one's state: 'sich + adjective fühlen' = to feel (a certain way). 'fühlen' (alone) = to feel/touch something.",
   "lvl": "A2",
@@ -11952,27 +11952,27 @@
   "p2": "gekümmert",
   "hs": "haben",
   "pr": {
-   "ich": "kümmere",
-   "du": "kümmerst",
-   "er": "kümmert",
-   "wir": "kümmern",
-   "ihr": "kümmert",
-   "sie": "kümmern"
+   "ich": "kümmere mich",
+   "du": "kümmerst dich",
+   "er": "kümmert sich",
+   "wir": "kümmern uns",
+   "ihr": "kümmert euch",
+   "sie": "kümmern sich"
   },
   "pt": {
-   "ich": "kümmerte",
-   "du": "kümmertest",
-   "er": "kümmerte",
-   "wir": "kümmerten",
-   "ihr": "kümmertet"
+   "ich": "kümmerte mich",
+   "du": "kümmertest dich",
+   "er": "kümmerte sich",
+   "wir": "kümmerten uns",
+   "ihr": "kümmertet euch"
   },
   "pk": {
-   "ich": "habe gekümmert",
-   "du": "hast gekümmert",
-   "er": "hat gekümmert",
-   "wir": "haben gekümmert",
-   "ihr": "habt gekümmert",
-   "sie": "haben gekümmert"
+   "ich": "habe mich gekümmert",
+   "du": "hast dich gekümmert",
+   "er": "hat sich gekümmert",
+   "wir": "haben uns gekümmert",
+   "ihr": "habt euch gekümmert",
+   "sie": "haben sich gekümmert"
   },
   "n": "Reflexive: 'sich kümmern um + Akk' = to take care of / see to. Verbs in -ern: ich kümmere mich.",
   "lvl": "A2",
@@ -12601,27 +12601,27 @@
   "p2": "unterhalten",
   "hs": "haben",
   "pr": {
-   "ich": "unterhalte",
-   "du": "unterhälst",
-   "er": "unterhält",
-   "wir": "unterhalten",
-   "ihr": "unterhaltet",
-   "sie": "unterhalten"
+   "ich": "unterhalte mich",
+   "du": "unterhälst dich",
+   "er": "unterhält sich",
+   "wir": "unterhalten uns",
+   "ihr": "unterhaltet euch",
+   "sie": "unterhalten sich"
   },
   "pt": {
-   "ich": "unterhielt",
-   "du": "unterhieltst",
-   "er": "unterhielt",
-   "wir": "unterhielten",
-   "ihr": "unterhieltt"
+   "ich": "unterhielt mich",
+   "du": "unterhieltst dich",
+   "er": "unterhielt sich",
+   "wir": "unterhielten uns",
+   "ihr": "unterhieltt euch"
   },
   "pk": {
-   "ich": "habe unterhalten",
-   "du": "hast unterhalten",
-   "er": "hat unterhalten",
-   "wir": "haben unterhalten",
-   "ihr": "habt unterhalten",
-   "sie": "haben unterhalten"
+   "ich": "habe mich unterhalten",
+   "du": "hast dich unterhalten",
+   "er": "hat sich unterhalten",
+   "wir": "haben uns unterhalten",
+   "ihr": "habt euch unterhalten",
+   "sie": "haben sich unterhalten"
   },
   "n": "Irregular and reflexive: a→ä (du unterhältst dich). Here 'unter-' is inseparable. 'sich unterhalten über + Akk' = to chat / converse.",
   "lvl": "A2",
@@ -12818,27 +12818,27 @@
   "p2": "verliebt",
   "hs": "haben",
   "pr": {
-   "ich": "verliebe",
-   "du": "verliebst",
-   "er": "verliebt",
-   "wir": "verlieben",
-   "ihr": "verliebt",
-   "sie": "verlieben"
+   "ich": "verliebe mich",
+   "du": "verliebst dich",
+   "er": "verliebt sich",
+   "wir": "verlieben uns",
+   "ihr": "verliebt euch",
+   "sie": "verlieben sich"
   },
   "pt": {
-   "ich": "verliebte",
-   "du": "verliebtest",
-   "er": "verliebte",
-   "wir": "verliebten",
-   "ihr": "verliebtet"
+   "ich": "verliebte mich",
+   "du": "verliebtest dich",
+   "er": "verliebte sich",
+   "wir": "verliebten uns",
+   "ihr": "verliebtet euch"
   },
   "pk": {
-   "ich": "habe verliebt",
-   "du": "hast verliebt",
-   "er": "hat verliebt",
-   "wir": "haben verliebt",
-   "ihr": "habt verliebt",
-   "sie": "haben verliebt"
+   "ich": "habe mich verliebt",
+   "du": "hast dich verliebt",
+   "er": "hat sich verliebt",
+   "wir": "haben uns verliebt",
+   "ihr": "habt euch verliebt",
+   "sie": "haben sich verliebt"
   },
   "n": "Reflexive: 'sich verlieben in + Akk' = to fall in love with. 'verliebt sein' = to be in love. 'ver-' inseparable.",
   "lvl": "A2",
@@ -13618,27 +13618,27 @@
   "p2": "getrennt",
   "hs": "haben",
   "pr": {
-   "ich": "trenne",
-   "du": "trennest",
-   "er": "trennet",
-   "wir": "trennen",
-   "ihr": "trennet",
-   "sie": "trennen"
+   "ich": "trenne mich",
+   "du": "trennest dich",
+   "er": "trennet sich",
+   "wir": "trennen uns",
+   "ihr": "trennet euch",
+   "sie": "trennen sich"
   },
   "pt": {
-   "ich": "trennete",
-   "du": "trennetest",
-   "er": "trennete",
-   "wir": "trenneten",
-   "ihr": "trennetet"
+   "ich": "trennete mich",
+   "du": "trennetest dich",
+   "er": "trennete sich",
+   "wir": "trenneten uns",
+   "ihr": "trennetet euch"
   },
   "pk": {
-   "ich": "habe getrennt",
-   "du": "hast getrennt",
-   "er": "hat getrennt",
-   "wir": "haben getrennt",
-   "ihr": "habt getrennt",
-   "sie": "haben getrennt"
+   "ich": "habe mich getrennt",
+   "du": "hast dich getrennt",
+   "er": "hat sich getrennt",
+   "wir": "haben uns getrennt",
+   "ihr": "habt euch getrennt",
+   "sie": "haben sich getrennt"
   },
   "n": "Reflexive. 'sich von jemandem trennen' = to split up with someone. 'getrennt zahlen' = to pay separately.",
   "lvl": "A2",
@@ -14096,27 +14096,27 @@
   "p2": "ausgekannt",
   "hs": "haben",
   "pr": {
-   "ich": "kenne aus",
-   "du": "kennest aus",
-   "er": "kennet aus",
-   "wir": "kennen aus",
-   "ihr": "kennet aus",
-   "sie": "kennen aus"
+   "ich": "kenne mich aus",
+   "du": "kennest dich aus",
+   "er": "kennet sich aus",
+   "wir": "kennen uns aus",
+   "ihr": "kennet euch aus",
+   "sie": "kennen sich aus"
   },
   "pt": {
-   "ich": "kannte aus",
-   "du": "kanntest aus",
-   "er": "kannte aus",
-   "wir": "kannten aus",
-   "ihr": "kanntet aus"
+   "ich": "kannte mich aus",
+   "du": "kanntest dich aus",
+   "er": "kannte sich aus",
+   "wir": "kannten uns aus",
+   "ihr": "kanntet euch aus"
   },
   "pk": {
-   "ich": "habe ausgekannt",
-   "du": "hast ausgekannt",
-   "er": "hat ausgekannt",
-   "wir": "haben ausgekannt",
-   "ihr": "habt ausgekannt",
-   "sie": "haben ausgekannt"
+   "ich": "habe mich ausgekannt",
+   "du": "hast dich ausgekannt",
+   "er": "hat sich ausgekannt",
+   "wir": "haben uns ausgekannt",
+   "ihr": "habt euch ausgekannt",
+   "sie": "haben sich ausgekannt"
   },
   "n": "Separable and reflexive. 'sich mit etwas auskennen' = to know a lot about something.",
   "lvl": "B1",
@@ -14279,27 +14279,27 @@
   "p2": "befunden",
   "hs": "haben",
   "pr": {
-   "ich": "befinde",
-   "du": "befindest",
-   "er": "befindet",
-   "wir": "befinden",
-   "ihr": "befindet",
-   "sie": "befinden"
+   "ich": "befinde mich",
+   "du": "befindest dich",
+   "er": "befindet sich",
+   "wir": "befinden uns",
+   "ihr": "befindet euch",
+   "sie": "befinden sich"
   },
   "pt": {
-   "ich": "befand",
-   "du": "befandest",
-   "er": "befand",
-   "wir": "befanden",
-   "ihr": "befandet"
+   "ich": "befand mich",
+   "du": "befandest dich",
+   "er": "befand sich",
+   "wir": "befanden uns",
+   "ihr": "befandet euch"
   },
   "pk": {
-   "ich": "habe befunden",
-   "du": "hast befunden",
-   "er": "hat befunden",
-   "wir": "haben befunden",
-   "ihr": "habt befunden",
-   "sie": "haben befunden"
+   "ich": "habe mich befunden",
+   "du": "hast dich befunden",
+   "er": "hat sich befunden",
+   "wir": "haben uns befunden",
+   "ihr": "habt euch befunden",
+   "sie": "haben sich befunden"
   },
   "n": "Reflexive, formal. 'Der Eingang befindet sich links.' = The entrance is on the left.",
   "lvl": "B1",
@@ -14532,27 +14532,27 @@
   "p2": "beruhigt",
   "hs": "haben",
   "pr": {
-   "ich": "beruhige",
-   "du": "beruhigst",
-   "er": "beruhigt",
-   "wir": "beruhigen",
-   "ihr": "beruhigt",
-   "sie": "beruhigen"
+   "ich": "beruhige mich",
+   "du": "beruhigst dich",
+   "er": "beruhigt sich",
+   "wir": "beruhigen uns",
+   "ihr": "beruhigt euch",
+   "sie": "beruhigen sich"
   },
   "pt": {
-   "ich": "beruhigte",
-   "du": "beruhigtest",
-   "er": "beruhigte",
-   "wir": "beruhigten",
-   "ihr": "beruhigtet"
+   "ich": "beruhigte mich",
+   "du": "beruhigtest dich",
+   "er": "beruhigte sich",
+   "wir": "beruhigten uns",
+   "ihr": "beruhigtet euch"
   },
   "pk": {
-   "ich": "habe beruhigt",
-   "du": "hast beruhigt",
-   "er": "hat beruhigt",
-   "wir": "haben beruhigt",
-   "ihr": "habt beruhigt",
-   "sie": "haben beruhigt"
+   "ich": "habe mich beruhigt",
+   "du": "hast dich beruhigt",
+   "er": "hat sich beruhigt",
+   "wir": "haben uns beruhigt",
+   "ihr": "habt euch beruhigt",
+   "sie": "haben sich beruhigt"
   },
   "n": "Reflexive. 'Beruhige dich!' = Calm down! Without 'sich': to calm someone else.",
   "lvl": "B1",
@@ -14569,27 +14569,27 @@
   "p2": "beschäftigt",
   "hs": "haben",
   "pr": {
-   "ich": "beschäftige",
-   "du": "beschäftigst",
-   "er": "beschäftigt",
-   "wir": "beschäftigen",
-   "ihr": "beschäftigt",
-   "sie": "beschäftigen"
+   "ich": "beschäftige mich",
+   "du": "beschäftigst dich",
+   "er": "beschäftigt sich",
+   "wir": "beschäftigen uns",
+   "ihr": "beschäftigt euch",
+   "sie": "beschäftigen sich"
   },
   "pt": {
-   "ich": "beschäftigte",
-   "du": "beschäftigtest",
-   "er": "beschäftigte",
-   "wir": "beschäftigten",
-   "ihr": "beschäftigtet"
+   "ich": "beschäftigte mich",
+   "du": "beschäftigtest dich",
+   "er": "beschäftigte sich",
+   "wir": "beschäftigten uns",
+   "ihr": "beschäftigtet euch"
   },
   "pk": {
-   "ich": "habe beschäftigt",
-   "du": "hast beschäftigt",
-   "er": "hat beschäftigt",
-   "wir": "haben beschäftigt",
-   "ihr": "habt beschäftigt",
-   "sie": "haben beschäftigt"
+   "ich": "habe mich beschäftigt",
+   "du": "hast dich beschäftigt",
+   "er": "hat sich beschäftigt",
+   "wir": "haben uns beschäftigt",
+   "ihr": "habt euch beschäftigt",
+   "sie": "haben sich beschäftigt"
   },
   "n": "Reflexive: 'sich mit etwas beschäftigen' = to spend time on / deal with something. 'beschäftigt sein' = to be busy.",
   "lvl": "B1",
@@ -14931,27 +14931,27 @@
   "p2": "geeinigt",
   "hs": "haben",
   "pr": {
-   "ich": "einige",
-   "du": "einigst",
-   "er": "einigt",
-   "wir": "einigen",
-   "ihr": "einigt",
-   "sie": "einigen"
+   "ich": "einige mich",
+   "du": "einigst dich",
+   "er": "einigt sich",
+   "wir": "einigen uns",
+   "ihr": "einigt euch",
+   "sie": "einigen sich"
   },
   "pt": {
-   "ich": "einigte",
-   "du": "einigtest",
-   "er": "einigte",
-   "wir": "einigten",
-   "ihr": "einigtet"
+   "ich": "einigte mich",
+   "du": "einigtest dich",
+   "er": "einigte sich",
+   "wir": "einigten uns",
+   "ihr": "einigtet euch"
   },
   "pk": {
-   "ich": "habe geeinigt",
-   "du": "hast geeinigt",
-   "er": "hat geeinigt",
-   "wir": "haben geeinigt",
-   "ihr": "habt geeinigt",
-   "sie": "haben geeinigt"
+   "ich": "habe mich geeinigt",
+   "du": "hast dich geeinigt",
+   "er": "hat sich geeinigt",
+   "wir": "haben uns geeinigt",
+   "ihr": "habt euch geeinigt",
+   "sie": "haben sich geeinigt"
   },
   "n": "Reflexive: 'sich auf etwas (Akk) einigen'. Not separable — from 'einig' (in agreement).",
   "lvl": "B1",
@@ -15078,27 +15078,27 @@
   "p2": "entschlossen",
   "hs": "haben",
   "pr": {
-   "ich": "entschließe",
-   "du": "entschließt",
-   "er": "entschließt",
-   "wir": "entschließen",
-   "ihr": "entschließt",
-   "sie": "entschließen"
+   "ich": "entschließe mich",
+   "du": "entschließt dich",
+   "er": "entschließt sich",
+   "wir": "entschließen uns",
+   "ihr": "entschließt euch",
+   "sie": "entschließen sich"
   },
   "pt": {
-   "ich": "entschloss",
-   "du": "entschlossest",
-   "er": "entschloss",
-   "wir": "entschlossen",
-   "ihr": "entschlosst"
+   "ich": "entschloss mich",
+   "du": "entschlossest dich",
+   "er": "entschloss sich",
+   "wir": "entschlossen uns",
+   "ihr": "entschlosst euch"
   },
   "pk": {
-   "ich": "habe entschlossen",
-   "du": "hast entschlossen",
-   "er": "hat entschlossen",
-   "wir": "haben entschlossen",
-   "ihr": "habt entschlossen",
-   "sie": "haben entschlossen"
+   "ich": "habe mich entschlossen",
+   "du": "hast dich entschlossen",
+   "er": "hat sich entschlossen",
+   "wir": "haben uns entschlossen",
+   "ihr": "habt euch entschlossen",
+   "sie": "haben sich entschlossen"
   },
   "n": "Reflexive: 'sich zu etwas entschließen'. Stronger/more final than 'sich entscheiden'. Noun: der Entschluss.",
   "lvl": "B1",
@@ -15151,27 +15151,27 @@
   "p2": "entwickelt",
   "hs": "haben",
   "pr": {
-   "ich": "entwickle",
-   "du": "entwickelst",
-   "er": "entwickelt",
-   "wir": "entwickeln",
-   "ihr": "entwickelt",
-   "sie": "entwickeln"
+   "ich": "entwickle mich",
+   "du": "entwickelst dich",
+   "er": "entwickelt sich",
+   "wir": "entwickeln uns",
+   "ihr": "entwickelt euch",
+   "sie": "entwickeln sich"
   },
   "pt": {
-   "ich": "entwickelte",
-   "du": "entwickeltest",
-   "er": "entwickelte",
-   "wir": "entwickelten",
-   "ihr": "entwickeltet"
+   "ich": "entwickelte mich",
+   "du": "entwickeltest dich",
+   "er": "entwickelte sich",
+   "wir": "entwickelten uns",
+   "ihr": "entwickeltet euch"
   },
   "pk": {
-   "ich": "habe entwickelt",
-   "du": "hast entwickelt",
-   "er": "hat entwickelt",
-   "wir": "haben entwickelt",
-   "ihr": "habt entwickelt",
-   "sie": "haben entwickelt"
+   "ich": "habe mich entwickelt",
+   "du": "hast dich entwickelt",
+   "er": "hat sich entwickelt",
+   "wir": "haben uns entwickelt",
+   "ihr": "habt euch entwickelt",
+   "sie": "haben sich entwickelt"
   },
   "n": "Reflexive for 'to develop/evolve'; without 'sich' = to develop something. Noun: die Entwicklung.",
   "lvl": "B1",
@@ -15332,27 +15332,27 @@
   "p2": "erholt",
   "hs": "haben",
   "pr": {
-   "ich": "erhole",
-   "du": "erholst",
-   "er": "erholt",
-   "wir": "erholen",
-   "ihr": "erholt",
-   "sie": "erholen"
+   "ich": "erhole mich",
+   "du": "erholst dich",
+   "er": "erholt sich",
+   "wir": "erholen uns",
+   "ihr": "erholt euch",
+   "sie": "erholen sich"
   },
   "pt": {
-   "ich": "erholte",
-   "du": "erholtest",
-   "er": "erholte",
-   "wir": "erholten",
-   "ihr": "erholtet"
+   "ich": "erholte mich",
+   "du": "erholtest dich",
+   "er": "erholte sich",
+   "wir": "erholten uns",
+   "ihr": "erholtet euch"
   },
   "pk": {
-   "ich": "habe erholt",
-   "du": "hast erholt",
-   "er": "hat erholt",
-   "wir": "haben erholt",
-   "ihr": "habt erholt",
-   "sie": "haben erholt"
+   "ich": "habe mich erholt",
+   "du": "hast dich erholt",
+   "er": "hat sich erholt",
+   "wir": "haben uns erholt",
+   "ihr": "habt euch erholt",
+   "sie": "haben sich erholt"
   },
   "n": "Reflexive: 'sich von etwas erholen' = to recover from. Noun: die Erholung.",
   "lvl": "B1",
@@ -15797,7 +15797,7 @@
   "e": "to happen",
   "ex": [
    "Was ist hier geschehen? — What happened here?",
-   "Danke! — Gern geschehen! — Thanks! — You're welcome!"
+   "Danke! – Gern geschehen! — Thanks! – You're welcome!"
   ],
   "t": "irr",
   "p2": "geschehen",
@@ -15875,27 +15875,27 @@
   "p2": "gewöhnt",
   "hs": "haben",
   "pr": {
-   "ich": "gewöhne",
-   "du": "gewöhnst",
-   "er": "gewöhnt",
-   "wir": "gewöhnen",
-   "ihr": "gewöhnt",
-   "sie": "gewöhnen"
+   "ich": "gewöhne mich",
+   "du": "gewöhnst dich",
+   "er": "gewöhnt sich",
+   "wir": "gewöhnen uns",
+   "ihr": "gewöhnt euch",
+   "sie": "gewöhnen sich"
   },
   "pt": {
-   "ich": "gewöhnte",
-   "du": "gewöhntest",
-   "er": "gewöhnte",
-   "wir": "gewöhnten",
-   "ihr": "gewöhntet"
+   "ich": "gewöhnte mich",
+   "du": "gewöhntest dich",
+   "er": "gewöhnte sich",
+   "wir": "gewöhnten uns",
+   "ihr": "gewöhntet euch"
   },
   "pk": {
-   "ich": "habe gewöhnt",
-   "du": "hast gewöhnt",
-   "er": "hat gewöhnt",
-   "wir": "haben gewöhnt",
-   "ihr": "habt gewöhnt",
-   "sie": "haben gewöhnt"
+   "ich": "habe mich gewöhnt",
+   "du": "hast dich gewöhnt",
+   "er": "hat sich gewöhnt",
+   "wir": "haben uns gewöhnt",
+   "ihr": "habt euch gewöhnt",
+   "sie": "haben sich gewöhnt"
   },
   "n": "Reflexive: 'sich an etwas (Akk) gewöhnen'. 'Ich bin es gewohnt' = I'm used to it. Noun: die Gewohnheit.",
   "lvl": "B1",
@@ -16057,27 +16057,27 @@
   "p2": "konzentriert",
   "hs": "haben",
   "pr": {
-   "ich": "konzentriere",
-   "du": "konzentrierst",
-   "er": "konzentriert",
-   "wir": "konzentrieren",
-   "ihr": "konzentriert",
-   "sie": "konzentrieren"
+   "ich": "konzentriere mich",
+   "du": "konzentrierst dich",
+   "er": "konzentriert sich",
+   "wir": "konzentrieren uns",
+   "ihr": "konzentriert euch",
+   "sie": "konzentrieren sich"
   },
   "pt": {
-   "ich": "konzentrierte",
-   "du": "konzentriertest",
-   "er": "konzentrierte",
-   "wir": "konzentrierten",
-   "ihr": "konzentriertet"
+   "ich": "konzentrierte mich",
+   "du": "konzentriertest dich",
+   "er": "konzentrierte sich",
+   "wir": "konzentrierten uns",
+   "ihr": "konzentriertet euch"
   },
   "pk": {
-   "ich": "habe konzentriert",
-   "du": "hast konzentriert",
-   "er": "hat konzentriert",
-   "wir": "haben konzentriert",
-   "ihr": "habt konzentriert",
-   "sie": "haben konzentriert"
+   "ich": "habe mich konzentriert",
+   "du": "hast dich konzentriert",
+   "er": "hat sich konzentriert",
+   "wir": "haben uns konzentriert",
+   "ihr": "habt euch konzentriert",
+   "sie": "haben sich konzentriert"
   },
   "n": "Reflexive: 'sich auf etwas (Akk) konzentrieren'. -ieren verb: no ge- in Partizip II.",
   "lvl": "B1",
@@ -16130,27 +16130,27 @@
   "p2": "gelohnt",
   "hs": "haben",
   "pr": {
-   "ich": "lohne",
-   "du": "lohnst",
-   "er": "lohnt",
-   "wir": "lohnen",
-   "ihr": "lohnt",
-   "sie": "lohnen"
+   "ich": "lohne mich",
+   "du": "lohnst dich",
+   "er": "lohnt sich",
+   "wir": "lohnen uns",
+   "ihr": "lohnt euch",
+   "sie": "lohnen sich"
   },
   "pt": {
-   "ich": "lohnte",
-   "du": "lohntest",
-   "er": "lohnte",
-   "wir": "lohnten",
-   "ihr": "lohntet"
+   "ich": "lohnte mich",
+   "du": "lohntest dich",
+   "er": "lohnte sich",
+   "wir": "lohnten uns",
+   "ihr": "lohntet euch"
   },
   "pk": {
-   "ich": "habe gelohnt",
-   "du": "hast gelohnt",
-   "er": "hat gelohnt",
-   "wir": "haben gelohnt",
-   "ihr": "habt gelohnt",
-   "sie": "haben gelohnt"
+   "ich": "habe mich gelohnt",
+   "du": "hast dich gelohnt",
+   "er": "hat sich gelohnt",
+   "wir": "haben uns gelohnt",
+   "ihr": "habt euch gelohnt",
+   "sie": "haben sich gelohnt"
   },
   "n": "Reflexive, 3rd person: 'Es lohnt sich.' = It's worth it. 'Der Film lohnt sich.'",
   "lvl": "B1",
@@ -17647,27 +17647,27 @@
   "p2": "gewundert",
   "hs": "haben",
   "pr": {
-   "ich": "wundere",
-   "du": "wunderst",
-   "er": "wundert",
-   "wir": "wundern",
-   "ihr": "wundert",
-   "sie": "wundern"
+   "ich": "wundere mich",
+   "du": "wunderst dich",
+   "er": "wundert sich",
+   "wir": "wundern uns",
+   "ihr": "wundert euch",
+   "sie": "wundern sich"
   },
   "pt": {
-   "ich": "wunderte",
-   "du": "wundertest",
-   "er": "wunderte",
-   "wir": "wunderten",
-   "ihr": "wundertet"
+   "ich": "wunderte mich",
+   "du": "wundertest dich",
+   "er": "wunderte sich",
+   "wir": "wunderten uns",
+   "ihr": "wundertet euch"
   },
   "pk": {
-   "ich": "habe gewundert",
-   "du": "hast gewundert",
-   "er": "hat gewundert",
-   "wir": "haben gewundert",
-   "ihr": "habt gewundert",
-   "sie": "haben gewundert"
+   "ich": "habe mich gewundert",
+   "du": "hast dich gewundert",
+   "er": "hat sich gewundert",
+   "wir": "haben uns gewundert",
+   "ihr": "habt euch gewundert",
+   "sie": "haben sich gewundert"
   },
   "n": "Reflexive: 'sich über etwas (Akk) wundern'. Noun: das Wunder = miracle.",
   "lvl": "B1",
@@ -18045,7 +18045,7 @@
   "e": "to bite",
   "ex": [
    "Der Hund hat mich gebissen. — The dog bit me.",
-   "Vorsicht, die Suppe ist heiß — beiß langsam. — Careful, the soup is hot."
+   "Der Hund hat mich in die Hand gebissen. — The dog bit me on the hand."
   ],
   "t": "irr",
   "p2": "gebissen",
@@ -19141,27 +19141,27 @@
   "p2": "bewegt",
   "hs": "haben",
   "pr": {
-   "ich": "bewege",
-   "du": "bewegst",
-   "er": "bewegt",
-   "wir": "bewegen",
-   "ihr": "bewegt",
-   "sie": "bewegen"
+   "ich": "bewege mich",
+   "du": "bewegst dich",
+   "er": "bewegt sich",
+   "wir": "bewegen uns",
+   "ihr": "bewegt euch",
+   "sie": "bewegen sich"
   },
   "pt": {
-   "ich": "bewegte",
-   "du": "bewegtest",
-   "er": "bewegte",
-   "wir": "bewegten",
-   "ihr": "bewegtet"
+   "ich": "bewegte mich",
+   "du": "bewegtest dich",
+   "er": "bewegte sich",
+   "wir": "bewegten uns",
+   "ihr": "bewegtet euch"
   },
   "pk": {
-   "ich": "habe bewegt",
-   "du": "hast bewegt",
-   "er": "hat bewegt",
-   "wir": "haben bewegt",
-   "ihr": "habt bewegt",
-   "sie": "haben bewegt"
+   "ich": "habe mich bewegt",
+   "du": "hast dich bewegt",
+   "er": "hat sich bewegt",
+   "wir": "haben uns bewegt",
+   "ihr": "habt euch bewegt",
+   "sie": "haben sich bewegt"
   },
   "n": "Inseparable be- prefix — no ge-. Reflexive for moving your own body; also non-reflexive: etwas bewegen.",
   "lvl": "B1",
@@ -19178,27 +19178,27 @@
   "p2": "interessiert",
   "hs": "haben",
   "pr": {
-   "ich": "interessiere",
-   "du": "interessierst",
-   "er": "interessiert",
-   "wir": "interessiern",
-   "ihr": "interessiert",
-   "sie": "interessiern"
+   "ich": "interessiere mich",
+   "du": "interessierst dich",
+   "er": "interessiert sich",
+   "wir": "interessiern uns",
+   "ihr": "interessiert euch",
+   "sie": "interessiern sich"
   },
   "pt": {
-   "ich": "interessierte",
-   "du": "interessiertest",
-   "er": "interessierte",
-   "wir": "interessierten",
-   "ihr": "interessiertet"
+   "ich": "interessierte mich",
+   "du": "interessiertest dich",
+   "er": "interessierte sich",
+   "wir": "interessierten uns",
+   "ihr": "interessiertet euch"
   },
   "pk": {
-   "ich": "habe interessiert",
-   "du": "hast interessiert",
-   "er": "hat interessiert",
-   "wir": "haben interessiert",
-   "ihr": "habt interessiert",
-   "sie": "haben interessiert"
+   "ich": "habe mich interessiert",
+   "du": "hast dich interessiert",
+   "er": "hat sich interessiert",
+   "wir": "haben uns interessiert",
+   "ihr": "habt euch interessiert",
+   "sie": "haben sich interessiert"
   },
   "n": "'sich interessieren für + Akkusativ'. -ieren verb, so no ge-.",
   "lvl": "A2",
@@ -19215,27 +19215,27 @@
   "p2": "genähert",
   "hs": "haben",
   "pr": {
-   "ich": "nähere",
-   "du": "näherst",
-   "er": "nähert",
-   "wir": "nähern",
-   "ihr": "nähert",
-   "sie": "nähern"
+   "ich": "nähere mich",
+   "du": "näherst dich",
+   "er": "nähert sich",
+   "wir": "nähern uns",
+   "ihr": "nähert euch",
+   "sie": "nähern sich"
   },
   "pt": {
-   "ich": "näherte",
-   "du": "nähertest",
-   "er": "näherte",
-   "wir": "näherten",
-   "ihr": "nähertet"
+   "ich": "näherte mich",
+   "du": "nähertest dich",
+   "er": "näherte sich",
+   "wir": "näherten uns",
+   "ihr": "nähertet euch"
   },
   "pk": {
-   "ich": "habe genähert",
-   "du": "hast genähert",
-   "er": "hat genähert",
-   "wir": "haben genähert",
-   "ihr": "habt genähert",
-   "sie": "haben genähert"
+   "ich": "habe mich genähert",
+   "du": "hast dich genähert",
+   "er": "hat sich genähert",
+   "wir": "haben uns genähert",
+   "ihr": "habt euch genähert",
+   "sie": "haben sich genähert"
   },
   "n": "Reflexive, takes the Dativ: 'sich einer Sache nähern'.",
   "lvl": "B1",
@@ -19252,27 +19252,27 @@
   "p2": "gesetzt",
   "hs": "haben",
   "pr": {
-   "ich": "setze",
-   "du": "setzt",
-   "er": "setzt",
-   "wir": "setzen",
-   "ihr": "setzt",
-   "sie": "setzen"
+   "ich": "setze mich",
+   "du": "setzt dich",
+   "er": "setzt sich",
+   "wir": "setzen uns",
+   "ihr": "setzt euch",
+   "sie": "setzen sich"
   },
   "pt": {
-   "ich": "setzte",
-   "du": "setztest",
-   "er": "setzte",
-   "wir": "setzten",
-   "ihr": "setztet"
+   "ich": "setzte mich",
+   "du": "setztest dich",
+   "er": "setzte sich",
+   "wir": "setzten uns",
+   "ihr": "setztet euch"
   },
   "pk": {
-   "ich": "habe gesetzt",
-   "du": "hast gesetzt",
-   "er": "hat gesetzt",
-   "wir": "haben gesetzt",
-   "ihr": "habt gesetzt",
-   "sie": "haben gesetzt"
+   "ich": "habe mich gesetzt",
+   "du": "hast dich gesetzt",
+   "er": "hat sich gesetzt",
+   "wir": "haben uns gesetzt",
+   "ihr": "habt euch gesetzt",
+   "sie": "haben sich gesetzt"
   },
   "n": "The action of sitting down (Akkusativ). 'sitzen' is the state of being seated.",
   "lvl": "A1",
@@ -19289,27 +19289,27 @@
   "p2": "hingelegt",
   "hs": "haben",
   "pr": {
-   "ich": "lege hin",
-   "du": "legst hin",
-   "er": "legt hin",
-   "wir": "legen hin",
-   "ihr": "legt hin",
-   "sie": "legen hin"
+   "ich": "lege mich hin",
+   "du": "legst dich hin",
+   "er": "legt sich hin",
+   "wir": "legen uns hin",
+   "ihr": "legt euch hin",
+   "sie": "legen sich hin"
   },
   "pt": {
-   "ich": "legte hin",
-   "du": "legtest hin",
-   "er": "legte hin",
-   "wir": "legten hin",
-   "ihr": "legtet hin"
+   "ich": "legte mich hin",
+   "du": "legtest dich hin",
+   "er": "legte sich hin",
+   "wir": "legten uns hin",
+   "ihr": "legtet euch hin"
   },
   "pk": {
-   "ich": "habe hingelegt",
-   "du": "hast hingelegt",
-   "er": "hat hingelegt",
-   "wir": "haben hingelegt",
-   "ihr": "habt hingelegt",
-   "sie": "haben hingelegt"
+   "ich": "habe mich hingelegt",
+   "du": "hast dich hingelegt",
+   "er": "hat sich hingelegt",
+   "wir": "haben uns hingelegt",
+   "ihr": "habt euch hingelegt",
+   "sie": "haben sich hingelegt"
   },
   "n": "Separable and reflexive. 'liegen' is the state, 'sich hinlegen' the action.",
   "lvl": "A2",
@@ -19327,27 +19327,27 @@
   "p2": "verletzt",
   "hs": "haben",
   "pr": {
-   "ich": "verletze",
-   "du": "verletzt",
-   "er": "verletzt",
-   "wir": "verletzen",
-   "ihr": "verletzt",
-   "sie": "verletzen"
+   "ich": "verletze mich",
+   "du": "verletzt dich",
+   "er": "verletzt sich",
+   "wir": "verletzen uns",
+   "ihr": "verletzt euch",
+   "sie": "verletzen sich"
   },
   "pt": {
-   "ich": "verletzte",
-   "du": "verletztest",
-   "er": "verletzte",
-   "wir": "verletzten",
-   "ihr": "verletztet"
+   "ich": "verletzte mich",
+   "du": "verletztest dich",
+   "er": "verletzte sich",
+   "wir": "verletzten uns",
+   "ihr": "verletztet euch"
   },
   "pk": {
-   "ich": "habe verletzt",
-   "du": "hast verletzt",
-   "er": "hat verletzt",
-   "wir": "haben verletzt",
-   "ihr": "habt verletzt",
-   "sie": "haben verletzt"
+   "ich": "habe mich verletzt",
+   "du": "hast dich verletzt",
+   "er": "hat sich verletzt",
+   "wir": "haben uns verletzt",
+   "ihr": "habt euch verletzt",
+   "sie": "haben sich verletzt"
   },
   "n": "Inseparable ver- — no ge-. 'sich am Bein verletzen' = to injure one's leg.",
   "lvl": "A2",
@@ -19364,27 +19364,27 @@
   "p2": "ausgezogen",
   "hs": "haben",
   "pr": {
-   "ich": "ziehe aus",
-   "du": "ziehst aus",
-   "er": "zieht aus",
-   "wir": "ziehen aus",
-   "ihr": "zieht aus",
-   "sie": "ziehen aus"
+   "ich": "ziehe mich aus",
+   "du": "ziehst dich aus",
+   "er": "zieht sich aus",
+   "wir": "ziehen uns aus",
+   "ihr": "zieht euch aus",
+   "sie": "ziehen sich aus"
   },
   "pt": {
-   "ich": "zog aus",
-   "du": "zogst aus",
-   "er": "zog aus",
-   "wir": "zogen aus",
-   "ihr": "zogt aus"
+   "ich": "zog mich aus",
+   "du": "zogst dich aus",
+   "er": "zog sich aus",
+   "wir": "zogen uns aus",
+   "ihr": "zogt euch aus"
   },
   "pk": {
-   "ich": "habe ausgezogen",
-   "du": "hast ausgezogen",
-   "er": "hat ausgezogen",
-   "wir": "haben ausgezogen",
-   "ihr": "habt ausgezogen",
-   "sie": "haben ausgezogen"
+   "ich": "habe mich ausgezogen",
+   "du": "hast dich ausgezogen",
+   "er": "hat sich ausgezogen",
+   "wir": "haben uns ausgezogen",
+   "ihr": "habt euch ausgezogen",
+   "sie": "haben sich ausgezogen"
   },
   "n": "Separable, irregular, reflexive. Non-reflexive it means to take a garment off, or to move out of a flat.",
   "lvl": "A2",
@@ -19402,27 +19402,27 @@
   "p2": "umgezogen",
   "hs": "haben",
   "pr": {
-   "ich": "ziehe um",
-   "du": "ziehst um",
-   "er": "zieht um",
-   "wir": "ziehen um",
-   "ihr": "zieht um",
-   "sie": "ziehen um"
+   "ich": "ziehe mich um",
+   "du": "ziehst dich um",
+   "er": "zieht sich um",
+   "wir": "ziehen uns um",
+   "ihr": "zieht euch um",
+   "sie": "ziehen sich um"
   },
   "pt": {
-   "ich": "zog um",
-   "du": "zogst um",
-   "er": "zog um",
-   "wir": "zogen um",
-   "ihr": "zogt um"
+   "ich": "zog mich um",
+   "du": "zogst dich um",
+   "er": "zog sich um",
+   "wir": "zogen uns um",
+   "ihr": "zogt euch um"
   },
   "pk": {
-   "ich": "habe umgezogen",
-   "du": "hast umgezogen",
-   "er": "hat umgezogen",
-   "wir": "haben umgezogen",
-   "ihr": "habt umgezogen",
-   "sie": "haben umgezogen"
+   "ich": "habe mich umgezogen",
+   "du": "hast dich umgezogen",
+   "er": "hat sich umgezogen",
+   "wir": "haben uns umgezogen",
+   "ihr": "habt euch umgezogen",
+   "sie": "haben sich umgezogen"
   },
   "n": "Separable, irregular, reflexive. Without sich it means to move house (with sein).",
   "lvl": "A2",
@@ -19440,27 +19440,27 @@
   "p2": "verlaufen",
   "hs": "haben",
   "pr": {
-   "ich": "verlaufe",
-   "du": "verläufst",
-   "er": "verläuft",
-   "wir": "verlaufen",
-   "ihr": "verlauft",
-   "sie": "verlaufen"
+   "ich": "verlaufe mich",
+   "du": "verläufst dich",
+   "er": "verläuft sich",
+   "wir": "verlaufen uns",
+   "ihr": "verlauft euch",
+   "sie": "verlaufen sich"
   },
   "pt": {
-   "ich": "verlief",
-   "du": "verliefst",
-   "er": "verlief",
-   "wir": "verliefen",
-   "ihr": "verlieft"
+   "ich": "verlief mich",
+   "du": "verliefst dich",
+   "er": "verlief sich",
+   "wir": "verliefen uns",
+   "ihr": "verlieft euch"
   },
   "pk": {
-   "ich": "habe verlaufen",
-   "du": "hast verlaufen",
-   "er": "hat verlaufen",
-   "wir": "haben verlaufen",
-   "ihr": "habt verlaufen",
-   "sie": "haben verlaufen"
+   "ich": "habe mich verlaufen",
+   "du": "hast dich verlaufen",
+   "er": "hat sich verlaufen",
+   "wir": "haben uns verlaufen",
+   "ihr": "habt euch verlaufen",
+   "sie": "haben sich verlaufen"
   },
   "n": "Inseparable ver- so no ge- in the participle. On foot; in a car it is 'sich verfahren'.",
   "lvl": "B1",
@@ -19477,27 +19477,27 @@
   "p2": "verfahren",
   "hs": "haben",
   "pr": {
-   "ich": "verfahre",
-   "du": "verfährst",
-   "er": "verfährt",
-   "wir": "verfahren",
-   "ihr": "verfahrt",
-   "sie": "verfahren"
+   "ich": "verfahre mich",
+   "du": "verfährst dich",
+   "er": "verfährt sich",
+   "wir": "verfahren uns",
+   "ihr": "verfahrt euch",
+   "sie": "verfahren sich"
   },
   "pt": {
-   "ich": "verfuhr",
-   "du": "verfuhrst",
-   "er": "verfuhr",
-   "wir": "verfuhren",
-   "ihr": "verfuhrt"
+   "ich": "verfuhr mich",
+   "du": "verfuhrst dich",
+   "er": "verfuhr sich",
+   "wir": "verfuhren uns",
+   "ihr": "verfuhrt euch"
   },
   "pk": {
-   "ich": "habe verfahren",
-   "du": "hast verfahren",
-   "er": "hat verfahren",
-   "wir": "haben verfahren",
-   "ihr": "habt verfahren",
-   "sie": "haben verfahren"
+   "ich": "habe mich verfahren",
+   "du": "hast dich verfahren",
+   "er": "hat sich verfahren",
+   "wir": "haben uns verfahren",
+   "ihr": "habt euch verfahren",
+   "sie": "haben sich verfahren"
   },
   "n": "Inseparable ver- — no ge-. The driving counterpart of sich verlaufen.",
   "lvl": "B1",
@@ -19514,27 +19514,27 @@
   "p2": "umarmt",
   "hs": "haben",
   "pr": {
-   "ich": "umarme",
-   "du": "umarmst",
-   "er": "umarmt",
-   "wir": "umarmen",
-   "ihr": "umarmt",
-   "sie": "umarmen"
+   "ich": "umarme mich",
+   "du": "umarmst dich",
+   "er": "umarmt sich",
+   "wir": "umarmen uns",
+   "ihr": "umarmt euch",
+   "sie": "umarmen sich"
   },
   "pt": {
-   "ich": "umarmte",
-   "du": "umarmtest",
-   "er": "umarmte",
-   "wir": "umarmten",
-   "ihr": "umarmtet"
+   "ich": "umarmte mich",
+   "du": "umarmtest dich",
+   "er": "umarmte sich",
+   "wir": "umarmten uns",
+   "ihr": "umarmtet euch"
   },
   "pk": {
-   "ich": "habe umarmt",
-   "du": "hast umarmt",
-   "er": "hat umarmt",
-   "wir": "haben umarmt",
-   "ihr": "habt umarmt",
-   "sie": "haben umarmt"
+   "ich": "habe mich umarmt",
+   "du": "hast dich umarmt",
+   "er": "hat sich umarmt",
+   "wir": "haben uns umarmt",
+   "ihr": "habt euch umarmt",
+   "sie": "haben sich umarmt"
   },
   "n": "Inseparable um- here — no ge-. Reciprocal: 'sie umarmen sich' = they hug each other.",
   "lvl": "B1",

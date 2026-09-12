@@ -3,372 +3,365 @@
   "w": "Guten Morgen!",
   "e": "Good morning!",
   "c": "Greetings",
-  "ex": "Used until about 11 a.m.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Used until about 11 a.m."
  },
  {
   "w": "Guten Tag!",
   "e": "Hello / Good day!",
   "c": "Greetings",
-  "ex": "The standard polite greeting during the day.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "The standard polite greeting during the day."
  },
  {
   "w": "Guten Abend!",
   "e": "Good evening!",
   "c": "Greetings",
-  "ex": "From early evening onward.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "From early evening onward."
  },
  {
   "w": "Gute Nacht!",
   "e": "Good night!",
   "c": "Greetings",
-  "ex": "Only when going to bed — not a general goodbye.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Only when going to bed — not a general goodbye."
  },
  {
   "w": "Wie geht es dir?",
   "e": "How are you?",
   "c": "Greetings",
-  "ex": "Informal. Formal: 'Wie geht es Ihnen?'",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Informal. Formal: 'Wie geht es Ihnen?'"
  },
  {
   "w": "Mir geht es gut, danke.",
   "e": "I'm fine, thanks.",
   "c": "Greetings",
-  "ex": "A standard reply to 'Wie geht's?'",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "A standard reply to 'Wie geht's?'"
  },
  {
   "w": "Tschüss!",
   "e": "Bye!",
   "c": "Greetings",
-  "ex": "Informal. Bavarians also say 'Servus!' and 'Pfiat di!'",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Informal. Bavarians also say 'Servus!' and 'Pfiat di!'"
  },
  {
   "w": "Auf Wiedersehen!",
   "e": "Goodbye!",
   "c": "Greetings",
-  "ex": "More formal than 'Tschüss'.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "More formal than 'Tschüss'."
  },
  {
   "w": "Bis später!",
   "e": "See you later!",
   "c": "Greetings",
-  "ex": "Also: 'Bis bald!' = See you soon.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Also: 'Bis bald!' = See you soon."
  },
  {
   "w": "Bis morgen!",
   "e": "See you tomorrow!",
   "c": "Greetings",
-  "ex": "Common when leaving work or class.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Common when leaving work or class."
  },
  {
   "w": "Bitte.",
   "e": "Please / You're welcome / Here you go.",
   "c": "Politeness",
-  "ex": "One of German's most versatile words — context decides the meaning.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "One of German's most versatile words — context decides the meaning."
  },
  {
   "w": "Danke schön!",
   "e": "Thank you very much!",
   "c": "Politeness",
-  "ex": "Reply with 'Bitte schön!' or 'Gern geschehen.'",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Reply with 'Bitte schön!' or 'Gern geschehen.'"
  },
  {
   "w": "Vielen Dank!",
   "e": "Many thanks!",
   "c": "Politeness",
-  "ex": "A slightly stronger thank-you.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "A slightly stronger thank-you."
  },
  {
   "w": "Gern geschehen.",
   "e": "You're welcome.",
   "c": "Politeness",
-  "ex": "Literally 'gladly done'. Also: 'Kein Problem.'",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Literally 'gladly done'. Also: 'Kein Problem.'"
  },
  {
   "w": "Entschuldigung!",
   "e": "Excuse me! / Sorry!",
   "c": "Politeness",
-  "ex": "Use to get attention or to apologise. Short form: 'Tschuldigung'.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Use to get attention or to apologise. Short form: 'Tschuldigung'."
  },
  {
   "w": "Es tut mir leid.",
   "e": "I'm sorry.",
   "c": "Politeness",
-  "ex": "For genuine apologies, not just bumping into someone.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "For genuine apologies, not just bumping into someone."
  },
  {
   "w": "Wie heißt du?",
   "e": "What's your name?",
   "c": "Introductions",
-  "ex": "Informal. Formal: 'Wie heißen Sie?'",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Informal. Formal: 'Wie heißen Sie?'"
  },
  {
   "w": "Ich heiße ...",
   "e": "My name is ...",
   "c": "Introductions",
-  "ex": "Also: 'Mein Name ist ...' (more formal).",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Also: 'Mein Name ist ...' (more formal)."
  },
  {
   "w": "Freut mich!",
   "e": "Nice to meet you!",
   "c": "Introductions",
-  "ex": "Short for 'Es freut mich, dich/Sie kennenzulernen.'",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Short for 'Es freut mich, dich/Sie kennenzulernen.'"
  },
  {
   "w": "Woher kommst du?",
   "e": "Where are you from?",
   "c": "Introductions",
-  "ex": "Answer: 'Ich komme aus ...'",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Answer: 'Ich komme aus ...'"
  },
  {
   "w": "Ich komme aus ...",
   "e": "I come from ...",
   "c": "Introductions",
-  "ex": "'aus' + dative: aus der Türkei, aus Pakistan, aus Indien.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "'aus' + dative: aus der Türkei, aus Pakistan, aus Indien."
  },
  {
   "w": "Ich wohne in München.",
   "e": "I live in Munich.",
   "c": "Introductions",
-  "ex": "'wohnen in' + dative for cities.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "'wohnen in' + dative for cities."
  },
  {
   "w": "Ich spreche ein bisschen Deutsch.",
   "e": "I speak a little German.",
   "c": "Introductions",
-  "ex": "'ein bisschen' = a little; very handy hedge.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "'ein bisschen' = a little; very handy hedge."
  },
  {
   "w": "Sprechen Sie Englisch?",
   "e": "Do you speak English?",
   "c": "Understanding",
-  "ex": "Polite formal form with 'Sie'.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Polite formal form with 'Sie'."
  },
  {
   "w": "Ich verstehe das nicht.",
   "e": "I don't understand that.",
   "c": "Understanding",
-  "ex": "Or simply: 'Ich verstehe nicht.'",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Or simply: 'Ich verstehe nicht.'"
  },
  {
   "w": "Können Sie das wiederholen?",
   "e": "Can you repeat that?",
   "c": "Understanding",
-  "ex": "Add 'bitte' to soften: '… bitte wiederholen?'",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Add 'bitte' to soften: '… bitte wiederholen?'"
  },
  {
   "w": "Können Sie langsamer sprechen?",
   "e": "Can you speak more slowly?",
   "c": "Understanding",
-  "ex": "'langsamer' = more slowly; a lifesaver for learners.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "'langsamer' = more slowly; a lifesaver for learners."
  },
  {
   "w": "Wie sagt man das auf Deutsch?",
   "e": "How do you say that in German?",
   "c": "Understanding",
-  "ex": "'man' = one / you (impersonal).",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "'man' = one / you (impersonal)."
  },
  {
   "w": "Was bedeutet das?",
   "e": "What does that mean?",
   "c": "Understanding",
-  "ex": "Point at the word and ask this.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Point at the word and ask this."
  },
  {
   "w": "Wie bitte?",
   "e": "Pardon? / Sorry, what?",
   "c": "Understanding",
-  "ex": "Polite way to ask someone to repeat themselves.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Polite way to ask someone to repeat themselves."
  },
  {
   "w": "Was kostet das?",
   "e": "How much does that cost?",
   "c": "Shopping",
-  "ex": "Also: 'Wie viel kostet das?'",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Also: 'Wie viel kostet das?'"
  },
  {
   "w": "Ich möchte das, bitte.",
   "e": "I would like that, please.",
   "c": "Shopping",
-  "ex": "'ich möchte' = polite 'I would like'.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "'ich möchte' = polite 'I would like'."
  },
  {
   "w": "Haben Sie ...?",
   "e": "Do you have ...?",
   "c": "Shopping",
-  "ex": "'Haben Sie das in Größe M?' = Do you have this in size M?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "'Haben Sie das in Größe M?' = Do you have this in size M?"
  },
  {
   "w": "Ich nehme das.",
   "e": "I'll take it.",
   "c": "Shopping",
-  "ex": "Used at the till or when deciding to buy.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Used at the till or when deciding to buy."
  },
  {
   "w": "Kann ich mit Karte zahlen?",
   "e": "Can I pay by card?",
   "c": "Shopping",
-  "ex": "Many small German shops are still cash-only — worth asking!",
-  "lvl": "A2"
+  "lvl": "A2",
+  "n": "Many small German shops are still cash-only — worth asking!"
  },
  {
   "w": "Ich schaue nur.",
   "e": "I'm just looking.",
   "c": "Shopping",
-  "ex": "Polite reply to 'Kann ich Ihnen helfen?'",
-  "lvl": "A2"
+  "lvl": "A2",
+  "n": "Polite reply to 'Kann ich Ihnen helfen?'"
  },
  {
   "w": "Die Speisekarte, bitte.",
   "e": "The menu, please.",
   "c": "Restaurant",
-  "ex": "'die Speisekarte' = food menu; 'die Getränkekarte' = drinks menu.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "'die Speisekarte' = food menu; 'die Getränkekarte' = drinks menu."
  },
  {
   "w": "Ich hätte gern einen Kaffee.",
   "e": "I'd like a coffee.",
   "c": "Restaurant",
-  "ex": "'ich hätte gern' = polite ordering phrase.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "n": "'ich hätte gern' = polite ordering phrase."
  },
  {
   "w": "Zahlen, bitte!",
   "e": "The bill, please!",
   "c": "Restaurant",
-  "ex": "Also: 'Die Rechnung, bitte.'",
-  "lvl": "A1"
- },
- {
-  "w": "Zusammen oder getrennt?",
-  "e": "Together or separately?",
-  "c": "Restaurant",
-  "ex": "The waiter's question about splitting the bill.",
-  "lvl": "A2"
+  "lvl": "A1",
+  "n": "Also: 'Die Rechnung, bitte.'"
  },
  {
   "w": "Guten Appetit!",
   "e": "Enjoy your meal!",
   "c": "Restaurant",
-  "ex": "Said before eating; reply 'Danke, gleichfalls!'",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Said before eating; reply 'Danke, gleichfalls!'"
  },
  {
   "w": "Prost!",
   "e": "Cheers!",
   "c": "Restaurant",
-  "ex": "Make eye contact when clinking glasses — it matters in Germany!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Make eye contact when clinking glasses — it matters in Germany!"
  },
  {
   "w": "Wo ist die Toilette?",
   "e": "Where is the toilet?",
   "c": "Directions",
-  "ex": "Essential survival phrase. Also: 'das WC'.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Essential survival phrase. Also: 'das WC'."
  },
  {
   "w": "Wo ist der Bahnhof?",
   "e": "Where is the train station?",
   "c": "Directions",
-  "ex": "'der Hauptbahnhof' (Hbf) = main station.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "'der Hauptbahnhof' (Hbf) = main station."
  },
  {
   "w": "Wie komme ich zum Zentrum?",
   "e": "How do I get to the centre?",
   "c": "Directions",
-  "ex": "'zum' = zu dem (dative). 'zur' for feminine destinations.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "n": "'zum' = zu dem (dative). 'zur' for feminine destinations."
  },
  {
   "w": "Geradeaus, dann links.",
   "e": "Straight ahead, then left.",
   "c": "Directions",
-  "ex": "'rechts' = right; 'links' = left; 'geradeaus' = straight on.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "'rechts' = right; 'links' = left; 'geradeaus' = straight on."
  },
  {
   "w": "Ein Ticket nach Berlin, bitte.",
   "e": "One ticket to Berlin, please.",
   "c": "Directions",
-  "ex": "'nach' + city = to (a place).",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "'nach' + city = to (a place)."
  },
  {
   "w": "Wie spät ist es?",
   "e": "What time is it?",
   "c": "Small Talk",
-  "ex": "Also: 'Wie viel Uhr ist es?'",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Also: 'Wie viel Uhr ist es?'"
  },
  {
   "w": "Schönes Wochenende!",
   "e": "Have a nice weekend!",
   "c": "Small Talk",
-  "ex": "Said on Fridays; reply 'Danke, gleichfalls!'",
-  "lvl": "A2"
+  "lvl": "A2",
+  "n": "Said on Fridays; reply 'Danke, gleichfalls!'"
  },
  {
   "w": "Viel Spaß!",
   "e": "Have fun!",
   "c": "Small Talk",
-  "ex": "'Viel Glück!' = Good luck; 'Alles Gute!' = All the best.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "'Viel Glück!' = Good luck; 'Alles Gute!' = All the best."
  },
  {
   "w": "Ich brauche einen Arzt.",
   "e": "I need a doctor.",
   "c": "Emergencies",
-  "ex": "Emergency number in Germany: 112.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "n": "Emergency number in Germany: 112."
  },
  {
   "w": "Ich fühle mich nicht gut.",
   "e": "I don't feel well.",
   "c": "Emergencies",
-  "ex": "'sich fühlen' = to feel (reflexive).",
-  "lvl": "A2"
+  "lvl": "A2",
+  "n": "'sich fühlen' = to feel (reflexive)."
  },
  {
   "w": "Hilfe!",
   "e": "Help!",
   "c": "Emergencies",
-  "ex": "Shout this in an emergency. 'Rufen Sie die Polizei!' = Call the police!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Shout this in an emergency. 'Rufen Sie die Polizei!' = Call the police!"
  },
  {
   "w": "Hallo!",
@@ -388,8 +381,8 @@
   "w": "Tschüs!",
   "e": "Bye!",
   "c": "Greetings",
-  "ex": "Tschüs, Moritz!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Tschüs, Moritz!"
  },
  {
   "w": "Wie geht es dir? (Wie geht’s?)",
@@ -472,8 +465,8 @@
   "w": "LG (Liebe Grüße)",
   "e": "KR (Kind regards)",
   "c": "Small Talk",
-  "ex": "Liebe Grüße, Kathrin",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Liebe Grüße, Kathrin"
  },
  {
   "w": "im (= in dem)",
@@ -542,7 +535,7 @@
   "w": "vom ... bis",
   "e": "from … to",
   "c": "Introductions",
-  "ex": "Wir fahren drei Wochen, vom 02. bis",
+  "ex": "Wir fahren drei Wochen, vom 2. bis zum 23. August. — We are travelling for three weeks, from 2 to 23 August.",
   "lvl": "A1"
  },
  {
@@ -556,15 +549,15 @@
   "w": "ein Konzert geben",
   "e": "to put on a concert",
   "c": "Small Talk",
-  "ex": "Am Samstag geben die Accousticals ein",
+  "ex": "Am Samstag geben die Accousticals ein Konzert. — On Saturday the Accousticals are giving a concert.",
   "lvl": "A1"
  },
  {
   "w": "Gute Reise!",
   "e": "Have a good trip!",
   "c": "Small Talk",
-  "ex": "Gute Reise!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Gute Reise!"
  },
  {
   "w": "-mal (einmal, zweimal …)",
@@ -577,8 +570,8 @@
   "w": "Gutes neues Jahr!",
   "e": "Happy New Year!",
   "c": "Small Talk",
-  "ex": "An Silvester wünscht man „Gutes neues Jahr!“",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "An Silvester wünscht man „Gutes neues Jahr!“"
  },
  {
   "w": "Prosit Neujahr!",
@@ -612,21 +605,21 @@
   "w": "Sehr geehrte Frau",
   "e": "Dear Ms",
   "c": "Small Talk",
-  "ex": "Sehr geehrte Frau Neuner,",
+  "ex": "Sehr geehrte Frau Neuner, — Dear Ms Neuner,",
   "lvl": "A1"
  },
  {
   "w": "Sehr geehrter Herr",
   "e": "Dear Mr",
   "c": "Small Talk",
-  "ex": "Sehr geehrter Herr Vogler,",
+  "ex": "Sehr geehrter Herr Vogler, — Dear Mr Vogler,",
   "lvl": "A1"
  },
  {
   "w": "Mit freundlichen Grüßen",
   "e": "Kind regards",
   "c": "Politeness",
-  "ex": "Mit freudlichen Grüßen Ihr Patrick Vogler",
+  "ex": "Mit freundlichen Grüßen, Ihr Patrick Vogler — Kind regards, Patrick Vogler",
   "lvl": "A1"
  },
  {
@@ -675,21 +668,21 @@
   "w": "eins (= eines)",
   "e": "one thing",
   "c": "Small Talk",
-  "ex": "Nach acht Stunden Fahrt war uns nur eins",
+  "ex": "Nach acht Stunden Fahrt war uns nur eins wichtig: schlafen. — After eight hours of driving only one thing mattered to us: sleeping.",
   "lvl": "A1"
  },
  {
   "w": "Jung und Alt",
   "e": "young and old",
   "c": "Small Talk",
-  "ex": "Groß ist der Unterschied vor allem zwischen",
+  "ex": "Das Stadtfest ist ein Fest für Jung und Alt. — The town festival is a festival for young and old.",
   "lvl": "A1"
  },
  {
   "w": "hin und zurück",
   "e": "return",
   "c": "Small Talk",
-  "ex": "Wie viel kostet eine Fahrkarte? Einfach oder",
+  "ex": "Einmal Hamburg, hin und zurück, bitte. — A return ticket to Hamburg, please.",
   "lvl": "A1"
  },
  {
@@ -822,15 +815,8 @@
   "w": "Viel Glück!",
   "e": "Good luck!",
   "c": "Politeness",
-  "ex": "Before an exam, a job interview, etc.",
-  "lvl": "A2"
- },
- {
-  "w": "Viel Erfolg!",
-  "e": "Good luck! / Much success!",
-  "c": "Politeness",
-  "ex": "More formal than 'Viel Glück' — for exams and work.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "n": "Before an exam, a job interview, etc."
  },
  {
   "w": "Herzlichen Glückwunsch!",
@@ -840,25 +826,18 @@
   "lvl": "A2"
  },
  {
-  "w": "Mach's gut!",
-  "e": "Take care! / All the best!",
-  "c": "Small Talk",
-  "ex": "Informal goodbye between friends.",
-  "lvl": "A2"
- },
- {
   "w": "Keine Ahnung.",
   "e": "No idea.",
   "c": "Small Talk",
-  "ex": "Casual answer when you don't know something.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "n": "Casual answer when you don't know something."
  },
  {
   "w": "Das macht nichts.",
   "e": "That doesn't matter. / No problem.",
   "c": "Small Talk",
-  "ex": "Reply when someone apologizes.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "n": "Reply when someone apologizes."
  },
  {
   "w": "In Ordnung.",
@@ -871,57 +850,50 @@
   "w": "Einen Moment, bitte.",
   "e": "One moment, please.",
   "c": "Politeness",
-  "ex": "On the phone or at a counter.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "n": "On the phone or at a counter."
  },
  {
   "w": "Die Rechnung, bitte!",
   "e": "The bill, please!",
   "c": "Restaurant",
-  "ex": "Also: 'Wir möchten zahlen, bitte.'",
-  "lvl": "A2"
+  "lvl": "A2",
+  "n": "Also: 'Wir möchten zahlen, bitte.'"
  },
  {
   "w": "Ich möchte einen Termin vereinbaren.",
   "e": "I would like to make an appointment.",
   "c": "Politeness",
-  "ex": "At the doctor's, hairdresser's, or an office.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "n": "At the doctor's, hairdresser's, or an office."
  },
  {
   "w": "Wo tut es weh?",
   "e": "Where does it hurt?",
   "c": "Emergencies",
-  "ex": "Doctor's standard question. Answer: 'Mein Hals tut weh.'",
-  "lvl": "A2"
- },
- {
-  "w": "Der Zug hat Verspätung.",
-  "e": "The train is delayed.",
-  "c": "Directions",
-  "ex": "Deutsche Bahn essential. Also: 'Der Zug fällt aus.' = The train is cancelled.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "n": "Doctor's standard question. Answer: 'Mein Hals tut weh.'"
  },
  {
   "w": "Ich hätte gern ein Zimmer für zwei Nächte.",
   "e": "I'd like a room for two nights.",
   "c": "Small Talk",
-  "ex": "Hotel booking phrase; 'hätte gern' = polite would-like.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "n": "Hotel booking phrase; 'hätte gern' = polite would-like."
  },
  {
   "w": "Was darf es sein?",
   "e": "What can I get you?",
   "c": "Shopping",
-  "ex": "Typical question at the bakery or butcher's counter.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "n": "Typical question at the bakery or butcher's counter."
  },
  {
   "w": "Sonst noch etwas?",
   "e": "Anything else?",
   "c": "Shopping",
-  "ex": "Standard follow-up at market stalls; answer: 'Nein, danke, das ist alles.'",
-  "lvl": "A2"
+  "lvl": "A2",
+  "n": "Standard follow-up at market stalls; answer: 'Nein, danke, das ist alles.'"
  },
  {
   "w": "Meiner Meinung nach ...",
@@ -934,8 +906,8 @@
   "w": "Ich bin der Meinung, dass ...",
   "e": "I am of the opinion that ...",
   "c": "Opinion & Discussion",
-  "ex": "Introduces an opinion in discussions and essays.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "n": "Introduces an opinion in discussions and essays."
  },
  {
   "w": "Ich schlage vor, dass ...",
@@ -945,39 +917,18 @@
   "lvl": "B1"
  },
  {
-  "w": "Es kommt darauf an.",
-  "e": "It depends.",
-  "c": "Opinion & Discussion",
-  "ex": "Common answer: 'Es kommt darauf an, wie viel Zeit ich habe.'",
-  "lvl": "B1"
- },
- {
-  "w": "Da bin ich anderer Meinung.",
-  "e": "I disagree. / I'm of a different opinion.",
-  "c": "Opinion & Discussion",
-  "ex": "Polite disagreement in a discussion.",
-  "lvl": "B1"
- },
- {
-  "w": "Ich bin ganz deiner Meinung.",
-  "e": "I completely agree with you.",
-  "c": "Opinion & Discussion",
-  "ex": "Agreement; formal: 'Ich bin ganz Ihrer Meinung.'",
-  "lvl": "B1"
- },
- {
   "w": "Das kommt nicht in Frage!",
   "e": "That's out of the question!",
   "c": "Opinion & Discussion",
-  "ex": "Strong refusal.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "n": "Strong refusal."
  },
  {
   "w": "Es lohnt sich.",
   "e": "It's worth it.",
   "c": "Idioms & Connectors",
-  "ex": "'Der Film lohnt sich wirklich!' = The film is really worth seeing.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "n": "'Der Film lohnt sich wirklich!' = The film is really worth seeing."
  },
  {
   "w": "auf jeden Fall",
@@ -1029,27 +980,6 @@
   "lvl": "B1"
  },
  {
-  "w": "eine Rolle spielen",
-  "e": "to play a role / to matter",
-  "c": "Idioms & Connectors",
-  "ex": "'Geld spielt für mich keine große Rolle.'",
-  "lvl": "B1"
- },
- {
-  "w": "zur Verfügung stehen",
-  "e": "to be available",
-  "c": "Idioms & Connectors",
-  "ex": "Formal: 'Ich stehe Ihnen gern zur Verfügung.' = I'm at your disposal.",
-  "lvl": "B1"
- },
- {
-  "w": "Bescheid geben",
-  "e": "to let someone know",
-  "c": "Idioms & Connectors",
-  "ex": "'Gib mir Bescheid, wenn du da bist!' = Let me know when you're there!",
-  "lvl": "B1"
- },
- {
   "w": "sich Gedanken machen",
   "e": "to think about / to worry",
   "c": "Idioms & Connectors",
@@ -1067,8 +997,8 @@
   "w": "Könnten Sie mir bitte helfen?",
   "e": "Could you please help me?",
   "c": "Politeness",
-  "ex": "Konjunktiv II politeness — more polite than 'Können Sie ...?'",
-  "lvl": "B1"
+  "lvl": "B1",
+  "n": "Konjunktiv II politeness — more polite than 'Können Sie ...?'"
  },
  {
   "w": "Wie wäre es mit ...?",
@@ -1102,8 +1032,8 @@
   "w": "Verzeihung!",
   "e": "Pardon me!",
   "c": "Politeness",
-  "ex": "Slightly more formal than Entschuldigung; you hear it from older speakers.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "n": "Slightly more formal than Entschuldigung; you hear it from older speakers."
  },
  {
   "w": "Es freut mich!",
@@ -1137,8 +1067,8 @@
   "w": "Wie interessant!",
   "e": "How interesting!",
   "c": "Small Talk",
-  "ex": "An easy reaction that keeps a conversation going.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "An easy reaction that keeps a conversation going."
  },
  {
   "w": "Wie lästig!",
@@ -1165,15 +1095,15 @@
   "w": "Möchtest du ins Kino gehen?",
   "e": "Would you like to go to the cinema?",
   "c": "Small Talk",
-  "ex": "The polite invitation pattern: Möchtest du + activity + infinitive?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "The polite invitation pattern: Möchtest du + activity + infinitive?"
  },
  {
   "w": "Danke, aber da kann ich nicht. Machen wir es an einem anderen Tag?",
   "e": "Thanks, but I can't then. Shall we do it another day?",
   "c": "Politeness",
-  "ex": "A soft refusal that keeps the door open — very German in tone.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "n": "A soft refusal that keeps the door open — very German in tone."
  },
  {
   "w": "Welche Größe?",
@@ -1193,8 +1123,8 @@
   "w": "Diese Farbe steht dir gut.",
   "e": "That colour suits you.",
   "c": "Shopping",
-  "ex": "'stehen' + Dativ = to suit someone. Das Kleid steht dir gut.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "n": "'stehen' + Dativ = to suit someone. Das Kleid steht dir gut."
  },
  {
   "w": "im Sonderangebot kaufen",
@@ -1221,8 +1151,8 @@
   "w": "Wie viel kostet das?",
   "e": "How much does that cost?",
   "c": "Shopping",
-  "ex": "Was kostet das? works just as well.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "n": "Was kostet das? works just as well."
  },
  {
   "w": "Hunger haben",
@@ -1302,13 +1232,6 @@
   "lvl": "A2"
  },
  {
-  "w": "Mir ist schlecht.",
-  "e": "I feel sick / nauseous.",
-  "c": "Emergencies",
-  "ex": "Dative construction, like 'Mir ist kalt' and 'Mir ist warm'. Also 'Mir ist übel.'",
-  "lvl": "A2"
- },
- {
   "w": "eine Allergie gegen etwas haben",
   "e": "to be allergic to something",
   "c": "Emergencies",
@@ -1320,13 +1243,6 @@
   "e": "to break one's leg",
   "c": "Emergencies",
   "ex": "Er hat sich das Bein gebrochen. — He broke his leg. German uses sich + dative, not a possessive.",
-  "lvl": "A2"
- },
- {
-  "w": "Sport treiben",
-  "e": "to do sport / exercise",
-  "c": "Small Talk",
-  "ex": "Man soll regelmäßig Sport treiben. — One should exercise regularly. Also 'Sport machen'.",
   "lvl": "A2"
  },
  {
@@ -1384,13 +1300,6 @@
   "c": "Directions",
   "ex": "Gehen Sie immer geradeaus, dann rechts. — Keep going straight ahead, then right.",
   "lvl": "A1"
- },
- {
-  "w": "sich verlaufen",
-  "e": "to get lost (on foot)",
-  "c": "Directions",
-  "ex": "Wir haben uns in der Altstadt verlaufen. — We got lost in the old town.",
-  "lvl": "B1"
  },
  {
   "w": "eine Wanderung machen",
@@ -1529,8 +1438,8 @@
   "w": "entlassen werden",
   "e": "to be made redundant / fired",
   "c": "Opinion & Discussion",
-  "ex": "Viele Kollegen wurden entlassen. — Many colleagues were let go.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "n": "Viele Kollegen wurden entlassen. — Many colleagues were let go."
  },
  {
   "w": "in Rente gehen",
@@ -1554,18 +1463,11 @@
   "lvl": "A2"
  },
  {
-  "w": "Notizen machen",
-  "e": "to take notes",
-  "c": "Understanding",
-  "ex": "Ich mache mir im Kurs immer Notizen.",
-  "lvl": "A2"
- },
- {
   "w": "an Gott glauben",
   "e": "to believe in God",
   "c": "Opinion & Discussion",
-  "ex": "'glauben an + Akkusativ' — a fixed preposition worth learning as a chunk.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "n": "'glauben an + Akkusativ' — a fixed preposition worth learning as a chunk."
  },
  {
   "w": "Ich interessiere mich für …",
@@ -1599,22 +1501,15 @@
   "w": "Der Film hat mir gut gefallen.",
   "e": "I liked the film.",
   "c": "Opinion & Discussion",
-  "ex": "'gefallen' takes the dative — the film pleases ME. Never 'Ich habe den Film gefallen.'",
-  "lvl": "A2"
- },
- {
-  "w": "Meiner Meinung nach …",
-  "e": "In my opinion …",
-  "c": "Opinion & Discussion",
-  "ex": "Meiner Meinung nach ist das zu teuer. — Counts as position 1, so the verb comes next.",
-  "lvl": "B1"
+  "lvl": "A2",
+  "n": "'gefallen' takes the dative — the film pleases ME. Never 'Ich habe den Film gefallen.'"
  },
  {
   "w": "Wir müssen die Umwelt schützen.",
   "e": "We have to protect the environment.",
   "c": "Opinion & Discussion",
-  "ex": "A reliable B1 opinion sentence — pairs well with 'den Müll trennen' and 'Energie sparen'.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "n": "A reliable B1 opinion sentence — pairs well with 'den Müll trennen' and 'Energie sparen'."
  },
  {
   "w": "den Müll trennen",
@@ -1650,13 +1545,6 @@
   "c": "Idioms & Connectors",
   "ex": "In der Zwischenzeit kannst du schon anfangen. — Also: mittlerweile, inzwischen.",
   "lvl": "B1"
- },
- {
-  "w": "mehr oder weniger",
-  "e": "more or less",
-  "c": "Idioms & Connectors",
-  "ex": "Das Projekt ist mehr oder weniger fertig.",
-  "lvl": "A2"
  },
  {
   "w": "ab und zu",
