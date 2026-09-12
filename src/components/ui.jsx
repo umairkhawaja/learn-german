@@ -7,6 +7,16 @@ import { speak } from "../speak";
 // mastered tick sit side by side and were easy to hit the wrong one of.
 export const TAP = 34;
 
+// The practice views bind bare number and letter keys as answer shortcuts on
+// `window`. Without this guard, typing "1" into the Browse search box answers
+// the question behind it, and pressing space with a <select> focused grades
+// the current card.
+export function isTypingTarget(el) {
+  if (!el) return false;
+  const tag = el.tagName;
+  return tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT" || el.isContentEditable === true;
+}
+
 export function Card({ children, accent, style, ...rest }) {
   return (
     <div

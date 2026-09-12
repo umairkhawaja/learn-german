@@ -28,9 +28,10 @@ import { CATEGORIES } from "../config/categories";
 import { keyOf, applyAnswer, saveProgress, isMastered, MASTERY_THRESHOLD } from "../engine/progress";
 import { pickMixedDeck, mixedPool, MIXED_DECK_SIZE, MIXED_CATEGORY_IDS } from "../engine/quiz";
 import { storage } from "../storage";
-import { SpeakBtn, ProgressBar, MasterBtn, ExampleLine } from "./ui";
+import { SpeakBtn, ProgressBar, MasterBtn, ExampleLine, isTypingTarget } from "./ui";
 
 const ACCENT = "#a855f7";
+const DUE = "#38bdf8";
 const DECK_SIZES = [20, 40, 60];
 const PREFS_KEY = "dm-mixed-prefs-v1";
 const SESSION_KEY = "dm-mixed-session-v1";
@@ -45,8 +46,8 @@ const SESSION_KEY = "dm-mixed-session-v1";
 // changing any of those still deals a fresh one.
 let sessionCache = null;
 
-const scopeOf = (levelFilter, size, catIds) =>
-  `${levelFilter}|${size}|${[...catIds].sort().join(",")}`;
+const scopeOf = (levelFilter, size, catIds, dueOnly) =>
+  `${levelFilter}|${size}|${dueOnly ? "due" : "all"}|${[...catIds].sort().join(",")}`;
 
 // Sessions store { catId, w } refs, not the item objects themselves —
 // the objects come back from the freshly fetched db on the next load.
@@ -90,10 +91,15 @@ function rehydrate(saved, db) {
   };
 }
 
-export function MixedView({ db, progress, setProgress, levelFilter }) {
+export function MixedView({ db, progress, setProgress, levelFilter, recordAnswer, dueCount = 0 }) {
   const [catIds, setCatIds] = useState(MIXED_CATEGORY_IDS);
   const [size, setSize] = useState(MIXED_DECK_SIZE);
   const [flipped, setFlipped] = useState(false); // true → English side first
+  // Review mode deals only words whose SRS interval has elapsed. Without it a
+  // due word is merely *preferred* in the draw and can sit behind forty new
+  // ones, which defeats the point of having scheduled it.
+  const [dueOnly, setDueOnly] = useState(false);
+  const [settingsOpen, setSettingsOpen] = useState(false);
   const [prefsLoaded, setPrefsLoaded] = useState(false);
 
   const [deck, setDeck] = useState([]);          // [{ item, cat }]
@@ -128,6 +134,7 @@ export function MixedView({ db, progress, setProgress, levelFilter }) {
           if (Array.isArray(p.catIds) && p.catIds.length) setCatIds(p.catIds);
           if (DECK_SIZES.includes(p.size)) setSize(p.size);
           if (typeof p.flipped === "boolean") setFlipped(p.flipped);
+          if (typeof p.dueOnly === "boolean") setDueOnly(p.dueOnly);
         }
       } catch { }
     }).catch(() => { });
@@ -150,8 +157,8 @@ export function MixedView({ db, progress, setProgress, levelFilter }) {
 
   useEffect(() => {
     if (!prefsLoaded) return;
-    storage.set(PREFS_KEY, JSON.stringify({ catIds, size, flipped })).catch(() => { });
-  }, [prefsLoaded, catIds, size, flipped]);
+    storage.set(PREFS_KEY, JSON.stringify({ catIds, size, flipped, dueOnly })).catch(() => { });
+  }, [prefsLoaded, catIds, size, flipped, dueOnly]);
 
   // Everything still practisable under the current filters. Recomputed on
   // every answer (cheap) — but the deck itself is *not*, or it would
@@ -161,14 +168,14 @@ export function MixedView({ db, progress, setProgress, levelFilter }) {
     [db, progress, levelFilter, catIds]
   );
 
-  const scope = scopeOf(levelFilter, size, catIds);
+  const scope = scopeOf(levelFilter, size, catIds, dueOnly);
 
   const newDeck = useCallback(() => {
-    const next = pickMixedDeck(db, CATEGORIES, progressRef.current, levelFilter, { size, catIds });
+    const next = pickMixedDeck(db, CATEGORIES, progressRef.current, levelFilter, { size, catIds, dueOnly });
     appliedLen.current = next.length;
     setDeck(next);
     setIdx(0); setRevealed(false); setResults([]); setDone(false);
-  }, [db, levelFilter, size, catIds]);
+  }, [db, levelFilter, size, catIds, dueOnly]);
 
   // Restore the deck you were on, or build one when there is nothing to
   // come back to. Runs on mount and whenever the scope changes — a new
@@ -225,22 +232,29 @@ export function MixedView({ db, progress, setProgress, levelFilter }) {
     const entry = deck[idx];
     if (!entry) return;
     write(entry.cat, entry.item, (prev) => applyAnswer(prev, ok));
+    recordAnswer?.(1);
     setResults((r) => [...r, { ...entry, ok }]);
     advance();
-  }, [deck, idx, write, advance]);
+  }, [deck, idx, write, advance, recordAnswer]);
 
   const toggleMaster = useCallback((cat, item) => {
     write(cat, item, (prev) => ({ mastery: 0, correct: 0, total: 0, ...(prev || {}), skip: !(prev && prev.skip) }));
   }, [write]);
 
-  // keyboard: space/enter reveals, then 1 = again, 2 = knew it
+  // keyboard: space reveals, then 1 = again, 2 = knew it.
+  //
+  // Space used to *also* grade the card as known once revealed, which is not
+  // what the hint says and meant a second tap of the reveal key silently
+  // marked a word correct — the one input in the app that could log an answer
+  // you never gave.
   useEffect(() => {
     const onKey = (e) => {
-      if (done) { if (e.key === "Enter") newDeck(); return; }
+      if (isTypingTarget(e.target) || e.metaKey || e.ctrlKey || e.altKey) return;
+      if (done) { if (e.key === "Enter") { newDeck(); e.preventDefault(); } return; }
       if (!revealed) {
         if (e.key === " " || e.key === "Enter") { setRevealed(true); e.preventDefault(); }
       } else if (e.key === "1") { grade(false); e.preventDefault(); }
-      else if (e.key === "2" || e.key === "Enter" || e.key === " ") { grade(true); e.preventDefault(); }
+      else if (e.key === "2") { grade(true); e.preventDefault(); }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
@@ -261,60 +275,86 @@ export function MixedView({ db, progress, setProgress, levelFilter }) {
     return CATEGORIES.filter((c) => by.has(c.id)).map((c) => ({ cat: c, n: by.get(c.id) }));
   }, [deck]);
 
-  // ── Controls (always on screen) ──
+  // ── Controls ──────────────────────────────────────────────
+  // The deck settings used to be permanently open, and on a phone the six
+  // category chips, three deck sizes and three toggles pushed the card itself
+  // below the fold: you had to scroll past the configuration to reach the
+  // thing you came to do. They collapse behind one line now — what the deck
+  // is made of stays visible, how to change it is one tap away.
   const controls = (
     <div style={{ marginBottom: 14 }}>
-      {/* Grid, not a wrapping flex row: with six categories the last chip
-          would otherwise stretch across a whole row of its own. */}
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(105px, 1fr))", gap: 6, marginBottom: 8 }}>
-        {CATEGORIES.map((c) => {
-          const on = catIds.includes(c.id);
-          const n = (db[c.key] || []).filter(
-            (x) => (levelFilter === "All" || lvlOf(x) === levelFilter) && !isMastered(progress[keyOf(c.id, x)])
-          ).length;
-          return (
-            <button key={c.id} onClick={() => toggleCat(c.id)}
-              title={on ? `${c.label} in the deck — click to drop` : `Add ${c.label} to the deck`}
-              style={{
-                padding: "7px 4px", borderRadius: 10, minWidth: 0,
-                border: `1.5px solid ${on ? c.color : "#222"}`, background: on ? c.color + "18" : "#111",
-                cursor: "pointer", display: "flex", flexDirection: "column", alignItems: "center", gap: 1,
-              }}>
-              <span style={{ fontSize: 12, fontWeight: 800, color: on ? c.color : "#4a4f59" }}>{c.label}</span>
-              <span style={{ fontSize: 9.5, color: on ? c.color + "88" : "#2f2f2f" }}>{n.toLocaleString()} left</span>
-            </button>
-          );
-        })}
-      </div>
-
       <div style={{ display: "flex", gap: 8, alignItems: "center", flexWrap: "wrap" }}>
-        <div style={{ display: "flex", gap: 3, background: COLORS.surfaceAlt, borderRadius: 9, padding: 3 }}>
-          {DECK_SIZES.map((s) => (
-            <button key={s} onClick={() => setSize(s)}
-              style={{
-                padding: "5px 11px", borderRadius: 6, border: "none", cursor: "pointer", fontSize: 12,
-                background: size === s ? ACCENT : "transparent", color: size === s ? "#fff" : MUTE, fontWeight: size === s ? 700 : 400,
-              }}>
-              {s}
-            </button>
-          ))}
-        </div>
-        <button onClick={() => setFlipped(!flipped)} title="Swap which side of the card you see first"
-          style={{ padding: "6px 10px", borderRadius: 9, border: `1px solid ${flipped ? ACCENT : COLORS.borderSoft}`, background: flipped ? ACCENT + "22" : COLORS.surfaceAlt, color: flipped ? ACCENT : MUTE, fontSize: 12, cursor: "pointer", fontWeight: 600 }}>
-          {flipped ? "EN → DE" : "DE → EN"}
+        <button onClick={() => setSettingsOpen((v) => !v)} aria-expanded={settingsOpen}
+          title="Deck settings: word types, size, direction"
+          style={{ padding: "6px 10px", borderRadius: 9, border: `1px solid ${COLORS.borderSoft}`, background: COLORS.surfaceAlt, color: MUTE, fontSize: 12, cursor: "pointer", fontWeight: 600 }}>
+          ⚙ Deck {settingsOpen ? "▾" : "▸"}
+        </button>
+        {/* Review mode: only what the spacing schedule says is due today. */}
+        <button onClick={() => setDueOnly(!dueOnly)} aria-pressed={dueOnly}
+          title={dueOnly ? "Showing only words due for review — click for the full mix" : "Practise only the words whose review is due"}
+          style={{ padding: "6px 10px", borderRadius: 9, border: `1px solid ${dueOnly ? DUE : COLORS.borderSoft}`, background: dueOnly ? DUE + "22" : COLORS.surfaceAlt, color: dueOnly ? DUE : MUTE, fontSize: 12, cursor: "pointer", fontWeight: 600 }}>
+          ↻ Review{dueCount > 0 ? ` ${dueCount}` : ""}
         </button>
         <button onClick={newDeck} title={`Draw a fresh ${size} from across the level`}
           style={{ padding: "6px 10px", borderRadius: 9, border: `1px solid ${COLORS.borderSoft}`, background: COLORS.surfaceAlt, color: MUTE, fontSize: 12, cursor: "pointer", fontWeight: 600 }}>
-          ↻ New deck
+          ⟳ New deck
         </button>
       </div>
 
+      {settingsOpen && (
+        <div className="dm-reveal" style={{ marginTop: 10 }}>
+          {/* Grid, not a wrapping flex row: with six categories the last chip
+              would otherwise stretch across a whole row of its own. */}
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(105px, 1fr))", gap: 6, marginBottom: 8 }}>
+            {CATEGORIES.map((c) => {
+              const on = catIds.includes(c.id);
+              const n = (db[c.key] || []).filter(
+                (x) => (levelFilter === "All" || lvlOf(x) === levelFilter) && !isMastered(progress[keyOf(c.id, x)])
+              ).length;
+              return (
+                <button key={c.id} onClick={() => toggleCat(c.id)} aria-pressed={on}
+                  title={on ? `${c.label} in the deck — click to drop` : `Add ${c.label} to the deck`}
+                  style={{
+                    padding: "7px 4px", borderRadius: 10, minWidth: 0,
+                    border: `1.5px solid ${on ? c.color : "#222"}`, background: on ? c.color + "18" : "#111",
+                    cursor: "pointer", display: "flex", flexDirection: "column", alignItems: "center", gap: 1,
+                  }}>
+                  <span style={{ fontSize: 12, fontWeight: 800, color: on ? c.color : "#4a4f59" }}>{c.label}</span>
+                  <span style={{ fontSize: 9.5, color: on ? c.color + "88" : "#2f2f2f" }}>{n.toLocaleString()} left</span>
+                </button>
+              );
+            })}
+          </div>
+
+          <div style={{ display: "flex", gap: 8, alignItems: "center", flexWrap: "wrap" }}>
+            <div role="group" aria-label="Deck size" style={{ display: "flex", gap: 3, background: COLORS.surfaceAlt, borderRadius: 9, padding: 3 }}>
+              {DECK_SIZES.map((sz) => (
+                <button key={sz} onClick={() => setSize(sz)} aria-pressed={size === sz}
+                  style={{
+                    padding: "5px 11px", borderRadius: 6, border: "none", cursor: "pointer", fontSize: 12,
+                    background: size === sz ? ACCENT : "transparent", color: size === sz ? "#fff" : MUTE, fontWeight: size === sz ? 700 : 400,
+                  }}>
+                  {sz}
+                </button>
+              ))}
+            </div>
+            <button onClick={() => setFlipped(!flipped)} title="Swap which side of the card you see first" aria-pressed={flipped}
+              style={{ padding: "6px 10px", borderRadius: 9, border: `1px solid ${flipped ? ACCENT : COLORS.borderSoft}`, background: flipped ? ACCENT + "22" : COLORS.surfaceAlt, color: flipped ? ACCENT : MUTE, fontSize: 12, cursor: "pointer", fontWeight: 600 }}>
+              {flipped ? "EN → DE" : "DE → EN"}
+            </button>
+          </div>
+        </div>
+      )}
+
       <div style={{ fontSize: 12, color: MUTE, marginTop: 10, display: "flex", gap: 6, flexWrap: "wrap", alignItems: "center" }}>
-        <span>🎲 Deck of <b style={{ color: ACCENT }}>{deck.length}</b></span>
+        <span>{dueOnly ? "↻ Review deck of " : "🎲 Deck of "}<b style={{ color: dueOnly ? DUE : ACCENT }}>{deck.length}</b></span>
         {mix.map(({ cat, n }) => (
           <span key={cat.id} style={{ color: cat.color }}>· {n} {cat.label.toLowerCase()}</span>
         ))}
-        <span style={{ color: FAINT }}>· drawn from {pool.length.toLocaleString()} unmastered {levelFilter === "All" ? "words (all levels)" : `${levelFilter} words`}</span>
+        <span style={{ color: FAINT }}>
+          · from {dueOnly ? `${dueCount.toLocaleString()} due` : `${pool.length.toLocaleString()} unmastered`}{" "}
+          {levelFilter === "All" ? "words (all levels)" : `${levelFilter} words`}
+        </span>
       </div>
     </div>
   );
@@ -323,10 +363,16 @@ export function MixedView({ db, progress, setProgress, levelFilter }) {
   if (deck.length === 0) {
     return (
       <div>{controls}
-        <div style={{ background: "#131313", border: `1px solid ${ACCENT}33`, borderRadius: 16, padding: "26px 22px", textAlign: "center" }}>
-          <div style={{ fontSize: 40 }}>🏆</div>
-          <div style={{ fontSize: 19, fontWeight: 800, color: COLORS.txtStrong, margin: "8px 0 4px" }}>Nothing left to practise</div>
-          <div style={{ fontSize: 13, color: MUTE }}>Every word in this level and these categories is mastered — switch level, or add a category above.</div>
+        <div style={{ background: "#131313", border: `1px solid ${(dueOnly ? DUE : ACCENT)}33`, borderRadius: 16, padding: "26px 22px", textAlign: "center" }}>
+          <div style={{ fontSize: 40 }}>{dueOnly ? "✅" : "🏆"}</div>
+          <div style={{ fontSize: 19, fontWeight: 800, color: COLORS.txtStrong, margin: "8px 0 4px" }}>
+            {dueOnly ? "No reviews due" : "Nothing left to practise"}
+          </div>
+          <div style={{ fontSize: 13, color: MUTE }}>
+            {dueOnly
+              ? "Everything you have started is still resting. Turn Review off to meet new words."
+              : "Every word in this level and these categories is mastered — switch level, or add a category above."}
+          </div>
         </div>
       </div>
     );
@@ -414,7 +460,7 @@ export function MixedView({ db, progress, setProgress, levelFilter }) {
       </div>
 
       {revealed ? (
-        <div className="dm-reveal" style={{ display: "flex", gap: 8, marginTop: 12 }}>
+        <div className="dm-reveal dm-grade-bar" style={{ display: "flex", gap: 8, marginTop: 12 }}>
           <button onClick={() => grade(false)}
             style={{ flex: 1, background: "#2a0f0f", color: COLORS.dangerText, border: `1px solid ${COLORS.danger}66`, borderRadius: 10, padding: "13px", fontSize: 14, fontWeight: 700, cursor: "pointer" }}>
             Nochmal üben
@@ -432,7 +478,7 @@ export function MixedView({ db, progress, setProgress, levelFilter }) {
       )}
 
       <div style={{ textAlign: "center", marginTop: 10, fontSize: 11, color: "#3a3f49" }}>
-        Tip: Space to reveal · 1 = nochmal, 2 = gewusst
+        Tip: Space to reveal · 1 = nochmal üben, 2 = gewusst
       </div>
     </div>
   );

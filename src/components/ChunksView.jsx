@@ -18,7 +18,7 @@ import { COLORS, TXT, MUTE, FAINT } from "../config/theme";
 import { LEVELS } from "../config/levels";
 import { keyOf, applyAnswer, saveProgress, isMastered, MASTERY_THRESHOLD } from "../engine/progress";
 import { shuffle, CHUNK_SIZE } from "../engine/quiz";
-import { SpeakBtn, ProgressBar, MasterBtn, ExampleLine } from "./ui";
+import { SpeakBtn, ProgressBar, MasterBtn, ExampleLine, isTypingTarget, splitExample } from "./ui";
 
 export const CHUNK_CAT_ID = "chunks";
 const ACCENT = "#14b8a6";
@@ -28,7 +28,7 @@ const CHUNK_LEVELS = ["A2", "B1", "B2", "C1"];
 
 const lvlColor = (code) => (LEVELS.find((l) => l.code === code) || {}).color || "#6b7280";
 
-export function ChunksView({ progress, setProgress }) {
+export function ChunksView({ progress, setProgress, recordAnswer }) {
   const [all, setAll] = useState(null);
   const [level, setLevel] = useState("All");
   const [cat, setCat] = useState("All");
@@ -101,22 +101,26 @@ export function ChunksView({ progress, setProgress }) {
     const item = queue[idx];
     if (!item) return;
     write(item, (prev) => applyAnswer(prev, ok));
+    recordAnswer?.(1);
     if (idx + 1 >= queue.length) setRoundDone(true);
     else { setIdx(idx + 1); setRevealed(false); }
-  }, [queue, idx, write]);
+  }, [queue, idx, write, recordAnswer]);
 
   const toggleMaster = useCallback((item) => {
     write(item, (prev) => ({ mastery: 0, correct: 0, total: 0, ...(prev || {}), skip: !(prev && prev.skip) }));
   }, [write]);
 
-  // keyboard: space/enter reveals, then 1 = again, 2 = knew it
+  // keyboard: space reveals, then 1 = again, 2 = knew it. Space no longer
+  // doubles as "knew it" (it silently graded cards you had only revealed),
+  // and the handler stands down while the topic <select> has focus.
   useEffect(() => {
     const onKey = (e) => {
-      if (roundDone) { if (e.key === "Enter") startRound(); return; }
+      if (isTypingTarget(e.target) || e.metaKey || e.ctrlKey || e.altKey) return;
+      if (roundDone) { if (e.key === "Enter") { startRound(); e.preventDefault(); } return; }
       if (!revealed) {
         if (e.key === " " || e.key === "Enter") { setRevealed(true); e.preventDefault(); }
       } else if (e.key === "1") { grade(false); e.preventDefault(); }
-      else if (e.key === "2" || e.key === "Enter" || e.key === " ") { grade(true); e.preventDefault(); }
+      else if (e.key === "2") { grade(true); e.preventDefault(); }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
@@ -162,7 +166,7 @@ export function ChunksView({ progress, setProgress }) {
       </div>
       <div style={{ fontSize: 12, color: MUTE, marginTop: 10, display: "flex", gap: 6, flexWrap: "wrap", alignItems: "center" }}>
         <span>📦 Learning <b style={{ color: ACCENT }}>{active.length}</b> chunk{active.length === 1 ? "" : "s"}</span>
-        <span style={{ color: FAINT }}>· {masteredCount} of {scope.length} mastered</span>
+        <span style={{ color: FAINT }}>· {masteredCount.toLocaleString()} of {scope.length.toLocaleString()} mastered</span>
         {locked > 0 && <span style={{ color: FAINT }}>· {locked} locked until these are done</span>}
       </div>
       <div style={{ display: "flex", marginTop: 8 }}>
@@ -254,8 +258,9 @@ export function ChunksView({ progress, setProgress }) {
               {flipped && <SpeakBtn text={it.w} color={ACCENT} />}
             </div>
             <ExampleLine text={it.ex} style={{ marginTop: 12 }} />
+            {it.n && <div style={{ fontSize: 12, color: FAINT, marginTop: 8, lineHeight: 1.5 }}>💡 {it.n}</div>}
             <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, marginTop: 12 }}>
-              <SpeakBtn text={it.ex.split(" — ")[0]} color={ACCENT} size={26} />
+              <SpeakBtn text={splitExample(it.ex || it.w).de} color={ACCENT} size={26} />
               <span style={{ fontSize: 11.5, color: FAINT }}>{"★".repeat(p?.mastery || 0) || "not started"}</span>
               <MasterBtn isSkipped={!!p?.skip} onToggle={() => { toggleMaster(it); if (idx + 1 >= queue.length) setRoundDone(true); else { setIdx(idx + 1); setRevealed(false); } }} />
             </div>
@@ -264,7 +269,7 @@ export function ChunksView({ progress, setProgress }) {
       </div>
 
       {revealed ? (
-        <div className="dm-reveal" style={{ display: "flex", gap: 8, marginTop: 12 }}>
+        <div className="dm-reveal dm-grade-bar" style={{ display: "flex", gap: 8, marginTop: 12 }}>
           <button onClick={() => grade(false)}
             style={{ flex: 1, background: "#2a0f0f", color: COLORS.dangerText, border: `1px solid ${COLORS.danger}66`, borderRadius: 10, padding: "13px", fontSize: 14, fontWeight: 700, cursor: "pointer" }}>
             Nochmal üben

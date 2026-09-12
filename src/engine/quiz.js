@@ -36,11 +36,15 @@ export function distractors(pool, correct, accessor, n = 3) {
   return out;
 }
 
-export function mcq(prompt, sub, answer, options) {
+// `promptLang` marks which language the prompt itself is in. The card sets
+// lang= from it, so a screen reader and the browser's own text handling do not
+// read an English prompt with German pronunciation in the EN → DE modes.
+export function mcq(prompt, sub, answer, options, promptLang = "de") {
   return {
     prompt,
     sub,
     answer,
+    promptLang,
     options: shuffle([...new Set([answer, ...options])]).filter(Boolean),
   };
 }
@@ -90,16 +94,28 @@ export function pickSession(pool, progress, catId, focusWeak) {
 // category (subject to the level filter). Drives the "words to master"
 // badge on the Quiz tab — this is the backlog that blocks new words from
 // unlocking in any category that has one.
-export function backlogCount(db, categories, progress, levelFilter) {
-  let n = 0;
+//
+// `due` is the subset of that backlog whose SRS interval has elapsed. The
+// schedule in engine/progress has always been written on every answer, but
+// nothing in the app ever read it back: there was no way to see that eleven
+// words were ready for review today, which is the whole point of spacing
+// them. Both numbers come out of one pass.
+export function reviewCounts(db, categories, progress, levelFilter, now = Date.now()) {
+  let backlog = 0, due = 0;
   for (const cat of categories) {
     for (const it of db[cat.key] || []) {
       if (levelFilter !== "All" && lvlOf(it) !== levelFilter) continue;
       const p = progress[keyOf(cat.id, it)];
-      if (p && p.total > 0 && !isMastered(p)) n++;
+      if (!p || !p.total || isMastered(p)) continue;
+      backlog++;
+      if (p.due == null || p.due <= now) due++;
     }
   }
-  return n;
+  return { backlog, due };
+}
+
+export function backlogCount(db, categories, progress, levelFilter) {
+  return reviewCounts(db, categories, progress, levelFilter).backlog;
 }
 
 // Weighted sampling without replacement (shared by both pickers).
@@ -181,9 +197,13 @@ export function mixedPool(db, categories, progress, levelFilter, catIds = MIXED_
   return out;
 }
 
+// `dueOnly` restricts the deck to words whose review is actually due — the
+// deck a spaced-repetition app should offer first thing in the morning. Without
+// it, due words are only *preferred* (tier 0 below) and get diluted by new
+// ones, so a review you owe can sit unseen behind forty fresh words.
 export function pickMixedDeck(
   db, categories, progress, levelFilter,
-  { size = MIXED_DECK_SIZE, catIds = MIXED_CATEGORY_IDS } = {}
+  { size = MIXED_DECK_SIZE, catIds = MIXED_CATEGORY_IDS, dueOnly = false } = {}
 ) {
   const now = Date.now();
 
@@ -198,7 +218,9 @@ export function pickMixedDeck(
       if (levelFilter !== "All" && lvlOf(it) !== levelFilter) continue;
       const p = progress[keyOf(cat.id, it)];
       if (isMastered(p)) continue;
-      tiers[srsTier(p, now)].push({ item: it, cat });
+      const tier = srsTier(p, now);
+      if (dueOnly && tier !== 0) continue;
+      tiers[tier].push({ item: it, cat });
     }
     const items = [...shuffle(tiers[0]), ...shuffle(tiers[1]), ...shuffle(tiers[2])];
     if (items.length) queues.push({ items, weight: mixedWeightOf(cat.id), cursor: 0 });

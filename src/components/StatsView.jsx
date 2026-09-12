@@ -4,11 +4,76 @@ import { COLORS, TXT, MUTE, FAINT } from "../config/theme";
 import { LEVELS, lvlOf, levelsPresent } from "../config/levels";
 import { CATEGORIES } from "../config/categories";
 import { keyOf, clearProgress, isMastered } from "../engine/progress";
-import { StatTile } from "./ui";
+import { StatTile, Tag } from "./ui";
 import { CHUNK_CAT_ID } from "./ChunksView";
 import { BackupPanel } from "./BackupPanel";
+import { answeredToday, streakOf, recentDays, GOAL_CHOICES } from "../engine/activity";
 
-export function StatsView({ progress, setProgress, levelFilter, driveStatus, setDriveStatus, cloudStatus, setCloudStatus, db }) {
+// ── Activity ──────────────────────────────────────────────────
+// Mastery counts said how far through the dataset you are. They said nothing
+// about whether you are actually turning up, which is the part that decides
+// whether any of it sticks.
+function ActivityPanel({ activity, goal, setGoal, dueCount }) {
+  const done = answeredToday(activity);
+  const streak = streakOf(activity);
+  const days = recentDays(activity, 14);
+  const best = Math.max(goal, ...days.map((d) => d.count), 1);
+  const total = days.reduce((a, d) => a + d.count, 0);
+
+  return (
+    <div style={{ background: COLORS.surface, border: `1px solid ${COLORS.border}`, borderRadius: 12, padding: 15, marginBottom: 18 }}>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: 10, flexWrap: "wrap" }}>
+        <span style={{ fontWeight: 700, color: COLORS.txtStrong, fontSize: 14 }}>🔥 Daily practice</span>
+        <span style={{ fontSize: 12.5, color: MUTE }}>
+          {streak > 0 ? `${streak}-day streak` : "No streak yet"} · {total} cards in 14 days
+        </span>
+      </div>
+
+      {/* Two weeks of daily counts. A bar at or above the goal is green, so
+          the run of kept days is readable at a glance. */}
+      <div style={{ display: "flex", alignItems: "flex-end", gap: 3, height: 54, marginTop: 12 }}>
+        {days.map(({ key, count }) => {
+          const h = Math.max(count > 0 ? 4 : 2, Math.round((count / best) * 50));
+          const met = count >= goal;
+          return (
+            <div key={key} title={`${key}: ${count} card${count === 1 ? "" : "s"}`}
+              style={{
+                flex: 1, height: h, borderRadius: 3,
+                background: count === 0 ? "#1c1c1c" : met ? COLORS.success : "#a855f7",
+                opacity: count === 0 ? 1 : 0.9,
+              }} />
+          );
+        })}
+      </div>
+      <div style={{ display: "flex", justifyContent: "space-between", fontSize: 10.5, color: COLORS.ghost, marginTop: 5 }}>
+        <span>14 days ago</span><span>today</span>
+      </div>
+
+      <div style={{ display: "flex", gap: 8, alignItems: "center", flexWrap: "wrap", marginTop: 14 }}>
+        <span style={{ fontSize: 12.5, color: MUTE }}>Daily goal:</span>
+        <div style={{ display: "flex", gap: 3, background: COLORS.surfaceAlt, borderRadius: 9, padding: 3 }}>
+          {GOAL_CHOICES.map((g) => (
+            <button key={g} onClick={() => setGoal(g)} aria-pressed={goal === g}
+              style={{
+                padding: "5px 11px", borderRadius: 6, border: "none", cursor: "pointer", fontSize: 12,
+                background: goal === g ? "#a855f7" : "transparent", color: goal === g ? "#fff" : MUTE, fontWeight: goal === g ? 700 : 400,
+              }}>{g}</button>
+          ))}
+        </div>
+        <span style={{ fontSize: 12.5, color: done >= goal ? COLORS.successText : MUTE }}>
+          {done >= goal ? `✓ ${done} done today` : `${done} done today`}
+        </span>
+        {dueCount > 0 && <Tag color="#7dd3fc" bg="#0d2430">↻ {dueCount} due for review</Tag>}
+      </div>
+
+      <div style={{ fontSize: 11, color: "#3f4651", marginTop: 10, lineHeight: 1.5 }}>
+        Counted on this device only — your word mastery syncs, the streak does not.
+      </div>
+    </div>
+  );
+}
+
+export function StatsView({ progress, setProgress, levelFilter, driveStatus, setDriveStatus, cloudStatus, setCloudStatus, db, activity, goal, setGoal, dueCount }) {
   const [confirm, setConfirm] = useState(false);
 
   // Chunks live outside the category registry (their own tab and card UI),
@@ -57,10 +122,12 @@ export function StatsView({ progress, setProgress, levelFilter, driveStatus, set
   return (
     <div>
       <div style={{ display: "flex", gap: 10, marginBottom: 18 }}>
-        <StatTile label="Mastered" value={mastered} color={COLORS.success} />
-        <StatTile label="Seen" value={seen} color={COLORS.der} />
+        <StatTile label="Mastered" value={mastered.toLocaleString()} color={COLORS.success} />
+        <StatTile label="Seen" value={seen.toLocaleString()} color={COLORS.der} />
         <StatTile label="Accuracy" value={totAns ? Math.round((totCorrect / totAns) * 100) + "%" : "—"} color="#a855f7" />
       </div>
+
+      <ActivityPanel activity={activity} goal={goal} setGoal={setGoal} dueCount={dueCount} />
 
       {/* Per-level progress (always whole-dataset, independent of filter) */}
       {perLevel.length > 1 && (
@@ -76,7 +143,13 @@ export function StatsView({ progress, setProgress, levelFilter, driveStatus, set
                   <div style={{ flex: 1, position: "relative", background: "#1f1f1f", borderRadius: 999, height: 7, overflow: "hidden" }}>
                     <div style={{ position: "absolute", inset: 0, width: `${mpct}%`, background: color, borderRadius: 999, transition: "width .5s" }} />
                   </div>
-                  <div style={{ width: 96, textAlign: "right", fontSize: 12, color: MUTE, fontVariantNumeric: "tabular-nums" }}>{mastered}/{total} mastered</div>
+                  {/* "0/2,121 mastered" does not fit 96px and wrapped onto two
+                      lines against a 7px bar; the word is dropped and the row
+                      is kept on one line. */}
+                  <div title={`${mastered} of ${total} mastered`}
+                    style={{ minWidth: 74, textAlign: "right", fontSize: 12, color: MUTE, fontVariantNumeric: "tabular-nums", whiteSpace: "nowrap" }}>
+                    {mastered.toLocaleString()}/{total.toLocaleString()}
+                  </div>
                 </div>
               );
             })}
@@ -84,7 +157,7 @@ export function StatsView({ progress, setProgress, levelFilter, driveStatus, set
         </div>
       )}
 
-      <div style={{ fontSize: 12, color: FAINT, marginBottom: 8 }}>{mastered} of {totalWords} words mastered (★★★★+){levelFilter !== "All" ? ` · ${levelFilter}` : ""}</div>
+      <div style={{ fontSize: 12, color: FAINT, marginBottom: 8 }}>{mastered.toLocaleString()} of {totalWords.toLocaleString()} words mastered (★★★★+){levelFilter !== "All" ? ` · ${levelFilter}` : ""}</div>
       <div style={{ display: "grid", gap: 11 }}>
         {perCat.map(({ cat, total, seen, mastered, correct, answered }) => {
           const pct = total ? Math.round((seen / total) * 100) : 0;
@@ -93,7 +166,7 @@ export function StatsView({ progress, setProgress, levelFilter, driveStatus, set
             <div key={cat.id} style={{ background: COLORS.surface, border: `1px solid ${COLORS.border}`, borderRadius: 12, padding: 15 }}>
               <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 8 }}>
                 <span style={{ color: cat.color, fontWeight: 700 }}>{cat.label}</span>
-                <span style={{ color: MUTE, fontSize: 13 }}>{seen}/{total} seen · {mastered} mastered</span>
+                <span style={{ color: MUTE, fontSize: 13 }}>{seen.toLocaleString()}/{total.toLocaleString()} seen · {mastered.toLocaleString()} mastered</span>
               </div>
               <div style={{ position: "relative", background: "#1f1f1f", borderRadius: 999, height: 7, marginBottom: 8, overflow: "hidden" }}>
                 <div style={{ position: "absolute", inset: 0, width: `${pct}%`, background: cat.color + "55", borderRadius: 999, transition: "width .5s" }} />

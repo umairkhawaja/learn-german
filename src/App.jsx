@@ -5,6 +5,9 @@
    • Add words   → edit public/data/{nouns,verbs,adj,gram,phrases,other}.json.
                    Fetched at runtime; no rebuild needed. Tag an entry with
                    lvl:"A2" to assign a level (no `lvl` → "A1").
+                   Run `npm run data:check` afterwards — the validator holds
+                   the invariants the engine relies on (one category per
+                   headword, complete example sentences, real comparatives).
    • Add a level → add one row to src/config/levels.js and tag data with
                    that code. The switcher, counts, filters and
                    stats all pick it up automatically.
@@ -15,15 +18,18 @@
 
    This file is composition only. Logic lives in:
      config/   levels, categories, theme            (the extension cores)
-     engine/   progress (+SRS), quiz, useDriveSync
+     engine/   progress (+SRS), quiz, activity, useDriveSync
      components/ Header, BottomNav, the views, QuizRunner, ui, detail
    ============================================================ */
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import { COLORS, FONT } from "./config/theme";
 import { CATEGORIES } from "./config/categories";
 import { loadDB } from "./data/db";
 import { loadProgress } from "./engine/progress";
-import { backlogCount } from "./engine/quiz";
+import { reviewCounts } from "./engine/quiz";
+import {
+  loadActivity, saveActivity, addAnswers, loadGoal, saveGoal, DEFAULT_GOAL,
+} from "./engine/activity";
 import { useDriveSync } from "./engine/useDriveSync";
 import { useCloudSync } from "./engine/useCloudSync";
 import { Header } from "./components/Header";
@@ -35,15 +41,27 @@ import { BrowseView } from "./components/BrowseView";
 import { CheatsheetView } from "./components/CheatsheetView";
 import { StatsView } from "./components/StatsView";
 import { NotesView } from "./NotesView";
+import { AppStyles } from "./components/AppStyles";
+
+const Splash = ({ children }) => (
+  <div style={{
+    minHeight: "100vh", background: COLORS.bg, color: "#4a4f59", fontFamily: FONT,
+    display: "flex", alignItems: "center", justifyContent: "center",
+    fontSize: 14, padding: 24, textAlign: "center",
+  }}>{children}</div>
+);
 
 export default function DeutschMeister() {
   const [db, setDb] = useState(null);
+  const [dbError, setDbError] = useState(null);
   const [progress, setProgress] = useState({});
   // Drive sync must not pull-merge (or push) until the local progress has
   // been read from IndexedDB, or it races against loadProgress: a merge
   // against the initial {} can be overwritten by the later local setProgress,
   // and a push of {} would clobber the remote backup.
   const [progressLoaded, setProgressLoaded] = useState(false);
+  const [activity, setActivity] = useState({ days: {} });
+  const [goal, setGoal] = useState(DEFAULT_GOAL);
   // Mixed is the landing view: a 40-card deck drawn across nouns, verbs,
   // adjectives and grammar, so practice starts on the whole level instead
   // of the top of whichever category tab happens to be open.
@@ -51,9 +69,30 @@ export default function DeutschMeister() {
   const [activeCat, setActiveCat] = useState(0);
   const [levelFilter, setLevelFilter] = useState("All");
 
-  useEffect(() => { loadDB().then(setDb); }, []);
+  const fetchDB = useCallback(() => {
+    setDbError(null);
+    loadDB().then(setDb).catch((e) => setDbError(e.message || String(e)));
+  }, []);
+
+  // Before this, a failed data fetch left the app on "Loading…" forever with
+  // nothing said and nothing to do — the offline-first case the PWA is most
+  // likely to hit on a first, uncached launch.
+  useEffect(() => { fetchDB(); }, [fetchDB]);
   useEffect(() => { loadProgress().then((p) => { setProgress(p); setProgressLoaded(true); }); }, []);
+  useEffect(() => { loadActivity().then(setActivity); loadGoal().then(setGoal); }, []);
   useEffect(() => { try { window.speechSynthesis.getVoices(); } catch { } }, []);
+
+  // Every grading surface (Mixed, Quiz, Chunks) calls this so the day tally
+  // and the streak count practice wherever it happens.
+  const activityRef = useRef(activity);
+  activityRef.current = activity;
+  const recordAnswer = useCallback((n = 1) => {
+    const next = addAnswers(activityRef.current, n);
+    setActivity(next);
+    saveActivity(next);
+  }, []);
+
+  const changeGoal = useCallback((g) => { setGoal(g); saveGoal(g); }, []);
 
   // Primary sync channel: durable Cloudflare KV store (baked-in key, no login,
   // survives IndexedDB eviction). Drive sync is kept below only for a one-time
@@ -62,63 +101,47 @@ export default function DeutschMeister() {
   const { driveStatus, setDriveStatus } = useDriveSync(progress, setProgress, progressLoaded);
 
   const cat = CATEGORIES[activeCat];
-  const backlog = useMemo(
-    () => (db ? backlogCount(db, CATEGORIES, progress, levelFilter) : 0),
+  const { backlog, due } = useMemo(
+    () => (db ? reviewCounts(db, CATEGORIES, progress, levelFilter) : { backlog: 0, due: 0 }),
     [db, progress, levelFilter]
   );
 
-  if (!db) return <div style={{ minHeight: "100vh", background: COLORS.bg, color: "#4a4f59", fontFamily: FONT, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 14 }}>Loading…</div>;
+  if (dbError) {
+    return (
+      <Splash>
+        <div>
+          <div style={{ fontSize: 34, marginBottom: 10 }}>📡</div>
+          <div style={{ color: COLORS.txtStrong, fontSize: 16, fontWeight: 700, marginBottom: 6 }}>
+            Couldn’t load the word lists
+          </div>
+          <div style={{ maxWidth: 320, lineHeight: 1.6, marginBottom: 16 }}>
+            The vocabulary files didn’t load. If this is the first time you’ve opened the app,
+            you need to be online once so it can cache them.
+          </div>
+          <button onClick={fetchDB} style={{
+            background: COLORS.der, border: "none", borderRadius: 10, padding: "11px 22px",
+            color: "#fff", fontSize: 14, fontWeight: 700, cursor: "pointer",
+          }}>Try again</button>
+          <div style={{ marginTop: 14, fontSize: 11, color: COLORS.ghost }}>{dbError}</div>
+        </div>
+      </Splash>
+    );
+  }
+
+  if (!db) return <Splash>Loading…</Splash>;
+
+  const shared = { progress, setProgress, recordAnswer };
 
   return (
     <div style={{ minHeight: "100vh", background: COLORS.bg, color: COLORS.txt, fontFamily: FONT }}>
-      <style>{`
-        @keyframes dmReveal { from { opacity:0; transform: translateY(4px); } to { opacity:1; transform:none; } }
-        .dm-reveal { animation: dmReveal .18s ease; }
-        .dm-opt:focus-visible { outline: 2px solid #60a5fa; outline-offset: 2px; }
-        * { box-sizing: border-box; }
-        ::selection { background:#3b82f655; }
-
-        /* ── No sideways scrolling on a phone ──────────────────────
-           German compounds ("Geschwindigkeitsbegrenzung"), conjugation
-           tables and embedded Notion pages are all wider than a phone
-           screen. Each is handled at its source below; overflow-x: clip
-           is the backstop that keeps a stray one from widening the page.
-           clip, not hidden: hidden makes the element a scroll container,
-           which breaks the sticky header. */
-        html, body { max-width: 100%; overflow-x: clip; }
-        body { overflow-wrap: break-word; }
-        /* Anything genuinely wider than the screen scrolls inside its own
-           frame, and keeps that swipe to itself. */
-        .dm-scroll-x {
-          max-width: 100%; overflow-x: auto;
-          overscroll-behavior-x: contain; -webkit-overflow-scrolling: touch;
-        }
-        /* Notion pages bring their own widths (tables, code, callouts);
-           hold them to the column and let long words break. */
-        .dm-notion-wrap { max-width: 100%; overflow-x: hidden; }
-        .dm-notion-wrap .notion { max-width: 100%; overflow-wrap: break-word; }
-        .dm-notion-wrap .notion-page { width: 100%; max-width: 100%; padding: 0; }
-        .dm-notion-wrap img, .dm-notion-wrap video, .dm-notion-wrap iframe { max-width: 100%; height: auto; }
-        .dm-notion-wrap .notion-table,
-        .dm-notion-wrap .notion-simple-table,
-        .dm-notion-wrap .notion-collection,
-        .dm-notion-wrap .notion-collection-view,
-        .dm-notion-wrap pre, .dm-notion-wrap .notion-code {
-          max-width: 100%; overflow-x: auto; overscroll-behavior-x: contain;
-        }
-        /* Bottom nav shows only on narrow screens; header tabs hide there. */
-        .dm-bottom-nav { display: none; }
-        @media (max-width: 640px) {
-          .dm-top-tabs { display: none !important; }
-          .dm-bottom-nav { display: flex !important; }
-        }
-      `}</style>
+      <AppStyles />
 
       <Header
         db={db} view={view} setView={setView}
         levelFilter={levelFilter} setLevelFilter={setLevelFilter}
         activeCat={activeCat} setActiveCat={setActiveCat}
-        backlogCount={backlog}
+        backlogCount={backlog} dueCount={due}
+        activity={activity} goal={goal}
       />
 
       {/* The Spickzettel brings its own 960px layout and scrolls inside its
@@ -126,17 +149,24 @@ export default function DeutschMeister() {
       {view === "cheatsheet" ? (
         <CheatsheetView />
       ) : (
-      <div style={{ maxWidth: 680, margin: "0 auto", padding: "18px 16px 96px", width: "100%" }}>
-        {view === "mixed" && <MixedView db={db} progress={progress} setProgress={setProgress} levelFilter={levelFilter} />}
-        {view === "quiz" && <QuizView key={cat.id} cat={cat} progress={progress} setProgress={setProgress} levelFilter={levelFilter} db={db} />}
-        {view === "chunks" && <ChunksView progress={progress} setProgress={setProgress} />}
-        {view === "browse" && <BrowseView key={cat.id} cat={cat} progress={progress} setProgress={setProgress} levelFilter={levelFilter} db={db} />}
-        {view === "notes" && <NotesView />}
-        {view === "stats" && <StatsView progress={progress} setProgress={setProgress} levelFilter={levelFilter} driveStatus={driveStatus} setDriveStatus={setDriveStatus} cloudStatus={cloudStatus} setCloudStatus={setCloudStatus} db={db} />}
-      </div>
+        <main style={{ maxWidth: 680, margin: "0 auto", padding: "18px 16px 96px", width: "100%" }}>
+          {view === "mixed" && <MixedView db={db} {...shared} levelFilter={levelFilter} dueCount={due} />}
+          {view === "quiz" && <QuizView key={cat.id} cat={cat} {...shared} levelFilter={levelFilter} db={db} />}
+          {view === "chunks" && <ChunksView {...shared} />}
+          {view === "browse" && <BrowseView key={cat.id} cat={cat} progress={progress} setProgress={setProgress} levelFilter={levelFilter} db={db} />}
+          {view === "notes" && <NotesView />}
+          {view === "stats" && (
+            <StatsView
+              progress={progress} setProgress={setProgress} levelFilter={levelFilter}
+              driveStatus={driveStatus} setDriveStatus={setDriveStatus}
+              cloudStatus={cloudStatus} setCloudStatus={setCloudStatus}
+              db={db} activity={activity} goal={goal} setGoal={changeGoal} dueCount={due}
+            />
+          )}
+        </main>
       )}
 
-      <BottomNav view={view} setView={setView} backlogCount={backlog} />
+      <BottomNav view={view} setView={setView} backlogCount={backlog} dueCount={due} />
     </div>
   );
 }

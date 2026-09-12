@@ -25,7 +25,7 @@ export const CATEGORIES = [
       { id: "translation", label: "Translation", eligible: (it) => hasField(it.e), build: (it, p) => mcq(it.w, "What does this mean?", it.e, distractors(p, it.e, "e")) },
       { id: "article", label: "Article", eligible: (it) => ["der", "die", "das"].includes(it.a), build: (it) => ({ prompt: it.w.replace(/^(der|die|das)\s+/i, ""), sub: "der, die or das?", answer: it.a, options: ["der", "die", "das"] }) },
       { id: "plural", label: "Plural", eligible: (it) => hasField(it.p), build: (it, p) => mcq(it.w, "What is the plural form?", it.p, distractors(p, it.p, "p")) },
-      { id: "german", label: "EN → DE", eligible: (it) => hasField(it.w), build: (it, p) => mcq(it.e, "German noun (with article)?", it.w, distractors(p, it.w, "w")) },
+      { id: "german", label: "EN → DE", eligible: (it) => hasField(it.w), build: (it, p) => mcq(it.e, "German noun (with article)?", it.w, distractors(p, it.w, "w"), "en") },
     ],
   },
   {
@@ -71,7 +71,7 @@ export const CATEGORIES = [
     detail: (it) => <PhraseDetail it={it} />,
     modes: [
       { id: "translation", label: "DE → EN", eligible: (it) => hasField(it.e), build: (it, p) => mcq(it.w, "What does this phrase mean?", it.e, distractors(p, it.e, "e")) },
-      { id: "german", label: "EN → DE", eligible: (it) => hasField(it.w), build: (it, p) => mcq(it.e, "Say this in German", it.w, distractors(p, it.w, "w")) },
+      { id: "german", label: "EN → DE", eligible: (it) => hasField(it.w), build: (it, p) => mcq(it.e, "Say this in German", it.w, distractors(p, it.w, "w"), "en") },
     ],
   },
   {
@@ -81,7 +81,7 @@ export const CATEGORIES = [
     detail: (it) => <OtherDetail it={it} />,
     modes: [
       { id: "translation", label: "DE → EN", eligible: (it) => hasField(it.e), build: (it, p) => mcq(it.w, "What does this word mean?", it.e, distractors(p, it.e, "e")) },
-      { id: "german", label: "EN → DE", eligible: (it) => hasField(it.w), build: (it, p) => mcq(it.e, "Say this in German", it.w, distractors(p, it.w, "w")) },
+      { id: "german", label: "EN → DE", eligible: (it) => hasField(it.w), build: (it, p) => mcq(it.e, "Say this in German", it.w, distractors(p, it.w, "w"), "en") },
     ],
   },
 ];

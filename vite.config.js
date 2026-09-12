@@ -16,6 +16,7 @@ export default defineConfig({
         short_name: "Deutsch",
         description: "German vocabulary & grammar trainer — quizzes, spaced repetition, grammar reference.",
         lang: "en",
+        categories: ["education"],
         theme_color: "#0a0a0a",
         background_color: "#0a0a0a",
         display: "standalone",

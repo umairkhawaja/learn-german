@@ -7,7 +7,7 @@ import { keyOf, isMastered } from "../engine/progress";
 import { pickSession, pickChunk } from "../engine/quiz";
 import { QuizRunner } from "./QuizRunner";
 
-export function QuizView({ cat, progress, setProgress, levelFilter, db }) {
+export function QuizView({ cat, progress, setProgress, levelFilter, db, recordAnswer }) {
   const [mode, setMode] = useState(cat.modes[0].id);
   const [catFilter, setCatFilter] = useState("All");
   const [focusWeak, setFocusWeak] = useState(false);
@@ -15,7 +15,14 @@ export function QuizView({ cat, progress, setProgress, levelFilter, db }) {
   const progressRef = useRef(progress);
   progressRef.current = progress;
 
-  const modeDef = cat.modes.find((m) => m.id === mode);
+  // QuizView is keyed by category, so `mode` always belongs to `cat` — but
+  // fall back rather than crash if that ever stops holding.
+  const modeDef = cat.modes.find((m) => m.id === mode) || cat.modes[0];
+
+  const levelPool = useMemo(
+    () => db[cat.key].filter((x) => levelFilter === "All" || lvlOf(x) === levelFilter),
+    [cat, levelFilter, db]
+  );
 
   const pool = useMemo(() => {
     return db[cat.key].filter((x) => {
@@ -42,6 +49,13 @@ export function QuizView({ cat, progress, setProgress, levelFilter, db }) {
   const startSession = useCallback(() => { setFocusWeak(false); buildQueue(false); }, [buildQueue]);
   const practiceWeak = useCallback(() => { setFocusWeak(true); buildQueue(true); }, [buildQueue]);
 
+  // A topic selected at one level often does not exist at another, which left
+  // the filter pointing at an empty pool and the session blank with no
+  // explanation. Fall back to "All" when the current pick goes away.
+  useEffect(() => {
+    if (catFilter !== "All" && !subcatsOf(cat, levelPool).includes(catFilter)) setCatFilter("All");
+  }, [cat, levelPool, catFilter]);
+
   useEffect(() => { buildQueue(focusWeak); /* eslint-disable-next-line */ }, [mode, catFilter, cat, levelFilter]);
 
   const controls = (
@@ -67,7 +81,10 @@ export function QuizView({ cat, progress, setProgress, levelFilter, db }) {
       <select value={catFilter} onChange={(e) => setCatFilter(e.target.value)}
         style={{ background: COLORS.surfaceAlt, border: `1px solid ${COLORS.borderSoft}`, borderRadius: 9, padding: "6px 10px", color: TXT, fontSize: 12 }}>
         <option value="All">All categories</option>
-        {subcatsOf(cat, db[cat.key]).map((c) => <option key={c} value={c}>{c}</option>)}
+        {/* Built from the level-filtered pool: the dropdown used to offer
+            topics that have no words at the selected level, which then
+            produced an empty session. */}
+        {subcatsOf(cat, levelPool).map((c) => <option key={c} value={c}>{c}</option>)}
       </select>
       <button onClick={() => { const v = !focusWeak; setFocusWeak(v); buildQueue(v); }} title="Prioritise words you struggle with"
         style={{ padding: "6px 10px", borderRadius: 9, border: `1px solid ${focusWeak ? cat.color : COLORS.borderSoft}`, background: focusWeak ? cat.color + "22" : COLORS.surfaceAlt, color: focusWeak ? cat.color : MUTE, fontSize: 12, cursor: "pointer", fontWeight: 600 }}>
@@ -87,6 +104,7 @@ export function QuizView({ cat, progress, setProgress, levelFilter, db }) {
       controls={controls}
       onRestart={startSession}
       onPracticeWeak={practiceWeak}
+      recordAnswer={recordAnswer}
     />
   );
 }

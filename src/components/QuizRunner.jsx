@@ -6,9 +6,9 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { COLORS, TXT, MUTE, FAINT } from "../config/theme";
 import { keyOf, applyAnswer, saveProgress } from "../engine/progress";
-import { SpeakBtn, ExampleLine } from "./ui";
+import { SpeakBtn, ExampleLine, isTypingTarget } from "./ui";
 
-export function QuizRunner({ queue, progress, setProgress, accent, controls, onRestart, onPracticeWeak }) {
+export function QuizRunner({ queue, progress, setProgress, accent, controls, onRestart, onPracticeWeak, recordAnswer }) {
   const [idx, setIdx] = useState(0);
   const [chosen, setChosen] = useState(null);
   const [streak, setStreak] = useState(0);
@@ -38,7 +38,8 @@ export function QuizRunner({ queue, progress, setProgress, accent, controls, onR
     const np = { ...progressRef.current, [k]: applyAnswer(progressRef.current[k], ok) };
     setProgress(np);
     saveProgress(np);
-  }, [chosen, entry, q, item, cat, setProgress]);
+    recordAnswer?.(1);
+  }, [chosen, entry, q, item, cat, setProgress, recordAnswer]);
 
   const advance = useCallback(() => {
     if (chosen === null) return;
@@ -47,9 +48,12 @@ export function QuizRunner({ queue, progress, setProgress, accent, controls, onR
     setChosen(null);
   }, [chosen, idx, queue.length]);
 
-  // keyboard: 1-N to answer, Enter/→/Space to advance or restart
+  // keyboard: 1-N to answer, Enter/→/Space to advance or restart.
+  // Guarded against the category <select> in the controls above: with it
+  // focused, a digit used to answer the question behind it.
   useEffect(() => {
     const onKey = (e) => {
+      if (isTypingTarget(e.target) || e.metaKey || e.ctrlKey || e.altKey) return;
       if (done) { if (e.key === "Enter") onRestart(); return; }
       if (chosen === null && q) {
         const n = parseInt(e.key, 10);
@@ -114,7 +118,9 @@ export function QuizRunner({ queue, progress, setProgress, accent, controls, onR
       {/* progress + streak */}
       <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 12 }}>
         <div style={{ flex: 1, height: 5, background: "#1f1f1f", borderRadius: 999 }}>
-          <div style={{ width: `${(idx / queue.length) * 100}%`, height: 5, background: accent, borderRadius: 999, transition: "width .3s" }} />
+          {/* Fills as the *answered* count, not the index, so the last
+              question shows a full bar rather than stopping one step short. */}
+          <div style={{ width: `${((idx + (chosen !== null ? 1 : 0)) / queue.length) * 100}%`, height: 5, background: accent, borderRadius: 999, transition: "width .3s" }} />
         </div>
         <span style={{ fontSize: 12, color: FAINT, fontVariantNumeric: "tabular-nums" }}>{idx + 1}/{queue.length}</span>
         {streak > 1 && <span style={{ fontSize: 13, color: COLORS.streak, fontWeight: 700 }}>🔥 {streak}</span>}
@@ -128,9 +134,9 @@ export function QuizRunner({ queue, progress, setProgress, accent, controls, onR
           </div>
           <SpeakBtn text={cat.german(item)} color={cat.color} />
         </div>
-        <div style={{ fontSize: 30, fontWeight: 800, color: COLORS.txtStrong, letterSpacing: "-0.5px", marginTop: 8, lineHeight: 1.15, overflowWrap: "anywhere" }}>{q.prompt}</div>
+        <div lang={q.promptLang || "de"} style={{ fontSize: 30, fontWeight: 800, color: COLORS.txtStrong, letterSpacing: "-0.5px", marginTop: 8, lineHeight: 1.15, overflowWrap: "anywhere" }}>{q.prompt}</div>
         {chosen !== null && (
-          <div className="dm-reveal" style={{ marginTop: 16, borderTop: "1px solid #222", paddingTop: 12 }}>
+          <div className="dm-reveal" role="status" aria-live="polite" style={{ marginTop: 16, borderTop: "1px solid #222", paddingTop: 12 }}>
             <div style={{ fontSize: 13, color: MUTE }}>
               Answer: <span style={{ color: COLORS.successText, fontWeight: 700 }}>{q.answer}</span>
             </div>
