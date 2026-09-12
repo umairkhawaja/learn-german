@@ -56,13 +56,17 @@ export function Header({ db, view, setView, levelFilter, setLevelFilter, activeC
         )}
 
         {!NO_CATEGORIES.has(view) && (
-          <div style={{ display: "flex", gap: 6, marginTop: 8 }}>
+          /* Grid, not a flex row: six labels as wide as "Adjectives" don't
+             fit across a 360px phone, and as flex items they refused to
+             shrink — which is what pushed the whole page sideways. Here
+             they wrap onto a second row instead. */
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(96px, 1fr))", gap: 6, marginTop: 8 }}>
             {CATEGORIES.map((t, i) => {
               const count = db[t.key].filter((x) => levelFilter === "All" || lvlOf(x) === levelFilter).length;
               return (
                 <button key={t.id} onClick={() => setActiveCat(i)}
                   style={{
-                    flex: 1, padding: "8px 4px", borderRadius: 9, border: "none", cursor: "pointer", fontSize: 12.5, fontWeight: 600,
+                    minWidth: 0, padding: "8px 4px", borderRadius: 9, border: "none", cursor: "pointer", fontSize: 12.5, fontWeight: 600,
                     background: activeCat === i ? t.color : COLORS.surfaceAlt, color: activeCat === i ? "#fff" : "#6b7280",
                   }}>
                   {t.label}

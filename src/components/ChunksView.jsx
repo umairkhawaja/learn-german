@@ -241,7 +241,7 @@ export function ChunksView({ progress, setProgress }) {
       <div onClick={() => !revealed && setRevealed(true)}
         style={{ background: "#131313", border: `1px solid ${ACCENT}33`, borderRadius: 16, padding: "26px 20px", minHeight: 190, cursor: revealed ? "default" : "pointer", display: "flex", flexDirection: "column", justifyContent: "center" }}>
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, flexWrap: "wrap" }}>
-          <div style={{ fontSize: 23, fontWeight: 800, color: COLORS.txtStrong, textAlign: "center", lineHeight: 1.3 }}>{front}</div>
+          <div style={{ fontSize: 23, fontWeight: 800, color: COLORS.txtStrong, textAlign: "center", lineHeight: 1.3, minWidth: 0, overflowWrap: "anywhere" }}>{front}</div>
           {!flipped && <SpeakBtn text={it.w} color={ACCENT} />}
         </div>
 
@@ -250,7 +250,7 @@ export function ChunksView({ progress, setProgress }) {
         ) : (
           <div className="dm-reveal" style={{ marginTop: 16, borderTop: "1px solid #222", paddingTop: 14, textAlign: "center" }}>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, flexWrap: "wrap" }}>
-              <div style={{ fontSize: 17, color: TXT, fontWeight: 600 }}>{back}</div>
+              <div style={{ fontSize: 17, color: TXT, fontWeight: 600, minWidth: 0, overflowWrap: "anywhere" }}>{back}</div>
               {flipped && <SpeakBtn text={it.w} color={ACCENT} />}
             </div>
             <ExampleLine text={it.ex} style={{ marginTop: 12 }} />

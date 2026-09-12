@@ -13,7 +13,7 @@ export function VerbTable({ v }) {
     ["sie/Sie", v.pr.sie, "", v.pk.sie],
   ];
   return (
-    <div style={{ overflowX: "auto", marginTop: 12 }}>
+    <div className="dm-scroll-x" style={{ marginTop: 12 }}>
       <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 12.5 }}>
         <thead>
           <tr>
@@ -126,7 +126,7 @@ function DeclTable({ it }) {
   return (
     <div style={{ marginTop: 12 }}>
       <div style={{ fontSize: 11, color: FAINT, textTransform: "uppercase", letterSpacing: 0.5, marginBottom: 5 }}>Deklination</div>
-      <div style={{ overflowX: "auto" }}>
+      <div className="dm-scroll-x">
         <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 12.5 }}>
           <thead>
             <tr>

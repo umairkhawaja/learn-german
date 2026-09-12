@@ -184,7 +184,7 @@ export function NotesView() {
     <div>
       {/* Level tabs */}
       {levels.length > 1 && (
-        <div style={{ display: "flex", gap: 6, marginBottom: 14 }}>
+        <div style={{ display: "flex", gap: 6, marginBottom: 14, flexWrap: "wrap" }}>
           {levels.map((l) => (
             <button key={l} onClick={() => { setLevel(l); setPageIdx(0); }}
               style={{

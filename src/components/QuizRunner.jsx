@@ -128,7 +128,7 @@ export function QuizRunner({ queue, progress, setProgress, accent, controls, onR
           </div>
           <SpeakBtn text={cat.german(item)} color={cat.color} />
         </div>
-        <div style={{ fontSize: 30, fontWeight: 800, color: COLORS.txtStrong, letterSpacing: "-0.5px", marginTop: 8, lineHeight: 1.15 }}>{q.prompt}</div>
+        <div style={{ fontSize: 30, fontWeight: 800, color: COLORS.txtStrong, letterSpacing: "-0.5px", marginTop: 8, lineHeight: 1.15, overflowWrap: "anywhere" }}>{q.prompt}</div>
         {chosen !== null && (
           <div className="dm-reveal" style={{ marginTop: 16, borderTop: "1px solid #222", paddingTop: 12 }}>
             <div style={{ fontSize: 13, color: MUTE }}>
@@ -157,7 +157,7 @@ export function QuizRunner({ queue, progress, setProgress, accent, controls, onR
                 background: bg, border: `1.5px solid ${border}`, borderRadius: 12, padding: "13px 14px", color, fontSize: 14.5, fontWeight: 600,
                 cursor: chosen ? "default" : "pointer", textAlign: "left", transition: "all .15s", lineHeight: 1.3, display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8,
               }}>
-              <span><span style={{ color: FAINT, fontWeight: 400, marginRight: 8, fontSize: 12 }}>{i + 1}</span>{opt}</span>
+              <span style={{ minWidth: 0, overflowWrap: "anywhere" }}><span style={{ color: FAINT, fontWeight: 400, marginRight: 8, fontSize: 12 }}>{i + 1}</span>{opt}</span>
               {mark && <span style={{ fontWeight: 800 }}>{mark}</span>}
             </button>
           );

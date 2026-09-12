@@ -8,7 +8,14 @@
 // practice you actually get is the first page of nouns, over and over.
 // The deck here is built by engine/quiz.pickMixedDeck, which round-
 // robins the categories and samples each one at random (due words
-// first), so every deck spans the full scope of the level.
+// first), so every deck spans the full scope of the level. The round-
+// robin is weighted (MIXED_CATEGORY_WEIGHTS): nouns and verbs are what
+// you need to speak, so they carry the deck, while grammar, phrases and
+// "other" are smaller details and only get a sprinkle.
+//
+// The deck in play is saved (see SESSION_KEY below), so leaving for
+// another tab and coming back resumes on the card you were on instead
+// of dealing a fresh deck.
 //
 // Cards are graded like the Chunks tab (reveal → "Nochmal üben" /
 // "Gewusst ✓") and write into the shared progress map under each word's
@@ -26,6 +33,62 @@ import { SpeakBtn, ProgressBar, MasterBtn, ExampleLine } from "./ui";
 const ACCENT = "#a855f7";
 const DECK_SIZES = [20, 40, 60];
 const PREFS_KEY = "dm-mixed-prefs-v1";
+const SESSION_KEY = "dm-mixed-session-v1";
+
+// ── Deck session persistence ──────────────────────────────────
+// Switching tabs unmounts this view, so without this the deck would be
+// rebuilt from card 1 every time you looked at Stats or the Spickzettel
+// and came back. The live session is mirrored into a module-level cache
+// (instant restore on a tab switch) and into storage (restore after a
+// reload or an app restart), keyed by the scope it was drawn for — a
+// different level, deck size or category set is a different deck, so
+// changing any of those still deals a fresh one.
+let sessionCache = null;
+
+const scopeOf = (levelFilter, size, catIds) =>
+  `${levelFilter}|${size}|${[...catIds].sort().join(",")}`;
+
+// Sessions store { catId, w } refs, not the item objects themselves —
+// the objects come back from the freshly fetched db on the next load.
+const packEntry = ({ item, cat }) => ({ c: cat.id, w: item.w });
+
+function snapshot(scope, deck, idx, revealed, results, done) {
+  return {
+    scope,
+    idx, revealed, done,
+    deck: deck.map(packEntry),
+    results: results.map((r) => ({ ...packEntry(r), ok: r.ok })),
+  };
+}
+
+// Turn a stored session back into live { item, cat } entries. Returns
+// null if anything no longer resolves (the data file changed under it),
+// in which case the caller just deals a new deck.
+function rehydrate(saved, db) {
+  if (!saved || !Array.isArray(saved.deck) || saved.deck.length === 0) return null;
+  const index = new Map();
+  for (const cat of CATEGORIES) {
+    const byWord = new Map((db[cat.key] || []).map((it) => [it.w, it]));
+    index.set(cat.id, { cat, byWord });
+  }
+  const unpack = (ref) => {
+    const bucket = index.get(ref.c);
+    const item = bucket && bucket.byWord.get(ref.w);
+    return item ? { item, cat: bucket.cat } : null;
+  };
+  const deck = saved.deck.map(unpack);
+  if (deck.some((e) => !e)) return null;
+  const results = (saved.results || [])
+    .map((r) => { const e = unpack(r); return e && { ...e, ok: !!r.ok }; })
+    .filter(Boolean);
+  return {
+    deck,
+    results,
+    idx: Math.min(Math.max(saved.idx | 0, 0), deck.length - 1),
+    revealed: !!saved.revealed,
+    done: !!saved.done,
+  };
+}
 
 export function MixedView({ db, progress, setProgress, levelFilter }) {
   const [catIds, setCatIds] = useState(MIXED_CATEGORY_IDS);
@@ -42,10 +105,22 @@ export function MixedView({ db, progress, setProgress, levelFilter }) {
   const progressRef = useRef(progress);
   progressRef.current = progress;
 
-  // Deck settings survive a reload — this is the tab the app opens on.
+  // The session waiting to be restored, read once during boot below and
+  // consumed by the deck effect. Held in a ref so restoring never races
+  // a re-render.
+  const pendingSession = useRef(null);
+  // Size of the deck last *applied* (restored or dealt). The persist
+  // effect below runs in the same commit as the one that applies a deck,
+  // when `deck` still holds the previous value — this ref tells the two
+  // apart, so an empty deck only clears the stored session when the deck
+  // really is empty (everything mastered) and not mid-restore.
+  const appliedLen = useRef(-1);
+
+  // Deck settings and the in-flight deck survive a reload — this is the
+  // tab the app opens on.
   useEffect(() => {
     let alive = true;
-    storage.get(PREFS_KEY).then((r) => {
+    const readPrefs = storage.get(PREFS_KEY).then((r) => {
       if (!alive) return;
       try {
         const p = r && r.value ? JSON.parse(r.value) : null;
@@ -55,8 +130,21 @@ export function MixedView({ db, progress, setProgress, levelFilter }) {
           if (typeof p.flipped === "boolean") setFlipped(p.flipped);
         }
       } catch { }
+    }).catch(() => { });
+
+    // A tab switch finds the session still in memory; a cold start has to
+    // go to storage for it.
+    const readSession = sessionCache
+      ? Promise.resolve(sessionCache)
+      : storage.get(SESSION_KEY)
+        .then((r) => { try { return r && r.value ? JSON.parse(r.value) : null; } catch { return null; } })
+        .catch(() => null);
+
+    Promise.all([readPrefs, readSession]).then(([, saved]) => {
+      if (!alive) return;
+      pendingSession.current = saved;
       setPrefsLoaded(true);
-    }).catch(() => setPrefsLoaded(true));
+    });
     return () => { alive = false; };
   }, []);
 
@@ -73,13 +161,53 @@ export function MixedView({ db, progress, setProgress, levelFilter }) {
     [db, progress, levelFilter, catIds]
   );
 
+  const scope = scopeOf(levelFilter, size, catIds);
+
   const newDeck = useCallback(() => {
-    setDeck(pickMixedDeck(db, CATEGORIES, progressRef.current, levelFilter, { size, catIds }));
+    const next = pickMixedDeck(db, CATEGORIES, progressRef.current, levelFilter, { size, catIds });
+    appliedLen.current = next.length;
+    setDeck(next);
     setIdx(0); setRevealed(false); setResults([]); setDone(false);
   }, [db, levelFilter, size, catIds]);
 
-  // Build on mount and whenever the scope of the deck changes.
-  useEffect(() => { if (prefsLoaded) newDeck(); }, [prefsLoaded, newDeck]);
+  // Restore the deck you were on, or build one when there is nothing to
+  // come back to. Runs on mount and whenever the scope changes — a new
+  // level, size or category set always means a fresh deck.
+  useEffect(() => {
+    if (!prefsLoaded) return;
+    const saved = pendingSession.current;
+    pendingSession.current = null;
+    if (saved && saved.scope === scope) {
+      const live = rehydrate(saved, db);
+      if (live) {
+        appliedLen.current = live.deck.length;
+        setDeck(live.deck); setIdx(live.idx); setRevealed(live.revealed);
+        setResults(live.results); setDone(live.done);
+        return;
+      }
+    }
+    newDeck();
+    // `scope` is what actually decides a rebuild; newDeck changes with it.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [prefsLoaded, scope, db]);
+
+  // Mirror the live session out, so leaving the tab (or the app) and
+  // coming back resumes on the same card rather than dealing again.
+  useEffect(() => {
+    if (!prefsLoaded) return;
+    if (deck.length === 0) {
+      // Nothing left to practise — drop the stored session so the empty
+      // state isn't replaced by a stale deck on the next visit.
+      if (appliedLen.current === 0) {
+        sessionCache = null;
+        storage.delete(SESSION_KEY).catch(() => { });
+      }
+      return;
+    }
+    const snap = snapshot(scope, deck, idx, revealed, results, done);
+    sessionCache = snap;
+    storage.set(SESSION_KEY, JSON.stringify(snap)).catch(() => { });
+  }, [prefsLoaded, scope, deck, idx, revealed, results, done]);
 
   const write = useCallback((cat, item, updater) => {
     const k = keyOf(cat.id, item);
@@ -175,7 +303,7 @@ export function MixedView({ db, progress, setProgress, levelFilter }) {
           style={{ padding: "6px 10px", borderRadius: 9, border: `1px solid ${flipped ? ACCENT : COLORS.borderSoft}`, background: flipped ? ACCENT + "22" : COLORS.surfaceAlt, color: flipped ? ACCENT : MUTE, fontSize: 12, cursor: "pointer", fontWeight: 600 }}>
           {flipped ? "EN → DE" : "DE → EN"}
         </button>
-        <button onClick={newDeck} title="Draw a fresh 40 from across the level"
+        <button onClick={newDeck} title={`Draw a fresh ${size} from across the level`}
           style={{ padding: "6px 10px", borderRadius: 9, border: `1px solid ${COLORS.borderSoft}`, background: COLORS.surfaceAlt, color: MUTE, fontSize: 12, cursor: "pointer", fontWeight: 600 }}>
           ↻ New deck
         </button>
@@ -263,7 +391,7 @@ export function MixedView({ db, progress, setProgress, levelFilter }) {
       <div onClick={() => !revealed && setRevealed(true)}
         style={{ background: "#131313", border: `1px solid ${cat.color}33`, borderRadius: 16, padding: "26px 20px", minHeight: 190, cursor: revealed ? "default" : "pointer", display: "flex", flexDirection: "column", justifyContent: "center" }}>
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, flexWrap: "wrap" }}>
-          <div style={{ fontSize: 26, fontWeight: 800, color: COLORS.txtStrong, textAlign: "center", lineHeight: 1.25 }}>{front}</div>
+          <div style={{ fontSize: 26, fontWeight: 800, color: COLORS.txtStrong, textAlign: "center", lineHeight: 1.25, minWidth: 0, overflowWrap: "anywhere" }}>{front}</div>
           {!flipped && <SpeakBtn text={cat.german(it)} color={cat.color} />}
         </div>
 
@@ -272,7 +400,7 @@ export function MixedView({ db, progress, setProgress, levelFilter }) {
         ) : (
           <div className="dm-reveal" style={{ marginTop: 16, borderTop: "1px solid #222", paddingTop: 14 }}>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, flexWrap: "wrap" }}>
-              <div style={{ fontSize: 17, color: TXT, fontWeight: 600, textAlign: "center" }}>{back}</div>
+              <div style={{ fontSize: 17, color: TXT, fontWeight: 600, textAlign: "center", minWidth: 0, overflowWrap: "anywhere" }}>{back}</div>
               {flipped && <SpeakBtn text={cat.german(it)} color={cat.color} />}
             </div>
             {it.ex && !Array.isArray(it.ex) && <ExampleLine text={it.ex} style={{ marginTop: 10, textAlign: "center" }} />}

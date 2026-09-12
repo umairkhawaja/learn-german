@@ -133,8 +133,10 @@ function weightedSample(weighted, count) {
 // onto the first page of nouns and never reaches the rest of the level.
 //
 // pickMixedDeck fixes both halves of that bias:
-//   • it draws from every selected category at once, round-robin, so
-//     each word type is represented however lopsided the data is;
+//   • it draws from every selected category at once, in a *weighted*
+//     round-robin (MIXED_CATEGORY_WEIGHTS), so each word type is
+//     represented however lopsided the data is — with nouns and verbs
+//     carrying the deck and grammar-type details only sprinkled in;
 //   • within a category it samples the *whole* level pool at random
 //     (ordered by SRS priority, shuffled inside each tier) instead of
 //     slicing the first N entries.
@@ -145,6 +147,18 @@ export const MIXED_DECK_SIZE = 40;
 // The four word types the mixed deck ships with. Phrases and Other can
 // be switched on in the view; these are the defaults.
 export const MIXED_CATEGORY_IDS = ["nouns", "verbs", "adj", "gram"];
+
+// How many cards a category contributes per round-robin pass. Nouns and
+// verbs carry the language — they are what you actually need to speak —
+// so they get the largest share; adjectives sit in the middle; grammar,
+// phrases and "other" are the smaller details and only need a sprinkle.
+// A default deck of 40 across the four default categories lands at
+// roughly 13 nouns / 13 verbs / 9 adjectives / 5 grammar.
+export const MIXED_CATEGORY_WEIGHTS = {
+  nouns: 3, verbs: 3, adj: 2, gram: 1, phrases: 1, other: 1,
+};
+
+export const mixedWeightOf = (catId) => MIXED_CATEGORY_WEIGHTS[catId] || 1;
 
 // 0 = due for review, 1 = started but not due yet, 2 = never seen.
 function srsTier(p, now) {
@@ -186,24 +200,27 @@ export function pickMixedDeck(
       if (isMastered(p)) continue;
       tiers[srsTier(p, now)].push({ item: it, cat });
     }
-    const q = [...shuffle(tiers[0]), ...shuffle(tiers[1]), ...shuffle(tiers[2])];
-    if (q.length) queues.push(q);
+    const items = [...shuffle(tiers[0]), ...shuffle(tiers[1]), ...shuffle(tiers[2])];
+    if (items.length) queues.push({ items, weight: mixedWeightOf(cat.id), cursor: 0 });
   }
   if (queues.length === 0) return [];
 
-  // Round-robin: take the i-th word of every category before any
-  // category's (i+1)-th. Categories that run dry simply drop out, so a
-  // small category never caps the deck — it just stops contributing.
+  // Weighted round-robin: each pass takes `weight` cards from every
+  // category before any category gets its next turn, so the deck lands
+  // on the MIXED_CATEGORY_WEIGHTS ratio. Categories that run dry simply
+  // drop out — a small category never caps the deck, it just stops
+  // contributing, and the rest take up its slack.
   const deck = [];
-  for (let i = 0; deck.length < size; i++) {
-    let took = false;
+  let took = true;
+  while (deck.length < size && took) {
+    took = false;
     for (const q of queues) {
-      if (i >= q.length) continue;
-      deck.push(q[i]);
-      took = true;
+      for (let k = 0; k < q.weight && q.cursor < q.items.length && deck.length < size; k++) {
+        deck.push(q.items[q.cursor++]);
+        took = true;
+      }
       if (deck.length >= size) break;
     }
-    if (!took) break;
   }
   return shuffle(deck);
 }

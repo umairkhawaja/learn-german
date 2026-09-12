@@ -59,7 +59,7 @@ export function BrowseView({ cat, progress, setProgress, levelFilter, db }) {
             <div key={k} onClick={() => setExpanded(isOpen ? null : k)}
               style={{ background: mastered ? "#0d1a0d" : "#141414", border: `1px solid ${isOpen ? cat.color + "55" : mastered ? "#22c55e33" : "#242424"}`, borderRadius: 12, padding: "11px 14px", cursor: "pointer", transition: "border-color .15s" }}>
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 10 }}>
-                <div style={{ minWidth: 0 }}>
+                <div style={{ minWidth: 0, overflowWrap: "anywhere" }}>
                   <span style={{ fontWeight: 700, fontSize: 15.5, color: mastered ? "#6b7280" : COLORS.txtStrong }}>{it.w}</span>
                   <span style={{ marginLeft: 8, fontSize: 13, color: MUTE }}>{it.e}</span>
                   {mastered && <span style={{ marginLeft: 8, fontSize: 10, color: COLORS.success, background: "#0a2a16", border: "1px solid #22c55e33", borderRadius: 4, padding: "1px 5px", fontWeight: 600 }}>mastered</span>}

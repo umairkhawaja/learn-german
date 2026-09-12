@@ -77,6 +77,35 @@ export default function DeutschMeister() {
         .dm-opt:focus-visible { outline: 2px solid #60a5fa; outline-offset: 2px; }
         * { box-sizing: border-box; }
         ::selection { background:#3b82f655; }
+
+        /* ── No sideways scrolling on a phone ──────────────────────
+           German compounds ("Geschwindigkeitsbegrenzung"), conjugation
+           tables and embedded Notion pages are all wider than a phone
+           screen. Each is handled at its source below; overflow-x: clip
+           is the backstop that keeps a stray one from widening the page.
+           clip, not hidden: hidden makes the element a scroll container,
+           which breaks the sticky header. */
+        html, body { max-width: 100%; overflow-x: clip; }
+        body { overflow-wrap: break-word; }
+        /* Anything genuinely wider than the screen scrolls inside its own
+           frame, and keeps that swipe to itself. */
+        .dm-scroll-x {
+          max-width: 100%; overflow-x: auto;
+          overscroll-behavior-x: contain; -webkit-overflow-scrolling: touch;
+        }
+        /* Notion pages bring their own widths (tables, code, callouts);
+           hold them to the column and let long words break. */
+        .dm-notion-wrap { max-width: 100%; overflow-x: hidden; }
+        .dm-notion-wrap .notion { max-width: 100%; overflow-wrap: break-word; }
+        .dm-notion-wrap .notion-page { width: 100%; max-width: 100%; padding: 0; }
+        .dm-notion-wrap img, .dm-notion-wrap video, .dm-notion-wrap iframe { max-width: 100%; height: auto; }
+        .dm-notion-wrap .notion-table,
+        .dm-notion-wrap .notion-simple-table,
+        .dm-notion-wrap .notion-collection,
+        .dm-notion-wrap .notion-collection-view,
+        .dm-notion-wrap pre, .dm-notion-wrap .notion-code {
+          max-width: 100%; overflow-x: auto; overscroll-behavior-x: contain;
+        }
         /* Bottom nav shows only on narrow screens; header tabs hide there. */
         .dm-bottom-nav { display: none; }
         @media (max-width: 640px) {
