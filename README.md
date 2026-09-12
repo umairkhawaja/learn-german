@@ -1,8 +1,54 @@
 # Deutsch Meister — PWA
 
-An installable, offline German trainer (2,900+ words across CEFR levels + grammar reference), converted
-from the original single-file artifact into a standard Vite + React Progressive Web App.
-No backend, no network — all data is bundled and progress is stored on-device.
+An installable, offline German trainer built around what an A1–B1 course actually
+teaches: ~3,800 CEFR-levelled words and 330 everyday chunks, full conjugation,
+declension and imperative tables, spaced repetition, and a 32-card A1–B1 grammar
+reference. Vite + React, no backend required — all data is bundled and progress is
+stored on-device (with optional cloud sync, see below).
+
+## How you practise
+
+| Tab | What it is |
+| --- | --- |
+| **Mixed** | The landing view. A flashcard deck drawn across nouns, verbs, adjectives and grammar at once, weighted so nouns and verbs carry it. **Review** narrows the deck to the words whose spacing interval has elapsed. |
+| **Quiz** | Multiple choice within one word type, in whatever mode that type supports — article, plural, Partizip II, haben/sein, comparative, case effect. Works a chunk of ten words at a time; new words unlock as the chunk is mastered. |
+| **Chunks** | Whole Redemittel and Nomen-Verb-Verbindungen, learned as units rather than words (A2+). |
+| **Browse** | The whole dataset, searchable, filterable by topic and by learning status (not started / learning / weak / mastered). |
+| **Spickzettel** | 32 grammar cards covering A1–B1: cases, Genus hacks, plural patterns, every tense, Konjunktiv II, Passiv, adjective endings, the Satzbau algorithm, Relativsätze, prepositions, Stolperfallen. |
+| **Notes** | Your own Notion pages, read live (optional — see the proxy setup below). |
+| **Stats** | Mastery by level and by word type, a fortnight of daily practice, your streak and daily goal, and backup/restore. |
+
+Mastery is one shared number: a word answered in Mixed counts in Quiz, Browse and
+Stats alike. 4★ retires a word from practice; "Mark as mastered" retires it by hand.
+
+## Working on the data
+
+`public/data/*.json` is the dataset and is fetched at runtime — adding words needs
+no rebuild. It is also the part most likely to go quietly wrong, so there is a
+validator for the invariants the engine relies on:
+
+```bash
+npm run data:check     # also runs automatically before every build
+```
+
+It enforces one category per headword (progress is keyed `<category>:<word>`, so a
+duplicate is two separate words to the engine), complete example sentences, real
+comparatives, correct du/ihr endings, reflexive pronouns present in reflexive
+conjugations, and valid level codes.
+
+The one-shot repair scripts that brought the data to that state are kept in
+`scripts/` — each reports before it writes and is safe to re-run:
+
+| Script | What it fixed |
+| --- | --- |
+| `fix-reflexive-verbs.mjs` | 39 reflexive verbs conjugated without their pronoun |
+| `fix-verb-conjugations.mjs` | six verbs with wrong endings or a mangled separable prefix |
+| `add-imperatives.mjs` | writes `imp` where an imperative genuinely exists |
+| `fix-adjectives.mjs` | withdraws blindly generated comparatives; tags non-adjectives |
+| `fix-truncated-examples.mjs` | 271 example sentences clipped mid-phrase |
+| `fix-phrase-notes.mjs` | English usage notes filed as German examples |
+| `dedupe-across-categories.mjs` | 137 headwords living in two or three category files |
+| `fix-other-wordclasses.mjs`, `fix-noun-topics.mjs` | topic and word-class buckets |
 
 ## Requirements
 - Node.js 18+ and npm.
@@ -37,8 +83,8 @@ The app is modular — composition lives in `src/App.jsx`, everything else is sp
   - `levels.js` — the CEFR level registry. **Add a level = one row here** + tag data with its code.
   - `categories.jsx` — the word-type registry. **Add a category = one descriptor** + a `public/data/<key>.json`.
   - `theme.js` — colour/font design tokens.
-- `src/engine/` — `progress.js` (persistence + spaced-repetition schedule), `quiz.js` (question building, session + due-review pickers), `useDriveSync.js`.
-- `src/components/` — `Header`, `BottomNav`, the five views (`Quiz`, `Review`, `Browse`, `Cheatsheet`, `Stats`), the reusable `QuizRunner`, shared `ui` primitives, and `detail` card-backs.
+- `src/engine/` — `progress.js` (persistence + spaced-repetition schedule), `quiz.js` (question building, chunk/session/deck pickers, due counts), `activity.js` (daily tally, streak, goal), `useCloudSync.js`, `useDriveSync.js`.
+- `src/components/` — `Header`, `BottomNav`, `AppStyles` (the global stylesheet), the views (`Mixed`, `Quiz`, `Chunks`, `Browse`, `Cheatsheet`, `Notes`, `Stats`), the reusable `QuizRunner`, shared `ui` primitives, and `detail` card-backs.
 - `public/data/*.json` — the dataset. **Add words here**; tag entries with `lvl:"A2"` etc. (no `lvl` → A1). No rebuild needed — fetched at runtime.
 - `src/storage.js` — progress persistence via **IndexedDB** (`idb-keyval`).
 - `src/speak.js` — German text-to-speech (Web Speech API).

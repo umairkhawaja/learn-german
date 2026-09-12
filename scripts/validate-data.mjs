@@ -100,6 +100,26 @@ for (const x of db.verbs) {
   // A reflexive verb without its pronoun is a different verb: "melde an"
   // (register someone) instead of "melde mich an" (register yourself).
   if (x.refl && !/\bmich\b/.test(x.pr?.ich ?? "")) err(`verbs: "${x.w}" is reflexive but pr.ich is "${x.pr?.ich}"`);
+
+  // German inserts the -e- in the du/ihr endings only after a stem in -d/-t
+  // or an obstruent + m/n. "du trennest" and "du kommest" are not German.
+  //
+  // A sibilant stem is exempt from the check, not from the rule: it takes a
+  // bare -t, so lesen's "liest" is stem "lies" + t and only *looks* like an
+  // -est ending.
+  const stem = (x.pr?.ich ?? "").split(/\s+/)[0].replace(/e$/, "");
+  const sibilant = /(s|ß|z|x|tz)$/.test(stem);
+  const needsE = /[dt]$/.test(stem) || /[^aeiouäöülmnr][mn]$/.test(stem);
+  if (!needsE && !sibilant && /est$/.test((x.pr?.du ?? "").split(/\s+/)[0]))
+    err(`verbs: "${x.w}" pr.du is "${x.pr.du}" — no -e- after this stem`);
+
+  // Imperatives are optional (modals have none) but must be complete when
+  // present, or the card renders "undefined!".
+  if (x.imp) {
+    for (const p of ["du", "ihr", "sie"]) {
+      if (!hasField(x.imp[p])) err(`verbs: "${x.w}" imp.${p} is missing`);
+    }
+  }
 }
 
 // ── 6. Adjectives ─────────────────────────────────────────────────────────

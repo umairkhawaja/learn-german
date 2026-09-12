@@ -1,5 +1,5 @@
 // ── Shared UI primitives (built on the theme tokens) ──────────
-import { COLORS, TXT, MUTE, FAINT } from "../config/theme";
+import { COLORS, MUTE, FAINT } from "../config/theme";
 import { speak } from "../speak";
 
 // Minimum comfortable touch target. The icon buttons were 28px, below the

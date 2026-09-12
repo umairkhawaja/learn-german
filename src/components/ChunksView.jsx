@@ -17,7 +17,7 @@ import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import { COLORS, TXT, MUTE, FAINT } from "../config/theme";
 import { LEVELS } from "../config/levels";
 import { keyOf, applyAnswer, saveProgress, isMastered, MASTERY_THRESHOLD } from "../engine/progress";
-import { shuffle, CHUNK_SIZE } from "../engine/quiz";
+import { shuffle, pickChunk } from "../engine/quiz";
 import { SpeakBtn, ProgressBar, MasterBtn, ExampleLine, isTypingTarget, splitExample } from "./ui";
 
 export const CHUNK_CAT_ID = "chunks";
@@ -67,17 +67,14 @@ export function ChunksView({ progress, setProgress, recordAnswer }) {
   // Chunked mastery: work one fixed batch at a time. The batch is the first
   // CHUNK_SIZE unmastered chunks in data order, and anything already started
   // stays in it however the batch shifts — so new chunks only appear as
-  // mastered ones drop out of `pool`. (The word quiz's pickChunk can't be
-  // reused here: it narrows the batch to *only* the started items, which on a
-  // flashcard round would shrink the deck to one card after the first answer.)
-  const active = useMemo(() => {
-    const started = [], fresh = [];
-    for (const x of pool) {
-      const p = progress[keyOf(CHUNK_CAT_ID, x)];
-      (p && p.total > 0 ? started : fresh).push(x);
-    }
-    return [...started, ...fresh].slice(0, Math.max(CHUNK_SIZE, started.length));
-  }, [pool, progress]);
+  // mastered ones drop out of `pool`. This used to be a local copy, written
+  // because the shared pickChunk narrowed the batch to only the started items
+  // and collapsed the round to one card; that is fixed at the source now, so
+  // both surfaces behave the same way.
+  const active = useMemo(
+    () => pickChunk(pool, progress, CHUNK_CAT_ID),
+    [pool, progress]
+  );
   const locked = Math.max(0, pool.length - active.length);
   const masteredCount = scope.length - pool.length;
 

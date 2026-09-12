@@ -52,20 +52,29 @@ export function mcq(prompt, sub, answer, options, promptLang = "de") {
 // ── Chunked mastery: work a fixed-size batch of words until every
 // one is mastered before the next batch is introduced ─────────
 // `pool` is expected to already exclude mastered items (callers filter
-// via isMastered — see QuizView). "Backlog" = words already introduced
-// (attempted at least once) but not yet mastered; while any backlog
-// remains, no new words are pulled in. Only once the whole backlog is
-// cleared (mastered automatically or via "Mark as mastered") does the
-// next chunk of brand-new words unlock, in data order.
+// via isMastered — see QuizView). The batch is the first `chunkSize`
+// unmastered words in data order; anything already started stays in it
+// however the batch shifts, so new words only appear as mastered ones
+// drop out of `pool`.
+//
+// The previous version returned *only* the started words as soon as there
+// were any, which collapsed the batch: answer one question and the next
+// session is that single word, drilled alone until mastered, then two —
+// while the view above it still said "New chunk: 10 words". ChunksView had
+// already had to write its own copy of this to avoid exactly that, and now
+// shares this one.
 export const CHUNK_SIZE = 10;
 
 export function pickChunk(pool, progress, catId, chunkSize = CHUNK_SIZE) {
-  const backlog = pool.filter((it) => {
+  const started = [], fresh = [];
+  for (const it of pool) {
     const p = progress[keyOf(catId, it)];
-    return p && p.total > 0;
-  });
-  if (backlog.length > 0) return backlog;
-  return pool.slice(0, chunkSize);
+    (p && p.total > 0 ? started : fresh).push(it);
+  }
+  // Never shrink below the words already in play: if more than `chunkSize`
+  // have been started (a wider batch from an earlier setting, or words met
+  // in the Mixed deck), they all stay until they are finished.
+  return [...started, ...fresh].slice(0, Math.max(chunkSize, started.length));
 }
 
 // ── Single-category session, scoped to the active chunk ────────
@@ -90,9 +99,10 @@ export function pickSession(pool, progress, catId, focusWeak) {
   return weightedSample(weighted, SESSION_LEN);
 }
 
-// Count of already-introduced-but-not-yet-mastered words, across every
-// category (subject to the level filter). Drives the "words to master"
-// badge on the Quiz tab — this is the backlog that blocks new words from
+// The two numbers the header and the tab badges report, in one pass.
+//
+// `backlog` is the already-introduced-but-not-yet-mastered words across every
+// category, subject to the level filter — the count that gates new words
 // unlocking in any category that has one.
 //
 // `due` is the subset of that backlog whose SRS interval has elapsed. The
@@ -112,10 +122,6 @@ export function reviewCounts(db, categories, progress, levelFilter, now = Date.n
     }
   }
   return { backlog, due };
-}
-
-export function backlogCount(db, categories, progress, levelFilter) {
-  return reviewCounts(db, categories, progress, levelFilter).backlog;
 }
 
 // Weighted sampling without replacement (shared by both pickers).

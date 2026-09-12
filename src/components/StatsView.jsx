@@ -1,6 +1,6 @@
 // ── Stats view: per-level + per-category progress, backup, reset
 import { useState, useEffect } from "react";
-import { COLORS, TXT, MUTE, FAINT } from "../config/theme";
+import { COLORS, MUTE, FAINT } from "../config/theme";
 import { LEVELS, lvlOf, levelsPresent } from "../config/levels";
 import { CATEGORIES } from "../config/categories";
 import { keyOf, clearProgress, isMastered } from "../engine/progress";
