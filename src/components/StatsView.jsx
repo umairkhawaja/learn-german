@@ -73,7 +73,7 @@ function ActivityPanel({ activity, goal, setGoal, dueCount }) {
   );
 }
 
-export function StatsView({ progress, setProgress, levelFilter, driveStatus, setDriveStatus, cloudStatus, setCloudStatus, db, activity, goal, setGoal, dueCount }) {
+export function StatsView({ progress, setProgress, levelFilter, driveStatus, setDriveStatus, cloudStatus, setCloudStatus, db, activity, goal, setGoal, dueCount, preloadGis }) {
   const [confirm, setConfirm] = useState(false);
 
   // Chunks live outside the category registry (their own tab and card UI),
@@ -195,7 +195,7 @@ export function StatsView({ progress, setProgress, levelFilter, driveStatus, set
         </div>
       )}
 
-      <BackupPanel progress={progress} setProgress={setProgress} driveStatus={driveStatus} setDriveStatus={setDriveStatus} cloudStatus={cloudStatus} setCloudStatus={setCloudStatus} />
+      <BackupPanel progress={progress} setProgress={setProgress} driveStatus={driveStatus} setDriveStatus={setDriveStatus} cloudStatus={cloudStatus} setCloudStatus={setCloudStatus} preloadGis={preloadGis} />
 
       <div style={{ marginTop: 22, textAlign: "center" }}>
         {!confirm ? (

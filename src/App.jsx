@@ -98,7 +98,7 @@ export default function DeutschMeister() {
   // survives IndexedDB eviction). Drive sync is kept below only for a one-time
   // import of the old snapshot to seed the cloud store.
   const { cloudStatus, setCloudStatus } = useCloudSync(progress, setProgress, progressLoaded);
-  const { driveStatus, setDriveStatus } = useDriveSync(progress, setProgress, progressLoaded);
+  const { driveStatus, setDriveStatus, preloadGis } = useDriveSync(progress, setProgress, progressLoaded);
 
   const cat = CATEGORIES[activeCat];
   const { backlog, due } = useMemo(
@@ -159,7 +159,7 @@ export default function DeutschMeister() {
             <StatsView
               progress={progress} setProgress={setProgress} levelFilter={levelFilter}
               driveStatus={driveStatus} setDriveStatus={setDriveStatus}
-              cloudStatus={cloudStatus} setCloudStatus={setCloudStatus}
+              cloudStatus={cloudStatus} setCloudStatus={setCloudStatus} preloadGis={preloadGis}
               db={db} activity={activity} goal={goal} setGoal={changeGoal} dueCount={due}
             />
           )}

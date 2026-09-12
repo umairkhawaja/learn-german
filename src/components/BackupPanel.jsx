@@ -7,8 +7,13 @@ import { buildBackup, parseBackup, shareOrDownloadBackup, copyBackup } from "../
 import * as drive from "../driveSync";
 import * as cloud from "../cloudSync";
 
-export function BackupPanel({ progress, setProgress, driveStatus, setDriveStatus, cloudStatus, setCloudStatus }) {
+export function BackupPanel({ progress, setProgress, driveStatus, setDriveStatus, cloudStatus, setCloudStatus, preloadGis }) {
   const [open, setOpen] = useState(false);
+  // Opening this panel is the only route to the Connect button, so it is the
+  // moment to fetch Google Identity Services — early enough that the click
+  // handler below can still call requestAccessToken() with no awaits, which
+  // is what iOS Safari requires to allow the popup.
+  useEffect(() => { if (open) preloadGis?.(); }, [open, preloadGis]);
   const [text, setText] = useState("");
   const [msg, setMsg] = useState(null);
   const fileRef = useRef(null);
