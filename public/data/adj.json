@@ -7,7 +7,8 @@
   "sup": "am leckersten",
   "opp": "ekelhaft / ungenießbar",
   "ex": "Das Essen war sehr lecker. — The food was very tasty.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1575
  },
  {
   "w": "leer",
@@ -17,7 +18,8 @@
   "sup": "am leersten",
   "opp": "voll",
   "ex": "Der Kühlschrank ist leer. — The fridge is empty.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 970
  },
  {
   "w": "lang",
@@ -27,7 +29,8 @@
   "sup": "am längsten",
   "opp": "kurz",
   "ex": "Das Gespräch war sehr lang. — The conversation was very long.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 187
  },
  {
   "w": "kalt",
@@ -37,7 +40,8 @@
   "sup": "am kältesten",
   "opp": "warm / heiß",
   "ex": "Das Wasser ist kalt. — The water is cold.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 839
  },
  {
   "w": "langweilig",
@@ -47,7 +51,8 @@
   "sup": "am langweiligsten",
   "opp": "interessant / spannend",
   "ex": "Der Film war total langweilig. — The film was totally boring.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1331
  },
  {
   "w": "traurig",
@@ -57,7 +62,8 @@
   "sup": "am traurigsten",
   "opp": "glücklich / fröhlich",
   "ex": "Er ist heute sehr traurig.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 899
  },
  {
   "w": "kühl",
@@ -67,7 +73,8 @@
   "sup": "am kühlsten",
   "opp": "warm / heiß",
   "ex": "Es ist heute kühl draußen.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2127
  },
  {
   "w": "glücklich",
@@ -77,7 +84,8 @@
   "sup": "am glücklichsten",
   "opp": "unglücklich / traurig",
   "ex": "Sie ist sehr glücklich. — She is very happy.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 587
  },
  {
   "w": "groß",
@@ -87,7 +95,8 @@
   "sup": "am größten",
   "opp": "klein",
   "ex": "Er ist sehr groß. — He is very tall.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 218
  },
  {
   "w": "hässlich",
@@ -97,7 +106,8 @@
   "sup": "am hässlichsten",
   "opp": "schön",
   "ex": "Das Gebäude ist wirklich hässlich.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1451
  },
  {
   "w": "lustig",
@@ -107,7 +117,8 @@
   "sup": "am lustigsten",
   "opp": "langweilig / ernst",
   "ex": "Er ist ein lustiger Mensch. — He is a funny person.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 785
  },
  {
   "w": "alt",
@@ -117,7 +128,8 @@
   "sup": "am ältesten",
   "opp": "neu / jung",
   "ex": "Das ist ein altes Haus. — That is an old house.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 217
  },
  {
   "w": "ruhig",
@@ -127,7 +139,8 @@
   "sup": "am ruhigsten",
   "opp": "laut / unruhig",
   "ex": "Bleib ruhig, es ist alles gut. — Stay calm, everything is fine.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 498
  },
  {
   "w": "schmutzig",
@@ -137,7 +150,8 @@
   "sup": "am schmutzigsten",
   "opp": "sauber",
   "ex": "Die Schuhe sind schmutzig.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1538
  },
  {
   "w": "schwer",
@@ -147,7 +161,8 @@
   "sup": "am schwersten",
   "opp": "leicht",
   "ex": "Der Koffer ist sehr schwer. — The suitcase is very heavy.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 460
  },
  {
   "w": "gut",
@@ -157,7 +172,8 @@
   "sup": "am besten",
   "opp": "schlecht",
   "ex": "Das ist eine gute Idee. — That is a good idea.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 34
  },
  {
   "w": "heiß",
@@ -167,7 +183,8 @@
   "sup": "am heißesten",
   "opp": "kalt / kühl",
   "ex": "Der Kaffee ist sehr heiß. — The coffee is very hot.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 474
  },
  {
   "w": "klein",
@@ -177,7 +194,8 @@
   "sup": "am kleinsten",
   "opp": "groß",
   "ex": "Die Wohnung ist klein aber gemütlich. — The apartment is small but cosy.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 207
  },
  {
   "w": "wichtig",
@@ -187,7 +205,8 @@
   "sup": "am wichtigsten",
   "opp": "unwichtig",
   "ex": "Das ist sehr wichtig für mich. — That is very important to me.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 442
  },
  {
   "w": "langsam",
@@ -197,7 +216,8 @@
   "sup": "am langsamsten",
   "opp": "schnell",
   "ex": "Bitte fahren Sie langsamer. — Please drive more slowly.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 656
  },
  {
   "w": "schwierig",
@@ -207,7 +227,8 @@
   "sup": "am schwierigsten",
   "opp": "einfach / leicht",
   "ex": "Deutsch ist manchmal schwierig. — German is sometimes difficult.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 981
  },
  {
   "w": "neu",
@@ -217,7 +238,8 @@
   "sup": "am neuesten",
   "opp": "alt",
   "ex": "Ich habe ein neues Handy. — I have a new phone.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 235
  },
  {
   "w": "jung",
@@ -227,7 +249,8 @@
   "sup": "am jüngsten",
   "opp": "alt",
   "ex": "Sie ist noch sehr jung. — She is still very young.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 236
  },
  {
   "w": "schön",
@@ -237,7 +260,8 @@
   "sup": "am schönsten",
   "opp": "hässlich",
   "ex": "München ist eine schöne Stadt. — Munich is a beautiful city.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 176
  },
  {
   "w": "offen",
@@ -247,7 +271,8 @@
   "sup": "am offensten",
   "opp": "geschlossen",
   "ex": "Das Fenster ist offen.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 837
  },
  {
   "w": "müde",
@@ -257,7 +282,8 @@
   "sup": "am müdesten",
   "opp": "ausgeruht / munter",
   "ex": "Ich bin so müde heute. — I am so tired today.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 998
  },
  {
   "w": "gesund",
@@ -267,7 +293,8 @@
   "sup": "am gesündesten",
   "opp": "krank",
   "ex": "Obst und Gemüse sind gesund. — Fruit and vegetables are healthy.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1041
  },
  {
   "w": "billig",
@@ -277,7 +304,8 @@
   "sup": "am billigsten",
   "opp": "teuer",
   "ex": "Dieser Markt ist sehr billig. — This market is very cheap.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1466
  },
  {
   "w": "hell",
@@ -287,7 +315,8 @@
   "sup": "am hellsten",
   "opp": "dunkel",
   "ex": "Das Zimmer ist hell und freundlich. — The room is bright and friendly.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1560
  },
  {
   "w": "krank",
@@ -297,7 +326,8 @@
   "sup": "am kränksten",
   "opp": "gesund",
   "ex": "Sie ist krank und bleibt zu Hause. — She is ill and is staying home.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 701
  },
  {
   "w": "einfach",
@@ -307,7 +337,8 @@
   "sup": "am einfachsten",
   "opp": "schwierig / kompliziert",
   "ex": "Die Aufgabe ist einfach. — The task is easy.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 158
  },
  {
   "w": "schlecht",
@@ -317,7 +348,8 @@
   "sup": "am schlechtesten",
   "opp": "gut",
   "ex": "Das Wetter ist heute schlecht.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 403
  },
  {
   "w": "leicht",
@@ -327,7 +359,8 @@
   "sup": "am leichtesten",
   "opp": "schwer",
   "ex": "Diese Tasche ist leicht. — This bag is light.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 654
  },
  {
   "w": "interessant",
@@ -337,7 +370,8 @@
   "sup": "am interessantesten",
   "opp": "langweilig",
   "ex": "Das Buch ist sehr interessant. — The book is very interesting.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 876
  },
  {
   "w": "voll",
@@ -347,7 +381,8 @@
   "sup": "am vollsten",
   "opp": "leer",
   "ex": "Das Glas ist voll. — The glass is full.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 496
  },
  {
   "w": "nett",
@@ -357,7 +392,8 @@
   "sup": "am nettesten",
   "opp": "unfreundlich",
   "ex": "Sie ist sehr nett zu mir. — She is very nice to me.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 420
  },
  {
   "w": "teuer",
@@ -367,7 +403,8 @@
   "sup": "am teuersten",
   "opp": "billig / günstig",
   "ex": "Das Restaurant ist zu teuer. — The restaurant is too expensive.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1234
  },
  {
   "w": "schnell",
@@ -377,7 +414,8 @@
   "sup": "am schnellsten",
   "opp": "langsam",
   "ex": "Der Zug ist schnell. — The train is fast.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 279
  },
  {
   "w": "spät",
@@ -387,7 +425,8 @@
   "sup": "am spätesten",
   "opp": "früh",
   "ex": "Es ist schon sehr spät. — It is already very late.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 288
  },
  {
   "w": "geschlossen",
@@ -397,7 +436,8 @@
   "sup": "–",
   "opp": "offen",
   "ex": "Der Laden ist heute geschlossen.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1296
  },
  {
   "w": "dunkel",
@@ -407,7 +447,8 @@
   "sup": "am dunkelsten",
   "opp": "hell",
   "ex": "Im Winter ist es früh dunkel. — In winter it gets dark early.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 991
  },
  {
   "w": "kurz",
@@ -417,7 +458,8 @@
   "sup": "am kürzesten",
   "opp": "lang",
   "ex": "Das war eine kurze Pause. — That was a short break.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 434
  },
  {
   "w": "früh",
@@ -427,7 +469,8 @@
   "sup": "am frühesten",
   "opp": "spät",
   "ex": "Ich stehe früh auf. — I get up early.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 416
  },
  {
   "w": "richtig",
@@ -437,7 +480,8 @@
   "sup": "am richtigsten",
   "opp": "falsch",
   "ex": "Das ist die richtige Antwort. — That is the correct answer.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 231
  },
  {
   "w": "sauber",
@@ -447,7 +491,8 @@
   "sup": "am saubersten",
   "opp": "schmutzig",
   "ex": "Die Küche ist sehr sauber.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 996
  },
  {
   "w": "freundlich",
@@ -457,7 +502,8 @@
   "sup": "am freundlichsten",
   "opp": "unfreundlich / feindlich",
   "ex": "Der Kellner war sehr freundlich.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1340
  },
  {
   "w": "warm",
@@ -467,7 +513,8 @@
   "sup": "am wärmsten",
   "opp": "kalt / kühl",
   "ex": "Heute ist es warm. — It is warm today.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1183
  },
  {
   "w": "laut",
@@ -477,7 +524,8 @@
   "sup": "am lautesten",
   "opp": "leise",
   "ex": "Die Musik ist zu laut.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 629
  },
  {
   "w": "leise",
@@ -487,7 +535,8 @@
   "sup": "am leisesten",
   "opp": "laut",
   "ex": "Bitte sei leise! — Please be quiet!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1070
  },
  {
   "w": "falsch",
@@ -497,7 +546,8 @@
   "sup": "am falschesten",
   "opp": "richtig",
   "ex": "Das ist leider falsch. — Unfortunately that is wrong.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 455
  },
  {
   "w": "stolz",
@@ -507,7 +557,8 @@
   "sup": "am stolzesten",
   "opp": "schamvoll / bescheiden",
   "ex": "Ich bin stolz auf dich.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 821
  },
  {
   "w": "sicher",
@@ -517,7 +568,8 @@
   "sup": "am sichersten",
   "opp": "unsicher / gefährlich",
   "ex": "Hier ist es sicher. — It is safe here.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 178
  },
  {
   "w": "kostenlos",
@@ -527,7 +579,8 @@
   "sup": "–",
   "opp": "kostenpflichtig / teuer",
   "ex": "Das ist kostenlos.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2381
  },
  {
   "w": "bereit",
@@ -537,7 +590,8 @@
   "sup": "am bereitsten",
   "opp": "unbereit / nicht bereit",
   "ex": "Bist du bereit?",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 449
  },
  {
   "w": "schriftlich",
@@ -547,7 +601,8 @@
   "sup": "–",
   "opp": "mündlich",
   "ex": "Ich brauche das schriftlich.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2559
  },
  {
   "w": "direkt",
@@ -557,7 +612,8 @@
   "sup": "am direktesten",
   "opp": "indirekt / umständlich",
   "ex": "Nehmen Sie den direkten Weg. — Take the direct route.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 713
  },
  {
   "w": "besonders",
@@ -567,7 +623,8 @@
   "sup": "–",
   "opp": "gewöhnlich / normal",
   "ex": "Das war besonders lecker.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 862
  },
  {
   "w": "möglich",
@@ -577,7 +634,8 @@
   "sup": "–",
   "opp": "unmöglich",
   "ex": "Ist das möglich? — Is that possible?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 602
  },
  {
   "w": "klug",
@@ -587,7 +645,8 @@
   "sup": "am klügsten",
   "opp": "dumm",
   "ex": "Sie ist eine kluge Frau.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1139
  },
  {
   "w": "häufig",
@@ -597,7 +656,8 @@
   "sup": "am häufigsten",
   "opp": "selten",
   "ex": "Das ist ein häufiger Fehler.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2157
  },
  {
   "w": "höflich",
@@ -607,7 +667,8 @@
   "sup": "am höflichsten",
   "opp": "unhöflich / grob",
   "ex": "Sei bitte höflich. — Please be polite.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2132
  },
  {
   "w": "typisch",
@@ -617,7 +678,8 @@
   "sup": "am typischsten",
   "opp": "untypisch",
   "ex": "Das ist typisch deutsch. — That is typically German.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1711
  },
  {
   "w": "praktisch",
@@ -627,7 +689,8 @@
   "sup": "am praktischsten",
   "opp": "unpraktisch",
   "ex": "Das ist sehr praktisch. — That is very practical.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1582
  },
  {
   "w": "egal",
@@ -637,7 +700,8 @@
   "sup": "–",
   "opp": "wichtig / bedeutsam",
   "ex": "Das ist mir egal. — I do not care.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 431
  },
  {
   "w": "flüssig",
@@ -647,7 +711,8 @@
   "sup": "am flüssigsten",
   "opp": "fest / stockend",
   "ex": "Er spricht flüssig Englisch.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2770
  },
  {
   "w": "anders",
@@ -657,7 +722,8 @@
   "sup": "–",
   "opp": "gleich / ähnlich",
   "ex": "Das ist ganz anders als ich dachte. — That is quite different from what I thought.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 564
  },
  {
   "w": "natürlich",
@@ -667,7 +733,8 @@
   "sup": "am natürlichsten",
   "opp": "künstlich / unnatürlich",
   "ex": "Natürlich komme ich! — Of course I am coming!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 278
  },
  {
   "w": "pünktlich",
@@ -677,7 +744,8 @@
   "sup": "am pünktlichsten",
   "opp": "unpünktlich / zu spät",
   "ex": "Der Zug ist pünktlich. — The train is on time.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1897
  },
  {
   "w": "mündlich",
@@ -687,7 +755,8 @@
   "sup": "–",
   "opp": "schriftlich",
   "ex": "Die Prüfung ist mündlich.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 3228
  },
  {
   "w": "ehrlich",
@@ -697,7 +766,8 @@
   "sup": "am ehrlichsten",
   "opp": "unehrlich / verlogen",
   "ex": "Sei ehrlich mit mir.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 625
  },
  {
   "w": "bequem",
@@ -707,7 +777,8 @@
   "sup": "am bequemsten",
   "opp": "unbequem",
   "ex": "Das Sofa ist sehr bequem. — The sofa is very comfortable.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1823
  },
  {
   "w": "beliebt",
@@ -717,7 +788,8 @@
   "sup": "am beliebtesten",
   "opp": "unbeliebt",
   "ex": "Das ist ein beliebtes Restaurant. — That is a popular restaurant.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1935
  },
  {
   "w": "gemütlich",
@@ -727,7 +799,8 @@
   "sup": "am gemütlichsten",
   "opp": "unbehaglich / ungemütlich",
   "ex": "Das Café ist sehr gemütlich.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2015
  },
  {
   "w": "dankbar",
@@ -737,7 +810,8 @@
   "sup": "am dankbarsten",
   "opp": "undankbar",
   "ex": "Ich bin sehr dankbar.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1356
  },
  {
   "w": "zufrieden",
@@ -747,7 +821,8 @@
   "sup": "am zufriedensten",
   "opp": "unzufrieden",
   "ex": "Ich bin zufrieden mit dem Ergebnis.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1231
  },
  {
   "w": "neugierig",
@@ -757,7 +832,8 @@
   "sup": "am neugierigsten",
   "opp": "gleichgültig / desinteressiert",
   "ex": "Kinder sind sehr neugierig.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1680
  },
  {
   "w": "nötig",
@@ -767,7 +843,8 @@
   "sup": "–",
   "opp": "unnötig / überflüssig",
   "ex": "Das ist nicht nötig.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 850
  },
  {
   "w": "ledig",
@@ -777,7 +854,8 @@
   "sup": "–",
   "opp": "verheiratet",
   "ex": "Ich bin noch ledig. — I am still single.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 3098
  },
  {
   "w": "komisch",
@@ -787,7 +865,8 @@
   "sup": "am komischsten",
   "opp": "normal / gewöhnlich",
   "ex": "Das ist aber komisch. — That is strange.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 782
  },
  {
   "w": "verheiratet",
@@ -797,7 +876,8 @@
   "sup": "–",
   "opp": "ledig / geschieden",
   "ex": "Sie ist seit zwei Jahren verheiratet. — She has been married for two years.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 903
  },
  {
   "w": "peinlich",
@@ -807,7 +887,8 @@
   "sup": "am peinlichsten",
   "opp": "stolz / selbstbewusst",
   "ex": "Das ist mir peinlich.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1419
  },
  {
   "w": "zuständig",
@@ -817,7 +898,8 @@
   "sup": "–",
   "opp": "nicht zuständig",
   "ex": "Wer ist dafür zuständig?",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2160
  },
  {
   "w": "persönlich",
@@ -827,7 +909,8 @@
   "sup": "am persönlichsten",
   "opp": "unpersönlich",
   "ex": "Das ist eine persönliche Frage.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 801
  },
  {
   "w": "faul",
@@ -837,7 +920,8 @@
   "sup": "am faulsten",
   "opp": "fleißig",
   "ex": "Sei nicht so faul!",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1869
  },
  {
   "w": "allein",
@@ -847,7 +931,8 @@
   "sup": "–",
   "opp": "zusammen / gemeinsam",
   "ex": "Ich bin gerne allein.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 315
  },
  {
   "w": "dumm",
@@ -857,7 +942,8 @@
   "sup": "am dümmsten",
   "opp": "klug / schlau",
   "ex": "Das war eine dumme Idee.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 666
  },
  {
   "w": "gratis",
@@ -867,7 +953,8 @@
   "sup": "–",
   "opp": "kostenpflichtig",
   "ex": "Das bekommst du gratis. — You get that for free.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2521
  },
  {
   "w": "aufgeregt",
@@ -877,7 +964,8 @@
   "sup": "am aufgeregtesten",
   "opp": "ruhig / gelassen",
   "ex": "Ich bin ganz aufgeregt.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1511
  },
  {
   "w": "witzig",
@@ -887,7 +975,8 @@
   "sup": "am witzigsten",
   "opp": "langweilig / humorlos",
   "ex": "Er macht immer witzige Bemerkungen.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1056
  },
  {
   "w": "modern",
@@ -897,7 +986,8 @@
   "sup": "am modernsten",
   "opp": "altmodisch",
   "ex": "Das Design ist sehr modern.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1763
  },
  {
   "w": "mutig",
@@ -907,7 +997,8 @@
   "sup": "am mutigsten",
   "opp": "feige",
   "ex": "Das war sehr mutig von dir.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1633
  },
  {
   "w": "fröhlich",
@@ -917,7 +1008,8 @@
   "sup": "am fröhlichsten",
   "opp": "traurig / ernst",
   "ex": "Sie ist immer fröhlich.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1578
  },
  {
   "w": "fertig",
@@ -927,7 +1019,8 @@
   "sup": "–",
   "opp": "unfertig / noch nicht fertig",
   "ex": "Ich bin fertig. — I am finished.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 394
  },
  {
   "w": "fleißig",
@@ -937,7 +1030,8 @@
   "sup": "am fleißigsten",
   "opp": "faul",
   "ex": "Sie ist sehr fleißig.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2549
  },
  {
   "w": "normal",
@@ -947,7 +1041,8 @@
   "sup": "am normalsten",
   "opp": "abnormal / seltsam",
   "ex": "Das ist ganz normal. — That is completely normal.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 751
  },
  {
   "w": "hungrig",
@@ -957,7 +1052,8 @@
   "sup": "am hungrigsten",
   "opp": "satt",
   "ex": "Nach der Arbeit bin ich immer hungrig. — After work I am always hungry.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1651
  },
  {
   "w": "durstig",
@@ -967,7 +1063,8 @@
   "sup": "am durstigsten",
   "opp": "–",
   "ex": "Nach dem Sport bin ich sehr durstig. — After sport I am very thirsty.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2783
  },
  {
   "w": "frei",
@@ -977,7 +1074,8 @@
   "sup": "–",
   "opp": "besetzt",
   "ex": "Ist dieser Platz noch frei? — Is this seat still free?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 545
  },
  {
   "w": "besetzt",
@@ -987,7 +1085,8 @@
   "sup": "–",
   "opp": "frei",
   "ex": "Die Toilette ist besetzt.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2176
  },
  {
   "w": "nah",
@@ -997,7 +1096,8 @@
   "sup": "am nächsten",
   "opp": "fern",
   "ex": "Der Supermarkt ist ganz nah.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 418
  },
  {
   "w": "fern",
@@ -1007,7 +1107,8 @@
   "sup": "am fernsten",
   "opp": "nah",
   "ex": "Das liegt in ferner Zukunft.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1210
  },
  {
   "w": "böse",
@@ -1017,7 +1118,8 @@
   "sup": "am bösesten",
   "opp": "lieb",
   "ex": "Bist du böse auf mich?",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 634
  },
  {
   "w": "abhängig",
@@ -1027,7 +1129,8 @@
   "sup": "am abhängigsten",
   "opp": "unabhängig",
   "ex": "Ich bin von meinem Gehalt abhängig.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2546
  },
  {
   "w": "allgemein",
@@ -1037,7 +1140,8 @@
   "sup": "am allgemeinststen",
   "opp": "speziell",
   "ex": "Im Allgemeinen ist das Wetter hier gut.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2212
  },
  {
   "w": "anstrengend",
@@ -1047,7 +1151,8 @@
   "sup": "am anstrengendsten",
   "opp": "entspannend",
   "ex": "Der Arbeitstag war sehr anstrengend. — The working day was very exhausting.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2223
  },
  {
   "w": "bekannt",
@@ -1057,7 +1162,8 @@
   "sup": "am bekanntesten",
   "opp": "unbekannt",
   "ex": "Er ist ein sehr bekannter Autor. — He is a very well-known author.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 866
  },
  {
   "w": "deutlich",
@@ -1067,7 +1173,8 @@
   "sup": "am deutlichsten",
   "opp": "undeutlich",
   "ex": "Bitte sprechen Sie langsam und deutlich.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1549
  },
  {
   "w": "eigen",
@@ -1077,7 +1184,8 @@
   "sup": "–",
   "opp": "fremd",
   "ex": "Ich habe ein eigenes Auto.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 506
  },
  {
   "w": "erfolgreich",
@@ -1087,7 +1195,8 @@
   "sup": "am erfolgreichsten",
   "opp": "erfolglos",
   "ex": "Das Projekt war sehr erfolgreich.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1501
  },
  {
   "w": "ernst",
@@ -1097,7 +1206,8 @@
   "sup": "am ernstesten",
   "opp": "lustig",
   "ex": "Das ist ein ernstes Problem.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 548
  },
  {
   "w": "fremd",
@@ -1107,7 +1217,8 @@
   "sup": "am fremdesten",
   "opp": "bekannt",
   "ex": "Ich bin fremd hier.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 995
  },
  {
   "w": "gefährlich",
@@ -1117,7 +1228,8 @@
   "sup": "am gefährlichsten",
   "opp": "sicher",
   "ex": "Diese Straße ist nachts gefährlich.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 789
  },
  {
   "w": "geheim",
@@ -1127,7 +1239,8 @@
   "sup": "am geheimsten",
   "opp": "öffentlich",
   "ex": "Das Passwort ist streng geheim.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1122
  },
  {
   "w": "genau",
@@ -1137,7 +1250,8 @@
   "sup": "am genauesten",
   "opp": "ungenau",
   "ex": "Das ist genau das, was ich suche!",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 216
  },
  {
   "w": "hoch",
@@ -1147,7 +1261,8 @@
   "sup": "am höchsten",
   "opp": "niedrig",
   "ex": "Das Gebäude ist sehr hoch. — The building is very high.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 522
  },
  {
   "w": "kaputt",
@@ -1157,7 +1272,8 @@
   "sup": "am kaputtesten",
   "opp": "ganz / heile",
   "ex": "Mein Handy ist leider kaputt. — Unfortunately my phone is broken.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1044
  },
  {
   "w": "knapp",
@@ -1167,7 +1283,8 @@
   "sup": "am knappsten",
   "opp": "reichlich",
   "ex": "Die Zeit ist sehr knapp.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1509
  },
  {
   "w": "nass",
@@ -1177,7 +1294,8 @@
   "sup": "am nassesten",
   "opp": "trocken",
   "ex": "Meine Schuhe sind ganz nass.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1747
  },
  {
   "w": "notwendig",
@@ -1187,7 +1305,8 @@
   "sup": "–",
   "opp": "unnötig",
   "ex": "Diese Maßnahme ist absolut notwendig.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1858
  },
  {
   "w": "öffentlich",
@@ -1197,7 +1316,8 @@
   "sup": "am öffentlichsten",
   "opp": "privat",
   "ex": "Wir nutzen öffentliche Verkehrsmittel.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1487
  },
  {
   "w": "riesig",
@@ -1207,7 +1327,8 @@
   "sup": "am riesigsten",
   "opp": "winzig",
   "ex": "Der Elefant ist riesig.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1261
  },
  {
   "w": "streng",
@@ -1217,7 +1338,8 @@
   "sup": "am strengsten",
   "opp": "locker",
   "ex": "Der Lehrer war sehr streng.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1519
  },
  {
   "w": "tief",
@@ -1227,7 +1349,8 @@
   "sup": "am tiefsten",
   "opp": "flach",
   "ex": "Der See ist sehr tief.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 780
  },
  {
   "w": "trocken",
@@ -1237,7 +1360,8 @@
   "sup": "am trockensten",
   "opp": "nass",
   "ex": "Die Wäsche ist schon trocken.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1779
  },
  {
   "w": "unbedingt",
@@ -1247,7 +1371,8 @@
   "sup": "–",
   "opp": "optional",
   "ex": "Ich muss dir unbedingt etwas erzählen!",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1005
  },
  {
   "w": "verschieden",
@@ -1257,7 +1382,8 @@
   "sup": "am verschiedensten",
   "opp": "gleich",
   "ex": "Wir haben verschiedene Meinungen.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1237
  },
  {
   "w": "wertvoll",
@@ -1267,14 +1393,16 @@
   "sup": "am wertvollsten",
   "opp": "wertlos",
   "ex": "Dieser Ring ist sehr wertvoll.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1706
  },
  {
   "w": "super",
   "e": "super",
   "c": "Other",
   "ex": "Super, danke. — Super, thanks.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 787
  },
  {
   "w": "toll",
@@ -1283,7 +1411,8 @@
   "cmp": "toller",
   "sup": "am tollsten",
   "ex": "Wow, das ist toll! — Wow, that is great!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 337
  },
  {
   "w": "wenig",
@@ -1293,7 +1422,8 @@
   "sup": "am wenigsten",
   "opp": "viel",
   "ex": "Maria spricht nur wenig Deutsch. — Maria speaks only a little German.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 371
  },
  {
   "w": "rot",
@@ -1302,7 +1432,8 @@
   "cmp": "roter",
   "sup": "am rotesten",
   "ex": "Der Kugelschreiber ist rot. — The pen is red.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 822
  },
  {
   "w": "blau",
@@ -1311,7 +1442,8 @@
   "cmp": "blauer",
   "sup": "am blausten",
   "ex": "Die Brille ist blau. — The glasses are blue.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1008
  },
  {
   "w": "schwarz",
@@ -1320,7 +1452,8 @@
   "cmp": "schwärzer",
   "sup": "am schwärzesten",
   "ex": "Der Kugelschreiber ist schwarz. — The pen is black.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 725
  },
  {
   "w": "grün",
@@ -1329,7 +1462,8 @@
   "cmp": "grüner",
   "sup": "am grünsten",
   "ex": "Der Kalender ist grün. — The calendar is green.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1147
  },
  {
   "w": "weiß",
@@ -1338,7 +1472,8 @@
   "cmp": "weißer",
   "sup": "am weißesten",
   "ex": "Das Handy ist weiß. — The phone is white.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 85
  },
  {
   "w": "gelb",
@@ -1347,7 +1482,8 @@
   "cmp": "gelber",
   "sup": "am gelbsten",
   "ex": "Die Bücher sind gelb. — The books are yellow.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1718
  },
  {
   "w": "grau",
@@ -1356,7 +1492,8 @@
   "cmp": "grauer",
   "sup": "am grausten",
   "ex": "Der Bleistift ist grau. — The pencil is grey.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1832
  },
  {
   "w": "orange",
@@ -1365,7 +1502,8 @@
   "ex": "Die Stifte sind orange. — The pens are orange.",
   "lvl": "A1",
   "cmp": "–",
-  "sup": "–"
+  "sup": "–",
+  "f": 2314
  },
  {
   "w": "pink",
@@ -1374,7 +1512,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Der MP3-Player ist pink. — The MP3 player is pink.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2590
  },
  {
   "w": "braun",
@@ -1383,7 +1522,8 @@
   "cmp": "brauner",
   "sup": "am braunsten",
   "ex": "Die Kalender sind braun. — The calendars are brown.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1807
  },
  {
   "w": "gern(e)",
@@ -1393,7 +1533,8 @@
   "sup": "am liebsten",
   "ex": "Ja, gern. — Yes, gladly.",
   "lvl": "A1",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 244
  },
  {
   "w": "dies",
@@ -1403,7 +1544,8 @@
   "lvl": "A1",
   "wc": "Artikelwort",
   "cmp": "–",
-  "sup": "–"
+  "sup": "–",
+  "f": 48
  },
  {
   "w": "nächst",
@@ -1413,7 +1555,8 @@
   "lvl": "A1",
   "wc": "Artikelwort",
   "cmp": "–",
-  "sup": "–"
+  "sup": "–",
+  "f": 369
  },
  {
   "w": "lieb",
@@ -1422,7 +1565,8 @@
   "cmp": "lieb-er",
   "sup": "am lieb-sten",
   "ex": "Liebe Sabine, lieber Thomas! — Dear Sabine, dear Thomas!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 155
  },
  {
   "w": "erst",
@@ -1432,7 +1576,8 @@
   "lvl": "A1",
   "wc": "Ordinalzahl",
   "cmp": "–",
-  "sup": "–"
+  "sup": "–",
+  "f": 195
  },
  {
   "w": "zweit",
@@ -1442,7 +1587,8 @@
   "lvl": "A1",
   "wc": "Ordinalzahl",
   "cmp": "–",
-  "sup": "–"
+  "sup": "–",
+  "f": 731
  },
  {
   "w": "dritt",
@@ -1452,7 +1598,8 @@
   "lvl": "A1",
   "wc": "Ordinalzahl",
   "cmp": "–",
-  "sup": "–"
+  "sup": "–",
+  "f": 1030
  },
  {
   "w": "bestimmt",
@@ -1462,7 +1609,8 @@
   "sup": "–",
   "ex": "Er sucht die Uhr bestimmt … — He is certainly looking for the watch ...",
   "lvl": "A1",
-  "wc": "Partikel"
+  "wc": "Partikel",
+  "f": 516
  },
  {
   "w": "hoffentlich",
@@ -1472,7 +1620,8 @@
   "sup": "–",
   "ex": "Hoffentlich geht es schnell. — Hopefully it will be quick.",
   "lvl": "A1",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 989
  },
  {
   "w": "okay",
@@ -1482,7 +1631,8 @@
   "sup": "–",
   "ex": "Wie geht’s? – Alles okay. — How are you? – Everything is okay.",
   "lvl": "A1",
-  "wc": "Partikel"
+  "wc": "Partikel",
+  "f": 152
  },
  {
   "w": "schade",
@@ -1492,7 +1642,8 @@
   "sup": "–",
   "ex": "Hmm. Schade! — Hmm. What a shame!",
   "lvl": "A1",
-  "wc": "Partikel"
+  "wc": "Partikel",
+  "f": 812
  },
  {
   "w": "halb",
@@ -1502,7 +1653,8 @@
   "sup": "–",
   "ex": "Es ist halb elf. — It is half past ten.",
   "lvl": "A1",
-  "wc": "Zahlwort"
+  "wc": "Zahlwort",
+  "f": 744
  },
  {
   "w": "live",
@@ -1512,7 +1664,8 @@
   "sup": "–",
   "ex": "Die Band ist live in Hamburg. — The band is live in Hamburg.",
   "lvl": "A1",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 2088
  },
  {
   "w": "deutsch",
@@ -1521,7 +1674,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Es spielt die deutsche Band „Die Fantastischen Vier“. — The German band 'Die Fantastischen Vier' is playing.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 905
  },
  {
   "w": "na",
@@ -1531,7 +1685,8 @@
   "sup": "–",
   "ex": "Na, wie geht’s? — So, how are you?",
   "lvl": "A1",
-  "wc": "Partikel"
+  "wc": "Partikel",
+  "f": 202
  },
  {
   "w": "online",
@@ -1541,7 +1696,8 @@
   "sup": "–",
   "ex": "Zuletzt online heute um 17:32. — Last online today at 17:32.",
   "lvl": "A1",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 2187
  },
  {
   "w": "geöffnet",
@@ -1550,7 +1706,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Alle Museen sind von 18:00 bis 24:00 Uhr geöffnet. — All museums are open from 6 p.m. to midnight.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1620
  },
  {
   "w": "täglich",
@@ -1559,7 +1716,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Das Museum ist täglich geöffnet. — The museum is open daily.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1685
  },
  {
   "w": "klar",
@@ -1570,7 +1728,8 @@
   "opp": "unklar",
   "ex": "Ja, klar. — Yes, of course.",
   "lvl": "A1",
-  "wc": "Partikel"
+  "wc": "Partikel",
+  "f": 219
  },
  {
   "w": "letzt",
@@ -1580,7 +1739,8 @@
   "lvl": "A1",
   "wc": "Artikelwort",
   "cmp": "–",
-  "sup": "–"
+  "sup": "–",
+  "f": 248
  },
  {
   "w": "mehr",
@@ -1590,7 +1750,8 @@
   "sup": "–",
   "ex": "Ich kann nicht mehr. — I cannot go on anymore.",
   "lvl": "A1",
-  "wc": "Zahlwort"
+  "wc": "Zahlwort",
+  "f": 108
  },
  {
   "w": "lieber",
@@ -1600,7 +1761,8 @@
   "sup": "–",
   "ex": "Ich möchte lieber grüne Äpfel. — I would rather have green apples.",
   "lvl": "A1",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 428
  },
  {
   "w": "viel",
@@ -1610,14 +1772,16 @@
   "sup": "am meisten",
   "opp": "wenig",
   "ex": "In der Schule habe ich super viel Stress. — At school I have a lot of stress.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 50
  },
  {
   "w": "prima",
   "e": "fantastic, great",
   "c": "Quality & Value",
   "ex": "Prima, dann nehme ich das Auto. — Great, then I will take the car.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1391
  },
  {
   "w": "unterwegs",
@@ -1627,7 +1791,8 @@
   "sup": "–",
   "ex": "Sie ist viel unterwegs. — She is out and about a lot.",
   "lvl": "A1",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 925
  },
  {
   "w": "ordentlich",
@@ -1636,7 +1801,8 @@
   "cmp": "ordentlicher",
   "sup": "am ordentlichsten",
   "ex": "Als Sekretärin muss sie sehr ordentlich arbeiten. — As a secretary she has to work very tidily.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1820
  },
  {
   "w": "pro",
@@ -1646,14 +1812,16 @@
   "sup": "–",
   "ex": "Er arbeitet vier Tage pro Woche. — He works four days per week.",
   "lvl": "A1",
-  "wc": "Präposition"
+  "wc": "Präposition",
+  "f": 1223
  },
  {
   "w": "klasse",
   "e": "great, super",
   "c": "Quality & Value",
   "ex": "Das ist klasse! — That is great!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 838
  },
  {
   "w": "wunderbar",
@@ -1662,7 +1830,8 @@
   "cmp": "wunderbarer",
   "sup": "am wunderbarsten",
   "ex": "Das ist wunderbar! — That is wonderful!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 800
  },
  {
   "w": "klangvoll",
@@ -1671,7 +1840,8 @@
   "cmp": "klangvoller",
   "sup": "am klangvollsten",
   "ex": "Unser Motto ist: Klangvoll. — Our motto is: melodious.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 3624
  },
  {
   "w": "echt",
@@ -1681,7 +1851,8 @@
   "sup": "–",
   "ex": "Echt? Das Stück ist doch toll. — Really? But the play is great.",
   "lvl": "A1",
-  "wc": "Partikel"
+  "wc": "Partikel",
+  "f": 343
  },
  {
   "w": "herzlich",
@@ -1690,7 +1861,8 @@
   "cmp": "herzlicher",
   "sup": "am herzlichsten",
   "ex": "Du bist herzlich eingeladen. — You are warmly invited.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1235
  },
  {
   "w": "getrennt",
@@ -1700,7 +1872,8 @@
   "sup": "–",
   "ex": "Zahlen Sie zusammen oder getrennt? — Are you paying together or separately?",
   "lvl": "A1",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 1546
  },
  {
   "w": "nochmal",
@@ -1710,7 +1883,8 @@
   "sup": "–",
   "ex": "Vielen Dank nochmal für die Einladung. — Many thanks again for the invitation.",
   "lvl": "A1",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 844
  },
  {
   "w": "breit",
@@ -1720,7 +1894,8 @@
   "sup": "am breitesten",
   "opp": "eng",
   "ex": "Der Flur ist sehr breit. — The hallway is very wide.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1991
  },
  {
   "w": "sonnig",
@@ -1729,7 +1904,8 @@
   "cmp": "sonniger",
   "sup": "am sonnigsten",
   "ex": "Der Balkon ist sehr sonnig. — The balcony is very sunny.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 3009
  },
  {
   "w": "ander",
@@ -1739,7 +1915,8 @@
   "lvl": "A1",
   "wc": "Artikelwort",
   "cmp": "–",
-  "sup": "–"
+  "sup": "–",
+  "f": 153
  },
  {
   "w": "froh",
@@ -1748,7 +1925,8 @@
   "cmp": "froher",
   "sup": "am frohsten",
   "ex": "Ich bin ja so froh. — I am so glad.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 703
  },
  {
   "w": "nervös",
@@ -1757,7 +1935,8 @@
   "cmp": "nervöser",
   "sup": "am nervösesten",
   "ex": "Sie ist nervös. — She is nervous.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1110
  },
  {
   "w": "gespannt",
@@ -1766,7 +1945,8 @@
   "cmp": "gespannter",
   "sup": "am gespanntesten",
   "ex": "Ich bin gespannt. — I am curious.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2318
  },
  {
   "w": "schmal",
@@ -1776,7 +1956,8 @@
   "sup": "am schmalsten",
   "opp": "breit",
   "ex": "Der Flur ist nicht schmal. — The hallway is not narrow.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2892
  },
  {
   "w": "maximal",
@@ -1786,7 +1967,8 @@
   "sup": "–",
   "ex": "Wir möchten maximal 700 Euro bezahlen. — We want to pay a maximum of 700 euros.",
   "lvl": "A1",
-  "wc": "Zahlwort"
+  "wc": "Zahlwort",
+  "f": 2647
  },
  {
   "w": "total",
@@ -1796,7 +1978,8 @@
   "sup": "–",
   "ex": "Das Hotel ist total schön. — The hotel is absolutely beautiful.",
   "lvl": "A1",
-  "wc": "Partikel"
+  "wc": "Partikel",
+  "f": 741
  },
  {
   "w": "chaotisch",
@@ -1805,7 +1988,8 @@
   "cmp": "chaotischer",
   "sup": "am chaotischesten",
   "ex": "Der Umzug war total chaotisch! — The move was totally chaotic!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2899
  },
  {
   "w": "perfekt",
@@ -1814,7 +1998,8 @@
   "cmp": "perfekter",
   "sup": "am perfektesten",
   "ex": "Perfekt! Ich freue mich schon auf euch. — Perfect! I am already looking forward to seeing you.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 720
  },
  {
   "w": "schrecklich",
@@ -1823,7 +2008,8 @@
   "cmp": "schrecklicher",
   "sup": "am schrecklichsten",
   "ex": "Das Wetter war schrecklich. — The weather was terrible.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 774
  },
  {
   "w": "sozial",
@@ -1832,7 +2018,8 @@
   "cmp": "sozialer",
   "sup": "am sozialsten",
   "ex": "Sehr wichtig sind auch soziale Netzwerke.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2204
  },
  {
   "w": "beendet",
@@ -1841,7 +2028,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Der Anruf mit Bettina ist beendet. — The call with Bettina has ended.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1475
  },
  {
   "w": "frisch",
@@ -1851,7 +2039,8 @@
   "sup": "am frischesten",
   "opp": "alt / verdorben",
   "ex": "Alles ist frisch, hier kommt nichts aus der Tiefkühltruhe. — Everything is fresh, nothing here comes from the freezer.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1019
  },
  {
   "w": "folgend(e)",
@@ -1861,7 +2050,8 @@
   "sup": "–",
   "ex": "Folgende Fragen helfen Ihnen. — The following questions will help you.",
   "lvl": "A1",
-  "wc": "Artikelwort"
+  "wc": "Artikelwort",
+  "f": 3103
  },
  {
   "w": "soweit",
@@ -1871,7 +2061,8 @@
   "sup": "–",
   "ex": "Nun ist es soweit. — Now the time has come.",
   "lvl": "A1",
-  "wc": "Partikel"
+  "wc": "Partikel",
+  "f": 1173
  },
  {
   "w": "international",
@@ -1880,7 +2071,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Internationales Essen – sehr interessant! — International food – very interesting!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1821
  },
  {
   "w": "positiv",
@@ -1889,7 +2081,8 @@
   "cmp": "positiver",
   "sup": "am positivsten",
   "ex": "Das war alles positiv. — That was all positive.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1669
  },
  {
   "w": "negativ",
@@ -1898,7 +2091,8 @@
   "cmp": "negativer",
   "sup": "am negativsten",
   "ex": "Das war alles negativ. — That was all negative.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1661
  },
  {
   "w": "begeistert",
@@ -1907,7 +2101,8 @@
   "cmp": "begeisterter",
   "sup": "am begeistertesten",
   "ex": "Alle waren begeistert! — Everyone was delighted!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1754
  },
  {
   "w": "inklusive",
@@ -1917,7 +2112,8 @@
   "sup": "–",
   "ex": "Das Schlossticket gibt es inklusive Audioguide. — The castle ticket comes with an audio guide included.",
   "lvl": "A1",
-  "wc": "Präposition"
+  "wc": "Präposition",
+  "f": 2600
  },
  {
   "w": "japanisch",
@@ -1926,7 +2122,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Ich esse gern japanisches Essen. — I like eating Japanese food.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1978
  },
  {
   "w": "normalerweise",
@@ -1936,7 +2133,8 @@
   "sup": "–",
   "ex": "Normalerweise brauche ich circa 20 Minuten zur Arbeit. — Normally I need about 20 minutes to get to work.",
   "lvl": "A1",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 1416
  },
  {
   "w": "offiziell",
@@ -1945,7 +2143,8 @@
   "cmp": "offizieller",
   "sup": "am offiziellsten",
   "ex": "Pünktlichkeit ist bei offiziellen Terminen wichtig. — Punctuality is important for official appointments.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1370
  },
  {
   "w": "unpünktlich",
@@ -1954,7 +2153,8 @@
   "cmp": "unpünktlicher",
   "sup": "am unpünktlichsten",
   "ex": "Er ist leider oft unpünktlich. — Unfortunately he is often unpunctual.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 3612
  },
  {
   "w": "stark",
@@ -1964,7 +2164,8 @@
   "sup": "am stärksten",
   "opp": "schwach",
   "ex": "Was spricht man stark aus? — What is pronounced with emphasis?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 623
  },
  {
   "w": "schwach",
@@ -1974,7 +2175,8 @@
   "sup": "am schwächsten",
   "opp": "stark",
   "ex": "Was spricht man schwach aus? — What is pronounced without emphasis?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1188
  },
  {
   "w": "fix",
@@ -1983,7 +2185,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Sie sind wirklich fix! — You are really quick!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2714
  },
  {
   "w": "sauer",
@@ -1992,7 +2195,8 @@
   "cmp": "saurer",
   "sup": "am sauersten",
   "ex": "Sonst wird sie richtig sauer auf mich! — Otherwise she will get really annoyed with me!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1017
  },
  {
   "w": "privat",
@@ -2001,7 +2205,8 @@
   "cmp": "privater",
   "sup": "am privatesten",
   "ex": "Sie dürfen privat telefonieren, aber bitte in der Pause. — You may make private calls, but please during the break.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1405
  },
  {
   "w": "geschafft",
@@ -2010,7 +2215,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Geschafft. Gute Arbeit, Kim. — Done. Good work, Kim.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 805
  },
  {
   "w": "entspannt",
@@ -2019,7 +2225,8 @@
   "cmp": "entspannter",
   "sup": "am entspanntesten",
   "ex": "Meine Großmutter ist immer sehr entspannt. — My grandmother is always very relaxed.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2190
  },
  {
   "w": "weit",
@@ -2029,7 +2236,8 @@
   "sup": "am weitesten",
   "opp": "nah",
   "ex": "Der Weg zur Arbeit ist weit. — The way to work is far.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 215
  },
  {
   "w": "ebenso",
@@ -2039,7 +2247,8 @@
   "sup": "–",
   "ex": "Lukas und Lisa kommen ebenso. — Lukas and Lisa are coming as well.",
   "lvl": "A1",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 1548
  },
  {
   "w": "männlich",
@@ -2048,7 +2257,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Sein Geschlecht ist männlich. — His gender is male.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1843
  },
  {
   "w": "weiblich",
@@ -2057,7 +2267,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Ihr Geschlecht ist weiblich. — Her gender is female.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1798
  },
  {
   "w": "dringend",
@@ -2066,14 +2277,16 @@
   "cmp": "dringender",
   "sup": "am dringendesten",
   "ex": "Roberto braucht dringend Urlaub. — Roberto urgently needs a holiday.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1286
  },
  {
   "w": "besonder",
   "e": "special",
   "c": "Other",
   "ex": "Ein besonderes Fest kann das Ehepaar feiern. — The married couple can celebrate a special occasion.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 904
  },
  {
   "w": "aktiv",
@@ -2082,7 +2295,8 @@
   "cmp": "aktiver",
   "sup": "am aktivsten",
   "ex": "Beide sind noch immer sehr aktiv. — Both are still very active.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2062
  },
  {
   "w": "selbst",
@@ -2092,7 +2306,8 @@
   "sup": "–",
   "ex": "Im Garten machen sie noch alles selbst. — In the garden they still do everything themselves.",
   "lvl": "A1",
-  "wc": "Artikelwort"
+  "wc": "Artikelwort",
+  "f": 264
  },
  {
   "w": "tja",
@@ -2102,7 +2317,8 @@
   "sup": "–",
   "ex": "Tja, das war vor 60 Jahren. — Well, that was 60 years ago.",
   "lvl": "A1",
-  "wc": "Partikel"
+  "wc": "Partikel",
+  "f": 742
  },
  {
   "w": "kommunikativ",
@@ -2111,7 +2327,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Sie sind: kommunikativ und freundlich. — You are: communicative and friendly.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 3625
  },
  {
   "w": "gesendet",
@@ -2120,7 +2337,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Gesendet: 20. Juni, 20:41. — Sent: 20 June, 20:41.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2808
  },
  {
   "w": "aufregend",
@@ -2129,7 +2347,8 @@
   "cmp": "aufregender",
   "sup": "am aufregendesten",
   "ex": "Das war total aufregend. — That was totally exciting.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1551
  },
  {
   "w": "cool",
@@ -2138,7 +2357,8 @@
   "cmp": "cooler",
   "sup": "am coolsten",
   "ex": "Nach dem zweiten Interview war ich ziemlich cool. — After the second interview I was quite cool.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 739
  },
  {
   "w": "fantastisch",
@@ -2147,7 +2367,8 @@
   "cmp": "fantastischer",
   "sup": "am fantastischesten",
   "ex": "China ist fantastisch! — China is fantastic!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1104
  },
  {
   "w": "wohl",
@@ -2157,7 +2378,8 @@
   "sup": "–",
   "ex": "Da muss ich wohl mehr Geld verdienen. — Then I will probably have to earn more money.",
   "lvl": "A1",
-  "wc": "Partikel"
+  "wc": "Partikel",
+  "f": 247
  },
  {
   "w": "siebt",
@@ -2167,7 +2389,8 @@
   "lvl": "A1",
   "wc": "Ordinalzahl",
   "cmp": "–",
-  "sup": "–"
+  "sup": "–",
+  "f": 2615
  },
  {
   "w": "dreizehnt",
@@ -2177,7 +2400,8 @@
   "lvl": "A1",
   "wc": "Ordinalzahl",
   "cmp": "–",
-  "sup": "–"
+  "sup": "–",
+  "f": 3626
  },
  {
   "w": "siebenundzwanzigst",
@@ -2187,7 +2411,8 @@
   "lvl": "A1",
   "wc": "Ordinalzahl",
   "cmp": "–",
-  "sup": "–"
+  "sup": "–",
+  "f": 3627
  },
  {
   "w": "fehlend",
@@ -2196,7 +2421,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Ergänzen Sie die Anmeldung mit den fehlenden Angaben. — Complete the registration with the missing details.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2543
  },
  {
   "w": "jährlich",
@@ -2205,7 +2431,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Jährlich haben 50 % der Wintersportler einen Unfall. — Every year 50% of winter sports enthusiasts have an accident.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2803
  },
  {
   "w": "schlimm",
@@ -2214,7 +2441,8 @@
   "cmp": "schlimmer",
   "sup": "am schlimmsten",
   "ex": "Es ist nicht so schlimm. — It is not that bad.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 519
  },
  {
   "w": "plötzlich",
@@ -2224,7 +2452,8 @@
   "sup": "–",
   "ex": "Plötzlich hatte ich sehr starke Schmerzen. — Suddenly I had very severe pain.",
   "lvl": "A1",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 915
  },
  {
   "w": "vormittags",
@@ -2234,14 +2463,16 @@
   "sup": "–",
   "ex": "Wir sind vormittags gemeinsam Ski gefahren. — In the mornings we went skiing together.",
   "lvl": "A1",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 3423
  },
  {
   "w": "manch",
   "e": "some",
   "c": "Size & Quantity",
   "ex": "Nebenwirkungen: Manche Personen verlieren den Appetit. — Side effects: some people lose their appetite.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 956
  },
  {
   "w": "fit",
@@ -2250,7 +2481,8 @@
   "cmp": "fiter",
   "sup": "am fitesten",
   "ex": "Ich bin immer noch nicht ganz fit. — I am still not quite fit.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2433
  },
  {
   "w": "spontan",
@@ -2259,7 +2491,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Hast du jetzt vielleicht spontan Zeit? — Do you happen to have time right now?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2539
  },
  {
   "w": "einmal",
@@ -2269,7 +2502,8 @@
   "sup": "–",
   "ex": "Einmal in der Woche macht Ute Gymnastik. — Once a week Ute does gymnastics.",
   "lvl": "A1",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 386
  },
  {
   "w": "zweimal",
@@ -2279,7 +2513,8 @@
   "sup": "–",
   "ex": "Zweimal in der Woche gehe ich ins Fitnessstudio. — Twice a week I go to the gym.",
   "lvl": "A1",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 1482
  },
  {
   "w": "aktuell",
@@ -2288,7 +2523,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Wo finde ich aktuelle Informationen? — Where can I find current information?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2320
  },
  {
   "w": "monatlich",
@@ -2297,7 +2533,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Den Kurs gibt es schon ab 34 € monatlich. — The course is available from €34 monthly.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 3083
  },
  {
   "w": "sportlich",
@@ -2306,7 +2543,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "61 % der Männer sind sportlich aktiv. — 61% of men are active in sports.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 3070
  },
  {
   "w": "regelmäßig",
@@ -2315,7 +2553,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "66 % machen regelmäßig Sport. — 66% do sport regularly.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2328
  },
  {
   "w": "viert",
@@ -2325,7 +2564,8 @@
   "lvl": "A1",
   "wc": "Ordinalzahl",
   "cmp": "–",
-  "sup": "–"
+  "sup": "–",
+  "f": 1734
  },
  {
   "w": "vorn(e)",
@@ -2335,7 +2575,8 @@
   "sup": "–",
   "ex": "Die Kasse ist gleich dort vorne. — The checkout is right at the front there.",
   "lvl": "A1",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 1627
  },
  {
   "w": "samstags",
@@ -2345,7 +2586,8 @@
   "sup": "–",
   "ex": "Wir haben samstags länger geöffnet. — We are open longer on Saturdays.",
   "lvl": "A1",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 3173
  },
  {
   "w": "elegant",
@@ -2354,7 +2596,8 @@
   "cmp": "eleganter",
   "sup": "am elegantesten",
   "ex": "Ich finde sie elegant. — I find it elegant.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2352
  },
  {
   "w": "schick",
@@ -2363,7 +2606,8 @@
   "cmp": "schicker",
   "sup": "am schicksten",
   "ex": "Diese Schuhe sind sehr schick! — These shoes are very smart!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 648
  },
  {
   "w": "eng",
@@ -2373,7 +2617,8 @@
   "sup": "am engsten",
   "opp": "breit / weit",
   "ex": "Die Schuhe sind mir zu eng. — The shoes are too tight for me.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1426
  },
  {
   "w": "lässig",
@@ -2382,7 +2627,8 @@
   "cmp": "lässiger",
   "sup": "am lässigsten",
   "ex": "Meine Klamotten müssen lässig sein. — My clothes have to be casual.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 3280
  },
  {
   "w": "feminin",
@@ -2391,7 +2637,8 @@
   "cmp": "femininer",
   "sup": "am femininsten",
   "ex": "Hier seht ihr mein Lieblingsoutfit, feminin und klassisch. — Here you see my favourite outfit, feminine and classic.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 3454
  },
  {
   "w": "klassisch",
@@ -2400,7 +2647,8 @@
   "cmp": "klassischer",
   "sup": "am klassischesten",
   "ex": "Sie trägt gern klassische Kleidung in dunklen Farben. — She likes wearing classic clothes in dark colours.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2099
  },
  {
   "w": "bitteschön",
@@ -2410,7 +2658,8 @@
   "sup": "–",
   "ex": "Guten Morgen! Bitteschön? — Good morning! What would you like?",
   "lvl": "A1",
-  "wc": "Partikel"
+  "wc": "Partikel",
+  "f": 2743
  },
  {
   "w": "gleichfalls",
@@ -2420,7 +2669,8 @@
   "sup": "–",
   "ex": "Danke, gleichfalls. — Thanks, the same to you.",
   "lvl": "A1",
-  "wc": "Partikel"
+  "wc": "Partikel",
+  "f": 2672
  },
  {
   "w": "zentral",
@@ -2429,14 +2679,16 @@
   "cmp": "zentraler",
   "sup": "am zentralsten",
   "ex": "Zentral am Heumarkt gibt es frisches Gemüse. — Centrally on the Heumarkt there are fresh vegetables.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1856
  },
  {
   "w": "extra",
   "e": "extra, particularly",
   "c": "Other",
   "ex": "Diese Äpfel sind extra süß. — These apples are extra sweet.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1654
  },
  {
   "w": "berühmt",
@@ -2445,7 +2697,8 @@
   "cmp": "berühmter",
   "sup": "am berühmtesten",
   "ex": "Das Schloss Nymphenburg ist sehr berühmt. — Nymphenburg Palace is very famous.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1355
  },
  {
   "w": "sowie",
@@ -2455,7 +2708,8 @@
   "sup": "–",
   "ex": "Dort fahren Busse sowie Züge des Nahverkehrs. — Buses as well as local service trains run there.",
   "lvl": "A1",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 2241
  },
  {
   "w": "automatisch",
@@ -2464,7 +2718,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Die Türen schließen automatisch. — The doors close automatically.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2391
  },
  {
   "w": "dadurch",
@@ -2474,7 +2729,8 @@
   "sup": "–",
   "ex": "Dadurch gibt es Verspätungen der Linien 3 und 5. — As a result there are delays on lines 3 and 5.",
   "lvl": "A1",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 1469
  },
  {
   "w": "dorthin",
@@ -2484,7 +2740,8 @@
   "sup": "–",
   "ex": "Wie kommt man dorthin? — How do you get there?",
   "lvl": "A1",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 1373
  },
  {
   "w": "windig",
@@ -2493,7 +2750,8 @@
   "cmp": "windiger",
   "sup": "am windigsten",
   "ex": "Es ist zu windig heute auf Sylt. — It is too windy today on Sylt.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 3312
  },
  {
   "w": "bewölkt",
@@ -2502,7 +2760,8 @@
   "cmp": "bewölkter",
   "sup": "am bewölktesten",
   "ex": "Im Westen ist es den ganzen Tag bewölkt. — In the west it is cloudy all day.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 3488
  },
  {
   "w": "plus",
@@ -2512,7 +2771,8 @@
   "sup": "–",
   "ex": "Es sind plus 8 Grad. — It is plus 8 degrees.",
   "lvl": "A1",
-  "wc": "Zahlwort"
+  "wc": "Zahlwort",
+  "f": 1969
  },
  {
   "w": "minus",
@@ -2522,7 +2782,8 @@
   "sup": "–",
   "ex": "In der Nacht sind es minus 8 Grad. — At night it is minus 8 degrees.",
   "lvl": "A1",
-  "wc": "Zahlwort"
+  "wc": "Zahlwort",
+  "f": 2510
  },
  {
   "w": "traumhaft",
@@ -2531,7 +2792,8 @@
   "cmp": "traumhafter",
   "sup": "am traumhaftesten",
   "ex": "Der Schwarzwald und die Berge sind traumhaft. — The Black Forest and the mountains are heavenly.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 3063
  },
  {
   "w": "selbstständig",
@@ -2540,7 +2802,8 @@
   "cmp": "selbstständiger",
   "sup": "am selbstständigsten",
   "ex": "Wie kann ich online als Übersetzer selbstständig arbeiten? — How can I work independently online as a translator?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 3152
  },
  {
   "w": "momentan",
@@ -2550,7 +2813,8 @@
   "sup": "–",
   "ex": "Wir suchen momentan Übersetzer für Deutsch und Englisch. — We are currently looking for translators for German and English.",
   "lvl": "A1",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 1816
  },
  {
   "w": "zeitlich",
@@ -2559,7 +2823,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Ich bin zeitlich flexibel. — I am flexible in terms of time.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 3144
  },
  {
   "w": "flexibel",
@@ -2568,7 +2833,8 @@
   "cmp": "flexibler",
   "sup": "am flexibelsten",
   "ex": "Ich bin zeitlich flexibel. — I am flexible in terms of time.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 3238
  },
  {
   "w": "gesamt",
@@ -2578,7 +2844,8 @@
   "sup": "–",
   "ex": "Im gesamten Büro ist das Rauchen verboten. — Smoking is forbidden in the whole office.",
   "lvl": "A1",
-  "wc": "Zahlwort"
+  "wc": "Zahlwort",
+  "f": 1292
  },
  {
   "w": "erlaubt",
@@ -2587,14 +2854,16 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Ja natürlich, hier ist Parken erlaubt. — Yes of course, parking is allowed here.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1359
  },
  {
   "w": "all",
   "e": "all",
   "c": "Size & Quantity",
   "ex": "Ich wünsche dir alles Gute!",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 39
  },
  {
   "w": "arbeitslos",
@@ -2603,7 +2872,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Seit wann ist er schon arbeitslos?",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2469
  },
  {
   "w": "beide",
@@ -2613,7 +2883,8 @@
   "sup": "–",
   "ex": "Wir kommen beide.",
   "lvl": "A2",
-  "wc": "Zahlwort"
+  "wc": "Zahlwort",
+  "f": 277
  },
  {
   "w": "bisschen",
@@ -2623,7 +2894,8 @@
   "sup": "–",
   "ex": "Können Sie bitte ein bisschen lauter sprechen?",
   "lvl": "A2",
-  "wc": "Zahlwort"
+  "wc": "Zahlwort",
+  "f": 492
  },
  {
   "w": "bitter",
@@ -2632,7 +2904,8 @@
   "cmp": "bittrer",
   "sup": "am bittersten",
   "ex": "Kaffee ohne Zucker schmeckt bitter.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2509
  },
  {
   "w": "blöd",
@@ -2641,7 +2914,8 @@
   "cmp": "blöder",
   "sup": "am blödesten",
   "ex": "Ich finde es blöd, dass du morgen gehen musst.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 786
  },
  {
   "w": "blond",
@@ -2650,7 +2924,8 @@
   "cmp": "blonder",
   "sup": "am blondesten",
   "ex": "Lisa hat blonde Haare.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1799
  },
  {
   "w": "bunt",
@@ -2659,7 +2934,8 @@
   "cmp": "bunter",
   "sup": "am buntesten",
   "ex": "Anna trägt gern bunte Kleider.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2762
  },
  {
   "w": "damals",
@@ -2669,7 +2945,8 @@
   "sup": "–",
   "ex": "Als Student hatte ich viel Zeit und wollte reisen.",
   "lvl": "A2",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 799
  },
  {
   "w": "dick",
@@ -2679,7 +2956,8 @@
   "sup": "am dicksten",
   "opp": "dünn",
   "ex": "Das Buch ist sehr dick. — The book is very thick.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1052
  },
  {
   "w": "drüben",
@@ -2689,7 +2967,8 @@
   "sup": "–",
   "ex": "Da drüben ist die Haltestelle.",
   "lvl": "A2",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 814
  },
  {
   "w": "dünn",
@@ -2699,7 +2978,8 @@
   "sup": "am dünnsten",
   "opp": "dick",
   "ex": "Das Buch ist sehr dünn.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1870
  },
  {
   "w": "eilig",
@@ -2708,7 +2988,8 @@
   "cmp": "eiliger",
   "sup": "am eiligsten",
   "ex": "Hast du es eilig?",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1755
  },
  {
   "w": "einig",
@@ -2717,7 +2998,8 @@
   "cmp": "einiger",
   "sup": "am einigsten",
   "ex": "In diesem Text sind einige Fehler.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 479
  },
  {
   "w": "einzel",
@@ -2727,7 +3009,8 @@
   "sup": "–",
   "ex": "Nicht alle zusammen.",
   "lvl": "A2",
-  "wc": "Zahlwort"
+  "wc": "Zahlwort",
+  "f": 3628
  },
  {
   "w": "fett",
@@ -2736,7 +3019,8 @@
   "cmp": "fetter",
   "sup": "am fettesten",
   "ex": "Die Wurst ist mir zu fett.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1277
  },
  {
   "w": "freiwillig",
@@ -2745,7 +3029,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Manchmal bleibe ich freiwillig länger im Büro.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1574
  },
  {
   "w": "furchtbar",
@@ -2754,7 +3039,8 @@
   "cmp": "furchtbarer",
   "sup": "am furchtbarsten",
   "ex": "Er hat furchtbare Schmerzen.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 977
  },
  {
   "w": "geehrt",
@@ -2763,7 +3049,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Sehr geehrte Damen und Herren, — Dear Sir or Madam,",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2329
  },
  {
   "w": "günstig",
@@ -2773,7 +3060,8 @@
   "sup": "am günstigsten",
   "opp": "teuer",
   "ex": "In diesem Laden gibt es immer günstige Angebote.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2505
  },
  {
   "w": "hart",
@@ -2783,7 +3071,8 @@
   "sup": "am härtesten",
   "opp": "weich",
   "ex": "Ich finde das Bett zu hart.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 644
  },
  {
   "w": "intelligent",
@@ -2792,7 +3081,8 @@
   "cmp": "intelligenter",
   "sup": "am intelligentesten",
   "ex": "Einstein war sehr intelligent.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1883
  },
  {
   "w": "lange",
@@ -2802,14 +3092,16 @@
   "sup": "–",
   "ex": "Wie lange fährt der Zug von Hamburg nach Berlin?",
   "lvl": "A2",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 283
  },
  {
   "w": "meist",
   "e": "most",
   "c": "Other",
   "ex": "Ich bin neu hier im Haus.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 576
  },
  {
   "w": "nebenan",
@@ -2819,7 +3111,8 @@
   "sup": "–",
   "ex": "Das ist José.",
   "lvl": "A2",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 1941
  },
  {
   "w": "neblig",
@@ -2828,7 +3121,8 @@
   "cmp": "nebliger",
   "sup": "am nebligsten",
   "ex": "Fahr vorsichtig!",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 3549
  },
  {
   "w": "nützlich",
@@ -2837,7 +3131,8 @@
   "cmp": "nützlicher",
   "sup": "am nützlichsten",
   "ex": "Danke für den Tipp.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1762
  },
  {
   "w": "preiswert",
@@ -2846,7 +3141,8 @@
   "cmp": "preiswerter",
   "sup": "am preiswertesten",
   "ex": "Die Jacke ist sehr preiswert.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 3532
  },
  {
   "w": "reich",
@@ -2856,7 +3152,8 @@
   "sup": "am reichsten",
   "opp": "arm",
   "ex": "ist reich.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 723
  },
  {
   "w": "romantisch",
@@ -2865,7 +3162,8 @@
   "cmp": "romantischer",
   "sup": "am romantischesten",
   "ex": "Dieser Film ist sehr romantisch.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1515
  },
  {
   "w": "scharf",
@@ -2875,7 +3173,8 @@
   "sup": "am schärfsten",
   "opp": "mild",
   "ex": "Suppe ist mir zu scharf.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1302
  },
  {
   "w": "schwanger",
@@ -2884,7 +3183,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "ist schwanger.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1157
  },
  {
   "w": "sogar",
@@ -2894,7 +3194,8 @@
   "sup": "–",
   "ex": "Heute ist es sehr kalt.",
   "lvl": "A2",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 528
  },
  {
   "w": "spannend",
@@ -2904,7 +3205,8 @@
   "sup": "am spannendesten",
   "opp": "langweilig",
   "ex": "Ich finde den Film sehr spannend.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1305
  },
  {
   "w": "stressig",
@@ -2913,7 +3215,8 @@
   "cmp": "stressiger",
   "sup": "am stressigsten",
   "ex": "Meine Arbeit ist stressig.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 3192
  },
  {
   "w": "süß",
@@ -2922,7 +3225,8 @@
   "cmp": "süßer",
   "sup": "am süßesten",
   "ex": "Ich finde die Torte zu süß.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 588
  },
  {
   "w": "sympathisch",
@@ -2931,7 +3235,8 @@
   "cmp": "sympathischer",
   "sup": "am sympathischesten",
   "ex": "Der neue Chef ist sehr sympathisch.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2836
  },
  {
   "w": "tot",
@@ -2940,7 +3245,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Großeltern sind schon lange tot.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 280
  },
  {
   "w": "übermorgen",
@@ -2950,7 +3256,8 @@
   "sup": "–",
   "ex": "Morgen habe ich frei.",
   "lvl": "A2",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 2487
  },
  {
   "w": "vorbei",
@@ -2960,7 +3267,8 @@
   "sup": "–",
   "ex": "Die Linie 8 fährt am Krankenhaus vorbei.",
   "lvl": "A2",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 510
  },
  {
   "w": "vorgestern",
@@ -2970,7 +3278,8 @@
   "sup": "–",
   "ex": "Er hat mich vorgestern angerufen.",
   "lvl": "A2",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 2797
  },
  {
   "w": "vorsichtig",
@@ -2979,7 +3288,8 @@
   "cmp": "vorsichtiger",
   "sup": "am vorsichtigsten",
   "ex": "Sei vorsichtig!",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 833
  },
  {
   "w": "vorwärts",
@@ -2989,7 +3299,8 @@
   "sup": "–",
   "ex": "Fahren Sie bitte noch ein Stück vorwärts.",
   "lvl": "A2",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 1380
  },
  {
   "w": "wach",
@@ -2999,7 +3310,8 @@
   "sup": "am wachsten",
   "opp": "müde",
   "ex": "Bist du schon lange wach?",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 715
  },
  {
   "w": "wahr",
@@ -3008,7 +3320,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Das ist (nicht) wahr!",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 348
  },
  {
   "w": "wahrscheinlich",
@@ -3018,7 +3331,8 @@
   "sup": "–",
   "ex": "Wahrscheinlich mache ich im Herbst einen Deutschkurs.",
   "lvl": "A2",
-  "wc": "Adverb"
+  "wc": "Adverb",
+  "f": 697
  },
  {
   "w": "weich",
@@ -3028,7 +3342,8 @@
   "sup": "am weichsten",
   "opp": "hart",
   "ex": "Ich möchte zum Frühstück ein weiches Ei.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1586
  },
  {
   "w": "willkommen",
@@ -3037,7 +3352,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "willkommen in Berlin!",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 706
  },
  {
   "w": "einverstanden",
@@ -3046,7 +3362,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Ich bin mit dem Plan einverstanden. — I agree with the plan.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1282
  },
  {
   "w": "eingeladen",
@@ -3056,7 +3373,8 @@
   "sup": "–",
   "opp": "–",
   "ex": "Wir sind herzlich eingeladen. — We are warmly invited.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1301
  },
  {
   "w": "geschieden",
@@ -3066,7 +3384,8 @@
   "sup": "–",
   "opp": "verheiratet",
   "ex": "Meine Eltern sind geschieden. — My parents are divorced.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2238
  },
  {
   "w": "verboten",
@@ -3076,7 +3395,8 @@
   "sup": "–",
   "opp": "erlaubt",
   "ex": "Rauchen ist hier verboten. — Smoking is forbidden here.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1437
  },
  {
   "w": "gebrochen",
@@ -3086,7 +3406,8 @@
   "sup": "–",
   "opp": "heil / ganz",
   "ex": "Mein Arm ist gebrochen. — My arm is broken.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1174
  },
  {
   "w": "ähnlich",
@@ -3096,7 +3417,8 @@
   "sup": "am ähnlichsten",
   "opp": "verschieden",
   "ex": "Du siehst deiner Mutter sehr ähnlich. — You look very similar to your mother.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1176
  },
  {
   "w": "ärgerlich",
@@ -3106,7 +3428,8 @@
   "sup": "am ärgerlichsten",
   "opp": "erfreulich",
   "ex": "Das ist wirklich ärgerlich! — That's really annoying!",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2924
  },
  {
   "w": "doppelt",
@@ -3114,7 +3437,8 @@
   "c": "Size & Quantity",
   "opp": "halb",
   "ex": "Du hast die Datei doppelt gespeichert. — You saved the file twice.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1494
  },
  {
   "w": "hübsch",
@@ -3124,7 +3448,8 @@
   "sup": "am hübschesten",
   "opp": "hässlich",
   "ex": "Das ist ein hübsches Kleid. — That's a pretty dress.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 694
  },
  {
   "w": "kompliziert",
@@ -3134,7 +3459,8 @@
   "sup": "am kompliziertesten",
   "opp": "einfach",
   "ex": "Die Grammatik ist gar nicht so kompliziert. — The grammar isn't that complicated at all.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1360
  },
  {
   "w": "niedrig",
@@ -3144,7 +3470,8 @@
   "sup": "am niedrigsten",
   "opp": "hoch",
   "ex": "Die Preise sind hier niedrig. — Prices are low here.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2272
  },
  {
   "w": "satt",
@@ -3154,7 +3481,8 @@
   "sup": "–",
   "opp": "hungrig",
   "ex": "Danke, ich bin satt. — Thanks, I'm full.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1525
  },
  {
   "w": "schlank",
@@ -3164,7 +3492,8 @@
   "sup": "am schlanksten",
   "opp": "dick",
   "ex": "Er ist groß und schlank. — He is tall and slim.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2840
  },
  {
   "w": "seltsam",
@@ -3174,7 +3503,8 @@
   "sup": "am seltsamsten",
   "opp": "normal",
   "ex": "Ein seltsames Geräusch kommt aus dem Keller. — A strange noise is coming from the cellar.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 826
  },
  {
   "w": "still",
@@ -3184,7 +3514,8 @@
   "sup": "am stillsten",
   "opp": "laut",
   "ex": "Bitte sei still, das Baby schläft. — Please be quiet, the baby is sleeping.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 768
  },
  {
   "w": "verletzt",
@@ -3194,7 +3525,8 @@
   "ex": "Bei dem Unfall wurde niemand verletzt. — Nobody was injured in the accident.",
   "lvl": "A2",
   "cmp": "–",
-  "sup": "–"
+  "sup": "–",
+  "f": 783
  },
  {
   "w": "verrückt",
@@ -3204,7 +3536,8 @@
   "sup": "am verrücktesten",
   "opp": "vernünftig",
   "ex": "Das ist eine verrückte Idee! — That's a crazy idea!",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 417
  },
  {
   "w": "angenehm",
@@ -3214,7 +3547,8 @@
   "sup": "am angenehmsten",
   "opp": "unangenehm",
   "ex": "Hier ist es angenehm kühl. — It's pleasantly cool here.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1577
  },
  {
   "w": "aufmerksam",
@@ -3224,7 +3558,8 @@
   "sup": "am aufmerksamsten",
   "opp": "unaufmerksam",
   "ex": "Die Schüler hören aufmerksam zu. — The students listen attentively.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2192
  },
  {
   "w": "ausführlich",
@@ -3234,7 +3569,8 @@
   "sup": "am ausführlichsten",
   "opp": "kurz",
   "ex": "Er hat alles ausführlich erklärt. — He explained everything in detail.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 3125
  },
  {
   "w": "ausgezeichnet",
@@ -3242,7 +3578,8 @@
   "c": "Quality & Value",
   "opp": "schlecht",
   "ex": "Das Essen war ausgezeichnet! — The food was excellent!",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1473
  },
  {
   "w": "berufstätig",
@@ -3252,7 +3589,8 @@
   "ex": "Beide Eltern sind berufstätig. — Both parents work.",
   "lvl": "B1",
   "cmp": "–",
-  "sup": "–"
+  "sup": "–",
+  "f": 3622
  },
  {
   "w": "bescheiden",
@@ -3262,7 +3600,8 @@
   "sup": "am bescheidensten",
   "opp": "arrogant",
   "ex": "Trotz ihres Erfolgs ist sie sehr bescheiden. — Despite her success she is very modest.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2210
  },
  {
   "w": "bewusst",
@@ -3272,7 +3611,8 @@
   "sup": "am bewusstesten",
   "opp": "unbewusst",
   "ex": "Mir ist das Problem bewusst. — I am aware of the problem.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1542
  },
  {
   "w": "digital",
@@ -3280,7 +3620,8 @@
   "c": "Quality & Value",
   "opp": "analog",
   "ex": "Die Rechnung kommt nur noch digital. — The invoice now only comes digitally.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2742
  },
  {
   "w": "durchschnittlich",
@@ -3288,7 +3629,8 @@
   "c": "Size & Quantity",
   "opp": "außergewöhnlich",
   "ex": "Er verdient ein durchschnittliches Gehalt. — He earns an average salary.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2894
  },
  {
   "w": "ehemalig",
@@ -3296,7 +3638,8 @@
   "c": "Time & Frequency",
   "opp": "zukünftig",
   "ex": "Mein ehemaliger Kollege arbeitet jetzt in Berlin. — My former colleague now works in Berlin.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1884
  },
  {
   "w": "einsam",
@@ -3306,7 +3649,8 @@
   "sup": "am einsamsten",
   "opp": "gesellig",
   "ex": "Ohne Freunde fühlt man sich schnell einsam. — Without friends you quickly feel lonely.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1332
  },
  {
   "w": "einzeln",
@@ -3314,14 +3658,16 @@
   "c": "Size & Quantity",
   "opp": "gemeinsam",
   "ex": "Die Schuhe werden nicht einzeln verkauft. — The shoes are not sold individually.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1488
  },
  {
   "w": "einzig",
   "e": "only / sole",
   "c": "Size & Quantity",
   "ex": "Das ist die einzige Möglichkeit. — That is the only possibility.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 400
  },
  {
   "w": "empfindlich",
@@ -3331,7 +3677,8 @@
   "sup": "am empfindlichsten",
   "opp": "robust",
   "ex": "Meine Haut ist sehr empfindlich. — My skin is very sensitive.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2390
  },
  {
   "w": "endgültig",
@@ -3339,7 +3686,8 @@
   "c": "Time & Frequency",
   "opp": "vorläufig",
   "ex": "Die Entscheidung ist endgültig. — The decision is final.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2080
  },
  {
   "w": "entfernt",
@@ -3349,7 +3697,8 @@
   "sup": "am entferntesten",
   "opp": "nah",
   "ex": "Der Bahnhof ist zwei Kilometer entfernt. — The station is two kilometres away.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1026
  },
  {
   "w": "enttäuscht",
@@ -3359,7 +3708,8 @@
   "sup": "am enttäuschtesten",
   "opp": "begeistert",
   "ex": "Ich bin enttäuscht von dem Film. — I'm disappointed by the film.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1524
  },
  {
   "w": "erfahren",
@@ -3369,7 +3719,8 @@
   "sup": "am erfahrensten",
   "opp": "unerfahren",
   "ex": "Sie ist eine erfahrene Ärztin. — She is an experienced doctor.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 832
  },
  {
   "w": "fair",
@@ -3379,14 +3730,16 @@
   "sup": "am fairsten",
   "opp": "unfair",
   "ex": "Der Schiedsrichter war sehr fair. — The referee was very fair.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1304
  },
  {
   "w": "finanziell",
   "e": "financial(ly)",
   "c": "Quality & Value",
   "ex": "Finanziell geht es der Familie gut. — Financially the family is doing well.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2181
  },
  {
   "w": "geeignet",
@@ -3396,7 +3749,8 @@
   "sup": "am geeignetsten",
   "opp": "ungeeignet",
   "ex": "Der Film ist für Kinder nicht geeignet. — The film is not suitable for children.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2295
  },
  {
   "w": "geduldig",
@@ -3406,7 +3760,8 @@
   "sup": "am geduldigsten",
   "opp": "ungeduldig",
   "ex": "Die Lehrerin ist sehr geduldig mit uns. — The teacher is very patient with us.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2622
  },
  {
   "w": "gerecht",
@@ -3416,7 +3771,8 @@
   "sup": "am gerechtesten",
   "opp": "ungerecht",
   "ex": "Die Strafe war gerecht. — The punishment was just.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1944
  },
  {
   "w": "gleichzeitig",
@@ -3424,7 +3780,8 @@
   "c": "Time & Frequency",
   "opp": "nacheinander",
   "ex": "Alle haben gleichzeitig geredet. — Everyone talked at the same time.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1731
  },
  {
   "w": "großzügig",
@@ -3434,7 +3791,8 @@
   "sup": "am großzügigsten",
   "opp": "geizig",
   "ex": "Das war ein großzügiges Geschenk. — That was a generous gift.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1831
  },
  {
   "w": "heftig",
@@ -3444,7 +3802,8 @@
   "sup": "am heftigsten",
   "opp": "leicht",
   "ex": "Es gab einen heftigen Sturm. — There was a violent storm.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1796
  },
  {
   "w": "hilfsbereit",
@@ -3454,7 +3813,8 @@
   "sup": "am hilfsbereitesten",
   "opp": "egoistisch",
   "ex": "Unsere Nachbarn sind sehr hilfsbereit. — Our neighbours are very helpful.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 3281
  },
  {
   "w": "hervorragend",
@@ -3462,7 +3822,8 @@
   "c": "Quality & Value",
   "opp": "miserabel",
   "ex": "Sie spricht hervorragend Deutsch. — She speaks outstanding German.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1727
  },
  {
   "w": "komplett",
@@ -3470,7 +3831,8 @@
   "c": "Size & Quantity",
   "opp": "unvollständig",
   "ex": "Die Wohnung ist komplett möbliert. — The flat is completely furnished.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1307
  },
  {
   "w": "konkret",
@@ -3480,7 +3842,8 @@
   "sup": "am konkretesten",
   "opp": "vage",
   "ex": "Hast du einen konkreten Vorschlag? — Do you have a concrete suggestion?",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2716
  },
  {
   "w": "körperlich",
@@ -3490,7 +3853,8 @@
   "ex": "Die Arbeit ist körperlich anstrengend. — The work is physically demanding.",
   "lvl": "B1",
   "cmp": "–",
-  "sup": "–"
+  "sup": "–",
+  "f": 2056
  },
  {
   "w": "kreativ",
@@ -3500,7 +3864,8 @@
   "sup": "am kreativsten",
   "opp": "fantasielos",
   "ex": "Sie findet immer kreative Lösungen. — She always finds creative solutions.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2453
  },
  {
   "w": "kritisch",
@@ -3510,7 +3875,8 @@
   "sup": "am kritischsten",
   "opp": "unkritisch",
   "ex": "Er stellt viele kritische Fragen. — He asks a lot of critical questions.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2444
  },
  {
   "w": "lebendig",
@@ -3520,7 +3886,8 @@
   "sup": "am lebendigsten",
   "opp": "tot",
   "ex": "Der Unterricht war sehr lebendig. — The lesson was very lively.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1414
  },
  {
   "w": "mehrere",
@@ -3528,7 +3895,8 @@
   "c": "Size & Quantity",
   "opp": "wenige",
   "ex": "Ich habe mehrere E-Mails geschrieben. — I wrote several e-mails.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1418
  },
  {
   "w": "motiviert",
@@ -3538,7 +3906,8 @@
   "sup": "am motiviertesten",
   "opp": "lustlos",
   "ex": "Das Team ist hoch motiviert. — The team is highly motivated.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 3058
  },
  {
   "w": "nachhaltig",
@@ -3548,7 +3917,8 @@
   "sup": "am nachhaltigsten",
   "opp": "umweltschädlich",
   "ex": "Wir versuchen, nachhaltig zu leben. — We try to live sustainably.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 3566
  },
  {
   "w": "optimistisch",
@@ -3558,7 +3928,8 @@
   "sup": "am optimistischsten",
   "opp": "pessimistisch",
   "ex": "Ich bin optimistisch, dass es klappt. — I'm optimistic that it will work out.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2972
  },
  {
   "w": "pessimistisch",
@@ -3568,7 +3939,8 @@
   "sup": "am pessimistischsten",
   "opp": "optimistisch",
   "ex": "Sei nicht so pessimistisch! — Don't be so pessimistic!",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 3431
  },
  {
   "w": "realistisch",
@@ -3578,7 +3950,8 @@
   "sup": "am realistischsten",
   "opp": "unrealistisch",
   "ex": "Der Plan ist nicht realistisch. — The plan is not realistic.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2683
  },
  {
   "w": "regional",
@@ -3586,7 +3959,8 @@
   "c": "Quality & Value",
   "opp": "überregional",
   "ex": "Wir kaufen regionales Gemüse. — We buy regional vegetables.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 3283
  },
  {
   "w": "sinnvoll",
@@ -3596,7 +3970,8 @@
   "sup": "am sinnvollsten",
   "opp": "sinnlos",
   "ex": "Es ist sinnvoll, früh zu buchen. — It makes sense to book early.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2726
  },
  {
   "w": "schädlich",
@@ -3606,7 +3981,8 @@
   "sup": "am schädlichsten",
   "opp": "nützlich",
   "ex": "Rauchen ist schädlich für die Gesundheit. — Smoking is harmful to your health.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 3340
  },
  {
   "w": "selbstbewusst",
@@ -3616,7 +3992,8 @@
   "sup": "am selbstbewusstesten",
   "opp": "schüchtern",
   "ex": "Sie tritt sehr selbstbewusst auf. — She comes across as very self-confident.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 3129
  },
  {
   "w": "sparsam",
@@ -3626,7 +4003,8 @@
   "sup": "am sparsamsten",
   "opp": "verschwenderisch",
   "ex": "Meine Großeltern leben sehr sparsam. — My grandparents live very thriftily.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 3269
  },
  {
   "w": "ständig",
@@ -3634,14 +4012,16 @@
   "c": "Time & Frequency",
   "opp": "selten",
   "ex": "Er schaut ständig auf sein Handy. — He constantly looks at his phone.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 913
  },
  {
   "w": "technisch",
   "e": "technical",
   "c": "Quality & Value",
   "ex": "Wir haben ein technisches Problem. — We have a technical problem.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1961
  },
  {
   "w": "tolerant",
@@ -3651,7 +4031,8 @@
   "sup": "am tolerantesten",
   "opp": "intolerant",
   "ex": "Meine Eltern sind sehr tolerant. — My parents are very tolerant.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 3415
  },
  {
   "w": "üblich",
@@ -3659,7 +4040,8 @@
   "c": "Time & Frequency",
   "opp": "ungewöhnlich",
   "ex": "In Deutschland ist Trinkgeld üblich. — Tipping is customary in Germany.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1562
  },
  {
   "w": "umweltfreundlich",
@@ -3669,7 +4051,8 @@
   "sup": "am umweltfreundlichsten",
   "opp": "umweltschädlich",
   "ex": "Das Fahrrad ist das umweltfreundlichste Verkehrsmittel. — The bicycle is the most environmentally friendly means of transport.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 3629
  },
  {
   "w": "unbekannt",
@@ -3677,7 +4060,8 @@
   "c": "Quality & Value",
   "opp": "bekannt",
   "ex": "Der Täter ist noch unbekannt. — The culprit is still unknown.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1492
  },
  {
   "w": "ungewöhnlich",
@@ -3687,14 +4071,16 @@
   "sup": "am ungewöhnlichsten",
   "opp": "üblich",
   "ex": "Das ist ein ungewöhnlicher Name. — That's an unusual name.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1510
  },
  {
   "w": "verantwortlich",
   "e": "responsible",
   "c": "Quality & Value",
   "ex": "Wer ist für das Projekt verantwortlich? — Who is responsible for the project?",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1113
  },
  {
   "w": "vernünftig",
@@ -3704,7 +4090,8 @@
   "sup": "am vernünftigsten",
   "opp": "unvernünftig",
   "ex": "Sei vernünftig und geh zum Arzt! — Be sensible and go to the doctor!",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1480
  },
  {
   "w": "verständlich",
@@ -3714,7 +4101,8 @@
   "sup": "am verständlichsten",
   "opp": "unverständlich",
   "ex": "Die Erklärung war gut verständlich. — The explanation was easy to understand.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2497
  },
  {
   "w": "vielfältig",
@@ -3724,7 +4112,8 @@
   "sup": "am vielfältigsten",
   "opp": "eintönig",
   "ex": "Das Kursangebot ist sehr vielfältig. — The range of courses is very diverse.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 3630
  },
  {
   "w": "vollständig",
@@ -3732,7 +4121,8 @@
   "c": "Size & Quantity",
   "opp": "unvollständig",
   "ex": "Die Unterlagen sind vollständig. — The documents are complete.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1970
  },
  {
   "w": "wirtschaftlich",
@@ -3741,7 +4131,8 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Die wirtschaftliche Lage ist stabil. — The economic situation is stable.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 3122
  },
  {
   "w": "zahlreich",
@@ -3749,7 +4140,8 @@
   "c": "Size & Quantity",
   "opp": "wenige",
   "ex": "Zahlreiche Gäste kamen zur Eröffnung. — Numerous guests came to the opening.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2815
  },
  {
   "w": "zuverlässig",
@@ -3759,14 +4151,16 @@
   "sup": "am zuverlässigsten",
   "opp": "unzuverlässig",
   "ex": "Er ist ein zuverlässiger Kollege. — He is a reliable colleague.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2578
  },
  {
   "w": "zusätzlich",
   "e": "additional",
   "c": "Size & Quantity",
   "ex": "Das kostet zusätzlich zehn Euro. — That costs an additional ten euros.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2107
  },
  {
   "w": "altmodisch",
@@ -3776,7 +4170,8 @@
   "sup": "am altmodischsten",
   "opp": "modern",
   "ex": "Sein Anzug ist ein bisschen altmodisch. — His suit is a little old-fashioned.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2362
  },
  {
   "w": "flach",
@@ -3786,7 +4181,8 @@
   "sup": "am flachsten",
   "opp": "steil / tief",
   "ex": "Die Landschaft hier ist ganz flach. — The landscape here is completely flat.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2408
  },
  {
   "w": "großartig",
@@ -3796,7 +4192,8 @@
   "sup": "am großartigsten",
   "opp": "mittelmäßig",
   "ex": "Das Konzert war großartig. — The concert was great.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 732
  },
  {
   "w": "korrekt",
@@ -3806,7 +4203,8 @@
   "sup": "am korrektesten",
   "opp": "falsch",
   "ex": "Deine Antwort ist korrekt. — Your answer is correct.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1777
  },
  {
   "w": "mobil",
@@ -3816,7 +4214,8 @@
   "sup": "am mobilsten",
   "opp": "unbeweglich",
   "ex": "Ohne Auto bin ich weniger mobil. — Without a car I'm less mobile.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2793
  },
  {
   "w": "nutzlos",
@@ -3826,7 +4225,8 @@
   "sup": "am nutzlosesten",
   "opp": "nützlich",
   "ex": "Diese alte Software ist völlig nutzlos. — This old software is completely useless.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2060
  },
  {
   "w": "populär",
@@ -3836,7 +4236,8 @@
   "sup": "am populärsten",
   "opp": "unbekannt",
   "ex": "Der Sänger ist bei jungen Leuten populär. — The singer is popular with young people.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 3320
  },
  {
   "w": "schlau",
@@ -3846,7 +4247,8 @@
   "sup": "am schlausten",
   "opp": "dumm",
   "ex": "Das war ein schlauer Plan. — That was a clever plan.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1328
  },
  {
   "w": "schüchtern",
@@ -3856,7 +4258,8 @@
   "sup": "am schüchternsten",
   "opp": "selbstbewusst",
   "ex": "Als Kind war ich sehr schüchtern. — As a child I was very shy.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2148
  },
  {
   "w": "tragbar",
@@ -3866,7 +4269,8 @@
   "sup": "am tragbarsten",
   "opp": "stationär",
   "ex": "Ein tragbarer Lautsprecher ist praktisch. — A portable speaker is handy.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 3302
  },
  {
   "w": "unglücklich",
@@ -3876,7 +4280,8 @@
   "sup": "am unglücklichsten",
   "opp": "glücklich",
   "ex": "Sie war unglücklich in ihrem Job. — She was unhappy in her job.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1694
  },
  {
   "w": "unhöflich",
@@ -3886,7 +4291,8 @@
   "sup": "am unhöflichsten",
   "opp": "höflich",
   "ex": "Es ist unhöflich, nicht zu grüßen. — It's rude not to say hello.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2067
  },
  {
   "w": "gekocht",
@@ -3896,7 +4302,8 @@
   "sup": "–",
   "opp": "roh",
   "ex": "Ich esse gern gekochte Eier. — I like boiled eggs.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2246
  },
  {
   "w": "roh",
@@ -3906,7 +4313,8 @@
   "sup": "–",
   "opp": "gekocht",
   "ex": "Rohes Gemüse ist gesund. — Raw vegetables are healthy.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2703
  },
  {
   "w": "salzig",
@@ -3916,7 +4324,8 @@
   "sup": "am salzigsten",
   "opp": "süß",
   "ex": "Die Suppe ist mir zu salzig. — The soup is too salty for me.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 3261
  },
  {
   "w": "würzig",
@@ -3926,7 +4335,8 @@
   "sup": "am würzigsten",
   "opp": "fad",
   "ex": "Der Käse ist schön würzig. — The cheese is nicely savoury.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 3579
  },
  {
   "w": "glatt",
@@ -3936,7 +4346,8 @@
   "sup": "am glattesten",
   "opp": "rau / lockig",
   "ex": "Vorsicht, die Straße ist glatt. — Careful, the road is slippery.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2106
  },
  {
   "w": "lockig",
@@ -3946,7 +4357,8 @@
   "sup": "am lockigsten",
   "opp": "glatt",
   "ex": "Sie hat lange lockige Haare. — She has long curly hair.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 3631
  },
  {
   "w": "wellig",
@@ -3956,7 +4368,8 @@
   "sup": "am welligsten",
   "opp": "glatt",
   "ex": "Meine Haare sind leicht wellig. — My hair is slightly wavy.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 3632
  },
  {
   "w": "mager",
@@ -3966,7 +4379,8 @@
   "sup": "am magersten",
   "opp": "fett",
   "ex": "Ich kaufe mageren Joghurt. — I buy low-fat yoghurt.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 3093
  },
  {
   "w": "besorgt",
@@ -3976,7 +4390,8 @@
   "sup": "am besorgtesten",
   "opp": "unbesorgt",
   "ex": "Ich bin besorgt um meinen Vater. — I'm worried about my father.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1100
  },
  {
   "w": "doof",
@@ -3986,7 +4401,8 @@
   "sup": "am doofsten",
   "opp": "klug",
   "ex": "Das war eine doofe Idee. — That was a silly idea.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2179
  },
  {
   "w": "ernsthaft",
@@ -3996,7 +4412,8 @@
   "sup": "am ernsthaftesten",
   "opp": "oberflächlich",
   "ex": "Wir müssen ernsthaft darüber reden. — We need to talk about it seriously.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1226
  },
  {
   "w": "erschöpft",
@@ -4006,7 +4423,8 @@
   "sup": "am erschöpftesten",
   "opp": "ausgeruht",
   "ex": "Nach der Arbeit bin ich völlig erschöpft. — After work I'm completely exhausted.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2084
  },
  {
   "w": "frech",
@@ -4016,7 +4434,8 @@
   "sup": "am frechsten",
   "opp": "brav",
   "ex": "Der Junge ist ganz schön frech. — That boy is pretty cheeky.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2211
  },
  {
   "w": "gierig",
@@ -4026,7 +4445,8 @@
   "sup": "am gierigsten",
   "opp": "genügsam",
   "ex": "Sei nicht so gierig! — Don't be so greedy!",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2685
  },
  {
   "w": "humorvoll",
@@ -4036,7 +4456,8 @@
   "sup": "am humorvollsten",
   "opp": "humorlos",
   "ex": "Er ist ein humorvoller Mensch. — He's a person with a good sense of humour.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 3596
  },
  {
   "w": "unangenehm",
@@ -4046,7 +4467,8 @@
   "sup": "am unangenehmsten",
   "opp": "angenehm",
   "ex": "Das war ein unangenehmes Gespräch. — That was an awkward conversation.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1824
  },
  {
   "w": "locker",
@@ -4056,7 +4478,8 @@
   "sup": "am lockersten",
   "opp": "eng / streng",
   "ex": "Die Hose sitzt locker. — The trousers fit loosely.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1498
  },
  {
   "w": "enorm",
@@ -4066,7 +4489,8 @@
   "sup": "am enormsten",
   "opp": "gering",
   "ex": "Der Unterschied ist enorm. — The difference is enormous.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2234
  },
  {
   "w": "mittelgroß",
@@ -4076,7 +4500,8 @@
   "sup": "—",
   "opp": "—",
   "ex": "Wir suchen eine mittelgroße Wohnung. — We're looking for a medium-sized flat.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 3451
  },
  {
   "w": "riesengroß",
@@ -4086,7 +4511,8 @@
   "sup": "—",
   "opp": "winzig",
   "ex": "Der Hund ist riesengroß. — The dog is huge.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 3094
  },
  {
   "w": "winzig",
@@ -4096,7 +4522,8 @@
   "sup": "am winzigsten",
   "opp": "riesig",
   "ex": "Die Wohnung ist winzig. — The flat is tiny.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1902
  },
  {
   "w": "dreieckig",
@@ -4106,7 +4533,8 @@
   "sup": "–",
   "opp": "—",
   "ex": "Das Schild ist dreieckig. — The sign is triangular.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 3633
  },
  {
   "w": "viereckig",
@@ -4116,7 +4544,8 @@
   "sup": "–",
   "opp": "rund",
   "ex": "Der Tisch ist viereckig. — The table is square.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 3634
  },
  {
   "w": "preisgünstig",
@@ -4126,7 +4555,8 @@
   "sup": "am preisgünstigsten",
   "opp": "teuer",
   "ex": "Das Hotel war sehr preisgünstig. — The hotel was very good value.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 3635
  },
  {
   "w": "unterirdisch",
@@ -4136,7 +4566,8 @@
   "sup": "–",
   "opp": "oberirdisch",
   "ex": "Die Garage ist unterirdisch. — The garage is underground.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2928
  },
  {
   "w": "feucht",
@@ -4146,7 +4577,8 @@
   "sup": "am feuchtesten",
   "opp": "trocken",
   "ex": "Die Wände sind feucht. — The walls are damp.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2230
  },
  {
   "w": "golden",
@@ -4156,7 +4588,8 @@
   "sup": "–",
   "opp": "—",
   "ex": "Sie trägt eine goldene Kette. — She's wearing a golden necklace.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1595
  },
  {
   "w": "lila",
@@ -4166,7 +4599,8 @@
   "sup": "–",
   "opp": "—",
   "ex": "Ich mag das lila Kleid. — I like the purple dress.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2423
  },
  {
   "w": "rosa",
@@ -4176,7 +4610,8 @@
   "sup": "–",
   "opp": "—",
   "ex": "Sie hat eine rosa Jacke. — She has a pink jacket.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1913
  },
  {
   "w": "orangefarben",
@@ -4186,7 +4621,8 @@
   "sup": "–",
   "opp": "—",
   "ex": "Die Wand ist orangefarben. — The wall is orange.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 3614
  },
  {
   "w": "silbern",
@@ -4196,7 +4632,8 @@
   "sup": "–",
   "opp": "—",
   "ex": "Er hat eine silberne Uhr. — He has a silver watch.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2741
  },
  {
   "w": "violett",
@@ -4206,7 +4643,8 @@
   "sup": "–",
   "opp": "—",
   "ex": "Der Himmel war fast violett. — The sky was almost violet.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 3155
  },
  {
   "w": "sofortig",
@@ -4216,7 +4654,8 @@
   "sup": "–",
   "opp": "verzögert",
   "ex": "Wir brauchen eine sofortige Antwort. — We need an immediate answer.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2608
  },
  {
   "w": "pensioniert",
@@ -4226,6 +4665,7 @@
   "sup": "–",
   "opp": "berufstätig",
   "ex": "Mein Vater ist seit zwei Jahren pensioniert. — My father has been retired for two years.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 3128
  }
 ]

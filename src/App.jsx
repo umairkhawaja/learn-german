@@ -5,9 +5,12 @@
    • Add words   → edit public/data/{nouns,verbs,adj,gram,phrases,other}.json.
                    Fetched at runtime; no rebuild needed. Tag an entry with
                    lvl:"A2" to assign a level (no `lvl` → "A1").
-                   Run `npm run data:check` afterwards — the validator holds
-                   the invariants the engine relies on (one category per
-                   headword, complete example sentences, real comparatives).
+                   Run `npm run data:freq` afterwards to rank the new words by
+                   everyday usage — the app introduces new material in that
+                   order, and an unranked word sorts last in every deck.
+                   Then `npm run data:check` — the validator holds the
+                   invariants the engine relies on (one category per headword,
+                   complete example sentences, real comparatives, unique ranks).
    • Add a level → add one row to src/config/levels.js and tag data with
                    that code. The switcher, counts, filters and
                    stats all pick it up automatically.
@@ -17,7 +20,7 @@
                    stats engine is generic and needs no edits.
 
    This file is composition only. Logic lives in:
-     config/   levels, categories, theme            (the extension cores)
+     config/   levels, categories, frequency, theme  (the extension cores)
      engine/   progress (+SRS), quiz, activity, useDriveSync
      components/ Header, BottomNav, the views, QuizRunner, ui, detail
    ============================================================ */

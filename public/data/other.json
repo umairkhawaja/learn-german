@@ -4,1358 +4,1552 @@
   "e": "I",
   "c": "Pronoun",
   "ex": "Ich bin Nora. — I am Nora.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2
  },
  {
   "w": "mein, meine",
   "e": "my",
   "c": "Pronoun",
   "ex": "Mein Name ist Karin Jungmann. — My name is Karin Jungmann.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 82
  },
  {
   "w": "du",
   "e": "you",
   "c": "Pronoun",
   "ex": "Wer bist du? — Who are you?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 6
  },
  {
   "w": "wer?",
   "e": "who?",
   "c": "Question Word",
   "ex": "Wer bist du? — Who are you?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 146
  },
  {
   "w": "wie?",
   "e": "how?",
   "c": "Question Word",
   "ex": "Wie heißt du? (Wie ist dein Name?) — What is your name?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 23
  },
  {
   "w": "woher?",
   "e": "from where?",
   "c": "Question Word",
   "ex": "Woher kommst du? — Where do you come from?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 534
  },
  {
   "w": "wo?",
   "e": "where?",
   "c": "Question Word",
   "ex": "Wo wohnst du? — Where do you live?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 104
  },
  {
   "w": "welch-?",
   "e": "which?",
   "c": "Question Word",
   "ex": "Welche Sprachen sprichst du? — Which languages do you speak?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1757
  },
  {
   "w": "dein, deine",
   "e": "your",
   "c": "Pronoun",
   "ex": "Wie ist dein Name? — What is your name?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 175
  },
  {
   "w": "ein bisschen",
   "e": "a little",
   "c": "Number & Time",
   "ex": "Ich spreche Englisch und ein bisschen Deutsch. — I speak English and a little German.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 494
  },
  {
   "w": "@",
   "e": "@, at",
   "c": "Particle",
   "ex": "Meine E-Mail-Adresse ist AnnettMoeller@einrot.com. — My email address is AnnettMoeller@einrot.com ('@' is read as 'at').",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 4099
  },
  {
   "w": "Herr (Anrede)",
   "e": "Mr",
   "c": "Particle",
   "ex": "Ah, Sie sind Herr Kraft? — Ah, you are Mr Kraft?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 370
  },
  {
   "w": "Ihr, Ihre",
   "e": "your",
   "c": "Pronoun",
   "ex": "Und wie ist Ihre Telefonnummer? — And what is your telephone number?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 149
  },
  {
   "w": "Frau (Anrede)",
   "e": "Ms, Mrs",
   "c": "Particle",
   "ex": "Welche Sprachen sprechen Sie, Frau Milanova? — Which languages do you speak, Ms Milanova?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 193
  },
  {
   "w": "es",
   "e": "it",
   "c": "Pronoun",
   "ex": "Hallo Tim! Wie geht es dir? (Wie geht’s?) — Hello Tim! How are you?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 8
  },
  {
   "w": "danke",
   "e": "thank you",
   "c": "Adverb",
   "ex": "Danke gut. Und dir? — Fine, thanks. And you?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 129
  },
  {
   "w": "Ihnen (Sie)",
   "e": "you (formal)",
   "c": "Pronoun",
   "ex": "Guten Tag, Herr Reuter. Wie geht es Ihnen? — Good day, Mr Reuter. How are you?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 94
  },
  {
   "w": "dir (du)",
   "e": "you (informal)",
   "c": "Pronoun",
   "ex": "Danke gut. Und dir? — Fine, thanks. And you?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 55
  },
  {
   "w": "es geht",
   "e": "OK",
   "c": "Expression",
   "ex": "Wie geht’s Ihnen? - Danke! Es geht. — How are you? - Thanks! I am OK.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 98
  },
  {
   "w": "nicht",
   "e": "not",
   "c": "Particle",
   "ex": "Wie geht’s? - Nicht gut. — How are you? - Not good.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 7
  },
  {
   "w": "gar",
   "e": "at all",
   "c": "Adverb",
   "ex": "Wie geht es Ihnen? - Gar nicht gut. — How are you? - Not good at all.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 287
  },
  {
   "w": "er",
   "e": "he",
   "c": "Pronoun",
   "ex": "Das ist Alexis. Er kommt aus Frankreich. — This is Alexis. He comes from France.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 16
  },
  {
   "w": "sie",
   "e": "she",
   "c": "Pronoun",
   "ex": "Das ist Patricia. Sie kommt aus Mexiko. — This is Patricia. She comes from Mexico.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 3
  },
  {
   "w": "ein, eine",
   "e": "a",
   "c": "Article",
   "ex": "Sie macht einen Deutschkurs. — She is taking a German course.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 30
  },
  {
   "w": "Herzlich willkommen",
   "e": "welcome",
   "c": "Expression",
   "ex": "Herzlich willkommen in Deutschland. — Welcome to Germany.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2092
  },
  {
   "w": "bitte",
   "e": "please",
   "c": "Adverb",
   "ex": "Bitte stellen Sie sich vor. — Please introduce yourself.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 111
  },
  {
   "w": "sich vorstellen",
   "e": "to introduce oneself",
   "c": "Expression",
   "ex": "Stellen Sie sich vor. — Introduce yourself.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 842
  },
  {
   "w": "nun",
   "e": "now",
   "c": "Adverb",
   "ex": "Bitte stellen Sie sich nun vor. — Now please introduce yourself.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 194
  },
  {
   "w": "was?",
   "e": "what?",
   "c": "Question Word",
   "ex": "Was machen Sie beruflich? — What do you do for a living?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 11
  },
  {
   "w": "beruflich machen",
   "e": "to do for a job",
   "c": "Expression",
   "ex": "Was machen Sie beruflich? — What do you do for a living?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2526
  },
  {
   "w": "Vielen Dank.",
   "e": "Thank you very much.",
   "c": "Expression",
   "ex": "Vielen Dank! — Thank you very much!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 484
  },
  {
   "w": "verstanden (verstehen)",
   "e": "understood (to understand)",
   "c": "Expression",
   "ex": "Das habe ich nicht verstanden. — I did not understand that.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 542
  },
  {
   "w": "noch einmal",
   "e": "again",
   "c": "Adverb",
   "ex": "Können Sie das bitte noch einmal wiederholen. — Can you please repeat that again?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 387
  },
  {
   "w": "da",
   "e": "there",
   "c": "Adverb",
   "ex": "Das Sportprogramm ist da. — The sports programme is here.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 53
  },
  {
   "w": "ja",
   "e": "yes",
   "c": "Particle",
   "ex": "Ja, das geht. — Yes, that works.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 19
  },
  {
   "w": "wir",
   "e": "we",
   "c": "Pronoun",
   "ex": "Was machen wir? — What are we doing?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 10
  },
  {
   "w": "gern(e) machen",
   "e": "to like doing",
   "c": "Expression",
   "ex": "Was machst du gern? — What do you like doing?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 410
  },
  {
   "w": "nein",
   "e": "no",
   "c": "Particle",
   "ex": "Nein, ich wandere nicht gern. — No, I do not like hiking.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 44
  },
  {
   "w": "wann?",
   "e": "when?",
   "c": "Question Word",
   "ex": "Wann machst du gern Sport? — When do you like doing sport?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 392
  },
  {
   "w": "Ski fahren",
   "e": "to ski",
   "c": "Expression",
   "ex": "Stefan und Julia fahren Ski. — Stefan and Julia are skiing.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2999
  },
  {
   "w": "viele",
   "e": "many",
   "c": "Number & Time",
   "ex": "Viele Deutsche spielen Fußball. — Many Germans play football.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 328
  },
  {
   "w": "circa",
   "e": "approximately",
   "c": "Adverb",
   "ex": "circa 6.00 bis 9.00 Uhr (6 – 9 Uhr) — approximately 6 to 9 a.m.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 3061
  },
  {
   "w": "bis",
   "e": "to",
   "c": "Preposition",
   "ex": "circa 6.00 bis 9.00 Uhr (6 – 9 Uhr) — approximately 6 to 9 a.m.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 196
  },
  {
   "w": "ihr",
   "e": "you",
   "c": "Pronoun",
   "ex": "Kommt ihr? — Are you coming?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 42
  },
  {
   "w": "gemeinsam",
   "e": "together",
   "c": "Adverb",
   "ex": "Lernen wir gemeinsam? — Shall we study together?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1193
  },
  {
   "w": "kein, keine",
   "e": "no",
   "c": "Article",
   "ex": "Nein, ich habe keine Zeit. — No, I have no time.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 159
  },
  {
   "w": "leid tun",
   "e": "to be sorry",
   "c": "Expression",
   "ex": "Tut mir leid. Hier ist kein Rucksack. — I am sorry. There is no backpack here.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 200
  },
  {
   "w": "mich (ich)",
   "e": "me (I)",
   "c": "Pronoun",
   "ex": "Für mich ein Bier, bitte. — A beer for me, please.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 26
  },
  {
   "w": "den (der)",
   "e": "the",
   "c": "Article",
   "ex": "Ich möchte die Tagessuppe und den Grillteller. — I would like the soup of the day and the mixed grill.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 25
  },
  {
   "w": "einen (ein)",
   "e": "a",
   "c": "Article",
   "ex": "Möchten Sie auch einen Salat? — Would you also like a salad?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 58
  },
  {
   "w": "wirklich",
   "e": "really",
   "c": "Adverb",
   "ex": "Das Fleisch ist wirklich gut. — The meat is really good.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 157
  },
  {
   "w": "einem (ein)",
   "e": "a",
   "c": "Article",
   "ex": "Anja und Thomas essen in einem Bistro. — Anja and Thomas are eating in a bistro.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 144
  },
  {
   "w": "zu Hause",
   "e": "at home",
   "c": "Adverb",
   "ex": "Am Abend sind sie zu Hause. — In the evening they are at home.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 319
  },
  {
   "w": "was (etwas)",
   "e": "something",
   "c": "Article",
   "ex": "Und ich möchte auch was essen. — And I would also like something to eat.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 12
  },
  {
   "w": "Viertel vor",
   "e": "quarter to",
   "c": "Number & Time",
   "ex": "Der Film kommt um Viertel vor 9. — The film starts at a quarter to 9.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1894
  },
  {
   "w": "bis dann",
   "e": "until then, so long",
   "c": "Expression",
   "ex": "Gut! Bis dann! — Good! Until then!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 197
  },
  {
   "w": "Viertel nach",
   "e": "quarter past",
   "c": "Number & Time",
   "ex": "Es ist Viertel nach elf. — It is a quarter past eleven.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1895
  },
  {
   "w": "Lust haben",
   "e": "to feel like, to have a desire",
   "c": "Expression",
   "ex": "Hast du Lust? — Do you feel like it?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1109
  },
  {
   "w": "mal",
   "e": "well",
   "c": "Adverb",
   "ex": "Gehen wir mal in die Kneipe? — Shall we go to the pub?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 70
  },
  {
   "w": "wieder",
   "e": "again",
   "c": "Adverb",
   "ex": "Gehen wir mal wieder in die Kneipe? — Shall we go to the pub again?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 122
  },
  {
   "w": "so um",
   "e": "at about",
   "c": "Adverb",
   "ex": "Wann kommst du? – So um halb sieben. — When are you coming? – At about half past six.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 78
  },
  {
   "w": "zuletzt (zul.)",
   "e": "last",
   "c": "Adverb",
   "ex": "Zuletzt online heute um 17:32. — Last online today at 17:32.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1597
  },
  {
   "w": "unser, unsere",
   "e": "our",
   "c": "Pronoun",
   "ex": "Kommt ihr am Samstag zu unserer Party? — Are you coming to our party on Saturday?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 334
  },
  {
   "w": "warum?",
   "e": "why?",
   "c": "Question Word",
   "ex": "Warum fragst du? — Why do you ask?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 115
  },
  {
   "w": "Open Air",
   "e": "Open Air",
   "c": "Particle",
   "ex": "Open Air heute im Stadtpark! — Open air today in the city park!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 3160
  },
  {
   "w": "euch (ihr)",
   "e": "you",
   "c": "Pronoun",
   "ex": "Wann sehe ich euch? — When will I see you?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 150
  },
  {
   "w": "mögen (mag)",
   "e": "to like",
   "c": "Expression",
   "ex": "Anja mag keine Birnen im Obstsalat. — Anja does not like pears in fruit salad.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 897
  },
  {
   "w": "nachher",
   "e": "afterwards",
   "c": "Adverb",
   "ex": "Ich gehe nachher einkaufen. — I am going shopping afterwards.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1453
  },
  {
   "w": "mir (ich)",
   "e": "me (I)",
   "c": "Pronoun",
   "ex": "Geben Sie mir ein zwei Brötchen, bitte. — Give me two bread rolls, please.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 20
  },
  {
   "w": "beide, beides",
   "e": "both",
   "c": "Number & Time",
   "ex": "Er isst beides gern. — He likes eating both.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1753
  },
  {
   "w": "satt sein",
   "e": "to have had enough (to eat)",
   "c": "Expression",
   "ex": "Ich bin satt. — I am full.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1526
  },
  {
   "w": "ganz",
   "e": "whole, all",
   "c": "Adverb",
   "ex": "Ich habe den ganzen Tag Termine. — I have appointments all day.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 184
  },
  {
   "w": "abends",
   "e": "in the evening",
   "c": "Adverb",
   "ex": "Abends bin ich müde. — In the evening I am tired.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1613
  },
  {
   "w": "doch",
   "e": "here: but, anyway",
   "c": "Conjunction",
   "ex": "Ihr könnt ihn doch mitnehmen. — You can take him with you anyway.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 84
  },
  {
   "w": "weit weg",
   "e": "far away",
   "c": "Adverb",
   "ex": "Der Alltag ist weit weg. — Everyday life is far away.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 488
  },
  {
   "w": "Spaß machen",
   "e": "to be fun",
   "c": "Expression",
   "ex": "Die Arbeit macht ihr viel Spaß. — She really enjoys the work.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 596
  },
  {
   "w": "Violine spielen",
   "e": "to play the violin",
   "c": "Expression",
   "ex": "Sie spielt Violine. — She plays the violin.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 3339
  },
  {
   "w": "gerade",
   "e": "at the moment, just",
   "c": "Adverb",
   "ex": "Wir machen gerade Pläne für eine neue Schule. — We are currently making plans for a new school.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 245
  },
  {
   "w": "frei haben",
   "e": "to have free time",
   "c": "Expression",
   "ex": "Sie hat am Nachmittag frei. — She has the afternoon off.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 670
  },
  {
   "w": "dabei sein",
   "e": "to be there",
   "c": "Expression",
   "ex": "Sie sind auch mit dabei. — They are also there.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 373
  },
  {
   "w": "na klar",
   "e": "of course",
   "c": "Particle",
   "ex": "Na klar möchte ich ihn sehen. — Of course I want to see him.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 227
  },
  {
   "w": "euer, eure",
   "e": "your",
   "c": "Pronoun",
   "ex": "Danke für eure Einladung! — Thanks for your invitation!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 636
  },
  {
   "w": "Lieben Dank.",
   "e": "many thanks",
   "c": "Expression",
   "ex": "Lieben Dank für die Einladung. — Many thanks for the invitation.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 724
  },
  {
   "w": "Bis bald.",
   "e": "see you soon",
   "c": "Expression",
   "ex": "Bis bald. — See you soon.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 478
  },
  {
   "w": "in Ruhe",
   "e": "in peace",
   "c": "Adverb",
   "ex": "Ich möchte in Ruhe arbeiten. — I want to work in peace.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 551
  },
  {
   "w": "fast",
   "e": "almost",
   "c": "Adverb",
   "ex": "Die Küche kostet fast 10.000 Euro. — The kitchen costs almost 10,000 euros.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 507
  },
  {
   "w": "südlich (von)",
   "e": "south",
   "c": "Preposition",
   "ex": "Der Tegernsee ist südlich von München. — The Tegernsee is south of Munich.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2740
  },
  {
   "w": "Spaß haben",
   "e": "to have fun",
   "c": "Expression",
   "ex": "Hattet ihr Spaß? — Did you have fun?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 597
  },
  {
   "w": "nach Hause",
   "e": "home",
   "c": "Adverb",
   "ex": "Ihr könnt dann euer Gepäck nach Hause mitnehmen. — You can then take your luggage home.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 320
  },
  {
   "w": "zum Beispiel",
   "e": "for example",
   "c": "Adverb",
   "ex": "Viele Menschen telefonieren zum Beispiel mit Skype. — Many people make calls, for example with Skype.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1025
  },
  {
   "w": "Na ja",
   "e": "well",
   "c": "Particle",
   "ex": "Na ja, es geht so. — Well, it is so-so.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 204
  },
  {
   "w": "genug",
   "e": "enough",
   "c": "Adverb",
   "ex": "Wie immer essen wir Fondue, und Sekt ist auch genug da. — As always we eat fondue, and there is enough sparkling wine too.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 356
  },
  {
   "w": "sich kennen",
   "e": "to know each other",
   "c": "Expression",
   "ex": "Die Personen kennen sich. — The people know each other.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 433
  },
  {
   "w": "Glückwunsch, Glückwünsche",
   "e": "congratulations (plural)",
   "c": "Expression",
   "ex": "Herzlichen Glückwunsch! — Congratulations!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 3088
  },
  {
   "w": "Frohe Weihnachten",
   "e": "merry Christmas",
   "c": "Expression",
   "ex": "Frohe Weihnachten! — Merry Christmas!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1966
  },
  {
   "w": "Gitarre spielen",
   "e": "to play guitar",
   "c": "Expression",
   "ex": "Peter lernt gerade Gitarre spielen. — Peter is currently learning to play the guitar.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2368
  },
  {
   "w": "uns (wir)",
   "e": "us (we)",
   "c": "Pronoun",
   "ex": "Könnt ihr uns auf dem Stadtplan das Schloss zeigen? — Can you show us the castle on the city map?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 59
  },
  {
   "w": "ihm (er)",
   "e": "him (he)",
   "c": "Pronoun",
   "ex": "Schenk ihm doch das Buch. — Give him the book as a present.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 137
  },
  {
   "w": "ihm (es)",
   "e": "(dative form of es)",
   "c": "Pronoun",
   "ex": "Ich glaube der Hund mag dich. Ihm gefällt das. — I think the dog likes you. He likes that.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 138
  },
  {
   "w": "bitte sehr",
   "e": "here: there you go",
   "c": "Expression",
   "ex": "Hier, bitte sehr. — Here, there you go.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 132
  },
  {
   "w": "los sein",
   "e": "to be the matter",
   "c": "Expression",
   "ex": "Was ist los? — What is the matter?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 120
  },
  {
   "w": "da sein",
   "e": "to be there",
   "c": "Expression",
   "ex": "Schön, dass Sie da sind. — Nice that you are here.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 67
  },
  {
   "w": "Oh weh",
   "e": "oh dear",
   "c": "Particle",
   "ex": "Oh weh, was für ein Chaos! — Oh dear, what chaos!",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 846
  },
  {
   "w": "zu Mittag",
   "e": "for lunch",
   "c": "Number & Time",
   "ex": "Was isst Magdalena zu Mittag? — What does Magdalena eat for lunch?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1740
  },
  {
   "w": "vorher",
   "e": "previously",
   "c": "Adverb",
   "ex": "Beide hatten vorher schon eine Familie. — Both already had a family previously.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 895
  },
  {
   "w": "Mann, …",
   "e": "Gosh, …",
   "c": "Particle",
   "ex": "Mann, das ist lange her. — Gosh, that was a long time ago.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 136
  },
  {
   "w": "her sein",
   "e": "to be a long time ago",
   "c": "Expression",
   "ex": "Mann, das ist lange her. — Gosh, that was a long time ago.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 273
  },
  {
   "w": "wem?",
   "e": "who? (dative)",
   "c": "Question Word",
   "ex": "Mit wem sitzt deine Mutter hier im Garten? — Who is your mother sitting with here in the garden?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 754
  },
  {
   "w": "wen?",
   "e": "who? (accusative)",
   "c": "Question Word",
   "ex": "Und wen sieht man hier? — And who do you see here?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 671
  },
  {
   "w": "zu Ende",
   "e": "over, finished",
   "c": "Adverb",
   "ex": "Ah, die Pause ist zu Ende. — Ah, the break is over.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 473
  },
  {
   "w": "in Ordnung",
   "e": "in order, okay",
   "c": "Expression",
   "ex": "Also, ich finde das Gehalt nicht in Ordnung. — Well, I do not think the salary is okay.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 308
  },
  {
   "w": "weh tun",
   "e": "to hurt",
   "c": "Expression",
   "ex": "Mein Arm tut sehr weh. — My arm hurts a lot.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 847
  },
  {
   "w": "zum Glück",
   "e": "luckily",
   "c": "Adverb",
   "ex": "Zum Glück hat mich meine Freundin abgeholt. — Luckily my friend picked me up.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 466
  },
  {
   "w": "aus sein",
   "e": "to be (switched) off",
   "c": "Expression",
   "ex": "Ja, aber die Handys sind aus. — Yes, but the phones are off.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 75
  },
  {
   "w": "Bescheid sagen",
   "e": "to let someone know",
   "c": "Expression",
   "ex": "Okay. Sag Bescheid. — Okay. Let me know.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 955
  },
  {
   "w": "Fahrrad fahren",
   "e": "to cycle, to ride a bicycle",
   "c": "Expression",
   "ex": "Ich bin Fahrrad gefahren. — I rode my bicycle.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2054
  },
  {
   "w": "Snowboard fahren",
   "e": "to snowboard",
   "c": "Expression",
   "ex": "Ich bin Snowboard gefahren. — I went snowboarding.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 4100
  },
  {
   "w": "sich anziehen",
   "e": "to get dressed",
   "c": "Expression",
   "ex": "Aber ziehen Sie sich warm an. — But dress warmly.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1650
  },
  {
   "w": "Fußball spielen",
   "e": "to play football",
   "c": "Expression",
   "ex": "Er spielt gerne Fußball. — He likes playing football.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2346
  },
  {
   "w": "in einem",
   "e": "(all) in one",
   "c": "Adverb",
   "ex": "Das ist ein tolles Hobby: Musik und Sport in einem. — That is a great hobby: music and sport in one.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 145
  },
  {
   "w": "mindestens",
   "e": "at least",
   "c": "Adverb",
   "ex": "Männer machen mindestens 2,5 Stunden Sport pro Woche. — Men do at least 2.5 hours of sport per week.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1427
  },
  {
   "w": "Recht haben",
   "e": "to be right",
   "c": "Expression",
   "ex": "Da hast du Recht. — You are right about that.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 305
  },
  {
   "w": "bio (biologisch)",
   "e": "organic",
   "c": "Particle",
   "ex": "Hier sind die Produkte 100 Prozent bio. — Here the products are 100 per cent organic.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 3282
  },
  {
   "w": "bis zu",
   "e": "as far as",
   "c": "Preposition",
   "ex": "Dort kann man bis zu den Bergen sehen. — From there you can see as far as the mountains.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 198
  },
  {
   "w": "an Bord",
   "e": "on board",
   "c": "Expression",
   "ex": "Danke, dass Sie heute unser Gast an Bord sind. — Thank you for being our guest on board today.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1175
  },
  {
   "w": "Schlitten fahren",
   "e": "to sled",
   "c": "Expression",
   "ex": "Im Winter fahren wir oft Schlitten. — In winter we often go sledging.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2796
  },
  {
   "w": "Nord-West (Singular)",
   "e": "north-west",
   "c": "Number & Time",
   "ex": "Ab Mittag gibt es Wind aus Nord-West. — From midday there is wind from the north-west.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 4101
  },
  {
   "w": "nachts",
   "e": "at night",
   "c": "Adverb",
   "ex": "Ab Mittwoch arbeite ich nachts. — From Wednesday I work at night.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1257
  },
  {
   "w": "morgens",
   "e": "in the morning",
   "c": "Adverb",
   "ex": "Ich arbeite nachts, nie morgens. — I work at night, never in the morning.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1420
  },
  {
   "w": "mittags",
   "e": "at lunchtime",
   "c": "Adverb",
   "ex": "Mittags esse ich fast immer mit Kollegen. — At lunchtime I almost always eat with colleagues.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2772
  },
  {
   "w": "arm",
   "e": "poor",
   "c": "Adjective",
   "ex": "Sie haben nicht viel Geld, sie sind arm.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 987
  },
  {
   "w": "bar",
   "e": "in cash",
   "c": "Adjective",
   "ex": "Muss ich bar zahlen oder geht‘s auch mit Karte?",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1036
  },
  {
   "w": "eigentlich",
   "e": "actually",
   "c": "Adverb",
   "ex": "Wir wollten eigentlich Freunde besuchen, aber dann sind wir doch zu Hause geblieben.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 448
  },
  {
   "w": "geboren",
   "e": "born",
   "c": "Adjective",
   "ex": "Ich bin in Zagreb geboren.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1065
  },
  {
   "w": "hinten",
   "e": "at the back",
   "c": "Adverb",
   "ex": "Die Tür zum Aussteigen ist hinten.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 900
  },
  {
   "w": "nirgends",
   "e": "nowhere",
   "c": "Adverb",
   "ex": "Hier kann man nirgends parken.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2150
  },
  {
   "w": "rund",
   "e": "round / about",
   "c": "Number & Time",
   "ex": "Wohnzimmertisch ist rund.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1928
  },
  {
   "w": "wann",
   "e": "when",
   "c": "Question Word",
   "ex": "Wann bist du fertig?",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 393
  },
  {
   "w": "warum",
   "e": "why",
   "c": "Question Word",
   "ex": "Warum kommt er nicht?",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 116
  },
  {
   "w": "was",
   "e": "what",
   "c": "Question Word",
   "ex": "Was ist das?",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 13
  },
  {
   "w": "weiter",
   "e": "further / continue",
   "c": "Adverb",
   "ex": "Der Bus fährt nicht weiter.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 297
  },
  {
   "w": "wenigstens",
   "e": "at least",
   "c": "Adverb",
   "ex": "Ich habe keinen Hunger.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 858
  },
  {
   "w": "wie",
   "e": "how / as",
   "c": "Question Word",
   "ex": "heißt du?",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 24
  },
  {
   "w": "wo",
   "e": "where",
   "c": "Question Word",
   "ex": "waren Sie im Urlaub?",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 105
  },
  {
   "w": "woher",
   "e": "from where",
   "c": "Question Word",
   "ex": "kommen Sie?",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 535
  },
  {
   "w": "wohin",
   "e": "to where",
   "c": "Question Word",
   "ex": "fährt dieser Bus?",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 690
  },
  {
   "w": "zuletzt",
   "e": "last / finally",
   "c": "Adverb",
   "ex": "haben uns vor drei Jahren zuletzt gesehen.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1598
  },
  {
   "w": "zum",
   "e": "to the",
   "c": "Preposition",
   "ex": "Freund hat viele Hobbys, zum Beispiel Lesen und Tanzen.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 139
  },
  {
   "w": "mitten",
   "e": "in the middle (of)",
   "c": "Adverb",
   "ex": "Wir standen mitten im Park. — We were standing in the middle of the park.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1279
  },
  {
   "w": "eben",
   "e": "just (now) / flat",
   "c": "Adverb",
   "ex": "Sie ist eben erst gegangen. — She has only just left.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 608
  },
  {
   "w": "ihnen",
   "e": "them (dative)",
   "c": "Pronoun",
   "ex": "Ich gebe ihnen das Buch. — I give them the book.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 95
  },
  {
   "w": "Sie",
   "e": "you (formal)",
   "c": "Pronoun",
   "ex": "Wie heißen Sie? — What is your name?",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 4
  },
  {
   "w": "etwa",
   "e": "about / approximately",
   "c": "Adverb",
   "ex": "Der Kurs kostet etwa 200 Euro. — The course costs about 200 euros.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 561
  },
  {
   "w": "kaum",
   "e": "hardly / barely",
   "c": "Adverb",
   "ex": "Ich habe letzte Nacht kaum geschlafen. — I hardly slept last night.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 677
  },
  {
   "w": "los",
   "e": "going on; loose",
   "c": "Adverb",
   "ex": "Was ist hier los? — What's going on here?",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 121
  },
  {
   "w": "ungefähr",
   "e": "approximately / roughly",
   "c": "Adverb",
   "ex": "Die Fahrt dauert ungefähr eine Stunde. — The journey takes roughly an hour.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1198
  },
  {
   "w": "vorne",
   "e": "at the front",
   "c": "Adverb",
   "ex": "Wir sitzen im Kino ganz vorne. — We're sitting right at the front in the cinema.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1219
  },
  {
   "w": "ziemlich",
   "e": "quite / rather",
   "c": "Adverb",
   "ex": "Der Test war ziemlich schwer. — The test was quite hard.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 525
  },
  {
   "w": "zufällig",
   "e": "by chance",
   "c": "Adverb",
   "ex": "Ich habe ihn zufällig im Supermarkt getroffen. — I met him by chance in the supermarket.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1275
  },
  {
   "w": "anschließend",
   "e": "afterwards",
   "c": "Adverb",
   "ex": "Wir essen zuerst, anschließend gehen wir spazieren. — We'll eat first, and afterwards go for a walk.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2880
  },
  {
   "w": "beinahe",
   "e": "almost / nearly",
   "c": "Adverb",
   "ex": "Ich hätte beinahe den Bus verpasst. — I almost missed the bus.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1645
  },
  {
   "w": "beziehungsweise",
   "e": "or rather / respectively (bzw.)",
   "c": "Conjunction",
   "ex": "Der Kurs beginnt im März beziehungsweise April. — The course starts in March or April, respectively.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 3355
  },
  {
   "w": "bloß",
   "e": "just / only",
   "c": "Adverb",
   "ex": "Was soll ich bloß machen? — What on earth should I do?",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 640
  },
  {
   "w": "daher",
   "e": "therefore / hence",
   "c": "Conjunction",
   "ex": "Er ist krank, daher kommt er nicht. — He is ill; hence he isn't coming.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1272
  },
  {
   "w": "dennoch",
   "e": "nevertheless",
   "c": "Conjunction",
   "ex": "Es war verboten, dennoch hat er es getan. — It was forbidden; nevertheless he did it.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1553
  },
  {
   "w": "ebenfalls",
   "e": "likewise / as well",
   "c": "Adverb",
   "ex": "Schönes Wochenende! – Danke, ebenfalls! — Have a nice weekend! – Thanks, you too!",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1616
  },
  {
   "w": "eher",
   "e": "rather / sooner",
   "c": "Adverb",
   "ex": "Das ist eher ein Problem für den Chef. — That's more of a problem for the boss.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 829
  },
  {
   "w": "einerseits",
   "e": "on the one hand",
   "c": "Conjunction",
   "ex": "Einerseits ist der Job interessant, andererseits schlecht bezahlt. — On the one hand the job is interesting, on the other badly paid.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 3293
  },
  {
   "w": "andererseits",
   "e": "on the other hand",
   "c": "Conjunction",
   "ex": "Einerseits will ich sparen, andererseits brauche ich Urlaub. — On the one hand I want to save, on the other I need a holiday.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2379
  },
  {
   "w": "heutzutage",
   "e": "nowadays",
   "c": "Adverb",
   "ex": "Heutzutage bezahlt man oft mit dem Handy. — Nowadays people often pay with their phone.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1806
  },
  {
   "w": "immerhin",
   "e": "at least / after all",
   "c": "Adverb",
   "ex": "Es war anstrengend, aber immerhin hat es Spaß gemacht. — It was exhausting, but at least it was fun.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1593
  },
  {
   "w": "indem",
   "e": "by (doing something)",
   "c": "Conjunction",
   "ex": "Man lernt eine Sprache, indem man sie spricht. — You learn a language by speaking it.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1129
  },
  {
   "w": "insgesamt",
   "e": "in total / altogether",
   "c": "Adverb",
   "ex": "Insgesamt waren fünfzig Gäste da. — In total there were fifty guests.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2572
  },
  {
   "w": "inzwischen",
   "e": "meanwhile / by now",
   "c": "Adverb",
   "ex": "Inzwischen spricht sie sehr gut Deutsch. — By now she speaks German very well.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1635
  },
  {
   "w": "jedenfalls",
   "e": "in any case / anyway",
   "c": "Adverb",
   "ex": "Ich jedenfalls glaube ihm nicht. — I, in any case, don't believe him.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 999
  },
  {
   "w": "kürzlich",
   "e": "recently",
   "c": "Adverb",
   "ex": "Ich habe kürzlich ein tolles Buch gelesen. — I recently read a great book.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2027
  },
  {
   "w": "sowieso",
   "e": "anyway / in any case",
   "c": "Adverb",
   "ex": "Ich fahre sowieso in die Stadt, ich kann dich mitnehmen. — I'm going to town anyway, I can take you along.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1035
  },
  {
   "w": "vermutlich",
   "e": "presumably / probably",
   "c": "Adverb",
   "ex": "Er kommt vermutlich etwas später. — He'll presumably come a bit later.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1059
  },
  {
   "w": "zunächst",
   "e": "first (of all) / initially",
   "c": "Adverb",
   "ex": "Zunächst müssen wir einen Plan machen. — First of all we have to make a plan.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2063
  },
  {
   "w": "zumindest",
   "e": "at least",
   "c": "Adverb",
   "ex": "Zumindest hat es nicht geregnet. — At least it didn't rain.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1033
  },
  {
   "w": "herum",
   "e": "around",
   "c": "Adverb",
   "ex": "Wir sind den ganzen Tag herumgelaufen. — We walked around all day. Often as a prefix: herumlaufen, herumliegen.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 978
  },
  {
   "w": "gewöhnlich",
   "e": "usually / ordinary",
   "c": "Adverb",
   "ex": "Gewöhnlich stehe ich um sechs auf. — I usually get up at six. Also 'normalerweise'.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2023
  },
  {
   "w": "niemals",
   "e": "never (emphatic)",
   "c": "Adverb",
   "ex": "Das würde ich niemals tun. — I would never do that. Stronger than plain 'nie'.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 599
  },
  {
   "w": "öfters",
   "e": "quite often",
   "c": "Adverb",
   "ex": "Ich gehe öfters ins Kino. — I go to the cinema quite often. Colloquial variant of 'öfter'.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2941
  },
  {
   "w": "nochmals",
   "e": "once again",
   "c": "Adverb",
   "ex": "Nochmals vielen Dank! — Thanks again! Also 'noch einmal'.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2327
  },
  {
   "w": "erstens",
   "e": "firstly",
   "c": "Adverb",
   "ex": "Erstens habe ich keine Zeit, zweitens kein Geld. — Firstly I have no time, secondly no money. Series: erstens, zweitens, drittens.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 1980
  },
  {
   "w": "mittlerweile",
   "e": "by now / in the meantime",
   "c": "Adverb",
   "ex": "Mittlerweile spreche ich ganz gut Deutsch. — By now I speak German quite well.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2499
  },
  {
   "w": "genügend",
   "e": "enough / sufficient",
   "c": "Number & Time",
   "ex": "Wir haben genügend Zeit. — We have enough time. Interchangeable with 'genug'.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 2332
  },
  {
   "w": "verschiedene",
   "e": "various / different",
   "c": "Pronoun",
   "ex": "Es gibt verschiedene Möglichkeiten. — There are various options. Takes plural adjective endings.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1730
  },
  {
   "w": "jeden Tag",
   "e": "every day",
   "c": "Adverb",
   "ex": "Ich lerne jeden Tag Deutsch. — Accusative without a preposition marks a stretch of time: jeden Tag, letzte Woche, nächstes Jahr.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 451
  },
  {
   "w": "einmal, zweimal, dreimal",
   "e": "once, twice, three times",
   "c": "Number & Time",
   "ex": "Ich gehe zweimal pro Woche schwimmen. — Number + -mal. Also 'dreimal in der Woche'.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2083
  },
  {
   "w": "das Meiste",
   "e": "most of it",
   "c": "Pronoun",
   "ex": "Das Meiste habe ich schon erledigt. — I've already done most of it. Also 'die meisten Leute'.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 2133
  },
  {
   "w": "der Einzige",
   "e": "the only one",
   "c": "Pronoun",
   "ex": "Er war der Einzige, der geholfen hat. — He was the only one who helped. Adjectival noun: die Einzige, das Einzige.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 518
  },
  {
   "w": "entweder … oder",
   "e": "either … or",
   "c": "Conjunction",
   "ex": "Ich trinke entweder Tee oder Kaffee. — I drink either tea or coffee.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 1142
  },
  {
   "w": "weder … noch",
@@ -1363,20 +1557,23 @@
   "c": "Conjunction",
   "ex": "Ich habe weder Zeit noch Lust. — I have neither the time nor the inclination.",
   "lvl": "B1",
-  "n": "No extra 'nicht' — weder … noch is already negative."
+  "n": "No extra 'nicht' — weder … noch is already negative.",
+  "f": 1132
  },
  {
   "w": "kommend-",
   "e": "coming / next",
   "c": "Article",
   "ex": "Wir sehen uns in der kommenden Woche. — We will see each other in the coming week.",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 3560
  },
  {
   "w": "nächst-",
   "e": "next",
   "c": "Article",
   "ex": "Nächste Woche fahre ich nach Hamburg. — Next week I am going to Hamburg.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 4102
  }
 ]

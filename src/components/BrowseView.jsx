@@ -1,8 +1,9 @@
 // ── Browse view: searchable, filterable word list ─────────────
 import { useState, useMemo, useEffect } from "react";
 import { COLORS, TXT, MUTE, FAINT } from "../config/theme";
-import { lvlOf, levelMeta } from "../config/levels";
+import { lvlOf, levelMeta, LEVEL_CODES } from "../config/levels";
 import { subcatsOf } from "../config/categories";
+import { byUsage, usageBand, usageTitle, rankOf, UNRANKED } from "../config/frequency";
 import { keyOf, saveProgress, isMastered, MASTERY_THRESHOLD } from "../engine/progress";
 import { MasterBtn, SpeakBtn, ExampleLine, Tag } from "./ui";
 
@@ -23,10 +24,25 @@ const STATUS = [
   { id: "mastered", label: "Mastered", match: (p) => isMastered(p) },
 ];
 
+// Most-used first is the default: the file's own order means nothing to a
+// reader, and "what should I learn next?" is the question this list is most
+// often opened to answer. A–Z stays for looking a specific word up.
+const SORTS = [
+  { id: "usage", label: "Most used", cmp: byUsage },
+  { id: "alpha", label: "A–Z", cmp: (a, b) => a.w.localeCompare(b.w, "de") },
+  {
+    id: "level", label: "By level",
+    // Level, then usage inside it — a level bucket in file order would be
+    // the arbitrary ordering this sort exists to escape.
+    cmp: (a, b) => LEVEL_CODES.indexOf(lvlOf(a)) - LEVEL_CODES.indexOf(lvlOf(b)) || byUsage(a, b),
+  },
+];
+
 export function BrowseView({ cat, progress, setProgress, levelFilter, db }) {
   const [search, setSearch] = useState("");
   const [catFilter, setCatFilter] = useState("All");
   const [status, setStatus] = useState("all");
+  const [sort, setSort] = useState(SORTS[0].id);
   const [expanded, setExpanded] = useState(null);
   const [limit, setLimit] = useState(PAGE);
 
@@ -45,6 +61,7 @@ export function BrowseView({ cat, progress, setProgress, levelFilter, db }) {
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
     const statusDef = STATUS.find((s) => s.id === status);
+    const cmp = (SORTS.find((s) => s.id === sort) || SORTS[0]).cmp;
     return pool.filter((it) => {
       if (catFilter !== "All" && cat.catOf(it) !== catFilter) return false;
       if (statusDef?.match && !statusDef.match(progress[keyOf(cat.id, it)])) return false;
@@ -53,12 +70,12 @@ export function BrowseView({ cat, progress, setProgress, levelFilter, db }) {
       // used to throw here and blank the whole tab.
       const hay = [it.w, it.e, it.n, it.c].filter(Boolean).join(" ").toLowerCase();
       return hay.includes(q);
-    });
-  }, [pool, search, catFilter, status, cat, progress]);
+    }).sort(cmp);
+  }, [pool, search, catFilter, status, sort, cat, progress]);
 
   // Any change to what is being listed starts the window over, or you would
   // land halfway down a list you have not scrolled.
-  useEffect(() => { setLimit(PAGE); }, [search, catFilter, status, cat, levelFilter]);
+  useEffect(() => { setLimit(PAGE); }, [search, catFilter, status, sort, cat, levelFilter]);
 
   // Memoised, or the identity changes on every render and the effect below
   // re-runs each time.
@@ -87,6 +104,10 @@ export function BrowseView({ cat, progress, setProgress, levelFilter, db }) {
                 : `${c} (${pool.filter((i) => cat.catOf(i) === c).length.toLocaleString()})`}
             </option>
           ))}
+        </select>
+        <select value={sort} onChange={(e) => setSort(e.target.value)} aria-label="Sort order"
+          style={{ background: COLORS.surfaceAlt, border: `1px solid ${COLORS.borderSoft}`, borderRadius: 10, padding: "9px 12px", color: TXT, fontSize: 13 }}>
+          {SORTS.map((s) => <option key={s.id} value={s.id}>{s.label}</option>)}
         </select>
       </div>
 
@@ -118,6 +139,7 @@ export function BrowseView({ cat, progress, setProgress, levelFilter, db }) {
           const mastered = isMastered(p);
           const isOpen = expanded === k;
           const lm = levelMeta(lvlOf(it));
+          const band = usageBand(it);
           return (
             <div key={k} onClick={() => setExpanded(isOpen ? null : k)}
               style={{ background: mastered ? "#0d1a0d" : "#141414", border: `1px solid ${isOpen ? cat.color + "55" : mastered ? "#22c55e33" : "#242424"}`, borderRadius: 12, padding: "11px 14px", cursor: "pointer", transition: "border-color .15s" }}>
@@ -129,6 +151,13 @@ export function BrowseView({ cat, progress, setProgress, levelFilter, db }) {
                       levels" there was no way to tell an A1 word from a B1 one. */}
                   {levelFilter === "All" && (
                     <span style={{ marginLeft: 8, fontSize: 10, color: lm.color, fontWeight: 700 }}>{lm.code}</span>
+                  )}
+                  {/* How often the word is actually used — the axis the level
+                      does not measure, and the one this list sorts on. */}
+                  {band && !mastered && (
+                    <span title={usageTitle(it)} style={{ marginLeft: 8, fontSize: 10, color: band.color, fontWeight: 700, whiteSpace: "nowrap" }}>
+                      🔥 {band.label}
+                    </span>
                   )}
                   {mastered && <span style={{ marginLeft: 8, fontSize: 10, color: COLORS.success, background: "#0a2a16", border: "1px solid #22c55e33", borderRadius: 4, padding: "1px 5px", fontWeight: 600 }}>mastered</span>}
                 </div>
@@ -149,10 +178,17 @@ export function BrowseView({ cat, progress, setProgress, levelFilter, db }) {
                       render — their detail view lists them itself. */}
                   {typeof it.ex === "string" && <ExampleLine text={it.ex} />}
                   {cat.detail(it)}
-                  {p.total > 0 && (
+                  {(p.total > 0 || rankOf(it) !== UNRANKED) && (
                     <div style={{ marginTop: 10, display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center" }}>
-                      <Tag color={FAINT}>{p.correct}/{p.total} correct</Tag>
-                      {p.due != null && (
+                      {/* The band on the row above is deliberately coarse; the
+                          exact place is here, for when you want it. */}
+                      {rankOf(it) !== UNRANKED && (
+                        <Tag color={(band || { color: FAINT }).color} title={usageTitle(it)}>
+                          #{rankOf(it).toLocaleString()} most used
+                        </Tag>
+                      )}
+                      {p.total > 0 && <Tag color={FAINT}>{p.correct}/{p.total} correct</Tag>}
+                      {p.total > 0 && p.due != null && (
                         <Tag color={p.due <= Date.now() ? "#7dd3fc" : FAINT}>
                           {p.due <= Date.now() ? "due now" : `next review ${new Date(p.due).toLocaleDateString()}`}
                         </Tag>

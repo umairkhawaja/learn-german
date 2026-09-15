@@ -16,6 +16,7 @@
 import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import { COLORS, TXT, MUTE, FAINT } from "../config/theme";
 import { LEVELS } from "../config/levels";
+import { usageBand, usageTitle } from "../config/frequency";
 import { keyOf, applyAnswer, saveProgress, isMastered, MASTERY_THRESHOLD } from "../engine/progress";
 import { shuffle, pickChunk } from "../engine/quiz";
 import { SpeakBtn, ProgressBar, MasterBtn, ExampleLine, isTypingTarget, splitExample } from "./ui";
@@ -64,10 +65,11 @@ export function ChunksView({ progress, setProgress, recordAnswer }) {
     [scope, progress]
   );
 
-  // Chunked mastery: work one fixed batch at a time. The batch is the first
-  // CHUNK_SIZE unmastered chunks in data order, and anything already started
-  // stays in it however the batch shifts — so new chunks only appear as
-  // mastered ones drop out of `pool`. This used to be a local copy, written
+  // Chunked mastery: work one fixed batch at a time. The batch is the
+  // CHUNK_SIZE most-used unmastered chunks (engine/quiz orders new material
+  // by everyday usage), and anything already started stays in it however the
+  // batch shifts — so new chunks only appear as mastered ones drop out of
+  // `pool`. This used to be a local copy, written
   // because the shared pickChunk narrowed the batch to only the started items
   // and collapsed the round to one card; that is fixed at the source now, so
   // both surfaces behave the same way.
@@ -236,7 +238,12 @@ export function ChunksView({ progress, setProgress, recordAnswer }) {
       {filters}
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 8, fontSize: 12.5 }}>
         <span style={{ color: FAINT }}>{idx + 1} / {queue.length} · {it.c}</span>
-        <span style={{ color: lvlColor(it.lvl), fontWeight: 700 }}>{it.lvl}</span>
+        <span style={{ display: "flex", gap: 8, alignItems: "center" }}>
+          {usageBand(it) && (
+            <span title={usageTitle(it)} style={{ color: usageBand(it).color, fontWeight: 700 }}>🔥 {usageBand(it).label}</span>
+          )}
+          <span style={{ color: lvlColor(it.lvl), fontWeight: 700 }}>{it.lvl}</span>
+        </span>
       </div>
 
       <div onClick={() => !revealed && setRevealed(true)}

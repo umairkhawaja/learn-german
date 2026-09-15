@@ -10,16 +10,54 @@ stored on-device (with optional cloud sync, see below).
 
 | Tab | What it is |
 | --- | --- |
-| **Mixed** | The landing view. A flashcard deck drawn across nouns, verbs, adjectives and grammar at once, weighted so nouns and verbs carry it. **Review** narrows the deck to the words whose spacing interval has elapsed. |
-| **Quiz** | Multiple choice within one word type, in whatever mode that type supports — article, plural, Partizip II, haben/sein, comparative, case effect. Works a chunk of ten words at a time; new words unlock as the chunk is mastered. |
-| **Chunks** | Whole Redemittel and Nomen-Verb-Verbindungen, learned as units rather than words (A2+). |
-| **Browse** | The whole dataset, searchable, filterable by topic and by learning status (not started / learning / weak / mastered). |
+| **Mixed** | The landing view. A flashcard deck drawn across nouns, verbs, adjectives and grammar at once, weighted so nouns and verbs carry it. **Review** narrows the deck to the words whose spacing interval has elapsed; **Common first** decides the order new words arrive in. |
+| **Quiz** | Multiple choice within one word type, in whatever mode that type supports — article, plural, Partizip II, haben/sein, comparative, case effect. Works a chunk of ten words at a time — the ten most-used you have not learned; new words unlock as the chunk is mastered. |
+| **Chunks** | Whole Redemittel and Nomen-Verb-Verbindungen, learned as units rather than words (A2+), most-used first. |
+| **Browse** | The whole dataset, sorted by everyday usage (or A–Z, or by level), searchable, filterable by topic and by learning status (not started / learning / weak / mastered). |
 | **Spickzettel** | 35 grammar cards covering A1–B1: cases, Genus hacks, plural patterns, every tense, Konjunktiv II, Passiv, adjective endings, the Satzbau algorithm, Relativsätze, prepositions — including the wohin/wo/woher decision (ins Kino vs zum Arzt vs nach München) and the im/ins/zum/zur contractions — and 26 Stolperfallen. |
 | **Notes** | Your own Notion pages, read live (optional — see the proxy setup below). |
 | **Stats** | Mastery by level and by word type, a fortnight of daily practice, your streak and daily goal, and backup/restore. |
 
 Mastery is one shared number: a word answered in Mixed counts in Quiz, Browse and
 Stats alike. 4★ retires a word from practice; "Mark as mastered" retires it by hand.
+
+## Common words first
+
+Every entry carries `f`: its rank across the whole dataset by how often the word
+turns up in everyday German, 1 being the most common. Everywhere the app
+introduces *new* material — the Mixed deck, the Quiz chunk, the Chunks batch,
+the Browse list's default sort — it works down that order, so you meet `die Zeit`
+long before `die Mahlzeit` whatever page of the file each sits on.
+
+This is a second axis, not a replacement for the CEFR level. The level says how
+*hard* a word is; the rank says how much it earns its place, and the two disagree
+constantly — `Das wird schon.` is tagged B1 and is worth more than most of the A1
+noun list. The level switcher still scopes what you practise; frequency decides
+the order inside it. Set the switcher to **All** and the deck simply works through
+the most useful German there is, level by level be damned. The Mixed tab's
+**🔥 Common first** toggle turns the ordering off if you would rather sweep a
+level evenly; the 🔥 badge on a card shows which band the word is in.
+
+Ranks are derived, not hand-written:
+
+```bash
+npm run data:freq          # re-rank after adding words
+npm run data:freq -- --dry-run --report 40   # see what it would do
+npm run data:freq -- --explain "anrufen"     # why one entry ranks where it does
+```
+
+The source is the German [OpenSubtitles-2018 frequency
+list](https://github.com/hermitdave/FrequencyWords) — subtitles being the closest
+freely available corpus to *spoken* German, which is what is being ranked. It is
+downloaded once into `scripts/.cache/` (gitignored); the ranks themselves are
+committed with the data, so a fresh clone never needs it. Each entry is scored as
+a lemma, summing the counts of all the surface forms the data already carries: a
+noun's singular and plural, a verb's whole paradigm, an adjective's declensions.
+`scripts/add-frequency.mjs` documents the approximations that involves.
+
+`npm run data:check` fails if two entries share a rank and warns if any entry has
+none — both mean words were added without re-running the ranker, and an unranked
+word sorts last forever.
 
 ## Working on the data
 
@@ -34,7 +72,13 @@ npm run data:check     # also runs automatically before every build
 It enforces one category per headword (progress is keyed `<category>:<word>`, so a
 duplicate is two separate words to the engine), complete example sentences, real
 comparatives, correct du/ihr endings, reflexive pronouns present in reflexive
-conjugations, and valid level codes.
+conjugations, valid level codes, and unique usage ranks.
+
+After adding words, run the ranker too, or they sort last in every deck:
+
+```bash
+npm run data:freq
+```
 
 The one-shot repair scripts that brought the data to that state are kept in
 `scripts/` — each reports before it writes and is safe to re-run:
@@ -82,10 +126,11 @@ The app is modular — composition lives in `src/App.jsx`, everything else is sp
 - `src/config/` — the **extension cores**:
   - `levels.js` — the CEFR level registry. **Add a level = one row here** + tag data with its code.
   - `categories.jsx` — the word-type registry. **Add a category = one descriptor** + a `public/data/<key>.json`.
+  - `frequency.js` — the everyday-usage ranking: how `f` is read, sorted on and badged. Ranks are written by `scripts/add-frequency.mjs`.
   - `theme.js` — colour/font design tokens.
 - `src/engine/` — `progress.js` (persistence + spaced-repetition schedule), `quiz.js` (question building, chunk/session/deck pickers, due counts), `activity.js` (daily tally, streak, goal), `useCloudSync.js`, `useDriveSync.js`.
 - `src/components/` — `Header`, `BottomNav`, `AppStyles` (the global stylesheet), the views (`Mixed`, `Quiz`, `Chunks`, `Browse`, `Cheatsheet`, `Notes`, `Stats`), the reusable `QuizRunner`, shared `ui` primitives, and `detail` card-backs.
-- `public/data/*.json` — the dataset. **Add words here**; tag entries with `lvl:"A2"` etc. (no `lvl` → A1). No rebuild needed — fetched at runtime.
+- `public/data/*.json` — the dataset. **Add words here**; tag entries with `lvl:"A2"` etc. (no `lvl` → A1), then run `npm run data:freq` to rank them. No rebuild needed — fetched at runtime.
 - `src/storage.js` — progress persistence via **IndexedDB** (`idb-keyval`).
 - `src/speak.js` — German text-to-speech (Web Speech API).
 - `src/backup.js` — export/import progress; uses the iOS **Share sheet** ("Save to Files") with a download fallback.

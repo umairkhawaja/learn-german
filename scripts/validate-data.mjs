@@ -141,6 +141,23 @@ for (const f of FILES) {
   }
 }
 
+// ── 8. Usage ranks ────────────────────────────────────────────────────────
+// `f` is the everyday-usage rank written by scripts/add-frequency.mjs, and
+// the app orders new words by it. A rank shared by two entries, or missing
+// from one, means the ranker has not been re-run since words were added —
+// unranked words sort last and would sit at the back of every deck forever.
+const ranks = new Map();
+let unranked = 0;
+for (const f of FILES) {
+  for (const x of db[f]) {
+    if (!Number.isInteger(x.f) || x.f < 1) { unranked++; continue; }
+    const owner = ranks.get(x.f);
+    if (owner) err(`${f}: "${x.w}" shares usage rank ${x.f} with "${owner}"`);
+    else ranks.set(x.f, x.w);
+  }
+}
+if (unranked) warn(`${unranked} entr${unranked === 1 ? "y has" : "ies have"} no usage rank — run: npm run data:freq`);
+
 // ── Report ────────────────────────────────────────────────────────────────
 const counts = FILES.map((f) => `${f} ${db[f].length}`).join(" · ");
 console.log(`entries: ${counts}\n`);

@@ -63,6 +63,9 @@ export function QuizView({ cat, progress, setProgress, levelFilter, db, recordAn
     {chunk.length > 0 && (
       <div style={{ fontSize: 12, color: MUTE, marginBottom: 10, display: "flex", alignItems: "center", gap: 6, flexWrap: "wrap" }}>
         <span>📦 {isBacklogChunk ? "Mastering" : "New chunk"}: <b style={{ color: cat.color }}>{chunk.length}</b> word{chunk.length === 1 ? "" : "s"}</span>
+        {/* Which words those are is not arbitrary: the batch is filled with
+            the most-used words still unlearned in this category. */}
+        <span style={{ color: FAINT }} title="New words are introduced in order of how often they turn up in everyday German">· most-used first</span>
         {locked > 0 && <span style={{ color: FAINT }}>· {locked} more word{locked === 1 ? "" : "s"} locked until these are mastered</span>}
       </div>
     )}

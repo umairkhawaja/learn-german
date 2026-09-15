@@ -25,6 +25,7 @@ import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import { COLORS, TXT, MUTE, FAINT } from "../config/theme";
 import { lvlOf, levelMeta } from "../config/levels";
 import { CATEGORIES } from "../config/categories";
+import { usageBand, usageTitle } from "../config/frequency";
 import { keyOf, applyAnswer, saveProgress, isMastered, MASTERY_THRESHOLD } from "../engine/progress";
 import { pickMixedDeck, mixedPool, MIXED_DECK_SIZE, MIXED_CATEGORY_IDS } from "../engine/quiz";
 import { storage } from "../storage";
@@ -32,6 +33,7 @@ import { SpeakBtn, ProgressBar, MasterBtn, ExampleLine, isTypingTarget } from ".
 
 const ACCENT = "#a855f7";
 const DUE = "#38bdf8";
+const COMMON = "#f97316";
 const DECK_SIZES = [20, 40, 60];
 const PREFS_KEY = "dm-mixed-prefs-v1";
 const SESSION_KEY = "dm-mixed-session-v1";
@@ -46,8 +48,8 @@ const SESSION_KEY = "dm-mixed-session-v1";
 // changing any of those still deals a fresh one.
 let sessionCache = null;
 
-const scopeOf = (levelFilter, size, catIds, dueOnly) =>
-  `${levelFilter}|${size}|${dueOnly ? "due" : "all"}|${[...catIds].sort().join(",")}`;
+const scopeOf = (levelFilter, size, catIds, dueOnly, commonFirst) =>
+  `${levelFilter}|${size}|${dueOnly ? "due" : "all"}|${commonFirst ? "common" : "any"}|${[...catIds].sort().join(",")}`;
 
 // Sessions store { catId, w } refs, not the item objects themselves —
 // the objects come back from the freshly fetched db on the next load.
@@ -99,6 +101,10 @@ export function MixedView({ db, progress, setProgress, levelFilter, recordAnswer
   // due word is merely *preferred* in the draw and can sit behind forty new
   // ones, which defeats the point of having scheduled it.
   const [dueOnly, setDueOnly] = useState(false);
+  // New words come in order of how often they are actually used, across every
+  // level at once. The level is how hard a word is; this is how much it earns
+  // its place, and it is the more useful axis to learn along.
+  const [commonFirst, setCommonFirst] = useState(true);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [prefsLoaded, setPrefsLoaded] = useState(false);
 
@@ -135,6 +141,7 @@ export function MixedView({ db, progress, setProgress, levelFilter, recordAnswer
           if (DECK_SIZES.includes(p.size)) setSize(p.size);
           if (typeof p.flipped === "boolean") setFlipped(p.flipped);
           if (typeof p.dueOnly === "boolean") setDueOnly(p.dueOnly);
+          if (typeof p.commonFirst === "boolean") setCommonFirst(p.commonFirst);
         }
       } catch { }
     }).catch(() => { });
@@ -157,8 +164,8 @@ export function MixedView({ db, progress, setProgress, levelFilter, recordAnswer
 
   useEffect(() => {
     if (!prefsLoaded) return;
-    storage.set(PREFS_KEY, JSON.stringify({ catIds, size, flipped, dueOnly })).catch(() => { });
-  }, [prefsLoaded, catIds, size, flipped, dueOnly]);
+    storage.set(PREFS_KEY, JSON.stringify({ catIds, size, flipped, dueOnly, commonFirst })).catch(() => { });
+  }, [prefsLoaded, catIds, size, flipped, dueOnly, commonFirst]);
 
   // Everything still practisable under the current filters. Recomputed on
   // every answer (cheap) — but the deck itself is *not*, or it would
@@ -181,14 +188,14 @@ export function MixedView({ db, progress, setProgress, levelFilter, recordAnswer
     return n;
   }, [pool, progress]);
 
-  const scope = scopeOf(levelFilter, size, catIds, dueOnly);
+  const scope = scopeOf(levelFilter, size, catIds, dueOnly, commonFirst);
 
   const newDeck = useCallback(() => {
-    const next = pickMixedDeck(db, CATEGORIES, progressRef.current, levelFilter, { size, catIds, dueOnly });
+    const next = pickMixedDeck(db, CATEGORIES, progressRef.current, levelFilter, { size, catIds, dueOnly, commonFirst });
     appliedLen.current = next.length;
     setDeck(next);
     setIdx(0); setRevealed(false); setResults([]); setDone(false);
-  }, [db, levelFilter, size, catIds, dueOnly]);
+  }, [db, levelFilter, size, catIds, dueOnly, commonFirst]);
 
   // Restore the deck you were on, or build one when there is nothing to
   // come back to. Runs on mount and whenever the scope changes — a new
@@ -355,6 +362,16 @@ export function MixedView({ db, progress, setProgress, levelFilter, recordAnswer
               style={{ padding: "6px 10px", borderRadius: 9, border: `1px solid ${flipped ? ACCENT : COLORS.borderSoft}`, background: flipped ? ACCENT + "22" : COLORS.surfaceAlt, color: flipped ? ACCENT : MUTE, fontSize: 12, cursor: "pointer", fontWeight: 600 }}>
               {flipped ? "EN → DE" : "DE → EN"}
             </button>
+            {/* The order new words arrive in. On: the words you will actually
+                hear, most-used first, whatever level they are tagged. Off:
+                drawn at random across the level, to sweep it evenly. */}
+            <button onClick={() => setCommonFirst(!commonFirst)} aria-pressed={commonFirst}
+              title={commonFirst
+                ? "New words come most-used first — click to draw them at random across the level instead"
+                : "New words are drawn at random — click to meet the most-used ones first"}
+              style={{ padding: "6px 10px", borderRadius: 9, border: `1px solid ${commonFirst ? COMMON : COLORS.borderSoft}`, background: commonFirst ? COMMON + "22" : COLORS.surfaceAlt, color: commonFirst ? COMMON : MUTE, fontSize: 12, cursor: "pointer", fontWeight: 600 }}>
+              🔥 Common first
+            </button>
           </div>
         </div>
       )}
@@ -368,6 +385,9 @@ export function MixedView({ db, progress, setProgress, levelFilter, recordAnswer
           · from {dueOnly ? `${dueCount.toLocaleString()} due` : `${pool.length.toLocaleString()} unmastered`}{" "}
           {levelFilter === "All" ? "words (all levels)" : `${levelFilter} words`}
         </span>
+        {/* Only meaningful for new words: a review deck is ordered by the
+            schedule, not by how common the word is. */}
+        {commonFirst && !dueOnly && <span style={{ color: COMMON + "cc" }}>· most-used first</span>}
       </div>
     </div>
   );
@@ -430,6 +450,7 @@ export function MixedView({ db, progress, setProgress, levelFilter, recordAnswer
   const { item: it, cat } = deck[idx];
   const p = progress[keyOf(cat.id, it)];
   const lm = levelMeta(lvlOf(it));
+  const band = usageBand(it);
   const front = flipped ? it.e : it.w;
   const back = flipped ? it.w : it.e;
 
@@ -442,9 +463,14 @@ export function MixedView({ db, progress, setProgress, levelFilter, recordAnswer
         <span style={{ fontSize: 12, color: FAINT, fontVariantNumeric: "tabular-nums" }}>{idx + 1}/{deck.length}</span>
       </div>
 
+      {/* Level and usage band side by side: how hard the word is, and how
+          often it turns up. They disagree often enough to be worth seeing. */}
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 8, fontSize: 12.5 }}>
         <span style={{ color: cat.color, fontWeight: 700 }}>{cat.label}</span>
-        <span style={{ color: lm.color, fontWeight: 700 }}>{lm.code}</span>
+        <span style={{ display: "flex", gap: 8, alignItems: "center" }}>
+          {band && <span title={usageTitle(it)} style={{ color: band.color, fontWeight: 700 }}>🔥 {band.label}</span>}
+          <span style={{ color: lm.color, fontWeight: 700 }}>{lm.code}</span>
+        </span>
       </div>
 
       <div onClick={() => !revealed && setRevealed(true)}

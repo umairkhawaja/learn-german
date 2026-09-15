@@ -38,7 +38,8 @@
    "du": "Sprich!",
    "ihr": "Sprecht!",
    "sie": "Sprechen Sie!"
-  }
+  },
+  "f": 221
  },
  {
   "w": "denken",
@@ -79,7 +80,8 @@
    "du": "Denk!",
    "ihr": "Denkt!",
    "sie": "Denken Sie!"
-  }
+  },
+  "f": 91
  },
  {
   "w": "beginnen",
@@ -120,7 +122,8 @@
    "du": "Beginn!",
    "ihr": "Beginnt!",
    "sie": "Beginnen Sie!"
-  }
+  },
+  "f": 649
  },
  {
   "w": "machen",
@@ -161,7 +164,8 @@
    "du": "Mach!",
    "ihr": "Macht!",
    "sie": "Machen Sie!"
-  }
+  },
+  "f": 49
  },
  {
   "w": "bleiben",
@@ -202,7 +206,8 @@
    "du": "Bleib!",
    "ihr": "Bleibt!",
    "sie": "Bleiben Sie!"
-  }
+  },
+  "f": 211
  },
  {
   "w": "nennen",
@@ -243,7 +248,8 @@
    "du": "Nenn!",
    "ihr": "Nennt!",
    "sie": "Nennen Sie!"
-  }
+  },
+  "f": 404
  },
  {
   "w": "gehen",
@@ -284,7 +290,8 @@
    "du": "Geh!",
    "ihr": "Geht!",
    "sie": "Gehen Sie!"
-  }
+  },
+  "f": 43
  },
  {
   "w": "laufen",
@@ -325,7 +332,8 @@
    "du": "Lauf!",
    "ihr": "Lauft!",
    "sie": "Laufen Sie!"
-  }
+  },
+  "f": 300
  },
  {
   "w": "lassen",
@@ -366,7 +374,8 @@
    "du": "Lass!",
    "ihr": "Lasst!",
    "sie": "Lassen Sie!"
-  }
+  },
+  "f": 123
  },
  {
   "w": "heißen",
@@ -402,7 +411,8 @@
    "sie": "haben geheißen"
   },
   "n": "Irregular (hieß, geheißen). Means 'to be called / named'.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 261
  },
  {
   "w": "stellen",
@@ -443,7 +453,8 @@
    "du": "Stell!",
    "ihr": "Stellt!",
    "sie": "Stellen Sie!"
-  }
+  },
+  "f": 326
  },
  {
   "w": "fragen",
@@ -484,7 +495,8 @@
    "du": "Frag!",
    "ihr": "Fragt!",
    "sie": "Fragen Sie!"
-  }
+  },
+  "f": 192
  },
  {
   "w": "verstehen",
@@ -525,7 +537,8 @@
    "du": "Versteh!",
    "ihr": "Versteht!",
    "sie": "Verstehen Sie!"
-  }
+  },
+  "f": 173
  },
  {
   "w": "leben",
@@ -566,7 +579,8 @@
    "du": "Leb!",
    "ihr": "Lebt!",
    "sie": "Leben Sie!"
-  }
+  },
+  "f": 148
  },
  {
   "w": "arbeiten",
@@ -607,7 +621,8 @@
    "du": "Arbeite!",
    "ihr": "Arbeitet!",
    "sie": "Arbeiten Sie!"
-  }
+  },
+  "f": 268
  },
  {
   "w": "fallen",
@@ -648,7 +663,8 @@
    "du": "Fall!",
    "ihr": "Fallt!",
    "sie": "Fallen Sie!"
-  }
+  },
+  "f": 298
  },
  {
   "w": "mögen",
@@ -684,7 +700,8 @@
    "sie": "haben gemocht"
   },
   "n": "Irregular modal (mochte, gemocht). 'mögen' = to like; 'möchten' is its polite subjunctive (would like).",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 285
  },
  {
   "w": "tun",
@@ -725,7 +742,8 @@
    "du": "Tu!",
    "ihr": "Tut!",
    "sie": "Tun Sie!"
-  }
+  },
+  "f": 57
  },
  {
   "w": "können",
@@ -761,7 +779,8 @@
    "sie": "haben gekonnt"
   },
   "n": "Irregular modal (ich kann, du kannst; konnte, gekonnt). With another verb the Perfekt uses a double infinitive: 'hat ... können'.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 22
  },
  {
   "w": "halten",
@@ -802,7 +821,8 @@
    "du": "Halt!",
    "ihr": "Haltet!",
    "sie": "Halten Sie!"
-  }
+  },
+  "f": 214
  },
  {
   "w": "spielen",
@@ -843,7 +863,8 @@
    "du": "Spiel!",
    "ihr": "Spielt!",
    "sie": "Spielen Sie!"
-  }
+  },
+  "f": 295
  },
  {
   "w": "sagen",
@@ -884,7 +905,8 @@
    "du": "Sag!",
    "ihr": "Sagt!",
    "sie": "Sagen Sie!"
-  }
+  },
+  "f": 41
  },
  {
   "w": "legen",
@@ -925,7 +947,8 @@
    "du": "Leg!",
    "ihr": "Legt!",
    "sie": "Legen Sie!"
-  }
+  },
+  "f": 612
  },
  {
   "w": "folgen",
@@ -966,7 +989,8 @@
    "du": "Folg!",
    "ihr": "Folgt!",
    "sie": "Folgen Sie!"
-  }
+  },
+  "f": 570
  },
  {
   "w": "stehen",
@@ -1007,7 +1031,8 @@
    "du": "Steh!",
    "ihr": "Steht!",
    "sie": "Stehen Sie!"
-  }
+  },
+  "f": 205
  },
  {
   "w": "haben",
@@ -1048,7 +1073,8 @@
    "du": "Hab!",
    "ihr": "Habt!",
    "sie": "Haben Sie!"
-  }
+  },
+  "f": 5
  },
  {
   "w": "lernen",
@@ -1089,7 +1115,8 @@
    "du": "Lern!",
    "ihr": "Lernt!",
    "sie": "Lernen Sie!"
-  }
+  },
+  "f": 470
  },
  {
   "w": "brauchen",
@@ -1125,7 +1152,8 @@
    "sie": "haben gebraucht"
   },
   "n": "Takes the Akkusativ. Colloquially also 'brauchen + zu + infinitive' (Du brauchst nicht zu kommen = you don't need to come).",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 154
  },
  {
   "w": "liegen",
@@ -1166,7 +1194,8 @@
    "du": "Lieg!",
    "ihr": "Liegt!",
    "sie": "Liegen Sie!"
-  }
+  },
+  "f": 344
  },
  {
   "w": "wissen",
@@ -1202,7 +1231,8 @@
    "sie": "haben gewusst"
   },
   "n": "Irregular (ich weiß, du weißt; wusste, gewusst). 'wissen' = to know a fact; 'kennen' = to be familiar with.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 33
  },
  {
   "w": "werden",
@@ -1243,7 +1273,8 @@
    "du": "Werde!",
    "ihr": "Werdet!",
    "sie": "Werden Sie!"
-  }
+  },
+  "f": 18
  },
  {
   "w": "glauben",
@@ -1284,7 +1315,8 @@
    "du": "Glaub!",
    "ihr": "Glaubt!",
    "sie": "Glauben Sie!"
-  }
+  },
+  "f": 133
  },
  {
   "w": "lesen",
@@ -1325,7 +1357,8 @@
    "du": "Lies!",
    "ihr": "Lest!",
    "sie": "Lesen Sie!"
-  }
+  },
+  "f": 497
  },
  {
   "w": "führen",
@@ -1366,7 +1399,8 @@
    "du": "Führ!",
    "ihr": "Führt!",
    "sie": "Führen Sie!"
-  }
+  },
+  "f": 500
  },
  {
   "w": "setzen",
@@ -1407,7 +1441,8 @@
    "du": "Setz!",
    "ihr": "Setzt!",
    "sie": "Setzen Sie!"
-  }
+  },
+  "f": 458
  },
  {
   "w": "hören",
@@ -1448,7 +1483,8 @@
    "du": "Hör!",
    "ihr": "Hört!",
    "sie": "Hören Sie!"
-  }
+  },
+  "f": 117
  },
  {
   "w": "sein",
@@ -1489,7 +1525,8 @@
    "du": "Sei!",
    "ihr": "Seid!",
    "sie": "Seien Sie!"
-  }
+  },
+  "f": 1
  },
  {
   "w": "müssen",
@@ -1525,7 +1562,8 @@
    "sie": "haben gemusst"
   },
   "n": "Irregular modal (ich muss, du musst; musste). Double infinitive in the Perfekt: 'hat ... müssen'. 'nicht müssen' = don't have to.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 45
  },
  {
   "w": "sehen",
@@ -1566,7 +1604,8 @@
    "du": "Sieh!",
    "ihr": "Seht!",
    "sie": "Sehen Sie!"
-  }
+  },
+  "f": 54
  },
  {
   "w": "wollen",
@@ -1602,7 +1641,8 @@
    "sie": "haben gewollt"
   },
   "n": "Irregular modal (ich will, du willst; wollte). Double infinitive in the Perfekt. Expresses intention.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 31
  },
  {
   "w": "kaufen",
@@ -1643,7 +1683,8 @@
    "du": "Kauf!",
    "ihr": "Kauft!",
    "sie": "Kaufen Sie!"
-  }
+  },
+  "f": 505
  },
  {
   "w": "sollen",
@@ -1679,7 +1720,8 @@
    "sie": "haben gesollt"
   },
   "n": "Modal (sollte, gesollt). Expresses obligation or 'is supposed to'. Double infinitive in the Perfekt.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 60
  },
  {
   "w": "finden",
@@ -1720,7 +1762,8 @@
    "du": "Finde!",
    "ihr": "Findet!",
    "sie": "Finden Sie!"
-  }
+  },
+  "f": 126
  },
  {
   "w": "dürfen",
@@ -1756,7 +1799,8 @@
    "sie": "haben gedurft"
   },
   "n": "Irregular modal (ich darf, du darfst; durfte). Expresses permission. 'nicht dürfen' = must not.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 240
  },
  {
   "w": "bringen",
@@ -1797,7 +1841,8 @@
    "du": "Bring!",
    "ihr": "Bringt!",
    "sie": "Bringen Sie!"
-  }
+  },
+  "f": 180
  },
  {
   "w": "geben",
@@ -1838,7 +1883,8 @@
    "du": "Gib!",
    "ihr": "Gebt!",
    "sie": "Geben Sie!"
-  }
+  },
+  "f": 81
  },
  {
   "w": "nehmen",
@@ -1879,7 +1925,8 @@
    "du": "Nimm!",
    "ihr": "Nehmt!",
    "sie": "Nehmen Sie!"
-  }
+  },
+  "f": 174
  },
  {
   "w": "schreiben",
@@ -1920,7 +1967,8 @@
    "du": "Schreib!",
    "ihr": "Schreibt!",
    "sie": "Schreiben Sie!"
-  }
+  },
+  "f": 446
  },
  {
   "w": "kommen",
@@ -1961,7 +2009,8 @@
    "du": "Komm!",
    "ihr": "Kommt!",
    "sie": "Kommen Sie!"
-  }
+  },
+  "f": 61
  },
  {
   "w": "zeigen",
@@ -2002,7 +2051,8 @@
    "du": "Zeige!",
    "ihr": "Zeigt!",
    "sie": "Zeigen Sie!"
-  }
+  },
+  "f": 367
  },
  {
   "w": "studieren",
@@ -2043,7 +2093,8 @@
    "du": "Studier!",
    "ihr": "Studiert!",
    "sie": "Studieren Sie!"
-  }
+  },
+  "f": 1336
  },
  {
   "w": "reagieren",
@@ -2084,7 +2135,8 @@
    "du": "Reagier!",
    "ihr": "Reagiert!",
    "sie": "Reagieren Sie!"
-  }
+  },
+  "f": 1363
  },
  {
   "w": "essen",
@@ -2125,7 +2177,8 @@
    "du": "Iss!",
    "ihr": "Esst!",
    "sie": "Essen Sie!"
-  }
+  },
+  "f": 266
  },
  {
   "w": "bilden",
@@ -2166,7 +2219,8 @@
    "du": "Bilde!",
    "ihr": "Bildet!",
    "sie": "Bilden Sie!"
-  }
+  },
+  "f": 1506
  },
  {
   "w": "erhalten",
@@ -2207,7 +2261,8 @@
    "du": "Erhalt!",
    "ihr": "Erhaltet!",
    "sie": "Erhalten Sie!"
-  }
+  },
+  "f": 910
  },
  {
   "w": "umziehen",
@@ -2249,7 +2304,8 @@
    "du": "Zieh um!",
    "ihr": "Zieht um!",
    "sie": "Ziehen Sie um!"
-  }
+  },
+  "f": 1775
  },
  {
   "w": "antworten",
@@ -2290,7 +2346,8 @@
    "du": "Antworte!",
    "ihr": "Antwortet!",
    "sie": "Antworten Sie!"
-  }
+  },
+  "f": 836
  },
  {
   "w": "treffen",
@@ -2331,7 +2388,8 @@
    "du": "Triff!",
    "ihr": "Trefft!",
    "sie": "Treffen Sie!"
-  }
+  },
+  "f": 290
  },
  {
   "w": "fahren",
@@ -2372,7 +2430,8 @@
    "du": "Fahr!",
    "ihr": "Fahrt!",
    "sie": "Fahren Sie!"
-  }
+  },
+  "f": 258
  },
  {
   "w": "aufhören",
@@ -2414,7 +2473,8 @@
    "du": "Hör auf!",
    "ihr": "Hört auf!",
    "sie": "Hören Sie auf!"
-  }
+  },
+  "f": 647
  },
  {
   "w": "wohnen",
@@ -2455,7 +2515,8 @@
    "du": "Wohn!",
    "ihr": "Wohnt!",
    "sie": "Wohnen Sie!"
-  }
+  },
+  "f": 619
  },
  {
   "w": "gewinnen",
@@ -2496,7 +2557,8 @@
    "du": "Gewinn!",
    "ihr": "Gewinnt!",
    "sie": "Gewinnen Sie!"
-  }
+  },
+  "f": 537
  },
  {
   "w": "erscheinen",
@@ -2537,7 +2599,8 @@
    "du": "Erschein!",
    "ihr": "Erscheint!",
    "sie": "Erscheinen Sie!"
-  }
+  },
+  "f": 1146
  },
  {
   "w": "anrufen",
@@ -2579,7 +2642,8 @@
    "du": "Ruf an!",
    "ihr": "Ruft an!",
    "sie": "Rufen Sie an!"
-  }
+  },
+  "f": 495
  },
  {
   "w": "schwimmen",
@@ -2620,7 +2684,8 @@
    "du": "Schwimm!",
    "ihr": "Schwimmt!",
    "sie": "Schwimmen Sie!"
-  }
+  },
+  "f": 1312
  },
  {
   "w": "sterben",
@@ -2661,7 +2726,8 @@
    "du": "Stirb!",
    "ihr": "Sterbt!",
    "sie": "Sterben Sie!"
-  }
+  },
+  "f": 267
  },
  {
   "w": "verlieren",
@@ -2702,7 +2768,8 @@
    "du": "Verlier!",
    "ihr": "Verliert!",
    "sie": "Verlieren Sie!"
-  }
+  },
+  "f": 329
  },
  {
   "w": "bedeuten",
@@ -2738,7 +2805,8 @@
    "sie": "haben bedeutet"
   },
   "n": "Means 'to mean / signify'. 'Was bedeutet...?' is the standard way to ask for a definition.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 475
  },
  {
   "w": "handeln",
@@ -2779,7 +2847,8 @@
    "du": "Handl!",
    "ihr": "Handelt!",
    "sie": "Handeln Sie!"
-  }
+  },
+  "f": 962
  },
  {
   "w": "erklären",
@@ -2820,7 +2889,8 @@
    "du": "Erklär!",
    "ihr": "Erklärt!",
    "sie": "Erklären Sie!"
-  }
+  },
+  "f": 604
  },
  {
   "w": "kennen",
@@ -2861,7 +2931,8 @@
    "du": "Kenn!",
    "ihr": "Kennt!",
    "sie": "Kennen Sie!"
-  }
+  },
+  "f": 191
  },
  {
   "w": "einkaufen",
@@ -2903,7 +2974,8 @@
    "du": "Kauf ein!",
    "ihr": "Kauft ein!",
    "sie": "Kaufen Sie ein!"
-  }
+  },
+  "f": 1854
  },
  {
   "w": "hoffen",
@@ -2944,7 +3016,8 @@
    "du": "Hoff!",
    "ihr": "Hofft!",
    "sie": "Hoffen Sie!"
-  }
+  },
+  "f": 426
  },
  {
   "w": "schicken",
@@ -2985,7 +3058,8 @@
    "du": "Schick!",
    "ihr": "Schickt!",
    "sie": "Schicken Sie!"
-  }
+  },
+  "f": 443
  },
  {
   "w": "zahlen",
@@ -3026,7 +3100,8 @@
    "du": "Zahl!",
    "ihr": "Zahlt!",
    "sie": "Zahlen Sie!"
-  }
+  },
+  "f": 730
  },
  {
   "w": "tanzen",
@@ -3067,7 +3142,8 @@
    "du": "Tanz!",
    "ihr": "Tanzt!",
    "sie": "Tanzen Sie!"
-  }
+  },
+  "f": 791
  },
  {
   "w": "aufstehen",
@@ -3109,7 +3185,8 @@
    "du": "Steh auf!",
    "ihr": "Steht auf!",
    "sie": "Stehen Sie auf!"
-  }
+  },
+  "f": 1218
  },
  {
   "w": "helfen",
@@ -3150,7 +3227,8 @@
    "du": "Hilf!",
    "ihr": "Helft!",
    "sie": "Helfen Sie!"
-  }
+  },
+  "f": 210
  },
  {
   "w": "schlafen",
@@ -3191,7 +3269,8 @@
    "du": "Schlaf!",
    "ihr": "Schlaft!",
    "sie": "Schlafen Sie!"
-  }
+  },
+  "f": 382
  },
  {
   "w": "anfangen",
@@ -3233,7 +3312,8 @@
    "du": "Fang an!",
    "ihr": "Fangt an!",
    "sie": "Fangen Sie an!"
-  }
+  },
+  "f": 633
  },
  {
   "w": "verlassen",
@@ -3274,7 +3354,8 @@
    "du": "Verlass!",
    "ihr": "Verlasst!",
    "sie": "Verlassen Sie!"
-  }
+  },
+  "f": 468
  },
  {
   "w": "vergessen",
@@ -3315,7 +3396,8 @@
    "du": "Vergiss!",
    "ihr": "Vergesst!",
    "sie": "Vergessen Sie!"
-  }
+  },
+  "f": 368
  },
  {
   "w": "entstehen",
@@ -3356,7 +3438,8 @@
    "du": "Entsteh!",
    "ihr": "Entsteht!",
    "sie": "Entstehen Sie!"
-  }
+  },
+  "f": 1728
  },
  {
   "w": "wählen",
@@ -3397,7 +3480,8 @@
    "du": "Wähl!",
    "ihr": "Wählt!",
    "sie": "Wählen Sie!"
-  }
+  },
+  "f": 944
  },
  {
   "w": "bestehen",
@@ -3438,7 +3522,8 @@
    "du": "Besteh!",
    "ihr": "Besteht!",
    "sie": "Bestehen Sie!"
-  }
+  },
+  "f": 869
  },
  {
   "w": "aufmachen",
@@ -3480,7 +3565,8 @@
    "du": "Mach auf!",
    "ihr": "Macht auf!",
    "sie": "Machen Sie auf!"
-  }
+  },
+  "f": 1408
  },
  {
   "w": "versuchen",
@@ -3521,7 +3607,8 @@
    "du": "Versuch!",
    "ihr": "Versucht!",
    "sie": "Versuchen Sie!"
-  }
+  },
+  "f": 249
  },
  {
   "w": "gehören",
@@ -3557,7 +3644,8 @@
    "sie": "haben gehört"
   },
   "n": "Takes the Dativ: 'etwas gehört mir' = something belongs to me. 'gehören zu' = to be part of.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "f": 234
  },
  {
   "w": "trinken",
@@ -3598,7 +3686,8 @@
    "du": "Trink!",
    "ihr": "Trinkt!",
    "sie": "Trinken Sie!"
-  }
+  },
+  "f": 454
  },
  {
   "w": "suchen",
@@ -3639,7 +3728,8 @@
    "du": "Such!",
    "ihr": "Sucht!",
    "sie": "Suchen Sie!"
-  }
+  },
+  "f": 272
  },
  {
   "w": "reisen",
@@ -3680,7 +3770,8 @@
    "du": "Reis!",
    "ihr": "Reist!",
    "sie": "Reisen Sie!"
-  }
+  },
+  "f": 748
  },
  {
   "w": "vorhaben",
@@ -3722,7 +3813,8 @@
    "du": "Hab vor!",
    "ihr": "Habt vor!",
    "sie": "Haben Sie vor!"
-  }
+  },
+  "f": 1471
  },
  {
   "w": "zuhören",
@@ -3764,7 +3856,8 @@
    "du": "Hör zu!",
    "ihr": "Hört zu!",
    "sie": "Hören Sie zu!"
-  }
+  },
+  "f": 1310
  },
  {
   "w": "fernsehen",
@@ -3806,7 +3899,8 @@
    "du": "Sieh fern!",
    "ihr": "Seht fern!",
    "sie": "Sehen Sie fern!"
-  }
+  },
+  "f": 1236
  },
  {
   "w": "passieren",
@@ -3842,7 +3936,8 @@
    "sie": "sind passiert"
   },
   "n": "Uses 'sein' in the Perfekt. Impersonal: 'es passiert'. -ieren verb: passiert (no ge-).",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 222
  },
  {
   "w": "erzählen",
@@ -3883,7 +3978,8 @@
    "du": "Erzähl!",
    "ihr": "Erzählt!",
    "sie": "Erzählen Sie!"
-  }
+  },
+  "f": 294
  },
  {
   "w": "lächeln",
@@ -3924,7 +4020,8 @@
    "du": "Lächl!",
    "ihr": "Lächelt!",
    "sie": "Lächeln Sie!"
-  }
+  },
+  "f": 1105
  },
  {
   "w": "vorstellen",
@@ -3966,7 +4063,8 @@
    "du": "Stell vor!",
    "ihr": "Stellt vor!",
    "sie": "Stellen Sie vor!"
-  }
+  },
+  "f": 737
  },
  {
   "w": "benutzen",
@@ -4007,7 +4105,8 @@
    "du": "Benutz!",
    "ihr": "Benutzt!",
    "sie": "Benutzen Sie!"
-  }
+  },
+  "f": 621
  },
  {
   "w": "kochen",
@@ -4048,7 +4147,8 @@
    "du": "Koch!",
    "ihr": "Kocht!",
    "sie": "Kochen Sie!"
-  }
+  },
+  "f": 1049
  },
  {
   "w": "holen",
@@ -4089,7 +4189,8 @@
    "du": "Hol!",
    "ihr": "Holt!",
    "sie": "Holen Sie!"
-  }
+  },
+  "f": 339
  },
  {
   "w": "dauern",
@@ -4130,7 +4231,8 @@
    "du": "Dauere!",
    "ihr": "Dauert!",
    "sie": "Dauern Sie!"
-  }
+  },
+  "f": 702
  },
  {
   "w": "kosten",
@@ -4166,7 +4268,8 @@
    "sie": "haben gekostet"
   },
   "n": "'Was/Wie viel kostet...?' = How much is...? Stem in -t: es kostet, gekostet.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 796
  },
  {
   "w": "schließen",
@@ -4207,7 +4310,8 @@
    "du": "Schließ!",
    "ihr": "Schließt!",
    "sie": "Schließen Sie!"
-  }
+  },
+  "f": 638
  },
  {
   "w": "öffnen",
@@ -4248,7 +4352,8 @@
    "du": "Öffne!",
    "ihr": "Öffnet!",
    "sie": "Öffnen Sie!"
-  }
+  },
+  "f": 684
  },
  {
   "w": "tragen",
@@ -4289,7 +4394,8 @@
    "du": "Trag!",
    "ihr": "Tragt!",
    "sie": "Tragen Sie!"
-  }
+  },
+  "f": 487
  },
  {
   "w": "waschen",
@@ -4330,7 +4436,8 @@
    "du": "Wasch!",
    "ihr": "Wascht!",
    "sie": "Waschen Sie!"
-  }
+  },
+  "f": 1333
  },
  {
   "w": "putzen",
@@ -4371,7 +4478,8 @@
    "du": "Putz!",
    "ihr": "Putzt!",
    "sie": "Putzen Sie!"
-  }
+  },
+  "f": 1748
  },
  {
   "w": "enden",
@@ -4412,7 +4520,8 @@
    "du": "Ende!",
    "ihr": "Endet!",
    "sie": "Enden Sie!"
-  }
+  },
+  "f": 388
  },
  {
   "w": "warten",
@@ -4453,7 +4562,8 @@
    "du": "Warte!",
    "ihr": "Wartet!",
    "sie": "Warten Sie!"
-  }
+  },
+  "f": 169
  },
  {
   "w": "wiederholen",
@@ -4494,7 +4604,8 @@
    "du": "Wiederhol!",
    "ihr": "Wiederholt!",
    "sie": "Wiederholen Sie!"
-  }
+  },
+  "f": 1229
  },
  {
   "w": "bezahlen",
@@ -4535,7 +4646,8 @@
    "du": "Bezahl!",
    "ihr": "Bezahlt!",
    "sie": "Bezahlen Sie!"
-  }
+  },
+  "f": 585
  },
  {
   "w": "mitkommen",
@@ -4577,7 +4689,8 @@
    "du": "Komm mit!",
    "ihr": "Kommt mit!",
    "sie": "Kommen Sie mit!"
-  }
+  },
+  "f": 1191
  },
  {
   "w": "anbieten",
@@ -4619,7 +4732,8 @@
    "du": "Biete an!",
    "ihr": "Bietet an!",
    "sie": "Bieten Sie an!"
-  }
+  },
+  "f": 1343
  },
  {
   "w": "bewerben (sich)",
@@ -4660,7 +4774,8 @@
    "du": "Bewirb!",
    "ihr": "Bewerbt!",
    "sie": "Bewerben Sie!"
-  }
+  },
+  "f": 2479
  },
  {
   "w": "bitten",
@@ -4701,7 +4816,8 @@
    "du": "Bitte!",
    "ihr": "Bittet!",
    "sie": "Bitten Sie!"
-  }
+  },
+  "f": 93
  },
  {
   "w": "empfehlen",
@@ -4742,7 +4858,8 @@
    "du": "Empfiehl!",
    "ihr": "Empfehlt!",
    "sie": "Empfehlen Sie!"
-  }
+  },
+  "f": 1697
  },
  {
   "w": "entscheiden",
@@ -4783,7 +4900,8 @@
    "du": "Entscheide!",
    "ihr": "Entscheidet!",
    "sie": "Entscheiden Sie!"
-  }
+  },
+  "f": 692
  },
  {
   "w": "erkennen",
@@ -4824,7 +4942,8 @@
    "du": "Erkenn!",
    "ihr": "Erkennt!",
    "sie": "Erkennen Sie!"
-  }
+  },
+  "f": 726
  },
  {
   "w": "erwarten",
@@ -4865,7 +4984,8 @@
    "du": "Erwarte!",
    "ihr": "Erwartet!",
    "sie": "Erwarten Sie!"
-  }
+  },
+  "f": 553
  },
  {
   "w": "fehlen",
@@ -4906,7 +5026,8 @@
    "du": "Fehl!",
    "ihr": "Fehlt!",
    "sie": "Fehlen Sie!"
-  }
+  },
+  "f": 743
  },
  {
   "w": "interessieren",
@@ -4947,7 +5068,8 @@
    "du": "Interessier!",
    "ihr": "Interessiert!",
    "sie": "Interessieren Sie!"
-  }
+  },
+  "f": 688
  },
  {
   "w": "merken",
@@ -4988,7 +5110,8 @@
    "du": "Merk!",
    "ihr": "Merkt!",
    "sie": "Merken Sie!"
-  }
+  },
+  "f": 851
  },
  {
   "w": "schaffen",
@@ -5029,7 +5152,8 @@
    "du": "Schaff!",
    "ihr": "Schafft!",
    "sie": "Schaffen Sie!"
-  }
+  },
+  "f": 360
  },
  {
   "w": "verbringen",
@@ -5070,7 +5194,8 @@
    "du": "Verbring!",
    "ihr": "Verbringt!",
    "sie": "Verbringen Sie!"
-  }
+  },
+  "f": 870
  },
  {
   "w": "vergleichen",
@@ -5111,7 +5236,8 @@
    "du": "Vergleich!",
    "ihr": "Vergleicht!",
    "sie": "Vergleichen Sie!"
-  }
+  },
+  "f": 1868
  },
  {
   "w": "versprechen",
@@ -5152,7 +5278,8 @@
    "du": "Versprich!",
    "ihr": "Versprecht!",
    "sie": "Versprechen Sie!"
-  }
+  },
+  "f": 529
  },
  {
   "w": "vorschlagen",
@@ -5194,7 +5321,8 @@
    "du": "Schlag vor!",
    "ihr": "Schlagt vor!",
    "sie": "Schlagen Sie vor!"
-  }
+  },
+  "f": 1907
  },
  {
   "w": "buchstabieren",
@@ -5235,7 +5363,8 @@
    "du": "Buchstabier!",
    "ihr": "Buchstabiert!",
    "sie": "Buchstabieren Sie!"
-  }
+  },
+  "f": 2953
  },
  {
   "w": "kontrollieren",
@@ -5276,7 +5405,8 @@
    "du": "Kontrollier!",
    "ihr": "Kontrolliert!",
    "sie": "Kontrollieren Sie!"
-  }
+  },
+  "f": 1211
  },
  {
   "w": "lauten",
@@ -5317,7 +5447,8 @@
    "du": "Laute!",
    "ihr": "Lautet!",
    "sie": "Lauten Sie!"
-  }
+  },
+  "f": 1098
  },
  {
   "w": "zusammenwohnen",
@@ -5359,7 +5490,8 @@
    "du": "Wohn zusammen!",
    "ihr": "Wohnt zusammen!",
    "sie": "Wohnen Sie zusammen!"
-  }
+  },
+  "f": 3478
  },
  {
   "w": "entschuldigen",
@@ -5400,7 +5532,8 @@
    "du": "Entschuldige!",
    "ihr": "Entschuldigt!",
    "sie": "Entschuldigen Sie!"
-  }
+  },
+  "f": 385
  },
  {
   "w": "joggen",
@@ -5441,7 +5574,8 @@
    "du": "Jogg!",
    "ihr": "Joggt!",
    "sie": "Joggen Sie!"
-  }
+  },
+  "f": 2930
  },
  {
   "w": "wandern",
@@ -5482,7 +5616,8 @@
    "du": "Wandere!",
    "ihr": "Wandert!",
    "sie": "Wandern Sie!"
-  }
+  },
+  "f": 2006
  },
  {
   "w": "fotografieren",
@@ -5523,7 +5658,8 @@
    "du": "Fotografier!",
    "ihr": "Fotografiert!",
    "sie": "Fotografieren Sie!"
-  }
+  },
+  "f": 2098
  },
  {
   "w": "feiern",
@@ -5564,7 +5700,8 @@
    "du": "Feiere!",
    "ihr": "Feiert!",
    "sie": "Feiern Sie!"
-  }
+  },
+  "f": 985
  },
  {
   "w": "aussehen",
@@ -5606,7 +5743,8 @@
    "du": "Sieh aus!",
    "ihr": "Seht aus!",
    "sie": "Sehen Sie aus!"
-  }
+  },
+  "f": 693
  },
  {
   "w": "stimmen",
@@ -5647,7 +5785,8 @@
    "du": "Stimm!",
    "ihr": "Stimmt!",
    "sie": "Stimmen Sie!"
-  }
+  },
+  "f": 263
  },
  {
   "w": "möchten",
@@ -5683,7 +5822,8 @@
    "sie": "haben gewollt"
   },
   "n": "Polite subjunctive of 'mögen' (= would like). Used like a modal: 'Ich möchte + infinitive'. Very common and polite for requests.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 88
  },
  {
   "w": "schmecken",
@@ -5724,7 +5864,8 @@
    "du": "Schmeck!",
    "ihr": "Schmeckt!",
    "sie": "Schmecken Sie!"
-  }
+  },
+  "f": 1114
  },
  {
   "w": "bestellen",
@@ -5765,7 +5906,8 @@
    "du": "Bestell!",
    "ihr": "Bestellt!",
    "sie": "Bestellen Sie!"
-  }
+  },
+  "f": 1168
  },
  {
   "w": "wünschen",
@@ -5806,7 +5948,8 @@
    "du": "Wünsch!",
    "ihr": "Wünscht!",
    "sie": "Wünschen Sie!"
-  }
+  },
+  "f": 555
  },
  {
   "w": "frühstücken",
@@ -5847,7 +5990,8 @@
    "du": "Frühstück!",
    "ihr": "Frühstückt!",
    "sie": "Frühstücken Sie!"
-  }
+  },
+  "f": 2239
  },
  {
   "w": "bekommen",
@@ -5888,7 +6032,8 @@
    "du": "Bekomm!",
    "ihr": "Bekommt!",
    "sie": "Bekommen Sie!"
-  }
+  },
+  "f": 271
  },
  {
   "w": "präsentieren",
@@ -5929,7 +6074,8 @@
    "du": "Präsentier!",
    "ihr": "Präsentiert!",
    "sie": "Präsentieren Sie!"
-  }
+  },
+  "f": 1621
  },
  {
   "w": "klettern",
@@ -5970,7 +6116,8 @@
    "du": "Klettere!",
    "ihr": "Klettert!",
    "sie": "Klettern Sie!"
-  }
+  },
+  "f": 2012
  },
  {
   "w": "hingehen",
@@ -6012,7 +6159,8 @@
    "du": "Geh hin!",
    "ihr": "Geht hin!",
    "sie": "Gehen Sie hin!"
-  }
+  },
+  "f": 1248
  },
  {
   "w": "schneiden",
@@ -6053,7 +6201,8 @@
    "du": "Schneide!",
    "ihr": "Schneidet!",
    "sie": "Schneiden Sie!"
-  }
+  },
+  "f": 1009
  },
  {
   "w": "lieben",
@@ -6094,7 +6243,8 @@
    "du": "Lieb!",
    "ihr": "Liebt!",
    "sie": "Lieben Sie!"
-  }
+  },
+  "f": 170
  },
  {
   "w": "mitnehmen",
@@ -6136,7 +6286,8 @@
    "du": "Nehm mit!",
    "ihr": "Nehmt mit!",
    "sie": "Nehmen Sie mit!"
-  }
+  },
+  "f": 916
  },
  {
   "w": "üben",
@@ -6177,7 +6328,8 @@
    "du": "Üb!",
    "ihr": "Übt!",
    "sie": "Üben Sie!"
-  }
+  },
+  "f": 1460
  },
  {
   "w": "bauen",
@@ -6218,7 +6370,8 @@
    "du": "Bau!",
    "ihr": "Baut!",
    "sie": "Bauen Sie!"
-  }
+  },
+  "f": 765
  },
  {
   "w": "besuchen",
@@ -6259,7 +6412,8 @@
    "du": "Besuch!",
    "ihr": "Besucht!",
    "sie": "Besuchen Sie!"
-  }
+  },
+  "f": 849
  },
  {
   "w": "unterrichten",
@@ -6300,7 +6454,8 @@
    "du": "Unterrichte!",
    "ihr": "Unterrichtet!",
    "sie": "Unterrichten Sie!"
-  }
+  },
+  "f": 1766
  },
  {
   "w": "organisieren",
@@ -6341,7 +6496,8 @@
    "du": "Organisier!",
    "ihr": "Organisiert!",
    "sie": "Organisieren Sie!"
-  }
+  },
+  "f": 1714
  },
  {
   "w": "klingeln",
@@ -6382,7 +6538,8 @@
    "du": "Klingle!",
    "ihr": "Klingelt!",
    "sie": "Klingeln Sie!"
-  }
+  },
+  "f": 1062
  },
  {
   "w": "besprechen",
@@ -6423,7 +6580,8 @@
    "du": "Besprech!",
    "ihr": "Besprecht!",
    "sie": "Besprechen Sie!"
-  }
+  },
+  "f": 1425
  },
  {
   "w": "schauen",
@@ -6464,7 +6622,8 @@
    "du": "Schau!",
    "ihr": "Schaut!",
    "sie": "Schauen Sie!"
-  }
+  },
+  "f": 603
  },
  {
   "w": "mitgehen",
@@ -6506,7 +6665,8 @@
    "du": "Geh mit!",
    "ihr": "Geht mit!",
    "sie": "Gehen Sie mit!"
-  }
+  },
+  "f": 2545
  },
  {
   "w": "planen",
@@ -6547,7 +6707,8 @@
    "du": "Plan!",
    "ihr": "Plant!",
    "sie": "Planen Sie!"
-  }
+  },
+  "f": 957
  },
  {
   "w": "passen",
@@ -6588,7 +6749,8 @@
    "du": "Pass!",
    "ihr": "Passt!",
    "sie": "Passen Sie!"
-  }
+  },
+  "f": 606
  },
  {
   "w": "einladen",
@@ -6630,7 +6792,8 @@
    "du": "Lad ein!",
    "ihr": "Ladet ein!",
    "sie": "Laden Sie ein!"
-  }
+  },
+  "f": 1022
  },
  {
   "w": "aufschreiben",
@@ -6672,7 +6835,8 @@
    "du": "Schreib auf!",
    "ihr": "Schreibt auf!",
    "sie": "Schreiben Sie auf!"
-  }
+  },
+  "f": 2388
  },
  {
   "w": "aufräumen",
@@ -6714,7 +6878,8 @@
    "du": "Räum auf!",
    "ihr": "Räumt auf!",
    "sie": "Räumen Sie auf!"
-  }
+  },
+  "f": 2162
  },
  {
   "w": "mitbringen",
@@ -6756,7 +6921,8 @@
    "du": "Bring mit!",
    "ihr": "Bringt mit!",
    "sie": "Bringen Sie mit!"
-  }
+  },
+  "f": 1087
  },
  {
   "w": "meinen",
@@ -6797,7 +6963,8 @@
    "du": "Mein!",
    "ihr": "Meint!",
    "sie": "Meinen Sie!"
-  }
+  },
+  "f": 47
  },
  {
   "w": "backen",
@@ -6838,7 +7005,8 @@
    "du": "Back!",
    "ihr": "Backt!",
    "sie": "Backen Sie!"
-  }
+  },
+  "f": 1962
  },
  {
   "w": "zurückkommen",
@@ -6880,7 +7048,8 @@
    "du": "Komm zurück!",
    "ihr": "Kommt zurück!",
    "sie": "Kommen Sie zurück!"
-  }
+  },
+  "f": 969
  },
  {
   "w": "kennenlernen",
@@ -6922,7 +7091,8 @@
    "du": "Lern kennen!",
    "ihr": "Lernt kennen!",
    "sie": "Lernen Sie kennen!"
-  }
+  },
+  "f": 1086
  },
  {
   "w": "ankommen",
@@ -6964,7 +7134,8 @@
    "du": "Komm an!",
    "ihr": "Kommt an!",
    "sie": "Kommen Sie an!"
-  }
+  },
+  "f": 1090
  },
  {
   "w": "klingen",
@@ -7005,7 +7176,8 @@
    "du": "Kling!",
    "ihr": "Klingt!",
    "sie": "Klingen Sie!"
-  }
+  },
+  "f": 547
  },
  {
   "w": "losmüssen",
@@ -7042,7 +7214,8 @@
   },
   "n": "Separable, colloquial (= sich auf den Weg machen müssen). 'los' splits off: 'Ich muss los.'",
   "sep": true,
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 4104
  },
  {
   "w": "weiterfeiern",
@@ -7084,7 +7257,8 @@
    "du": "Feiere weiter!",
    "ihr": "Feiert weiter!",
    "sie": "Feiern Sie weiter!"
-  }
+  },
+  "f": 4105
  },
  {
   "w": "reservieren",
@@ -7125,7 +7299,8 @@
    "du": "Reservier!",
    "ihr": "Reserviert!",
    "sie": "Reservieren Sie!"
-  }
+  },
+  "f": 2228
  },
  {
   "w": "annehmen",
@@ -7167,7 +7342,8 @@
    "du": "Nehm an!",
    "ihr": "Nehmt an!",
    "sie": "Nehmen Sie an!"
-  }
+  },
+  "f": 1029
  },
  {
   "w": "absagen",
@@ -7209,7 +7385,8 @@
    "du": "Sag ab!",
    "ihr": "Sagt ab!",
    "sie": "Sagen Sie ab!"
-  }
+  },
+  "f": 1847
  },
  {
   "w": "reinkommen",
@@ -7251,7 +7428,8 @@
    "du": "Komm rein!",
    "ihr": "Kommt rein!",
    "sie": "Kommen Sie rein!"
-  }
+  },
+  "f": 1259
  },
  {
   "w": "gefallen",
@@ -7287,7 +7465,8 @@
    "sie": "haben gefallen"
   },
   "n": "Irregular: a→ä (es gefällt). Takes the Dativ: 'etwas gefällt mir' = I like it (lit. it pleases me). The participle is just 'gefallen' (no extra ge-).",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 347
  },
  {
   "w": "funktionieren",
@@ -7328,7 +7507,8 @@
    "du": "Funktionier!",
    "ihr": "Funktioniert!",
    "sie": "Funktionieren Sie!"
-  }
+  },
+  "f": 630
  },
  {
   "w": "vorbeikommen",
@@ -7370,7 +7550,8 @@
    "du": "Komm vorbei!",
    "ihr": "Kommt vorbei!",
    "sie": "Kommen Sie vorbei!"
-  }
+  },
+  "f": 1708
  },
  {
   "w": "ansehen",
@@ -7412,7 +7593,8 @@
    "du": "Sieh an!",
    "ihr": "Seht an!",
    "sie": "Sehen Sie an!"
-  }
+  },
+  "f": 771
  },
  {
   "w": "surfen",
@@ -7453,7 +7635,8 @@
    "du": "Surf!",
    "ihr": "Surft!",
    "sie": "Surfen Sie!"
-  }
+  },
+  "f": 3001
  },
  {
   "w": "losfahren",
@@ -7495,7 +7678,8 @@
    "du": "Fahr los!",
    "ihr": "Fahrt los!",
    "sie": "Fahren Sie los!"
-  }
+  },
+  "f": 2752
  },
  {
   "w": "grillen",
@@ -7536,7 +7720,8 @@
    "du": "Grill!",
    "ihr": "Grillt!",
    "sie": "Grillen Sie!"
-  }
+  },
+  "f": 2485
  },
  {
   "w": "riechen",
@@ -7577,7 +7762,8 @@
    "du": "Riech!",
    "ihr": "Riecht!",
    "sie": "Riechen Sie!"
-  }
+  },
+  "f": 911
  },
  {
   "w": "mitmüssen",
@@ -7614,7 +7800,8 @@
   },
   "n": "Separable, colloquial (= mitkommen/mitgehen müssen). 'mit' splits off: 'Ich muss mit.'",
   "sep": true,
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 4106
  },
  {
   "w": "grüßen",
@@ -7655,7 +7842,8 @@
    "du": "Grüß!",
    "ihr": "Grüßt!",
    "sie": "Grüßen Sie!"
-  }
+  },
+  "f": 1484
  },
  {
   "w": "senden",
@@ -7696,7 +7884,8 @@
    "du": "Sende!",
    "ihr": "Sendet!",
    "sie": "Senden Sie!"
-  }
+  },
+  "f": 1584
  },
  {
   "w": "melden",
@@ -7737,7 +7926,8 @@
    "du": "Melde!",
    "ihr": "Meldet!",
    "sie": "Melden Sie!"
-  }
+  },
+  "f": 760
  },
  {
   "w": "nutzen",
@@ -7778,7 +7968,8 @@
    "du": "Nutz!",
    "ihr": "Nutzt!",
    "sie": "Nutzen Sie!"
-  }
+  },
+  "f": 1001
  },
  {
   "w": "chatten",
@@ -7819,7 +8010,8 @@
    "du": "Chatte!",
    "ihr": "Chattet!",
    "sie": "Chatten Sie!"
-  }
+  },
+  "f": 3561
  },
  {
   "w": "telefonieren",
@@ -7860,7 +8052,8 @@
    "du": "Telefonier!",
    "ihr": "Telefoniert!",
    "sie": "Telefonieren Sie!"
-  }
+  },
+  "f": 1456
  },
  {
   "w": "registrieren",
@@ -7901,7 +8094,8 @@
    "du": "Registrier!",
    "ihr": "Registriert!",
    "sie": "Registrieren Sie!"
-  }
+  },
+  "f": 2385
  },
  {
   "w": "verschicken",
@@ -7942,7 +8136,8 @@
    "du": "Verschick!",
    "ihr": "Verschickt!",
    "sie": "Verschicken Sie!"
-  }
+  },
+  "f": 2764
  },
  {
   "w": "ablehnen",
@@ -7984,7 +8179,8 @@
    "du": "Lehn ab!",
    "ihr": "Lehnt ab!",
    "sie": "Lehnen Sie ab!"
-  }
+  },
+  "f": 1567
  },
  {
   "w": "heiraten",
@@ -8025,7 +8221,8 @@
    "du": "Heirate!",
    "ihr": "Heiratet!",
    "sie": "Heiraten Sie!"
-  }
+  },
+  "f": 572
  },
  {
   "w": "stattfinden",
@@ -8062,7 +8259,8 @@
   },
   "n": "Separable, irregular: 'statt' splits off (es findet statt). Means 'to take place'. Participle: stattgefunden.",
   "sep": true,
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1882
  },
  {
   "w": "wiederkommen",
@@ -8104,7 +8302,8 @@
    "du": "Komm wieder!",
    "ihr": "Kommt wieder!",
    "sie": "Kommen Sie wieder!"
-  }
+  },
+  "f": 1743
  },
  {
   "w": "aussprechen",
@@ -8146,7 +8345,8 @@
    "du": "Sprich aus!",
    "ihr": "Sprecht aus!",
    "sie": "Sprechen Sie aus!"
-  }
+  },
+  "f": 1906
  },
  {
   "w": "schenken",
@@ -8187,7 +8387,8 @@
    "du": "Schenk!",
    "ihr": "Schenkt!",
    "sie": "Schenken Sie!"
-  }
+  },
+  "f": 1028
  },
  {
   "w": "danken",
@@ -8228,7 +8429,8 @@
    "du": "Dank!",
    "ihr": "Dankt!",
    "sie": "Danken Sie!"
-  }
+  },
+  "f": 124
  },
  {
   "w": "drucken",
@@ -8269,7 +8471,8 @@
    "du": "Druck!",
    "ihr": "Druckt!",
    "sie": "Drucken Sie!"
-  }
+  },
+  "f": 2355
  },
  {
   "w": "scannen",
@@ -8310,7 +8513,8 @@
    "du": "Scann!",
    "ihr": "Scannt!",
    "sie": "Scannen Sie!"
-  }
+  },
+  "f": 2516
  },
  {
   "w": "downloaden",
@@ -8351,7 +8555,8 @@
    "du": "Downloade!",
    "ihr": "Downloadet!",
    "sie": "Downloaden Sie!"
-  }
+  },
+  "f": 4107
  },
  {
   "w": "herunterladen",
@@ -8393,7 +8598,8 @@
    "du": "Lad herunter!",
    "ihr": "Ladet herunter!",
    "sie": "Laden Sie herunter!"
-  }
+  },
+  "f": 3364
  },
  {
   "w": "drücken",
@@ -8434,7 +8640,8 @@
    "du": "Drück!",
    "ihr": "Drückt!",
    "sie": "Drücken Sie!"
-  }
+  },
+  "f": 1137
  },
  {
   "w": "klicken",
@@ -8475,7 +8682,8 @@
    "du": "Klick!",
    "ihr": "Klickt!",
    "sie": "Klicken Sie!"
-  }
+  },
+  "f": 2561
  },
  {
   "w": "eingeben",
@@ -8517,7 +8725,8 @@
    "du": "Gib ein!",
    "ihr": "Gebt ein!",
    "sie": "Geben Sie ein!"
-  }
+  },
+  "f": 2872
  },
  {
   "w": "erstellen",
@@ -8558,7 +8767,8 @@
    "du": "Erstell!",
    "ihr": "Erstellt!",
    "sie": "Erstellen Sie!"
-  }
+  },
+  "f": 2370
  },
  {
   "w": "markieren",
@@ -8599,7 +8809,8 @@
    "du": "Markier!",
    "ihr": "Markiert!",
    "sie": "Markieren Sie!"
-  }
+  },
+  "f": 2380
  },
  {
   "w": "hochladen",
@@ -8641,7 +8852,8 @@
    "du": "Lad hoch!",
    "ihr": "Ladet hoch!",
    "sie": "Laden Sie hoch!"
-  }
+  },
+  "f": 3186
  },
  {
   "w": "auswählen",
@@ -8683,7 +8895,8 @@
    "du": "Wähl aus!",
    "ihr": "Wählt aus!",
    "sie": "Wählen Sie aus!"
-  }
+  },
+  "f": 2109
  },
  {
   "w": "hinzufügen",
@@ -8725,7 +8938,8 @@
    "du": "Füg hinzu!",
    "ihr": "Fügt hinzu!",
    "sie": "Fügen Sie hinzu!"
-  }
+  },
+  "f": 2605
  },
  {
   "w": "dabeihaben",
@@ -8767,7 +8981,8 @@
    "du": "Hab dabei!",
    "ihr": "Habt dabei!",
    "sie": "Haben Sie dabei!"
-  }
+  },
+  "f": 3249
  },
  {
   "w": "begrüßen",
@@ -8808,7 +9023,8 @@
    "du": "Begrüß!",
    "ihr": "Begrüßt!",
    "sie": "Begrüßen Sie!"
-  }
+  },
+  "f": 1658
  },
  {
   "w": "informieren",
@@ -8849,7 +9065,8 @@
    "du": "Informier!",
    "ihr": "Informiert!",
    "sie": "Informieren Sie!"
-  }
+  },
+  "f": 1351
  },
  {
   "w": "leiten",
@@ -8890,7 +9107,8 @@
    "du": "Leite!",
    "ihr": "Leitet!",
    "sie": "Leiten Sie!"
-  }
+  },
+  "f": 1241
  },
  {
   "w": "starten",
@@ -8931,7 +9149,8 @@
    "du": "Starte!",
    "ihr": "Startet!",
    "sie": "Starten Sie!"
-  }
+  },
+  "f": 1271
  },
  {
   "w": "ausdrucken",
@@ -8973,7 +9192,8 @@
    "du": "Druck aus!",
    "ihr": "Druckt aus!",
    "sie": "Drucken Sie aus!"
-  }
+  },
+  "f": 3264
  },
  {
   "w": "reden",
@@ -9014,7 +9234,8 @@
    "du": "Rede!",
    "ihr": "Redet!",
    "sie": "Reden Sie!"
-  }
+  },
+  "f": 168
  },
  {
   "w": "vorbereiten",
@@ -9056,7 +9277,8 @@
    "du": "Bereite vor!",
    "ihr": "Bereitet vor!",
    "sie": "Bereiten Sie vor!"
-  }
+  },
+  "f": 1149
  },
  {
   "w": "rauchen",
@@ -9097,7 +9319,8 @@
    "du": "Rauch!",
    "ihr": "Raucht!",
    "sie": "Rauchen Sie!"
-  }
+  },
+  "f": 1115
  },
  {
   "w": "spülen",
@@ -9138,7 +9361,8 @@
    "du": "Spül!",
    "ihr": "Spült!",
    "sie": "Spülen Sie!"
-  }
+  },
+  "f": 2473
  },
  {
   "w": "fertigmachen",
@@ -9180,7 +9404,8 @@
    "du": "Mach fertig!",
    "ihr": "Macht fertig!",
    "sie": "Machen Sie fertig!"
-  }
+  },
+  "f": 2471
  },
  {
   "w": "stecken",
@@ -9221,7 +9446,8 @@
    "du": "Steck!",
    "ihr": "Steckt!",
    "sie": "Stecken Sie!"
-  }
+  },
+  "f": 583
  },
  {
   "w": "beantworten",
@@ -9262,7 +9488,8 @@
    "du": "Beantworte!",
    "ihr": "Beantwortet!",
    "sie": "Beantworten Sie!"
-  }
+  },
+  "f": 1327
  },
  {
   "w": "einräumen",
@@ -9304,7 +9531,8 @@
    "du": "Räum ein!",
    "ihr": "Räumt ein!",
    "sie": "Räumen Sie ein!"
-  }
+  },
+  "f": 3330
  },
  {
   "w": "einschalten",
@@ -9346,7 +9574,8 @@
    "du": "Schalte ein!",
    "ihr": "Schaltet ein!",
    "sie": "Schalten Sie ein!"
-  }
+  },
+  "f": 2326
  },
  {
   "w": "rausbringen",
@@ -9388,7 +9617,8 @@
    "du": "Bring raus!",
    "ihr": "Bringt raus!",
    "sie": "Bringen Sie raus!"
-  }
+  },
+  "f": 2648
  },
  {
   "w": "bügeln",
@@ -9429,7 +9659,8 @@
    "du": "Bügle!",
    "ihr": "Bügelt!",
    "sie": "Bügeln Sie!"
-  }
+  },
+  "f": 2978
  },
  {
   "w": "staubsaugen",
@@ -9470,7 +9701,8 @@
    "du": "Staubsaug!",
    "ihr": "Staubsaugt!",
    "sie": "Staubsaugen Sie!"
-  }
+  },
+  "f": 3565
  },
  {
   "w": "aufhängen",
@@ -9512,7 +9744,8 @@
    "du": "Häng auf!",
    "ihr": "Hängt auf!",
    "sie": "Hängen Sie auf!"
-  }
+  },
+  "f": 2257
  },
  {
   "w": "decken",
@@ -9553,7 +9786,8 @@
    "du": "Deck!",
    "ihr": "Deckt!",
    "sie": "Decken Sie!"
-  }
+  },
+  "f": 1206
  },
  {
   "w": "wischen",
@@ -9594,7 +9828,8 @@
    "du": "Wisch!",
    "ihr": "Wischt!",
    "sie": "Wischen Sie!"
-  }
+  },
+  "f": 2588
  },
  {
   "w": "ausräumen",
@@ -9636,7 +9871,8 @@
    "du": "Räum aus!",
    "ihr": "Räumt aus!",
    "sie": "Räumen Sie aus!"
-  }
+  },
+  "f": 3092
  },
  {
   "w": "stören",
@@ -9677,7 +9913,8 @@
    "du": "Stör!",
    "ihr": "Stört!",
    "sie": "Stören Sie!"
-  }
+  },
+  "f": 802
  },
  {
   "w": "sitzen",
@@ -9718,7 +9955,8 @@
    "du": "Sitz!",
    "ihr": "Sitzt!",
    "sie": "Sitzen Sie!"
-  }
+  },
+  "f": 552
  },
  {
   "w": "lachen",
@@ -9759,7 +9997,8 @@
    "du": "Lach!",
    "ihr": "Lacht!",
    "sie": "Lachen Sie!"
-  }
+  },
+  "f": 526
  },
  {
   "w": "verdienen",
@@ -9800,7 +10039,8 @@
    "du": "Verdien!",
    "ihr": "Verdient!",
    "sie": "Verdienen Sie!"
-  }
+  },
+  "f": 624
  },
  {
   "w": "zurückrufen",
@@ -9842,7 +10082,8 @@
    "du": "Ruf zurück!",
    "ihr": "Ruft zurück!",
    "sie": "Rufen Sie zurück!"
-  }
+  },
+  "f": 2145
  },
  {
   "w": "trainieren",
@@ -9883,7 +10124,8 @@
    "du": "Trainier!",
    "ihr": "Trainiert!",
    "sie": "Trainieren Sie!"
-  }
+  },
+  "f": 1517
  },
  {
   "w": "beachten",
@@ -9924,7 +10166,8 @@
    "du": "Beachte!",
    "ihr": "Beachtet!",
    "sie": "Beachten Sie!"
-  }
+  },
+  "f": 2313
  },
  {
   "w": "teilnehmen",
@@ -9966,7 +10209,8 @@
    "du": "Nehm teil!",
    "ihr": "Nehmt teil!",
    "sie": "Nehmen Sie teil!"
-  }
+  },
+  "f": 2361
  },
  {
   "w": "interviewen",
@@ -10007,7 +10251,8 @@
    "du": "Interview!",
    "ihr": "Interviewt!",
    "sie": "Interviewen Sie!"
-  }
+  },
+  "f": 2922
  },
  {
   "w": "hinwollen",
@@ -10044,7 +10289,8 @@
   },
   "n": "Separable, colloquial (= an einen Ort wollen). 'hin' marks direction away from the speaker.",
   "sep": true,
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 3245
  },
  {
   "w": "nachfragen",
@@ -10086,7 +10332,8 @@
    "du": "Frag nach!",
    "ihr": "Fragt nach!",
    "sie": "Fragen Sie nach!"
-  }
+  },
+  "f": 2449
  },
  {
   "w": "eröffnen",
@@ -10127,7 +10374,8 @@
    "du": "Eröffne!",
    "ihr": "Eröffnet!",
    "sie": "Eröffnen Sie!"
-  }
+  },
+  "f": 1688
  },
  {
   "w": "buchen",
@@ -10168,7 +10416,8 @@
    "du": "Buch!",
    "ihr": "Bucht!",
    "sie": "Buchen Sie!"
-  }
+  },
+  "f": 1916
  },
  {
   "w": "ergänzen",
@@ -10209,7 +10458,8 @@
    "du": "Ergänz!",
    "ihr": "Ergänzt!",
    "sie": "Ergänzen Sie!"
-  }
+  },
+  "f": 3268
  },
  {
   "w": "stürzen",
@@ -10250,7 +10500,8 @@
    "du": "Stürz!",
    "ihr": "Stürzt!",
    "sie": "Stürzen Sie!"
-  }
+  },
+  "f": 1430
  },
  {
   "w": "bewegen",
@@ -10291,7 +10542,8 @@
    "du": "Beweg!",
    "ihr": "Bewegt!",
    "sie": "Bewegen Sie!"
-  }
+  },
+  "f": 775
  },
  {
   "w": "reparieren",
@@ -10332,7 +10584,8 @@
    "du": "Reparier!",
    "ihr": "Repariert!",
    "sie": "Reparieren Sie!"
-  }
+  },
+  "f": 1252
  },
  {
   "w": "notieren",
@@ -10373,7 +10626,8 @@
    "du": "Notier!",
    "ihr": "Notiert!",
    "sie": "Notieren Sie!"
-  }
+  },
+  "f": 2506
  },
  {
   "w": "gratulieren",
@@ -10414,7 +10668,8 @@
    "du": "Gratulier!",
    "ihr": "Gratuliert!",
    "sie": "Gratulieren Sie!"
-  }
+  },
+  "f": 1590
  },
  {
   "w": "weiterfahren",
@@ -10456,7 +10711,8 @@
    "du": "Fahr weiter!",
    "ihr": "Fahrt weiter!",
    "sie": "Fahren Sie weiter!"
-  }
+  },
+  "f": 2879
  },
  {
   "w": "aufpassen",
@@ -10498,7 +10754,8 @@
    "du": "Pass auf!",
    "ihr": "Passt auf!",
    "sie": "Passen Sie auf!"
-  }
+  },
+  "f": 1075
  },
  {
   "w": "atmen",
@@ -10539,7 +10796,8 @@
    "du": "Atme!",
    "ihr": "Atmet!",
    "sie": "Atmen Sie!"
-  }
+  },
+  "f": 943
  },
  {
   "w": "verschreiben",
@@ -10580,7 +10838,8 @@
    "du": "Verschreib!",
    "ihr": "Verschreibt!",
    "sie": "Verschreiben Sie!"
-  }
+  },
+  "f": 3076
  },
  {
   "w": "anschauen",
@@ -10622,7 +10881,8 @@
    "du": "Schau an!",
    "ihr": "Schaut an!",
    "sie": "Schauen Sie an!"
-  }
+  },
+  "f": 1618
  },
  {
   "w": "klappen",
@@ -10663,7 +10923,8 @@
    "du": "Klapp!",
    "ihr": "Klappt!",
    "sie": "Klappen Sie!"
-  }
+  },
+  "f": 714
  },
  {
   "w": "abnehmen",
@@ -10705,7 +10966,8 @@
    "du": "Nehm ab!",
    "ihr": "Nehmt ab!",
    "sie": "Nehmen Sie ab!"
-  }
+  },
+  "f": 1622
  },
  {
   "w": "achten",
@@ -10746,7 +11008,8 @@
    "du": "Achte!",
    "ihr": "Achtet!",
    "sie": "Achten Sie!"
-  }
+  },
+  "f": 1365
  },
  {
   "w": "beugen",
@@ -10787,7 +11050,8 @@
    "du": "Beug!",
    "ihr": "Beugt!",
    "sie": "Beugen Sie!"
-  }
+  },
+  "f": 2571
  },
  {
   "w": "heben",
@@ -10828,7 +11092,8 @@
    "du": "Heb!",
    "ihr": "Hebt!",
    "sie": "Heben Sie!"
-  }
+  },
+  "f": 1413
  },
  {
   "w": "zusammendrücken",
@@ -10870,7 +11135,8 @@
    "du": "Drück zusammen!",
    "ihr": "Drückt zusammen!",
    "sie": "Drücken Sie zusammen!"
-  }
+  },
+  "f": 4108
  },
  {
   "w": "entspannen",
@@ -10911,7 +11177,8 @@
    "du": "Entspann!",
    "ihr": "Entspannt!",
    "sie": "Entspannen Sie!"
-  }
+  },
+  "f": 1415
  },
  {
   "w": "shoppen",
@@ -10952,7 +11219,8 @@
    "du": "Shopp!",
    "ihr": "Shoppt!",
    "sie": "Shoppen Sie!"
-  }
+  },
+  "f": 2898
  },
  {
   "w": "anprobieren",
@@ -10994,7 +11262,8 @@
    "du": "Probier an!",
    "ihr": "Probiert an!",
    "sie": "Probieren Sie an!"
-  }
+  },
+  "f": 3082
  },
  {
   "w": "probieren",
@@ -11035,7 +11304,8 @@
    "du": "Probier!",
    "ihr": "Probiert!",
    "sie": "Probieren Sie!"
-  }
+  },
+  "f": 1268
  },
  {
   "w": "posten",
@@ -11076,7 +11346,8 @@
    "du": "Poste!",
    "ihr": "Postet!",
    "sie": "Posten Sie!"
-  }
+  },
+  "f": 1764
  },
  {
   "w": "dazuschreiben",
@@ -11118,7 +11389,8 @@
    "du": "Schreib dazu!",
    "ihr": "Schreibt dazu!",
    "sie": "Schreiben Sie dazu!"
-  }
+  },
+  "f": 4109
  },
  {
   "w": "abfahren",
@@ -11160,7 +11432,8 @@
    "du": "Fahr ab!",
    "ihr": "Fahrt ab!",
    "sie": "Fahren Sie ab!"
-  }
+  },
+  "f": 1984
  },
  {
   "w": "einsteigen",
@@ -11202,7 +11475,8 @@
    "du": "Steige ein!",
    "ihr": "Steigt ein!",
    "sie": "Steigen Sie ein!"
-  }
+  },
+  "f": 1971
  },
  {
   "w": "umsteigen",
@@ -11244,7 +11518,8 @@
    "du": "Steige um!",
    "ihr": "Steigt um!",
    "sie": "Steigen Sie um!"
-  }
+  },
+  "f": 3299
  },
  {
   "w": "aussteigen",
@@ -11286,7 +11561,8 @@
    "du": "Steige aus!",
    "ihr": "Steigt aus!",
    "sie": "Steigen Sie aus!"
-  }
+  },
+  "f": 1733
  },
  {
   "w": "fliegen",
@@ -11327,7 +11603,8 @@
    "du": "Flieg!",
    "ihr": "Fliegt!",
    "sie": "Fliegen Sie!"
-  }
+  },
+  "f": 611
  },
  {
   "w": "wegkönnen",
@@ -11364,7 +11641,8 @@
   },
   "n": "Separable, colloquial (= weggehen können). 'weg' splits off: 'Ich kann nicht weg.'",
   "sep": true,
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 4110
  },
  {
   "w": "baden",
@@ -11405,7 +11683,8 @@
    "du": "Bade!",
    "ihr": "Badet!",
    "sie": "Baden Sie!"
-  }
+  },
+  "f": 2002
  },
  {
   "w": "hängen",
@@ -11446,7 +11725,8 @@
    "du": "Häng!",
    "ihr": "Hängt!",
    "sie": "Hängen Sie!"
-  }
+  },
+  "f": 770
  },
  {
   "w": "losgehen",
@@ -11488,7 +11768,8 @@
    "du": "Geh los!",
    "ihr": "Geht los!",
    "sie": "Gehen Sie los!"
-  }
+  },
+  "f": 1865
  },
  {
   "w": "regnen",
@@ -11524,7 +11805,8 @@
    "sie": "haben geregnet"
   },
   "n": "Impersonal weather verb, always 'es regnet'. Participle: geregnet.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 1828
  },
  {
   "w": "schneien",
@@ -11560,7 +11842,8 @@
    "sie": "haben geschneit"
   },
   "n": "Impersonal weather verb, always 'es schneit'. Participle: geschneit.",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 2732
  },
  {
   "w": "scheinen",
@@ -11596,7 +11879,8 @@
    "sie": "haben geschienen"
   },
   "n": "Irregular (schien, geschienen). Means 'to shine' or 'to seem' ('Es scheint, dass...').",
-  "lvl": "A1"
+  "lvl": "A1",
+  "f": 499
  },
  {
   "w": "brechen",
@@ -11637,7 +11921,8 @@
    "du": "Brich!",
    "ihr": "Brecht!",
    "sie": "Brechen Sie!"
-  }
+  },
+  "f": 700
  },
  {
   "w": "übersetzen",
@@ -11678,7 +11963,8 @@
    "du": "Übersetz!",
    "ihr": "Übersetzt!",
    "sie": "Übersetzen Sie!"
-  }
+  },
+  "f": 1448
  },
  {
   "w": "mieten",
@@ -11719,7 +12005,8 @@
    "du": "Miete!",
    "ihr": "Mietet!",
    "sie": "Mieten Sie!"
-  }
+  },
+  "f": 1486
  },
  {
   "w": "parken",
@@ -11760,7 +12047,8 @@
    "du": "Park!",
    "ihr": "Parkt!",
    "sie": "Parken Sie!"
-  }
+  },
+  "f": 1956
  },
  {
   "w": "vermissen",
@@ -11801,7 +12089,8 @@
    "du": "Vermiss!",
    "ihr": "Vermisst!",
    "sie": "Vermissen Sie!"
-  }
+  },
+  "f": 729
  },
  {
   "w": "abgeben",
@@ -11843,7 +12132,8 @@
    "du": "Gib ab!",
    "ihr": "Gebt ab!",
    "sie": "Geben Sie ab!"
-  }
+  },
+  "f": 1649
  },
  {
   "w": "abholen",
@@ -11885,7 +12175,8 @@
    "du": "Hol ab!",
    "ihr": "Holt ab!",
    "sie": "Holen Sie ab!"
-  }
+  },
+  "f": 1209
  },
  {
   "w": "abschließen",
@@ -11927,7 +12218,8 @@
    "du": "Schließ ab!",
    "ihr": "Schließt ab!",
    "sie": "Schließen Sie ab!"
-  }
+  },
+  "f": 1445
  },
  {
   "w": "ändern",
@@ -11968,7 +12260,8 @@
    "du": "Ändere!",
    "ihr": "Ändert!",
    "sie": "Ändern Sie!"
-  }
+  },
+  "f": 591
  },
  {
   "w": "anmachen",
@@ -12010,7 +12303,8 @@
    "du": "Mach an!",
    "ihr": "Macht an!",
    "sie": "Machen Sie an!"
-  }
+  },
+  "f": 2287
  },
  {
   "w": "sich anmelden",
@@ -12053,7 +12347,8 @@
    "du": "Melde dich an!",
    "ihr": "Meldet euch an!",
    "sie": "Melden Sie sich an!"
-  }
+  },
+  "f": 2514
  },
  {
   "w": "sich ärgern",
@@ -12095,7 +12390,8 @@
    "du": "Ärgere dich!",
    "ihr": "Ärgert euch!",
    "sie": "Ärgern Sie sich!"
-  }
+  },
+  "f": 1842
  },
  {
   "w": "ausfüllen",
@@ -12137,7 +12433,8 @@
    "du": "Füll aus!",
    "ihr": "Füllt aus!",
    "sie": "Füllen Sie aus!"
-  }
+  },
+  "f": 2651
  },
  {
   "w": "ausgeben",
@@ -12179,7 +12476,8 @@
    "du": "Gib aus!",
    "ihr": "Gebt aus!",
    "sie": "Geben Sie aus!"
-  }
+  },
+  "f": 1563
  },
  {
   "w": "ausgehen",
@@ -12221,7 +12519,8 @@
    "du": "Geh aus!",
    "ihr": "Geht aus!",
    "sie": "Gehen Sie aus!"
-  }
+  },
+  "f": 1128
  },
  {
   "w": "ausmachen",
@@ -12263,7 +12562,8 @@
    "du": "Mach aus!",
    "ihr": "Macht aus!",
    "sie": "Machen Sie aus!"
-  }
+  },
+  "f": 1572
  },
  {
   "w": "auspacken",
@@ -12305,7 +12605,8 @@
    "du": "Pack aus!",
    "ihr": "Packt aus!",
    "sie": "Packen Sie aus!"
-  }
+  },
+  "f": 2581
  },
  {
   "w": "sich ausruhen",
@@ -12348,7 +12649,8 @@
    "du": "Ruh dich aus!",
    "ihr": "Ruht euch aus!",
    "sie": "Ruhen Sie sich aus!"
-  }
+  },
+  "f": 1827
  },
  {
   "w": "austragen",
@@ -12390,7 +12692,8 @@
    "du": "Trag aus!",
    "ihr": "Tragt aus!",
    "sie": "Tragen Sie aus!"
-  }
+  },
+  "f": 3026
  },
  {
   "w": "basteln",
@@ -12431,7 +12734,8 @@
    "du": "Bastle!",
    "ihr": "Bastelt!",
    "sie": "Basteln Sie!"
-  }
+  },
+  "f": 2889
  },
  {
   "w": "sich bedanken",
@@ -12473,7 +12777,8 @@
    "du": "Bedank dich!",
    "ihr": "Bedankt euch!",
    "sie": "Bedanken Sie sich!"
-  }
+  },
+  "f": 1829
  },
  {
   "w": "sich beeilen",
@@ -12515,7 +12820,8 @@
    "du": "Beeil dich!",
    "ihr": "Beeilt euch!",
    "sie": "Beeilen Sie sich!"
-  }
+  },
+  "f": 1118
  },
  {
   "w": "beenden",
@@ -12556,7 +12862,8 @@
    "du": "Beende!",
    "ihr": "Beendet!",
    "sie": "Beenden Sie!"
-  }
+  },
+  "f": 914
  },
  {
   "w": "begründen",
@@ -12597,7 +12904,8 @@
    "du": "Begründe!",
    "ihr": "Begründet!",
    "sie": "Begründen Sie!"
-  }
+  },
+  "f": 3101
  },
  {
   "w": "beraten",
@@ -12638,7 +12946,8 @@
    "du": "Berat!",
    "ihr": "Beratet!",
    "sie": "Beraten Sie!"
-  }
+  },
+  "f": 2535
  },
  {
   "w": "berichten",
@@ -12679,7 +12988,8 @@
    "du": "Berichte!",
    "ihr": "Berichtet!",
    "sie": "Berichten Sie!"
-  }
+  },
+  "f": 1258
  },
  {
   "w": "beschreiben",
@@ -12720,7 +13030,8 @@
    "du": "Beschreib!",
    "ihr": "Beschreibt!",
    "sie": "Beschreiben Sie!"
-  }
+  },
+  "f": 1581
  },
  {
   "w": "sich beschweren",
@@ -12762,7 +13073,8 @@
    "du": "Beschwer dich!",
    "ihr": "Beschwert euch!",
    "sie": "Beschweren Sie sich!"
-  }
+  },
+  "f": 1921
  },
  {
   "w": "besichtigen",
@@ -12803,7 +13115,8 @@
    "du": "Besichtige!",
    "ihr": "Besichtigt!",
    "sie": "Besichtigen Sie!"
-  }
+  },
+  "f": 3121
  },
  {
   "w": "bestätigen",
@@ -12844,7 +13157,8 @@
    "du": "Bestätige!",
    "ihr": "Bestätigt!",
    "sie": "Bestätigen Sie!"
-  }
+  },
+  "f": 1213
  },
  {
   "w": "sich bewerben",
@@ -12886,7 +13200,8 @@
    "du": "Bewirb dich!",
    "ihr": "Bewerbt euch!",
    "sie": "Bewerben Sie sich!"
-  }
+  },
+  "f": 2480
  },
  {
   "w": "braten",
@@ -12927,7 +13242,8 @@
    "du": "Brat!",
    "ihr": "Bratet!",
    "sie": "Braten Sie!"
-  }
+  },
+  "f": 2358
  },
  {
   "w": "diskutieren",
@@ -12968,7 +13284,8 @@
    "du": "Diskutier!",
    "ihr": "Diskutiert!",
    "sie": "Diskutieren Sie!"
-  }
+  },
+  "f": 1901
  },
  {
   "w": "sich duschen",
@@ -13010,7 +13327,8 @@
    "du": "Dusch dich!",
    "ihr": "Duscht euch!",
    "sie": "Duschen Sie sich!"
-  }
+  },
+  "f": 1421
  },
  {
   "w": "einpacken",
@@ -13052,7 +13370,8 @@
    "du": "Pack ein!",
    "ihr": "Packt ein!",
    "sie": "Packen Sie ein!"
-  }
+  },
+  "f": 2450
  },
  {
   "w": "sich eintragen",
@@ -13095,7 +13414,8 @@
    "du": "Trag dich ein!",
    "ihr": "Tragt euch ein!",
    "sie": "Tragen Sie sich ein!"
-  }
+  },
+  "f": 2760
  },
  {
   "w": "einziehen",
@@ -13137,7 +13457,8 @@
    "du": "Zieh ein!",
    "ihr": "Zieht ein!",
    "sie": "Ziehen Sie ein!"
-  }
+  },
+  "f": 1892
  },
  {
   "w": "sich erinnern",
@@ -13179,7 +13500,8 @@
    "du": "Erinnere dich!",
    "ihr": "Erinnert euch!",
    "sie": "Erinnern Sie sich!"
-  }
+  },
+  "f": 375
  },
  {
   "w": "erlauben",
@@ -13220,7 +13542,8 @@
    "du": "Erlaub!",
    "ihr": "Erlaubt!",
    "sie": "Erlauben Sie!"
-  }
+  },
+  "f": 938
  },
  {
   "w": "erreichen",
@@ -13261,7 +13584,8 @@
    "du": "Erreich!",
    "ihr": "Erreicht!",
    "sie": "Erreichen Sie!"
-  }
+  },
+  "f": 790
  },
  {
   "w": "sich freuen",
@@ -13303,7 +13627,8 @@
    "du": "Freu dich!",
    "ihr": "Freut euch!",
    "sie": "Freuen Sie sich!"
-  }
+  },
+  "f": 589
  },
  {
   "w": "sich fühlen",
@@ -13345,7 +13670,8 @@
    "du": "Fühl dich!",
    "ihr": "Fühlt euch!",
    "sie": "Fühlen Sie sich!"
-  }
+  },
+  "f": 346
  },
  {
   "w": "herstellen",
@@ -13387,7 +13713,8 @@
    "du": "Stell her!",
    "ihr": "Stellt her!",
    "sie": "Stellen Sie her!"
-  }
+  },
+  "f": 1914
  },
  {
   "w": "husten",
@@ -13428,7 +13755,8 @@
    "du": "Huste!",
    "ihr": "Hustet!",
    "sie": "Husten Sie!"
-  }
+  },
+  "f": 1802
  },
  {
   "w": "kriegen",
@@ -13469,7 +13797,8 @@
    "du": "Krieg!",
    "ihr": "Kriegt!",
    "sie": "Kriegen Sie!"
-  }
+  },
+  "f": 355
  },
  {
   "w": "sich kümmern",
@@ -13511,7 +13840,8 @@
    "du": "Kümmere dich!",
    "ihr": "Kümmert euch!",
    "sie": "Kümmern Sie sich!"
-  }
+  },
+  "f": 502
  },
  {
   "w": "kündigen",
@@ -13552,7 +13882,8 @@
    "du": "Kündige!",
    "ihr": "Kündigt!",
    "sie": "Kündigen Sie!"
-  }
+  },
+  "f": 1607
  },
  {
   "w": "leihen",
@@ -13593,7 +13924,8 @@
    "du": "Leih!",
    "ihr": "Leiht!",
    "sie": "Leihen Sie!"
-  }
+  },
+  "f": 1495
  },
  {
   "w": "liefern",
@@ -13634,7 +13966,8 @@
    "du": "Liefere!",
    "ihr": "Liefert!",
    "sie": "Liefern Sie!"
-  }
+  },
+  "f": 1276
  },
  {
   "w": "lügen",
@@ -13675,7 +14008,8 @@
    "du": "Lüg!",
    "ihr": "Lügt!",
    "sie": "Lügen Sie!"
-  }
+  },
+  "f": 586
  },
  {
   "w": "malen",
@@ -13716,7 +14050,8 @@
    "du": "Mal!",
    "ihr": "Malt!",
    "sie": "Malen Sie!"
-  }
+  },
+  "f": 1288
  },
  {
   "w": "packen",
@@ -13757,7 +14092,8 @@
    "du": "Pack!",
    "ihr": "Packt!",
    "sie": "Packen Sie!"
-  }
+  },
+  "f": 1077
  },
  {
   "w": "prüfen",
@@ -13798,7 +14134,8 @@
    "du": "Prüf!",
    "ihr": "Prüft!",
    "sie": "Prüfen Sie!"
-  }
+  },
+  "f": 1476
  },
  {
   "w": "raten",
@@ -13839,7 +14176,8 @@
    "du": "Rat!",
    "ihr": "Ratet!",
    "sie": "Raten Sie!"
-  }
+  },
+  "f": 896
  },
  {
   "w": "rechnen",
@@ -13880,7 +14218,8 @@
    "du": "Rechn!",
    "ihr": "Rechnt!",
    "sie": "Rechnen Sie!"
-  }
+  },
+  "f": 1634
  },
  {
   "w": "reiten",
@@ -13921,7 +14260,8 @@
    "du": "Reite!",
    "ihr": "Reitet!",
    "sie": "Reiten Sie!"
-  }
+  },
+  "f": 1233
  },
  {
   "w": "renovieren",
@@ -13962,7 +14302,8 @@
    "du": "Renovier!",
    "ihr": "Renoviert!",
    "sie": "Renovieren Sie!"
-  }
+  },
+  "f": 2754
  },
  {
   "w": "rufen",
@@ -14003,7 +14344,8 @@
    "du": "Ruf!",
    "ihr": "Ruft!",
    "sie": "Rufen Sie!"
-  }
+  },
+  "f": 363
  },
  {
   "w": "singen",
@@ -14044,7 +14386,8 @@
    "du": "Sing!",
    "ihr": "Singt!",
    "sie": "Singen Sie!"
-  }
+  },
+  "f": 721
  },
  {
   "w": "sparen",
@@ -14085,7 +14428,8 @@
    "du": "Spar!",
    "ihr": "Spart!",
    "sie": "Sparen Sie!"
-  }
+  },
+  "f": 1499
  },
  {
   "w": "teilen",
@@ -14126,7 +14470,8 @@
    "du": "Teil!",
    "ihr": "Teilt!",
    "sie": "Teilen Sie!"
-  }
+  },
+  "f": 819
  },
  {
   "w": "übernachten",
@@ -14167,7 +14512,8 @@
    "du": "Übernachte!",
    "ihr": "Übernachtet!",
    "sie": "Übernachten Sie!"
-  }
+  },
+  "f": 2029
  },
  {
   "w": "überweisen",
@@ -14208,7 +14554,8 @@
    "du": "Überweis!",
    "ihr": "Überweist!",
    "sie": "Überweisen Sie!"
-  }
+  },
+  "f": 2676
  },
  {
   "w": "sich unterhalten",
@@ -14250,7 +14597,8 @@
    "du": "Unterhalt dich!",
    "ihr": "Unterhaltet euch!",
    "sie": "Unterhalten Sie sich!"
-  }
+  },
+  "f": 1179
  },
  {
   "w": "unternehmen",
@@ -14291,7 +14639,8 @@
    "du": "Unternehm!",
    "ihr": "Unternehmt!",
    "sie": "Unternehmen Sie!"
-  }
+  },
+  "f": 1136
  },
  {
   "w": "unterschreiben",
@@ -14332,7 +14681,8 @@
    "du": "Unterschreib!",
    "ihr": "Unterschreibt!",
    "sie": "Unterschreiben Sie!"
-  }
+  },
+  "f": 1195
  },
  {
   "w": "untersuchen",
@@ -14373,7 +14723,8 @@
    "du": "Untersuch!",
    "ihr": "Untersucht!",
    "sie": "Untersuchen Sie!"
-  }
+  },
+  "f": 1185
  },
  {
   "w": "vereinbaren",
@@ -14414,7 +14765,8 @@
    "du": "Vereinbar!",
    "ihr": "Vereinbart!",
    "sie": "Vereinbaren Sie!"
-  }
+  },
+  "f": 2259
  },
  {
   "w": "verkaufen",
@@ -14455,7 +14807,8 @@
    "du": "Verkauf!",
    "ihr": "Verkauft!",
    "sie": "Verkaufen Sie!"
-  }
+  },
+  "f": 622
  },
  {
   "w": "sich verlieben",
@@ -14497,7 +14850,8 @@
    "du": "Verlieb dich!",
    "ihr": "Verliebt euch!",
    "sie": "Verlieben Sie sich!"
-  }
+  },
+  "f": 912
  },
  {
   "w": "vermieten",
@@ -14538,7 +14892,8 @@
    "du": "Vermiete!",
    "ihr": "Vermietet!",
    "sie": "Vermieten Sie!"
-  }
+  },
+  "f": 2629
  },
  {
   "w": "verpassen",
@@ -14579,7 +14934,8 @@
    "du": "Verpass!",
    "ihr": "Verpasst!",
    "sie": "Verpassen Sie!"
-  }
+  },
+  "f": 937
  },
  {
   "w": "verreisen",
@@ -14620,7 +14976,8 @@
    "du": "Verreis!",
    "ihr": "Verreist!",
    "sie": "Verreisen Sie!"
-  }
+  },
+  "f": 2280
  },
  {
   "w": "verschieben",
@@ -14661,7 +15018,8 @@
    "du": "Verschieb!",
    "ihr": "Verschiebt!",
    "sie": "Verschieben Sie!"
-  }
+  },
+  "f": 1889
  },
  {
   "w": "wechseln",
@@ -14702,7 +15060,8 @@
    "du": "Wechsle!",
    "ihr": "Wechselt!",
    "sie": "Wechseln Sie!"
-  }
+  },
+  "f": 1362
  },
  {
   "w": "wecken",
@@ -14743,7 +15102,8 @@
    "du": "Weck!",
    "ihr": "Weckt!",
    "sie": "Wecken Sie!"
-  }
+  },
+  "f": 1434
  },
  {
   "w": "wehtun",
@@ -14785,7 +15145,8 @@
    "du": "Tu weh!",
    "ihr": "Tut weh!",
    "sie": "Tun Sie weh!"
-  }
+  },
+  "f": 1260
  },
  {
   "w": "weinen",
@@ -14826,7 +15187,8 @@
    "du": "Wein!",
    "ihr": "Weint!",
    "sie": "Weinen Sie!"
-  }
+  },
+  "f": 824
  },
  {
   "w": "zeichnen",
@@ -14867,7 +15229,8 @@
    "du": "Zeichn!",
    "ihr": "Zeichnt!",
    "sie": "Zeichnen Sie!"
-  }
+  },
+  "f": 1946
  },
  {
   "w": "schimpfen",
@@ -14908,7 +15271,8 @@
    "du": "Schimpf!",
    "ihr": "Schimpft!",
    "sie": "Schimpfen Sie!"
-  }
+  },
+  "f": 2786
  },
  {
   "w": "träumen",
@@ -14949,7 +15313,8 @@
    "du": "Träum!",
    "ihr": "Träumt!",
    "sie": "Träumen Sie!"
-  }
+  },
+  "f": 794
  },
  {
   "w": "zumachen",
@@ -14991,7 +15356,8 @@
    "du": "Mach zu!",
    "ihr": "Macht zu!",
    "sie": "Machen Sie zu!"
-  }
+  },
+  "f": 2523
  },
  {
   "w": "aufwachen",
@@ -15033,7 +15399,8 @@
    "du": "Wach auf!",
    "ihr": "Wacht auf!",
    "sie": "Wachen Sie auf!"
-  }
+  },
+  "f": 1216
  },
  {
   "w": "ausschalten",
@@ -15075,7 +15442,8 @@
    "du": "Schalte aus!",
    "ihr": "Schaltet aus!",
    "sie": "Schalten Sie aus!"
-  }
+  },
+  "f": 1836
  },
  {
   "w": "ausziehen",
@@ -15117,7 +15485,8 @@
    "du": "Zieh aus!",
    "ihr": "Zieht aus!",
    "sie": "Ziehen Sie aus!"
-  }
+  },
+  "f": 1531
  },
  {
   "w": "abbiegen",
@@ -15159,7 +15528,8 @@
    "du": "Bieg ab!",
    "ihr": "Biegt ab!",
    "sie": "Biegen Sie ab!"
-  }
+  },
+  "f": 2779
  },
  {
   "w": "korrigieren",
@@ -15200,7 +15570,8 @@
    "du": "Korrigier!",
    "ihr": "Korrigiert!",
    "sie": "Korrigieren Sie!"
-  }
+  },
+  "f": 2050
  },
  {
   "w": "landen",
@@ -15241,7 +15612,8 @@
    "du": "Lande!",
    "ihr": "Landet!",
    "sie": "Landen Sie!"
-  }
+  },
+  "f": 968
  },
  {
   "w": "mitmachen",
@@ -15283,7 +15655,8 @@
    "du": "Mach mit!",
    "ihr": "Macht mit!",
    "sie": "Machen Sie mit!"
-  }
+  },
+  "f": 1721
  },
  {
   "w": "reichen",
@@ -15324,7 +15697,8 @@
    "du": "Reich!",
    "ihr": "Reicht!",
    "sie": "Reichen Sie!"
-  }
+  },
+  "f": 527
  },
  {
   "w": "steigen",
@@ -15365,7 +15739,8 @@
    "du": "Steige!",
    "ihr": "Steigt!",
    "sie": "Steigen Sie!"
-  }
+  },
+  "f": 877
  },
  {
   "w": "sich trennen",
@@ -15407,7 +15782,8 @@
    "du": "Trenn dich!",
    "ihr": "Trennt euch!",
    "sie": "Trennen Sie sich!"
-  }
+  },
+  "f": 1073
  },
  {
   "w": "überlegen",
@@ -15448,7 +15824,8 @@
    "du": "Überleg!",
    "ihr": "Überlegt!",
    "sie": "Überlegen Sie!"
-  }
+  },
+  "f": 921
  },
  {
   "w": "verbieten",
@@ -15489,7 +15866,8 @@
    "du": "Verbiete!",
    "ihr": "Verbietet!",
    "sie": "Verbieten Sie!"
-  }
+  },
+  "f": 1255
  },
  {
   "w": "zelten",
@@ -15530,7 +15908,8 @@
    "du": "Zelte!",
    "ihr": "Zeltet!",
    "sie": "Zelten Sie!"
-  }
+  },
+  "f": 2813
  },
  {
   "w": "zurückgeben",
@@ -15572,7 +15951,8 @@
    "du": "Gib zurück!",
    "ihr": "Gebt zurück!",
    "sie": "Geben Sie zurück!"
-  }
+  },
+  "f": 1976
  },
  {
   "w": "ausprobieren",
@@ -15614,7 +15994,8 @@
    "du": "Probier aus!",
    "ihr": "Probiert aus!",
    "sie": "Probieren Sie aus!"
-  }
+  },
+  "f": 2209
  },
  {
   "w": "angeben",
@@ -15656,7 +16037,8 @@
    "du": "Gib an!",
    "ihr": "Gebt an!",
    "sie": "Geben Sie an!"
-  }
+  },
+  "f": 2270
  },
  {
   "w": "anwenden",
@@ -15698,7 +16080,8 @@
    "du": "Wende an!",
    "ihr": "Wendet an!",
    "sie": "Wenden Sie an!"
-  }
+  },
+  "f": 2682
  },
  {
   "w": "aufgeben",
@@ -15740,7 +16123,8 @@
    "du": "Gib auf!",
    "ihr": "Gebt auf!",
    "sie": "Geben Sie auf!"
-  }
+  },
+  "f": 980
  },
  {
   "w": "auffallen",
@@ -15782,7 +16166,8 @@
    "du": "Fall auf!",
    "ihr": "Fallt auf!",
    "sie": "Fallen Sie auf!"
-  }
+  },
+  "f": 1623
  },
  {
   "w": "ausdrücken",
@@ -15824,7 +16209,8 @@
    "du": "Drück aus!",
    "ihr": "Drückt aus!",
    "sie": "Drücken Sie aus!"
-  }
+  },
+  "f": 1769
  },
  {
   "w": "ausfallen",
@@ -15866,7 +16252,8 @@
    "du": "Fall aus!",
    "ihr": "Fallt aus!",
    "sie": "Fallen Sie aus!"
-  }
+  },
+  "f": 2225
  },
  {
   "w": "aushalten",
@@ -15908,7 +16295,8 @@
    "du": "Halt aus!",
    "ihr": "Haltet aus!",
    "sie": "Halten Sie aus!"
-  }
+  },
+  "f": 2113
  },
  {
   "w": "sich auskennen",
@@ -15951,7 +16339,8 @@
    "du": "Kenn dich aus!",
    "ihr": "Kennt euch aus!",
    "sie": "Kennen Sie sich aus!"
-  }
+  },
+  "f": 2903
  },
  {
   "w": "aussuchen",
@@ -15993,7 +16382,8 @@
    "du": "Such aus!",
    "ihr": "Sucht aus!",
    "sie": "Suchen Sie aus!"
-  }
+  },
+  "f": 1639
  },
  {
   "w": "beantragen",
@@ -16034,7 +16424,8 @@
    "du": "Beantrag!",
    "ihr": "Beantragt!",
    "sie": "Beantragen Sie!"
-  }
+  },
+  "f": 2442
  },
  {
   "w": "bearbeiten",
@@ -16075,7 +16466,8 @@
    "du": "Bearbeite!",
    "ihr": "Bearbeitet!",
    "sie": "Bearbeiten Sie!"
-  }
+  },
+  "f": 2350
  },
  {
   "w": "bedienen",
@@ -16116,7 +16508,8 @@
    "du": "Bedien!",
    "ihr": "Bedient!",
    "sie": "Bedienen Sie!"
-  }
+  },
+  "f": 1826
  },
  {
   "w": "sich befinden",
@@ -16153,7 +16546,8 @@
   },
   "n": "Reflexive, formal. 'Der Eingang befindet sich links.' = The entrance is on the left.",
   "lvl": "B1",
-  "refl": true
+  "refl": true,
+  "f": 1095
  },
  {
   "w": "begegnen",
@@ -16194,7 +16588,8 @@
    "du": "Begegne!",
    "ihr": "Begegnet!",
    "sie": "Begegnen Sie!"
-  }
+  },
+  "f": 1368
  },
  {
   "w": "begleiten",
@@ -16235,7 +16630,8 @@
    "du": "Begleite!",
    "ihr": "Begleitet!",
    "sie": "Begleiten Sie!"
-  }
+  },
+  "f": 1202
  },
  {
   "w": "behalten",
@@ -16276,7 +16672,8 @@
    "du": "Behalt!",
    "ihr": "Behaltet!",
    "sie": "Behalten Sie!"
-  }
+  },
+  "f": 752
  },
  {
   "w": "behandeln",
@@ -16317,7 +16714,8 @@
    "du": "Behandl!",
    "ihr": "Behandelt!",
    "sie": "Behandeln Sie!"
-  }
+  },
+  "f": 941
  },
  {
   "w": "behaupten",
@@ -16358,7 +16756,8 @@
    "du": "Behaupte!",
    "ihr": "Behauptet!",
    "sie": "Behaupten Sie!"
-  }
+  },
+  "f": 1169
  },
  {
   "w": "beobachten",
@@ -16399,7 +16798,8 @@
    "du": "Beobachte!",
    "ihr": "Beobachtet!",
    "sie": "Beobachten Sie!"
-  }
+  },
+  "f": 1018
  },
  {
   "w": "sich beruhigen",
@@ -16441,7 +16841,8 @@
    "du": "Beruhige dich!",
    "ihr": "Beruhigt euch!",
    "sie": "Beruhigen Sie sich!"
-  }
+  },
+  "f": 867
  },
  {
   "w": "sich beschäftigen",
@@ -16483,7 +16884,8 @@
    "du": "Beschäftige dich!",
    "ihr": "Beschäftigt euch!",
    "sie": "Beschäftigen Sie sich!"
-  }
+  },
+  "f": 990
  },
  {
   "w": "besitzen",
@@ -16524,7 +16926,8 @@
    "du": "Besitz!",
    "ihr": "Besitzt!",
    "sie": "Besitzen Sie!"
-  }
+  },
+  "f": 1047
  },
  {
   "w": "bestimmen",
@@ -16565,7 +16968,8 @@
    "du": "Bestimm!",
    "ihr": "Bestimmt!",
    "sie": "Bestimmen Sie!"
-  }
+  },
+  "f": 544
  },
  {
   "w": "betonen",
@@ -16606,7 +17010,8 @@
    "du": "Beton!",
    "ihr": "Betont!",
    "sie": "Betonen Sie!"
-  }
+  },
+  "f": 2810
  },
  {
   "w": "betreffen",
@@ -16647,7 +17052,8 @@
    "du": "Betriff!",
    "ihr": "Betrefft!",
    "sie": "Betreffen Sie!"
-  }
+  },
+  "f": 1384
  },
  {
   "w": "betreuen",
@@ -16688,7 +17094,8 @@
    "du": "Betreu!",
    "ihr": "Betreut!",
    "sie": "Betreuen Sie!"
-  }
+  },
+  "f": 2984
  },
  {
   "w": "beurteilen",
@@ -16729,7 +17136,8 @@
    "du": "Beurteil!",
    "ihr": "Beurteilt!",
    "sie": "Beurteilen Sie!"
-  }
+  },
+  "f": 2297
  },
  {
   "w": "beweisen",
@@ -16770,7 +17178,8 @@
    "du": "Beweis!",
    "ihr": "Beweist!",
    "sie": "Beweisen Sie!"
-  }
+  },
+  "f": 635
  },
  {
   "w": "bieten",
@@ -16811,7 +17220,8 @@
    "du": "Biete!",
    "ihr": "Bietet!",
    "sie": "Bieten Sie!"
-  }
+  },
+  "f": 933
  },
  {
   "w": "einführen",
@@ -16853,7 +17263,8 @@
    "du": "Führ ein!",
    "ihr": "Führt ein!",
    "sie": "Führen Sie ein!"
-  }
+  },
+  "f": 2806
  },
  {
   "w": "sich einigen",
@@ -16895,7 +17306,8 @@
    "du": "Einige dich!",
    "ihr": "Einigt euch!",
    "sie": "Einigen Sie sich!"
-  }
+  },
+  "f": 573
  },
  {
   "w": "einrichten",
@@ -16937,7 +17349,8 @@
    "du": "Richte ein!",
    "ihr": "Richtet ein!",
    "sie": "Richten Sie ein!"
-  }
+  },
+  "f": 2264
  },
  {
   "w": "einsetzen",
@@ -16979,7 +17392,8 @@
    "du": "Setz ein!",
    "ihr": "Setzt ein!",
    "sie": "Setzen Sie ein!"
-  }
+  },
+  "f": 1602
  },
  {
   "w": "entdecken",
@@ -17020,7 +17434,8 @@
    "du": "Entdeck!",
    "ihr": "Entdeckt!",
    "sie": "Entdecken Sie!"
-  }
+  },
+  "f": 1083
  },
  {
   "w": "sich entschließen",
@@ -17062,7 +17477,8 @@
    "du": "Entschließ dich!",
    "ihr": "Entschließt euch!",
    "sie": "Entschließen Sie sich!"
-  }
+  },
+  "f": 2001
  },
  {
   "w": "enttäuschen",
@@ -17103,7 +17519,8 @@
    "du": "Enttäusch!",
    "ihr": "Enttäuscht!",
    "sie": "Enttäuschen Sie!"
-  }
+  },
+  "f": 1253
  },
  {
   "w": "sich entwickeln",
@@ -17145,7 +17562,8 @@
    "du": "Entwickl dich!",
    "ihr": "Entwickelt euch!",
    "sie": "Entwickeln Sie sich!"
-  }
+  },
+  "f": 1244
  },
  {
   "w": "erfahren",
@@ -17186,7 +17604,8 @@
    "du": "Erfahr!",
    "ihr": "Erfahrt!",
    "sie": "Erfahren Sie!"
-  }
+  },
+  "f": 695
  },
  {
   "w": "erfinden",
@@ -17227,7 +17646,8 @@
    "du": "Erfinde!",
    "ihr": "Erfindet!",
    "sie": "Erfinden Sie!"
-  }
+  },
+  "f": 1409
  },
  {
   "w": "erfüllen",
@@ -17268,7 +17688,8 @@
    "du": "Erfüll!",
    "ihr": "Erfüllt!",
    "sie": "Erfüllen Sie!"
-  }
+  },
+  "f": 1264
  },
  {
   "w": "erhöhen",
@@ -17309,7 +17730,8 @@
    "du": "Erhöh!",
    "ihr": "Erhöht!",
    "sie": "Erhöhen Sie!"
-  }
+  },
+  "f": 1672
  },
  {
   "w": "sich erholen",
@@ -17351,7 +17773,8 @@
    "du": "Erhol dich!",
    "ihr": "Erholt euch!",
    "sie": "Erholen Sie sich!"
-  }
+  },
+  "f": 1923
  },
  {
   "w": "erledigen",
@@ -17392,7 +17815,8 @@
    "du": "Erledige!",
    "ihr": "Erledigt!",
    "sie": "Erledigen Sie!"
-  }
+  },
+  "f": 686
  },
  {
   "w": "ernähren",
@@ -17433,7 +17857,8 @@
    "du": "Ernähr!",
    "ihr": "Ernährt!",
    "sie": "Ernähren Sie!"
-  }
+  },
+  "f": 2281
  },
  {
   "w": "erwähnen",
@@ -17474,7 +17899,8 @@
    "du": "Erwähn!",
    "ihr": "Erwähnt!",
    "sie": "Erwähnen Sie!"
-  }
+  },
+  "f": 1015
  },
  {
   "w": "erziehen",
@@ -17515,7 +17941,8 @@
    "du": "Erzieh!",
    "ihr": "Erzieht!",
    "sie": "Erziehen Sie!"
-  }
+  },
+  "f": 2183
  },
  {
   "w": "fangen",
@@ -17556,7 +17983,8 @@
    "du": "Fang!",
    "ihr": "Fangt!",
    "sie": "Fangen Sie!"
-  }
+  },
+  "f": 503
  },
  {
   "w": "feststellen",
@@ -17598,7 +18026,8 @@
    "du": "Stell fest!",
    "ihr": "Stellt fest!",
    "sie": "Stellen Sie fest!"
-  }
+  },
+  "f": 2075
  },
  {
   "w": "fordern",
@@ -17639,7 +18068,8 @@
    "du": "Fordere!",
    "ihr": "Fordert!",
    "sie": "Fordern Sie!"
-  }
+  },
+  "f": 1552
  },
  {
   "w": "fördern",
@@ -17680,7 +18110,8 @@
    "du": "Fördere!",
    "ihr": "Fördert!",
    "sie": "Fördern Sie!"
-  }
+  },
+  "f": 2689
  },
  {
   "w": "fortsetzen",
@@ -17722,7 +18153,8 @@
    "du": "Setz fort!",
    "ihr": "Setzt fort!",
    "sie": "Setzen Sie fort!"
-  }
+  },
+  "f": 2583
  },
  {
   "w": "gelingen",
@@ -17763,7 +18195,8 @@
    "du": "Geling!",
    "ihr": "Gelingt!",
    "sie": "Gelingen Sie!"
-  }
+  },
+  "f": 1300
  },
  {
   "w": "gelten",
@@ -17804,7 +18237,8 @@
    "du": "Gilt!",
    "ihr": "Geltet!",
    "sie": "Gelten Sie!"
-  }
+  },
+  "f": 1181
  },
  {
   "w": "genießen",
@@ -17845,7 +18279,8 @@
    "du": "Genieß!",
    "ihr": "Genießt!",
    "sie": "Genießen Sie!"
-  }
+  },
+  "f": 1068
  },
  {
   "w": "geschehen",
@@ -17881,7 +18316,8 @@
    "sie": "sind geschehen"
   },
   "n": "Inseparable, with sein; used in 3rd person. More formal than 'passieren'. 'Gern geschehen!' = You're welcome!",
-  "lvl": "B1"
+  "lvl": "B1",
+  "f": 637
  },
  {
   "w": "gestalten",
@@ -17922,7 +18358,8 @@
    "du": "Gestalte!",
    "ihr": "Gestaltet!",
    "sie": "Gestalten Sie!"
-  }
+  },
+  "f": 2599
  },
  {
   "w": "sich gewöhnen",
@@ -17964,7 +18401,8 @@
    "du": "Gewöhn dich!",
    "ihr": "Gewöhnt euch!",
    "sie": "Gewöhnen Sie sich!"
-  }
+  },
+  "f": 1378
  },
  {
   "w": "gießen",
@@ -18005,7 +18443,8 @@
    "du": "Gieß!",
    "ihr": "Gießt!",
    "sie": "Gießen Sie!"
-  }
+  },
+  "f": 2554
  },
  {
   "w": "gründen",
@@ -18046,7 +18485,8 @@
    "du": "Gründe!",
    "ihr": "Gründet!",
    "sie": "Gründen Sie!"
-  }
+  },
+  "f": 1117
  },
  {
   "w": "hinweisen",
@@ -18088,7 +18528,8 @@
    "du": "Weis hin!",
    "ihr": "Weist hin!",
    "sie": "Weisen Sie hin!"
-  }
+  },
+  "f": 1761
  },
  {
   "w": "klären",
@@ -18129,7 +18570,8 @@
    "du": "Klär!",
    "ihr": "Klärt!",
    "sie": "Klären Sie!"
-  }
+  },
+  "f": 1319
  },
  {
   "w": "sich konzentrieren",
@@ -18171,7 +18613,8 @@
    "du": "Konzentrier dich!",
    "ihr": "Konzentriert euch!",
    "sie": "Konzentrieren Sie sich!"
-  }
+  },
+  "f": 1265
  },
  {
   "w": "kritisieren",
@@ -18212,7 +18655,8 @@
    "du": "Kritisier!",
    "ihr": "Kritisiert!",
    "sie": "Kritisieren Sie!"
-  }
+  },
+  "f": 2699
  },
  {
   "w": "sich lohnen",
@@ -18249,7 +18693,8 @@
   },
   "n": "Reflexive, 3rd person: 'Es lohnt sich.' = It's worth it. 'Der Film lohnt sich.'",
   "lvl": "B1",
-  "refl": true
+  "refl": true,
+  "f": 1909
  },
  {
   "w": "lösen",
@@ -18290,7 +18735,8 @@
    "du": "Lös!",
    "ihr": "Löst!",
    "sie": "Lösen Sie!"
-  }
+  },
+  "f": 988
  },
  {
   "w": "mitteilen",
@@ -18332,7 +18778,8 @@
    "du": "Teil mit!",
    "ihr": "Teilt mit!",
    "sie": "Teilen Sie mit!"
-  }
+  },
+  "f": 1955
  },
  {
   "w": "nachdenken",
@@ -18374,7 +18821,8 @@
    "du": "Denk nach!",
    "ihr": "Denkt nach!",
    "sie": "Denken Sie nach!"
-  }
+  },
+  "f": 886
  },
  {
   "w": "pflegen",
@@ -18415,7 +18863,8 @@
    "du": "Pfleg!",
    "ihr": "Pflegt!",
    "sie": "Pflegen Sie!"
-  }
+  },
+  "f": 1957
  },
  {
   "w": "reduzieren",
@@ -18456,7 +18905,8 @@
    "du": "Reduzier!",
    "ihr": "Reduziert!",
    "sie": "Reduzieren Sie!"
-  }
+  },
+  "f": 2566
  },
  {
   "w": "regeln",
@@ -18497,7 +18947,8 @@
    "du": "Regl!",
    "ihr": "Regelt!",
    "sie": "Regeln Sie!"
-  }
+  },
+  "f": 871
  },
  {
   "w": "retten",
@@ -18538,7 +18989,8 @@
    "du": "Rette!",
    "ihr": "Rettet!",
    "sie": "Retten Sie!"
-  }
+  },
+  "f": 469
  },
  {
   "w": "senken",
@@ -18579,7 +19031,8 @@
    "du": "Senk!",
    "ihr": "Senkt!",
    "sie": "Senken Sie!"
-  }
+  },
+  "f": 2556
  },
  {
   "w": "sinken",
@@ -18620,7 +19073,8 @@
    "du": "Sink!",
    "ihr": "Sinkt!",
    "sie": "Sinken Sie!"
-  }
+  },
+  "f": 1919
  },
  {
   "w": "sorgen",
@@ -18661,7 +19115,8 @@
    "du": "Sorg!",
    "ihr": "Sorgt!",
    "sie": "Sorgen Sie!"
-  }
+  },
+  "f": 325
  },
  {
   "w": "streiken",
@@ -18702,7 +19157,8 @@
    "du": "Streik!",
    "ihr": "Streikt!",
    "sie": "Streiken Sie!"
-  }
+  },
+  "f": 2994
  },
  {
   "w": "streiten",
@@ -18743,7 +19199,8 @@
    "du": "Streite!",
    "ihr": "Streitet!",
    "sie": "Streiten Sie!"
-  }
+  },
+  "f": 1156
  },
  {
   "w": "überraschen",
@@ -18784,7 +19241,8 @@
    "du": "Überrasch!",
    "ihr": "Überrascht!",
    "sie": "Überraschen Sie!"
-  }
+  },
+  "f": 971
  },
  {
   "w": "überzeugen",
@@ -18825,7 +19283,8 @@
    "du": "Überzeug!",
    "ihr": "Überzeugt!",
    "sie": "Überzeugen Sie!"
-  }
+  },
+  "f": 1021
  },
  {
   "w": "unterbrechen",
@@ -18866,7 +19325,8 @@
    "du": "Unterbrich!",
    "ihr": "Unterbrecht!",
    "sie": "Unterbrechen Sie!"
-  }
+  },
+  "f": 1662
  },
  {
   "w": "unterscheiden",
@@ -18907,7 +19367,8 @@
    "du": "Unterscheide!",
    "ihr": "Unterscheidet!",
    "sie": "Unterscheiden Sie!"
-  }
+  },
+  "f": 1123
  },
  {
   "w": "unterstützen",
@@ -18948,7 +19409,8 @@
    "du": "Unterstütz!",
    "ihr": "Unterstützt!",
    "sie": "Unterstützen Sie!"
-  }
+  },
+  "f": 1313
  },
  {
   "w": "verbessern",
@@ -18989,7 +19451,8 @@
    "du": "Verbessere!",
    "ihr": "Verbessert!",
    "sie": "Verbessern Sie!"
-  }
+  },
+  "f": 1942
  },
  {
   "w": "verbinden",
@@ -19030,7 +19493,8 @@
    "du": "Verbinde!",
    "ihr": "Verbindet!",
    "sie": "Verbinden Sie!"
-  }
+  },
+  "f": 1092
  },
  {
   "w": "verhandeln",
@@ -19071,7 +19535,8 @@
    "du": "Verhandl!",
    "ihr": "Verhandelt!",
    "sie": "Verhandeln Sie!"
-  }
+  },
+  "f": 1765
  },
  {
   "w": "verhindern",
@@ -19112,7 +19577,8 @@
    "du": "Verhindere!",
    "ihr": "Verhindert!",
    "sie": "Verhindern Sie!"
-  }
+  },
+  "f": 1321
  },
  {
   "w": "verlangen",
@@ -19153,7 +19619,8 @@
    "du": "Verlang!",
    "ihr": "Verlangt!",
    "sie": "Verlangen Sie!"
-  }
+  },
+  "f": 885
  },
  {
   "w": "verletzen",
@@ -19194,7 +19661,8 @@
    "du": "Verletz!",
    "ihr": "Verletzt!",
    "sie": "Verletzen Sie!"
-  }
+  },
+  "f": 698
  },
  {
   "w": "vermeiden",
@@ -19235,7 +19703,8 @@
    "du": "Vermeide!",
    "ihr": "Vermeidet!",
    "sie": "Vermeiden Sie!"
-  }
+  },
+  "f": 1810
  },
  {
   "w": "vermuten",
@@ -19276,7 +19745,8 @@
    "du": "Vermute!",
    "ihr": "Vermutet!",
    "sie": "Vermuten Sie!"
-  }
+  },
+  "f": 1369
  },
  {
   "w": "veröffentlichen",
@@ -19317,7 +19787,8 @@
    "du": "Veröffentlich!",
    "ihr": "Veröffentlicht!",
    "sie": "Veröffentlichen Sie!"
-  }
+  },
+  "f": 2005
  },
  {
   "w": "verschwinden",
@@ -19358,7 +19829,8 @@
    "du": "Verschwinde!",
    "ihr": "Verschwindet!",
    "sie": "Verschwinden Sie!"
-  }
+  },
+  "f": 405
  },
  {
   "w": "versichern",
@@ -19399,7 +19871,8 @@
    "du": "Versichere!",
    "ihr": "Versichert!",
    "sie": "Versichern Sie!"
-  }
+  },
+  "f": 1516
  },
  {
   "w": "versorgen",
@@ -19440,7 +19913,8 @@
    "du": "Versorg!",
    "ihr": "Versorgt!",
    "sie": "Versorgen Sie!"
-  }
+  },
+  "f": 1880
  },
  {
   "w": "verteilen",
@@ -19481,7 +19955,8 @@
    "du": "Verteil!",
    "ihr": "Verteilt!",
    "sie": "Verteilen Sie!"
-  }
+  },
+  "f": 1671
  },
  {
   "w": "vertreten",
@@ -19522,7 +19997,8 @@
    "du": "Vertret!",
    "ihr": "Vertretet!",
    "sie": "Vertreten Sie!"
-  }
+  },
+  "f": 1788
  },
  {
   "w": "verursachen",
@@ -19563,7 +20039,8 @@
    "du": "Verursach!",
    "ihr": "Verursacht!",
    "sie": "Verursachen Sie!"
-  }
+  },
+  "f": 1470
  },
  {
   "w": "verwenden",
@@ -19604,7 +20081,8 @@
    "du": "Verwende!",
    "ihr": "Verwendet!",
    "sie": "Verwenden Sie!"
-  }
+  },
+  "f": 1308
  },
  {
   "w": "verzichten",
@@ -19645,7 +20123,8 @@
    "du": "Verzichte!",
    "ihr": "Verzichtet!",
    "sie": "Verzichten Sie!"
-  }
+  },
+  "f": 1849
  },
  {
   "w": "vorkommen",
@@ -19687,7 +20166,8 @@
    "du": "Komm vor!",
    "ihr": "Kommt vor!",
    "sie": "Kommen Sie vor!"
-  }
+  },
+  "f": 2072
  },
  {
   "w": "wachsen",
@@ -19728,7 +20208,8 @@
    "du": "Wachs!",
    "ihr": "Wachst!",
    "sie": "Wachsen Sie!"
-  }
+  },
+  "f": 1076
  },
  {
   "w": "warnen",
@@ -19769,7 +20250,8 @@
    "du": "Warn!",
    "ihr": "Warnt!",
    "sie": "Warnen Sie!"
-  }
+  },
+  "f": 1054
  },
  {
   "w": "wegwerfen",
@@ -19811,7 +20293,8 @@
    "du": "Wirf weg!",
    "ihr": "Werft weg!",
    "sie": "Werfen Sie weg!"
-  }
+  },
+  "f": 2093
  },
  {
   "w": "werfen",
@@ -19852,7 +20335,8 @@
    "du": "Wirf!",
    "ihr": "Werft!",
    "sie": "Werfen Sie!"
-  }
+  },
+  "f": 727
  },
  {
   "w": "wiegen",
@@ -19893,7 +20377,8 @@
    "du": "Wieg!",
    "ihr": "Wiegt!",
    "sie": "Wiegen Sie!"
-  }
+  },
+  "f": 1885
  },
  {
   "w": "wirken",
@@ -19934,7 +20419,8 @@
    "du": "Wirk!",
    "ihr": "Wirkt!",
    "sie": "Wirken Sie!"
-  }
+  },
+  "f": 929
  },
  {
   "w": "sich wundern",
@@ -19976,7 +20462,8 @@
    "du": "Wundere dich!",
    "ihr": "Wundert euch!",
    "sie": "Wundern Sie sich!"
-  }
+  },
+  "f": 1716
  },
  {
   "w": "zerstören",
@@ -20017,7 +20504,8 @@
    "du": "Zerstör!",
    "ihr": "Zerstört!",
    "sie": "Zerstören Sie!"
-  }
+  },
+  "f": 756
  },
  {
   "w": "zugeben",
@@ -20059,7 +20547,8 @@
    "du": "Gib zu!",
    "ihr": "Gebt zu!",
    "sie": "Geben Sie zu!"
-  }
+  },
+  "f": 1505
  },
  {
   "w": "zusammenfassen",
@@ -20101,7 +20590,8 @@
    "du": "Fass zusammen!",
    "ihr": "Fasst zusammen!",
    "sie": "Fassen Sie zusammen!"
-  }
+  },
+  "f": 3263
  },
  {
   "w": "zweifeln",
@@ -20142,7 +20632,8 @@
    "du": "Zweifl!",
    "ihr": "Zweifelt!",
    "sie": "Zweifeln Sie!"
-  }
+  },
+  "f": 1977
  },
  {
   "w": "abschreiben",
@@ -20184,7 +20675,8 @@
    "du": "Schreib ab!",
    "ihr": "Schreibt ab!",
    "sie": "Schreiben Sie ab!"
-  }
+  },
+  "f": 2997
  },
  {
   "w": "anhalten",
@@ -20226,7 +20718,8 @@
    "du": "Halt an!",
    "ihr": "Haltet an!",
    "sie": "Halten Sie an!"
-  }
+  },
+  "f": 1389
  },
  {
   "w": "anschalten",
@@ -20268,7 +20761,8 @@
    "du": "Schalte an!",
    "ihr": "Schaltet an!",
    "sie": "Schalten Sie an!"
-  }
+  },
+  "f": 3212
  },
  {
   "w": "angeln",
@@ -20309,7 +20803,8 @@
    "du": "Angl!",
    "ihr": "Angelt!",
    "sie": "Angeln Sie!"
-  }
+  },
+  "f": 2078
  },
  {
   "w": "aufladen",
@@ -20351,7 +20846,8 @@
    "du": "Lad auf!",
    "ihr": "Ladet auf!",
    "sie": "Laden Sie auf!"
-  }
+  },
+  "f": 2774
  },
  {
   "w": "aufwärmen",
@@ -20393,7 +20889,8 @@
    "du": "Wärm auf!",
    "ihr": "Wärmt auf!",
    "sie": "Wärmen Sie auf!"
-  }
+  },
+  "f": 2832
  },
  {
   "w": "beißen",
@@ -20434,7 +20931,8 @@
    "du": "Beiß!",
    "ihr": "Beißt!",
    "sie": "Beißen Sie!"
-  }
+  },
+  "f": 1315
  },
  {
   "w": "berühren",
@@ -20475,7 +20973,8 @@
    "du": "Berühr!",
    "ihr": "Berührt!",
    "sie": "Berühren Sie!"
-  }
+  },
+  "f": 1306
  },
  {
   "w": "durchfallen",
@@ -20517,7 +21016,8 @@
    "du": "Fall durch!",
    "ihr": "Fallt durch!",
    "sie": "Fallen Sie durch!"
-  }
+  },
+  "f": 2911
  },
  {
   "w": "einfrieren",
@@ -20559,7 +21059,8 @@
    "du": "Frier ein!",
    "ihr": "Friert ein!",
    "sie": "Friern Sie ein!"
-  }
+  },
+  "f": 2729
  },
  {
   "w": "ermutigen",
@@ -20600,7 +21101,8 @@
    "du": "Ermutige!",
    "ihr": "Ermutigt!",
    "sie": "Ermutigen Sie!"
-  }
+  },
+  "f": 2674
  },
  {
   "w": "experimentieren",
@@ -20641,7 +21143,8 @@
    "du": "Experimentier!",
    "ihr": "Experimentiert!",
    "sie": "Experimentiern Sie!"
-  }
+  },
+  "f": 2964
  },
  {
   "w": "hacken",
@@ -20682,7 +21185,8 @@
    "du": "Hack!",
    "ihr": "Hackt!",
    "sie": "Hacken Sie!"
-  }
+  },
+  "f": 1896
  },
  {
   "w": "hassen",
@@ -20723,7 +21227,8 @@
    "du": "Hass!",
    "ihr": "Hasst!",
    "sie": "Hassen Sie!"
-  }
+  },
+  "f": 600
  },
  {
   "w": "hineingehen",
@@ -20765,7 +21270,8 @@
    "du": "Geh hinein!",
    "ihr": "Geht hinein!",
    "sie": "Gehen Sie hinein!"
-  }
+  },
+  "f": 3123
  },
  {
   "w": "hinfallen",
@@ -20807,7 +21313,8 @@
    "du": "Fall hin!",
    "ihr": "Fallt hin!",
    "sie": "Fallen Sie hin!"
-  }
+  },
+  "f": 2885
  },
  {
   "w": "kaputtmachen",
@@ -20849,7 +21356,8 @@
    "du": "Mach kaputt!",
    "ihr": "Macht kaputt!",
    "sie": "Machen Sie kaputt!"
-  }
+  },
+  "f": 2866
  },
  {
   "w": "küssen",
@@ -20890,7 +21398,8 @@
    "du": "Küss!",
    "ihr": "Küsst!",
    "sie": "Küssen Sie!"
-  }
+  },
+  "f": 924
  },
  {
   "w": "nähen",
@@ -20931,7 +21440,8 @@
    "du": "Näh!",
    "ihr": "Näht!",
    "sie": "Nähen Sie!"
-  }
+  },
+  "f": 852
  },
  {
   "w": "pflanzen",
@@ -20972,7 +21482,8 @@
    "du": "Pflanz!",
    "ihr": "Pflanzt!",
    "sie": "Pflanzen Sie!"
-  }
+  },
+  "f": 1735
  },
  {
   "w": "radeln",
@@ -21013,7 +21524,8 @@
    "du": "Radl!",
    "ihr": "Radelt!",
    "sie": "Radeln Sie!"
-  }
+  },
+  "f": 4111
  },
  {
   "w": "sammeln",
@@ -21054,7 +21566,8 @@
    "du": "Samml!",
    "ihr": "Sammelt!",
    "sie": "Sammeln Sie!"
-  }
+  },
+  "f": 1374
  },
  {
   "w": "saubermachen",
@@ -21096,7 +21609,8 @@
    "du": "Mach sauber!",
    "ihr": "Macht sauber!",
    "sie": "Machen Sie sauber!"
-  }
+  },
+  "f": 3065
  },
  {
   "w": "schieben",
@@ -21137,7 +21651,8 @@
    "du": "Schieb!",
    "ihr": "Schiebt!",
    "sie": "Schieben Sie!"
-  }
+  },
+  "f": 1592
  },
  {
   "w": "schreien",
@@ -21178,7 +21693,8 @@
    "du": "Schrei!",
    "ihr": "Schreit!",
    "sie": "Schreien Sie!"
-  }
+  },
+  "f": 663
  },
  {
   "w": "segeln",
@@ -21219,7 +21735,8 @@
    "du": "Segl!",
    "ihr": "Segelt!",
    "sie": "Segeln Sie!"
-  }
+  },
+  "f": 2260
  },
  {
   "w": "speichern",
@@ -21260,7 +21777,8 @@
    "du": "Speichere!",
    "ihr": "Speichert!",
    "sie": "Speichern Sie!"
-  }
+  },
+  "f": 2737
  },
  {
   "w": "vergrößern",
@@ -21301,7 +21819,8 @@
    "du": "Vergrößere!",
    "ihr": "Vergrößert!",
    "sie": "Vergrößern Sie!"
-  }
+  },
+  "f": 2611
  },
  {
   "w": "vermehren",
@@ -21342,7 +21861,8 @@
    "du": "Vermehr!",
    "ihr": "Vermehrt!",
    "sie": "Vermehren Sie!"
-  }
+  },
+  "f": 2987
  },
  {
   "w": "vermindern",
@@ -21383,7 +21903,8 @@
    "du": "Vermindere!",
    "ihr": "Vermindert!",
    "sie": "Vermindern Sie!"
-  }
+  },
+  "f": 3443
  },
  {
   "w": "weitermachen",
@@ -21425,7 +21946,8 @@
    "du": "Mach weiter!",
    "ihr": "Macht weiter!",
    "sie": "Machen Sie weiter!"
-  }
+  },
+  "f": 1459
  },
  {
   "w": "zerreißen",
@@ -21466,7 +21988,8 @@
    "du": "Zerreiß!",
    "ihr": "Zerreißt!",
    "sie": "Zerreißen Sie!"
-  }
+  },
+  "f": 2146
  },
  {
   "w": "ziehen",
@@ -21507,7 +22030,8 @@
    "du": "Zieh!",
    "ihr": "Zieht!",
    "sie": "Ziehen Sie!"
-  }
+  },
+  "f": 421
  },
  {
   "w": "zurückfahren",
@@ -21549,7 +22073,8 @@
    "du": "Fahr zurück!",
    "ihr": "Fahrt zurück!",
    "sie": "Fahren Sie zurück!"
-  }
+  },
+  "f": 2950
  },
  {
   "w": "zurückgehen",
@@ -21591,7 +22116,8 @@
    "du": "Geh zurück!",
    "ihr": "Geht zurück!",
    "sie": "Gehen Sie zurück!"
-  }
+  },
+  "f": 2065
  },
  {
   "w": "zurückkehren",
@@ -21633,7 +22159,8 @@
    "du": "Kehr zurück!",
    "ihr": "Kehrt zurück!",
    "sie": "Kehren Sie zurück!"
-  }
+  },
+  "f": 1346
  },
  {
   "w": "sich bewegen",
@@ -21675,7 +22202,8 @@
    "du": "Beweg dich!",
    "ihr": "Bewegt euch!",
    "sie": "Bewegen Sie sich!"
-  }
+  },
+  "f": 776
  },
  {
   "w": "sich interessieren",
@@ -21717,7 +22245,8 @@
    "du": "Interessier dich!",
    "ihr": "Interessiert euch!",
    "sie": "Interessiern Sie sich!"
-  }
+  },
+  "f": 689
  },
  {
   "w": "sich nähern",
@@ -21759,7 +22288,8 @@
    "du": "Nähere dich!",
    "ihr": "Nähert euch!",
    "sie": "Nähern Sie sich!"
-  }
+  },
+  "f": 1579
  },
  {
   "w": "sich setzen",
@@ -21801,7 +22331,8 @@
    "du": "Setz dich!",
    "ihr": "Setzt euch!",
    "sie": "Setzen Sie sich!"
-  }
+  },
+  "f": 459
  },
  {
   "w": "sich hinlegen",
@@ -21844,7 +22375,8 @@
    "du": "Leg dich hin!",
    "ihr": "Legt euch hin!",
    "sie": "Legen Sie sich hin!"
-  }
+  },
+  "f": 1992
  },
  {
   "w": "sich verletzen",
@@ -21886,7 +22418,8 @@
    "du": "Verletz dich!",
    "ihr": "Verletzt euch!",
    "sie": "Verletzen Sie sich!"
-  }
+  },
+  "f": 699
  },
  {
   "w": "sich ausziehen",
@@ -21929,7 +22462,8 @@
    "du": "Zieh dich aus!",
    "ihr": "Zieht euch aus!",
    "sie": "Ziehen Sie sich aus!"
-  }
+  },
+  "f": 1532
  },
  {
   "w": "sich umziehen",
@@ -21972,7 +22506,8 @@
    "du": "Zieh dich um!",
    "ihr": "Zieht euch um!",
    "sie": "Ziehen Sie sich um!"
-  }
+  },
+  "f": 1776
  },
  {
   "w": "sich verlaufen",
@@ -22014,7 +22549,8 @@
    "du": "Verlauf dich!",
    "ihr": "Verlauft euch!",
    "sie": "Verlaufen Sie sich!"
-  }
+  },
+  "f": 1863
  },
  {
   "w": "sich verfahren",
@@ -22056,7 +22592,8 @@
    "du": "Verfahr dich!",
    "ihr": "Verfahrt euch!",
    "sie": "Verfahren Sie sich!"
-  }
+  },
+  "f": 2154
  },
  {
   "w": "sich umarmen",
@@ -22098,6 +22635,7 @@
    "du": "Umarm dich!",
    "ihr": "Umarmt euch!",
    "sie": "Umarmen Sie sich!"
-  }
+  },
+  "f": 1908
  }
 ]

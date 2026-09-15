@@ -1,6 +1,7 @@
 // ── Quiz engine: question building + session selection ────────
 import { keyOf, isMastered } from "./progress";
 import { lvlOf } from "../config/levels";
+import { byUsage, rankOf } from "../config/frequency";
 
 export const SESSION_LEN = 10;
 
@@ -49,13 +50,32 @@ export function mcq(prompt, sub, answer, options, promptLang = "de") {
   };
 }
 
+// ── Common words first ────────────────────────────────────────
+// Everything that introduces *new* words orders them by everyday usage
+// (config/frequency), so the first thing you meet in any category is the
+// word you are most likely to need — the data file's own order carries no
+// meaning, and the CEFR level says how hard a word is, not how often it
+// turns up.
+//
+// Strict rank order would deal the same cards every time, though. Sorting
+// and then shuffling inside fixed blocks keeps the common-first sweep while
+// varying what lands in any one deck: block N is always met before block
+// N+1, but never in the same order twice.
+export const USAGE_BLOCK = 24;
+
+export function byUsageShuffled(items, itemOf = (x) => x, block = USAGE_BLOCK) {
+  const sorted = [...items].sort((a, b) => rankOf(itemOf(a)) - rankOf(itemOf(b)));
+  const out = [];
+  for (let i = 0; i < sorted.length; i += block) out.push(...shuffle(sorted.slice(i, i + block)));
+  return out;
+}
+
 // ── Chunked mastery: work a fixed-size batch of words until every
 // one is mastered before the next batch is introduced ─────────
 // `pool` is expected to already exclude mastered items (callers filter
-// via isMastered — see QuizView). The batch is the first `chunkSize`
-// unmastered words in data order; anything already started stays in it
-// however the batch shifts, so new words only appear as mastered ones
-// drop out of `pool`.
+// via isMastered — see QuizView). The batch is the `chunkSize` most-used
+// unmastered words; anything already started stays in it however the batch
+// shifts, so new words only appear as mastered ones drop out of `pool`.
 //
 // The previous version returned *only* the started words as soon as there
 // were any, which collapsed the batch: answer one question and the next
@@ -74,6 +94,11 @@ export function pickChunk(pool, progress, catId, chunkSize = CHUNK_SIZE) {
   // Never shrink below the words already in play: if more than `chunkSize`
   // have been started (a wider batch from an earlier setting, or words met
   // in the Mixed deck), they all stay until they are finished.
+  //
+  // The fresh ones are taken most-used first (in strict order, not blocked:
+  // a batch you work until mastered should be a stable set, not one that
+  // reshuffles under you between sessions).
+  fresh.sort(byUsage);
   return [...started, ...fresh].slice(0, Math.max(chunkSize, started.length));
 }
 
@@ -159,11 +184,12 @@ function weightedSample(weighted, count) {
 //     round-robin (MIXED_CATEGORY_WEIGHTS), so each word type is
 //     represented however lopsided the data is — with nouns and verbs
 //     carrying the deck and grammar-type details only sprinkled in;
-//   • within a category it samples the *whole* level pool at random
-//     (ordered by SRS priority, shuffled inside each tier) instead of
+//   • within a category it samples the *whole* level pool (ordered by SRS
+//     priority, and inside the unseen tier by everyday usage) instead of
 //     slicing the first N entries.
 // The result is a fixed-size deck — default 40 — covering the full
-// scope of the chosen level (or of every level, when "All" is active).
+// scope of the chosen level (or of every level, when "All" is active),
+// and introducing its words in the order you are likely to need them.
 export const MIXED_DECK_SIZE = 40;
 
 // The four word types the mixed deck ships with. Phrases and Other can
@@ -207,15 +233,23 @@ export function mixedPool(db, categories, progress, levelFilter, catIds = MIXED_
 // deck a spaced-repetition app should offer first thing in the morning. Without
 // it, due words are only *preferred* (tier 0 below) and get diluted by new
 // ones, so a review you owe can sit unseen behind forty fresh words.
+//
+// `commonFirst` decides how the *unseen* words are ordered. On (the default),
+// the deck introduces them by everyday usage, so you meet "die Zeit" long
+// before "die Mahlzeit" however the file is arranged. Off, they are drawn at
+// random across the level — the old behaviour, kept for when you want to
+// sweep a whole level rather than work down from the top.
 export function pickMixedDeck(
   db, categories, progress, levelFilter,
-  { size = MIXED_DECK_SIZE, catIds = MIXED_CATEGORY_IDS, dueOnly = false } = {}
+  { size = MIXED_DECK_SIZE, catIds = MIXED_CATEGORY_IDS, dueOnly = false, commonFirst = true } = {}
 ) {
   const now = Date.now();
 
   // One priority queue per category: due words first, then words already
-  // started, then unseen ones — each tier shuffled so the draw spans the
-  // whole level rather than the head of the file.
+  // started, then unseen ones. The two started tiers are shuffled — their
+  // order is the schedule's business, not the corpus's — while the unseen
+  // tier is where common-first applies. Either way the draw spans the whole
+  // level rather than the head of the file.
   const queues = [];
   for (const cat of categories) {
     if (!catIds.includes(cat.id)) continue;
@@ -228,7 +262,8 @@ export function pickMixedDeck(
       if (dueOnly && tier !== 0) continue;
       tiers[tier].push({ item: it, cat });
     }
-    const items = [...shuffle(tiers[0]), ...shuffle(tiers[1]), ...shuffle(tiers[2])];
+    const fresh = commonFirst ? byUsageShuffled(tiers[2], (e) => e.item) : shuffle(tiers[2]);
+    const items = [...shuffle(tiers[0]), ...shuffle(tiers[1]), ...fresh];
     if (items.length) queues.push({ items, weight: mixedWeightOf(cat.id), cursor: 0 });
   }
   if (queues.length === 0) return [];

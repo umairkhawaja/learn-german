@@ -8,6 +8,7 @@
     "build": "npm run data:check && vite build",
     "preview": "vite preview",
     "data:check": "node scripts/validate-data.mjs",
+    "data:freq": "node scripts/add-frequency.mjs",
     "nouns:check": "node scripts/validate-nouns.mjs",
     "nouns:fix": "node scripts/validate-nouns.mjs --apply"
   },
