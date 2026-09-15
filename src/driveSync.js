@@ -280,7 +280,13 @@ export function mergeProgress(local, remote) {
     const lv = out[k];
     if (!lv) { out[k] = rv; continue; }
     const winner = (rv.total > lv.total || (rv.total === lv.total && rv.mastery > lv.mastery)) ? rv : lv;
-    out[k] = (lv.skip || rv.skip) ? { ...winner, skip: true } : winner;
+    const merged = (lv.skip || rv.skip) ? { ...winner, skip: true } : { ...winner };
+    // `first` (when the word was learned) is not a running total, so the
+    // losing side can still hold the truer value: the earliest stamp across
+    // the two devices is the day it was actually met.
+    const first = [lv.first, rv.first].filter(Number.isFinite);
+    if (first.length) merged.first = Math.min(...first);
+    out[k] = merged;
   }
   return out;
 }

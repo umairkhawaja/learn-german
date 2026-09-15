@@ -2,7 +2,7 @@
 import { COLORS } from "../config/theme";
 import { VIEWS } from "./Header";
 
-export function BottomNav({ view, setView, backlogCount, dueCount }) {
+export function BottomNav({ view, setView, backlogCount, dueCount, goalLeft = 0 }) {
   // `display` is deliberately NOT set inline below. An inline style beats a
   // stylesheet rule, so the inline `display: flex` this used to carry silently
   // defeated the "hide on wide screens" rule: the bottom bar was showing on
@@ -17,14 +17,18 @@ export function BottomNav({ view, setView, backlogCount, dueCount }) {
     }}>
       {VIEWS.map(({ id, label, short, icon }) => {
         const active = view === id;
-        // The Mixed tab is where a due review actually gets done, so the due
-        // badge belongs there; the Quiz tab keeps the backlog count, which is
-        // the number that gates new words unlocking.
-        const badge = id === "quiz" ? backlogCount : id === "mixed" ? dueCount : 0;
+        // Mixed opens on today's plan, so its badge is what today still owes —
+        // the words left to the goal. Once that is met it falls back to the
+        // reviews due, which is the other thing that gets done there. The Quiz
+        // tab keeps the backlog count, the number that gates new words
+        // unlocking.
+        const goalBadge = id === "mixed" && goalLeft > 0;
+        const badge = id === "quiz" ? backlogCount : id === "mixed" ? (goalLeft > 0 ? goalLeft : dueCount) : 0;
+        const badgeLabel = goalBadge ? `${badge} words to go` : badge;
         return (
           <button key={id} onClick={() => setView(id)}
             aria-current={active ? "page" : undefined}
-            aria-label={badge > 0 ? `${label} (${badge})` : label}
+            aria-label={badge > 0 ? `${label} (${badgeLabel})` : label}
             style={{
               flex: 1, background: "transparent", border: "none", cursor: "pointer",
               // 46px of vertical padding + content keeps every tab above the
@@ -39,7 +43,7 @@ export function BottomNav({ view, setView, backlogCount, dueCount }) {
             {badge > 0 && (
               <span aria-hidden="true" style={{
                 position: "absolute", top: 4, right: "50%", marginRight: -24, fontSize: 9,
-                color: "#fff", background: id === "mixed" ? "#0284c7" : "#a855f7",
+                color: "#fff", background: goalBadge ? "#a855f7" : id === "mixed" ? "#0284c7" : "#a855f7",
                 borderRadius: 999, padding: "0px 4px", fontWeight: 700,
               }}>{badge > 99 ? "99+" : badge}</span>
             )}

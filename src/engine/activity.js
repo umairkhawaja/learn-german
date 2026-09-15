@@ -1,4 +1,4 @@
-// ── Daily activity: today's count, the streak, the goal ───────
+// ── Daily activity: cards answered today, and the practice streak ──
 //
 // The app already recorded, per word, how it is going. What it never recorded
 // is how *you* are going: whether you practised today, and how many days in a
@@ -13,13 +13,14 @@
 // the progress map is what gets merged across devices per word, and a day
 // count is not a per-word fact. That does mean the streak is per-device; the
 // mastery it is counting is not.
+//
+// What this does *not* own any more is the goal. A day's tally here counts
+// cards answered, which is effort, not vocabulary — the same five words drilled
+// four times is twenty. The goal is "N new words a day" and lives in
+// engine/goal.js, derived from the `first` stamp on each word.
 import { storage } from "../storage";
 
 const KEY = "dm-activity-v1";
-const GOAL_KEY = "dm-daily-goal-v1";
-
-export const DEFAULT_GOAL = 20;
-export const GOAL_CHOICES = [10, 20, 40, 80];
 
 // Local calendar day, not UTC: a session at 23:30 belongs to the day you
 // think it does.
@@ -28,7 +29,7 @@ export function dayKey(ts = Date.now()) {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 }
 
-const shiftDay = (key, delta) => {
+export const shiftDay = (key, delta) => {
   const [y, m, d] = key.split("-").map(Number);
   return dayKey(new Date(y, m - 1, d + delta).getTime());
 };
@@ -44,19 +45,6 @@ export async function loadActivity() {
 
 export async function saveActivity(activity) {
   try { await storage.set(KEY, JSON.stringify(activity)); } catch { }
-}
-
-export async function loadGoal() {
-  try {
-    const r = await storage.get(GOAL_KEY);
-    const n = r && r.value ? parseInt(r.value, 10) : NaN;
-    if (GOAL_CHOICES.includes(n)) return n;
-  } catch { }
-  return DEFAULT_GOAL;
-}
-
-export async function saveGoal(goal) {
-  try { await storage.set(GOAL_KEY, String(goal)); } catch { }
 }
 
 // Add `n` answers to today's tally, returning the new activity object.

@@ -4,6 +4,7 @@ import { lvlOf } from "../config/levels";
 import { CATEGORIES } from "../config/categories";
 import { LevelSwitcher } from "./LevelSwitcher";
 import { answeredToday, streakOf } from "../engine/activity";
+import { monthStats } from "../engine/goal";
 
 // The single source of truth for the app's views. Bottom nav reuses it,
 // falling back to `short` where the full label no longer fits seven tabs
@@ -25,29 +26,37 @@ const NO_LEVELS = new Set(["cheatsheet", "notes", "chunks"]);
 const NO_CATEGORIES = new Set(["mixed", "stats", "cheatsheet", "notes", "chunks"]);
 
 // ── Today's bar ───────────────────────────────────────────────
-// Two facts a language app has to keep in front of you and this one did not:
-// how much you have done today against your goal, and how many days in a row
-// you have kept it up. Both come from engine/activity.
-function TodayBar({ activity, goal, dueCount }) {
-  const done = answeredToday(activity);
+// The one line that says whether today is done: new words learned against the
+// goal, the streak behind it, and the reviews waiting.
+//
+// It used to count cards answered, which flattered the effort and measured the
+// wrong thing — twenty answers can be five words drilled four times each. The
+// bar now fills with words met for the first time today (engine/goal, derived
+// from each word's `first` stamp), so the goal you set is the goal it reports.
+// Cards answered is still in the tooltip: it is the effort behind the number.
+function TodayBar({ activity, goal, learnedToday, byDay, dueCount }) {
+  const cards = answeredToday(activity);
   const streak = streakOf(activity);
-  const pct = goal ? Math.min(100, Math.round((done / goal) * 100)) : 0;
-  const met = done >= goal;
+  const pct = goal ? Math.min(100, Math.round((learnedToday / goal) * 100)) : 0;
+  const met = learnedToday >= goal;
+  const month = monthStats(byDay, goal);
 
   return (
     <div style={{ display: "flex", alignItems: "center", gap: 10, marginTop: 10 }}>
       <div
         style={{ flex: 1, height: 6, background: "#1b1b1b", borderRadius: 999, overflow: "hidden" }}
-        role="progressbar" aria-valuemin={0} aria-valuemax={goal} aria-valuenow={Math.min(done, goal)}
-        aria-label={`Today: ${done} of ${goal} cards`}
+        role="progressbar" aria-valuemin={0} aria-valuemax={goal} aria-valuenow={Math.min(learnedToday, goal)}
+        aria-label={`Today: ${learnedToday} of ${goal} new words`}
+        title={`${learnedToday} of ${goal} new words today · ${cards} card${cards === 1 ? "" : "s"} answered · ${month.learned}/${month.target} this month`}
       >
         <div style={{
           width: `${pct}%`, height: "100%", borderRadius: 999,
           background: met ? COLORS.success : "#a855f7", transition: "width .4s",
         }} />
       </div>
-      <span style={{ fontSize: 11, color: met ? COLORS.successText : COLORS.faint, fontVariantNumeric: "tabular-nums", whiteSpace: "nowrap" }}>
-        {met ? `✓ ${done}` : `${done}/${goal}`} today
+      <span title={`${month.learned} of ${month.target} words this month`}
+        style={{ fontSize: 11, color: met ? COLORS.successText : COLORS.faint, fontVariantNumeric: "tabular-nums", whiteSpace: "nowrap" }}>
+        {met ? `✓ ${learnedToday}` : `${learnedToday}/${goal}`} words
       </span>
       {streak > 0 && (
         <span title={`${streak} day${streak === 1 ? "" : "s"} in a row`}
@@ -67,7 +76,7 @@ function TodayBar({ activity, goal, dueCount }) {
 
 export function Header({
   db, view, setView, levelFilter, setLevelFilter, activeCat, setActiveCat,
-  backlogCount, dueCount, activity, goal,
+  backlogCount, dueCount, activity, goal, learnedToday, byDay,
 }) {
   const totalWords = CATEGORIES.reduce((s, c) => s + db[c.key].length, 0);
 
@@ -96,7 +105,7 @@ export function Header({
           </nav>
         </div>
 
-        <TodayBar activity={activity} goal={goal} dueCount={dueCount} />
+        <TodayBar activity={activity} goal={goal} learnedToday={learnedToday} byDay={byDay} dueCount={dueCount} />
 
         {!NO_LEVELS.has(view) && (
           <LevelSwitcher db={db} levelFilter={levelFilter} setLevelFilter={setLevelFilter} />

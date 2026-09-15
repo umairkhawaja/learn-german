@@ -18,7 +18,8 @@
 
    This file is composition only. Logic lives in:
      config/   levels, categories, theme            (the extension cores)
-     engine/   progress (+SRS), quiz, activity, useDriveSync
+     engine/   progress (+SRS), quiz (+ the daily plan), activity, goal,
+               useDriveSync
      components/ Header, BottomNav, the views, QuizRunner, ui, detail
    ============================================================ */
 import { useState, useEffect, useMemo, useCallback, useRef } from "react";
@@ -27,9 +28,11 @@ import { CATEGORIES } from "./config/categories";
 import { loadDB } from "./data/db";
 import { loadProgress } from "./engine/progress";
 import { reviewCounts } from "./engine/quiz";
+import { loadActivity, saveActivity, addAnswers } from "./engine/activity";
 import {
-  loadActivity, saveActivity, addAnswers, loadGoal, saveGoal, DEFAULT_GOAL,
-} from "./engine/activity";
+  loadWordGoal, saveWordGoal, learnedByDay, learnedToday as learnedTodayOf,
+  DEFAULT_WORD_GOAL, clampGoal,
+} from "./engine/goal";
 import { useDriveSync } from "./engine/useDriveSync";
 import { useCloudSync } from "./engine/useCloudSync";
 import { Header } from "./components/Header";
@@ -61,10 +64,15 @@ export default function DeutschMeister() {
   // and a push of {} would clobber the remote backup.
   const [progressLoaded, setProgressLoaded] = useState(false);
   const [activity, setActivity] = useState({ days: {} });
-  const [goal, setGoal] = useState(DEFAULT_GOAL);
-  // Mixed is the landing view: a 40-card deck drawn across nouns, verbs,
-  // adjectives and grammar, so practice starts on the whole level instead
-  // of the top of whichever category tab happens to be open.
+  // The goal is N *new words* a day (engine/goal). What has been done against
+  // it is not stored alongside it — it is derived from the progress map, so it
+  // can never drift out of step with the words themselves.
+  const [goal, setGoal] = useState(DEFAULT_WORD_GOAL);
+  // Mixed is the landing view, and it opens on today's plan: the new words
+  // the goal still owes plus the reviews that are due, drawn across nouns,
+  // verbs, adjectives and grammar — so practice starts on the whole level,
+  // and on a deck that ends, instead of the top of whichever category tab
+  // happens to be open.
   const [view, setView] = useState("mixed"); // mixed | quiz | chunks | browse | cheatsheet | notes | stats
   const [activeCat, setActiveCat] = useState(0);
   const [levelFilter, setLevelFilter] = useState("All");
@@ -79,7 +87,7 @@ export default function DeutschMeister() {
   // likely to hit on a first, uncached launch.
   useEffect(() => { fetchDB(); }, [fetchDB]);
   useEffect(() => { loadProgress().then((p) => { setProgress(p); setProgressLoaded(true); }); }, []);
-  useEffect(() => { loadActivity().then(setActivity); loadGoal().then(setGoal); }, []);
+  useEffect(() => { loadActivity().then(setActivity); loadWordGoal().then(setGoal); }, []);
   useEffect(() => { try { window.speechSynthesis.getVoices(); } catch { } }, []);
 
   // Every grading surface (Mixed, Quiz, Chunks) calls this so the day tally
@@ -92,7 +100,16 @@ export default function DeutschMeister() {
     saveActivity(next);
   }, []);
 
-  const changeGoal = useCallback((g) => { setGoal(g); saveGoal(g); }, []);
+  const changeGoal = useCallback((g) => {
+    const v = clampGoal(g);
+    setGoal(v); saveWordGoal(v);
+  }, []);
+
+  // Words met for the first time, by calendar day — the daily and monthly goal
+  // counts, and every bar that reports them. One pass over the progress map,
+  // recomputed only when progress itself changes.
+  const byDay = useMemo(() => learnedByDay(progress), [progress]);
+  const learnedToday = learnedTodayOf(byDay);
 
   // Primary sync channel: durable Cloudflare KV store (baked-in key, no login,
   // survives IndexedDB eviction). Drive sync is kept below only for a one-time
@@ -141,7 +158,7 @@ export default function DeutschMeister() {
         levelFilter={levelFilter} setLevelFilter={setLevelFilter}
         activeCat={activeCat} setActiveCat={setActiveCat}
         backlogCount={backlog} dueCount={due}
-        activity={activity} goal={goal}
+        activity={activity} goal={goal} learnedToday={learnedToday} byDay={byDay}
       />
 
       {/* The Spickzettel brings its own 960px layout and scrolls inside its
@@ -150,8 +167,8 @@ export default function DeutschMeister() {
         <CheatsheetView />
       ) : (
         <main style={{ maxWidth: 680, margin: "0 auto", padding: "18px 16px 96px", width: "100%" }}>
-          {view === "mixed" && <MixedView db={db} {...shared} levelFilter={levelFilter} />}
-          {view === "quiz" && <QuizView key={cat.id} cat={cat} {...shared} levelFilter={levelFilter} db={db} />}
+          {view === "mixed" && <MixedView db={db} {...shared} levelFilter={levelFilter} goal={goal} learnedToday={learnedToday} />}
+          {view === "quiz" && <QuizView key={cat.id} cat={cat} {...shared} levelFilter={levelFilter} db={db} goal={goal} />}
           {view === "chunks" && <ChunksView {...shared} />}
           {view === "browse" && <BrowseView key={cat.id} cat={cat} progress={progress} setProgress={setProgress} levelFilter={levelFilter} db={db} />}
           {view === "notes" && <NotesView />}
@@ -160,13 +177,14 @@ export default function DeutschMeister() {
               progress={progress} setProgress={setProgress} levelFilter={levelFilter}
               driveStatus={driveStatus} setDriveStatus={setDriveStatus}
               cloudStatus={cloudStatus} setCloudStatus={setCloudStatus} preloadGis={preloadGis}
-              db={db} activity={activity} goal={goal} setGoal={changeGoal} dueCount={due}
+              db={db} activity={activity} goal={goal} setGoal={changeGoal} byDay={byDay} dueCount={due}
             />
           )}
         </main>
       )}
 
-      <BottomNav view={view} setView={setView} backlogCount={backlog} dueCount={due} />
+      <BottomNav view={view} setView={setView} backlogCount={backlog} dueCount={due}
+        goalLeft={Math.max(0, goal - learnedToday)} />
     </div>
   );
 }

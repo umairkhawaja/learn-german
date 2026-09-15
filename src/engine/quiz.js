@@ -78,8 +78,11 @@ export function pickChunk(pool, progress, catId, chunkSize = CHUNK_SIZE) {
 }
 
 // ── Single-category session, scoped to the active chunk ────────
-export function pickSession(pool, progress, catId, focusWeak) {
-  const chunk = pickChunk(pool, progress, catId);
+// `chunkSize` comes from the daily goal, so the batch of new words this tab
+// introduces is the same size as the one the daily plan deals — ten a day
+// means ten in play here too, not an unrelated ten that happens to match.
+export function pickSession(pool, progress, catId, focusWeak, chunkSize = CHUNK_SIZE) {
+  const chunk = pickChunk(pool, progress, catId, chunkSize);
   let candidates = chunk;
   if (focusWeak) {
     const weak = chunk.filter((it) => {
@@ -233,22 +236,108 @@ export function pickMixedDeck(
   }
   if (queues.length === 0) return [];
 
-  // Weighted round-robin: each pass takes `weight` cards from every
-  // category before any category gets its next turn, so the deck lands
-  // on the MIXED_CATEGORY_WEIGHTS ratio. Categories that run dry simply
-  // drop out — a small category never caps the deck, it just stops
-  // contributing, and the rest take up its slack.
-  const deck = [];
+  return shuffle(roundRobin(queues, size));
+}
+
+// Weighted round-robin: each pass takes `weight` cards from every category
+// before any category gets its next turn, so the draw lands on the
+// MIXED_CATEGORY_WEIGHTS ratio. Categories that run dry simply drop out — a
+// small category never caps the result, it just stops contributing, and the
+// rest take up its slack. Shared by the mixed deck and the daily plan.
+function roundRobin(queues, size) {
+  const out = [];
   let took = true;
-  while (deck.length < size && took) {
+  while (out.length < size && took) {
     took = false;
     for (const q of queues) {
-      for (let k = 0; k < q.weight && q.cursor < q.items.length && deck.length < size; k++) {
-        deck.push(q.items[q.cursor++]);
+      for (let k = 0; k < q.weight && q.cursor < q.items.length && out.length < size; k++) {
+        out.push(q.items[q.cursor++]);
         took = true;
       }
-      if (deck.length >= size) break;
+      if (out.length >= size) break;
     }
   }
-  return shuffle(deck);
+  return out;
+}
+
+// ── The daily plan: the deck your goal actually asks for ──────
+//
+// Every deck above is a *size* you pick — forty cards, or twenty, drawn at
+// random. That is fine as practice and useless as a plan: it never ends, it
+// never says you are finished, and the number of words you actually learned
+// from it is whatever fell out. A goal of ten new words a day needs the deck
+// built the other way round — from what today still owes.
+//
+// So the daily deck is exactly two things:
+//   • the new words still needed to reach today's goal (goal − learned today),
+//     drawn across the categories in the usual weighted ratio;
+//   • the reviews the spacing schedule says are due, most overdue first.
+//
+// The reviews come with it rather than after it because a word learned
+// yesterday is worth more than an eleventh word met today, and skipping them
+// is how a vocabulary quietly rots. They are capped, though: coming back to
+// 200 overdue words should not turn a ten-word day into a 210-card wall. The
+// rest stay due and lead the next day's deck.
+export const DAILY_REVIEW_FACTOR = 3;
+export const MIN_DAILY_REVIEWS = 15;
+
+export const reviewCapFor = (goal) => Math.max(goal * DAILY_REVIEW_FACTOR, MIN_DAILY_REVIEWS);
+
+// `bonus` asks for a full extra goal's worth of new words on top of a day
+// already met — the "one more round" button, not a moved goalpost.
+export function dailyPlan(db, categories, progress, levelFilter, {
+  goal = 10, learnedToday = 0, catIds = MIXED_CATEGORY_IDS,
+  bonus = false, now = Date.now(),
+} = {}) {
+  const wanted = bonus ? goal : Math.max(0, goal - learnedToday);
+
+  const queues = [];
+  const due = [];
+  let freshAvailable = 0;
+  for (const cat of categories) {
+    if (!catIds.includes(cat.id)) continue;
+    const fresh = [];
+    for (const it of db[cat.key] || []) {
+      if (levelFilter !== "All" && lvlOf(it) !== levelFilter) continue;
+      const p = progress[keyOf(cat.id, it)];
+      if (isMastered(p)) continue;
+      if (!p || !p.total) fresh.push({ item: it, cat });
+      else if (p.due == null || p.due <= now) due.push({ item: it, cat, due: p.due == null ? 0 : p.due });
+    }
+    freshAvailable += fresh.length;
+    if (fresh.length) queues.push({ items: shuffle(fresh), weight: mixedWeightOf(cat.id), cursor: 0 });
+  }
+
+  const fresh = roundRobin(queues, wanted);
+  // Most overdue first: a word due three days ago is closer to being lost
+  // than one that came due an hour ago.
+  due.sort((a, b) => a.due - b.due);
+  const reviews = due.slice(0, reviewCapFor(goal)).map(({ item, cat }) => ({ item, cat }));
+
+  return {
+    deck: interleave(shuffle(reviews), fresh),
+    fresh: fresh.length,
+    reviews: reviews.length,
+    dueTotal: due.length,
+    freshAvailable,
+    wanted,
+    // What is left of the goal that the deck could not cover, because the
+    // level has no unseen words left in these categories.
+    shortfall: Math.max(0, wanted - fresh.length),
+  };
+}
+
+// Spread the new words evenly through the reviews instead of stacking one
+// block on the other: ten new words at the end of thirty reviews is where
+// attention has already gone.
+function interleave(a, b) {
+  const out = [];
+  let i = 0, j = 0;
+  while (i < a.length || j < b.length) {
+    const aShare = a.length ? (i + 1) / a.length : Infinity;
+    const bShare = b.length ? (j + 1) / b.length : Infinity;
+    if (j >= b.length || (i < a.length && aShare <= bShare)) out.push(a[i++]);
+    else out.push(b[j++]);
+  }
+  return out;
 }

@@ -7,7 +7,7 @@ import { keyOf, isMastered } from "../engine/progress";
 import { pickSession, pickChunk } from "../engine/quiz";
 import { QuizRunner } from "./QuizRunner";
 
-export function QuizView({ cat, progress, setProgress, levelFilter, db, recordAnswer }) {
+export function QuizView({ cat, progress, setProgress, levelFilter, db, recordAnswer, goal }) {
   const [mode, setMode] = useState(cat.modes[0].id);
   const [catFilter, setCatFilter] = useState("All");
   const [focusWeak, setFocusWeak] = useState(false);
@@ -37,14 +37,17 @@ export function QuizView({ cat, progress, setProgress, levelFilter, db, recordAn
   // The chunk currently being mastered — new words beyond it stay locked
   // until every word already introduced (attempted) reaches mastery, or
   // is marked mastered by hand.
-  const chunk = useMemo(() => pickChunk(pool, progress, cat.id), [pool, progress, cat.id]);
+  // The batch is the daily goal's worth of words: what you are working on here
+  // is the same size as what the daily plan introduces, so the two tabs are
+  // not pulling in different directions.
+  const chunk = useMemo(() => pickChunk(pool, progress, cat.id, goal), [pool, progress, cat.id, goal]);
   const isBacklogChunk = chunk.length > 0 && chunk.some((it) => progress[keyOf(cat.id, it)]?.total > 0);
   const locked = Math.max(0, pool.length - chunk.length);
 
   const buildQueue = useCallback((weak) => {
-    const items = pickSession(pool, progressRef.current, cat.id, weak);
+    const items = pickSession(pool, progressRef.current, cat.id, weak, goal);
     setQueue(items.map((it) => ({ item: it, cat, question: modeDef.build(it, pool) })));
-  }, [pool, cat, modeDef]);
+  }, [pool, cat, modeDef, goal]);
 
   const startSession = useCallback(() => { setFocusWeak(false); buildQueue(false); }, [buildQueue]);
   const practiceWeak = useCallback(() => { setFocusWeak(true); buildQueue(true); }, [buildQueue]);

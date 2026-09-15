@@ -49,7 +49,15 @@ const DAY = 86400000;
 
 // Apply an answer to a progress entry, returning the new entry.
 // Keeps the original mastery/correct/total/skip fields and adds the
-// SRS schedule fields `last` (answered at) and `due` (next review).
+// SRS schedule fields `last` (answered at) and `due` (next review), plus
+// `first` — the moment the word was met for the very first time.
+//
+// `first` is what makes a "ten new words a day" goal measurable. `last` is
+// overwritten on every answer, so it can never say *when* a word entered your
+// vocabulary; `first` is written once and never moved again, so the day-by-day
+// count of words learned can be recomputed from the progress map alone. That
+// also means it rides along with cloud sync and with a backup file, unlike the
+// per-device activity log — the goal counts the same on every device.
 export function applyAnswer(prev, ok) {
   const base = prev || { mastery: 0, correct: 0, total: 0 };
   const mastery = ok
@@ -61,8 +69,15 @@ export function applyAnswer(prev, ok) {
     mastery,
     correct: base.correct + (ok ? 1 : 0),
     total: base.total + 1,
+    first: Number.isFinite(base.first) ? base.first : now,
     last: now,
     // wrong answers are due again immediately; correct ones step out
     due: ok ? now + INTERVALS_DAYS[mastery] * DAY : now,
   };
+}
+
+// True when this entry has never been answered — the pool a daily goal of
+// "N new words" draws from.
+export function isFresh(p) {
+  return !p || !p.total;
 }

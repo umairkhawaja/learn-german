@@ -14,6 +14,10 @@ export function sanitizeProgress(obj) {
     if (v.skip) entry.skip = true;
     if (Number.isFinite(v.last)) entry.last = v.last;
     if (Number.isFinite(v.due)) entry.due = v.due;
+    // `first` is the day this word was learned — the daily/monthly goal is
+    // counted from it, so dropping it here would erase the goal history on
+    // every restore and every sync round-trip.
+    if (Number.isFinite(v.first)) entry.first = v.first;
     out[k] = entry;
   }
   return out;

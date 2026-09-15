@@ -10,16 +10,39 @@ stored on-device (with optional cloud sync, see below).
 
 | Tab | What it is |
 | --- | --- |
-| **Mixed** | The landing view. A flashcard deck drawn across nouns, verbs, adjectives and grammar at once, weighted so nouns and verbs carry it. **Review** narrows the deck to the words whose spacing interval has elapsed. |
-| **Quiz** | Multiple choice within one word type, in whatever mode that type supports — article, plural, Partizip II, haben/sein, comparative, case effect. Works a chunk of ten words at a time; new words unlock as the chunk is mastered. |
+| **Mixed** | The landing view, in three modes. **Daily** deals today's plan — the new words your goal still owes plus the reviews that are due, and nothing else, so the deck has a finish line. **Review** is the due words alone. **Free** is a fixed-size deck (20/40/60) for practice past the plan. All three draw across nouns, verbs, adjectives and grammar at once, weighted so nouns and verbs carry it. |
+| **Quiz** | Multiple choice within one word type, in whatever mode that type supports — article, plural, Partizip II, haben/sein, comparative, case effect. Works a chunk the size of your daily goal at a time; new words unlock as the chunk is mastered. |
 | **Chunks** | Whole Redemittel and Nomen-Verb-Verbindungen, learned as units rather than words (A2+). |
 | **Browse** | The whole dataset, searchable, filterable by topic and by learning status (not started / learning / weak / mastered). |
 | **Spickzettel** | 35 grammar cards covering A1–B1: cases, Genus hacks, plural patterns, every tense, Konjunktiv II, Passiv, adjective endings, the Satzbau algorithm, Relativsätze, prepositions — including the wohin/wo/woher decision (ins Kino vs zum Arzt vs nach München) and the im/ins/zum/zur contractions — and 26 Stolperfallen. |
 | **Notes** | Your own Notion pages, read live (optional — see the proxy setup below). |
-| **Stats** | Mastery by level and by word type, a fortnight of daily practice, your streak and daily goal, and backup/restore. |
+| **Stats** | Mastery by level and by word type, your learning goal (daily and monthly, with pace), a fortnight of new words a day, your streaks, and backup/restore. |
 
 Mastery is one shared number: a word answered in Mixed counts in Quiz, Browse and
 Stats alike. 4★ retires a word from practice; "Mark as mastered" retires it by hand.
+
+## Your goal
+
+The app is built around one number you set: **new words a day** (default 10, set
+it in **Stats → Learning goal**, chips or any number from 1 to 100). Everything
+else follows from it.
+
+- **Daily** deals exactly what the goal still owes — `goal − learned today` new
+  words — plus the reviews the spacing schedule says are due, spread through the
+  deck rather than stacked behind it. Reviews are capped at three times the goal
+  so a fortnight away doesn't turn a ten-word day into a 200-card wall; the rest
+  lead tomorrow's deck. When the goal is met the deck ends and says so, and
+  "Another N words" is a deliberate extra round, not a moved goalpost.
+- **A word counts on the day you first meet it.** Not cards answered — twenty
+  answers can be five words drilled four times each. The count is derived from a
+  `first` stamp written once per word, so it can never drift out of step with
+  your mastery, and it travels with cloud sync and backups. (The practice streak
+  and the cards-answered tally stay per-device; they are a separate log.)
+- **The month follows the day**: ten a day is 300 in a 30-day month. Stats shows
+  the month's total against that, with a pace notch for where on-goal would put
+  you today, days met, and the daily rate needed to finish.
+- **Quiz** introduces new words in batches of the same size, so the two tabs
+  aren't pulling in different directions.
 
 ## Working on the data
 
@@ -83,7 +106,7 @@ The app is modular — composition lives in `src/App.jsx`, everything else is sp
   - `levels.js` — the CEFR level registry. **Add a level = one row here** + tag data with its code.
   - `categories.jsx` — the word-type registry. **Add a category = one descriptor** + a `public/data/<key>.json`.
   - `theme.js` — colour/font design tokens.
-- `src/engine/` — `progress.js` (persistence + spaced-repetition schedule), `quiz.js` (question building, chunk/session/deck pickers, due counts), `activity.js` (daily tally, streak, goal), `useCloudSync.js`, `useDriveSync.js`.
+- `src/engine/` — `progress.js` (persistence, first-seen stamp + spaced-repetition schedule), `quiz.js` (question building, chunk/session/deck pickers, `dailyPlan`, due counts), `goal.js` (the words-a-day goal, the day/month rollups derived from `first`, goal streak), `activity.js` (cards-answered tally, practice streak), `useCloudSync.js`, `useDriveSync.js`.
 - `src/components/` — `Header`, `BottomNav`, `AppStyles` (the global stylesheet), the views (`Mixed`, `Quiz`, `Chunks`, `Browse`, `Cheatsheet`, `Notes`, `Stats`), the reusable `QuizRunner`, shared `ui` primitives, and `detail` card-backs.
 - `public/data/*.json` — the dataset. **Add words here**; tag entries with `lvl:"A2"` etc. (no `lvl` → A1). No rebuild needed — fetched at runtime.
 - `src/storage.js` — progress persistence via **IndexedDB** (`idb-keyval`).
