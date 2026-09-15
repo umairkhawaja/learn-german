@@ -13,13 +13,19 @@ stored on-device (with optional cloud sync, see below).
 | **Mixed** | The landing view. A flashcard deck drawn across nouns, verbs, adjectives and grammar at once, weighted so nouns and verbs carry it. **Review** narrows the deck to the words whose spacing interval has elapsed; **Common first** decides the order new words arrive in. |
 | **Quiz** | Multiple choice within one word type, in whatever mode that type supports — article, plural, Partizip II, haben/sein, comparative, case effect. Works a chunk of ten words at a time — the ten most-used you have not learned; new words unlock as the chunk is mastered. |
 | **Chunks** | Whole Redemittel and Nomen-Verb-Verbindungen, learned as units rather than words (A2+), most-used first. |
-| **Browse** | The whole dataset, sorted by everyday usage (or A–Z, or by level), searchable, filterable by topic and by learning status (not started / learning / weak / mastered). |
+| **Browse** | Everything still in play, sorted by everyday usage (or A–Z, or by level), searchable, filterable by topic and by learning status. Mastered words are held back; the **Mastered** filter is how you get at them. |
 | **Spickzettel** | 35 grammar cards covering A1–B1: cases, Genus hacks, plural patterns, every tense, Konjunktiv II, Passiv, adjective endings, the Satzbau algorithm, Relativsätze, prepositions — including the wohin/wo/woher decision (ins Kino vs zum Arzt vs nach München) and the im/ins/zum/zur contractions — and 26 Stolperfallen. |
 | **Notes** | Your own Notion pages, read live (optional — see the proxy setup below). |
 | **Stats** | Mastery by level and by word type, a fortnight of daily practice, your streak and daily goal, and backup/restore. |
 
 Mastery is one shared number: a word answered in Mixed counts in Quiz, Browse and
 Stats alike. 4★ retires a word from practice; "Mark as mastered" retires it by hand.
+
+**Retired means gone.** A mastered word is not dealt in any deck, not listed in
+Browse, and not counted on the level or word-type chips — those say what is *left*,
+so the number above a list always matches the list. Two places deliberately still
+know about them: the **Mastered** filter in Browse (with a "N mastered · show"
+link from the ordinary list), and **Stats**, whose whole job is to count them.
 
 ## Common words first
 

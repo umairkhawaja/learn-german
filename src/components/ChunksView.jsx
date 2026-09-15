@@ -134,7 +134,12 @@ export function ChunksView({ progress, setProgress, recordAnswer }) {
         {["All", ...CHUNK_LEVELS].map((code) => {
           const activeLvl = level === code;
           const color = code === "All" ? "#6b7280" : lvlColor(code);
-          const n = (all || []).filter((x) => code === "All" || x.lvl === code).length;
+          // What is left in that level, not what it holds: a mastered chunk
+          // is retired and never dealt again, so counting it here would
+          // promise practice that is not coming.
+          const n = (all || []).filter(
+            (x) => (code === "All" || x.lvl === code) && !isMastered(progress[keyOf(CHUNK_CAT_ID, x)])
+          ).length;
           return (
             <button key={code} onClick={() => setLevel(code)}
               style={{
@@ -143,7 +148,7 @@ export function ChunksView({ progress, setProgress, recordAnswer }) {
                 cursor: "pointer", display: "flex", flexDirection: "column", alignItems: "center", gap: 1,
               }}>
               <span style={{ fontSize: 12.5, fontWeight: 800, color: activeLvl ? color : "#4a4f59" }}>{code}</span>
-              <span style={{ fontSize: 9.5, color: activeLvl ? color + "88" : "#2f2f2f" }}>{n} chunks</span>
+              <span style={{ fontSize: 9.5, color: activeLvl ? color + "88" : "#2f2f2f" }}>{n} left</span>
             </button>
           );
         })}

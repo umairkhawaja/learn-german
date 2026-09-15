@@ -1,8 +1,10 @@
 // ── Sticky header: title, daily bar, view tabs, levels, categories
+import { useMemo } from "react";
 import { COLORS } from "../config/theme";
 import { lvlOf } from "../config/levels";
 import { CATEGORIES } from "../config/categories";
 import { LevelSwitcher } from "./LevelSwitcher";
+import { countActive } from "../engine/progress";
 import { answeredToday, streakOf } from "../engine/activity";
 
 // The single source of truth for the app's views. Bottom nav reuses it,
@@ -66,10 +68,23 @@ function TodayBar({ activity, goal, dueCount }) {
 }
 
 export function Header({
-  db, view, setView, levelFilter, setLevelFilter, activeCat, setActiveCat,
+  db, progress, view, setView, levelFilter, setLevelFilter, activeCat, setActiveCat,
   backlogCount, dueCount, activity, goal,
 }) {
-  const totalWords = CATEGORIES.reduce((s, c) => s + db[c.key].length, 0);
+  // Every count in this header is of words still in play. A mastered word is
+  // retired — out of the decks, out of the Browse list — so counting it here
+  // would only ever overstate what is left to do.
+  const { perCat, left, mastered } = useMemo(() => {
+    const perCat = {};
+    let left = 0, total = 0;
+    for (const c of CATEGORIES) {
+      const inLevel = db[c.key].filter((x) => levelFilter === "All" || lvlOf(x) === levelFilter);
+      perCat[c.id] = countActive(inLevel, c.id, progress);
+      left += perCat[c.id];
+      total += inLevel.length;
+    }
+    return { perCat, left, mastered: total - left };
+  }, [db, progress, levelFilter]);
 
   return (
     <header style={{ position: "sticky", top: 0, zIndex: 20, background: "rgba(15,15,15,0.92)", backdropFilter: "blur(8px)", borderBottom: "1px solid #1e1e1e", paddingTop: "env(safe-area-inset-top)" }}>
@@ -77,7 +92,10 @@ export function Header({
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
           <div>
             <div style={{ fontSize: 18, fontWeight: 800, color: COLORS.txtStrong, letterSpacing: "-0.3px" }}>🇩🇪 Deutsch Meister</div>
-            <div style={{ fontSize: 11, color: "#4a4f59", marginTop: 1 }}>{totalWords.toLocaleString()} words · {levelFilter === "All" ? "all levels" : levelFilter}</div>
+            <div title={mastered > 0 ? `${mastered.toLocaleString()} mastered and retired from practice` : undefined}
+              style={{ fontSize: 11, color: "#4a4f59", marginTop: 1 }}>
+              {left.toLocaleString()} words{mastered > 0 ? " left" : ""} · {levelFilter === "All" ? "all levels" : levelFilter}
+            </div>
           </div>
           {/* Desktop view tabs (hidden on narrow screens — bottom nav takes over) */}
           <nav className="dm-top-tabs" aria-label="Sections" style={{ display: "flex", gap: 4, background: COLORS.surfaceAlt, borderRadius: 9, padding: 4 }}>
@@ -99,7 +117,7 @@ export function Header({
         <TodayBar activity={activity} goal={goal} dueCount={dueCount} />
 
         {!NO_LEVELS.has(view) && (
-          <LevelSwitcher db={db} levelFilter={levelFilter} setLevelFilter={setLevelFilter} />
+          <LevelSwitcher db={db} progress={progress} levelFilter={levelFilter} setLevelFilter={setLevelFilter} />
         )}
 
         {!NO_CATEGORIES.has(view) && (
@@ -109,7 +127,7 @@ export function Header({
              they wrap onto a second row instead. */
           <div role="tablist" aria-label="Word type" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(96px, 1fr))", gap: 6, marginTop: 8 }}>
             {CATEGORIES.map((t, i) => {
-              const count = db[t.key].filter((x) => levelFilter === "All" || lvlOf(x) === levelFilter).length;
+              const count = perCat[t.id];
               return (
                 <button key={t.id} onClick={() => setActiveCat(i)} role="tab" aria-selected={activeCat === i}
                   style={{

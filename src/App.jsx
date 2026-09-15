@@ -131,7 +131,13 @@ export default function DeutschMeister() {
     );
   }
 
-  if (!db) return <Splash>Loading…</Splash>;
+  // Nothing renders until the progress map is in hand as well as the data.
+  // Every view filters mastered words out, so a view mounted against the
+  // initial empty {} treats the whole dataset as unlearned: the Mixed deck
+  // deals words you have already retired — and then *saves* that deck as your
+  // session. loadProgress is a local IndexedDB read that never rejects, and it
+  // was already racing the much slower data fetch, so the wait is free.
+  if (!db || !progressLoaded) return <Splash>Loading…</Splash>;
 
   const shared = { progress, setProgress, recordAnswer };
 
@@ -140,7 +146,7 @@ export default function DeutschMeister() {
       <AppStyles />
 
       <Header
-        db={db} view={view} setView={setView}
+        db={db} progress={progress} view={view} setView={setView}
         levelFilter={levelFilter} setLevelFilter={setLevelFilter}
         activeCat={activeCat} setActiveCat={setActiveCat}
         backlogCount={backlog} dueCount={due}

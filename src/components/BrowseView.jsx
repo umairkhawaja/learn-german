@@ -16,12 +16,18 @@ const PAGE = 60;
 // Learning status is the axis the list was missing. "Which of these have I not
 // started?" and "what am I still getting wrong?" were unanswerable without
 // scrolling the whole list and reading the stars.
+//
+// A mastered word is retired: it is out of every deck, so it is out of this
+// list too — "All" means all of what is still in play. MASTERED is the one
+// filter that brings them back, which is the whole reason it exists; the
+// count line below says how many are being held back and offers the switch.
+const MASTERED = "mastered";
 const STATUS = [
   { id: "all", label: "All" },
   { id: "new", label: "Not started", match: (p) => !p || !p.total },
   { id: "learning", label: "Learning", match: (p) => p && p.total > 0 && !isMastered(p) },
   { id: "weak", label: "Weak", match: (p) => p && p.total >= 2 && p.correct / p.total < 0.7 && !isMastered(p) },
-  { id: "mastered", label: "Mastered", match: (p) => isMastered(p) },
+  { id: MASTERED, label: "Mastered", match: (p) => isMastered(p) },
 ];
 
 // Most-used first is the default: the file's own order means nothing to a
@@ -58,19 +64,29 @@ export function BrowseView({ cat, progress, setProgress, levelFilter, db }) {
     [cat, levelFilter, db]
   );
 
-  const filtered = useMemo(() => {
+  // `rows` is what is listed; `retired` counts the words that matched
+  // everything asked for and were held back only because they are mastered,
+  // so the line under the filters can say so rather than silently shrinking.
+  const { rows, retired } = useMemo(() => {
     const q = search.trim().toLowerCase();
     const statusDef = STATUS.find((s) => s.id === status);
     const cmp = (SORTS.find((s) => s.id === sort) || SORTS[0]).cmp;
-    return pool.filter((it) => {
-      if (catFilter !== "All" && cat.catOf(it) !== catFilter) return false;
-      if (statusDef?.match && !statusDef.match(progress[keyOf(cat.id, it)])) return false;
-      if (!q) return true;
-      // Every field is coerced: an entry missing `e` or with an array `ex`
-      // used to throw here and blank the whole tab.
-      const hay = [it.w, it.e, it.n, it.c].filter(Boolean).join(" ").toLowerCase();
-      return hay.includes(q);
-    }).sort(cmp);
+    const out = [];
+    let retired = 0;
+    for (const it of pool) {
+      if (catFilter !== "All" && cat.catOf(it) !== catFilter) continue;
+      if (q) {
+        // Every field is coerced: an entry missing `e` or with an array `ex`
+        // used to throw here and blank the whole tab.
+        const hay = [it.w, it.e, it.n, it.c].filter(Boolean).join(" ").toLowerCase();
+        if (!hay.includes(q)) continue;
+      }
+      const p = progress[keyOf(cat.id, it)];
+      if (status !== MASTERED && isMastered(p)) { retired++; continue; }
+      if (statusDef?.match && !statusDef.match(p)) continue;
+      out.push(it);
+    }
+    return { rows: out.sort(cmp), retired };
   }, [pool, search, catFilter, status, sort, cat, progress]);
 
   // Any change to what is being listed starts the window over, or you would
@@ -84,7 +100,22 @@ export function BrowseView({ cat, progress, setProgress, levelFilter, db }) {
     if (catFilter !== "All" && !cats.includes(catFilter)) setCatFilter("All");
   }, [cats, catFilter]);
 
-  const shown = filtered.slice(0, limit);
+  // Topic counts match what the topics would actually list — mastered words
+  // are out of the list, so they are out of its counts. Under the Mastered
+  // filter the same logic counts the other way.
+  const topicCounts = useMemo(() => {
+    const by = new Map();
+    let total = 0;
+    for (const it of pool) {
+      if (isMastered(progress[keyOf(cat.id, it)]) !== (status === MASTERED)) continue;
+      const c = cat.catOf(it);
+      if (c) by.set(c, (by.get(c) || 0) + 1);
+      total++;
+    }
+    return { by, total };
+  }, [pool, cat, status, progress]);
+
+  const shown = rows.slice(0, limit);
 
   return (
     <div>
@@ -100,8 +131,8 @@ export function BrowseView({ cat, progress, setProgress, levelFilter, db }) {
           {cats.map((c) => (
             <option key={c} value={c}>
               {c === "All"
-                ? `All topics (${pool.length.toLocaleString()})`
-                : `${c} (${pool.filter((i) => cat.catOf(i) === c).length.toLocaleString()})`}
+                ? `All topics (${topicCounts.total.toLocaleString()})`
+                : `${c} (${(topicCounts.by.get(c) || 0).toLocaleString()})`}
             </option>
           ))}
         </select>
@@ -128,8 +159,18 @@ export function BrowseView({ cat, progress, setProgress, levelFilter, db }) {
       </div>
 
       <div style={{ fontSize: 12, color: FAINT, marginBottom: 10 }}>
-        {filtered.length.toLocaleString()} {filtered.length === 1 ? "entry" : "entries"}
-        {filtered.length > shown.length && <> · showing {shown.length.toLocaleString()}</>}
+        {rows.length.toLocaleString()} {rows.length === 1 ? "entry" : "entries"}
+        {rows.length > shown.length && <> · showing {shown.length.toLocaleString()}</>}
+        {/* Retired words are gone from the list, not gone from the app — say
+            where they went rather than let the count quietly not add up. */}
+        {retired > 0 && (
+          <> · {retired.toLocaleString()} mastered{" "}
+            <button onClick={() => setStatus(MASTERED)}
+              style={{ background: "none", border: "none", padding: 0, font: "inherit", color: COLORS.success, cursor: "pointer", textDecoration: "underline" }}>
+              show
+            </button>
+          </>
+        )}
       </div>
 
       <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
@@ -201,17 +242,21 @@ export function BrowseView({ cat, progress, setProgress, levelFilter, db }) {
           );
         })}
 
-        {filtered.length > shown.length && (
+        {rows.length > shown.length && (
           <button onClick={() => setLimit((n) => n + PAGE * 4)}
             style={{ marginTop: 4, background: COLORS.surfaceAlt, border: `1px solid ${COLORS.borderSoft}`, borderRadius: 10, padding: "12px", color: MUTE, fontSize: 13, fontWeight: 600, cursor: "pointer" }}>
-            Show more ({(filtered.length - shown.length).toLocaleString()} left)
+            Show more ({(rows.length - shown.length).toLocaleString()} left)
           </button>
         )}
 
-        {filtered.length === 0 && (
+        {rows.length === 0 && (
           <div style={{ color: FAINT, textAlign: "center", padding: 30, fontSize: 13 }}>
-            {search.trim()
-              ? <>No matches for “{search.trim()}”.</>
+            {/* An empty list because you have finished everything here reads
+                as a bug unless it says so. */}
+            {retired > 0 && !search.trim() ? (
+              <>🏆 All {retired.toLocaleString()} of these are mastered — nothing left to practise here.</>
+            ) : search.trim()
+              ? <>No matches for “{search.trim()}”{retired > 0 && <> outside the {retired.toLocaleString()} you have mastered</>}.</>
               : status !== "all"
                 ? <>No {STATUS.find((s) => s.id === status)?.label.toLowerCase()} words here yet.</>
                 : "Nothing here."}

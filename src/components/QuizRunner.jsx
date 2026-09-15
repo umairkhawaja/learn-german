@@ -8,7 +8,7 @@ import { COLORS, TXT, MUTE, FAINT } from "../config/theme";
 import { keyOf, applyAnswer, saveProgress } from "../engine/progress";
 import { SpeakBtn, ExampleLine, isTypingTarget } from "./ui";
 
-export function QuizRunner({ queue, progress, setProgress, accent, controls, onRestart, onPracticeWeak, recordAnswer }) {
+export function QuizRunner({ queue, progress, setProgress, accent, controls, onRestart, onPracticeWeak, recordAnswer, emptyNote }) {
   const [idx, setIdx] = useState(0);
   const [chosen, setChosen] = useState(null);
   const [streak, setStreak] = useState(0);
@@ -104,7 +104,17 @@ export function QuizRunner({ queue, progress, setProgress, accent, controls, onR
   }
 
   if (!entry || !q) {
-    return <div style={{ color: FAINT, textAlign: "center", padding: 40 }}>No words match these filters.</div>;
+    // The runner only sees an empty queue, not why — "no matches" is wrong
+    // and confusing when the real answer is that you have finished them all,
+    // so the caller supplies the reason when it knows one.
+    return (
+      <div>
+        {controls}
+        <div style={{ color: FAINT, textAlign: "center", padding: 40 }}>
+          {emptyNote || "No words match these filters."}
+        </div>
+      </div>
+    );
   }
 
   const oneCol = q.options.some((o) => String(o).length > 22) || q.options.length <= 2;

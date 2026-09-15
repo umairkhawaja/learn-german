@@ -43,6 +43,16 @@ export function isMastered(p) {
   return !!p && (p.skip || p.mastery >= MASTERY_THRESHOLD);
 }
 
+// How many of `items` are still in play. Every deck, list and count in the
+// app is about words you have not retired, so the totals on the level and
+// word-type chips count the same thing the lists under them show — a tab
+// promising 2,236 nouns above a list of 1,781 is just wrong.
+export function countActive(items, catId, progress) {
+  let n = 0;
+  for (const it of items) if (!isMastered(progress[keyOf(catId, it)])) n++;
+  return n;
+}
+
 // Leitner-style intervals (days) indexed by mastery level 0..5.
 const INTERVALS_DAYS = [0, 1, 3, 7, 16, 35];
 const DAY = 86400000;

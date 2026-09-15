@@ -41,6 +41,25 @@ export function QuizView({ cat, progress, setProgress, levelFilter, db, recordAn
   const isBacklogChunk = chunk.length > 0 && chunk.some((it) => progress[keyOf(cat.id, it)]?.total > 0);
   const locked = Math.max(0, pool.length - chunk.length);
 
+  // An empty pool because you have retired everything here is a trophy, not a
+  // dead end — but the runner sees only an empty queue, so say which it is.
+  // Mode eligibility is deliberately left out of this count: a mode with no
+  // eligible words is the *other* reason the pool can be empty, and it keeps
+  // the default "no matches" copy.
+  const { inScope, activeInScope } = useMemo(() => {
+    let inScope = 0, activeInScope = 0;
+    for (const x of levelPool) {
+      if (catFilter !== "All" && cat.catOf(x) !== catFilter) continue;
+      inScope++;
+      if (!isMastered(progress[keyOf(cat.id, x)])) activeInScope++;
+    }
+    return { inScope, activeInScope };
+  }, [levelPool, catFilter, cat, progress]);
+
+  const emptyNote = inScope > 0 && activeInScope === 0
+    ? `🏆 All ${inScope.toLocaleString()} ${cat.label.toLowerCase()} here are mastered — switch level or topic for more.`
+    : null;
+
   const buildQueue = useCallback((weak) => {
     const items = pickSession(pool, progressRef.current, cat.id, weak);
     setQueue(items.map((it) => ({ item: it, cat, question: modeDef.build(it, pool) })));
@@ -108,6 +127,7 @@ export function QuizView({ cat, progress, setProgress, levelFilter, db, recordAn
       onRestart={startSession}
       onPracticeWeak={practiceWeak}
       recordAnswer={recordAnswer}
+      emptyNote={emptyNote}
     />
   );
 }

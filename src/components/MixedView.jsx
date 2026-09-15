@@ -65,9 +65,10 @@ function snapshot(scope, deck, idx, revealed, results, done) {
 }
 
 // Turn a stored session back into live { item, cat } entries. Returns
-// null if anything no longer resolves (the data file changed under it),
-// in which case the caller just deals a new deck.
-function rehydrate(saved, db) {
+// null if anything no longer resolves (the data file changed under it) or
+// if nothing in it is still worth practising, in which case the caller
+// just deals a new deck.
+function rehydrate(saved, db, progress) {
   if (!saved || !Array.isArray(saved.deck) || saved.deck.length === 0) return null;
   const index = new Map();
   for (const cat of CATEGORIES) {
@@ -79,16 +80,35 @@ function rehydrate(saved, db) {
     const item = bucket && bucket.byWord.get(ref.w);
     return item ? { item, cat: bucket.cat } : null;
   };
-  const deck = saved.deck.map(unpack);
-  if (deck.some((e) => !e)) return null;
+  const saveddeck = saved.deck.map(unpack);
+  if (saveddeck.some((e) => !e)) return null;
+
+  // A word mastered since this deck was dealt — finished in the Quiz tab, or
+  // marked by hand in Browse — is retired, and a saved session is not a way
+  // back in. Dropping it mid-deck shifts the cursor, so the position is
+  // recounted over the survivors: you resume on the card you were on, or on
+  // the next one still in play if that card was the one retired.
+  const at = Math.min(Math.max(saved.idx | 0, 0), saveddeck.length - 1);
+  const deck = [];
+  let idx = 0;
+  let onCardKept = false;
+  saveddeck.forEach((e, i) => {
+    if (isMastered(progress[keyOf(e.cat.id, e.item)])) return;
+    if (i < at) idx++;
+    if (i === at) onCardKept = true;
+    deck.push(e);
+  });
+  if (deck.length === 0) return null;
+
   const results = (saved.results || [])
     .map((r) => { const e = unpack(r); return e && { ...e, ok: !!r.ok }; })
     .filter(Boolean);
   return {
     deck,
     results,
-    idx: Math.min(Math.max(saved.idx | 0, 0), deck.length - 1),
-    revealed: !!saved.revealed,
+    idx: Math.min(idx, deck.length - 1),
+    // Only still revealed if the card you had revealed is the one you land on.
+    revealed: !!saved.revealed && onCardKept,
     done: !!saved.done,
   };
 }
@@ -205,7 +225,7 @@ export function MixedView({ db, progress, setProgress, levelFilter, recordAnswer
     const saved = pendingSession.current;
     pendingSession.current = null;
     if (saved && saved.scope === scope) {
-      const live = rehydrate(saved, db);
+      const live = rehydrate(saved, db, progressRef.current);
       if (live) {
         appliedLen.current = live.deck.length;
         setDeck(live.deck); setIdx(live.idx); setRevealed(live.revealed);
