@@ -58,12 +58,21 @@ export function mcq(prompt, sub, answer, options, promptLang = "de") {
 // turns up.
 //
 // Strict rank order would deal the same cards every time, though. Sorting
-// and then shuffling inside fixed blocks keeps the common-first sweep while
+// and then shuffling inside blocks keeps the common-first sweep while
 // varying what lands in any one deck: block N is always met before block
 // N+1, but never in the same order twice.
+//
+// The block is capped at a third of the pool as well as at USAGE_BLOCK. A
+// fixed 24 is right for the thousands of unseen words, but a block that is
+// bigger than the pool shuffles all of it and orders nothing — which is what
+// was happening to the tier that matters most, the handful of reviews due
+// today. Whatever the size, there are always at least three ranks of
+// preference to draw from.
 export const USAGE_BLOCK = 24;
 
-export function byUsageShuffled(items, itemOf = (x) => x, block = USAGE_BLOCK) {
+export const usageBlockFor = (n) => Math.max(1, Math.min(USAGE_BLOCK, Math.ceil(n / 3)));
+
+export function byUsageShuffled(items, itemOf = (x) => x, block = usageBlockFor(items.length)) {
   const sorted = [...items].sort((a, b) => rankOf(itemOf(a)) - rankOf(itemOf(b)));
   const out = [];
   for (let i = 0; i < sorted.length; i += block) out.push(...shuffle(sorted.slice(i, i + block)));
@@ -234,11 +243,19 @@ export function mixedPool(db, categories, progress, levelFilter, catIds = MIXED_
 // it, due words are only *preferred* (tier 0 below) and get diluted by new
 // ones, so a review you owe can sit unseen behind forty fresh words.
 //
-// `commonFirst` decides how the *unseen* words are ordered. On (the default),
-// the deck introduces them by everyday usage, so you meet "die Zeit" long
-// before "die Mahlzeit" however the file is arranged. Off, they are drawn at
-// random across the level — the old behaviour, kept for when you want to
-// sweep a whole level rather than work down from the top.
+// `commonFirst` (the default) orders every tier by everyday usage, so you meet
+// "die Zeit" long before "die Mahlzeit" however the file is arranged. Off, each
+// tier is drawn at random across the level — the old behaviour, kept for when
+// you want to sweep a whole level rather than work down from the top.
+//
+// It applies to all three tiers and not just the unseen one, which is what it
+// used to do. That looked right on a new account and did nothing on a real one:
+// a few weeks in you have hundreds of started-but-not-due words, they fill the
+// whole deck before an unseen word is ever reached, and they were shuffled — so
+// for anyone whose progress predates the ranking (built from the old, arbitrary
+// file order) the setting made no measurable difference at all. Tier priority
+// is still absolute — a due review always outranks a new word, that is the
+// spaced repetition — usage only decides the order *within* a tier.
 export function pickMixedDeck(
   db, categories, progress, levelFilter,
   { size = MIXED_DECK_SIZE, catIds = MIXED_CATEGORY_IDS, dueOnly = false, commonFirst = true } = {}
@@ -246,10 +263,10 @@ export function pickMixedDeck(
   const now = Date.now();
 
   // One priority queue per category: due words first, then words already
-  // started, then unseen ones. The two started tiers are shuffled — their
-  // order is the schedule's business, not the corpus's — while the unseen
-  // tier is where common-first applies. Either way the draw spans the whole
-  // level rather than the head of the file.
+  // started, then unseen ones — each tier ordered most-used first, or shuffled
+  // when common-first is off. Either way the draw spans the whole level rather
+  // than the head of the file.
+  const order = commonFirst ? (tier) => byUsageShuffled(tier, (e) => e.item) : shuffle;
   const queues = [];
   for (const cat of categories) {
     if (!catIds.includes(cat.id)) continue;
@@ -262,8 +279,7 @@ export function pickMixedDeck(
       if (dueOnly && tier !== 0) continue;
       tiers[tier].push({ item: it, cat });
     }
-    const fresh = commonFirst ? byUsageShuffled(tiers[2], (e) => e.item) : shuffle(tiers[2]);
-    const items = [...shuffle(tiers[0]), ...shuffle(tiers[1]), ...fresh];
+    const items = [...order(tiers[0]), ...order(tiers[1]), ...order(tiers[2])];
     if (items.length) queues.push({ items, weight: mixedWeightOf(cat.id), cursor: 0 });
   }
   if (queues.length === 0) return [];

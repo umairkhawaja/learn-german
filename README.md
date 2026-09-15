@@ -30,10 +30,18 @@ link from the ordinary list), and **Stats**, whose whole job is to count them.
 ## Common words first
 
 Every entry carries `f`: its rank across the whole dataset by how often the word
-turns up in everyday German, 1 being the most common. Everywhere the app
-introduces *new* material — the Mixed deck, the Quiz chunk, the Chunks batch,
-the Browse list's default sort — it works down that order, so you meet `die Zeit`
-long before `die Mahlzeit` whatever page of the file each sits on.
+turns up in everyday German, 1 being the most common. It is the app's default
+order everywhere words are chosen — the Mixed deck, the Quiz chunk, the Chunks
+batch, the Browse list — so you meet `die Zeit` long before `die Mahlzeit`
+whatever page of the file each sits on.
+
+In the Mixed deck it orders *within* each spaced-repetition tier, not just the
+new words: reviews you owe still come before words in progress, and those still
+come before anything unseen, but each of those groups is dealt most-used first.
+Ordering only the unseen tier is nominally the same setting and practically a
+no-op — a few weeks in, hundreds of in-progress words fill every deck before an
+unseen one is reached, so on an account whose progress predates the ranking the
+setting made no measurable difference at all.
 
 This is a second axis, not a replacement for the CEFR level. The level says how
 *hard* a word is; the rank says how much it earns its place, and the two disagree
