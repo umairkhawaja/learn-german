@@ -141,6 +141,9 @@ thead th{background:var(--surface-2); font-family:"IBM Plex Mono",monospace; fon
 tbody tr:last-child td{border-bottom:none}
 td.rowh{font-family:"IBM Plex Mono",monospace; font-size:12px; letter-spacing:.05em; text-transform:uppercase;
   color:var(--ink-3); background:var(--surface-2); font-weight:600}
+td.stem{font-family:"IBM Plex Mono",monospace; font-size:13px; font-weight:600;
+  color:var(--ink); background:var(--surface-2)}
+td.stem .en{font-size:11.5px; margin-left:5px}
 td.wrap{white-space:normal; min-width:220px}
 td.f{font-weight:500}
 .g-m{color:var(--m)} .g-f{color:var(--f)} .g-n{color:var(--n)} .g-p{color:var(--p)}
@@ -421,7 +424,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     </details>
 
     <details class="card" data-lvl="A1" id="ref-possessiv">
-      <summary>4 · Possessiv-, Demonstrativ- &amp; Frageartikel <span class="lvl A1">A1</span> <span class="tag">mein · dies- · welch-</span></summary>
+      <summary>4 · Possessiv-, Demonstrativ- &amp; Frageartikel <span class="lvl A1">A1</span> <span class="tag">mein · ihr · sein · dies- · welch-</span></summary>
       <div class="cbody">
         <h4>Die Stämme</h4>
         <div class="tblwrap"><table>
@@ -438,6 +441,36 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
             <tr><td class="rowh c-gen">Genitiv</td><td class="f g-m"><strong>meines</strong></td><td class="f g-f"><strong>meiner</strong></td><td class="f g-n"><strong>meines</strong></td><td class="f g-p"><strong>meiner</strong></td></tr>
           </tbody>
         </table></div>
+        <h4>Alle Formen ausgeschrieben</h4>
+        <p>Six endings, one row per stem — written out in full so you never have to glue <span class="de">ihr</span> and <span class="de">-en</span> together mid-sentence. Find the ending you need in the header, then read down your own stem.</p>
+        <div class="tblwrap"><table>
+          <thead>
+            <tr><th>Stamm</th><th>— (kein Ende)</th><th>-e</th><th>-en</th><th>-em</th><th>-er</th><th>-es</th></tr>
+            <tr>
+              <th></th>
+              <th><span class="g-m">m</span> <span class="k-nom">NOM</span> · <span class="g-n">n</span> <span class="k-nom">NOM</span>/<span class="k-akk">AKK</span></th>
+              <th><span class="g-f">f</span> + <span class="g-p">pl</span> <span class="k-nom">NOM</span>/<span class="k-akk">AKK</span></th>
+              <th><span class="g-m">m</span> <span class="k-akk">AKK</span> · <span class="g-p">pl</span> <span class="k-dat">DAT</span></th>
+              <th><span class="g-m">m</span> + <span class="g-n">n</span> <span class="k-dat">DAT</span></th>
+              <th><span class="g-f">f</span> <span class="k-dat">DAT</span>/<span class="k-gen">GEN</span> · <span class="g-p">pl</span> <span class="k-gen">GEN</span></th>
+              <th><span class="g-m">m</span> + <span class="g-n">n</span> <span class="k-gen">GEN</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td class="stem">mein<span class="en">my</span></td><td class="f">mein</td><td class="f">meine</td><td class="f">meinen</td><td class="f">meinem</td><td class="f">meiner</td><td class="f">meines</td></tr>
+            <tr><td class="stem">dein<span class="en">your · du</span></td><td class="f">dein</td><td class="f">deine</td><td class="f">deinen</td><td class="f">deinem</td><td class="f">deiner</td><td class="f">deines</td></tr>
+            <tr><td class="stem">sein<span class="en">his · its</span></td><td class="f">sein</td><td class="f">seine</td><td class="f">seinen</td><td class="f">seinem</td><td class="f">seiner</td><td class="f">seines</td></tr>
+            <tr><td class="stem">ihr<span class="en">her · their</span></td><td class="f">ihr</td><td class="f">ihre</td><td class="f">ihren</td><td class="f">ihrem</td><td class="f">ihrer</td><td class="f">ihres</td></tr>
+            <tr><td class="stem">unser<span class="en">our</span></td><td class="f">unser</td><td class="f">unsere</td><td class="f">unseren</td><td class="f">unserem</td><td class="f">unserer</td><td class="f">unseres</td></tr>
+            <tr><td class="stem">euer<span class="en">your · ihr</span></td><td class="f">euer</td><td class="f">eure</td><td class="f">euren</td><td class="f">eurem</td><td class="f">eurer</td><td class="f">eures</td></tr>
+            <tr><td class="stem">Ihr<span class="en">your · formal</span></td><td class="f">Ihr</td><td class="f">Ihre</td><td class="f">Ihren</td><td class="f">Ihrem</td><td class="f">Ihrer</td><td class="f">Ihres</td></tr>
+            <tr><td class="stem">kein<span class="en">no · not any</span></td><td class="f">kein</td><td class="f">keine</td><td class="f">keinen</td><td class="f">keinem</td><td class="f">keiner</td><td class="f">keines</td></tr>
+          </tbody>
+        </table></div>
+        <div class="rule-box"><span class="lbl">Im Satz</span>
+          <span class="de">Ich kenne <strong>ihren</strong> Mann.</span> <span class="en">— Akk m.</span> <span class="de">Ich fahre mit <strong>seiner</strong> Schwester.</span> <span class="en">— Dat f.</span> <span class="de">Das ist das Auto <strong>ihres</strong> Vaters.</span> <span class="en">— Gen m.</span> <span class="de">Ich helfe <strong>meinem</strong> Bruder.</span> <span class="en">— Dat m.</span> <span class="de">Wir wohnen bei <strong>unseren</strong> Eltern.</span> <span class="en">— Dat pl.</span> <span class="de">Habt ihr <strong>eure</strong> Tickets?</span> <span class="en">— Akk pl.</span></div>
+        <div class="rule-box"><span class="lbl">Ohne Nomen</span>
+          Drop the noun and the possessive switches to the <span class="de">der</span>-endings — it now has to carry the gender itself: <span class="de">Welcher Mantel ist <strong>deiner</strong>?</span> <span class="de">Das ist <strong>meins</strong>.</span> <span class="de">Meine Uhr ist kaputt, nimm <strong>meine</strong>.</span> <span class="de">Ich habe kein Auto — hast du <strong>eins</strong>?</span></div>
         <div class="rule-box"><span class="lbl">Zwei Fallen</span>
           <span class="de">euer</span> drops its second <span class="de">e</span> once an ending is added: <span class="de">euer Auto → eu<strong>re</strong> Autos, eu<strong>ren</strong> Bruder</span>. And <span class="de">ihr</span> means both <em>her</em> and <em>their</em>; capitalised <span class="de">Ihr</span> means <em>your</em> (formal).</div>
         <div class="rule-box hack"><span class="lbl">Hack · sein oder ihr?</span>
@@ -449,6 +482,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
             <tr><td class="rowh c-nom">Nominativ</td><td class="f g-m">dieser</td><td class="f g-f">diese</td><td class="f g-n">dieses</td><td class="f g-p">diese</td></tr>
             <tr><td class="rowh c-akk">Akkusativ</td><td class="f g-m"><strong>diesen</strong></td><td class="f g-f">diese</td><td class="f g-n">dieses</td><td class="f g-p">diese</td></tr>
             <tr><td class="rowh c-dat">Dativ</td><td class="f g-m"><strong>diesem</strong></td><td class="f g-f"><strong>dieser</strong></td><td class="f g-n"><strong>diesem</strong></td><td class="f g-p"><strong>diesen</strong> …n</td></tr>
+            <tr><td class="rowh c-gen">Genitiv</td><td class="f g-m"><strong>dieses</strong></td><td class="f g-f"><strong>dieser</strong></td><td class="f g-n"><strong>dieses</strong></td><td class="f g-p"><strong>dieser</strong></td></tr>
           </tbody>
         </table></div>
         <p>Same endings for <span class="de">welch-</span>, <span class="de">jed-</span>, <span class="de">manch-</span>, <span class="de">solch-</span> and <span class="de">all-</span>: <span class="de">Welch<strong>er</strong> Mantel ist deiner? Welch<strong>en</strong> Mantel nimmst du? Jed<strong>en</strong> Tag. Mit all<strong>en</strong> Kollegen.</span></p>
