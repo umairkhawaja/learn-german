@@ -144,7 +144,7 @@ td.rowh{font-family:"IBM Plex Mono",monospace; font-size:12px; letter-spacing:.0
 td.stem{font-family:"IBM Plex Mono",monospace; font-size:13px; font-weight:600;
   color:var(--ink); background:var(--surface-2)}
 td.stem .en{font-size:11.5px; margin-left:5px}
-td.wrap{white-space:normal; min-width:220px}
+td.wrap,th.wrap{white-space:normal; min-width:220px; padding:7px 12px}
 td.f{font-weight:500}
 .g-m{color:var(--m)} .g-f{color:var(--f)} .g-n{color:var(--n)} .g-p{color:var(--p)}
 th.h-m{color:var(--m); background:var(--m-bg)} th.h-f{color:var(--f); background:var(--f-bg)}
@@ -265,8 +265,8 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
   <h1>Spickzettel <span class="arrow">DE</span></h1>
   <p class="dek">Every rule, table, hack and trip wire worth memorising, from the first article to Konjunktiv II. Search it, filter it by level, print it. This is the one page to open when you want to go into a topic.</p>
   <div class="metarow">
-    <span><b>Karten</b> 35</span>
-    <span><b>Stolperfallen</b> 26</span>
+    <span><b>Karten</b> 38</span>
+    <span><b>Stolperfallen</b> 29</span>
     <span><b>Niveau</b> A1 → B1</span>
     <span><b>Farben</b> <span class="g-m">der</span> · <span class="g-f">die</span> · <span class="g-n">das</span> · <span class="g-p">Plural</span></span>
   </div>
@@ -320,7 +320,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
 <section class="sec" id="sec-nomen" data-sec>
   <div class="sec-head">
     <h2>Nomen &amp; Artikel</h2>
-    <span class="note">Kasus · Genus · Plural · Pronomen</span>
+    <span class="note">Kasus · Genus · Plural · Deklination · Pronomen</span>
   </div>
   <div class="ref">
 
@@ -423,8 +423,82 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
       </div>
     </details>
 
+
+    <details class="card" data-lvl="A1" id="ref-nomendekl">
+      <summary>4 · Nomen deklinieren — Singular → Plural <span class="lvl A1">A1</span> <span class="tag">alle vier Kasus, beide Zahlen</span></summary>
+      <div class="cbody">
+        <p>Card 1 declines the <em>article</em>. This one declines the <em>noun</em> — the full eight-form paradigm you actually say out loud, singular and plural, all four cases. The good news is in the first box.</p>
+        <div class="rule-box"><span class="lbl">Zwei Stellen, sonst nichts</span>
+          The German noun itself moves in exactly <strong>two</strong> places. Everywhere else the article does the work and the noun sits still.
+          <ul style="margin-top:8px">
+            <li><strong>Genitiv Singular</strong>, masculine and neuter → <span class="de">-(e)s</span>: <span class="de">des Tisch<strong>es</strong></span>, <span class="de">des Kind<strong>es</strong></span>. Feminine nouns never take it: <span class="de">der Blume</span>.</li>
+            <li><strong>Dativ Plural</strong>, every gender → <span class="de">-n</span>: <span class="de">den Tisch<strong>en</strong></span>, <span class="de">den Blume<strong>n</strong></span>, <span class="de">den Kinder<strong>n</strong></span>.</li>
+          </ul>
+        </div>
+        <h4>Maskulin <span class="tag">der Tisch → die Tische</span></h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th></th><th class="h-m">Singular</th><th class="h-p">Plural</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh c-nom">Nominativ</td><td class="f g-m">der Tisch</td><td class="f g-p">die Tisch<strong>e</strong></td></tr>
+            <tr><td class="rowh c-akk">Akkusativ</td><td class="f g-m"><strong>den</strong> Tisch</td><td class="f g-p">die Tisch<strong>e</strong></td></tr>
+            <tr><td class="rowh c-dat">Dativ</td><td class="f g-m"><strong>dem</strong> Tisch</td><td class="f g-p"><strong>den</strong> Tisch<strong>en</strong></td></tr>
+            <tr><td class="rowh c-gen">Genitiv</td><td class="f g-m"><strong>des</strong> Tisch<strong>es</strong></td><td class="f g-p"><strong>der</strong> Tisch<strong>e</strong></td></tr>
+          </tbody>
+        </table></div>
+        <h4>Feminin <span class="tag">die Blume → die Blumen</span></h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th></th><th class="h-f">Singular</th><th class="h-p">Plural</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh c-nom">Nominativ</td><td class="f g-f">die Blume</td><td class="f g-p">die Blume<strong>n</strong></td></tr>
+            <tr><td class="rowh c-akk">Akkusativ</td><td class="f g-f">die Blume</td><td class="f g-p">die Blume<strong>n</strong></td></tr>
+            <tr><td class="rowh c-dat">Dativ</td><td class="f g-f"><strong>der</strong> Blume</td><td class="f g-p"><strong>den</strong> Blume<strong>n</strong></td></tr>
+            <tr><td class="rowh c-gen">Genitiv</td><td class="f g-f"><strong>der</strong> Blume</td><td class="f g-p"><strong>der</strong> Blume<strong>n</strong></td></tr>
+          </tbody>
+        </table></div>
+        <h4>Neutrum <span class="tag">das Kind → die Kinder</span></h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th></th><th class="h-n">Singular</th><th class="h-p">Plural</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh c-nom">Nominativ</td><td class="f g-n">das Kind</td><td class="f g-p">die Kind<strong>er</strong></td></tr>
+            <tr><td class="rowh c-akk">Akkusativ</td><td class="f g-n">das Kind</td><td class="f g-p">die Kind<strong>er</strong></td></tr>
+            <tr><td class="rowh c-dat">Dativ</td><td class="f g-n"><strong>dem</strong> Kind</td><td class="f g-p"><strong>den</strong> Kinder<strong>n</strong></td></tr>
+            <tr><td class="rowh c-gen">Genitiv</td><td class="f g-n"><strong>des</strong> Kind<strong>es</strong></td><td class="f g-p"><strong>der</strong> Kind<strong>er</strong></td></tr>
+          </tbody>
+        </table></div>
+        <div class="rule-box hack"><span class="lbl">Hack · der Plural hat nur drei Formen</span>
+          Gender disappears in the plural, and so does most of the table: <span class="de g-p">die</span> for nominative <em>and</em> accusative, <span class="de g-p">den …n</span> for the dative, <span class="de g-p">der</span> for the genitive. Three article forms, one of them used twice — chant <span class="de">die · die · den · der</span> and the plural is finished.</div>
+        <h4>Mit ein-Wörtern <span class="tag">kein · mein · dein</span></h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th></th><th class="h-m">Singular</th><th class="h-p">Plural</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh c-nom">Nominativ</td><td class="f">mein Freund</td><td class="f">mein<strong>e</strong> Freunde</td></tr>
+            <tr><td class="rowh c-akk">Akkusativ</td><td class="f">mein<strong>en</strong> Freund</td><td class="f">mein<strong>e</strong> Freunde</td></tr>
+            <tr><td class="rowh c-dat">Dativ</td><td class="f">mein<strong>em</strong> Freund</td><td class="f">mein<strong>en</strong> Freunde<strong>n</strong></td></tr>
+            <tr><td class="rowh c-gen">Genitiv</td><td class="f">mein<strong>es</strong> Freund<strong>es</strong></td><td class="f">mein<strong>er</strong> Freunde</td></tr>
+          </tbody>
+        </table></div>
+        <p><span class="de">ein</span> itself has no plural — the plural of <span class="de">ein Freund</span> is the bare <span class="de">Freunde</span>. Only the negative and the possessives survive into the plural, and there they copy the <span class="de">der</span>-forms exactly: <span class="de">keine · keine · keinen · keiner</span>.</p>
+        <h4>-s oder -es im Genitiv?</h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th>Endung</th><th>wann</th><th>Beispiele</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh">-es</td><td class="wrap">one-syllable nouns, and anything ending in <span class="de">-s -ß -x -z -tsch</span></td><td class="wrap"><span class="de">des Mann<strong>es</strong>, des Haus<strong>es</strong>, des Kind<strong>es</strong>, des Platz<strong>es</strong></span></td></tr>
+            <tr><td class="rowh">-s</td><td class="wrap">nouns of two or more syllables, especially on <span class="de">-er -en -el -chen</span></td><td class="wrap"><span class="de">des Lehrer<strong>s</strong>, des Wagen<strong>s</strong>, des Mädchen<strong>s</strong>, des Auto<strong>s</strong></span></td></tr>
+            <tr><td class="rowh">—</td><td class="wrap">every feminine noun, singular <em>and</em> plural</td><td class="wrap"><span class="de">der Frau, der Blume, der Zeitung</span></td></tr>
+          </tbody>
+        </table></div>
+        <div class="rule-box"><span class="lbl">Wann das Dativ-n ausfällt</span>
+          A plural that already ends in <span class="de">-n</span> or <span class="de">-s</span> adds nothing: <span class="de">mit den Blumen</span> ✓ (not <span class="de">Blumenn</span>), <span class="de">in den Autos</span> ✓ (never <span class="de">Autosn</span>). Everything else takes it — and it is the single most-forgotten letter in A1: <span class="de">mit den Kinder<strong>n</strong>, aus den Häuser<strong>n</strong>, von den Ärzt<strong>en</strong>, bei den Leute<strong>n</strong></span>.</div>
+        <h4>Ein Satz, zweimal</h4>
+        <p><span class="de"><span class="k-nom">Der Lehrer</span> gibt <span class="k-dat">dem Kind</span> <span class="k-akk">das Buch</span> <span class="k-gen">des Schülers</span>.</span><br>
+        <span class="de"><span class="k-nom">Die Lehrer</span> geben <span class="k-dat">den Kindern</span> <span class="k-akk">die Bücher</span> <span class="k-gen">der Schüler</span>.</span><br>
+        Four noun phrases, one number change: the articles do almost everything, the nouns add a plural ending, and only <span class="de">Kinder<strong>n</strong></span> picks up an extra letter for the dative.</p>
+        <p>One group of masculine nouns breaks all of this and adds <span class="de">-(e)n</span> in every case but the nominative singular — see <a href="#ref-ndekl">N-Deklination</a>. How the plural itself is built (<span class="de">-e · -er · -(e)n · -s · —</span>) is the card just above.</p>
+      </div>
+    </details>
+
     <details class="card" data-lvl="A1" id="ref-possessiv">
-      <summary>4 · Possessiv-, Demonstrativ- &amp; Frageartikel <span class="lvl A1">A1</span> <span class="tag">mein · ihr · sein · dies- · welch-</span></summary>
+      <summary>5 · Possessiv-, Demonstrativ- &amp; Frageartikel <span class="lvl A1">A1</span> <span class="tag">mein · ihr · sein · dies- · welch-</span></summary>
       <div class="cbody">
         <h4>Die Stämme</h4>
         <div class="tblwrap"><table>
@@ -492,7 +566,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     </details>
 
     <details class="card" data-lvl="A1" id="ref-pronomen">
-      <summary>5 · Personalpronomen <span class="lvl A1">A1</span> <span class="tag">Nom · Akk · Dat</span></summary>
+      <summary>6 · Personalpronomen <span class="lvl A1">A1</span> <span class="tag">Nom · Akk · Dat</span></summary>
       <div class="cbody">
         <div class="tblwrap"><table>
           <thead><tr><th>Kasus</th><th>ich</th><th>du</th><th class="h-m">er</th><th class="h-f">sie</th><th class="h-n">es</th><th>wir</th><th>ihr</th><th class="h-p">sie</th><th>Sie</th></tr></thead>
@@ -529,7 +603,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     </details>
 
     <details class="card" data-lvl="B1" id="ref-ndekl">
-      <summary>6 · N-Deklination <span class="lvl B1">B1</span> <span class="tag">schwache Nomen</span></summary>
+      <summary>7 · N-Deklination <span class="lvl B1">B1</span> <span class="tag">schwache Nomen</span></summary>
       <div class="cbody">
         <p>A small closed group of masculine nouns adds <span class="de">-n</span> or <span class="de">-en</span> in <em>every</em> case except the nominative singular. Miss it and the sentence reads as a beginner's.</p>
         <div class="tblwrap"><table>
@@ -565,7 +639,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
   <div class="ref">
 
     <details class="card" data-lvl="A1" id="ref-praesens">
-      <summary>7 · Präsens <span class="lvl A1">A1</span> <span class="tag">Konjugation &amp; Vokalwechsel</span></summary>
+      <summary>8 · Präsens <span class="lvl A1">A1</span> <span class="tag">Konjugation &amp; Vokalwechsel</span></summary>
       <div class="cbody">
         <div class="tblwrap"><table>
           <thead><tr><th></th><th>regelmäßig<br>machen</th><th>-t/-d Stamm<br>arbeiten</th><th>-s/-ß/-z Stamm<br>heißen</th><th>sein</th><th>haben</th><th>werden</th></tr></thead>
@@ -598,7 +672,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     </details>
 
     <details class="card" data-lvl="A1" id="ref-modal">
-      <summary>8 · Modalverben <span class="lvl A1">A1</span> <span class="tag">können · müssen · dürfen …</span></summary>
+      <summary>9 · Modalverben <span class="lvl A1">A1</span> <span class="tag">können · müssen · dürfen …</span></summary>
       <div class="cbody">
         <div class="tblwrap"><table>
           <thead><tr><th></th><th>können<br><span class="en">ability</span></th><th>müssen<br><span class="en">necessity</span></th><th>wollen<br><span class="en">want</span></th><th>dürfen<br><span class="en">permission</span></th><th>sollen<br><span class="en">should</span></th><th>mögen<br><span class="en">like</span></th><th>möchten<br><span class="en">would like</span></th></tr></thead>
@@ -633,7 +707,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     </details>
 
     <details class="card" data-lvl="A1" id="ref-trennbar">
-      <summary>9 · Trennbare &amp; untrennbare Verben <span class="lvl A1">A1</span> <span class="tag">Präfixe</span></summary>
+      <summary>10 · Trennbare &amp; untrennbare Verben <span class="lvl A1">A1</span> <span class="tag">Präfixe</span></summary>
       <div class="cbody">
         <div class="tblwrap"><table>
           <thead><tr><th>Typ</th><th>Präfixe</th><th>Präsens</th><th>Partizip II</th></tr></thead>
@@ -660,7 +734,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     </details>
 
     <details class="card" data-lvl="A1" id="ref-perfekt">
-      <summary>10 · Perfekt &amp; Partizip II <span class="lvl A1">A1</span> <span class="tag">gesprochene Vergangenheit</span></summary>
+      <summary>11 · Perfekt &amp; Partizip II <span class="lvl A1">A1</span> <span class="tag">gesprochene Vergangenheit</span></summary>
       <div class="cbody">
         <p><span class="de">haben</span> or <span class="de">sein</span> in position 2, Partizip II at the very end. In speech this is <em>the</em> past tense — use it for almost everything.</p>
         <div class="tblwrap"><table>
@@ -720,7 +794,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     </details>
 
     <details class="card" data-lvl="A2" id="ref-praeteritum">
-      <summary>11 · Präteritum <span class="lvl A2">A2</span> <span class="tag">geschriebene Vergangenheit</span></summary>
+      <summary>12 · Präteritum <span class="lvl A2">A2</span> <span class="tag">geschriebene Vergangenheit</span></summary>
       <div class="cbody">
         <p>The written past — used in stories, reports and news. In everyday speech you only really produce it for <span class="de">sein</span>, <span class="de">haben</span>, <span class="de">es gibt</span> and the modal verbs.</p>
         <h4>Pflicht — sein, haben, es gibt</h4>
@@ -763,7 +837,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     </details>
 
     <details class="card" data-lvl="A2" id="ref-futur">
-      <summary>12 · Futur &amp; Zukunft <span class="lvl A2">A2</span> <span class="tag">werden + Infinitiv</span></summary>
+      <summary>13 · Futur &amp; Zukunft <span class="lvl A2">A2</span> <span class="tag">werden + Infinitiv</span></summary>
       <div class="cbody">
         <div class="grid2">
           <div>
@@ -784,7 +858,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     </details>
 
     <details class="card" data-lvl="B1" id="ref-konjunktiv">
-      <summary>13 · Konjunktiv II <span class="lvl B1">B1</span> <span class="tag">würde · hätte · wäre</span></summary>
+      <summary>14 · Konjunktiv II <span class="lvl B1">B1</span> <span class="tag">würde · hätte · wäre</span></summary>
       <div class="cbody">
         <p>The "unreal" mood: politeness, wishes, hypotheticals, advice. Four uses, one set of forms.</p>
         <div class="tblwrap"><table>
@@ -819,7 +893,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     </details>
 
     <details class="card" data-lvl="B1" id="ref-passiv">
-      <summary>14 · Passiv <span class="lvl B1">B1</span> <span class="tag">werden · sein · sich lassen</span></summary>
+      <summary>15 · Passiv <span class="lvl B1">B1</span> <span class="tag">werden · sein · sich lassen</span></summary>
       <div class="cbody">
         <p>The passive shifts focus from <em>who does it</em> to <em>what happens</em>. The accusative object of the active becomes the subject of the passive.</p>
         <div class="tblwrap"><table>
@@ -855,7 +929,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     </details>
 
     <details class="card" data-lvl="A1" id="ref-imperativ">
-      <summary>15 · Imperativ <span class="lvl A1">A1</span> <span class="tag">Befehle &amp; Bitten</span></summary>
+      <summary>16 · Imperativ <span class="lvl A1">A1</span> <span class="tag">Befehle &amp; Bitten</span></summary>
       <div class="cbody">
         <div class="tblwrap"><table>
           <thead><tr><th></th><th>kommen</th><th>sprechen</th><th>fahren</th><th>arbeiten</th><th>sein</th><th>haben</th><th>nehmen</th></tr></thead>
@@ -875,7 +949,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     </details>
 
     <details class="card" data-lvl="B1" id="ref-reflexiv">
-      <summary>16 · Reflexive &amp; reziproke Verben <span class="lvl B1">B1</span> <span class="tag">sich · einander</span></summary>
+      <summary>17 · Reflexive &amp; reziproke Verben <span class="lvl B1">B1</span> <span class="tag">sich · einander</span></summary>
       <div class="cbody">
         <div class="tblwrap"><table>
           <thead><tr><th></th><th>ich</th><th>du</th><th>er/sie/es</th><th>wir</th><th>ihr</th><th>sie/Sie</th></tr></thead>
@@ -910,7 +984,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     </details>
 
     <details class="card" data-lvl="B1" id="ref-verbpraep">
-      <summary>17 · Verben mit Präposition · da- &amp; wo-Wörter <span class="lvl B1">B1</span> <span class="tag">warten auf · darauf · worauf</span></summary>
+      <summary>18 · Verben mit Präposition · da- &amp; wo-Wörter <span class="lvl B1">B1</span> <span class="tag">warten auf · darauf · worauf</span></summary>
       <div class="cbody">
         <p>Many verbs are welded to one preposition, and that preposition fixes the case. There is no logic to it — these are learned as three-word chunks: <span class="de">warten + auf + Akkusativ</span>.</p>
         <div class="grid2">
@@ -947,7 +1021,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     </details>
 
     <details class="card" data-lvl="B1" id="ref-lassen">
-      <summary>18 · lassen &amp; Nomen-Verb-Verbindungen <span class="lvl B1">B1</span> <span class="tag">vier Bedeutungen</span></summary>
+      <summary>19 · lassen &amp; Nomen-Verb-Verbindungen <span class="lvl B1">B1</span> <span class="tag">vier Bedeutungen</span></summary>
       <div class="cbody">
         <h4>Die vier Bedeutungen von lassen</h4>
         <div class="tblwrap"><table>
@@ -986,12 +1060,12 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
 <section class="sec" id="sec-adjektive" data-sec>
   <div class="sec-head">
     <h2>Adjektive &amp; Adverbien</h2>
-    <span class="note">Endungen · Vergleich · Position</span>
+    <span class="note">Endungen · Singular → Plural · Vergleich</span>
   </div>
   <div class="ref">
 
     <details class="card" data-lvl="A2" id="ref-adjendungen">
-      <summary>19 · Adjektivendungen <span class="lvl A2">A2</span> <span class="tag">die gefürchtete Tabelle</span></summary>
+      <summary>20 · Adjektivendungen <span class="lvl A2">A2</span> <span class="tag">die gefürchtete Tabelle</span></summary>
       <div class="cbody">
         <div class="rule-box"><span class="lbl">Erste Regel</span>
           An adjective <strong>after</strong> the noun's verb takes <strong>no ending at all</strong>: <span class="de">Das Auto ist <strong>neu</strong>. Der Kaffee schmeckt <strong>gut</strong>.</span> Endings only appear when the adjective sits <em>in front of</em> a noun: <span class="de">das <strong>neue</strong> Auto</span>.</div>
@@ -1032,16 +1106,74 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
             <tr><td class="rowh c-nom">Nominativ</td><td class="f">gut<strong>er</strong> Wein</td><td class="f">gut<strong>e</strong> Suppe</td><td class="f">gut<strong>es</strong> Bier</td><td class="f">gut<strong>e</strong> Weine</td></tr>
             <tr><td class="rowh c-akk">Akkusativ</td><td class="f">gut<strong>en</strong> Wein</td><td class="f">gut<strong>e</strong> Suppe</td><td class="f">gut<strong>es</strong> Bier</td><td class="f">gut<strong>e</strong> Weine</td></tr>
             <tr><td class="rowh c-dat">Dativ</td><td class="f">gut<strong>em</strong> Wein</td><td class="f">gut<strong>er</strong> Suppe</td><td class="f">gut<strong>em</strong> Bier</td><td class="f">gut<strong>en</strong> Weinen</td></tr>
+            <tr><td class="rowh c-gen">Genitiv</td><td class="f">gut<strong>en</strong> Weines</td><td class="f">gut<strong>er</strong> Suppe</td><td class="f">gut<strong>en</strong> Bieres</td><td class="f">gut<strong>er</strong> Weine</td></tr>
           </tbody>
         </table></div>
-        <p>These are exactly the endings of <span class="de">der/die/das/dem/den</span> minus the <span class="de">d-</span>. Common after quantity words: <span class="de">viel, wenig, etwas, mehr</span> and in lists — <span class="de">Ich trinke gern kalt<strong>es</strong> Bier.</span></p>
+        <p>These are exactly the endings of <span class="de">der/die/das/dem/den</span> minus the <span class="de">d-</span> — with one exception in the genitive: masculine and neuter take <span class="de">-en</span>, not <span class="de">-es</span>, because the noun&#39;s own <span class="de">-(e)s</span> already marks the case (<span class="de">gut<strong>en</strong> Weines</span>). Common after quantity words: <span class="de">viel, wenig, etwas, mehr</span> and in lists — <span class="de">Ich trinke gern kalt<strong>es</strong> Bier.</span></p>
         <div class="rule-box"><span class="lbl">Kleine Sonderfälle</span>
           <span class="de">hoch → ein <strong>hoher</strong> Turm</span> (loses the c) · <span class="de">dunkel → ein <strong>dunkles</strong> Zimmer</span> and <span class="de">teuer → ein <strong>teures</strong> Auto</span> (lose the e) · city adjectives in <span class="de">-er</span> never change: <span class="de">der <strong>Münchner</strong> Flughafen, in der <strong>Berliner</strong> Innenstadt</span>.</div>
       </div>
     </details>
 
+
+    <details class="card" data-lvl="A2" id="ref-adjplural">
+      <summary>21 · Adjektive: Singular → Plural <span class="lvl A2">A2</span> <span class="tag">dieselbe Phrase, beide Zahlen</span></summary>
+      <div class="cbody">
+        <p>The card above gives you the endings gender by gender. This one turns them sideways: one complete noun phrase — article&nbsp;+ adjective&nbsp;+ noun — declined through all four cases in the singular and then in the plural, so you can see every letter that moves.</p>
+        <div class="rule-box hack"><span class="lbl">Hack · der Plural ist fast fertig</span>
+          Put <strong>any</strong> article word in front — <span class="de">die, diese, alle, meine, keine, seine</span> — and every plural adjective ends in <span class="de">-en</span>. All four cases, all three genders, no exceptions. The only plural worth studying is the one <em>without</em> an article word.</div>
+        <h4>Nach der-Wörtern <span class="tag">der gute Wein → die guten Weine</span></h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th></th><th class="h-m">Singular</th><th class="h-p">Plural</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh c-nom">Nominativ</td><td class="f">der gut<strong>e</strong> Wein</td><td class="f">die gut<strong>en</strong> Weine</td></tr>
+            <tr><td class="rowh c-akk">Akkusativ</td><td class="f">den gut<strong>en</strong> Wein</td><td class="f">die gut<strong>en</strong> Weine</td></tr>
+            <tr><td class="rowh c-dat">Dativ</td><td class="f">dem gut<strong>en</strong> Wein</td><td class="f">den gut<strong>en</strong> Wein<strong>en</strong></td></tr>
+            <tr><td class="rowh c-gen">Genitiv</td><td class="f">des gut<strong>en</strong> Wein<strong>es</strong></td><td class="f">der gut<strong>en</strong> Weine</td></tr>
+          </tbody>
+        </table></div>
+        <h4>Nach ein-Wörtern <span class="tag">mein guter Freund → meine guten Freunde</span></h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th></th><th class="h-m">Singular</th><th class="h-p">Plural</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh c-nom">Nominativ</td><td class="f">mein gut<strong>er</strong> Freund</td><td class="f">meine gut<strong>en</strong> Freunde</td></tr>
+            <tr><td class="rowh c-akk">Akkusativ</td><td class="f">meinen gut<strong>en</strong> Freund</td><td class="f">meine gut<strong>en</strong> Freunde</td></tr>
+            <tr><td class="rowh c-dat">Dativ</td><td class="f">meinem gut<strong>en</strong> Freund</td><td class="f">meinen gut<strong>en</strong> Freunde<strong>n</strong></td></tr>
+            <tr><td class="rowh c-gen">Genitiv</td><td class="f">meines gut<strong>en</strong> Freund<strong>es</strong></td><td class="f">meiner gut<strong>en</strong> Freunde</td></tr>
+          </tbody>
+        </table></div>
+        <h4>Ohne Artikel <span class="tag">guter Wein → gute Weine</span></h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th></th><th class="h-m">Singular</th><th class="h-p">Plural</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh c-nom">Nominativ</td><td class="f">gut<strong>er</strong> Wein</td><td class="f">gut<strong>e</strong> Weine</td></tr>
+            <tr><td class="rowh c-akk">Akkusativ</td><td class="f">gut<strong>en</strong> Wein</td><td class="f">gut<strong>e</strong> Weine</td></tr>
+            <tr><td class="rowh c-dat">Dativ</td><td class="f">gut<strong>em</strong> Wein</td><td class="f">gut<strong>en</strong> Wein<strong>en</strong></td></tr>
+            <tr><td class="rowh c-gen">Genitiv</td><td class="f">gut<strong>en</strong> Wein<strong>es</strong></td><td class="f">gut<strong>er</strong> Weine</td></tr>
+          </tbody>
+        </table></div>
+        <p>This is the one plural that still distinguishes the cases on the adjective: <span class="de">gut<strong>e</strong></span> (Nom/Akk) · <span class="de">gut<strong>en</strong></span> (Dat) · <span class="de">gut<strong>er</strong></span> (Gen). You meet it constantly in lists and general statements — <span class="de">Ich habe <strong>gute</strong> Freunde.</span> · <span class="de">Er arbeitet mit <strong>netten</strong> Kollegen.</span></p>
+        <h4>Alle drei Genera werden ein Plural</h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th>Singular</th><th class="h-p">Plural (Nominativ)</th><th class="h-p">Plural (Dativ)</th></tr></thead>
+          <tbody>
+            <tr><td class="f g-m">der alt<strong>e</strong> Mann</td><td class="f">die alt<strong>en</strong> Männer</td><td class="f">den alt<strong>en</strong> Männer<strong>n</strong></td></tr>
+            <tr><td class="f g-f">die klein<strong>e</strong> Stadt</td><td class="f">die klein<strong>en</strong> Städte</td><td class="f">den klein<strong>en</strong> Städte<strong>n</strong></td></tr>
+            <tr><td class="f g-n">das neu<strong>e</strong> Haus</td><td class="f">die neu<strong>en</strong> Häuser</td><td class="f">den neu<strong>en</strong> Häuser<strong>n</strong></td></tr>
+            <tr><td class="f g-m">ein alt<strong>er</strong> Mann</td><td class="f">alt<strong>e</strong> Männer</td><td class="f">alt<strong>en</strong> Männer<strong>n</strong></td></tr>
+            <tr><td class="f g-n">ein neu<strong>es</strong> Haus</td><td class="f">neu<strong>e</strong> Häuser</td><td class="f">neu<strong>en</strong> Häuser<strong>n</strong></td></tr>
+          </tbody>
+        </table></div>
+        <p>Three genders, one plural: the moment you go plural the column labels <span class="g-m">der</span> · <span class="g-f">die</span> · <span class="g-n">das</span> stop mattering and only the case decides.</p>
+        <div class="rule-box"><span class="lbl">Das Nomen fährt mit</span>
+          Two endings belong to the <em>noun</em>, not the adjective, and they show up inside these tables: the dative plural <span class="de">-n</span> (<span class="de">mit den gut<strong>en</strong> Wein<strong>en</strong></span> — two different endings, both needed) and the masculine/neuter genitive singular <span class="de">-(e)s</span> (<span class="de">des gut<strong>en</strong> Wein<strong>es</strong></span>). Full paradigm on the <a href="#ref-nomendekl">Nomen deklinieren</a> card.</div>
+        <div class="rule-box hack"><span class="lbl">Hack · zwei Adjektive, zwei gleiche Endungen</span>
+          Adjectives in a row all take the <em>same</em> ending — they are each doing the same job: <span class="de">ein gut<strong>er</strong>, alt<strong>er</strong> Wein</span> · <span class="de">mit frisch<strong>em</strong>, kalt<strong>em</strong> Wasser</span> · <span class="de">die klein<strong>en</strong>, dunkl<strong>en</strong> Zimmer</span>. Never mix them.</div>
+      </div>
+    </details>
+
     <details class="card" data-lvl="A2" id="ref-komparativ">
-      <summary>20 · Komparativ &amp; Superlativ <span class="lvl A2">A2</span> <span class="tag">als · wie · am …sten</span></summary>
+      <summary>22 · Komparativ &amp; Superlativ <span class="lvl A2">A2</span> <span class="tag">als · wie · am …sten</span></summary>
       <div class="cbody">
         <div class="tblwrap"><table>
           <thead><tr><th>Positiv</th><th>Komparativ</th><th>Superlativ (prädikativ)</th><th>Superlativ (vor Nomen)</th></tr></thead>
@@ -1070,8 +1202,58 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
       </div>
     </details>
 
+
+    <details class="card" data-lvl="B1" id="ref-adjmengen">
+      <summary>23 · Adjektive nach Mengenwörtern &amp; als Nomen <span class="lvl B1">B1</span> <span class="tag">viele · alle · etwas Neues · der Deutsche</span></summary>
+      <div class="cbody">
+        <p>The three tables on card <a href="#ref-adjendungen">Adjektivendungen</a> assume a <span class="de">der</span>-word, an <span class="de">ein</span>-word or nothing at all. Real sentences are full of words that are neither — <span class="de">viele, alle, einige, etwas, zwei</span> — and each one decides which of the three tables applies.</p>
+        <h4>Welche Tabelle gilt?</h4>
+        <div class="tblwrap"><table>
+          <thead><tr><th>Mengenwort</th><th>Adjektiv</th><th>Beispiele</th></tr></thead>
+          <tbody>
+            <tr><td class="f wrap"><span class="de">alle · beide · sämtliche · solche · manche · welche · diese</span></td><td class="f wrap">wie nach <span class="de">der</span> → <strong>-en</strong></td><td class="wrap"><span class="de">alle gut<strong>en</strong> Freunde · beide neu<strong>en</strong> Autos · mit allen gut<strong>en</strong> Freunden</span></td></tr>
+            <tr><td class="f wrap"><span class="de">viele · wenige · einige · mehrere · andere · ein paar</span> · Zahlen</td><td class="f wrap">wie <strong>ohne</strong> Artikel → <span class="de">-e / -en / -er</span></td><td class="wrap"><span class="de">viele gut<strong>e</strong> Freunde · zwei klein<strong>e</strong> Kinder · mit vielen gut<strong>en</strong> Freunden · trotz einiger gut<strong>er</strong> Ideen</span></td></tr>
+            <tr><td class="f wrap"><span class="de">viel · wenig</span> (ohne Endung, Singular)</td><td class="f wrap">wie <strong>ohne</strong> Artikel</td><td class="wrap"><span class="de">viel frisch<strong>es</strong> Obst · mit wenig heiß<strong>em</strong> Wasser · viel gut<strong>er</strong> Wein</span></td></tr>
+          </tbody>
+        </table></div>
+        <p><span class="de">manche</span> and <span class="de">solche</span> are heard both ways in the plural (<span class="de">manche alt<strong>en</strong> Häuser</span> · <span class="de">manche alt<strong>e</strong> Häuser</span>) — <span class="de">-en</span> is the safe default.</p>
+        <div class="rule-box hack"><span class="lbl">Hack · alle vs viele</span>
+          The pair that trips everyone: <span class="de"><strong>alle</strong></span> behaves like <span class="de">die</span> and takes the adjective's ending off its hands → <span class="de">alle gut<strong>en</strong> Freunde</span>. <span class="de"><strong>viele</strong></span> is itself just an adjective and signals nothing → the next adjective has to keep signalling → <span class="de">viele gut<strong>e</strong> Freunde</span>. Same shape, opposite endings.</div>
+        <h4>Nach etwas · nichts · viel · wenig · alles</h4>
+        <p>These take a <strong>capitalised</strong> adjective used as a noun. After <span class="de">etwas, nichts, viel, wenig</span> it ends in <span class="de">-es</span>; after <span class="de">alles</span> in <span class="de">-e</span>.</p>
+        <div class="tblwrap"><table>
+          <thead><tr><th>Nominativ / Akkusativ</th><th>Dativ</th><th class="wrap">Bedeutung</th></tr></thead>
+          <tbody>
+            <tr><td class="f">etwas Neu<strong>es</strong></td><td class="f">mit etwas Neu<strong>em</strong></td><td class="wrap">something new</td></tr>
+            <tr><td class="f">nichts Gut<strong>es</strong></td><td class="f">von nichts Gut<strong>em</strong></td><td class="wrap">nothing good</td></tr>
+            <tr><td class="f">viel Interessant<strong>es</strong></td><td class="f">mit viel Interessant<strong>em</strong></td><td class="wrap">a lot of interesting things</td></tr>
+            <tr><td class="f">alles Gut<strong>e</strong></td><td class="f">von allem Gut<strong>en</strong></td><td class="wrap">all the best</td></tr>
+          </tbody>
+        </table></div>
+        <p>So the birthday card reads <span class="de">Alles Gut<strong>e</strong> zum Geburtstag!</span> and the small talk reads <span class="de">Gibt's was Neu<strong>es</strong>?</span> — two different words in front, two different endings behind.</p>
+        <h4>Adjektive als Nomen</h4>
+        <p>Drop the noun, capitalise the adjective, and keep declining it <em>exactly</em> as if the noun were still there. Nothing new to learn — the endings are the ones you already have.</p>
+        <div class="tblwrap"><table>
+          <thead><tr><th></th><th class="h-m">mit der-Wort</th><th class="h-m">mit ein-Wort</th><th class="h-p">Plural</th></tr></thead>
+          <tbody>
+            <tr><td class="rowh c-nom">Nominativ</td><td class="f">der Deutsch<strong>e</strong></td><td class="f">ein Deutsch<strong>er</strong></td><td class="f">die Deutsch<strong>en</strong> / viele Deutsch<strong>e</strong></td></tr>
+            <tr><td class="rowh c-akk">Akkusativ</td><td class="f">den Deutsch<strong>en</strong></td><td class="f">einen Deutsch<strong>en</strong></td><td class="f">die Deutsch<strong>en</strong> / viele Deutsch<strong>e</strong></td></tr>
+            <tr><td class="rowh c-dat">Dativ</td><td class="f">dem Deutsch<strong>en</strong></td><td class="f">einem Deutsch<strong>en</strong></td><td class="f">den Deutsch<strong>en</strong> / vielen Deutsch<strong>en</strong></td></tr>
+            <tr><td class="rowh c-gen">Genitiv</td><td class="f">des Deutsch<strong>en</strong></td><td class="f">eines Deutsch<strong>en</strong></td><td class="f">der Deutsch<strong>en</strong> / vieler Deutsch<strong>er</strong></td></tr>
+          </tbody>
+        </table></div>
+        <p>The same words you will meet daily: <span class="de">der/die Bekannte, der Angestellte, der Verwandte, der Erwachsene, der Jugendliche, der Fremde, der Kranke, der Arbeitslose, der Reisende</span> — and feminine forms work identically (<span class="de">eine Bekannt<strong>e</strong>, mit einer Bekannt<strong>en</strong></span>).</p>
+        <div class="rule-box"><span class="lbl">Der Klassiker</span>
+          <span class="de">Ich bin Deutsch<strong>er</strong>.</span> (a German man, no article → strong) but <span class="de">Ich kenne den Deutsch<strong>en</strong>.</span> · <span class="de">Ein Bekannt<strong>er</strong> von mir</span> vs <span class="de">Der Bekannt<strong>e</strong> von mir</span>. Get the article right and the ending follows on its own.</div>
+        <h4>Adjektive, die sich nie ändern</h4>
+        <p><span class="de">rosa, lila, beige, orange, prima, super, klasse, extra</span> take no ending at all: <span class="de">eine <strong>rosa</strong> Bluse, ein <strong>lila</strong> Hemd, mit <strong>prima</strong> Laune</span>. City adjectives on <span class="de">-er</span> behave the same: <span class="de">der <strong>Münchner</strong> Flughafen, in der <strong>Berliner</strong> Innenstadt</span>.</p>
+        <div class="rule-box"><span class="lbl">Komparativ und Superlativ zählen mit</span>
+          A comparative or superlative in front of a noun is still just an adjective and takes the normal ending on top of its own: <span class="de">ein schneller<strong>er</strong> Zug</span>, <span class="de">mit dem schnellst<strong>en</strong> Zug</span>, <span class="de">ein besser<strong>es</strong> Angebot</span>, <span class="de">die älter<strong>en</strong> Kinder</span>. Ending stack: stem&nbsp;+ <span class="de">-er/-st</span> + case ending.</div>
+      </div>
+    </details>
+
     <details class="card" data-lvl="A2" id="ref-adverbien">
-      <summary>21 · Adverbien &amp; ihre Position <span class="lvl A2">A2</span> <span class="tag">gern · oft · leider</span></summary>
+      <summary>24 · Adverbien &amp; ihre Position <span class="lvl A2">A2</span> <span class="tag">gern · oft · leider</span></summary>
       <div class="cbody">
         <h4>Häufigkeit</h4>
         <div class="tblwrap"><table>
@@ -1100,7 +1282,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     </details>
 
     <details class="card" data-lvl="B1" id="ref-partizip">
-      <summary>22 · Partizip I &amp; II als Adjektiv <span class="lvl B1">B1</span> <span class="tag">-end · ge-…-t</span></summary>
+      <summary>25 · Partizip I &amp; II als Adjektiv <span class="lvl B1">B1</span> <span class="tag">-end · ge-…-t</span></summary>
       <div class="cbody">
         <div class="grid2">
           <div>
@@ -1136,7 +1318,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
   <div class="ref">
 
     <details class="card" data-lvl="A1" id="ref-algorithmus">
-      <summary>23 · Der Satzbau-Algorithmus <span class="lvl A1">A1</span> <span class="tag">sieben Schritte</span></summary>
+      <summary>26 · Der Satzbau-Algorithmus <span class="lvl A1">A1</span> <span class="tag">sieben Schritte</span></summary>
       <div class="cbody">
         <p>Run these seven steps in order and the word order comes out right every time.</p>
         <ol class="algo">
@@ -1189,7 +1371,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     </details>
 
     <details class="card" data-lvl="A2" id="ref-konjunktionen">
-      <summary>24 · Konjunktionen — die drei Gruppen <span class="lvl A2">A2</span> <span class="tag">Position 0 · 1 · Ende</span></summary>
+      <summary>27 · Konjunktionen — die drei Gruppen <span class="lvl A2">A2</span> <span class="tag">Position 0 · 1 · Ende</span></summary>
       <div class="cbody">
         <p>Every connector belongs to one of three groups, and the group decides where the verb lands. Get the group right and word order stops being a guess.</p>
         <h4>Gruppe 1 — Position 0 <span class="tag">ADUSO · ändert nichts</span></h4>
@@ -1246,7 +1428,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     </details>
 
     <details class="card" data-lvl="B1" id="ref-nebensatz">
-      <summary>25 · Nebensätze &amp; Infinitivsätze <span class="lvl B1">B1</span> <span class="tag">weil · dass · um…zu</span></summary>
+      <summary>28 · Nebensätze &amp; Infinitivsätze <span class="lvl B1">B1</span> <span class="tag">weil · dass · um…zu</span></summary>
       <div class="cbody">
         <div class="rule-box"><span class="lbl">Die Grundregel</span>
           Conjunction → Subject → everything else → <strong>conjugated verb last</strong>. With a verb bracket, the conjugated verb goes <em>after</em> the infinitive or participle: <span class="de">…, dass du das Auto <strong>gekauft hast</strong>.</span> · <span class="de">…, weil ich arbeiten <strong>muss</strong>.</span></div>
@@ -1279,7 +1461,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     </details>
 
     <details class="card" data-lvl="B1" id="ref-relativ">
-      <summary>26 · Relativsätze <span class="lvl B1">B1</span> <span class="tag">der · die · das · dessen</span></summary>
+      <summary>29 · Relativsätze <span class="lvl B1">B1</span> <span class="tag">der · die · das · dessen</span></summary>
       <div class="cbody">
         <div class="rule-box"><span class="lbl">Die zwei Fragen</span>
           The relative pronoun takes its <strong>gender and number from the noun it refers back to</strong>, but its <strong>case from its own job inside the relative clause</strong>. Those are two independent decisions — that is the entire difficulty.</div>
@@ -1307,7 +1489,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     </details>
 
     <details class="card" data-lvl="A1" id="ref-fragen">
-      <summary>27 · Fragen &amp; W-Wörter <span class="lvl A1">A1</span> <span class="tag">wer · wen · wem</span></summary>
+      <summary>30 · Fragen &amp; W-Wörter <span class="lvl A1">A1</span> <span class="tag">wer · wen · wem</span></summary>
       <div class="cbody">
         <div class="tblwrap"><table>
           <thead><tr><th>W-Wort</th><th>fragt nach</th><th>Beispiel</th></tr></thead>
@@ -1349,7 +1531,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     </details>
 
     <details class="card" data-lvl="A1" id="ref-negation">
-      <summary>28 · Negation <span class="lvl A1">A1</span> <span class="tag">nicht vs kein</span></summary>
+      <summary>31 · Negation <span class="lvl A1">A1</span> <span class="tag">nicht vs kein</span></summary>
       <div class="cbody">
         <div class="grid2">
           <div>
@@ -1390,7 +1572,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
   <div class="ref">
 
     <details class="card" data-lvl="A1" id="ref-praepkasus">
-      <summary>29 · Präpositionen &amp; Kasus <span class="lvl A1">A1</span> <span class="tag">Akkusativ · Dativ · Wechsel</span></summary>
+      <summary>32 · Präpositionen &amp; Kasus <span class="lvl A1">A1</span> <span class="tag">Akkusativ · Dativ · Wechsel</span></summary>
       <div class="cbody">
         <div class="grid2">
           <div>
@@ -1427,14 +1609,14 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
           Paired verbs give it away — the first of each pair is movement (Akkusativ), the second is position (Dativ):
           <span class="de">stellen / stehen · legen / liegen · setzen / sitzen · hängen / hängen · stecken / stecken</span>.
           Movement verbs are the weak, regular ones; position verbs are the strong, irregular ones. <span class="de">Ich <strong>stelle</strong> das Glas <strong>auf den</strong> Tisch. Das Glas <strong>steht auf dem</strong> Tisch.</span></div>
-        <p>Where you are going — <span class="de">ins Kino</span>, <span class="de">nach München</span>, <span class="de">zum Arzt</span> — is its own decision, and the contractions that come with it (<span class="de">im, ins, zum, zur</span>) their own table: <a href="#ref-wohin">Karte 30</a> and <a href="#ref-verschmelzung">Karte 32</a>.</p>
+        <p>Where you are going — <span class="de">ins Kino</span>, <span class="de">nach München</span>, <span class="de">zum Arzt</span> — is its own decision, and the contractions that come with it (<span class="de">im, ins, zum, zur</span>) their own table: <a href="#ref-wohin">Karte 33</a> and <a href="#ref-verschmelzung">Karte 35</a>.</p>
         <div class="rule-box"><span class="lbl">bis ist fast nie allein</span>
           <span class="de">bis</span> takes the accusative but usually hands the job to a second preposition, which then rules the case: <span class="de">bis <strong>zum</strong> Bahnhof</span> (Dat), <span class="de">bis <strong>nächsten</strong> Montag</span> (Akk), <span class="de">bis <strong>in die</strong> Nacht</span> (Akk).</div>
       </div>
     </details>
 
     <details class="card" data-lvl="A1" id="ref-wohin">
-      <summary>30 · Wohin? — in · nach · zu · auf · an <span class="lvl A1">A1</span> <span class="tag">ins Kino · nach München · zum Arzt</span></summary>
+      <summary>33 · Wohin? — in · nach · zu · auf · an <span class="lvl A1">A1</span> <span class="tag">ins Kino · nach München · zum Arzt</span></summary>
       <div class="cbody">
         <p>English says <em>to</em> for every one of these. German makes you say what <em>kind of place</em> it is first, and hands you the preposition second. The verb has no vote — <span class="de">gehen, fahren, fliegen, laufen</span> all take the same one. Walk down the ladder and stop at the first line that fits.</p>
         <ol class="algo">
@@ -1490,7 +1672,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     </details>
 
     <details class="card" data-lvl="A1" id="ref-laender">
-      <summary>31 · Städte, Länder &amp; Inseln <span class="lvl A1">A1</span> <span class="tag">nach Italien · in die Türkei · auf Mallorca</span></summary>
+      <summary>34 · Städte, Länder &amp; Inseln <span class="lvl A1">A1</span> <span class="tag">nach Italien · in die Türkei · auf Mallorca</span></summary>
       <div class="cbody">
         <p>Almost every country is neuter and article-less, and those all take <span class="de">nach</span>. The two dozen that carry an article take <span class="de">in</span> + <span class="k-akk">Akkusativ</span> instead — learn the list, and <span class="de">nach</span> is safe everywhere else.</p>
         <div class="tblwrap"><table>
@@ -1540,7 +1722,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     </details>
 
     <details class="card" data-lvl="A1" id="ref-verschmelzung">
-      <summary>32 · Verschmelzungen — im vs ins, zum vs zur <span class="lvl A1">A1</span> <span class="tag">in dem = im · in das = ins</span></summary>
+      <summary>35 · Verschmelzungen — im vs ins, zum vs zur <span class="lvl A1">A1</span> <span class="tag">in dem = im · in das = ins</span></summary>
       <div class="cbody">
         <p><span class="de">in</span>, <span class="de">im</span> and <span class="de">ins</span> are not three prepositions. There is one preposition, <span class="de">in</span>, and in two of the three it has swallowed an article.</p>
         <div class="rule-box"><span class="lbl">Die ganze Regel in zwei Zeilen</span>
@@ -1582,7 +1764,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     </details>
 
     <details class="card" data-lvl="B1" id="ref-genitivpraep">
-      <summary>33 · Genitivpräpositionen <span class="lvl B1">B1</span> <span class="tag">wegen · trotz · während</span></summary>
+      <summary>36 · Genitivpräpositionen <span class="lvl B1">B1</span> <span class="tag">wegen · trotz · während</span></summary>
       <div class="cbody">
         <div class="tblwrap"><table>
           <thead><tr><th>Präposition</th><th>Bedeutung</th><th>Beispiel</th></tr></thead>
@@ -1617,7 +1799,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
   <div class="ref">
 
     <details class="card" data-lvl="A1" id="ref-zahlen">
-      <summary>34 · Zahlen, Uhrzeit &amp; Datum <span class="lvl A1">A1</span> <span class="tag">halb zwei ≠ 14:30</span></summary>
+      <summary>37 · Zahlen, Uhrzeit &amp; Datum <span class="lvl A1">A1</span> <span class="tag">halb zwei ≠ 14:30</span></summary>
       <div class="cbody">
         <h4>Zahlen</h4>
         <div class="tblwrap"><table>
@@ -1667,7 +1849,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     </details>
 
     <details class="card" data-lvl="A1" id="ref-zeit">
-      <summary>35 · Zeitangaben <span class="lvl A1">A1</span> <span class="tag">am · im · um · seit</span></summary>
+      <summary>38 · Zeitangaben <span class="lvl A1">A1</span> <span class="tag">am · im · um · seit</span></summary>
       <div class="cbody">
         <div class="tblwrap"><table>
           <thead><tr><th>Präposition</th><th>wofür</th><th>Beispiel</th></tr></thead>
@@ -1703,7 +1885,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
 <section class="sec" id="sec-wires" data-sec>
   <div class="sec-head">
     <h2>Stolperfallen</h2>
-    <span class="note">sechsundzwanzig Fehler, die Punkte kosten</span>
+    <span class="note">neunundzwanzig Fehler, die Punkte kosten</span>
   </div>
   <div class="wires">
     <div class="wire" data-lvl="A1"><span class="bad">Ich habe nach Hause gegangen.</span><span class="good">Ich bin nach Hause gegangen.</span><span class="exp">Movement A → B always takes <span class="de">sein</span>. Rehearse the participle together with its auxiliary and this stops happening.</span></div>
@@ -1722,6 +1904,8 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     <div class="wire" data-lvl="A1"><span class="bad">Ich fahre nach die Schweiz.</span><span class="good">Ich fahre in die Schweiz.</span><span class="exp">A country carrying an article drops <span class="de">nach</span>: <span class="de">die Schweiz, die Türkei, der Iran, die USA</span> all take <span class="de">in</span> + Akkusativ.</span></div>
     <div class="wire" data-lvl="A1"><span class="bad">Ich gehe nach Berlin.</span><span class="good">Ich fahre nach Berlin.</span><span class="exp"><span class="de">gehen</span> means on foot, literally. Wheels → <span class="de">fahren</span>, wings → <span class="de">fliegen</span>, and the vehicle rides along as <span class="de">mit dem Zug</span>.</span></div>
     <div class="wire" data-lvl="A1"><span class="bad">Ich komme von Pakistan.</span><span class="good">Ich komme aus Pakistan.</span><span class="exp"><span class="de">aus</span> = where you are from. <span class="de">von</span> = the place you have just left — <span class="de">Ich komme von der Arbeit.</span></span></div>
+    <div class="wire" data-lvl="A1"><span class="bad">Ich spiele mit den Kinder.</span><span class="good">Ich spiele mit den Kindern.</span><span class="exp">Dativ Plural adds <span class="de">-n</span> to the <em>noun</em> as well as changing the article. Only plurals already ending in <span class="de">-n</span> or <span class="de">-s</span> are exempt: <span class="de">mit den Blumen, in den Autos</span>.</span></div>
+    <div class="wire" data-lvl="A1"><span class="bad">das Auto des Mann</span><span class="good">das Auto des Mannes</span><span class="exp">Masculine and neuter nouns take <span class="de">-(e)s</span> in the genitive singular — <span class="de">-es</span> after a one-syllable noun, <span class="de">-s</span> after a longer one: <span class="de">des Lehrers</span>. Feminine nouns never change.</span></div>
     <div class="wire" data-lvl="A2"><span class="bad">Ich bin größer wie du.</span><span class="good">Ich bin größer als du.</span><span class="exp">Difference → <span class="de">als</span>. Equality → <span class="de">so … wie</span>. Plenty of native speakers get this wrong; exams do not.</span></div>
     <div class="wire" data-lvl="A2"><span class="bad">Ich muss nicht rauchen.</span><span class="good">Ich darf nicht rauchen.</span><span class="exp"><span class="de">nicht müssen</span> = don't have to. <span class="de">nicht dürfen</span> = must not. English "mustn't" maps to <span class="de">dürfen</span>.</span></div>
     <div class="wire" data-lvl="A2"><span class="bad">Ich bleibe zu Hause, weil ich bin müde.</span><span class="good">Ich bleibe zu Hause, weil ich müde bin.</span><span class="exp"><span class="de">weil</span> is a Nebensatz binder — the conjugated verb goes to the very end. Use <span class="de">denn</span> if you want to keep normal order.</span></div>
@@ -1729,6 +1913,7 @@ footer ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:
     <div class="wire" data-lvl="A2"><span class="bad">Ein guten Wein.</span><span class="good">Ein guter Wein.</span><span class="exp"><span class="de">ein</span> gives nothing away in the masculine nominative, so the adjective has to: <span class="de">-er</span>. Exactly three cells in the whole ein-table work this way.</span></div>
     <div class="wire" data-lvl="A2"><span class="bad">Ich freue mich auf dir.</span><span class="good">Ich freue mich auf dich.</span><span class="exp"><span class="de">sich freuen auf</span> takes the accusative — the verb's fixed preposition decides the case, not the meaning.</span></div>
     <div class="wire" data-lvl="A2"><span class="bad">Ich habe mein Auto reparieren gelassen.</span><span class="good">Ich habe mein Auto reparieren lassen.</span><span class="exp">With a second verb, <span class="de">lassen</span> and the modals use a double infinitive in the perfect, never a participle.</span></div>
+    <div class="wire" data-lvl="A2"><span class="bad">Ich habe viele guten Freunde.</span><span class="good">Ich habe viele gute Freunde.</span><span class="exp"><span class="de">viele</span> signals nothing, so the adjective must: <span class="de">-e</span>. <span class="de">alle</span> does signal, so it takes the job over: <span class="de">alle gut<strong>en</strong> Freunde</span>.</span></div>
     <div class="wire" data-lvl="B1"><span class="bad">Das Haus ist gebaut geworden.</span><span class="good">Das Haus ist gebaut worden.</span><span class="exp">In the passive perfect, <span class="de">werden</span> drops its <span class="de">ge-</span>. <span class="de">geworden</span> is only the full verb "became".</span></div>
     <div class="wire" data-lvl="B1"><span class="bad">Ich warte darauf meinen Chef.</span><span class="good">Ich warte auf meinen Chef.</span><span class="exp">A <span class="de">da-</span>word replaces a <em>thing</em>, never a person, and never stands next to the noun it would replace.</span></div>
     <div class="wire" data-lvl="B1"><span class="bad">Ich kenne den Student.</span><span class="good">Ich kenne den Studenten.</span><span class="exp">N-Deklination: masculine nouns like <span class="de">Student, Kollege, Herr, Nachbar, Mensch</span> add <span class="de">-(e)n</span> in every case but the nominative singular.</span></div>
