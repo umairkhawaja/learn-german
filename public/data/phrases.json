@@ -382,7 +382,8 @@
   "e": "Bye!",
   "c": "Greetings",
   "lvl": "A1",
-  "n": "Tschüs, Moritz!"
+  "n": "Also spelled 'Tschüss'.",
+  "ex": "Tschüs, Moritz!"
  },
  {
   "w": "Wie geht es dir? (Wie geht’s?)",
@@ -463,10 +464,11 @@
  },
  {
   "w": "LG (Liebe Grüße)",
-  "e": "KR (Kind regards)",
+  "e": "love / best wishes (sign-off)",
   "c": "Small Talk",
   "lvl": "A1",
-  "n": "Liebe Grüße, Kathrin"
+  "n": "'LG' is the abbreviation used in texts and informal e-mails.",
+  "ex": "Liebe Grüße, Kathrin"
  },
  {
   "w": "im (= in dem)",
@@ -556,8 +558,7 @@
   "w": "Gute Reise!",
   "e": "Have a good trip!",
   "c": "Small Talk",
-  "lvl": "A1",
-  "n": "Gute Reise!"
+  "lvl": "A1"
  },
  {
   "w": "-mal (einmal, zweimal …)",
@@ -571,7 +572,7 @@
   "e": "Happy New Year!",
   "c": "Small Talk",
   "lvl": "A1",
-  "n": "An Silvester wünscht man „Gutes neues Jahr!“"
+  "ex": "An Silvester wünscht man „Gutes neues Jahr!“ — On New Year's Eve people wish each other a happy new year."
  },
  {
   "w": "Prosit Neujahr!",
@@ -624,16 +625,16 @@
  },
  {
   "w": "Auf Wiederhören!",
-  "e": "goodbye! (on the phone)",
+  "e": "Goodbye! (on the phone)",
   "c": "Greetings",
-  "ex": "Wir telefonieren morgen noch mal.",
+  "ex": "Wir telefonieren morgen noch mal. Auf Wiederhören!",
   "lvl": "A1"
  },
  {
   "w": "Gute Besserung!",
   "e": "Get well soon!",
-  "c": "Directions",
-  "ex": "Ich wünsche Dir „Gute Besserung!“",
+  "c": "Politeness",
+  "ex": "Ich wünsche dir gute Besserung! — I hope you get well soon!",
   "lvl": "A1"
  },
  {
@@ -661,7 +662,7 @@
   "w": "Einverstanden!",
   "e": "Agreed! OK!",
   "c": "Small Talk",
-  "ex": "Wir treffen uns im Kaufhaus, ok?",
+  "ex": "Wir treffen uns im Kaufhaus, ok? – Einverstanden!",
   "lvl": "A1"
  },
  {
@@ -680,7 +681,7 @@
  },
  {
   "w": "hin und zurück",
-  "e": "return",
+  "e": "there and back (return)",
   "c": "Small Talk",
   "ex": "Einmal Hamburg, hin und zurück, bitte. — A return ticket to Hamburg, please.",
   "lvl": "A1"
@@ -703,28 +704,28 @@
   "w": "an sein / aus sein",
   "e": "to be on / off",
   "c": "Small Talk",
-  "ex": "Licht ist noch an/schon aus.",
+  "ex": "Das Licht ist noch an.",
   "lvl": "A2"
  },
  {
   "w": "auf sein",
   "e": "to be open / up",
   "c": "Small Talk",
-  "ex": "Fenster ist noch auf.",
+  "ex": "Das Fenster ist noch auf.",
   "lvl": "A2"
  },
  {
   "w": "weg sein",
   "e": "to be away / gone",
   "c": "Small Talk",
-  "ex": "Meier ist schon weg.",
+  "ex": "Herr Meier ist schon weg.",
   "lvl": "A2"
  },
  {
   "w": "zu sein",
   "e": "to be closed",
   "c": "Small Talk",
-  "ex": "Tür ist zu.",
+  "ex": "Die Tür ist zu.",
   "lvl": "A2"
  },
  {
@@ -738,7 +739,7 @@
   "w": "wer (wen, wem)",
   "e": "who (whom)",
   "c": "Small Talk",
-  "ex": "ist das?",
+  "ex": "Wer ist das?",
   "lvl": "A2"
  },
  {
@@ -777,7 +778,7 @@
   "lvl": "A2"
  },
  {
-  "w": "leidtun/leid tun",
+  "w": "leidtun",
   "e": "to be sorry",
   "c": "Politeness",
   "ex": "Es tut mir leid. — I am sorry.",
@@ -786,7 +787,7 @@
  {
   "w": "recht haben",
   "e": "to be right",
-  "c": "Directions",
+  "c": "Small Talk",
   "ex": "Du hast recht, das ist teuer. — You are right, that is expensive.",
   "lvl": "A2"
  },
@@ -822,7 +823,7 @@
   "w": "Herzlichen Glückwunsch!",
   "e": "Congratulations!",
   "c": "Politeness",
-  "ex": "'Herzlichen Glückwunsch zum Geburtstag!' = Happy birthday!",
+  "ex": "Herzlichen Glückwunsch zum Geburtstag! — Happy birthday!",
   "lvl": "A2"
  },
  {
@@ -843,8 +844,9 @@
   "w": "In Ordnung.",
   "e": "All right. / OK.",
   "c": "Small Talk",
-  "ex": "Agreement: 'Treffen wir uns um 8? — In Ordnung.'",
-  "lvl": "A2"
+  "ex": "Treffen wir uns um acht? – In Ordnung. — Shall we meet at eight? – All right.",
+  "lvl": "A2",
+  "n": "Signals agreement."
  },
  {
   "w": "Einen Moment, bitte.",
@@ -899,8 +901,9 @@
   "w": "Meiner Meinung nach ...",
   "e": "In my opinion ...",
   "c": "Opinion & Discussion",
-  "ex": "B1 exam gold: 'Meiner Meinung nach ist das eine gute Idee.'",
-  "lvl": "B1"
+  "ex": "Meiner Meinung nach ist das eine gute Idee. — In my opinion that is a good idea.",
+  "lvl": "B1",
+  "n": "B1 exam gold: the verb comes straight after it."
  },
  {
   "w": "Ich bin der Meinung, dass ...",
@@ -913,8 +916,9 @@
   "w": "Ich schlage vor, dass ...",
   "e": "I suggest that ...",
   "c": "Opinion & Discussion",
-  "ex": "For making suggestions: 'Ich schlage vor, dass wir uns am Freitag treffen.'",
-  "lvl": "B1"
+  "ex": "Ich schlage vor, dass wir uns am Freitag treffen. — I suggest that we meet on Friday.",
+  "lvl": "B1",
+  "n": "For making suggestions."
  },
  {
   "w": "Das kommt nicht in Frage!",
@@ -934,63 +938,66 @@
   "w": "auf jeden Fall",
   "e": "definitely / in any case",
   "c": "Idioms & Connectors",
-  "ex": "'Kommst du mit? — Auf jeden Fall!' Opposite: auf keinen Fall.",
-  "lvl": "B1"
+  "ex": "Kommst du mit? – Auf jeden Fall! — Are you coming? – Definitely!",
+  "lvl": "B1",
+  "n": "Opposite: auf keinen Fall."
  },
  {
   "w": "auf keinen Fall",
   "e": "no way / under no circumstances",
   "c": "Idioms & Connectors",
-  "ex": "Strong refusal: 'Das mache ich auf keinen Fall.'",
-  "lvl": "B1"
+  "ex": "Das mache ich auf keinen Fall. — I am definitely not doing that.",
+  "lvl": "B1",
+  "n": "A strong refusal."
  },
  {
   "w": "vor allem",
   "e": "above all / especially",
   "c": "Idioms & Connectors",
-  "ex": "'Ich mag deutsche Städte, vor allem München.'",
+  "ex": "Ich mag deutsche Städte, vor allem München. — I like German cities, above all Munich.",
   "lvl": "B1"
  },
  {
   "w": "unter anderem",
   "e": "among other things (u.a.)",
   "c": "Idioms & Connectors",
-  "ex": "'Wir haben unter anderem über Politik gesprochen.'",
-  "lvl": "B1"
+  "ex": "Wir haben unter anderem über Politik gesprochen. — Among other things, we talked about politics.",
+  "lvl": "B1",
+  "n": "Abbreviated 'u. a.'"
  },
  {
   "w": "in der Regel",
   "e": "as a rule / usually",
   "c": "Idioms & Connectors",
-  "ex": "'In der Regel arbeite ich bis 17 Uhr.'",
+  "ex": "In der Regel arbeite ich bis 17 Uhr. — As a rule I work until 5 p.m.",
   "lvl": "B1"
  },
  {
   "w": "im Vergleich zu",
   "e": "compared to",
   "c": "Idioms & Connectors",
-  "ex": "'Im Vergleich zu Berlin ist München teuer.'",
+  "ex": "Im Vergleich zu Berlin ist München teuer. — Compared to Berlin, Munich is expensive.",
   "lvl": "B1"
  },
  {
   "w": "im Gegensatz zu",
   "e": "in contrast to",
   "c": "Idioms & Connectors",
-  "ex": "'Im Gegensatz zu mir mag er keinen Sport.'",
+  "ex": "Im Gegensatz zu mir mag er keinen Sport. — Unlike me, he doesn't like sport.",
   "lvl": "B1"
  },
  {
   "w": "sich Gedanken machen",
   "e": "to think about / to worry",
   "c": "Idioms & Connectors",
-  "ex": "'Mach dir keine Gedanken!' = Don't worry!",
+  "ex": "Mach dir keine Gedanken! — Don't worry!",
   "lvl": "B1"
  },
  {
   "w": "Ich mache mir Sorgen um ...",
   "e": "I'm worried about ...",
   "c": "Opinion & Discussion",
-  "ex": "'Ich mache mir Sorgen um meine Prüfung.'",
+  "ex": "Ich mache mir Sorgen um meine Prüfung. — I'm worried about my exam.",
   "lvl": "B1"
  },
  {
@@ -1004,29 +1011,31 @@
   "w": "Wie wäre es mit ...?",
   "e": "How about ...?",
   "c": "Opinion & Discussion",
-  "ex": "Suggestion: 'Wie wäre es mit einem Spaziergang?'",
-  "lvl": "B1"
+  "ex": "Wie wäre es mit einem Spaziergang? — How about a walk?",
+  "lvl": "B1",
+  "n": "For making suggestions."
  },
  {
   "w": "Ich habe vor, ... zu ...",
   "e": "I plan to ...",
   "c": "Opinion & Discussion",
-  "ex": "'Ich habe vor, im Sommer nach Italien zu fahren.'",
+  "ex": "Ich habe vor, im Sommer nach Italien zu fahren. — I plan to go to Italy in the summer.",
   "lvl": "B1"
  },
  {
   "w": "Im Großen und Ganzen ...",
   "e": "On the whole ...",
   "c": "Idioms & Connectors",
-  "ex": "'Im Großen und Ganzen bin ich zufrieden.'",
+  "ex": "Im Großen und Ganzen bin ich zufrieden. — On the whole I'm satisfied.",
   "lvl": "B1"
  },
  {
   "w": "Ich bin dran.",
   "e": "It's my turn.",
   "c": "Small Talk",
-  "ex": "Du bist dran! — It's your turn! Common at the counter, in queues and in games.",
-  "lvl": "A2"
+  "ex": "Du bist dran! — It's your turn!",
+  "lvl": "A2",
+  "n": "Common at the counter, in queues and in games."
  },
  {
   "w": "Verzeihung!",
@@ -1039,8 +1048,9 @@
   "w": "Es freut mich!",
   "e": "Pleased to meet you!",
   "c": "Introductions",
-  "ex": "— Ich heiße Umair. — Es freut mich! Full form: 'Es freut mich, Sie kennenzulernen.'",
-  "lvl": "A1"
+  "ex": "Ich heiße Umair. – Es freut mich! — My name is Umair. – Pleased to meet you!",
+  "lvl": "A1",
+  "n": "Full form: 'Es freut mich, Sie kennenzulernen.'"
  },
  {
   "w": "Ich muss gehen.",
@@ -1053,15 +1063,17 @@
   "w": "Mir geht's nicht gut.",
   "e": "I'm not doing well.",
   "c": "Small Talk",
-  "ex": "— Wie geht's? — Mir geht's nicht so gut. Note the dative: MIR geht es gut.",
-  "lvl": "A1"
+  "ex": "Wie geht's? – Mir geht's nicht so gut. — How are you? – I'm not doing so well.",
+  "lvl": "A1",
+  "n": "Note the dative: MIR geht es gut."
  },
  {
   "w": "Wollen wir …?",
   "e": "Shall we …?",
   "c": "Small Talk",
-  "ex": "Wollen wir einen Kaffee trinken? — Shall we get a coffee? The standard way to suggest something.",
-  "lvl": "A2"
+  "ex": "Wollen wir einen Kaffee trinken? — Shall we get a coffee?",
+  "lvl": "A2",
+  "n": "The standard way to suggest something."
  },
  {
   "w": "Wie interessant!",
@@ -1109,15 +1121,16 @@
   "w": "Welche Größe?",
   "e": "What size?",
   "c": "Shopping",
-  "ex": "— Welche Größe haben Sie? — Größe 42, bitte.",
+  "ex": "Welche Größe haben Sie? – Größe 42, bitte. — What size are you? – Size 42, please.",
   "lvl": "A1"
  },
  {
   "w": "Es passt nicht.",
   "e": "It doesn't fit.",
   "c": "Shopping",
-  "ex": "Die Hose passt mir nicht. — The trousers don't fit me. 'passen' takes the dative.",
-  "lvl": "A2"
+  "ex": "Die Hose passt mir nicht. — The trousers don't fit me.",
+  "lvl": "A2",
+  "n": "'passen' takes the dative."
  },
  {
   "w": "Diese Farbe steht dir gut.",
@@ -1137,8 +1150,9 @@
   "w": "Geld ausgeben",
   "e": "to spend money",
   "c": "Shopping",
-  "ex": "Ich gebe zu viel Geld für Bücher aus. — I spend too much money on books. Separable: ausgeben.",
-  "lvl": "A2"
+  "ex": "Ich gebe zu viel Geld für Bücher aus. — I spend too much money on books.",
+  "lvl": "A2",
+  "n": "Separable: ausgeben."
  },
  {
   "w": "Geld zurückbekommen",
@@ -1158,15 +1172,17 @@
   "w": "Hunger haben",
   "e": "to be hungry",
   "c": "Restaurant",
-  "ex": "Ich habe Hunger. — I'm hungry. German 'has' hunger rather than 'being' hungry.",
-  "lvl": "A1"
+  "ex": "Ich habe Hunger. — I'm hungry.",
+  "lvl": "A1",
+  "n": "German 'has' hunger rather than 'being' hungry."
  },
  {
   "w": "Durst haben",
   "e": "to be thirsty",
   "c": "Restaurant",
-  "ex": "Hast du Durst? — Are you thirsty? Also 'durstig sein'.",
-  "lvl": "A1"
+  "ex": "Hast du Durst? — Are you thirsty?",
+  "lvl": "A1",
+  "n": "Also 'durstig sein'."
  },
  {
   "w": "zu Mittag essen",
@@ -1193,8 +1209,9 @@
   "w": "Kopfschmerzen haben",
   "e": "to have a headache",
   "c": "Emergencies",
-  "ex": "Ich habe Kopfschmerzen. — I have a headache. Same pattern: Bauchschmerzen, Zahnschmerzen, Rückenschmerzen.",
-  "lvl": "A1"
+  "ex": "Ich habe Kopfschmerzen. — I have a headache.",
+  "lvl": "A1",
+  "n": "Same pattern: Bauchschmerzen, Zahnschmerzen, Rückenschmerzen."
  },
  {
   "w": "Magenschmerzen haben",
@@ -1221,8 +1238,9 @@
   "w": "eine Erkältung haben",
   "e": "to have a cold",
   "c": "Emergencies",
-  "ex": "Ich habe eine Erkältung. — I have a cold. Also 'erkältet sein'.",
-  "lvl": "A2"
+  "ex": "Ich habe eine Erkältung. — I have a cold.",
+  "lvl": "A2",
+  "n": "Also 'erkältet sein'."
  },
  {
   "w": "die Grippe haben",
@@ -1235,15 +1253,17 @@
   "w": "eine Allergie gegen etwas haben",
   "e": "to be allergic to something",
   "c": "Emergencies",
-  "ex": "Ich habe eine Allergie gegen Nüsse. — I'm allergic to nuts. Also 'allergisch gegen + Akk sein'.",
-  "lvl": "A2"
+  "ex": "Ich habe eine Allergie gegen Nüsse. — I'm allergic to nuts.",
+  "lvl": "A2",
+  "n": "Also 'allergisch gegen + Akk sein'."
  },
  {
   "w": "sich das Bein brechen",
   "e": "to break one's leg",
   "c": "Emergencies",
-  "ex": "Er hat sich das Bein gebrochen. — He broke his leg. German uses sich + dative, not a possessive.",
-  "lvl": "A2"
+  "ex": "Er hat sich das Bein gebrochen. — He broke his leg.",
+  "lvl": "A2",
+  "n": "German uses sich + dative, not a possessive."
  },
  {
   "w": "ins Fitness-Studio gehen",
@@ -1284,8 +1304,9 @@
   "w": "mit dem Bus fahren",
   "e": "to go by bus",
   "c": "Directions",
-  "ex": "Ich fahre jeden Tag mit dem Bus. — I go by bus every day. 'mit' + Dativ for all means of transport.",
-  "lvl": "A1"
+  "ex": "Ich fahre jeden Tag mit dem Bus. — I go by bus every day.",
+  "lvl": "A1",
+  "n": "'mit' + Dativ for all means of transport."
  },
  {
   "w": "die Straße überqueren",
@@ -1354,8 +1375,9 @@
   "w": "sich die Zähne putzen",
   "e": "to brush one's teeth",
   "c": "Small Talk",
-  "ex": "Ich putze mir zweimal am Tag die Zähne. — I brush my teeth twice a day. Dative reflexive: mir.",
-  "lvl": "A1"
+  "ex": "Ich putze mir zweimal am Tag die Zähne. — I brush my teeth twice a day.",
+  "lvl": "A1",
+  "n": "Dative reflexive: mir."
  },
  {
   "w": "sich die Haare kämmen",
@@ -1382,8 +1404,9 @@
   "w": "Klavier spielen",
   "e": "to play the piano",
   "c": "Small Talk",
-  "ex": "Ich spiele seit zehn Jahren Klavier. — Instruments take no article after spielen: Gitarre, Geige, Schlagzeug, Flöte, Trompete spielen.",
-  "lvl": "A1"
+  "ex": "Ich spiele seit zehn Jahren Klavier. — I have played the piano for ten years.",
+  "lvl": "A1",
+  "n": "Instruments take no article after spielen: Gitarre, Geige, Schlagzeug, Flöte, Trompete spielen."
  },
  {
   "w": "auf ein Konzert gehen",
@@ -1424,22 +1447,25 @@
   "w": "Schlittschuh laufen",
   "e": "to ice skate",
   "c": "Small Talk",
-  "ex": "Im Winter laufen wir Schlittschuh. — Like Ski fahren and Rad fahren: two words, no article.",
-  "lvl": "A2"
+  "ex": "Im Winter laufen wir Schlittschuh. — In winter we go ice skating.",
+  "lvl": "A2",
+  "n": "Like Ski fahren and Rad fahren: two words, no article."
  },
  {
   "w": "befördert werden",
   "e": "to be promoted",
   "c": "Opinion & Discussion",
-  "ex": "Sie ist letztes Jahr befördert worden. — She was promoted last year. Passive perfect: worden, not geworden.",
-  "lvl": "B1"
+  "ex": "Sie ist letztes Jahr befördert worden. — She was promoted last year.",
+  "lvl": "B1",
+  "n": "Passive perfect: worden, not geworden."
  },
  {
   "w": "entlassen werden",
   "e": "to be made redundant / fired",
   "c": "Opinion & Discussion",
   "lvl": "B1",
-  "n": "Viele Kollegen wurden entlassen. — Many colleagues were let go."
+  "n": "Passive: werden + Partizip II.",
+  "ex": "Viele Kollegen wurden entlassen. — Many colleagues were let go."
  },
  {
   "w": "in Rente gehen",
@@ -1459,8 +1485,9 @@
   "w": "Fragen stellen",
   "e": "to ask questions",
   "c": "Understanding",
-  "ex": "Bitte stellen Sie Fragen, wenn etwas unklar ist. — 'eine Frage stellen', never 'fragen machen'.",
-  "lvl": "A2"
+  "ex": "Bitte stellen Sie Fragen, wenn etwas unklar ist. — Please ask questions if anything is unclear.",
+  "lvl": "A2",
+  "n": "'eine Frage stellen', never 'Fragen machen'."
  },
  {
   "w": "an Gott glauben",
@@ -1473,29 +1500,33 @@
   "w": "Ich interessiere mich für …",
   "e": "I'm interested in …",
   "c": "Opinion & Discussion",
-  "ex": "Ich interessiere mich für Musik, besonders für Rockmusik. — Always 'für + Akkusativ'.",
-  "lvl": "A2"
+  "ex": "Ich interessiere mich für Musik, besonders für Rockmusik. — I'm interested in music, especially rock music.",
+  "lvl": "A2",
+  "n": "Always 'für + Akkusativ'."
  },
  {
   "w": "Ich träume davon, …",
   "e": "I dream of …",
   "c": "Opinion & Discussion",
-  "ex": "Ich träume davon, am Meer zu leben. — I dream of living by the sea. The da-word announces the zu-clause.",
-  "lvl": "B1"
+  "ex": "Ich träume davon, am Meer zu leben. — I dream of living by the sea.",
+  "lvl": "B1",
+  "n": "The da-word announces the zu-clause."
  },
  {
   "w": "Um gesund zu bleiben, soll man …",
   "e": "To stay healthy, one should …",
   "c": "Opinion & Discussion",
-  "ex": "Um gesund zu bleiben, soll man regelmäßig Sport treiben und genug schlafen. — A ready-made B1 opening.",
-  "lvl": "B1"
+  "ex": "Um gesund zu bleiben, soll man regelmäßig Sport treiben und genug schlafen. — To stay healthy, you should exercise regularly and sleep enough.",
+  "lvl": "B1",
+  "n": "A ready-made B1 opening."
  },
  {
   "w": "Ich bevorzuge …, weil …",
   "e": "I prefer …, because …",
   "c": "Opinion & Discussion",
-  "ex": "Ich bevorzuge Komödien, weil sie mich zum Lachen bringen. — Remember: weil sends the verb to the end.",
-  "lvl": "B1"
+  "ex": "Ich bevorzuge Komödien, weil sie mich zum Lachen bringen. — I prefer comedies because they make me laugh.",
+  "lvl": "B1",
+  "n": "Remember: weil sends the verb to the end."
  },
  {
   "w": "Der Film hat mir gut gefallen.",
@@ -1515,22 +1546,25 @@
   "w": "den Müll trennen",
   "e": "to separate the rubbish",
   "c": "Opinion & Discussion",
-  "ex": "In Deutschland muss man den Müll trennen. — Papier, Bio, Restmüll and the Gelber Sack.",
-  "lvl": "B1"
+  "ex": "In Deutschland muss man den Müll trennen. — In Germany you have to separate your rubbish.",
+  "lvl": "B1",
+  "n": "Papier, Bio, Restmüll and the Gelber Sack."
  },
  {
   "w": "sparsam mit etwas umgehen",
   "e": "to use something sparingly",
   "c": "Opinion & Discussion",
-  "ex": "Man soll sparsam mit Wasser und Strom umgehen. — 'umgehen mit + Dativ', separable.",
-  "lvl": "B1"
+  "ex": "Man soll sparsam mit Wasser und Strom umgehen. — You should use water and electricity sparingly.",
+  "lvl": "B1",
+  "n": "'umgehen mit + Dativ', separable."
  },
  {
   "w": "Es ist notwendig, … zu …",
   "e": "It is necessary to …",
   "c": "Opinion & Discussion",
-  "ex": "Es ist notwendig, einen Regenschirm mitzunehmen. — Note the zu inside the separable verb.",
-  "lvl": "B1"
+  "ex": "Es ist notwendig, einen Regenschirm mitzunehmen. — It is necessary to take an umbrella.",
+  "lvl": "B1",
+  "n": "Note the zu inside the separable verb."
  },
  {
   "w": "Ich habe es satt.",
@@ -1543,15 +1577,17 @@
   "w": "in der Zwischenzeit",
   "e": "in the meantime",
   "c": "Idioms & Connectors",
-  "ex": "In der Zwischenzeit kannst du schon anfangen. — Also: mittlerweile, inzwischen.",
-  "lvl": "B1"
+  "ex": "In der Zwischenzeit kannst du schon anfangen. — In the meantime you can already start.",
+  "lvl": "B1",
+  "n": "Also: mittlerweile, inzwischen."
  },
  {
   "w": "ab und zu",
   "e": "now and then",
   "c": "Idioms & Connectors",
-  "ex": "Ab und zu gehe ich ins Kino. — Now and then I go to the cinema. Counts as position 1.",
-  "lvl": "A2"
+  "ex": "Ab und zu gehe ich ins Kino. — Now and then I go to the cinema.",
+  "lvl": "A2",
+  "n": "Counts as position 1."
  },
  {
   "w": "eine Menge",

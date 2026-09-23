@@ -292,7 +292,7 @@ export function KasusDrill({ db, progress, setProgress, recordAnswer, levelFilte
         </button>
       )}
       <div style={{ textAlign: "center", marginTop: 10, fontSize: 11, color: "#3a3f49" }}>
-        {f.mode === "mc" ? `Tasten 1–${q.options.length} · Enter für weiter` : "Enter zum Prüfen und für weiter"}
+        {f.mode === "mc" ? `Tasten 1–${q.options.length} · Enter für weiter` : "Enter zum Prüfen, dann Enter für weiter"}
       </div>
     </div>
   );

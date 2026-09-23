@@ -85,13 +85,13 @@ const IRREGULAR = {
 
 // ── Topics ────────────────────────────────────────────────────────────────
 const TOPIC = {
-  Farben: ["rot", "blau", "schwarz", "grün", "weiß", "gelb", "grau", "pink", "braun", "lila", "rosa", "orange", "orangefarben", "violett", "golden", "silbern", "bunt", "blond", "hell", "dunkel"],
+  Colours: ["rot", "blau", "schwarz", "grün", "weiß", "gelb", "grau", "pink", "braun", "lila", "rosa", "orange", "orangefarben", "violett", "golden", "silbern", "bunt", "blond", "hell", "dunkel"],
   "Weather & Seasons": ["sonnig", "windig", "bewölkt", "neblig", "feucht", "trocken", "nass", "kühl", "warm", "kalt", "heiß"],
   "Numbers & Order": ["erst", "zweit", "dritt", "viert", "siebt", "dreizehnt", "siebenundzwanzigst", "plus", "minus", "maximal", "beide", "bisschen", "halb", "gesamt", "einzel", "mehr", "einmal", "zweimal"],
   "Function Words": ["tja", "na", "okay", "schade", "klar", "wohl", "echt", "total", "bitteschön", "gleichfalls", "bestimmt", "soweit", "ab", "hinter", "pro", "inklusive", "außer", "außerhalb", "folgend(e)", "letzt", "ander", "dies", "nächst", "selbst", "sowie", "dazu", "ebenso", "dadurch"],
   "Time & Frequency": ["hoffentlich", "normalerweise", "plötzlich", "vormittags", "samstags", "nochmal", "damals", "meistens", "momentan", "lange", "früher", "übermorgen", "vorgestern", "täglich", "monatlich", "jährlich", "regelmäßig", "aktuell", "sofortig"],
   "Distance & Position": ["dorthin", "daneben", "drüben", "nebenan", "unterwegs", "vorn(e)", "zurück", "geradeaus", "vorwärts", "vorbei", "unterirdisch"],
-  "Work & Study": ["arbeitslos", "berufstätig", "pensioniert", "geschieden", "schriftlich", "mündlich", "zuständig", "selbstständig", "freiwillig", "beendet", "gesendet", "offiziell", "privat"],
+  "Work & Study": ["arbeitslos", "berufstätig", "pensioniert", "schriftlich", "mündlich", "zuständig", "selbstständig", "freiwillig", "beendet", "gesendet", "offiziell", "privat"],
 };
 
 // Older near-duplicate buckets folded into the one that already holds the

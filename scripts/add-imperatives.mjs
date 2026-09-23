@@ -39,7 +39,7 @@ const NO_IMPERATIVE = new Set([
   "können", "müssen", "dürfen", "sollen", "wollen", "mögen", "möchten",
   "wissen", "heißen", "gefallen", "passieren", "geschehen", "regnen",
   "schneien", "bedeuten", "gehören", "kosten", "brauchen", "scheinen",
-  "stattfinden", "sich lohnen", "sich befinden", "bestehen aus",
+  "stattfinden", "sich lohnen", "sich befinden", "bestehen aus", "gelingen",
 ]);
 
 // …and neither do compounds of them ("mitmüssen", "mitkönnen").
@@ -59,6 +59,22 @@ const IRREGULAR = {
   treffen: { du: "Triff!", ihr: "Trefft!", sie: "Treffen Sie!" },
   helfen: { du: "Hilf!", ihr: "Helft!", sie: "Helfen Sie!" },
   sprechen: { du: "Sprich!", ihr: "Sprecht!", sie: "Sprechen Sie!" },
+  // nehmen keeps its double m: du nimmst → Nimm!, never Nehm!
+  mitnehmen: { du: "Nimm mit!", ihr: "Nehmt mit!", sie: "Nehmen Sie mit!" },
+  annehmen: { du: "Nimm an!", ihr: "Nehmt an!", sie: "Nehmen Sie an!" },
+  teilnehmen: { du: "Nimm teil!", ihr: "Nehmt teil!", sie: "Nehmen Sie teil!" },
+  abnehmen: { du: "Nimm ab!", ihr: "Nehmt ab!", sie: "Nehmen Sie ab!" },
+  unternehmen: { du: "Unternimm!", ihr: "Unternehmt!", sie: "Unternehmen Sie!" },
+  vertreten: { du: "Vertritt!", ihr: "Vertretet!", sie: "Vertreten Sie!" },
+  // A stem in -t keeps the -e even when the du-form shrinks (du rätst).
+  raten: { du: "Rate!", ihr: "Ratet!", sie: "Raten Sie!" },
+  beraten: { du: "Berate!", ihr: "Beratet!", sie: "Beraten Sie!" },
+  braten: { du: "Brate!", ihr: "Bratet!", sie: "Braten Sie!" },
+  behalten: { du: "Behalte!", ihr: "Behaltet!", sie: "Behalten Sie!" },
+  unterhalten: { du: "Unterhalte dich!", ihr: "Unterhaltet euch!", sie: "Unterhalten Sie sich!" },
+  // A stem in -s would lose its ending entirely (Reis!, Überweis!).
+  reisen: { du: "Reise!", ihr: "Reist!", sie: "Reisen Sie!" },
+  überweisen: { du: "Überweise!", ihr: "Überweist!", sie: "Überweisen Sie!" },
 };
 
 const upper = (s) => s.charAt(0).toUpperCase() + s.slice(1);
@@ -125,7 +141,9 @@ for (const v of verbs) {
     if (/est$/.test(du.head) || /ig$/.test(stem)) stem += "e";
     // Only genuine -eln verbs contract (lächeln → Lächle!). Testing the stem
     // instead caught spielen, whose stem merely ends in the same two letters.
-    else if (/eln$/.test(infinitive)) stem = stem.replace(/el$/, "le");
+    // The ich-form has already dropped that e (lächle), so build it from the
+    // infinitive rather than the stem.
+    else if (/eln$/.test(infinitive)) stem = infinitive.replace(/eln$/, "le");
     // -ern verbs keep the -e (erinnere dich!, ändere!, wundere dich nicht!).
     else if (/ern$/.test(infinitive)) stem += "e";
 

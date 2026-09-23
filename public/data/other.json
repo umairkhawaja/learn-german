@@ -227,7 +227,7 @@
   "w": "noch einmal",
   "e": "again",
   "c": "Adverb",
-  "ex": "Können Sie das bitte noch einmal wiederholen. — Can you please repeat that again?",
+  "ex": "Können Sie das bitte noch einmal wiederholen? — Can you please repeat that again?",
   "lvl": "A1"
  },
  {
@@ -322,13 +322,6 @@
   "lvl": "A1"
  },
  {
-  "w": "leid tun",
-  "e": "to be sorry",
-  "c": "Expression",
-  "ex": "Tut mir leid. Hier ist kein Rucksack. — I am sorry. There is no backpack here.",
-  "lvl": "A1"
- },
- {
   "w": "mich (ich)",
   "e": "me (I)",
   "c": "Pronoun",
@@ -373,7 +366,7 @@
  {
   "w": "was (etwas)",
   "e": "something",
-  "c": "Article",
+  "c": "Pronoun",
   "ex": "Und ich möchte auch was essen. — And I would also like something to eat.",
   "lvl": "A1"
  },
@@ -407,7 +400,7 @@
  },
  {
   "w": "mal",
-  "e": "well",
+  "e": "just / sometime (softening particle)",
   "c": "Adverb",
   "ex": "Gehen wir mal in die Kneipe? — Shall we go to the pub?",
   "lvl": "A1"
@@ -479,7 +472,7 @@
   "w": "mir (ich)",
   "e": "me (I)",
   "c": "Pronoun",
-  "ex": "Geben Sie mir ein zwei Brötchen, bitte. — Give me two bread rolls, please.",
+  "ex": "Geben Sie mir zwei Brötchen, bitte. — Give me two bread rolls, please.",
   "lvl": "A1"
  },
  {
@@ -689,7 +682,7 @@
   "w": "ihm (es)",
   "e": "(dative form of es)",
   "c": "Pronoun",
-  "ex": "Ich glaube der Hund mag dich. Ihm gefällt das. — I think the dog likes you. He likes that.",
+  "ex": "Ich glaube, der Hund mag dich. Ihm gefällt das. — I think the dog likes you. He likes that.",
   "lvl": "A1"
  },
  {
@@ -777,13 +770,6 @@
   "lvl": "A1"
  },
  {
-  "w": "weh tun",
-  "e": "to hurt",
-  "c": "Expression",
-  "ex": "Mein Arm tut sehr weh. — My arm hurts a lot.",
-  "lvl": "A1"
- },
- {
   "w": "zum Glück",
   "e": "luckily",
   "c": "Adverb",
@@ -862,7 +848,7 @@
  },
  {
   "w": "bis zu",
-  "e": "as far as",
+  "e": "up to / as far as",
   "c": "Preposition",
   "ex": "Dort kann man bis zu den Bergen sehen. — From there you can see as far as the mountains.",
   "lvl": "A1"
@@ -882,10 +868,10 @@
   "lvl": "A1"
  },
  {
-  "w": "Nord-West (Singular)",
+  "w": "Nordwest",
   "e": "north-west",
   "c": "Number & Time",
-  "ex": "Ab Mittag gibt es Wind aus Nord-West. — From midday there is wind from the north-west.",
+  "ex": "Ab Mittag gibt es Wind aus Nordwest. — From midday there is wind from the north-west.",
   "lvl": "A1"
  },
  {
@@ -920,7 +906,7 @@
   "w": "bar",
   "e": "in cash",
   "c": "Adjective",
-  "ex": "Muss ich bar zahlen oder geht‘s auch mit Karte?",
+  "ex": "Muss ich bar zahlen oder geht’s auch mit Karte?",
   "lvl": "A2"
  },
  {
@@ -955,7 +941,7 @@
   "w": "rund",
   "e": "round / about",
   "c": "Number & Time",
-  "ex": "Wohnzimmertisch ist rund.",
+  "ex": "Unser Wohnzimmertisch ist rund.",
   "lvl": "A2"
  },
  {
@@ -990,49 +976,49 @@
   "w": "wenigstens",
   "e": "at least",
   "c": "Adverb",
-  "ex": "Ich habe keinen Hunger.",
+  "ex": "Ich habe keinen Hunger, aber wenigstens einen Kaffee trinke ich.",
   "lvl": "A2"
  },
  {
   "w": "wie",
   "e": "how / as",
   "c": "Question Word",
-  "ex": "heißt du?",
+  "ex": "Wie heißt du?",
   "lvl": "A2"
  },
  {
   "w": "wo",
   "e": "where",
   "c": "Question Word",
-  "ex": "waren Sie im Urlaub?",
+  "ex": "Wo waren Sie im Urlaub?",
   "lvl": "A2"
  },
  {
   "w": "woher",
   "e": "from where",
   "c": "Question Word",
-  "ex": "kommen Sie?",
+  "ex": "Woher kommen Sie?",
   "lvl": "A2"
  },
  {
   "w": "wohin",
   "e": "to where",
   "c": "Question Word",
-  "ex": "fährt dieser Bus?",
+  "ex": "Wohin fährt dieser Bus?",
   "lvl": "A2"
  },
  {
   "w": "zuletzt",
   "e": "last / finally",
   "c": "Adverb",
-  "ex": "haben uns vor drei Jahren zuletzt gesehen.",
+  "ex": "Wir haben uns vor drei Jahren zuletzt gesehen.",
   "lvl": "A2"
  },
  {
   "w": "zum",
   "e": "to the",
   "c": "Preposition",
-  "ex": "Freund hat viele Hobbys, zum Beispiel Lesen und Tanzen.",
+  "ex": "Mein Freund hat viele Hobbys, zum Beispiel Lesen und Tanzen.",
   "lvl": "A2"
  },
  {
@@ -1130,7 +1116,7 @@
   "w": "beziehungsweise",
   "e": "or rather / respectively (bzw.)",
   "c": "Conjunction",
-  "ex": "Der Kurs beginnt im März beziehungsweise April. — The course starts in March or April, respectively.",
+  "ex": "Der Kurs beginnt im März beziehungsweise im April. — The course starts in March, or rather in April.",
   "lvl": "B1"
  },
  {
@@ -1263,43 +1249,49 @@
   "w": "herum",
   "e": "around",
   "c": "Adverb",
-  "ex": "Wir sind den ganzen Tag herumgelaufen. — We walked around all day. Often as a prefix: herumlaufen, herumliegen.",
-  "lvl": "A2"
+  "ex": "Wir sind den ganzen Tag herumgelaufen. — We walked around all day.",
+  "lvl": "A2",
+  "n": "Often as a prefix: herumlaufen, herumliegen."
  },
  {
   "w": "gewöhnlich",
   "e": "usually / ordinary",
   "c": "Adverb",
-  "ex": "Gewöhnlich stehe ich um sechs auf. — I usually get up at six. Also 'normalerweise'.",
-  "lvl": "A2"
+  "ex": "Gewöhnlich stehe ich um sechs auf. — I usually get up at six.",
+  "lvl": "A2",
+  "n": "Also 'normalerweise'."
  },
  {
   "w": "niemals",
   "e": "never (emphatic)",
   "c": "Adverb",
-  "ex": "Das würde ich niemals tun. — I would never do that. Stronger than plain 'nie'.",
-  "lvl": "A2"
+  "ex": "Das würde ich niemals tun. — I would never do that.",
+  "lvl": "A2",
+  "n": "Stronger than plain 'nie'."
  },
  {
   "w": "öfters",
   "e": "quite often",
   "c": "Adverb",
-  "ex": "Ich gehe öfters ins Kino. — I go to the cinema quite often. Colloquial variant of 'öfter'.",
-  "lvl": "B1"
+  "ex": "Ich gehe öfters ins Kino. — I go to the cinema quite often.",
+  "lvl": "B1",
+  "n": "Colloquial variant of 'öfter'."
  },
  {
   "w": "nochmals",
   "e": "once again",
   "c": "Adverb",
-  "ex": "Nochmals vielen Dank! — Thanks again! Also 'noch einmal'.",
-  "lvl": "A2"
+  "ex": "Nochmals vielen Dank! — Thanks again!",
+  "lvl": "A2",
+  "n": "Also 'noch einmal'."
  },
  {
   "w": "erstens",
   "e": "firstly",
   "c": "Adverb",
-  "ex": "Erstens habe ich keine Zeit, zweitens kein Geld. — Firstly I have no time, secondly no money. Series: erstens, zweitens, drittens.",
-  "lvl": "B1"
+  "ex": "Erstens habe ich keine Zeit, zweitens kein Geld. — Firstly I have no time, secondly no money.",
+  "lvl": "B1",
+  "n": "Series: erstens, zweitens, drittens."
  },
  {
   "w": "mittlerweile",
@@ -1312,43 +1304,49 @@
   "w": "genügend",
   "e": "enough / sufficient",
   "c": "Number & Time",
-  "ex": "Wir haben genügend Zeit. — We have enough time. Interchangeable with 'genug'.",
-  "lvl": "A2"
+  "ex": "Wir haben genügend Zeit. — We have enough time.",
+  "lvl": "A2",
+  "n": "Interchangeable with 'genug'."
  },
  {
   "w": "verschiedene",
   "e": "various / different",
   "c": "Pronoun",
-  "ex": "Es gibt verschiedene Möglichkeiten. — There are various options. Takes plural adjective endings.",
-  "lvl": "A2"
+  "ex": "Es gibt verschiedene Möglichkeiten. — There are various options.",
+  "lvl": "A2",
+  "n": "Takes plural adjective endings."
  },
  {
   "w": "jeden Tag",
   "e": "every day",
   "c": "Adverb",
-  "ex": "Ich lerne jeden Tag Deutsch. — Accusative without a preposition marks a stretch of time: jeden Tag, letzte Woche, nächstes Jahr.",
-  "lvl": "A1"
+  "ex": "Ich lerne jeden Tag Deutsch. — I study German every day.",
+  "lvl": "A1",
+  "n": "Accusative without a preposition marks a stretch of time: jeden Tag, letzte Woche, nächstes Jahr."
  },
  {
   "w": "einmal, zweimal, dreimal",
   "e": "once, twice, three times",
   "c": "Number & Time",
-  "ex": "Ich gehe zweimal pro Woche schwimmen. — Number + -mal. Also 'dreimal in der Woche'.",
-  "lvl": "A1"
+  "ex": "Ich gehe zweimal pro Woche schwimmen. — I go swimming twice a week.",
+  "lvl": "A1",
+  "n": "Number + -mal. Also 'dreimal in der Woche'."
  },
  {
   "w": "das Meiste",
   "e": "most of it",
   "c": "Pronoun",
-  "ex": "Das Meiste habe ich schon erledigt. — I've already done most of it. Also 'die meisten Leute'.",
-  "lvl": "B1"
+  "ex": "Das Meiste habe ich schon erledigt. — I have already done most of it.",
+  "lvl": "B1",
+  "n": "Also 'die meisten Leute'."
  },
  {
   "w": "der Einzige",
   "e": "the only one",
   "c": "Pronoun",
-  "ex": "Er war der Einzige, der geholfen hat. — He was the only one who helped. Adjectival noun: die Einzige, das Einzige.",
-  "lvl": "B1"
+  "ex": "Er war der Einzige, der geholfen hat. — He was the only one who helped.",
+  "lvl": "B1",
+  "n": "Adjectival noun: die Einzige, das Einzige."
  },
  {
   "w": "entweder … oder",

@@ -42,10 +42,10 @@ const CLASSES = {
     "mich (ich)", "mir (ich)", "dir (du)", "euch (ihr)", "uns (wir)",
     "ihm (er)", "ihm (es)", "ihnen", "Ihnen (Sie)",
     "mein, meine", "dein, deine", "unser, unsere", "euer, eure", "Ihr, Ihre",
-    "das Meiste", "der Einzige", "verschiedene",
+    "das Meiste", "der Einzige", "verschiedene", "was (etwas)",
   ],
   // Articles and article-like determiners.
-  Article: ["ein, eine", "kein, keine", "den (der)", "einen (ein)", "einem (ein)", "was (etwas)", "kommend-", "nächst-"],
+  Article: ["ein, eine", "kein, keine", "den (der)", "einen (ein)", "einem (ein)", "kommend-", "nächst-"],
   Conjunction: [
     "beziehungsweise", "daher", "dennoch", "einerseits", "andererseits", "indem",
     "entweder … oder", "weder … noch", "doch",

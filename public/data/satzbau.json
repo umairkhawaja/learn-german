@@ -40,13 +40,15 @@
    ]
   },
   {
-   "de": "Ich esse gerne ausgiebig Frühstück.",
-   "en": "I like eating a big breakfast.",
+   "de": "Am Wochenende gibt es ein ausgiebiges Frühstück.",
+   "en": "At the weekend there's a big breakfast.",
    "tok": [
-    "ich",
-    "esse",
-    "gerne",
-    "ausgiebig",
+    "am",
+    "Wochenende",
+    "gibt",
+    "es",
+    "ein",
+    "ausgiebiges",
     "Frühstück"
    ],
    "end": ".",
@@ -189,6 +191,23 @@
    ],
    "end": ".",
    "lvl": "A1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Ich lebe in der Gegenwart.",
+   "en": "I live in the present.",
+   "tok": [
+    "ich",
+    "lebe",
+    "in",
+    "der",
+    "Gegenwart"
+   ],
+   "end": ".",
+   "lvl": "A2",
    "src": "app",
    "tags": [
     "hauptsatz"
@@ -1465,6 +1484,24 @@
    ]
   },
   {
+   "de": "Ihre Ehe hält schon dreißig Jahre.",
+   "en": "Their marriage has lasted thirty years.",
+   "tok": [
+    "ihre",
+    "Ehe",
+    "hält",
+    "schon",
+    "dreißig",
+    "Jahre"
+   ],
+   "end": ".",
+   "lvl": "B1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
    "de": "Das Paar heiratet nächsten Monat.",
    "en": "The couple is getting married next month.",
    "tok": [
@@ -1482,15 +1519,16 @@
    ]
   },
   {
-   "de": "Ich habe eine Sprechstunde um 10 Uhr.",
-   "en": "I have a doctor's appointment at 10 a.m.",
+   "de": "Die Sprechstunde ist von 8 bis 12 Uhr.",
+   "en": "Consultation hours are from 8 to 12.",
    "tok": [
-    "ich",
-    "habe",
-    "eine",
+    "die",
     "Sprechstunde",
-    "um",
-    "10",
+    "ist",
+    "von",
+    "8",
+    "bis",
+    "12",
     "Uhr"
    ],
    "end": ".",
@@ -1714,6 +1752,26 @@
    "src": "app",
    "tags": [
     "hauptsatz"
+   ]
+  },
+  {
+   "de": "Wir nehmen die Treppe, der Aufzug ist kaputt.",
+   "en": "We're taking the stairs, the lift is broken.",
+   "tok": [
+    "wir",
+    "nehmen",
+    "die",
+    "Treppe,",
+    "der",
+    "Aufzug",
+    "ist",
+    "kaputt"
+   ],
+   "end": ".",
+   "lvl": "A2",
+   "src": "app",
+   "tags": [
+    "relativsatz"
    ]
   },
   {
@@ -2625,6 +2683,23 @@
    ],
    "end": ".",
    "lvl": "A1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Vielen Dank für Ihre Aufmerksamkeit!",
+   "en": "Thank you for your attention!",
+   "tok": [
+    "vielen",
+    "Dank",
+    "für",
+    "Ihre",
+    "Aufmerksamkeit"
+   ],
+   "end": "!",
+   "lvl": "B1",
    "src": "app",
    "tags": [
     "hauptsatz"
@@ -3587,6 +3662,201 @@
    ]
   },
   {
+   "de": "Der Walzer kommt aus Österreich.",
+   "en": "The waltz comes from Austria.",
+   "tok": [
+    "der",
+    "Walzer",
+    "kommt",
+    "aus",
+    "Österreich"
+   ],
+   "end": ".",
+   "lvl": "A1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Er kommt aus Österreich.",
+   "en": "He comes from Austria.",
+   "tok": [
+    "er",
+    "kommt",
+    "aus",
+    "Österreich"
+   ],
+   "end": ".",
+   "lvl": "A1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Sie kommt aus China.",
+   "en": "She comes from China.",
+   "tok": [
+    "Sie",
+    "kommt",
+    "aus",
+    "China"
+   ],
+   "end": ".",
+   "lvl": "A1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Der Tango kommt aus Argentinien.",
+   "en": "The tango comes from Argentina.",
+   "tok": [
+    "der",
+    "Tango",
+    "kommt",
+    "aus",
+    "Argentinien"
+   ],
+   "end": ".",
+   "lvl": "A1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Er kommt aus Argentinien.",
+   "en": "He comes from Argentina.",
+   "tok": [
+    "er",
+    "kommt",
+    "aus",
+    "Argentinien"
+   ],
+   "end": ".",
+   "lvl": "A1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Der Samba kommt aus Brasilien.",
+   "en": "The samba comes from Brazil.",
+   "tok": [
+    "der",
+    "Samba",
+    "kommt",
+    "aus",
+    "Brasilien"
+   ],
+   "end": ".",
+   "lvl": "A1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Sie kommt aus Brasilien.",
+   "en": "She comes from Brazil.",
+   "tok": [
+    "Sie",
+    "kommt",
+    "aus",
+    "Brasilien"
+   ],
+   "end": ".",
+   "lvl": "A1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Er kommt aus Japan.",
+   "en": "He comes from Japan.",
+   "tok": [
+    "er",
+    "kommt",
+    "aus",
+    "Japan"
+   ],
+   "end": ".",
+   "lvl": "A1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Sie kommt aus Frankreich.",
+   "en": "She comes from France.",
+   "tok": [
+    "Sie",
+    "kommt",
+    "aus",
+    "Frankreich"
+   ],
+   "end": ".",
+   "lvl": "A1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Er kommt aus Italien.",
+   "en": "He comes from Italy.",
+   "tok": [
+    "er",
+    "kommt",
+    "aus",
+    "Italien"
+   ],
+   "end": ".",
+   "lvl": "A1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Sie kommt aus England.",
+   "en": "She comes from England.",
+   "tok": [
+    "Sie",
+    "kommt",
+    "aus",
+    "England"
+   ],
+   "end": ".",
+   "lvl": "A1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Er kommt aus Spanien.",
+   "en": "He comes from Spain.",
+   "tok": [
+    "er",
+    "kommt",
+    "aus",
+    "Spanien"
+   ],
+   "end": ".",
+   "lvl": "A1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
    "de": "Frau Milanova kommt aus der Russischen Föderation.",
    "en": "Ms Milanova comes from the Russian Federation.",
    "tok": [
@@ -3597,6 +3867,55 @@
     "der",
     "Russischen",
     "Föderation"
+   ],
+   "end": ".",
+   "lvl": "A1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Sie kommt aus der Schweiz.",
+   "en": "She comes from Switzerland.",
+   "tok": [
+    "Sie",
+    "kommt",
+    "aus",
+    "der",
+    "Schweiz"
+   ],
+   "end": ".",
+   "lvl": "A1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Er kommt aus Schweden.",
+   "en": "He comes from Sweden.",
+   "tok": [
+    "er",
+    "kommt",
+    "aus",
+    "Schweden"
+   ],
+   "end": ".",
+   "lvl": "A1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Sie kommt aus Ägypten.",
+   "en": "She comes from Egypt.",
+   "tok": [
+    "Sie",
+    "kommt",
+    "aus",
+    "Ägypten"
    ],
    "end": ".",
    "lvl": "A1",
@@ -4579,12 +4898,12 @@
    ]
   },
   {
-   "de": "Ist das Dein Tablet?",
+   "de": "Ist das dein Tablet?",
    "en": "Is that your tablet?",
    "tok": [
     "ist",
     "das",
-    "Dein",
+    "dein",
     "Tablet"
    ],
    "end": "?",
@@ -5820,7 +6139,7 @@
   },
   {
    "de": "Haben Sie noch einen Wunsch?",
-   "en": "Do you have another wish?",
+   "en": "Would you like anything else?",
    "tok": [
     "haben",
     "Sie",
@@ -6104,7 +6423,7 @@
   },
   {
    "de": "Lisa ist Touristin in Barcelona.",
-   "en": "There are 300,000 passengers daily at the station.",
+   "en": "Lisa is a tourist in Barcelona.",
    "tok": [
     "Lisa",
     "ist",
@@ -10901,11 +11220,11 @@
    ]
   },
   {
-   "de": "Mein Fotostudium ist im Zentrum.",
+   "de": "Mein Fotostudio ist im Zentrum.",
    "en": "My photo studio is in the centre.",
    "tok": [
     "mein",
-    "Fotostudium",
+    "Fotostudio",
     "ist",
     "im",
     "Zentrum"
@@ -11772,13 +12091,14 @@
    ]
   },
   {
-   "de": "Was sind die Agenden des Meetings?",
+   "de": "Was steht auf der Agenda des Meetings?",
    "en": "What is on the agenda of the meeting?",
    "tok": [
     "was",
-    "sind",
-    "die",
-    "Agenden",
+    "steht",
+    "auf",
+    "der",
+    "Agenda",
     "des",
     "Meetings"
    ],
@@ -13837,14 +14157,12 @@
    ]
   },
   {
-   "de": "Meine Hausnummer ist die Arndstraße 78.",
-   "en": "My address is Arndstraße 78.",
+   "de": "Meine Hausnummer ist 78.",
+   "en": "My house number is 78.",
    "tok": [
     "meine",
     "Hausnummer",
     "ist",
-    "die",
-    "Arndstraße",
     "78"
    ],
    "end": ".",
@@ -13855,15 +14173,15 @@
    ]
   },
   {
-   "de": "Sie wählt die Zahlungsweise der Kreditkarte.",
+   "de": "Sie wählt die Kreditkarte als Zahlungsweise.",
    "en": "She chooses credit card as the payment method.",
    "tok": [
     "Sie",
     "wählt",
     "die",
-    "Zahlungsweise",
-    "der",
-    "Kreditkarte"
+    "Kreditkarte",
+    "als",
+    "Zahlungsweise"
    ],
    "end": ".",
    "lvl": "A1",
@@ -14727,11 +15045,12 @@
    ]
   },
   {
-   "de": "Sie muss Antibiotikum nehmen.",
-   "en": "She has to take antibiotics.",
+   "de": "Sie muss ein Antibiotikum nehmen.",
+   "en": "She has to take an antibiotic.",
    "tok": [
     "Sie",
     "muss",
+    "ein",
     "Antibiotikum",
     "nehmen"
    ],
@@ -17236,13 +17555,15 @@
    ]
   },
   {
-   "de": "Nächste Haltestelle Bremen Weststraße.",
+   "de": "Nächste Haltestelle Bremen Weststraße, Ausstieg rechts.",
    "en": "Next stop Bremen Weststraße, exit on the right.",
    "tok": [
     "nächste",
     "Haltestelle",
     "Bremen",
-    "Weststraße"
+    "Weststraße,",
+    "Ausstieg",
+    "rechts"
    ],
    "end": ".",
    "lvl": "A1",
@@ -19282,6 +19603,23 @@
    ]
   },
   {
+   "de": "Das Chanson kommt aus Frankreich.",
+   "en": "The chanson comes from France.",
+   "tok": [
+    "das",
+    "Chanson",
+    "kommt",
+    "aus",
+    "Frankreich"
+   ],
+   "end": ".",
+   "lvl": "A1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
    "de": "Viele Deutsche spielen Fußball.",
    "en": "Many Germans play football.",
    "tok": [
@@ -19656,11 +19994,11 @@
    ]
   },
   {
-   "de": "Am Mittwoche mache ich den Kurs Jazztanz.",
+   "de": "Am Mittwoch mache ich den Kurs Jazztanz.",
    "en": "On Wednesday I do the jazz dance course.",
    "tok": [
     "am",
-    "Mittwoche",
+    "Mittwoch",
     "mache",
     "ich",
     "den",
@@ -24885,7 +25223,7 @@
    "de": "Lass mich in Ruhe!",
    "en": "Leave me alone!",
    "tok": [
-    "lass",
+    "Lass",
     "mich",
     "in",
     "Ruhe"
@@ -25173,22 +25511,6 @@
    "src": "app",
    "tags": [
     "w-frage"
-   ]
-  },
-  {
-   "de": "Das hat weh getan.",
-   "en": "That hurt.",
-   "tok": [
-    "das",
-    "hat",
-    "weh",
-    "getan"
-   ],
-   "end": ".",
-   "lvl": "A1",
-   "src": "app",
-   "tags": [
-    "hauptsatz"
    ]
   },
   {
@@ -28069,43 +28391,6 @@
    ],
    "end": ".",
    "lvl": "A1",
-   "src": "app",
-   "tags": [
-    "hauptsatz"
-   ]
-  },
-  {
-   "de": "Ich bewerbe mich um die Stelle.",
-   "en": "I'm applying for the job.",
-   "tok": [
-    "ich",
-    "bewerbe",
-    "mich",
-    "um",
-    "die",
-    "Stelle"
-   ],
-   "end": ".",
-   "lvl": "B1",
-   "src": "app",
-   "tags": [
-    "hauptsatz"
-   ]
-  },
-  {
-   "de": "Sie hat sich bei der Firma beworben.",
-   "en": "She applied to the company.",
-   "tok": [
-    "Sie",
-    "hat",
-    "sich",
-    "bei",
-    "der",
-    "Firma",
-    "beworben"
-   ],
-   "end": ".",
-   "lvl": "B1",
    "src": "app",
    "tags": [
     "hauptsatz"
@@ -34471,12 +34756,12 @@
    ]
   },
   {
-   "de": "Ich erreiche dich unter dieser Nummer.",
+   "de": "Du erreichst mich unter dieser Nummer.",
    "en": "You can reach me on this number.",
    "tok": [
-    "ich",
-    "erreiche",
-    "dich",
+    "du",
+    "erreichst",
+    "mich",
     "unter",
     "dieser",
     "Nummer"
@@ -34837,14 +35122,16 @@
    ]
   },
   {
-   "de": "Sie hat die Wand weiß gemalt.",
-   "en": "She painted the wall white.",
+   "de": "Sie hat ein Bild für ihre Oma gemalt.",
+   "en": "She painted a picture for her grandma.",
    "tok": [
     "Sie",
     "hat",
-    "die",
-    "Wand",
-    "weiß",
+    "ein",
+    "Bild",
+    "für",
+    "ihre",
+    "Oma",
     "gemalt"
    ],
    "end": ".",
@@ -44618,6 +44905,41 @@
    ]
   },
   {
+   "de": "Wir sind uns einig.",
+   "en": "We agree.",
+   "tok": [
+    "wir",
+    "sind",
+    "uns",
+    "einig"
+   ],
+   "end": ".",
+   "lvl": "A2",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Die meisten Leute fahren mit dem Bus.",
+   "en": "Most people go by bus.",
+   "tok": [
+    "die",
+    "meisten",
+    "Leute",
+    "fahren",
+    "mit",
+    "dem",
+    "Bus"
+   ],
+   "end": ".",
+   "lvl": "A2",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
    "de": "Ich bin mit dem Plan einverstanden.",
    "en": "I agree with the plan.",
    "tok": [
@@ -47395,7 +47717,7 @@
    ]
   },
   {
-   "de": "Können Sie das bitte noch einmal wiederholen.",
+   "de": "Können Sie das bitte noch einmal wiederholen?",
    "en": "Can you please repeat that again?",
    "tok": [
     "können",
@@ -47406,11 +47728,11 @@
     "einmal",
     "wiederholen"
    ],
-   "end": ".",
+   "end": "?",
    "lvl": "A1",
    "src": "app",
    "tags": [
-    "hauptsatz"
+    "ja-nein-frage"
    ]
   },
   {
@@ -47711,13 +48033,12 @@
    ]
   },
   {
-   "de": "Geben Sie mir ein zwei Brötchen, bitte.",
+   "de": "Geben Sie mir zwei Brötchen, bitte.",
    "en": "Give me two bread rolls, please.",
    "tok": [
     "geben",
     "Sie",
     "mir",
-    "ein",
     "zwei",
     "Brötchen,",
     "bitte"
@@ -48246,23 +48567,6 @@
    ]
   },
   {
-   "de": "Mein Arm tut sehr weh.",
-   "en": "My arm hurts a lot.",
-   "tok": [
-    "mein",
-    "Arm",
-    "tut",
-    "sehr",
-    "weh"
-   ],
-   "end": ".",
-   "lvl": "A1",
-   "src": "app",
-   "tags": [
-    "hauptsatz"
-   ]
-  },
-  {
    "de": "Zum Glück hat mich meine Freundin abgeholt.",
    "en": "Luckily my friend picked me up.",
    "tok": [
@@ -48480,7 +48784,7 @@
    ]
   },
   {
-   "de": "Ab Mittag gibt es Wind aus Nord-West.",
+   "de": "Ab Mittag gibt es Wind aus Nordwest.",
    "en": "From midday there is wind from the north-west.",
    "tok": [
     "ab",
@@ -48489,7 +48793,7 @@
     "es",
     "Wind",
     "aus",
-    "Nord-West"
+    "Nordwest"
    ],
    "end": ".",
    "lvl": "A1",
@@ -48764,8 +49068,8 @@
    ]
   },
   {
-   "de": "Der Kurs beginnt im März beziehungsweise April.",
-   "en": "The course starts in March or April, respectively.",
+   "de": "Der Kurs beginnt im März beziehungsweise im April.",
+   "en": "The course starts in March, or rather in April.",
    "tok": [
     "der",
     "Kurs",
@@ -48773,6 +49077,7 @@
     "im",
     "März",
     "beziehungsweise",
+    "im",
     "April"
    ],
    "end": ".",
@@ -49105,7 +49410,7 @@
   },
   {
    "de": "Wir sind den ganzen Tag herumgelaufen.",
-   "en": "We walked around all day. Often as a prefix: herumlaufen, herumliegen.",
+   "en": "We walked around all day.",
    "tok": [
     "wir",
     "sind",
@@ -49123,7 +49428,7 @@
   },
   {
    "de": "Gewöhnlich stehe ich um sechs auf.",
-   "en": "I usually get up at six. Also 'normalerweise'.",
+   "en": "I usually get up at six.",
    "tok": [
     "Gewöhnlich",
     "stehe",
@@ -49141,7 +49446,7 @@
   },
   {
    "de": "Das würde ich niemals tun.",
-   "en": "I would never do that. Stronger than plain 'nie'.",
+   "en": "I would never do that.",
    "tok": [
     "das",
     "würde",
@@ -49158,7 +49463,7 @@
   },
   {
    "de": "Ich gehe öfters ins Kino.",
-   "en": "I go to the cinema quite often. Colloquial variant of 'öfter'.",
+   "en": "I go to the cinema quite often.",
    "tok": [
     "ich",
     "gehe",
@@ -49175,7 +49480,7 @@
   },
   {
    "de": "Erstens habe ich keine Zeit, zweitens kein Geld.",
-   "en": "Firstly I have no time, secondly no money. Series: erstens, zweitens, drittens.",
+   "en": "Firstly I have no time, secondly no money.",
    "tok": [
     "Erstens",
     "habe",
@@ -49213,7 +49518,7 @@
   },
   {
    "de": "Wir haben genügend Zeit.",
-   "en": "We have enough time. Interchangeable with 'genug'.",
+   "en": "We have enough time.",
    "tok": [
     "wir",
     "haben",
@@ -49229,7 +49534,7 @@
   },
   {
    "de": "Es gibt verschiedene Möglichkeiten.",
-   "en": "There are various options. Takes plural adjective endings.",
+   "en": "There are various options.",
    "tok": [
     "es",
     "gibt",
@@ -49245,7 +49550,7 @@
   },
   {
    "de": "Ich lerne jeden Tag Deutsch.",
-   "en": "Accusative without a preposition marks a stretch of time: jeden Tag, letzte Woche, nächstes Jahr.",
+   "en": "I study German every day.",
    "tok": [
     "ich",
     "lerne",
@@ -49262,7 +49567,7 @@
   },
   {
    "de": "Ich gehe zweimal pro Woche schwimmen.",
-   "en": "Number + -mal. Also 'dreimal in der Woche'.",
+   "en": "I go swimming twice a week.",
    "tok": [
     "ich",
     "gehe",
@@ -49280,7 +49585,7 @@
   },
   {
    "de": "Das Meiste habe ich schon erledigt.",
-   "en": "I've already done most of it. Also 'die meisten Leute'.",
+   "en": "I have already done most of it.",
    "tok": [
     "das",
     "Meiste",
@@ -49298,7 +49603,7 @@
   },
   {
    "de": "Er war der Einzige, der geholfen hat.",
-   "en": "He was the only one who helped. Adjectival noun: die Einzige, das Einzige.",
+   "en": "He was the only one who helped.",
    "tok": [
     "er",
     "war",
@@ -49401,6 +49706,23 @@
     "Konzert"
    ],
    "end": ".",
+   "lvl": "A1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Ich wünsche dir gute Besserung!",
+   "en": "I hope you get well soon!",
+   "tok": [
+    "ich",
+    "wünsche",
+    "dir",
+    "gute",
+    "Besserung"
+   ],
+   "end": "!",
    "lvl": "A1",
    "src": "app",
    "tags": [
@@ -49624,6 +49946,271 @@
    ]
   },
   {
+   "de": "Herzlichen Glückwunsch zum Geburtstag!",
+   "en": "Happy birthday!",
+   "tok": [
+    "Herzlichen",
+    "Glückwunsch",
+    "zum",
+    "Geburtstag"
+   ],
+   "end": "!",
+   "lvl": "A2",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Meiner Meinung nach ist das eine gute Idee.",
+   "en": "In my opinion that is a good idea.",
+   "tok": [
+    "meiner",
+    "Meinung",
+    "nach",
+    "ist",
+    "das",
+    "eine",
+    "gute",
+    "Idee"
+   ],
+   "end": ".",
+   "lvl": "B1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Ich schlage vor, dass wir uns am Freitag treffen.",
+   "en": "I suggest that we meet on Friday.",
+   "tok": [
+    "ich",
+    "schlage",
+    "vor,",
+    "dass",
+    "wir",
+    "uns",
+    "am",
+    "Freitag",
+    "treffen"
+   ],
+   "end": ".",
+   "lvl": "B1",
+   "src": "app",
+   "tags": [
+    "nebensatz"
+   ]
+  },
+  {
+   "de": "Das mache ich auf keinen Fall.",
+   "en": "I am definitely not doing that.",
+   "tok": [
+    "das",
+    "mache",
+    "ich",
+    "auf",
+    "keinen",
+    "Fall"
+   ],
+   "end": ".",
+   "lvl": "B1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Ich mag deutsche Städte, vor allem München.",
+   "en": "I like German cities, above all Munich.",
+   "tok": [
+    "ich",
+    "mag",
+    "deutsche",
+    "Städte,",
+    "vor",
+    "allem",
+    "München"
+   ],
+   "end": ".",
+   "lvl": "B1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Wir haben unter anderem über Politik gesprochen.",
+   "en": "Among other things, we talked about politics.",
+   "tok": [
+    "wir",
+    "haben",
+    "unter",
+    "anderem",
+    "über",
+    "Politik",
+    "gesprochen"
+   ],
+   "end": ".",
+   "lvl": "B1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "In der Regel arbeite ich bis 17 Uhr.",
+   "en": "As a rule I work until 5 p.m.",
+   "tok": [
+    "in",
+    "der",
+    "Regel",
+    "arbeite",
+    "ich",
+    "bis",
+    "17",
+    "Uhr"
+   ],
+   "end": ".",
+   "lvl": "B1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Im Vergleich zu Berlin ist München teuer.",
+   "en": "Compared to Berlin, Munich is expensive.",
+   "tok": [
+    "im",
+    "Vergleich",
+    "zu",
+    "Berlin",
+    "ist",
+    "München",
+    "teuer"
+   ],
+   "end": ".",
+   "lvl": "B1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Im Gegensatz zu mir mag er keinen Sport.",
+   "en": "Unlike me, he doesn't like sport.",
+   "tok": [
+    "im",
+    "Gegensatz",
+    "zu",
+    "mir",
+    "mag",
+    "er",
+    "keinen",
+    "Sport"
+   ],
+   "end": ".",
+   "lvl": "B1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Mach dir keine Gedanken!",
+   "en": "Don't worry!",
+   "tok": [
+    "mach",
+    "dir",
+    "keine",
+    "Gedanken"
+   ],
+   "end": "!",
+   "lvl": "B1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Ich mache mir Sorgen um meine Prüfung.",
+   "en": "I'm worried about my exam.",
+   "tok": [
+    "ich",
+    "mache",
+    "mir",
+    "Sorgen",
+    "um",
+    "meine",
+    "Prüfung"
+   ],
+   "end": ".",
+   "lvl": "B1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Wie wäre es mit einem Spaziergang?",
+   "en": "How about a walk?",
+   "tok": [
+    "wie",
+    "wäre",
+    "es",
+    "mit",
+    "einem",
+    "Spaziergang"
+   ],
+   "end": "?",
+   "lvl": "B1",
+   "src": "app",
+   "tags": [
+    "w-frage"
+   ]
+  },
+  {
+   "de": "Ich habe vor, im Sommer nach Italien zu fahren.",
+   "en": "I plan to go to Italy in the summer.",
+   "tok": [
+    "ich",
+    "habe",
+    "vor,",
+    "im",
+    "Sommer",
+    "nach",
+    "Italien",
+    "zu",
+    "fahren"
+   ],
+   "end": ".",
+   "lvl": "B1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Im Großen und Ganzen bin ich zufrieden.",
+   "en": "On the whole I'm satisfied.",
+   "tok": [
+    "im",
+    "Großen",
+    "und",
+    "Ganzen",
+    "bin",
+    "ich",
+    "zufrieden"
+   ],
+   "end": ".",
+   "lvl": "B1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
    "de": "Tut mir leid, ich muss gehen.",
    "en": "Sorry, I have to go.",
    "tok": [
@@ -49643,7 +50230,7 @@
   },
   {
    "de": "Wollen wir einen Kaffee trinken?",
-   "en": "Shall we get a coffee? The standard way to suggest something.",
+   "en": "Shall we get a coffee?",
    "tok": [
     "wollen",
     "wir",
@@ -49660,7 +50247,7 @@
   },
   {
    "de": "Die Hose passt mir nicht.",
-   "en": "The trousers don't fit me. 'passen' takes the dative.",
+   "en": "The trousers don't fit me.",
    "tok": [
     "die",
     "Hose",
@@ -49696,7 +50283,7 @@
   },
   {
    "de": "Ich gebe zu viel Geld für Bücher aus.",
-   "en": "I spend too much money on books. Separable: ausgeben.",
+   "en": "I spend too much money on books.",
    "tok": [
     "ich",
     "gebe",
@@ -49841,7 +50428,7 @@
   },
   {
    "de": "Ich habe eine Allergie gegen Nüsse.",
-   "en": "I'm allergic to nuts. Also 'allergisch gegen + Akk sein'.",
+   "en": "I'm allergic to nuts.",
    "tok": [
     "ich",
     "habe",
@@ -49859,7 +50446,7 @@
   },
   {
    "de": "Er hat sich das Bein gebrochen.",
-   "en": "He broke his leg. German uses sich + dative, not a possessive.",
+   "en": "He broke his leg.",
    "tok": [
     "er",
     "hat",
@@ -49952,7 +50539,7 @@
   },
   {
    "de": "Ich fahre jeden Tag mit dem Bus.",
-   "en": "I go by bus every day. 'mit' + Dativ for all means of transport.",
+   "en": "I go by bus every day.",
    "tok": [
     "ich",
     "fahre",
@@ -50079,7 +50666,7 @@
   },
   {
    "de": "Ich putze mir zweimal am Tag die Zähne.",
-   "en": "I brush my teeth twice a day. Dative reflexive: mir.",
+   "en": "I brush my teeth twice a day.",
    "tok": [
     "ich",
     "putze",
@@ -50133,7 +50720,7 @@
   },
   {
    "de": "Ich spiele seit zehn Jahren Klavier.",
-   "en": "Instruments take no article after spielen: Gitarre, Geige, Schlagzeug, Flöte, Trompete spielen.",
+   "en": "I have played the piano for ten years.",
    "tok": [
     "ich",
     "spiele",
@@ -50151,7 +50738,7 @@
   },
   {
    "de": "Im Winter laufen wir Schlittschuh.",
-   "en": "Like Ski fahren and Rad fahren: two words, no article.",
+   "en": "In winter we go ice skating.",
    "tok": [
     "im",
     "Winter",
@@ -50168,7 +50755,7 @@
   },
   {
    "de": "Sie ist letztes Jahr befördert worden.",
-   "en": "She was promoted last year. Passive perfect: worden, not geworden.",
+   "en": "She was promoted last year.",
    "tok": [
     "Sie",
     "ist",
@@ -50176,6 +50763,22 @@
     "Jahr",
     "befördert",
     "worden"
+   ],
+   "end": ".",
+   "lvl": "B1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Viele Kollegen wurden entlassen.",
+   "en": "Many colleagues were let go.",
+   "tok": [
+    "viele",
+    "Kollegen",
+    "wurden",
+    "entlassen"
    ],
    "end": ".",
    "lvl": "B1",
@@ -50223,7 +50826,7 @@
   },
   {
    "de": "Bitte stellen Sie Fragen, wenn etwas unklar ist.",
-   "en": "'eine Frage stellen', never 'fragen machen'.",
+   "en": "Please ask questions if anything is unclear.",
    "tok": [
     "bitte",
     "stellen",
@@ -50243,7 +50846,7 @@
   },
   {
    "de": "Ich interessiere mich für Musik, besonders für Rockmusik.",
-   "en": "Always 'für + Akkusativ'.",
+   "en": "I'm interested in music, especially rock music.",
    "tok": [
     "ich",
     "interessiere",
@@ -50263,7 +50866,7 @@
   },
   {
    "de": "Ich träume davon, am Meer zu leben.",
-   "en": "I dream of living by the sea. The da-word announces the zu-clause.",
+   "en": "I dream of living by the sea.",
    "tok": [
     "ich",
     "träume",
@@ -50282,7 +50885,7 @@
   },
   {
    "de": "Ich bevorzuge Komödien, weil sie mich zum Lachen bringen.",
-   "en": "Remember: weil sends the verb to the end.",
+   "en": "I prefer comedies because they make me laugh.",
    "tok": [
     "ich",
     "bevorzuge",
@@ -50303,7 +50906,7 @@
   },
   {
    "de": "In Deutschland muss man den Müll trennen.",
-   "en": "Papier, Bio, Restmüll and the Gelber Sack.",
+   "en": "In Germany you have to separate your rubbish.",
    "tok": [
     "in",
     "Deutschland",
@@ -50322,7 +50925,7 @@
   },
   {
    "de": "Man soll sparsam mit Wasser und Strom umgehen.",
-   "en": "'umgehen mit + Dativ', separable.",
+   "en": "You should use water and electricity sparingly.",
    "tok": [
     "man",
     "soll",
@@ -50342,7 +50945,7 @@
   },
   {
    "de": "Es ist notwendig, einen Regenschirm mitzunehmen.",
-   "en": "Note the zu inside the separable verb.",
+   "en": "It is necessary to take an umbrella.",
    "tok": [
     "es",
     "ist",
@@ -50381,7 +50984,7 @@
   },
   {
    "de": "In der Zwischenzeit kannst du schon anfangen.",
-   "en": "Also: mittlerweile, inzwischen.",
+   "en": "In the meantime you can already start.",
    "tok": [
     "in",
     "der",
@@ -50400,7 +51003,7 @@
   },
   {
    "de": "Ab und zu gehe ich ins Kino.",
-   "en": "Now and then I go to the cinema. Counts as position 1.",
+   "en": "Now and then I go to the cinema.",
    "tok": [
     "ab",
     "und",
@@ -51702,7 +52305,7 @@
    "de": "Lass mich bitte kurz ausreden.",
    "en": "Please let me just finish speaking.",
    "tok": [
-    "lass",
+    "Lass",
     "mich",
     "bitte",
     "kurz",
@@ -52147,7 +52750,7 @@
    "de": "Lass bald wieder von dir hören, ja?",
    "en": "Stay in touch, okay?",
    "tok": [
-    "lass",
+    "Lass",
     "bald",
     "wieder",
     "von",
@@ -52206,7 +52809,7 @@
    "de": "Lass uns nachher etwas trinken gehen!",
    "en": "Let's go for a drink later!",
    "tok": [
-    "lass",
+    "Lass",
     "uns",
     "nachher",
     "etwas",
@@ -52406,11 +53009,11 @@
    ]
   },
   {
-   "de": "Ich lass mal eine Nacht darüber schlafen.",
+   "de": "Lass mich mal eine Nacht darüber schlafen.",
    "en": "Let me sleep on it.",
    "tok": [
-    "ich",
-    "lass",
+    "Lass",
+    "mich",
     "mal",
     "eine",
     "Nacht",
@@ -52802,25 +53405,6 @@
    ],
    "end": ".",
    "lvl": "A2",
-   "src": "app",
-   "tags": [
-    "hauptsatz"
-   ]
-  },
-  {
-   "de": "Im Großen und Ganzen bin ich zufrieden.",
-   "en": "By and large I'm satisfied.",
-   "tok": [
-    "im",
-    "Großen",
-    "und",
-    "Ganzen",
-    "bin",
-    "ich",
-    "zufrieden"
-   ],
-   "end": ".",
-   "lvl": "B2",
    "src": "app",
    "tags": [
     "hauptsatz"
@@ -53478,7 +54062,7 @@
    "de": "Lass mich bitte kurz in Ruhe.",
    "en": "Please leave me alone for a moment.",
    "tok": [
-    "lass",
+    "Lass",
     "mich",
     "bitte",
     "kurz",
@@ -53708,7 +54292,7 @@
    "de": "Lass uns kurz eine Pause machen.",
    "en": "Let's take a short break.",
    "tok": [
-    "lass",
+    "Lass",
     "uns",
     "kurz",
     "eine",
@@ -53838,6 +54422,24 @@
     "um",
     "die",
     "Anmeldung"
+   ],
+   "end": ".",
+   "lvl": "B1",
+   "src": "app",
+   "tags": [
+    "hauptsatz"
+   ]
+  },
+  {
+   "de": "Ich bewerbe mich um die Stelle.",
+   "en": "I'm applying for the position.",
+   "tok": [
+    "ich",
+    "bewerbe",
+    "mich",
+    "um",
+    "die",
+    "Stelle"
    ],
    "end": ".",
    "lvl": "B1",

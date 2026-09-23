@@ -691,7 +691,7 @@
   "e": "to do",
   "ex": [
    "Was kann ich für dich tun? — What can I do for you?",
-   "Das hat weh getan. — That hurt."
+   "Das hat wehgetan. — That hurt."
   ],
   "t": "irr",
   "p2": "getan",
@@ -2776,7 +2776,7 @@
   "n": "'handeln' = to act; 'handeln von' = to be about; 'es handelt sich um + Akk' = it's a matter of. 'handeln mit' = to trade in.",
   "lvl": "B1",
   "imp": {
-   "du": "Handl!",
+   "du": "Handle!",
    "ihr": "Handelt!",
    "sie": "Handeln Sie!"
   }
@@ -3677,7 +3677,7 @@
   "n": "Uses 'sein' in the Perfekt (movement). 'reisen nach' (a country/city).",
   "lvl": "A1",
   "imp": {
-   "du": "Reis!",
+   "du": "Reise!",
    "ihr": "Reist!",
    "sie": "Reisen Sie!"
   }
@@ -3921,7 +3921,7 @@
   "n": "Verbs in -eln drop the e: ich lächle, du lächelst. 'lächeln' = to smile; 'lachen' = to laugh.",
   "lvl": "A2",
   "imp": {
-   "du": "Lächl!",
+   "du": "Lächle!",
    "ihr": "Lächelt!",
    "sie": "Lächeln Sie!"
   }
@@ -4622,47 +4622,6 @@
   }
  },
  {
-  "w": "bewerben (sich)",
-  "e": "to apply (for a job)",
-  "ex": [
-   "Ich bewerbe mich um die Stelle. — I'm applying for the job.",
-   "Sie hat sich bei der Firma beworben. — She applied to the company."
-  ],
-  "t": "irr",
-  "p2": "beworben",
-  "hs": "haben",
-  "pr": {
-   "ich": "bewerbe",
-   "du": "bewirbst",
-   "er": "bewirbt",
-   "wir": "bewerben",
-   "ihr": "bewerbt",
-   "sie": "bewerben"
-  },
-  "pt": {
-   "ich": "bewarb",
-   "du": "bewarbst",
-   "er": "bewarb",
-   "wir": "bewarben",
-   "ihr": "bewarbt"
-  },
-  "pk": {
-   "ich": "habe beworben",
-   "du": "hast beworben",
-   "er": "hat beworben",
-   "wir": "haben beworben",
-   "ihr": "habt beworben",
-   "sie": "haben beworben"
-  },
-  "n": "Irregular and reflexive: e→i (du bewirbst dich). 'sich bewerben um/für + Akk' or 'bei + Dativ'.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Bewirb!",
-   "ihr": "Bewerbt!",
-   "sie": "Bewerben Sie!"
-  }
- },
- {
   "w": "bitten",
   "e": "to ask / request",
   "ex": [
@@ -5095,7 +5054,7 @@
    "du": "verglichst",
    "er": "verglich",
    "wir": "verglichen",
-   "ihr": "verglichet"
+   "ihr": "verglicht"
   },
   "pk": {
    "ich": "habe verglichen",
@@ -5280,7 +5239,7 @@
  },
  {
   "w": "lauten",
-  "e": "here: to be",
+  "e": "to read / go (of wording)",
   "ex": [
    "Die Antwort lautet: nein. — The answer is: no.",
    "Wie lautet die Frage? — What is the question (exactly)?"
@@ -5369,7 +5328,7 @@
    "Ich entschuldige mich für die Verspätung. — I apologise for the delay."
   ],
   "t": "reg",
-  "p2": "geentschuldigt",
+  "p2": "entschuldigt",
   "hs": "haben",
   "pr": {
    "ich": "entschuldige",
@@ -5387,12 +5346,12 @@
    "ihr": "entschuldigtet"
   },
   "pk": {
-   "ich": "habe geentschuldigt",
-   "du": "hast geentschuldigt",
-   "er": "hat geentschuldigt",
-   "wir": "haben geentschuldigt",
-   "ihr": "habt geentschuldigt",
-   "sie": "haben geentschuldigt"
+   "ich": "habe entschuldigt",
+   "du": "hast entschuldigt",
+   "er": "hat entschuldigt",
+   "wir": "haben entschuldigt",
+   "ihr": "habt entschuldigt",
+   "sie": "haben entschuldigt"
   },
   "n": "'sich entschuldigen für + Akk' = to apologise for; 'sich bei jemandem entschuldigen' = to apologise to someone. 'ent-' inseparable.",
   "lvl": "A1",
@@ -5452,7 +5411,7 @@
   ],
   "t": "reg",
   "p2": "gewandert",
-  "hs": "haben",
+  "hs": "sein",
   "pr": {
    "ich": "wandere",
    "du": "wanderst",
@@ -5469,12 +5428,12 @@
    "ihr": "wandertet"
   },
   "pk": {
-   "ich": "habe gewandert",
-   "du": "hast gewandert",
-   "er": "hat gewandert",
-   "wir": "haben gewandert",
-   "ihr": "habt gewandert",
-   "sie": "haben gewandert"
+   "ich": "bin gewandert",
+   "du": "bist gewandert",
+   "er": "ist gewandert",
+   "wir": "sind gewandert",
+   "ihr": "seid gewandert",
+   "sie": "sind gewandert"
   },
   "n": "Verbs in -ern: ich wandere, du wanderst. Uses 'sein' in the Perfekt (movement).",
   "lvl": "A1",
@@ -5486,7 +5445,7 @@
  },
  {
   "w": "fotografieren",
-  "e": "to photograph,",
+  "e": "to photograph",
   "ex": [
    "Ich fotografiere gern. — I like taking photos.",
    "Er hat die Landschaft fotografiert. — He photographed the landscape."
@@ -5940,7 +5899,7 @@
   ],
   "t": "reg",
   "p2": "geklettert",
-  "hs": "haben",
+  "hs": "sein",
   "pr": {
    "ich": "klettere",
    "du": "kletterst",
@@ -5957,12 +5916,12 @@
    "ihr": "klettertet"
   },
   "pk": {
-   "ich": "habe geklettert",
-   "du": "hast geklettert",
-   "er": "hat geklettert",
-   "wir": "haben geklettert",
-   "ihr": "habt geklettert",
-   "sie": "haben geklettert"
+   "ich": "bin geklettert",
+   "du": "bist geklettert",
+   "er": "ist geklettert",
+   "wir": "sind geklettert",
+   "ihr": "seid geklettert",
+   "sie": "sind geklettert"
   },
   "n": "Verbs in -ern: ich klettere. Uses 'sein' in the Perfekt (movement).",
   "lvl": "A1",
@@ -6037,7 +5996,7 @@
    "du": "schnittst",
    "er": "schnitt",
    "wir": "schnitten",
-   "ihr": "schnittt"
+   "ihr": "schnittet"
   },
   "pk": {
    "ich": "habe geschnitten",
@@ -6133,7 +6092,7 @@
   "sep": true,
   "lvl": "A1",
   "imp": {
-   "du": "Nehm mit!",
+   "du": "Nimm mit!",
    "ihr": "Nehmt mit!",
    "sie": "Nehmen Sie mit!"
   }
@@ -6269,7 +6228,7 @@
    "Er hat zehn Jahre unterrichtet. — He taught for ten years."
   ],
   "t": "reg",
-  "p2": "geunterrichtet",
+  "p2": "unterrichtet",
   "hs": "haben",
   "pr": {
    "ich": "unterrichte",
@@ -6287,12 +6246,12 @@
    "ihr": "unterrichtetet"
   },
   "pk": {
-   "ich": "habe geunterrichtet",
-   "du": "hast geunterrichtet",
-   "er": "hat geunterrichtet",
-   "wir": "haben geunterrichtet",
-   "ihr": "habt geunterrichtet",
-   "sie": "haben geunterrichtet"
+   "ich": "habe unterrichtet",
+   "du": "hast unterrichtet",
+   "er": "hat unterrichtet",
+   "wir": "haben unterrichtet",
+   "ihr": "habt unterrichtet",
+   "sie": "haben unterrichtet"
   },
   "n": "Here 'unter-' is INSEPARABLE (to teach): unterrichtet, no ge-, no split.",
   "lvl": "A1",
@@ -6391,36 +6350,36 @@
    "Wir besprechen das Problem. — We're discussing the problem.",
    "Das haben wir schon besprochen. — We've already discussed that."
   ],
-  "t": "reg",
-  "p2": "besprecht",
+  "t": "irr",
+  "p2": "besprochen",
   "hs": "haben",
   "pr": {
    "ich": "bespreche",
-   "du": "besprechst",
-   "er": "besprecht",
+   "du": "besprichst",
+   "er": "bespricht",
    "wir": "besprechen",
    "ihr": "besprecht",
    "sie": "besprechen"
   },
   "pt": {
-   "ich": "besprechte",
-   "du": "besprechtest",
-   "er": "besprechte",
-   "wir": "besprechten",
-   "ihr": "besprechtet"
+   "ich": "besprach",
+   "du": "besprachst",
+   "er": "besprach",
+   "wir": "besprachen",
+   "ihr": "bespracht"
   },
   "pk": {
-   "ich": "habe besprecht",
-   "du": "hast besprecht",
-   "er": "hat besprecht",
-   "wir": "haben besprecht",
-   "ihr": "habt besprecht",
-   "sie": "haben besprecht"
+   "ich": "habe besprochen",
+   "du": "hast besprochen",
+   "er": "hat besprochen",
+   "wir": "haben besprochen",
+   "ihr": "habt besprochen",
+   "sie": "haben besprochen"
   },
   "n": "Irregular stem from 'sprechen' but inseparable here (be-): bespricht, besprach, besprochen. Means 'to discuss'.",
   "lvl": "A1",
   "imp": {
-   "du": "Besprech!",
+   "du": "Besprich!",
    "ihr": "Besprecht!",
    "sie": "Besprechen Sie!"
   }
@@ -6613,7 +6572,7 @@
    "du": "ludst ein",
    "er": "lud ein",
    "wir": "luden ein",
-   "ihr": "ludt ein"
+   "ihr": "ludet ein"
   },
   "pk": {
    "ich": "habe eingeladen",
@@ -7164,7 +7123,7 @@
   "sep": true,
   "lvl": "A1",
   "imp": {
-   "du": "Nehm an!",
+   "du": "Nimm an!",
    "ihr": "Nehmt an!",
    "sie": "Nehmen Sie an!"
   }
@@ -7911,7 +7870,7 @@
    "Sie hat das Paket verschickt. — She sent off the parcel."
   ],
   "t": "reg",
-  "p2": "geverschickt",
+  "p2": "verschickt",
   "hs": "haben",
   "pr": {
    "ich": "verschicke",
@@ -7929,12 +7888,12 @@
    "ihr": "verschicktet"
   },
   "pk": {
-   "ich": "habe geverschickt",
-   "du": "hast geverschickt",
-   "er": "hat geverschickt",
-   "wir": "haben geverschickt",
-   "ihr": "habt geverschickt",
-   "sie": "haben geverschickt"
+   "ich": "habe verschickt",
+   "du": "hast verschickt",
+   "er": "hat verschickt",
+   "wir": "haben verschickt",
+   "ihr": "habt verschickt",
+   "sie": "haben verschickt"
   },
   "n": "Means 'to send off / dispatch' (often several things). 'ver-' inseparable: verschickt.",
   "lvl": "A1",
@@ -8603,7 +8562,7 @@
  },
  {
   "w": "hochladen",
-  "e": "upload",
+  "e": "to upload",
   "ex": [
    "Ich lade die Fotos hoch. — I'm uploading the photos.",
    "Sie hat das Video hochgeladen. — She uploaded the video."
@@ -9266,7 +9225,7 @@
  },
  {
   "w": "einräumen",
-  "e": "to fill",
+  "e": "to put away (dishes, shopping)",
   "ex": [
    "Räum bitte die Teller ein. — Please put the plates away.",
    "Ich habe den Schrank eingeräumt. — I stocked the cupboard."
@@ -9308,7 +9267,7 @@
  },
  {
   "w": "einschalten",
-  "e": "turn on, switch on",
+  "e": "to turn on, to switch on",
   "ex": [
    "Schalt das Licht ein! — Switch on the light!",
    "Ich habe den Fernseher eingeschaltet. — I switched on the TV."
@@ -9516,7 +9475,7 @@
  },
  {
   "w": "decken",
-  "e": "to lay",
+  "e": "to cover; to set (the table)",
   "ex": [
    "Ich decke den Tisch. — I'm setting the table.",
    "Hast du schon den Tisch gedeckt? — Have you set the table yet?"
@@ -9686,8 +9645,8 @@
    "Ich sitze am Fenster. — I'm sitting by the window.",
    "Wir haben lange im Café gesessen. — We sat in the café for a long time."
   ],
-  "t": "reg",
-  "p2": "gesitzt",
+  "t": "irr",
+  "p2": "gesessen",
   "hs": "haben",
   "pr": {
    "ich": "sitze",
@@ -9698,19 +9657,19 @@
    "sie": "sitzen"
   },
   "pt": {
-   "ich": "sitzte",
-   "du": "sitztest",
-   "er": "sitzte",
-   "wir": "sitzten",
-   "ihr": "sitztet"
+   "ich": "saß",
+   "du": "saßest",
+   "er": "saß",
+   "wir": "saßen",
+   "ihr": "saßt"
   },
   "pk": {
-   "ich": "habe gesitzt",
-   "du": "hast gesitzt",
-   "er": "hat gesitzt",
-   "wir": "haben gesitzt",
-   "ihr": "habt gesitzt",
-   "sie": "haben gesitzt"
+   "ich": "habe gesessen",
+   "du": "hast gesessen",
+   "er": "hat gesessen",
+   "wir": "haben gesessen",
+   "ihr": "habt gesessen",
+   "sie": "haben gesessen"
   },
   "n": "Irregular position verb (saß, gesessen). 'sitzen' = to be sitting (state); 'sich setzen' = to sit down (action). In the south the Perfekt can take 'sein'.",
   "lvl": "A1",
@@ -9769,7 +9728,7 @@
    "Sie hat das Lob verdient. — She deserved the praise."
   ],
   "t": "reg",
-  "p2": "geverdient",
+  "p2": "verdient",
   "hs": "haben",
   "pr": {
    "ich": "verdiene",
@@ -9787,12 +9746,12 @@
    "ihr": "verdientet"
   },
   "pk": {
-   "ich": "habe geverdient",
-   "du": "hast geverdient",
-   "er": "hat geverdient",
-   "wir": "haben geverdient",
-   "ihr": "habt geverdient",
-   "sie": "haben geverdient"
+   "ich": "habe verdient",
+   "du": "hast verdient",
+   "er": "hat verdient",
+   "wir": "haben verdient",
+   "ihr": "habt verdient",
+   "sie": "haben verdient"
   },
   "n": "Means 'to earn (money)' and 'to deserve'. 'ver-' inseparable: verdient.",
   "lvl": "A1",
@@ -9963,7 +9922,7 @@
   "sep": true,
   "lvl": "A1",
   "imp": {
-   "du": "Nehm teil!",
+   "du": "Nimm teil!",
    "ihr": "Nehmt teil!",
    "sie": "Nehmen Sie teil!"
   }
@@ -10220,7 +10179,7 @@
   ],
   "t": "reg",
   "p2": "gestürzt",
-  "hs": "haben",
+  "hs": "sein",
   "pr": {
    "ich": "stürze",
    "du": "stürzt",
@@ -10237,12 +10196,12 @@
    "ihr": "stürztet"
   },
   "pk": {
-   "ich": "habe gestürzt",
-   "du": "hast gestürzt",
-   "er": "hat gestürzt",
-   "wir": "haben gestürzt",
-   "ihr": "habt gestürzt",
-   "sie": "haben gestürzt"
+   "ich": "bin gestürzt",
+   "du": "bist gestürzt",
+   "er": "ist gestürzt",
+   "wir": "sind gestürzt",
+   "ihr": "seid gestürzt",
+   "sie": "sind gestürzt"
   },
   "n": "Means 'to fall / crash' (harder than 'fallen'); takes 'sein' when falling. 'sich stürzen auf' = to pounce on.",
   "lvl": "A1",
@@ -10548,8 +10507,8 @@
    "Der Arzt verschreibt mir ein Medikament. — The doctor prescribes me a medicine.",
    "Sie hat mir Tabletten verschrieben. — She prescribed me tablets."
   ],
-  "t": "reg",
-  "p2": "geverschreibt",
+  "t": "irr",
+  "p2": "verschrieben",
   "hs": "haben",
   "pr": {
    "ich": "verschreibe",
@@ -10560,19 +10519,19 @@
    "sie": "verschreiben"
   },
   "pt": {
-   "ich": "verschreibte",
-   "du": "verschreibtest",
-   "er": "verschreibte",
-   "wir": "verschreibten",
-   "ihr": "verschreibtet"
+   "ich": "verschrieb",
+   "du": "verschriebst",
+   "er": "verschrieb",
+   "wir": "verschrieben",
+   "ihr": "verschriebt"
   },
   "pk": {
-   "ich": "habe geverschreibt",
-   "du": "hast geverschreibt",
-   "er": "hat geverschreibt",
-   "wir": "haben geverschreibt",
-   "ihr": "habt geverschreibt",
-   "sie": "haben geverschreibt"
+   "ich": "habe verschrieben",
+   "du": "hast verschrieben",
+   "er": "hat verschrieben",
+   "wir": "haben verschrieben",
+   "ihr": "habt verschrieben",
+   "sie": "haben verschrieben"
   },
   "n": "Irregular stem from 'schreiben' but inseparable (ver-): verschrieb, verschrieben. 'jemandem etwas verschreiben' = to prescribe.",
   "lvl": "A1",
@@ -10702,14 +10661,14 @@
   "sep": true,
   "lvl": "A1",
   "imp": {
-   "du": "Nehm ab!",
+   "du": "Nimm ab!",
    "ihr": "Nehmt ab!",
    "sie": "Nehmen Sie ab!"
   }
  },
  {
   "w": "achten",
-  "e": "to take care of",
+  "e": "to pay attention (auf + Akk); to respect",
   "ex": [
    "Achte auf den Verkehr. — Watch out for the traffic.",
    "Ich habe nicht darauf geachtet. — I didn't pay attention to it."
@@ -10756,7 +10715,7 @@
    "Er hat sich nach vorne gebeugt. — He bent forward."
   ],
   "t": "reg",
-  "p2": "beugt",
+  "p2": "gebeugt",
   "hs": "haben",
   "pr": {
    "ich": "beuge",
@@ -10774,12 +10733,12 @@
    "ihr": "beugtet"
   },
   "pk": {
-   "ich": "habe beugt",
-   "du": "hast beugt",
-   "er": "hat beugt",
-   "wir": "haben beugt",
-   "ihr": "habt beugt",
-   "sie": "haben beugt"
+   "ich": "habe gebeugt",
+   "du": "hast gebeugt",
+   "er": "hat gebeugt",
+   "wir": "haben gebeugt",
+   "ihr": "habt gebeugt",
+   "sie": "haben gebeugt"
   },
   "n": "Means 'to bend'; 'sich beugen' = to bend over/down. Regular.",
   "lvl": "A1",
@@ -10880,7 +10839,7 @@
    "Wir haben uns im Urlaub entspannt. — We relaxed on holiday."
   ],
   "t": "reg",
-  "p2": "geentspannt",
+  "p2": "entspannt",
   "hs": "haben",
   "pr": {
    "ich": "entspanne",
@@ -10898,12 +10857,12 @@
    "ihr": "entspanntet"
   },
   "pk": {
-   "ich": "habe geentspannt",
-   "du": "hast geentspannt",
-   "er": "hat geentspannt",
-   "wir": "haben geentspannt",
-   "ihr": "habt geentspannt",
-   "sie": "haben geentspannt"
+   "ich": "habe entspannt",
+   "du": "hast entspannt",
+   "er": "hat entspannt",
+   "wir": "haben entspannt",
+   "ihr": "habt entspannt",
+   "sie": "haben entspannt"
   },
   "n": "'sich entspannen' = to relax. 'ent-' inseparable: entspannt.",
   "lvl": "A1",
@@ -11647,7 +11606,7 @@
    "Ich habe den Text ins Deutsche übersetzt. — I translated the text into German."
   ],
   "t": "reg",
-  "p2": "geübersetzt",
+  "p2": "übersetzt",
   "hs": "haben",
   "pr": {
    "ich": "übersetze",
@@ -11665,12 +11624,12 @@
    "ihr": "übersetztet"
   },
   "pk": {
-   "ich": "habe geübersetzt",
-   "du": "hast geübersetzt",
-   "er": "hat geübersetzt",
-   "wir": "haben geübersetzt",
-   "ihr": "habt geübersetzt",
-   "sie": "haben geübersetzt"
+   "ich": "habe übersetzt",
+   "du": "hast übersetzt",
+   "er": "hat übersetzt",
+   "wir": "haben übersetzt",
+   "ihr": "habt übersetzt",
+   "sie": "haben übersetzt"
   },
   "n": "Meaning 'to translate', 'über-' is INSEPARABLE: übersetzt (no ge-, no split). A separable 'übersetzen' (to ferry across) exists but is rare.",
   "lvl": "A1",
@@ -11770,7 +11729,7 @@
    "Hast du deinen Schlüssel vermisst? — Did you miss / notice the absence of your key?"
   ],
   "t": "reg",
-  "p2": "gevermisst",
+  "p2": "vermisst",
   "hs": "haben",
   "pr": {
    "ich": "vermisse",
@@ -11788,12 +11747,12 @@
    "ihr": "vermisstet"
   },
   "pk": {
-   "ich": "habe gevermisst",
-   "du": "hast gevermisst",
-   "er": "hat gevermisst",
-   "wir": "haben gevermisst",
-   "ihr": "habt gevermisst",
-   "sie": "haben gevermisst"
+   "ich": "habe vermisst",
+   "du": "hast vermisst",
+   "er": "hat vermisst",
+   "wir": "haben vermisst",
+   "ihr": "habt vermisst",
+   "sie": "haben vermisst"
   },
   "n": "'vermissen' = to miss someone/something that's absent (Akk). For missing a bus/train use 'verpassen'. 'ver-' inseparable.",
   "lvl": "A1",
@@ -11907,7 +11866,7 @@
   },
   "pt": {
    "ich": "schloss ab",
-   "du": "schlossst ab",
+   "du": "schlossest ab",
    "er": "schloss ab",
    "wir": "schlossen ab",
    "ihr": "schlosst ab"
@@ -12611,7 +12570,7 @@
   "hs": "haben",
   "pr": {
    "ich": "berate",
-   "du": "beräst",
+   "du": "berätst",
    "er": "berät",
    "wir": "beraten",
    "ihr": "beratet",
@@ -12622,7 +12581,7 @@
    "du": "berietst",
    "er": "beriet",
    "wir": "berieten",
-   "ihr": "beriett"
+   "ihr": "berietet"
   },
   "pk": {
    "ich": "habe beraten",
@@ -12635,7 +12594,7 @@
   "n": "Irregular: a→ä (du berätst). 'be-' inseparable. 'jemanden beraten' = to advise someone.",
   "lvl": "A2",
   "imp": {
-   "du": "Berat!",
+   "du": "Berate!",
    "ihr": "Beratet!",
    "sie": "Beraten Sie!"
   }
@@ -12911,7 +12870,7 @@
    "du": "brietst",
    "er": "briet",
    "wir": "brieten",
-   "ihr": "briett"
+   "ihr": "brietet"
   },
   "pk": {
    "ich": "habe gebraten",
@@ -12924,7 +12883,7 @@
   "n": "Irregular: a→ä (du brätst). Means 'to fry / roast'.",
   "lvl": "A2",
   "imp": {
-   "du": "Brat!",
+   "du": "Brate!",
    "ihr": "Bratet!",
    "sie": "Braten Sie!"
   }
@@ -13226,7 +13185,7 @@
   "w": "erreichen",
   "e": "to reach",
   "ex": [
-   "Ich erreiche dich unter dieser Nummer. — You can reach me on this number.",
+   "Du erreichst mich unter dieser Nummer. — You can reach me on this number.",
    "Wir haben den Gipfel erreicht. — We reached the summit."
   ],
   "t": "reg",
@@ -13682,7 +13641,7 @@
   "e": "to paint",
   "ex": [
    "Das Kind malt ein Bild. — The child is painting a picture.",
-   "Sie hat die Wand weiß gemalt. — She painted the wall white."
+   "Sie hat ein Bild für ihre Oma gemalt. — She painted a picture for her grandma."
   ],
   "t": "reg",
   "p2": "gemalt",
@@ -13823,7 +13782,7 @@
    "du": "rietst",
    "er": "riet",
    "wir": "rieten",
-   "ihr": "riett"
+   "ihr": "rietet"
   },
   "pk": {
    "ich": "habe geraten",
@@ -13836,7 +13795,7 @@
   "n": "Irregular: a→ä (du rätst). Means 'to guess' or 'to advise' ('jemandem raten' + Dativ).",
   "lvl": "A2",
   "imp": {
-   "du": "Rat!",
+   "du": "Rate!",
    "ihr": "Ratet!",
    "sie": "Raten Sie!"
   }
@@ -13853,18 +13812,18 @@
   "hs": "haben",
   "pr": {
    "ich": "rechne",
-   "du": "rechnst",
+   "du": "rechnest",
    "er": "rechnet",
    "wir": "rechnen",
-   "ihr": "rechnt",
+   "ihr": "rechnet",
    "sie": "rechnen"
   },
   "pt": {
-   "ich": "rechnte",
-   "du": "rechntest",
-   "er": "rechnte",
-   "wir": "rechnten",
-   "ihr": "rechntet"
+   "ich": "rechnete",
+   "du": "rechnetest",
+   "er": "rechnete",
+   "wir": "rechneten",
+   "ihr": "rechnetet"
   },
   "pk": {
    "ich": "habe gerechnet",
@@ -13877,8 +13836,8 @@
   "n": "Means 'to calculate / do maths'; 'rechnen mit + Dativ' = to count on / reckon with. Stem in -n: du rechnest.",
   "lvl": "A2",
   "imp": {
-   "du": "Rechn!",
-   "ihr": "Rechnt!",
+   "du": "Rechne!",
+   "ihr": "Rechnet!",
    "sie": "Rechnen Sie!"
   }
  },
@@ -13905,7 +13864,7 @@
    "du": "rittst",
    "er": "ritt",
    "wir": "ritten",
-   "ihr": "rittt"
+   "ihr": "rittet"
   },
   "pk": {
    "ich": "bin geritten",
@@ -14189,7 +14148,7 @@
   },
   "pt": {
    "ich": "überwies",
-   "du": "überwiesst",
+   "du": "überwiesest",
    "er": "überwies",
    "wir": "überwiesen",
    "ihr": "überwiest"
@@ -14205,7 +14164,7 @@
   "n": "Irregular (überwies, überwiesen). Here 'über-' is inseparable (no -ge-). Means 'to transfer (money)' or 'to refer (a patient)'.",
   "lvl": "A2",
   "imp": {
-   "du": "Überweis!",
+   "du": "Überweise!",
    "ihr": "Überweist!",
    "sie": "Überweisen Sie!"
   }
@@ -14233,7 +14192,7 @@
    "du": "unterhieltst dich",
    "er": "unterhielt sich",
    "wir": "unterhielten uns",
-   "ihr": "unterhieltt euch"
+   "ihr": "unterhieltet euch"
   },
   "pk": {
    "ich": "habe mich unterhalten",
@@ -14247,7 +14206,7 @@
   "lvl": "A2",
   "refl": true,
   "imp": {
-   "du": "Unterhalt dich!",
+   "du": "Unterhalte dich!",
    "ihr": "Unterhaltet euch!",
    "sie": "Unterhalten Sie sich!"
   }
@@ -14288,7 +14247,7 @@
   "n": "Irregular: e→i (du unternimmst). 'unter-' inseparable here. 'etwas unternehmen' = to do / undertake something.",
   "lvl": "A2",
   "imp": {
-   "du": "Unternehm!",
+   "du": "Unternimm!",
    "ihr": "Unternehmt!",
    "sie": "Unternehmen Sie!"
   }
@@ -14840,18 +14799,18 @@
   "hs": "haben",
   "pr": {
    "ich": "zeichne",
-   "du": "zeichnst",
+   "du": "zeichnest",
    "er": "zeichnet",
    "wir": "zeichnen",
-   "ihr": "zeichnt",
+   "ihr": "zeichnet",
    "sie": "zeichnen"
   },
   "pt": {
-   "ich": "zeichnte",
-   "du": "zeichntest",
-   "er": "zeichnte",
-   "wir": "zeichnten",
-   "ihr": "zeichntet"
+   "ich": "zeichnete",
+   "du": "zeichnetest",
+   "er": "zeichnete",
+   "wir": "zeichneten",
+   "ihr": "zeichnetet"
   },
   "pk": {
    "ich": "habe gezeichnet",
@@ -14864,8 +14823,8 @@
   "n": "'zeichnen' = to draw (lines/sketch); 'malen' = to paint. Stem in -n: du zeichnest, gezeichnet.",
   "lvl": "A2",
   "imp": {
-   "du": "Zeichn!",
-   "ihr": "Zeichnt!",
+   "du": "Zeichne!",
+   "ihr": "Zeichnet!",
    "sie": "Zeichnen Sie!"
   }
  },
@@ -15380,16 +15339,16 @@
   "pr": {
    "ich": "trenne mich",
    "du": "trennst dich",
-   "er": "trennet sich",
+   "er": "trennt sich",
    "wir": "trennen uns",
    "ihr": "trennt euch",
    "sie": "trennen sich"
   },
   "pt": {
-   "ich": "trennete mich",
+   "ich": "trennte mich",
    "du": "trenntest dich",
-   "er": "trennete sich",
-   "wir": "trenneten uns",
+   "er": "trennte sich",
+   "wir": "trennten uns",
    "ihr": "trenntet euch"
   },
   "pk": {
@@ -15923,7 +15882,7 @@
   "pr": {
    "ich": "kenne mich aus",
    "du": "kennst dich aus",
-   "er": "kennet sich aus",
+   "er": "kennt sich aus",
    "wir": "kennen uns aus",
    "ihr": "kennt euch aus",
    "sie": "kennen sich aus"
@@ -16273,7 +16232,7 @@
   "n": "Inseparable. 'Das Wechselgeld können Sie behalten.' = Keep the change. Also 'etwas im Kopf behalten' = to remember.",
   "lvl": "B1",
   "imp": {
-   "du": "Behalt!",
+   "du": "Behalte!",
    "ihr": "Behaltet!",
    "sie": "Behalten Sie!"
   }
@@ -16314,7 +16273,7 @@
   "n": "Inseparable. Doctor 'behandelt' patients; also 'jemanden gut/schlecht behandeln' and 'ein Thema behandeln'.",
   "lvl": "B1",
   "imp": {
-   "du": "Behandl!",
+   "du": "Behandle!",
    "ihr": "Behandelt!",
    "sie": "Behandeln Sie!"
   }
@@ -16539,17 +16498,17 @@
   "pr": {
    "ich": "bestimme",
    "du": "bestimmst",
-   "er": "bestimmet",
+   "er": "bestimmt",
    "wir": "bestimmen",
    "ihr": "bestimmt",
    "sie": "bestimmen"
   },
   "pt": {
-   "ich": "bestimmete",
-   "du": "bestimmetest",
-   "er": "bestimmete",
-   "wir": "bestimmeten",
-   "ihr": "bestimmetet"
+   "ich": "bestimmte",
+   "du": "bestimmtest",
+   "er": "bestimmte",
+   "wir": "bestimmten",
+   "ihr": "bestimmtet"
   },
   "pk": {
    "ich": "habe bestimmt",
@@ -17142,7 +17101,7 @@
   "lvl": "B1",
   "refl": true,
   "imp": {
-   "du": "Entwickl dich!",
+   "du": "Entwickle dich!",
    "ihr": "Entwickelt euch!",
    "sie": "Entwickeln Sie sich!"
   }
@@ -17758,12 +17717,7 @@
    "sie": "sind gelungen"
   },
   "n": "Inseparable, with sein + dative: 'Der Kuchen ist mir gelungen.' = My cake turned out well. Opposite: misslingen.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Geling!",
-   "ihr": "Gelingt!",
-   "sie": "Gelingen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "gelten",
@@ -18494,7 +18448,7 @@
   "n": "'etwas regeln' = to sort something out. 'geregelte Arbeitszeiten' = regular working hours. Noun: die Regel.",
   "lvl": "B1",
   "imp": {
-   "du": "Regl!",
+   "du": "Regle!",
    "ihr": "Regelt!",
    "sie": "Regeln Sie!"
   }
@@ -19068,7 +19022,7 @@
   "n": "Inseparable. 'über den Preis/Vertrag verhandeln'. Noun: die Verhandlung.",
   "lvl": "B1",
   "imp": {
-   "du": "Verhandl!",
+   "du": "Verhandle!",
    "ihr": "Verhandelt!",
    "sie": "Verhandeln Sie!"
   }
@@ -19519,7 +19473,7 @@
   "n": "Inseparable. 'eine Kollegin vertreten' = to cover for a colleague; 'eine Meinung vertreten' = to hold an opinion. Noun: der Vertreter, die Vertretung.",
   "lvl": "B1",
   "imp": {
-   "du": "Vertret!",
+   "du": "Vertritt!",
    "ihr": "Vertretet!",
    "sie": "Vertreten Sie!"
   }
@@ -19660,7 +19614,7 @@
   "pr": {
    "ich": "komme vor",
    "du": "kommst vor",
-   "er": "kommet vor",
+   "er": "kommt vor",
    "wir": "kommen vor",
    "ihr": "kommt vor",
    "sie": "kommen vor"
@@ -20139,7 +20093,7 @@
   "n": "'an etwas (Dat) zweifeln'. Noun: der Zweifel. 'ohne Zweifel' = without doubt.",
   "lvl": "B1",
   "imp": {
-   "du": "Zweifl!",
+   "du": "Zweifle!",
    "ihr": "Zweifelt!",
    "sie": "Zweifeln Sie!"
   }
@@ -20306,7 +20260,7 @@
   "n": "Verbs in -eln drop the e in the ich-form: ich angle.",
   "lvl": "B1",
   "imp": {
-   "du": "Angl!",
+   "du": "Angle!",
    "ihr": "Angelt!",
    "sie": "Angeln Sie!"
   }
@@ -20418,7 +20372,7 @@
    "du": "bissest",
    "er": "biss",
    "wir": "bissen",
-   "ihr": "bisset"
+   "ihr": "bisst"
   },
   "pk": {
    "ich": "habe gebissen",
@@ -20533,9 +20487,9 @@
    "ich": "friere ein",
    "du": "frierst ein",
    "er": "friert ein",
-   "wir": "friern ein",
+   "wir": "frieren ein",
    "ihr": "friert ein",
-   "sie": "friern ein"
+   "sie": "frieren ein"
   },
   "pt": {
    "ich": "fror ein",
@@ -20558,7 +20512,7 @@
   "imp": {
    "du": "Frier ein!",
    "ihr": "Friert ein!",
-   "sie": "Friern Sie ein!"
+   "sie": "Frieren Sie ein!"
   }
  },
  {
@@ -20616,9 +20570,9 @@
    "ich": "experimentiere",
    "du": "experimentierst",
    "er": "experimentiert",
-   "wir": "experimentiern",
+   "wir": "experimentieren",
    "ihr": "experimentiert",
-   "sie": "experimentiern"
+   "sie": "experimentieren"
   },
   "pt": {
    "ich": "experimentierte",
@@ -20640,7 +20594,7 @@
   "imp": {
    "du": "Experimentier!",
    "ihr": "Experimentiert!",
-   "sie": "Experimentiern Sie!"
+   "sie": "Experimentieren Sie!"
   }
  },
  {
@@ -21010,7 +20964,7 @@
   "n": "Verbs in -eln drop the e: ich radle. Takes sein (movement). 'Rad fahren' is the neutral alternative.",
   "lvl": "B1",
   "imp": {
-   "du": "Radl!",
+   "du": "Radle!",
    "ihr": "Radelt!",
    "sie": "Radeln Sie!"
   }
@@ -21051,7 +21005,7 @@
   "n": "Verbs in -eln drop the e: ich sammle. die Sammlung = the collection.",
   "lvl": "A2",
   "imp": {
-   "du": "Samml!",
+   "du": "Sammle!",
    "ihr": "Sammelt!",
    "sie": "Sammeln Sie!"
   }
@@ -21216,7 +21170,7 @@
   "n": "Verbs in -eln drop the e: ich segle. Takes sein as a movement verb.",
   "lvl": "B1",
   "imp": {
-   "du": "Segl!",
+   "du": "Segle!",
    "ihr": "Segelt!",
    "sie": "Segeln Sie!"
   }
@@ -21450,7 +21404,7 @@
    "du": "zerrissest",
    "er": "zerriss",
    "wir": "zerrissen",
-   "ihr": "zerrisset"
+   "ihr": "zerrisst"
   },
   "pk": {
    "ich": "habe zerrissen",
@@ -21691,9 +21645,9 @@
    "ich": "interessiere mich",
    "du": "interessierst dich",
    "er": "interessiert sich",
-   "wir": "interessiern uns",
+   "wir": "interessieren uns",
    "ihr": "interessiert euch",
-   "sie": "interessiern sich"
+   "sie": "interessieren sich"
   },
   "pt": {
    "ich": "interessierte mich",
@@ -21716,7 +21670,7 @@
   "imp": {
    "du": "Interessier dich!",
    "ihr": "Interessiert euch!",
-   "sie": "Interessiern Sie sich!"
+   "sie": "Interessieren Sie sich!"
   }
  },
  {

@@ -282,7 +282,7 @@
  {
   "w": "hell",
   "e": "bright / light",
-  "c": "Farben",
+  "c": "Colours",
   "cmp": "heller",
   "sup": "am hellsten",
   "opp": "dunkel",
@@ -402,7 +402,7 @@
  {
   "w": "dunkel",
   "e": "dark",
-  "c": "Farben",
+  "c": "Colours",
   "cmp": "dunkler",
   "sup": "am dunkelsten",
   "opp": "hell",
@@ -561,7 +561,7 @@
  },
  {
   "w": "besonders",
-  "e": "special / especially",
+  "e": "especially / particularly",
   "c": "Quality & Value",
   "cmp": "–",
   "sup": "–",
@@ -1034,7 +1034,7 @@
   "e": "general / in general",
   "c": "Quality & Value",
   "cmp": "allgemeiner",
-  "sup": "am allgemeinststen",
+  "sup": "am allgemeinsten",
   "opp": "speziell",
   "ex": "Im Allgemeinen ist das Wetter hier gut.",
   "lvl": "B1"
@@ -1155,7 +1155,7 @@
   "c": "Physical Properties",
   "cmp": "kaputter",
   "sup": "am kaputtesten",
-  "opp": "ganz / heile",
+  "opp": "heil / ganz",
   "ex": "Mein Handy ist leider kaputt. — Unfortunately my phone is broken.",
   "lvl": "A1"
  },
@@ -1298,7 +1298,7 @@
  {
   "w": "rot",
   "e": "red",
-  "c": "Farben",
+  "c": "Colours",
   "cmp": "roter",
   "sup": "am rotesten",
   "ex": "Der Kugelschreiber ist rot. — The pen is red.",
@@ -1307,7 +1307,7 @@
  {
   "w": "blau",
   "e": "blue",
-  "c": "Farben",
+  "c": "Colours",
   "cmp": "blauer",
   "sup": "am blausten",
   "ex": "Die Brille ist blau. — The glasses are blue.",
@@ -1316,7 +1316,7 @@
  {
   "w": "schwarz",
   "e": "black",
-  "c": "Farben",
+  "c": "Colours",
   "cmp": "schwärzer",
   "sup": "am schwärzesten",
   "ex": "Der Kugelschreiber ist schwarz. — The pen is black.",
@@ -1325,7 +1325,7 @@
  {
   "w": "grün",
   "e": "green",
-  "c": "Farben",
+  "c": "Colours",
   "cmp": "grüner",
   "sup": "am grünsten",
   "ex": "Der Kalender ist grün. — The calendar is green.",
@@ -1334,7 +1334,7 @@
  {
   "w": "weiß",
   "e": "white",
-  "c": "Farben",
+  "c": "Colours",
   "cmp": "weißer",
   "sup": "am weißesten",
   "ex": "Das Handy ist weiß. — The phone is white.",
@@ -1343,7 +1343,7 @@
  {
   "w": "gelb",
   "e": "yellow",
-  "c": "Farben",
+  "c": "Colours",
   "cmp": "gelber",
   "sup": "am gelbsten",
   "ex": "Die Bücher sind gelb. — The books are yellow.",
@@ -1352,7 +1352,7 @@
  {
   "w": "grau",
   "e": "grey",
-  "c": "Farben",
+  "c": "Colours",
   "cmp": "grauer",
   "sup": "am grausten",
   "ex": "Der Bleistift ist grau. — The pencil is grey.",
@@ -1361,7 +1361,7 @@
  {
   "w": "orange",
   "e": "orange",
-  "c": "Farben",
+  "c": "Colours",
   "ex": "Die Stifte sind orange. — The pens are orange.",
   "lvl": "A1",
   "cmp": "–",
@@ -1370,7 +1370,7 @@
  {
   "w": "pink",
   "e": "pink",
-  "c": "Farben",
+  "c": "Colours",
   "cmp": "–",
   "sup": "–",
   "ex": "Der MP3-Player ist pink. — The MP3 player is pink.",
@@ -1379,7 +1379,7 @@
  {
   "w": "braun",
   "e": "brown",
-  "c": "Farben",
+  "c": "Colours",
   "cmp": "brauner",
   "sup": "am braunsten",
   "ex": "Die Kalender sind braun. — The calendars are brown.",
@@ -1387,7 +1387,7 @@
  },
  {
   "w": "gern(e)",
-  "e": "yes (Yes, I like it a lot.)",
+  "e": "gladly / with pleasure",
   "c": "Other",
   "cmp": "lieber",
   "sup": "am liebsten",
@@ -1417,10 +1417,10 @@
  },
  {
   "w": "lieb",
-  "e": "Dear",
+  "e": "dear / kind / sweet",
   "c": "Other",
-  "cmp": "lieb-er",
-  "sup": "am lieb-sten",
+  "cmp": "lieber",
+  "sup": "am liebsten",
   "ex": "Liebe Sabine, lieber Thomas! — Dear Sabine, dear Thomas!",
   "lvl": "A1"
  },
@@ -1460,7 +1460,7 @@
   "c": "Function Words",
   "cmp": "–",
   "sup": "–",
-  "ex": "Er sucht die Uhr bestimmt … — He is certainly looking for the watch ...",
+  "ex": "Er kommt bestimmt. — He is definitely coming.",
   "lvl": "A1",
   "wc": "Partikel"
  },
@@ -1563,7 +1563,7 @@
  },
  {
   "w": "klar",
-  "e": "here: of course",
+  "e": "clear; of course",
   "c": "Function Words",
   "cmp": "–",
   "sup": "–",
@@ -1631,7 +1631,7 @@
  },
  {
   "w": "ordentlich",
-  "e": "neatly, tidily",
+  "e": "tidy / neat(ly)",
   "c": "Other",
   "cmp": "ordentlicher",
   "sup": "am ordentlichsten",
@@ -1675,7 +1675,7 @@
  },
  {
   "w": "echt",
-  "e": "really",
+  "e": "real / genuine; really",
   "c": "Function Words",
   "cmp": "–",
   "sup": "–",
@@ -1686,7 +1686,7 @@
  {
   "w": "herzlich",
   "e": "warmly, sincerely, cordially",
-  "c": "Physical Properties",
+  "c": "Emotion & Feeling",
   "cmp": "herzlicher",
   "sup": "am herzlichsten",
   "ex": "Du bist herzlich eingeladen. — You are warmly invited.",
@@ -1761,7 +1761,7 @@
  },
  {
   "w": "gespannt",
-  "e": "curious",
+  "e": "curious / eager to see",
   "c": "Other",
   "cmp": "gespannter",
   "sup": "am gespanntesten",
@@ -1958,7 +1958,7 @@
  },
  {
   "w": "stark",
-  "e": "with emphasis",
+  "e": "strong; (pronunciation) stressed",
   "c": "Other",
   "cmp": "stärker",
   "sup": "am stärksten",
@@ -1968,7 +1968,7 @@
  },
  {
   "w": "schwach",
-  "e": "without emphasis",
+  "e": "weak; (pronunciation) unstressed",
   "c": "Other",
   "cmp": "schwächer",
   "sup": "am schwächsten",
@@ -1978,7 +1978,7 @@
  },
  {
   "w": "fix",
-  "e": "smart, fast",
+  "e": "quick / nimble",
   "c": "Physical Properties",
   "cmp": "–",
   "sup": "–",
@@ -1987,7 +1987,7 @@
  },
  {
   "w": "sauer",
-  "e": "here: annoyed",
+  "e": "sour; (colloquial) annoyed",
   "c": "Other",
   "cmp": "saurer",
   "sup": "am sauersten",
@@ -2061,7 +2061,7 @@
  },
  {
   "w": "dringend",
-  "e": "urgently",
+  "e": "urgent(ly)",
   "c": "Other",
   "cmp": "dringender",
   "sup": "am dringendesten",
@@ -2247,14 +2247,14 @@
   "w": "fit",
   "e": "fit",
   "c": "Other",
-  "cmp": "fiter",
-  "sup": "am fitesten",
+  "cmp": "fitter",
+  "sup": "am fittesten",
   "ex": "Ich bin immer noch nicht ganz fit. — I am still not quite fit.",
   "lvl": "A1"
  },
  {
   "w": "spontan",
-  "e": "spontaneously, on the spur of",
+  "e": "spontaneous(ly) / on the spur of the moment",
   "c": "Other",
   "cmp": "–",
   "sup": "–",
@@ -2301,7 +2301,7 @@
  },
  {
   "w": "sportlich",
-  "e": "here: to participate in sports",
+  "e": "sporty / athletic",
   "c": "Other",
   "cmp": "–",
   "sup": "–",
@@ -2358,7 +2358,7 @@
  },
  {
   "w": "schick",
-  "e": "smart",
+  "e": "smart / chic",
   "c": "Describing People",
   "cmp": "schicker",
   "sup": "am schicksten",
@@ -2424,7 +2424,7 @@
  },
  {
   "w": "zentral",
-  "e": "centrally",
+  "e": "central(ly)",
   "c": "Distance & Position",
   "cmp": "zentraler",
   "sup": "am zentralsten",
@@ -2535,7 +2535,7 @@
  },
  {
   "w": "selbstständig",
-  "e": "independently",
+  "e": "independent(ly) / self-employed",
   "c": "Work & Study",
   "cmp": "selbstständiger",
   "sup": "am selbstständigsten",
@@ -2583,7 +2583,7 @@
  {
   "w": "erlaubt",
   "e": "permitted, allowed",
-  "c": "Size & Quantity",
+  "c": "Status & Condition",
   "cmp": "–",
   "sup": "–",
   "ex": "Ja natürlich, hier ist Parken erlaubt. — Yes of course, parking is allowed here.",
@@ -2629,7 +2629,7 @@
   "w": "bitter",
   "e": "bitter",
   "c": "Other",
-  "cmp": "bittrer",
+  "cmp": "bitterer",
   "sup": "am bittersten",
   "ex": "Kaffee ohne Zucker schmeckt bitter.",
   "lvl": "A2"
@@ -2646,7 +2646,7 @@
  {
   "w": "blond",
   "e": "blond",
-  "c": "Farben",
+  "c": "Colours",
   "cmp": "blonder",
   "sup": "am blondesten",
   "ex": "Lisa hat blonde Haare.",
@@ -2655,7 +2655,7 @@
  {
   "w": "bunt",
   "e": "colourful",
-  "c": "Farben",
+  "c": "Colours",
   "cmp": "bunter",
   "sup": "am buntesten",
   "ex": "Anna trägt gern bunte Kleider.",
@@ -2667,7 +2667,7 @@
   "c": "Time & Frequency",
   "cmp": "–",
   "sup": "–",
-  "ex": "Als Student hatte ich viel Zeit und wollte reisen.",
+  "ex": "Damals, als Student, hatte ich viel Zeit und wollte reisen.",
   "lvl": "A2",
   "wc": "Adverb"
  },
@@ -2714,20 +2714,10 @@
   "w": "einig",
   "e": "agreed / united",
   "c": "Other",
-  "cmp": "einiger",
-  "sup": "am einigsten",
-  "ex": "In diesem Text sind einige Fehler.",
-  "lvl": "A2"
- },
- {
-  "w": "einzel",
-  "e": "single / individual",
-  "c": "Numbers & Order",
   "cmp": "–",
   "sup": "–",
-  "ex": "Nicht alle zusammen.",
-  "lvl": "A2",
-  "wc": "Zahlwort"
+  "ex": "Wir sind uns einig. — We agree.",
+  "lvl": "A2"
  },
  {
   "w": "fett",
@@ -2808,7 +2798,7 @@
   "w": "meist",
   "e": "most",
   "c": "Other",
-  "ex": "Ich bin neu hier im Haus.",
+  "ex": "Die meisten Leute fahren mit dem Bus. — Most people go by bus.",
   "lvl": "A2"
  },
  {
@@ -2817,7 +2807,7 @@
   "c": "Distance & Position",
   "cmp": "–",
   "sup": "–",
-  "ex": "Das ist José.",
+  "ex": "Das ist José. Er wohnt nebenan.",
   "lvl": "A2",
   "wc": "Adverb"
  },
@@ -2827,7 +2817,7 @@
   "c": "Weather & Seasons",
   "cmp": "nebliger",
   "sup": "am nebligsten",
-  "ex": "Fahr vorsichtig!",
+  "ex": "Es ist neblig. Fahr vorsichtig!",
   "lvl": "A2"
  },
  {
@@ -2836,7 +2826,7 @@
   "c": "Other",
   "cmp": "nützlicher",
   "sup": "am nützlichsten",
-  "ex": "Danke für den Tipp.",
+  "ex": "Danke für den Tipp, der war sehr nützlich.",
   "lvl": "A2"
  },
  {
@@ -2855,7 +2845,7 @@
   "cmp": "reicher",
   "sup": "am reichsten",
   "opp": "arm",
-  "ex": "ist reich.",
+  "ex": "Sie ist reich.",
   "lvl": "A2"
  },
  {
@@ -2874,7 +2864,7 @@
   "cmp": "schärfer",
   "sup": "am schärfsten",
   "opp": "mild",
-  "ex": "Suppe ist mir zu scharf.",
+  "ex": "Die Suppe ist mir zu scharf.",
   "lvl": "A2"
  },
  {
@@ -2883,7 +2873,7 @@
   "c": "Other",
   "cmp": "–",
   "sup": "–",
-  "ex": "ist schwanger.",
+  "ex": "Sie ist schwanger.",
   "lvl": "A2"
  },
  {
@@ -2892,7 +2882,7 @@
   "c": "Other",
   "cmp": "–",
   "sup": "–",
-  "ex": "Heute ist es sehr kalt.",
+  "ex": "Heute ist es sehr kalt, es schneit sogar.",
   "lvl": "A2",
   "wc": "Adverb"
  },
@@ -2939,7 +2929,7 @@
   "c": "Other",
   "cmp": "–",
   "sup": "–",
-  "ex": "Großeltern sind schon lange tot.",
+  "ex": "Meine Großeltern sind schon lange tot.",
   "lvl": "A2"
  },
  {
@@ -2948,7 +2938,7 @@
   "c": "Time & Frequency",
   "cmp": "–",
   "sup": "–",
-  "ex": "Morgen habe ich frei.",
+  "ex": "Morgen und übermorgen habe ich frei.",
   "lvl": "A2",
   "wc": "Adverb"
  },
@@ -3036,7 +3026,7 @@
   "c": "Other",
   "cmp": "–",
   "sup": "–",
-  "ex": "willkommen in Berlin!",
+  "ex": "Herzlich willkommen in Berlin!",
   "lvl": "A2"
  },
  {
@@ -3061,7 +3051,7 @@
  {
   "w": "geschieden",
   "e": "divorced",
-  "c": "Work & Study",
+  "c": "Describing People",
   "cmp": "–",
   "sup": "–",
   "opp": "verheiratet",
@@ -4151,7 +4141,7 @@
  {
   "w": "golden",
   "e": "golden",
-  "c": "Farben",
+  "c": "Colours",
   "cmp": "–",
   "sup": "–",
   "opp": "—",
@@ -4161,7 +4151,7 @@
  {
   "w": "lila",
   "e": "purple / lilac",
-  "c": "Farben",
+  "c": "Colours",
   "cmp": "–",
   "sup": "–",
   "opp": "—",
@@ -4171,7 +4161,7 @@
  {
   "w": "rosa",
   "e": "pink",
-  "c": "Farben",
+  "c": "Colours",
   "cmp": "–",
   "sup": "–",
   "opp": "—",
@@ -4181,7 +4171,7 @@
  {
   "w": "orangefarben",
   "e": "orange (colour)",
-  "c": "Farben",
+  "c": "Colours",
   "cmp": "–",
   "sup": "–",
   "opp": "—",
@@ -4191,7 +4181,7 @@
  {
   "w": "silbern",
   "e": "silver",
-  "c": "Farben",
+  "c": "Colours",
   "cmp": "–",
   "sup": "–",
   "opp": "—",
@@ -4201,7 +4191,7 @@
  {
   "w": "violett",
   "e": "violet",
-  "c": "Farben",
+  "c": "Colours",
   "cmp": "–",
   "sup": "–",
   "opp": "—",
