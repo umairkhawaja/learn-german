@@ -13,6 +13,7 @@ import {
   decline, drillNoun, buildQuestion, cellsFor, CASES, SLOTS, DETS, contract,
 } from "../src/engine/kasus.js";
 import { nounParadigm } from "../src/engine/nounForms.js";
+import { pluralDistractors, participleDistractors, presentDistractors } from "../src/engine/formDistractors.js";
 
 const read = (f) => JSON.parse(readFileSync(new URL(`../public/data/${f}`, import.meta.url), "utf8"));
 let failures = 0;
@@ -174,6 +175,36 @@ for (const it of nouns) {
   for (const [, form] of [...(d?.sg || []), ...(d?.pl || [])]) {
     if (!form || /undefined|null/.test(form)) fail(`${it.w}: broken table cell "${form}"`);
   }
+}
+
+// ── Quiz wrong answers built from the word itself ─────────────
+// Never the answer, never a second correct form, never a broken string.
+const verbs = read("verbs.json");
+const NEVER_WRONG = [
+  [{ w: "das Wort", p: "die Wörter" }, "die Worte"],
+  [{ w: "das Konto", p: "die Konten" }, "die Kontos"],
+  [{ w: "die Pizza", p: "die Pizzen" }, "die Pizzas"],
+  [{ w: "der Balkon", p: "die Balkone" }, "die Balkons"],
+  [{ w: "der Onkel", p: "die Onkel" }, "die Onkels"],
+];
+for (let round = 0; round < 30; round++) {
+  for (const [it, valid] of NEVER_WRONG) {
+    if (pluralDistractors(it, 9).includes(valid)) fail(`${valid} offered as a wrong plural of ${it.w}`);
+  }
+  for (const [v, valid] of [[{ w: "senden", p2: "gesendet", pr: { er: "sendet" }, pt: { er: "sendete" } }, "gesandt"],
+    [{ w: "verwenden", p2: "verwendet", pr: { er: "verwendet" }, pt: { er: "verwendete" } }, "verwandt"]]) {
+    if (participleDistractors(v, 9).includes(valid)) fail(`${valid} offered as a wrong participle of ${v.w}`);
+  }
+}
+const badForm = (x) => !x || /undefined|null|\s{2}/.test(x);
+for (const it of nouns) {
+  const d = pluralDistractors(it);
+  if (d.includes(String(it.p).trim()) || d.some(badForm)) fail(`plural options for ${it.w}: ${d.join(", ")}`);
+}
+for (const v of verbs) {
+  const d = participleDistractors(v), e = presentDistractors(v);
+  if (d.includes(v.p2) || d.some(badForm)) fail(`participle options for ${v.w}: ${d.join(", ")}`);
+  if (e.includes(v.pr.er) || e.some(badForm)) fail(`er-form options for ${v.w}: ${e.join(", ")}`);
 }
 
 // ── Built exercise files ──────────────────────────────────────

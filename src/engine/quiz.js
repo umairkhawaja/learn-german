@@ -9,7 +9,7 @@ export const SESSION_LEN = 10;
 // adjectives have no comparative/opposite) — a mode must skip those items
 // or it builds questions whose correct answer isn't among the options.
 export function hasField(v) {
-  return v != null && String(v).trim() !== "" && v !== "–";
+  return v != null && !["", "–", "—", "-"].includes(String(v).trim());
 }
 
 export function shuffle(arr) {
@@ -21,13 +21,20 @@ export function shuffle(arr) {
   return a;
 }
 
-export function distractors(pool, correct, accessor, n = 3) {
+// `skip(it)` drops a candidate that would also be a right answer: in EN → DE
+// "cup" is both die Tasse and der Becher, and offering one as the wrong
+// answer to the other marks a correct choice as a mistake. `given` are
+// wrong options already built from the word itself (engine/formDistractors);
+// the pool only tops them up to n.
+export function distractors(pool, correct, accessor, n = 3, skip = null, given = []) {
   const get = typeof accessor === "function" ? accessor : (x) => x[accessor];
-  const seen = new Set([correct]);
-  const out = [];
+  const seen = new Set([correct, ...given]);
+  const out = [...given].slice(0, n);
+  if (out.length >= n) return out;
   for (const it of shuffle(pool)) {
+    if (skip && skip(it)) continue;
     const v = get(it);
-    if (v && !seen.has(v) && String(v).trim() !== "" && v !== "–") {
+    if (v && !seen.has(v) && hasField(v)) {
       seen.add(v);
       out.push(v);
       if (out.length >= n) break;
@@ -35,6 +42,11 @@ export function distractors(pool, correct, accessor, n = 3) {
   }
   return out;
 }
+
+// Two entries mean the same thing when their English glosses match once
+// case, spacing and a leading "to " are ignored.
+const gloss = (it) => String(it?.e || "").toLowerCase().replace(/^to\s+/, "").replace(/\s+/g, " ").trim();
+export const sameMeaning = (a) => (b) => b !== a && gloss(b) !== "" && gloss(b) === gloss(a);
 
 // `promptLang` marks which language the prompt itself is in. The card sets
 // lang= from it, so a screen reader and the browser's own text handling do not

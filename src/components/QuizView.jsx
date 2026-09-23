@@ -41,10 +41,20 @@ export function QuizView({ cat, progress, setProgress, levelFilter, db, recordAn
   const isBacklogChunk = chunk.length > 0 && chunk.some((it) => progress[keyOf(cat.id, it)]?.total > 0);
   const locked = Math.max(0, pool.length - chunk.length);
 
+  // Wrong answers come from every word of the level that the mode can use,
+  // mastered or not. Drawing them from the practice pool alone left a small
+  // topic, or the last few unmastered words, with two options or one.
+  // A topic filter still keeps them on-topic while it has enough words.
+  const optionPool = useMemo(() => {
+    const usable = levelPool.filter((x) => !modeDef.eligible || modeDef.eligible(x));
+    const topic = catFilter === "All" ? usable : usable.filter((x) => cat.catOf(x) === catFilter);
+    return topic.length >= 8 ? topic : usable;
+  }, [levelPool, modeDef, catFilter, cat]);
+
   const buildQueue = useCallback((weak) => {
     const items = pickSession(pool, progressRef.current, cat.id, weak);
-    setQueue(items.map((it) => ({ item: it, cat, question: modeDef.build(it, pool) })));
-  }, [pool, cat, modeDef]);
+    setQueue(items.map((it) => ({ item: it, cat, question: modeDef.build(it, optionPool) })));
+  }, [pool, optionPool, cat, modeDef]);
 
   const startSession = useCallback(() => { setFocusWeak(false); buildQueue(false); }, [buildQueue]);
   const practiceWeak = useCallback(() => { setFocusWeak(true); buildQueue(true); }, [buildQueue]);
@@ -63,7 +73,7 @@ export function QuizView({ cat, progress, setProgress, levelFilter, db, recordAn
     {chunk.length > 0 && (
       <div style={{ fontSize: 12, color: MUTE, marginBottom: 10, display: "flex", alignItems: "center", gap: 6, flexWrap: "wrap" }}>
         <span>📦 {isBacklogChunk ? "Mastering" : "New chunk"}: <b style={{ color: cat.color }}>{chunk.length}</b> word{chunk.length === 1 ? "" : "s"}</span>
-        {locked > 0 && <span style={{ color: FAINT }}>· {locked} more word{locked === 1 ? "" : "s"} locked until these are mastered</span>}
+        {locked > 0 && <span style={{ color: FAINT }}>· {locked.toLocaleString()} more word{locked === 1 ? "" : "s"} locked until these are mastered</span>}
       </div>
     )}
     <div style={{ display: "flex", gap: 8, marginBottom: 12, flexWrap: "wrap", alignItems: "center" }}>
@@ -102,6 +112,9 @@ export function QuizView({ cat, progress, setProgress, levelFilter, db, recordAn
       setProgress={setProgress}
       accent={cat.color}
       controls={controls}
+      emptyText={levelPool.some((x) => (!modeDef.eligible || modeDef.eligible(x)) && (catFilter === "All" || cat.catOf(x) === catFilter))
+        ? "Every word here is mastered 🎉 — try another mode, topic or level."
+        : "No words match these filters."}
       onRestart={startSession}
       onPracticeWeak={practiceWeak}
       recordAnswer={recordAnswer}

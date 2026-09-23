@@ -8,7 +8,7 @@ import { COLORS, TXT, MUTE, FAINT } from "../config/theme";
 import { keyOf, applyAnswer, saveProgress, toggleSkip } from "../engine/progress";
 import { SpeakBtn, ExampleLine, isTypingTarget } from "./ui";
 
-export function QuizRunner({ queue, progress, setProgress, accent, controls, onRestart, onPracticeWeak, recordAnswer }) {
+export function QuizRunner({ queue, progress, setProgress, accent, controls, emptyText, onRestart, onPracticeWeak, recordAnswer }) {
   const [idx, setIdx] = useState(0);
   const [chosen, setChosen] = useState(null);
   const [streak, setStreak] = useState(0);
@@ -103,8 +103,16 @@ export function QuizRunner({ queue, progress, setProgress, accent, controls, onR
     );
   }
 
+  // The controls stay on screen: without them an empty mode (every word
+  // mastered, or none that has the form it asks about) was a dead end with
+  // no way to switch to another.
   if (!entry || !q) {
-    return <div style={{ color: FAINT, textAlign: "center", padding: 40 }}>No words match these filters.</div>;
+    return (
+      <div>
+        {controls}
+        <div style={{ color: FAINT, textAlign: "center", padding: 40 }}>{emptyText || "No words match these filters."}</div>
+      </div>
+    );
   }
 
   const oneCol = q.options.some((o) => String(o).length > 22) || q.options.length <= 2;
