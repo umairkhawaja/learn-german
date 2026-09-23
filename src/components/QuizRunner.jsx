@@ -197,7 +197,7 @@ export function QuizRunner({ queue, progress, setProgress, accent, controls, emp
           </div>
         </>
       )}
-      <div style={{ textAlign: "center", marginTop: 10, fontSize: 11, color: "#3a3f49" }}>
+      <div className="dm-kbd-tip" style={{ textAlign: "center", marginTop: 10, fontSize: 11, color: "#4a4f59" }}>
         Tip: keys 1–{q.options.length} to answer · Enter to continue
       </div>
     </div>

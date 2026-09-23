@@ -91,6 +91,30 @@ export function AppStyles() {
         .dm-grade-bar { bottom: calc(env(safe-area-inset-bottom) + 62px); }
       }
 
+      /* ── Header ───────────────────────────────────────────────
+         The sticky header held three rows of level chips and two of word
+         types: about 255px of an 844px phone screen before any content. On
+         a phone the chips go to one line each (code and count side by
+         side) and the word types three to a row. */
+      .dm-header-inner { padding: 14px 16px; }
+      .dm-level-chip {
+        padding: 9px 4px;
+        display: flex; flex-direction: column; align-items: center; gap: 1px;
+      }
+      .dm-cat-tabs { display: grid; grid-template-columns: repeat(auto-fit, minmax(96px, 1fr)); gap: 6px; }
+      .dm-cat-tab { padding: 8px 4px; display: flex; flex-direction: column; align-items: center; }
+      @media (max-width: 640px) {
+        .dm-header-inner { padding: 10px 16px; }
+        .dm-hide-narrow { display: none; }
+        .dm-level-chip { flex-direction: row; justify-content: center; align-items: baseline; gap: 6px; padding: 6px 4px; }
+        .dm-level-label, .dm-level-words { display: none; }
+        .dm-cat-tabs { grid-template-columns: repeat(3, 1fr); }
+        .dm-cat-tab { flex-direction: row; justify-content: center; align-items: baseline; gap: 5px; padding: 7px 4px; white-space: nowrap; }
+      }
+
+      /* Keyboard shortcuts mean nothing on a touch screen with no keyboard. */
+      @media (hover: none) and (pointer: coarse) { .dm-kbd-tip { display: none; } }
+
       /* Bottom nav shows only on narrow screens; header tabs hide there.
          BottomNav sets no inline display precisely so these rules win. */
       .dm-bottom-nav { display: none; }

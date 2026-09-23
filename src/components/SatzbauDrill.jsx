@@ -238,7 +238,7 @@ export function SatzbauDrill({ progress, setProgress, recordAnswer, levelFilter 
           {idx + 1 >= queue.length ? "Runde beenden" : "Weiter →"}
         </button>
       )}
-      <div style={{ textAlign: "center", marginTop: 10, fontSize: 11, color: "#3a3f49" }}>Enter prüft · Rücktaste nimmt das letzte Wort zurück</div>
+      <div className="dm-kbd-tip" style={{ textAlign: "center", marginTop: 10, fontSize: 11, color: "#4a4f59" }}>Enter prüft · Rücktaste nimmt das letzte Wort zurück</div>
       {credit}
     </div>
   );

@@ -144,8 +144,8 @@ export function ChunksView({ progress, setProgress, recordAnswer }) {
                 border: `1.5px solid ${activeLvl ? color : "#222"}`, background: activeLvl ? color + "18" : "#111",
                 cursor: "pointer", display: "flex", flexDirection: "column", alignItems: "center", gap: 1,
               }}>
-              <span style={{ fontSize: 12.5, fontWeight: 800, color: activeLvl ? color : "#4a4f59" }}>{code}</span>
-              <span style={{ fontSize: 9.5, color: activeLvl ? color + "88" : "#2f2f2f" }}>{n} chunks</span>
+              <span style={{ fontSize: 12.5, fontWeight: 800, color: activeLvl ? color : MUTE }}>{code}</span>
+              <span style={{ fontSize: 9.5, color: activeLvl ? color + "aa" : FAINT }}>{n} chunks</span>
             </button>
           );
         })}
@@ -251,7 +251,7 @@ export function ChunksView({ progress, setProgress, recordAnswer }) {
         </div>
 
         {!revealed ? (
-          <div style={{ fontSize: 12.5, color: FAINT, textAlign: "center", marginTop: 18 }}>Tap to reveal · Space</div>
+          <div style={{ fontSize: 12.5, color: FAINT, textAlign: "center", marginTop: 18 }}>Tap to reveal<span className="dm-kbd-tip"> · Space</span></div>
         ) : (
           <div className="dm-reveal" style={{ marginTop: 16, borderTop: "1px solid #222", paddingTop: 14, textAlign: "center" }}>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, flexWrap: "wrap" }}>

@@ -74,11 +74,11 @@ export function Header({
 
   return (
     <header style={{ position: "sticky", top: 0, zIndex: 20, background: "rgba(15,15,15,0.92)", backdropFilter: "blur(8px)", borderBottom: "1px solid #1e1e1e", paddingTop: "env(safe-area-inset-top)" }}>
-      <div style={{ maxWidth: 680, margin: "0 auto", padding: "14px 16px" }}>
+      <div className="dm-header-inner" style={{ maxWidth: 680, margin: "0 auto" }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
           <div>
             <div style={{ fontSize: 18, fontWeight: 800, color: COLORS.txtStrong, letterSpacing: "-0.3px" }}>🇩🇪 Deutsch Meister</div>
-            <div style={{ fontSize: 11, color: "#4a4f59", marginTop: 1 }}>{totalWords.toLocaleString()} words · {levelFilter === "All" ? "all levels" : levelFilter}</div>
+            <div className="dm-hide-narrow" style={{ fontSize: 11, color: COLORS.faint, marginTop: 1 }}>{totalWords.toLocaleString()} words · {levelFilter === "All" ? "all levels" : levelFilter}</div>
           </div>
           {/* Desktop view tabs (hidden on narrow screens — bottom nav takes over) */}
           <nav className="dm-top-tabs" aria-label="Sections" style={{ display: "flex", gap: 4, background: COLORS.surfaceAlt, borderRadius: 9, padding: 4 }}>
@@ -86,7 +86,7 @@ export function Header({
               <button key={id} onClick={() => setView(id)} aria-current={view === id ? "page" : undefined}
                 style={{
                   padding: "6px 10px", borderRadius: 6, border: "none", cursor: "pointer", fontSize: 12, position: "relative",
-                  background: view === id ? "#2a2a2a" : "transparent", color: view === id ? COLORS.txtStrong : "#5b626f", fontWeight: view === id ? 600 : 400,
+                  background: view === id ? "#2a2a2a" : "transparent", color: view === id ? COLORS.txtStrong : COLORS.mute, fontWeight: view === id ? 600 : 400,
                 }}>
                 <span aria-hidden="true">{icon}</span> {label}
                 {id === "quiz" && backlogCount > 0 && (
@@ -107,18 +107,19 @@ export function Header({
           /* Grid, not a flex row: six labels as wide as "Adjectives" don't
              fit across a 360px phone, and as flex items they refused to
              shrink — which is what pushed the whole page sideways. Here
-             they wrap onto a second row instead. */
-          <div role="tablist" aria-label="Word type" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(96px, 1fr))", gap: 6, marginTop: 8 }}>
+             they wrap onto a second row instead; on a phone, three to a
+             row with the count beside the label (AppStyles). */
+          <div className="dm-cat-tabs" role="tablist" aria-label="Word type" style={{ marginTop: 8 }}>
             {CATEGORIES.map((t, i) => {
               const count = db[t.key].filter((x) => levelFilter === "All" || lvlOf(x) === levelFilter).length;
               return (
-                <button key={t.id} onClick={() => setActiveCat(i)} role="tab" aria-selected={activeCat === i}
+                <button key={t.id} className="dm-cat-tab" onClick={() => setActiveCat(i)} role="tab" aria-selected={activeCat === i}
                   style={{
-                    minWidth: 0, padding: "8px 4px", borderRadius: 9, border: "none", cursor: "pointer", fontSize: 12.5, fontWeight: 600,
-                    background: activeCat === i ? t.color : COLORS.surfaceAlt, color: activeCat === i ? "#fff" : "#6b7280",
+                    minWidth: 0, borderRadius: 9, border: "none", cursor: "pointer", fontSize: 12.5, fontWeight: 600,
+                    background: activeCat === i ? t.color : COLORS.surfaceAlt, color: activeCat === i ? "#fff" : COLORS.mute,
                   }}>
                   {t.label}
-                  <div style={{ fontSize: 10, fontWeight: 400, opacity: 0.75 }}>{count.toLocaleString()}</div>
+                  <span className="dm-cat-count" style={{ fontSize: 10, fontWeight: 400, opacity: 0.8, fontVariantNumeric: "tabular-nums" }}>{count.toLocaleString()}</span>
                 </button>
               );
             })}

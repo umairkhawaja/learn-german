@@ -332,8 +332,8 @@ export function MixedView({ db, progress, setProgress, levelFilter, recordAnswer
                     border: `1.5px solid ${on ? c.color : "#222"}`, background: on ? c.color + "18" : "#111",
                     cursor: "pointer", display: "flex", flexDirection: "column", alignItems: "center", gap: 1,
                   }}>
-                  <span style={{ fontSize: 12, fontWeight: 800, color: on ? c.color : "#4a4f59" }}>{c.label}</span>
-                  <span style={{ fontSize: 9.5, color: on ? c.color + "88" : "#2f2f2f" }}>{n.toLocaleString()} left</span>
+                  <span style={{ fontSize: 12, fontWeight: 800, color: on ? c.color : MUTE }}>{c.label}</span>
+                  <span style={{ fontSize: 9.5, color: on ? c.color + "aa" : FAINT }}>{n.toLocaleString()} left</span>
                 </button>
               );
             })}
@@ -455,7 +455,7 @@ export function MixedView({ db, progress, setProgress, levelFilter, recordAnswer
         </div>
 
         {!revealed ? (
-          <div style={{ fontSize: 12.5, color: FAINT, textAlign: "center", marginTop: 18 }}>Tap to reveal · Space</div>
+          <div style={{ fontSize: 12.5, color: FAINT, textAlign: "center", marginTop: 18 }}>Tap to reveal<span className="dm-kbd-tip"> · Space</span></div>
         ) : (
           <div className="dm-reveal" style={{ marginTop: 16, borderTop: "1px solid #222", paddingTop: 14 }}>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, flexWrap: "wrap" }}>
@@ -490,7 +490,7 @@ export function MixedView({ db, progress, setProgress, levelFilter, recordAnswer
         </button>
       )}
 
-      <div style={{ textAlign: "center", marginTop: 10, fontSize: 11, color: "#3a3f49" }}>
+      <div className="dm-kbd-tip" style={{ textAlign: "center", marginTop: 10, fontSize: 11, color: "#4a4f59" }}>
         Tip: Space to reveal · 1 = nochmal üben, 2 = gewusst
       </div>
     </div>

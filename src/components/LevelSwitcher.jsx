@@ -3,6 +3,7 @@
 import { useMemo } from "react";
 import { LEVELS, lvlOf, levelsPresent } from "../config/levels";
 import { CATEGORIES } from "../config/categories";
+import { MUTE, FAINT } from "../config/theme";
 
 export function LevelSwitcher({ db, levelFilter, setLevelFilter }) {
   const { present, counts, total } = useMemo(() => {
@@ -22,23 +23,27 @@ export function LevelSwitcher({ db, levelFilter, setLevelFilter }) {
     { key: "All", label: "All levels", color: "#6b7280", count: total },
   ];
 
+  // Inactive chips used #333 and #272727 text on #111, which is close to
+  // invisible; they now use the app's muted greys. On a phone the chips
+  // drop the level name and put the count beside the code (AppStyles), so
+  // the row is one line high instead of three.
   return (
-    <div style={{ display: "flex", gap: 6, marginTop: 10, flexWrap: "wrap" }}>
+    <div className="dm-levels" role="group" aria-label="Level" style={{ display: "flex", gap: 6, marginTop: 10 }}>
       {chips.map(({ key, label, color, count }) => {
         const active = levelFilter === key;
         return (
-          <button key={key} onClick={() => setLevelFilter(key)}
+          <button key={key} className="dm-level-chip" onClick={() => setLevelFilter(key)} aria-pressed={active}
+            title={`${label} · ${(count ?? 0).toLocaleString()} words`}
             style={{
-              flex: "1 1 0", minWidth: 72, padding: "9px 4px", borderRadius: 11,
-              border: `1.5px solid ${active ? color : "#222"}`,
+              flex: "1 1 0", minWidth: 0, borderRadius: 11,
+              border: `1.5px solid ${active ? color : "#262626"}`,
               background: active ? color + "18" : "#111",
               cursor: "pointer", transition: "border-color .15s, background .15s",
-              display: "flex", flexDirection: "column", alignItems: "center", gap: 1,
             }}>
-            <span style={{ fontSize: 13, fontWeight: 800, color: active ? color : "#4a4f59", letterSpacing: "0.3px" }}>{key}</span>
-            <span style={{ fontSize: 9.5, color: active ? color + "cc" : "#333", fontWeight: 500 }}>{label}</span>
-            <span style={{ fontSize: 9.5, color: active ? color + "88" : "#272727", fontVariantNumeric: "tabular-nums" }}>
-              {(count ?? 0).toLocaleString()} words
+            <span style={{ fontSize: 13, fontWeight: 800, color: active ? color : MUTE, letterSpacing: "0.3px" }}>{key}</span>
+            <span className="dm-level-label" style={{ fontSize: 9.5, color: active ? color + "cc" : FAINT, fontWeight: 500 }}>{label}</span>
+            <span className="dm-level-count" style={{ fontSize: 9.5, color: active ? color + "aa" : FAINT, fontVariantNumeric: "tabular-nums" }}>
+              {(count ?? 0).toLocaleString()}<span className="dm-level-words"> words</span>
             </span>
           </button>
         );
