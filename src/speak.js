@@ -4,8 +4,14 @@ let cachedVoice = null;
 function germanVoice() {
   if (cachedVoice) return cachedVoice;
   try {
+    // Standard German first: the first German voice in the list is often
+    // Swiss or Austrian, and the old pattern matched "de" anywhere in the
+    // tag. The list can be empty until the browser has loaded it, in which
+    // case nothing is cached and the next call looks again.
     const voices = window.speechSynthesis.getVoices() || [];
-    cachedVoice = voices.find((v) => /de(-|_)?/i.test(v.lang)) || null;
+    cachedVoice = voices.find((v) => /^de[-_]DE$/i.test(v.lang))
+      || voices.find((v) => /^de([-_]|$)/i.test(v.lang))
+      || null;
   } catch {}
   return cachedVoice;
 }

@@ -44,14 +44,18 @@ export function ChunksView({ progress, setProgress, recordAnswer }) {
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/chunks.json`)
-      .then((r) => r.json()).then(setAll)
+      .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(setAll)
       .catch(() => setAll([]));
   }, []);
 
+  // Topics at the selected level only: offering one with no chunks at that
+  // level produced an empty round. A pick the level change removed falls
+  // back to all topics.
   const cats = useMemo(
-    () => [...new Set((all || []).map((x) => x.c))].filter(Boolean).sort(),
-    [all]
+    () => [...new Set((all || []).filter((x) => level === "All" || x.lvl === level).map((x) => x.c))].filter(Boolean).sort(),
+    [all, level]
   );
+  useEffect(() => { if (all && cat !== "All" && !cats.includes(cat)) setCat("All"); }, [all, cat, cats]);
 
   // Everything matching the filters, mastered or not.
   const scope = useMemo(() => (all || []).filter(
