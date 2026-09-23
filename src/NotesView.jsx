@@ -14,9 +14,9 @@ const MUTE = "#8b94a3";
 const FAINT = "#5b626f";
 
 // Match a leading level token in a subpage title, ignoring a leading emoji.
-// "🇩🇪 A1 Course Notes — Learn German" → "A1".
+// "🇩🇪 A1 Course Notes — Learn German" → "A1"; "05 · Die Fälle … [A1–A2]" → null.
 function levelOf(title) {
-  const m = (title || "").match(/\b([ABC][12])\b/i);
+  const m = (title || "").match(/^[^\p{L}\p{N}]*([ABC][12])\b/iu);
   const token = m ? m[1].toUpperCase() : null;
   return token && NOTE_LEVELS.includes(token) ? token : null;
 }
