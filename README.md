@@ -13,6 +13,7 @@ stored on-device (with optional cloud sync, see below).
 | **Mixed** | The landing view. A flashcard deck drawn across nouns, verbs, adjectives and grammar at once, weighted so nouns and verbs carry it. **Review** narrows the deck to the words whose spacing interval has elapsed. |
 | **Quiz** | Multiple choice within one word type, in whatever mode that type supports — article, plural, Partizip II, haben/sein, comparative, case effect. Works a chunk of ten words at a time; new words unlock as the chunk is mastered. |
 | **Chunks** | Whole Redemittel and Nomen-Verb-Verbindungen, learned as units rather than words (A2+). |
+| **Drills** | Cases and word order. **Kasus-Drill** declines article + adjective + noun through any slice of case × der/die/das/plural × der/ein/kein/mein/no article × with/without adjective — named case, after a fixed-case preposition, or after a Wechselpräposition with Wo?/Wohin? — as multiple choice or typed, with a weak-spot grid that drills the case × gender squares you keep missing. **Echte Sätze** asks for the case of a highlighted phrase in a real sentence. **Satzbau** rebuilds a scrambled sentence from its English meaning, by sentence type (Hauptsatz, Frage, Nebensatz, Relativsatz, Satzklammer). |
 | **Browse** | The whole dataset, searchable, filterable by topic and by learning status (not started / learning / weak / mastered). |
 | **Spickzettel** | 35 grammar cards covering A1–B1: cases, Genus hacks, plural patterns, every tense, Konjunktiv II, Passiv, adjective endings, the Satzbau algorithm, Relativsätze, prepositions — including the wohin/wo/woher decision (ins Kino vs zum Arzt vs nach München) and the im/ins/zum/zur contractions — and 26 Stolperfallen. |
 | **Notes** | Your own Notion pages, read live (optional — see the proxy setup below). |
@@ -49,6 +50,38 @@ The one-shot repair scripts that brought the data to that state are kept in
 | `fix-phrase-notes.mjs` | English usage notes filed as German examples |
 | `dedupe-across-categories.mjs` | 137 headwords living in two or three category files |
 | `fix-other-wordclasses.mjs`, `fix-noun-topics.mjs` | topic and word-class buckets |
+
+## Where the drill exercises come from
+
+None of the Drills content is written by hand, so none of it can be made up:
+
+- **Kasus-Drill** questions are computed by `src/engine/kasus.js` from the
+  standard declension tables (definite article, ein-word endings, weak / mixed /
+  strong adjective endings, the fixed case of each preposition, the standard
+  contractions am/im/ins/zum/zur/vom/beim) applied to the nouns in `nouns.json`.
+  A noun is only used when every form is certain — n-nouns (der Student),
+  mixed nouns (der Name), adjectival nouns (der/die Deutsche) and masculine or
+  neuter nouns in -s (der Bus) are left out. `scripts/check-kasus.mjs` holds
+  the engine to textbook paradigms (der neue Tisch, einem neuen Tisch, neuer
+  Tische, ins neue Buch …) and runs in `npm run data:check`, so a build with a
+  wrong ending fails.
+- **Echte Sätze** and the "Echte Sätze" half of **Satzbau** come from the
+  [Universal Dependencies German PUD treebank](https://github.com/UniversalDependencies/UD_German-PUD)
+  — 1,000 real news and Wikipedia sentences with human English translations
+  and hand-checked annotation (text and translations CC BY-SA 3.0, © Google).
+  The case question's answer is that annotation, kept only where it agrees
+  with the article's own form in the declension tables above.
+- The rest of **Satzbau** is the app's own German — English example sentences;
+  the answer is the sentence as written.
+
+`public/data/satzbau.json` and `public/data/kasus-echt.json` are generated:
+
+```bash
+git clone --depth 1 https://github.com/UniversalDependencies/UD_German-PUD /tmp/pud
+npm run exercises:build -- /tmp/pud/de_pud-ud-test.conllu
+```
+
+Re-run it after changing example sentences so Satzbau picks them up.
 
 ## Requirements
 - Node.js 18+ and npm.

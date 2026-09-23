@@ -6,12 +6,13 @@ import { LevelSwitcher } from "./LevelSwitcher";
 import { answeredToday, streakOf } from "../engine/activity";
 
 // The single source of truth for the app's views. Bottom nav reuses it,
-// falling back to `short` where the full label no longer fits seven tabs
+// falling back to `short` where the full label no longer fits eight tabs
 // across a phone screen.
 export const VIEWS = [
   { id: "mixed", label: "Mixed", icon: "🎲" },
   { id: "quiz", label: "Quiz", icon: "📚" },
   { id: "chunks", label: "Chunks", icon: "🧩" },
+  { id: "drills", label: "Drills", icon: "🎯" },
   { id: "browse", label: "Browse", icon: "🔍" },
   { id: "cheatsheet", label: "Spickzettel", short: "Spick", icon: "📖" },
   { id: "notes", label: "Notes", icon: "📝" },
@@ -22,7 +23,7 @@ export const VIEWS = [
 const NO_LEVELS = new Set(["cheatsheet", "notes", "chunks"]);
 // Mixed draws from several categories at once and picks them with its own
 // chips, so the single-category tab row would be meaningless there.
-const NO_CATEGORIES = new Set(["mixed", "stats", "cheatsheet", "notes", "chunks"]);
+const NO_CATEGORIES = new Set(["mixed", "stats", "cheatsheet", "notes", "chunks", "drills"]);
 
 // ── Today's bar ───────────────────────────────────────────────
 // Two facts a language app has to keep in front of you and this one did not:

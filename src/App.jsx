@@ -37,6 +37,7 @@ import { BottomNav } from "./components/BottomNav";
 import { MixedView } from "./components/MixedView";
 import { QuizView } from "./components/QuizView";
 import { ChunksView } from "./components/ChunksView";
+import { DrillsView } from "./components/DrillsView";
 import { BrowseView } from "./components/BrowseView";
 import { CheatsheetView } from "./components/CheatsheetView";
 import { StatsView } from "./components/StatsView";
@@ -65,7 +66,7 @@ export default function DeutschMeister() {
   // Mixed is the landing view: a 40-card deck drawn across nouns, verbs,
   // adjectives and grammar, so practice starts on the whole level instead
   // of the top of whichever category tab happens to be open.
-  const [view, setView] = useState("mixed"); // mixed | quiz | chunks | browse | cheatsheet | notes | stats
+  const [view, setView] = useState("mixed"); // mixed | quiz | chunks | drills | browse | cheatsheet | notes | stats
   const [activeCat, setActiveCat] = useState(0);
   const [levelFilter, setLevelFilter] = useState("All");
 
@@ -153,6 +154,7 @@ export default function DeutschMeister() {
           {view === "mixed" && <MixedView db={db} {...shared} levelFilter={levelFilter} />}
           {view === "quiz" && <QuizView key={cat.id} cat={cat} {...shared} levelFilter={levelFilter} db={db} />}
           {view === "chunks" && <ChunksView {...shared} />}
+          {view === "drills" && <DrillsView db={db} {...shared} levelFilter={levelFilter} />}
           {view === "browse" && <BrowseView key={cat.id} cat={cat} progress={progress} setProgress={setProgress} levelFilter={levelFilter} db={db} />}
           {view === "notes" && <NotesView />}
           {view === "stats" && (
