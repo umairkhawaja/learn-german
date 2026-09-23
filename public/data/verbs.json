@@ -33,12 +33,7 @@
    "sie": "haben gesprochen"
   },
   "n": "Irregular: e→i (du sprichst, er spricht). 'sprechen mit jemandem über etwas (Akk)'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Sprich!",
-   "ihr": "Sprecht!",
-   "sie": "Sprechen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "denken",
@@ -74,12 +69,7 @@
    "sie": "haben gedacht"
   },
   "n": "Mixed verb (dachte, gedacht). 'denken an + Akk' = to think of / about.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Denk!",
-   "ihr": "Denkt!",
-   "sie": "Denken Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "beginnen",
@@ -115,12 +105,7 @@
    "sie": "haben begonnen"
   },
   "n": "Irregular (begann, begonnen). 'beginnen mit + Dativ' or 'beginnen zu + infinitive'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Beginn!",
-   "ihr": "Beginnt!",
-   "sie": "Beginnen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "machen",
@@ -156,12 +141,7 @@
    "sie": "haben gemacht"
   },
   "n": "The all-purpose verb for 'do/make'. Countless idioms: 'Das macht nichts' (it doesn't matter), 'Mach schnell!' (hurry up).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Mach!",
-   "ihr": "Macht!",
-   "sie": "Machen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "bleiben",
@@ -197,12 +177,7 @@
    "sie": "sind geblieben"
   },
   "n": "Irregular (blieb, geblieben); takes 'sein' in the Perfekt even though there's no movement.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Bleib!",
-   "ihr": "Bleibt!",
-   "sie": "Bleiben Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "nennen",
@@ -238,12 +213,7 @@
    "sie": "haben genannt"
   },
   "n": "Mixed verb (nannte, genannt). 'jemanden/etwas X nennen' = to call / name.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Nenn!",
-   "ihr": "Nennt!",
-   "sie": "Nennen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "gehen",
@@ -279,12 +249,7 @@
    "sie": "sind gegangen"
   },
   "n": "Irregular (ging, gegangen); 'sein' in the Perfekt.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Geh!",
-   "ihr": "Geht!",
-   "sie": "Gehen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "laufen",
@@ -320,12 +285,7 @@
    "sie": "sind gelaufen"
   },
   "n": "Irregular: a→äu (du läufst); 'sein' in the Perfekt. Means 'to run/walk' or 'to work/run' (machines).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Lauf!",
-   "ihr": "Lauft!",
-   "sie": "Laufen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "lassen",
@@ -361,12 +321,7 @@
    "sie": "haben gelassen"
   },
   "n": "Irregular: a→ä (du lässt). Also 'etwas machen lassen' = to have something done.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Lass!",
-   "ihr": "Lasst!",
-   "sie": "Lassen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "heißen",
@@ -438,12 +393,7 @@
    "sie": "haben gestellt"
   },
   "n": "'stellen' = to put upright (vs 'legen' = to lay flat). 'eine Frage stellen' = to ask a question. Pairs with the position verb 'stehen'.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Stell!",
-   "ihr": "Stellt!",
-   "sie": "Stellen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "fragen",
@@ -479,12 +429,7 @@
    "sie": "haben gefragt"
   },
   "n": "'fragen nach + Dativ' = to ask about/for. Takes the Akkusativ for the person: jemanden fragen.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Frag!",
-   "ihr": "Fragt!",
-   "sie": "Fragen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "verstehen",
@@ -520,12 +465,7 @@
    "sie": "haben verstanden"
   },
   "n": "Irregular (verstand, verstanden). 'ver-' is inseparable, so there's no -ge- in the participle.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Versteh!",
-   "ihr": "Versteht!",
-   "sie": "Verstehen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "leben",
@@ -561,12 +501,7 @@
    "sie": "haben gelebt"
   },
   "n": "'leben' = to be alive / live (in a general sense); 'wohnen' = to reside at a specific address.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Leb!",
-   "ihr": "Lebt!",
-   "sie": "Leben Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "arbeiten",
@@ -602,12 +537,7 @@
    "sie": "haben gearbeitet"
   },
   "n": "'arbeiten bei + Dativ' (an employer), 'arbeiten als' (a role), 'arbeiten an + Dativ' (a project). Stem ends in -t, so +e: du arbeitest.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Arbeite!",
-   "ihr": "Arbeitet!",
-   "sie": "Arbeiten Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "fallen",
@@ -643,12 +573,7 @@
    "sie": "sind gefallen"
   },
   "n": "Irregular: a→ä (du fällst); 'sein' in the Perfekt (change of position).",
-  "lvl": "A2",
-  "imp": {
-   "du": "Fall!",
-   "ihr": "Fallt!",
-   "sie": "Fallen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "mögen",
@@ -720,12 +645,7 @@
    "sie": "haben getan"
   },
   "n": "Irregular (tat, getan). Often colloquial for 'machen'; 'jemandem leidtun/wehtun'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Tu!",
-   "ihr": "Tut!",
-   "sie": "Tun Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "können",
@@ -797,12 +717,7 @@
    "sie": "haben gehalten"
   },
   "n": "Irregular: a→ä (du hältst). Means 'to hold' or 'to stop'. 'halten von + Dativ' = to think of.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Halt!",
-   "ihr": "Haltet!",
-   "sie": "Halten Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "spielen",
@@ -838,12 +753,7 @@
    "sie": "haben gespielt"
   },
   "n": "Used for games, sports, instruments and acting: 'Fußball/Klavier/Theater spielen'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Spiel!",
-   "ihr": "Spielt!",
-   "sie": "Spielen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "sagen",
@@ -879,12 +789,7 @@
    "sie": "haben gesagt"
   },
   "n": "'jemandem etwas sagen' (Dativ + Akk). 'sagen zu' = to say to/about. Very common: 'Wie sagt man...?' = How do you say...?",
-  "lvl": "A1",
-  "imp": {
-   "du": "Sag!",
-   "ihr": "Sagt!",
-   "sie": "Sagen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "legen",
@@ -920,12 +825,7 @@
    "sie": "haben gelegt"
   },
   "n": "'legen' = to lay flat (vs 'stellen' = to stand up). 'sich legen' = to lie down. Pairs with 'liegen' (to be lying).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Leg!",
-   "ihr": "Legt!",
-   "sie": "Legen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "folgen",
@@ -961,12 +861,7 @@
    "sie": "sind gefolgt"
   },
   "n": "Takes the Dativ: 'jemandem folgen'. Uses 'sein' in the Perfekt (movement).",
-  "lvl": "A2",
-  "imp": {
-   "du": "Folg!",
-   "ihr": "Folgt!",
-   "sie": "Folgen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "stehen",
@@ -1002,12 +897,7 @@
    "sie": "haben gestanden"
   },
   "n": "Irregular (stand, gestanden). In the south of Germany and Austria the Perfekt can take 'sein'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Steh!",
-   "ihr": "Steht!",
-   "sie": "Stehen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "haben",
@@ -1043,12 +933,7 @@
    "sie": "haben gehabt"
   },
   "n": "Irregular (du hast, er hat; hatte, gehabt). The key auxiliary for the Perfekt of most verbs.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Hab!",
-   "ihr": "Habt!",
-   "sie": "Haben Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "lernen",
@@ -1084,12 +969,7 @@
    "sie": "haben gelernt"
   },
   "n": "'lernen' = to learn / study (school subjects, skills); 'studieren' = to study at university.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Lern!",
-   "ihr": "Lernt!",
-   "sie": "Lernen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "brauchen",
@@ -1161,12 +1041,7 @@
    "sie": "haben gelegen"
   },
   "n": "Irregular (lag, gelegen). Position verb: 'liegen' (to lie) vs 'legen' (to lay / put).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Lieg!",
-   "ihr": "Liegt!",
-   "sie": "Liegen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "wissen",
@@ -1238,12 +1113,7 @@
    "sie": "sind geworden"
   },
   "n": "Irregular (du wirst, er wird; wurde, geworden); 'sein' in the Perfekt. Also forms the future and the passive.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Werde!",
-   "ihr": "Werdet!",
-   "sie": "Werden Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "glauben",
@@ -1279,12 +1149,7 @@
    "sie": "haben geglaubt"
   },
   "n": "'jemandem glauben' (believe a person, Dativ); 'glauben an + Akk' = to believe in.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Glaub!",
-   "ihr": "Glaubt!",
-   "sie": "Glauben Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "lesen",
@@ -1320,12 +1185,7 @@
    "sie": "haben gelesen"
   },
   "n": "Irregular: e→ie (du liest, er liest; las, gelesen).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Lies!",
-   "ihr": "Lest!",
-   "sie": "Lesen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "führen",
@@ -1361,12 +1221,7 @@
    "sie": "haben geführt"
   },
   "n": "'führen zu + Dativ' = to lead to. Also 'ein Gespräch führen' = to hold a conversation.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Führ!",
-   "ihr": "Führt!",
-   "sie": "Führen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "setzen",
@@ -1402,12 +1257,7 @@
    "sie": "haben gesetzt"
   },
   "n": "'sich setzen' = to sit down (the action); 'sitzen' = to be sitting (the state). 'setzen' = to set/place.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Setz!",
-   "ihr": "Setzt!",
-   "sie": "Setzen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "hören",
@@ -1443,12 +1293,7 @@
    "sie": "haben gehört"
   },
   "n": "'hören' = to hear/listen; 'zuhören' (+ Dativ) = to listen attentively. 'hören von' = to hear from/about.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Hör!",
-   "ihr": "Hört!",
-   "sie": "Hören Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "sein",
@@ -1484,12 +1329,7 @@
    "sie": "sind gewesen"
   },
   "n": "Highly irregular (ich bin, du bist, er ist; war, gewesen); its own Perfekt takes 'sein'. The most important verb to learn.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Sei!",
-   "ihr": "Seid!",
-   "sie": "Seien Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "müssen",
@@ -1561,12 +1401,7 @@
    "sie": "haben gesehen"
   },
   "n": "Irregular: e→ie (du siehst, er sieht; sah, gesehen).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Sieh!",
-   "ihr": "Seht!",
-   "sie": "Sehen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "wollen",
@@ -1638,12 +1473,7 @@
    "sie": "haben gekauft"
   },
   "n": "Buy a specific item; for grocery shopping use 'einkaufen'. 'sich (Dativ) etwas kaufen' = to buy oneself something.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Kauf!",
-   "ihr": "Kauft!",
-   "sie": "Kaufen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "sollen",
@@ -1715,12 +1545,7 @@
    "sie": "haben gefunden"
   },
   "n": "Irregular (fand, gefunden). Also 'to think / find': 'Ich finde das gut.'",
-  "lvl": "A1",
-  "imp": {
-   "du": "Finde!",
-   "ihr": "Findet!",
-   "sie": "Finden Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "dürfen",
@@ -1792,12 +1617,7 @@
    "sie": "haben gebracht"
   },
   "n": "Mixed verb (brachte, gebracht). 'jemandem etwas bringen' (Dativ + Akk). 'bringen' = to bring/take to where the listener is.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Bring!",
-   "ihr": "Bringt!",
-   "sie": "Bringen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "geben",
@@ -1833,12 +1653,7 @@
    "sie": "haben gegeben"
   },
   "n": "Irregular: e→i (du gibst, er gibt; gab, gegeben). 'es gibt + Akk' = there is / are.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Gib!",
-   "ihr": "Gebt!",
-   "sie": "Geben Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "nehmen",
@@ -1874,12 +1689,7 @@
    "sie": "haben genommen"
   },
   "n": "Irregular: e→i with a stem change (du nimmst, er nimmt; nahm, genommen).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Nimm!",
-   "ihr": "Nehmt!",
-   "sie": "Nehmen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "schreiben",
@@ -1915,12 +1725,7 @@
    "sie": "haben geschrieben"
   },
   "n": "Irregular (schrieb, geschrieben). 'schreiben an + Akk' = to write to.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Schreib!",
-   "ihr": "Schreibt!",
-   "sie": "Schreiben Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "kommen",
@@ -1956,12 +1761,7 @@
    "sie": "sind gekommen"
   },
   "n": "Irregular (kam, gekommen); 'sein' in the Perfekt.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Komm!",
-   "ihr": "Kommt!",
-   "sie": "Kommen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "zeigen",
@@ -1997,12 +1797,7 @@
    "sie": "haben gezeigt"
   },
   "n": "'jemandem etwas zeigen' (Dativ + Akk). 'zeigen auf + Akk' = to point at.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Zeige!",
-   "ihr": "Zeigt!",
-   "sie": "Zeigen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "studieren",
@@ -2038,12 +1833,7 @@
    "sie": "haben studiert"
   },
   "n": "Means specifically to study at university / a subject. For learning/revising use 'lernen'. -ieren verbs have no ge- in the participle: studiert.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Studier!",
-   "ihr": "Studiert!",
-   "sie": "Studieren Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "reagieren",
@@ -2079,12 +1869,7 @@
    "sie": "haben reagiert"
   },
   "n": "'reagieren auf + Akk' = to react to. -ieren verb: participle 'reagiert' (no ge-).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Reagier!",
-   "ihr": "Reagiert!",
-   "sie": "Reagieren Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "essen",
@@ -2120,12 +1905,7 @@
    "sie": "haben gegessen"
   },
   "n": "Irregular: e→i (du isst, er isst; aß, gegessen). Note the participle 'gegessen'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Iss!",
-   "ihr": "Esst!",
-   "sie": "Essen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "bilden",
@@ -2161,12 +1941,7 @@
    "sie": "haben gebildet"
   },
   "n": "Means 'to form/build/educate'. 'sich bilden' = to form / to educate oneself. Stem in -d: du bildest.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Bilde!",
-   "ihr": "Bildet!",
-   "sie": "Bilden Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "erhalten",
@@ -2202,12 +1977,7 @@
    "sie": "haben erhalten"
   },
   "n": "Irregular: a→ä (du erhältst). 'er-' inseparable (no -ge-). A formal alternative to 'bekommen'.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Erhalt!",
-   "ihr": "Erhaltet!",
-   "sie": "Erhalten Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "umziehen",
@@ -2244,12 +2014,7 @@
   },
   "n": "Separable, irregular; 'sein' in the Perfekt when it means 'to move house'. 'sich umziehen' (reflexive) = to change clothes.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Zieh um!",
-   "ihr": "Zieht um!",
-   "sie": "Ziehen Sie um!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "antworten",
@@ -2285,12 +2050,7 @@
    "sie": "haben geantwortet"
   },
   "n": "Takes the Dativ for the person: 'jemandem antworten'; 'antworten auf + Akk' for the thing. Not separable (ant- is part of the stem). For 'to answer a question' use 'beantworten' + Akk.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Antworte!",
-   "ihr": "Antwortet!",
-   "sie": "Antworten Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "treffen",
@@ -2326,12 +2086,7 @@
    "sie": "haben getroffen"
   },
   "n": "Irregular: e→i (du triffst, er trifft; traf, getroffen). 'sich treffen mit' = to meet up with.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Triff!",
-   "ihr": "Trefft!",
-   "sie": "Treffen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "fahren",
@@ -2367,12 +2122,7 @@
    "sie": "sind gefahren"
   },
   "n": "Irregular: a→ä (du fährst). 'sein' when moving somewhere, 'haben' when you drive a vehicle (Ich habe das Auto gefahren).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Fahr!",
-   "ihr": "Fahrt!",
-   "sie": "Fahren Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "aufhören",
@@ -2409,12 +2159,7 @@
   },
   "n": "Separable. 'aufhören mit + Dativ' (Hör mit dem Lärm auf) or 'aufhören zu + infinitive'.",
   "sep": true,
-  "lvl": "A2",
-  "imp": {
-   "du": "Hör auf!",
-   "ihr": "Hört auf!",
-   "sie": "Hören Sie auf!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "wohnen",
@@ -2450,12 +2195,7 @@
    "sie": "haben gewohnt"
   },
   "n": "'wohnen' = to reside at an address ('wohnen in/bei'); 'leben' = to live in the broader sense.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Wohn!",
-   "ihr": "Wohnt!",
-   "sie": "Wohnen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "gewinnen",
@@ -2491,12 +2231,7 @@
    "sie": "haben gewonnen"
   },
   "n": "Irregular (gewann, gewonnen). Opposite of 'verlieren'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Gewinn!",
-   "ihr": "Gewinnt!",
-   "sie": "Gewinnen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "erscheinen",
@@ -2532,12 +2267,7 @@
    "sie": "sind erschienen"
   },
   "n": "Irregular (erschien, erschienen); 'sein' in the Perfekt. 'er-' inseparable. Means 'to appear / be published'.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Erschein!",
-   "ihr": "Erscheint!",
-   "sie": "Erscheinen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "anrufen",
@@ -2574,12 +2304,7 @@
   },
   "n": "Separable: 'an' goes to the end in main clauses. Irregular (rief an, angerufen). Takes a direct object (Akkusativ): jemanden anrufen.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Ruf an!",
-   "ihr": "Ruft an!",
-   "sie": "Rufen Sie an!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "schwimmen",
@@ -2615,12 +2340,7 @@
    "sie": "sind geschwommen"
   },
   "n": "Irregular (schwamm, geschwommen); usually 'sein' in the Perfekt (movement).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Schwimm!",
-   "ihr": "Schwimmt!",
-   "sie": "Schwimmen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "sterben",
@@ -2656,12 +2376,7 @@
    "sie": "sind gestorben"
   },
   "n": "Irregular: e→i (du stirbst, er stirbt); 'sein' in the Perfekt. 'sterben an + Dativ' = to die of.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Stirb!",
-   "ihr": "Sterbt!",
-   "sie": "Sterben Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "verlieren",
@@ -2697,12 +2412,7 @@
    "sie": "haben verloren"
   },
   "n": "Irregular (verlor, verloren). 'ver-' inseparable. Opposite of 'gewinnen' / 'finden'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Verlier!",
-   "ihr": "Verliert!",
-   "sie": "Verlieren Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "bedeuten",
@@ -2774,12 +2484,7 @@
    "sie": "haben gehandelt"
   },
   "n": "'handeln' = to act; 'handeln von' = to be about; 'es handelt sich um + Akk' = it's a matter of. 'handeln mit' = to trade in.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Handle!",
-   "ihr": "Handelt!",
-   "sie": "Handeln Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "erklären",
@@ -2815,12 +2520,7 @@
    "sie": "haben erklärt"
   },
   "n": "'jemandem etwas erklären' (Dativ + Akk). 'er-' is inseparable, so no ge-: erklärt.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Erklär!",
-   "ihr": "Erklärt!",
-   "sie": "Erklären Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "kennen",
@@ -2856,12 +2556,7 @@
    "sie": "haben gekannt"
   },
   "n": "Mixed verb (kannte, gekannt). 'kennen' = to know / be familiar with (people, places); 'wissen' = to know facts.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Kenn!",
-   "ihr": "Kennt!",
-   "sie": "Kennen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "einkaufen",
@@ -2898,12 +2593,7 @@
   },
   "n": "Separable. 'einkaufen' = to do (grocery) shopping; 'kaufen' = to buy a specific thing.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Kauf ein!",
-   "ihr": "Kauft ein!",
-   "sie": "Kaufen Sie ein!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "hoffen",
@@ -2939,12 +2629,7 @@
    "sie": "haben gehofft"
   },
   "n": "'hoffen auf + Akk' = to hope for. 'Ich hoffe, dass...' introduces a clause.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Hoff!",
-   "ihr": "Hofft!",
-   "sie": "Hoffen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "schicken",
@@ -2980,12 +2665,7 @@
    "sie": "haben geschickt"
   },
   "n": "'jemandem etwas schicken' (Dativ + Akk). Synonyms: 'senden', 'verschicken'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Schick!",
-   "ihr": "Schickt!",
-   "sie": "Schicken Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "zahlen",
@@ -3021,12 +2701,7 @@
    "sie": "haben gezahlt"
   },
   "n": "'zahlen' = to pay; 'bezahlen' = to pay for (something/someone), often with an object. 'Zahlen, bitte!' = The bill, please!",
-  "lvl": "A1",
-  "imp": {
-   "du": "Zahl!",
-   "ihr": "Zahlt!",
-   "sie": "Zahlen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "tanzen",
@@ -3062,12 +2737,7 @@
    "sie": "haben getanzt"
   },
   "n": "Regular. 'tanzen mit' = to dance with.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Tanz!",
-   "ihr": "Tanzt!",
-   "sie": "Tanzen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "aufstehen",
@@ -3104,12 +2774,7 @@
   },
   "n": "Separable, irregular; takes 'sein' in the Perfekt (change of position).",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Steh auf!",
-   "ihr": "Steht auf!",
-   "sie": "Stehen Sie auf!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "helfen",
@@ -3145,12 +2810,7 @@
    "sie": "haben geholfen"
   },
   "n": "Irregular: e→i (du hilfst, er hilft; half, geholfen). Takes the Dativ: 'jemandem helfen'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Hilf!",
-   "ihr": "Helft!",
-   "sie": "Helfen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "schlafen",
@@ -3186,12 +2846,7 @@
    "sie": "haben geschlafen"
   },
   "n": "Irregular: a→ä (du schläfst, er schläft; schlief, geschlafen).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Schlaf!",
-   "ihr": "Schlaft!",
-   "sie": "Schlafen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "anfangen",
@@ -3228,12 +2883,7 @@
   },
   "n": "Separable, irregular: a→ä (du fängst an). 'anfangen mit + Dativ' or 'anfangen zu + infinitive'.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Fang an!",
-   "ihr": "Fangt an!",
-   "sie": "Fangen Sie an!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "verlassen",
@@ -3269,12 +2919,7 @@
    "sie": "haben verlassen"
   },
   "n": "Irregular: a→ä (du verlässt). 'ver-' inseparable. 'verlassen' = to leave (a place/person); 'sich verlassen auf + Akk' = to rely on.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Verlass!",
-   "ihr": "Verlasst!",
-   "sie": "Verlassen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "vergessen",
@@ -3310,12 +2955,7 @@
    "sie": "haben vergessen"
   },
   "n": "Irregular: e→i (du vergisst, er vergisst). 'ver-' inseparable (no -ge-).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Vergiss!",
-   "ihr": "Vergesst!",
-   "sie": "Vergessen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "entstehen",
@@ -3351,12 +2991,7 @@
    "sie": "sind entstanden"
   },
   "n": "Irregular (entstand, entstanden); 'sein' in the Perfekt. 'ent-' inseparable. Means 'to arise / come into being'.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Entsteh!",
-   "ihr": "Entsteht!",
-   "sie": "Entstehen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "wählen",
@@ -3392,12 +3027,7 @@
    "sie": "haben gewählt"
   },
   "n": "Means 'to choose / select' and also 'to vote / elect' and 'to dial' (a number).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Wähl!",
-   "ihr": "Wählt!",
-   "sie": "Wählen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "bestehen",
@@ -3433,12 +3063,7 @@
    "sie": "haben bestanden"
   },
   "n": "Irregular (bestand, bestanden). 'bestehen' = to pass (an exam); 'bestehen aus' = to consist of; 'bestehen auf + Dativ' = to insist on.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Besteh!",
-   "ihr": "Besteht!",
-   "sie": "Bestehen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "aufmachen",
@@ -3475,12 +3100,7 @@
   },
   "n": "Separable; colloquial alternative to 'öffnen'. Opposite: 'zumachen'.",
   "sep": true,
-  "lvl": "A2",
-  "imp": {
-   "du": "Mach auf!",
-   "ihr": "Macht auf!",
-   "sie": "Machen Sie auf!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "versuchen",
@@ -3516,12 +3136,7 @@
    "sie": "haben versucht"
   },
   "n": "'versuchen zu + infinitive' = to try to. 'ver-' inseparable: versucht.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Versuch!",
-   "ihr": "Versucht!",
-   "sie": "Versuchen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "gehören",
@@ -3593,12 +3208,7 @@
    "sie": "haben getrunken"
   },
   "n": "Irregular (trank, getrunken).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Trink!",
-   "ihr": "Trinkt!",
-   "sie": "Trinken Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "suchen",
@@ -3634,12 +3244,7 @@
    "sie": "haben gesucht"
   },
   "n": "Takes the Akkusativ directly (no preposition): 'etwas suchen' = to look for something. 'suchen nach' is also possible.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Such!",
-   "ihr": "Sucht!",
-   "sie": "Suchen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "reisen",
@@ -3675,12 +3280,7 @@
    "sie": "sind gereist"
   },
   "n": "Uses 'sein' in the Perfekt (movement). 'reisen nach' (a country/city).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Reise!",
-   "ihr": "Reist!",
-   "sie": "Reisen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "vorhaben",
@@ -3717,12 +3317,7 @@
   },
   "n": "Separable, conjugates like 'haben' (du hast vor). Means 'to plan / have planned'.",
   "sep": true,
-  "lvl": "A2",
-  "imp": {
-   "du": "Hab vor!",
-   "ihr": "Habt vor!",
-   "sie": "Haben Sie vor!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "zuhören",
@@ -3759,12 +3354,7 @@
   },
   "n": "Separable. Takes the Dativ: jemandem zuhören.",
   "sep": true,
-  "lvl": "A2",
-  "imp": {
-   "du": "Hör zu!",
-   "ihr": "Hört zu!",
-   "sie": "Hören Sie zu!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "fernsehen",
@@ -3801,12 +3391,7 @@
   },
   "n": "Separable, irregular: e→ie (du siehst fern). 'fern' splits off to the end.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Sieh fern!",
-   "ihr": "Seht fern!",
-   "sie": "Sehen Sie fern!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "passieren",
@@ -3878,12 +3463,7 @@
    "sie": "haben erzählt"
   },
   "n": "'jemandem etwas erzählen' (Dativ + Akk); 'erzählen von/über' = to tell about. 'erzählen' = to recount; 'sagen' = to state.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Erzähl!",
-   "ihr": "Erzählt!",
-   "sie": "Erzählen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "lächeln",
@@ -3919,12 +3499,7 @@
    "sie": "haben gelächelt"
   },
   "n": "Verbs in -eln drop the e: ich lächle, du lächelst. 'lächeln' = to smile; 'lachen' = to laugh.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Lächle!",
-   "ihr": "Lächelt!",
-   "sie": "Lächeln Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "vorstellen",
@@ -3961,12 +3536,7 @@
   },
   "n": "Separable. 'sich vorstellen' = to introduce oneself; 'sich (Dativ) etwas vorstellen' = to imagine something.",
   "sep": true,
-  "lvl": "B1",
-  "imp": {
-   "du": "Stell vor!",
-   "ihr": "Stellt vor!",
-   "sie": "Stellen Sie vor!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "benutzen",
@@ -4002,12 +3572,7 @@
    "sie": "haben benutzt"
   },
   "n": "Takes the Akkusativ. Synonyms: 'nutzen', 'verwenden'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Benutz!",
-   "ihr": "Benutzt!",
-   "sie": "Benutzen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "kochen",
@@ -4043,12 +3608,7 @@
    "sie": "haben gekocht"
   },
   "n": "'kochen' = to cook; also 'to boil' (Das Wasser kocht).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Koch!",
-   "ihr": "Kocht!",
-   "sie": "Kochen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "holen",
@@ -4084,12 +3644,7 @@
    "sie": "haben geholt"
   },
   "n": "'holen' = to (go and) fetch; 'abholen' = to pick someone/something up. 'sich (Dativ) etwas holen' = to get oneself something.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Hol!",
-   "ihr": "Holt!",
-   "sie": "Holen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "dauern",
@@ -4125,12 +3680,7 @@
    "sie": "haben gedauert"
   },
   "n": "Impersonal, about duration: 'Es dauert lange' = it takes a long time.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Dauere!",
-   "ihr": "Dauert!",
-   "sie": "Dauern Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "kosten",
@@ -4202,12 +3752,7 @@
    "sie": "haben geschlossen"
   },
   "n": "Irregular (schloss, geschlossen). Means 'to close' or 'to conclude'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Schließ!",
-   "ihr": "Schließt!",
-   "sie": "Schließen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "öffnen",
@@ -4243,12 +3788,7 @@
    "sie": "haben geöffnet"
   },
   "n": "Means 'to open'; colloquial alternative 'aufmachen'. Opposite: 'schließen' / 'zumachen'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Öffne!",
-   "ihr": "Öffnet!",
-   "sie": "Öffnen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "tragen",
@@ -4284,12 +3824,7 @@
    "sie": "haben getragen"
   },
   "n": "Irregular: a→ä (du trägst, er trägt). Means 'to carry' or 'to wear'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Trag!",
-   "ihr": "Tragt!",
-   "sie": "Tragen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "waschen",
@@ -4325,12 +3860,7 @@
    "sie": "haben gewaschen"
   },
   "n": "Irregular: a→ä (du wäschst, er wäscht). 'sich waschen' = to wash oneself.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Wasch!",
-   "ihr": "Wascht!",
-   "sie": "Waschen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "putzen",
@@ -4366,12 +3896,7 @@
    "sie": "haben geputzt"
   },
   "n": "'putzen' = to clean / polish; 'sich die Zähne putzen' = to brush one's teeth.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Putz!",
-   "ihr": "Putzt!",
-   "sie": "Putzen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "enden",
@@ -4407,12 +3932,7 @@
    "sie": "haben geendet"
   },
   "n": "'enden' = to come to an end (intransitive); 'beenden' = to end something (transitive). Stem in -d: es endet.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Ende!",
-   "ihr": "Endet!",
-   "sie": "Enden Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "warten",
@@ -4448,12 +3968,7 @@
    "sie": "haben gewartet"
   },
   "n": "'warten auf + Akk' = to wait for. Stem in -t: du wartest.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Warte!",
-   "ihr": "Wartet!",
-   "sie": "Warten Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "wiederholen",
@@ -4489,12 +4004,7 @@
    "sie": "haben wiederholt"
   },
   "n": "Here 'wieder-' is INSEPARABLE (no split, no ge-): wiederholt. Means 'to repeat / revise'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Wiederhol!",
-   "ihr": "Wiederholt!",
-   "sie": "Wiederholen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "bezahlen",
@@ -4530,12 +4040,7 @@
    "sie": "haben bezahlt"
   },
   "n": "'bezahlen' usually takes an object (bezahlen + Akk); 'zahlen' can stand alone. 'be-' inseparable: bezahlt.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Bezahl!",
-   "ihr": "Bezahlt!",
-   "sie": "Bezahlen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "mitkommen",
@@ -4572,12 +4077,7 @@
   },
   "n": "Separable, irregular; 'sein' in the Perfekt (movement).",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Komm mit!",
-   "ihr": "Kommt mit!",
-   "sie": "Kommen Sie mit!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "anbieten",
@@ -4614,12 +4114,7 @@
   },
   "n": "Separable, irregular (bot an, angeboten). 'jemandem etwas anbieten' (Dativ + Akkusativ).",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Biete an!",
-   "ihr": "Bietet an!",
-   "sie": "Bieten Sie an!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "bitten",
@@ -4655,12 +4150,7 @@
    "sie": "haben gebeten"
   },
   "n": "Irregular (bat, gebeten). 'bitten um + Akk' = to ask for. Don't confuse with 'bieten' (to offer).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Bitte!",
-   "ihr": "Bittet!",
-   "sie": "Bitten Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "empfehlen",
@@ -4696,12 +4186,7 @@
    "sie": "haben empfohlen"
   },
   "n": "Irregular: e→ie (du empfiehlst, er empfiehlt). 'jemandem etwas empfehlen' (Dativ + Akk).",
-  "lvl": "A2",
-  "imp": {
-   "du": "Empfiehl!",
-   "ihr": "Empfehlt!",
-   "sie": "Empfehlen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "entscheiden",
@@ -4737,12 +4222,7 @@
    "sie": "haben entschieden"
   },
   "n": "Irregular (entschied, entschieden). 'sich entscheiden für + Akk' = to decide on. 'ent-' inseparable.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Entscheide!",
-   "ihr": "Entscheidet!",
-   "sie": "Entscheiden Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "erkennen",
@@ -4778,12 +4258,7 @@
    "sie": "haben erkannt"
   },
   "n": "Mixed verb (erkannte, erkannt). 'er-' inseparable. Means 'to recognise'.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Erkenn!",
-   "ihr": "Erkennt!",
-   "sie": "Erkennen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "erwarten",
@@ -4819,12 +4294,7 @@
    "sie": "haben erwartet"
   },
   "n": "'erwarten' = to expect (Akk). 'be-/er-' inseparable: erwartet. Note 'warten auf' = to wait for (≠ expect).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Erwarte!",
-   "ihr": "Erwartet!",
-   "sie": "Erwarten Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "fehlen",
@@ -4860,12 +4330,7 @@
    "sie": "haben gefehlt"
   },
   "n": "'jemandem fehlen' (Dativ) = to be missing to someone → 'Du fehlst mir' = I miss you. 'Was fehlt Ihnen?' = What's wrong (with you)?",
-  "lvl": "A1",
-  "imp": {
-   "du": "Fehl!",
-   "ihr": "Fehlt!",
-   "sie": "Fehlen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "interessieren",
@@ -4901,12 +4366,7 @@
    "sie": "haben interessiert"
   },
   "n": "'sich interessieren für + Akk' = to be interested in. -ieren verb: interessiert.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Interessier!",
-   "ihr": "Interessiert!",
-   "sie": "Interessieren Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "merken",
@@ -4942,12 +4402,7 @@
    "sie": "haben gemerkt"
   },
   "n": "'merken' = to notice; 'sich (Dativ) etwas merken' = to memorise / keep in mind.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Merk!",
-   "ihr": "Merkt!",
-   "sie": "Merken Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "schaffen",
@@ -4983,12 +4438,7 @@
    "sie": "haben geschafft"
   },
   "n": "Here regular: 'schaffen' = to manage / accomplish (schaffte, geschafft). A separate strong verb 'schaffen' (schuf, geschaffen) means 'to create'.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Schaff!",
-   "ihr": "Schafft!",
-   "sie": "Schaffen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "verbringen",
@@ -5024,12 +4474,7 @@
    "sie": "haben verbracht"
   },
   "n": "Mixed verb (verbrachte, verbracht). 'Zeit verbringen' = to spend time (use 'ausgeben' only for money).",
-  "lvl": "A2",
-  "imp": {
-   "du": "Verbring!",
-   "ihr": "Verbringt!",
-   "sie": "Verbringen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "vergleichen",
@@ -5065,12 +4510,7 @@
    "sie": "haben verglichen"
   },
   "n": "Irregular (verglich, verglichen). 'vergleichen mit + Dativ' = to compare with.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Vergleich!",
-   "ihr": "Vergleicht!",
-   "sie": "Vergleichen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "versprechen",
@@ -5106,12 +4546,7 @@
    "sie": "haben versprochen"
   },
   "n": "Irregular: e→i (du versprichst). 'jemandem etwas versprechen'. 'ver-' inseparable.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Versprich!",
-   "ihr": "Versprecht!",
-   "sie": "Versprechen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "vorschlagen",
@@ -5148,12 +4583,7 @@
   },
   "n": "Separable, irregular: a→ä (du schlägst vor). 'jemandem etwas vorschlagen'.",
   "sep": true,
-  "lvl": "B1",
-  "imp": {
-   "du": "Schlag vor!",
-   "ihr": "Schlagt vor!",
-   "sie": "Schlagen Sie vor!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "buchstabieren",
@@ -5189,12 +4619,7 @@
    "sie": "haben buchstabiert"
   },
   "n": "Means 'to spell out letter by letter'. -ieren verb: buchstabiert.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Buchstabier!",
-   "ihr": "Buchstabiert!",
-   "sie": "Buchstabieren Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "kontrollieren",
@@ -5230,12 +4655,7 @@
    "sie": "haben kontrolliert"
   },
   "n": "Means 'to check / inspect / control'. -ieren verb: kontrolliert. Synonym: 'prüfen'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Kontrollier!",
-   "ihr": "Kontrolliert!",
-   "sie": "Kontrollieren Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "lauten",
@@ -5271,12 +4691,7 @@
    "sie": "haben gelautet"
   },
   "n": "Used for the exact wording of texts, names, rules: 'Wie lautet...?' = What does ... say / how does it go? Stem in -t: es lautet.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Laute!",
-   "ihr": "Lautet!",
-   "sie": "Lauten Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "zusammenwohnen",
@@ -5313,12 +4728,7 @@
   },
   "n": "Separable. 'zusammen' goes to the end of the clause.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Wohn zusammen!",
-   "ihr": "Wohnt zusammen!",
-   "sie": "Wohnen Sie zusammen!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "entschuldigen",
@@ -5354,12 +4764,7 @@
    "sie": "haben entschuldigt"
   },
   "n": "'sich entschuldigen für + Akk' = to apologise for; 'sich bei jemandem entschuldigen' = to apologise to someone. 'ent-' inseparable.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Entschuldige!",
-   "ihr": "Entschuldigt!",
-   "sie": "Entschuldigen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "joggen",
@@ -5395,12 +4800,7 @@
    "sie": "haben gejoggt"
   },
   "n": "A loanword; Perfekt with 'haben' (the activity) or 'sein' (a route covered).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Jogg!",
-   "ihr": "Joggt!",
-   "sie": "Joggen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "wandern",
@@ -5436,12 +4836,7 @@
    "sie": "sind gewandert"
   },
   "n": "Verbs in -ern: ich wandere, du wanderst. Uses 'sein' in the Perfekt (movement).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Wandere!",
-   "ihr": "Wandert!",
-   "sie": "Wandern Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "fotografieren",
@@ -5477,12 +4872,7 @@
    "sie": "haben fotografiert"
   },
   "n": "Means 'to photograph / take photos'. -ieren verb: fotografiert (no ge-).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Fotografier!",
-   "ihr": "Fotografiert!",
-   "sie": "Fotografieren Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "feiern",
@@ -5518,12 +4908,7 @@
    "sie": "haben gefeiert"
   },
   "n": "Verbs in -ern: ich feiere, du feierst. 'eine Party feiern' = to have a party.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Feiere!",
-   "ihr": "Feiert!",
-   "sie": "Feiern Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "aussehen",
@@ -5560,12 +4945,7 @@
   },
   "n": "Separable, irregular: e→ie (du siehst aus). Means 'to look / appear', followed by an adjective.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Sieh aus!",
-   "ihr": "Seht aus!",
-   "sie": "Sehen Sie aus!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "stimmen",
@@ -5601,12 +4981,7 @@
    "sie": "haben gestimmt"
   },
   "n": "'stimmen' = to be correct/true. 'Stimmt!' = True! 'stimmen für/gegen' = to vote for/against. 'Stimmt so' = keep the change.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Stimm!",
-   "ihr": "Stimmt!",
-   "sie": "Stimmen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "möchten",
@@ -5678,12 +5053,7 @@
    "sie": "haben geschmeckt"
   },
   "n": "Like 'gefallen', often takes the Dativ: 'Es schmeckt mir' = I like the taste. 'schmecken nach' = to taste of.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Schmeck!",
-   "ihr": "Schmeckt!",
-   "sie": "Schmecken Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "bestellen",
@@ -5719,12 +5089,7 @@
    "sie": "haben bestellt"
   },
   "n": "Means 'to order' (food, goods). 'be-' inseparable: bestellt.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Bestell!",
-   "ihr": "Bestellt!",
-   "sie": "Bestellen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "wünschen",
@@ -5760,12 +5125,7 @@
    "sie": "haben gewünscht"
   },
   "n": "'jemandem etwas wünschen' (Dativ + Akk); 'sich (Dativ) etwas wünschen' = to wish for something.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Wünsch!",
-   "ihr": "Wünscht!",
-   "sie": "Wünschen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "frühstücken",
@@ -5801,12 +5161,7 @@
    "sie": "haben gefrühstückt"
   },
   "n": "A single verb meaning 'to have breakfast' (not separable). Participle: gefrühstückt.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Frühstück!",
-   "ihr": "Frühstückt!",
-   "sie": "Frühstücken Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "bekommen",
@@ -5842,12 +5197,7 @@
    "sie": "haben bekommen"
   },
   "n": "Irregular (bekam, bekommen). 'be-' inseparable, so it takes 'haben'. False friend: 'bekommen' = to receive, NOT 'to become' (= 'werden').",
-  "lvl": "A1",
-  "imp": {
-   "du": "Bekomm!",
-   "ihr": "Bekommt!",
-   "sie": "Bekommen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "präsentieren",
@@ -5883,12 +5233,7 @@
    "sie": "haben präsentiert"
   },
   "n": "Means 'to present / show'. -ieren verb: präsentiert.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Präsentier!",
-   "ihr": "Präsentiert!",
-   "sie": "Präsentieren Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "klettern",
@@ -5924,12 +5269,7 @@
    "sie": "sind geklettert"
   },
   "n": "Verbs in -ern: ich klettere. Uses 'sein' in the Perfekt (movement).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Klettere!",
-   "ihr": "Klettert!",
-   "sie": "Klettern Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "hingehen",
@@ -5966,12 +5306,7 @@
   },
   "n": "Separable; 'sein' in the Perfekt. 'hin' marks motion away from the speaker toward a place.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Geh hin!",
-   "ihr": "Geht hin!",
-   "sie": "Gehen Sie hin!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "schneiden",
@@ -6007,12 +5342,7 @@
    "sie": "haben geschnitten"
   },
   "n": "Irregular (schnitt, geschnitten). 'sich schneiden' = to cut oneself.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Schneide!",
-   "ihr": "Schneidet!",
-   "sie": "Schneiden Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "lieben",
@@ -6048,12 +5378,7 @@
    "sie": "haben geliebt"
   },
   "n": "Stronger than 'mögen' (to like). Takes the Akkusativ.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Lieb!",
-   "ihr": "Liebt!",
-   "sie": "Lieben Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "mitnehmen",
@@ -6090,12 +5415,7 @@
   },
   "n": "Separable, irregular: e→i (du nimmst mit). 'jemanden/etwas mitnehmen' = to take along.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Nimm mit!",
-   "ihr": "Nehmt mit!",
-   "sie": "Nehmen Sie mit!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "üben",
@@ -6131,12 +5451,7 @@
    "sie": "haben geübt"
   },
   "n": "Means 'to practise'. Related: 'die Übung' = exercise.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Üb!",
-   "ihr": "Übt!",
-   "sie": "Üben Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "bauen",
@@ -6172,12 +5487,7 @@
    "sie": "haben gebaut"
   },
   "n": "Regular. 'auf jemanden bauen' = to count on someone.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Bau!",
-   "ihr": "Baut!",
-   "sie": "Bauen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "besuchen",
@@ -6213,12 +5523,7 @@
    "sie": "haben besucht"
   },
   "n": "Means 'to visit' (people or places); 'einen Kurs besuchen' = to attend a course. 'be-' inseparable: besucht.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Besuch!",
-   "ihr": "Besucht!",
-   "sie": "Besuchen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "unterrichten",
@@ -6254,12 +5559,7 @@
    "sie": "haben unterrichtet"
   },
   "n": "Here 'unter-' is INSEPARABLE (to teach): unterrichtet, no ge-, no split.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Unterrichte!",
-   "ihr": "Unterrichtet!",
-   "sie": "Unterrichten Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "organisieren",
@@ -6295,12 +5595,7 @@
    "sie": "haben organisiert"
   },
   "n": "Means 'to organise / arrange'. -ieren verb: organisiert.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Organisier!",
-   "ihr": "Organisiert!",
-   "sie": "Organisieren Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "klingeln",
@@ -6336,12 +5631,7 @@
    "sie": "haben geklingelt"
   },
   "n": "Verbs in -eln: es klingelt, geklingelt. Impersonal 'Es klingelt' = the bell is ringing.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Klingle!",
-   "ihr": "Klingelt!",
-   "sie": "Klingeln Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "besprechen",
@@ -6377,12 +5667,7 @@
    "sie": "haben besprochen"
   },
   "n": "Irregular stem from 'sprechen' but inseparable here (be-): bespricht, besprach, besprochen. Means 'to discuss'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Besprich!",
-   "ihr": "Besprecht!",
-   "sie": "Besprechen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "schauen",
@@ -6418,12 +5703,7 @@
    "sie": "haben geschaut"
   },
   "n": "Means 'to look' (common in the south); standard synonym 'sehen/gucken'. 'schauen auf + Akk' = to look at.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Schau!",
-   "ihr": "Schaut!",
-   "sie": "Schauen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "mitgehen",
@@ -6460,12 +5740,7 @@
   },
   "n": "Separable; 'sein' in the Perfekt (movement).",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Geh mit!",
-   "ihr": "Geht mit!",
-   "sie": "Gehen Sie mit!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "planen",
@@ -6501,12 +5776,7 @@
    "sie": "haben geplant"
   },
   "n": "Regular. Related: 'vorhaben' = to have planned, 'der Plan'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Plan!",
-   "ihr": "Plant!",
-   "sie": "Planen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "passen",
@@ -6542,12 +5812,7 @@
    "sie": "haben gepasst"
   },
   "n": "Takes the Dativ: 'Das passt mir' = that suits me. 'passen zu' = to go with/match; 'aufpassen' = to pay attention.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Pass!",
-   "ihr": "Passt!",
-   "sie": "Passen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "einladen",
@@ -6584,12 +5849,7 @@
   },
   "n": "Separable, irregular: a→ä (du lädst ein). 'jemanden zu etwas einladen'.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Lad ein!",
-   "ihr": "Ladet ein!",
-   "sie": "Laden Sie ein!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "aufschreiben",
@@ -6626,12 +5886,7 @@
   },
   "n": "Separable, irregular (schrieb auf, aufgeschrieben). Means 'to write down / note down'.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Schreib auf!",
-   "ihr": "Schreibt auf!",
-   "sie": "Schreiben Sie auf!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "aufräumen",
@@ -6668,12 +5923,7 @@
   },
   "n": "Separable. 'aufräumen' = to tidy up / clear away.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Räum auf!",
-   "ihr": "Räumt auf!",
-   "sie": "Räumen Sie auf!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "mitbringen",
@@ -6710,12 +5960,7 @@
   },
   "n": "Separable, mixed verb (brachte mit, mitgebracht). 'jemandem etwas mitbringen'.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Bring mit!",
-   "ihr": "Bringt mit!",
-   "sie": "Bringen Sie mit!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "meinen",
@@ -6751,12 +5996,7 @@
    "sie": "haben gemeint"
   },
   "n": "Means 'to think / be of the opinion' and 'to mean'. 'Ich meine,...' = I think,...; 'Wie meinst du das?' = What do you mean?",
-  "lvl": "A1",
-  "imp": {
-   "du": "Mein!",
-   "ihr": "Meint!",
-   "sie": "Meinen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "backen",
@@ -6792,12 +6032,7 @@
    "sie": "haben gebacken"
   },
   "n": "Strong participle: gebacken (NOT 'gebackt'). Present 'backt' (older: bäckt); preterite usually 'backte'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Back!",
-   "ihr": "Backt!",
-   "sie": "Backen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "zurückkommen",
@@ -6834,12 +6069,7 @@
   },
   "n": "Separable; 'sein' in the Perfekt (movement).",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Komm zurück!",
-   "ihr": "Kommt zurück!",
-   "sie": "Kommen Sie zurück!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "kennenlernen",
@@ -6876,12 +6106,7 @@
   },
   "n": "Separable: 'kennen' splits off (Ich lerne ihn kennen). Means 'to get to know / meet for the first time'. Participle: kennengelernt.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Lern kennen!",
-   "ihr": "Lernt kennen!",
-   "sie": "Lernen Sie kennen!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "ankommen",
@@ -6918,12 +6143,7 @@
   },
   "n": "Separable, irregular; 'sein' in the Perfekt. Opposite of 'abfahren'. 'ankommen auf + Akk' = to depend on.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Komm an!",
-   "ihr": "Kommt an!",
-   "sie": "Kommen Sie an!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "klingen",
@@ -6959,12 +6179,7 @@
    "sie": "haben geklungen"
   },
   "n": "Irregular (klang, geklungen). 'klingen nach' = to sound like. Used for how things sound/seem.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Kling!",
-   "ihr": "Klingt!",
-   "sie": "Klingen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "losmüssen",
@@ -7038,12 +6253,7 @@
   },
   "n": "Separable. The prefix 'weiter-' means to keep on doing something.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Feiere weiter!",
-   "ihr": "Feiert weiter!",
-   "sie": "Feiern Sie weiter!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "reservieren",
@@ -7079,12 +6289,7 @@
    "sie": "haben reserviert"
   },
   "n": "Means 'to reserve / book'. -ieren verb: reserviert. Synonym: 'buchen'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Reservier!",
-   "ihr": "Reserviert!",
-   "sie": "Reservieren Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "annehmen",
@@ -7121,12 +6326,7 @@
   },
   "n": "Separable, irregular: e→i (du nimmst an). Means 'to accept' or 'to assume'.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Nimm an!",
-   "ihr": "Nehmt an!",
-   "sie": "Nehmen Sie an!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "absagen",
@@ -7163,12 +6363,7 @@
   },
   "n": "Separable. Opposite of 'zusagen'. 'absagen' = to cancel / call off.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Sag ab!",
-   "ihr": "Sagt ab!",
-   "sie": "Sagen Sie ab!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "reinkommen",
@@ -7205,12 +6400,7 @@
   },
   "n": "Separable, colloquial for 'hereinkommen'. 'sein' in the Perfekt.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Komm rein!",
-   "ihr": "Kommt rein!",
-   "sie": "Kommen Sie rein!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "gefallen",
@@ -7282,12 +6472,7 @@
    "sie": "haben funktioniert"
   },
   "n": "Used for machines/systems working (not people). For 'to work (a job)' use 'arbeiten'. -ieren verb: funktioniert.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Funktionier!",
-   "ihr": "Funktioniert!",
-   "sie": "Funktionieren Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "vorbeikommen",
@@ -7324,12 +6509,7 @@
   },
   "n": "Separable; 'sein' in the Perfekt. 'vorbeikommen bei + Dativ' = to drop by someone's.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Komm vorbei!",
-   "ihr": "Kommt vorbei!",
-   "sie": "Kommen Sie vorbei!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "ansehen",
@@ -7366,12 +6546,7 @@
   },
   "n": "Separable, irregular: e→ie (du siehst an). 'sich (Dativ) etwas ansehen' = to watch / look at.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Sieh an!",
-   "ihr": "Seht an!",
-   "sie": "Sehen Sie an!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "surfen",
@@ -7407,12 +6582,7 @@
    "sie": "haben gesurft"
   },
   "n": "Loanword: 'im Internet surfen' (Perfekt with haben) or wave-surfing (often 'sein').",
-  "lvl": "A1",
-  "imp": {
-   "du": "Surf!",
-   "ihr": "Surft!",
-   "sie": "Surfen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "losfahren",
@@ -7449,12 +6619,7 @@
   },
   "n": "Separable, irregular: a→ä (du fährst los); 'sein' in the Perfekt. Means 'to set off / drive off'.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Fahr los!",
-   "ihr": "Fahrt los!",
-   "sie": "Fahren Sie los!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "grillen",
@@ -7490,12 +6655,7 @@
    "sie": "haben gegrillt"
   },
   "n": "Means 'to grill / barbecue'. A popular summer activity in Germany.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Grill!",
-   "ihr": "Grillt!",
-   "sie": "Grillen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "riechen",
@@ -7531,12 +6691,7 @@
    "sie": "haben gerochen"
   },
   "n": "Irregular (roch, gerochen). 'riechen nach + Dativ' = to smell of.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Riech!",
-   "ihr": "Riecht!",
-   "sie": "Riechen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "mitmüssen",
@@ -7609,12 +6764,7 @@
    "sie": "haben gegrüßt"
   },
   "n": "Means 'to greet'. 'Grüß dich!' / 'Grüß Gott!' (southern) are greetings. 'jemanden von jemandem grüßen' = to pass on regards.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Grüß!",
-   "ihr": "Grüßt!",
-   "sie": "Grüßen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "senden",
@@ -7650,12 +6800,7 @@
    "sie": "haben gesendet"
   },
   "n": "Regular here (sendete, gesendet); a mixed form (sandte, gesandt) is used in formal 'to send' (mail). Also 'to broadcast'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Sende!",
-   "ihr": "Sendet!",
-   "sie": "Senden Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "melden",
@@ -7691,12 +6836,7 @@
    "sie": "haben gemeldet"
   },
   "n": "'sich melden' = to get in touch / report in / raise one's hand. 'melden' = to report (Akk). Stem in -d: du meldest.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Melde!",
-   "ihr": "Meldet!",
-   "sie": "Melden Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "nutzen",
@@ -7732,12 +6872,7 @@
    "sie": "haben genutzt"
   },
   "n": "Means 'to use / make use of' (Akk); also 'jemandem nutzen' (Dativ) = to be of use to someone. Variant: 'nützen'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Nutz!",
-   "ihr": "Nutzt!",
-   "sie": "Nutzen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "chatten",
@@ -7773,12 +6908,7 @@
    "sie": "haben gechattet"
   },
   "n": "Loanword for online chatting. Stem in -t: du chattest, gechattet.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Chatte!",
-   "ihr": "Chattet!",
-   "sie": "Chatten Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "telefonieren",
@@ -7814,12 +6944,7 @@
    "sie": "haben telefoniert"
   },
   "n": "'telefonieren mit + Dativ' = to talk on the phone with. For dialling someone use 'anrufen'. -ieren verb: telefoniert.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Telefonier!",
-   "ihr": "Telefoniert!",
-   "sie": "Telefonieren Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "registrieren",
@@ -7855,12 +6980,7 @@
    "sie": "haben registriert"
   },
   "n": "'sich registrieren' = to register (oneself). -ieren verb: registriert. Synonym: 'sich anmelden'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Registrier!",
-   "ihr": "Registriert!",
-   "sie": "Registrieren Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "verschicken",
@@ -7896,12 +7016,7 @@
    "sie": "haben verschickt"
   },
   "n": "Means 'to send off / dispatch' (often several things). 'ver-' inseparable: verschickt.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Verschick!",
-   "ihr": "Verschickt!",
-   "sie": "Verschicken Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "ablehnen",
@@ -7938,12 +7053,7 @@
   },
   "n": "Separable. Opposite of 'annehmen'. Means 'to reject / decline'.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Lehn ab!",
-   "ihr": "Lehnt ab!",
-   "sie": "Lehnen Sie ab!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "heiraten",
@@ -7979,12 +7089,7 @@
    "sie": "haben geheiratet"
   },
   "n": "'jemanden heiraten' = to marry someone (Akk, no preposition). 'verheiratet' = married. Stem in -t: du heiratest.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Heirate!",
-   "ihr": "Heiratet!",
-   "sie": "Heiraten Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "stattfinden",
@@ -8058,12 +7163,7 @@
   },
   "n": "Separable, irregular; 'sein' in the Perfekt. 'wieder' splits off: 'Ich komme wieder.'",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Komm wieder!",
-   "ihr": "Kommt wieder!",
-   "sie": "Kommen Sie wieder!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "aussprechen",
@@ -8100,12 +7200,7 @@
   },
   "n": "Separable, irregular: e→i (du sprichst aus). Means 'to pronounce'.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Sprich aus!",
-   "ihr": "Sprecht aus!",
-   "sie": "Sprechen Sie aus!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "schenken",
@@ -8141,12 +7236,7 @@
    "sie": "haben geschenkt"
   },
   "n": "'jemandem etwas schenken' (Dativ + Akk) = to give as a present (vs 'geben' = to hand over).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Schenk!",
-   "ihr": "Schenkt!",
-   "sie": "Schenken Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "danken",
@@ -8182,12 +7272,7 @@
    "sie": "haben gedankt"
   },
   "n": "Takes the Dativ: 'jemandem danken'. 'danken für + Akk' = to thank for. More casual: 'sich bedanken'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Dank!",
-   "ihr": "Dankt!",
-   "sie": "Danken Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "drucken",
@@ -8223,12 +7308,7 @@
    "sie": "haben gedruckt"
   },
   "n": "'drucken' = to print (≠ 'drücken' = to press). 'ausdrucken' = to print out.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Druck!",
-   "ihr": "Druckt!",
-   "sie": "Drucken Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "scannen",
@@ -8264,12 +7344,7 @@
    "sie": "haben gescannt"
   },
   "n": "Loanword. Participle: gescannt.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Scann!",
-   "ihr": "Scannt!",
-   "sie": "Scannen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "downloaden",
@@ -8305,12 +7380,7 @@
    "sie": "haben gedownloadet"
   },
   "n": "Loanword; German equivalent 'herunterladen'. Participle usually 'gedownloadet' (or split 'downgeloadet' colloquially).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Downloade!",
-   "ihr": "Downloadet!",
-   "sie": "Downloaden Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "herunterladen",
@@ -8347,12 +7417,7 @@
   },
   "n": "Separable, irregular: a→ä (du lädst herunter). Same meaning as 'downloaden'.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Lad herunter!",
-   "ihr": "Ladet herunter!",
-   "sie": "Laden Sie herunter!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "drücken",
@@ -8388,12 +7453,7 @@
    "sie": "haben gedrückt"
   },
   "n": "'drücken' = to press/squeeze (≠ 'drucken' = to print). 'drücken auf + Akk' = to press on. 'die Daumen drücken' = to keep fingers crossed.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Drück!",
-   "ihr": "Drückt!",
-   "sie": "Drücken Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "klicken",
@@ -8429,12 +7489,7 @@
    "sie": "haben geklickt"
   },
   "n": "'klicken auf + Akk' = to click on. Loanword, regular.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Klick!",
-   "ihr": "Klickt!",
-   "sie": "Klicken Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "eingeben",
@@ -8471,12 +7526,7 @@
   },
   "n": "Separable, irregular: e→i (du gibst ein). Means 'to enter / input'.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Gib ein!",
-   "ihr": "Gebt ein!",
-   "sie": "Geben Sie ein!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "erstellen",
@@ -8512,12 +7562,7 @@
    "sie": "haben erstellt"
   },
   "n": "Means 'to create / draw up'. 'er-' inseparable: erstellt.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Erstell!",
-   "ihr": "Erstellt!",
-   "sie": "Erstellen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "markieren",
@@ -8553,12 +7598,7 @@
    "sie": "haben markiert"
   },
   "n": "Means 'to mark / highlight / select'. -ieren verb: markiert.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Markier!",
-   "ihr": "Markiert!",
-   "sie": "Markieren Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "hochladen",
@@ -8595,12 +7635,7 @@
   },
   "n": "Separable, irregular: a→ä (du lädst hoch). Opposite of 'herunterladen'.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Lad hoch!",
-   "ihr": "Ladet hoch!",
-   "sie": "Laden Sie hoch!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "auswählen",
@@ -8637,12 +7672,7 @@
   },
   "n": "Separable. Means 'to select / pick out'.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Wähl aus!",
-   "ihr": "Wählt aus!",
-   "sie": "Wählen Sie aus!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "hinzufügen",
@@ -8679,12 +7709,7 @@
   },
   "n": "Separable. 'etwas (Dativ) etwas (Akk) hinzufügen' = to add something to something.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Füg hinzu!",
-   "ihr": "Fügt hinzu!",
-   "sie": "Fügen Sie hinzu!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "dabeihaben",
@@ -8721,12 +7746,7 @@
   },
   "n": "Separable, conjugates like 'haben'. 'etwas dabeihaben' = to have something with/on you.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Hab dabei!",
-   "ihr": "Habt dabei!",
-   "sie": "Haben Sie dabei!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "begrüßen",
@@ -8762,12 +7782,7 @@
    "sie": "haben begrüßt"
   },
   "n": "Means 'to welcome / greet' (a bit more formal than 'grüßen'). 'be-' inseparable: begrüßt.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Begrüß!",
-   "ihr": "Begrüßt!",
-   "sie": "Begrüßen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "informieren",
@@ -8803,12 +7818,7 @@
    "sie": "haben informiert"
   },
   "n": "'jemanden über etwas (Akk) informieren'; 'sich informieren über' = to find out about. -ieren verb: informiert.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Informier!",
-   "ihr": "Informiert!",
-   "sie": "Informieren Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "leiten",
@@ -8844,12 +7854,7 @@
    "sie": "haben geleitet"
   },
   "n": "Means 'to lead / run / manage'. Stem in -t: du leitest. 'weiterleiten' = to forward.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Leite!",
-   "ihr": "Leitet!",
-   "sie": "Leiten Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "starten",
@@ -8885,12 +7890,7 @@
    "sie": "haben gestartet"
   },
   "n": "Means 'to start / launch / boot'. Perfekt with 'haben' (to start something) or 'sein' (to set off). Stem in -t: du startest.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Starte!",
-   "ihr": "Startet!",
-   "sie": "Starten Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "ausdrucken",
@@ -8927,12 +7927,7 @@
   },
   "n": "Separable. 'ausdrucken' = to print out (don't confuse with 'ausdrücken' = to express / squeeze).",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Druck aus!",
-   "ihr": "Druckt aus!",
-   "sie": "Drucken Sie aus!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "reden",
@@ -8968,12 +7963,7 @@
    "sie": "haben geredet"
   },
   "n": "'reden über/von' = to talk about. Close to 'sprechen', a touch more casual. Stem in -d: du redest.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Rede!",
-   "ihr": "Redet!",
-   "sie": "Reden Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "vorbereiten",
@@ -9010,12 +8000,7 @@
   },
   "n": "Separable. 'sich auf etwas (Akk) vorbereiten' = to prepare for something.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Bereite vor!",
-   "ihr": "Bereitet vor!",
-   "sie": "Bereiten Sie vor!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "rauchen",
@@ -9051,12 +8036,7 @@
    "sie": "haben geraucht"
   },
   "n": "Regular. 'Rauchen verboten' = No smoking. 'der Raucher' / 'der Nichtraucher'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Rauch!",
-   "ihr": "Raucht!",
-   "sie": "Rauchen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "spülen",
@@ -9092,12 +8072,7 @@
    "sie": "haben gespült"
   },
   "n": "Means 'to rinse / wash up'. 'die Spülmaschine' = dishwasher. 'abspülen' is also common.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Spül!",
-   "ihr": "Spült!",
-   "sie": "Spülen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "fertigmachen",
@@ -9134,12 +8109,7 @@
   },
   "n": "Separable: 'fertig' splits off (macht ... fertig). 'sich fertigmachen' = to get ready. Participle: fertiggemacht.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Mach fertig!",
-   "ihr": "Macht fertig!",
-   "sie": "Machen Sie fertig!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "stecken",
@@ -9175,12 +8145,7 @@
    "sie": "haben gesteckt"
   },
   "n": "Means 'to put/stick into'. Also intransitive 'to be stuck' (Der Schlüssel steckt im Schloss). Regular.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Steck!",
-   "ihr": "Steckt!",
-   "sie": "Stecken Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "beantworten",
@@ -9216,12 +8181,7 @@
    "sie": "haben beantwortet"
   },
   "n": "'beantworten' takes a direct object (eine Frage beantworten); 'antworten' takes the Dativ person. 'be-' inseparable.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Beantworte!",
-   "ihr": "Beantwortet!",
-   "sie": "Beantworten Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "einräumen",
@@ -9258,12 +8218,7 @@
   },
   "n": "Separable. Means 'to put away / stock'; opposite of 'ausräumen'.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Räum ein!",
-   "ihr": "Räumt ein!",
-   "sie": "Räumen Sie ein!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "einschalten",
@@ -9300,12 +8255,7 @@
   },
   "n": "Separable. Means 'to switch on'; opposite of 'ausschalten' (and 'anmachen').",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Schalte ein!",
-   "ihr": "Schaltet ein!",
-   "sie": "Schalten Sie ein!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "rausbringen",
@@ -9342,12 +8292,7 @@
   },
   "n": "Separable, mixed (brachte raus, rausgebracht). Colloquial for 'herausbringen'.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Bring raus!",
-   "ihr": "Bringt raus!",
-   "sie": "Bringen Sie raus!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "bügeln",
@@ -9383,12 +8328,7 @@
    "sie": "haben gebügelt"
   },
   "n": "Verbs in -eln: ich bügle, du bügelst. Means 'to iron'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Bügle!",
-   "ihr": "Bügelt!",
-   "sie": "Bügeln Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "staubsaugen",
@@ -9424,12 +8364,7 @@
    "sie": "haben gestaubsaugt"
   },
   "n": "From 'der Staub' (dust) + 'saugen' (to suck). Usually treated as one word: gestaubsaugt.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Staubsaug!",
-   "ihr": "Staubsaugt!",
-   "sie": "Staubsaugen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "aufhängen",
@@ -9466,12 +8401,7 @@
   },
   "n": "Separable (regular). Means 'to hang up'.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Häng auf!",
-   "ihr": "Hängt auf!",
-   "sie": "Hängen Sie auf!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "decken",
@@ -9507,12 +8437,7 @@
    "sie": "haben gedeckt"
   },
   "n": "'den Tisch decken' = to set the table. Also 'to cover'. Regular.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Deck!",
-   "ihr": "Deckt!",
-   "sie": "Decken Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "wischen",
@@ -9548,12 +8473,7 @@
    "sie": "haben gewischt"
   },
   "n": "Means 'to wipe / mop'. On a phone: 'wischen' = to swipe. Regular.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Wisch!",
-   "ihr": "Wischt!",
-   "sie": "Wischen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "ausräumen",
@@ -9590,12 +8510,7 @@
   },
   "n": "Separable. Means 'to empty / clear out'; opposite of 'einräumen'.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Räum aus!",
-   "ihr": "Räumt aus!",
-   "sie": "Räumen Sie aus!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "stören",
@@ -9631,12 +8546,7 @@
    "sie": "haben gestört"
   },
   "n": "Means 'to disturb / bother' (Akk). 'Stört es dich, wenn...?' = Does it bother you if...?",
-  "lvl": "A1",
-  "imp": {
-   "du": "Stör!",
-   "ihr": "Stört!",
-   "sie": "Stören Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "sitzen",
@@ -9672,12 +8582,7 @@
    "sie": "haben gesessen"
   },
   "n": "Irregular position verb (saß, gesessen). 'sitzen' = to be sitting (state); 'sich setzen' = to sit down (action). In the south the Perfekt can take 'sein'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Sitz!",
-   "ihr": "Sitzt!",
-   "sie": "Sitzen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "lachen",
@@ -9713,12 +8618,7 @@
    "sie": "haben gelacht"
   },
   "n": "'lachen über + Akk' = to laugh about/at. 'lachen' = to laugh; 'lächeln' = to smile.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Lach!",
-   "ihr": "Lacht!",
-   "sie": "Lachen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "verdienen",
@@ -9754,12 +8654,7 @@
    "sie": "haben verdient"
   },
   "n": "Means 'to earn (money)' and 'to deserve'. 'ver-' inseparable: verdient.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Verdien!",
-   "ihr": "Verdient!",
-   "sie": "Verdienen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "zurückrufen",
@@ -9796,12 +8691,7 @@
   },
   "n": "Separable, irregular (rief zurück, zurückgerufen). Means 'to call back'.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Ruf zurück!",
-   "ihr": "Ruft zurück!",
-   "sie": "Rufen Sie zurück!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "trainieren",
@@ -9837,12 +8727,7 @@
    "sie": "haben trainiert"
   },
   "n": "Means 'to train / work out'. -ieren verb: trainiert.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Trainier!",
-   "ihr": "Trainiert!",
-   "sie": "Trainieren Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "beachten",
@@ -9878,12 +8763,7 @@
    "sie": "haben beachtet"
   },
   "n": "Means 'to pay attention to / observe / heed' (Akk). 'be-' inseparable. Note 'achten auf' = to watch out for.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Beachte!",
-   "ihr": "Beachtet!",
-   "sie": "Beachten Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "teilnehmen",
@@ -9920,12 +8800,7 @@
   },
   "n": "Separable, irregular: 'teil' splits off (nimmt teil). 'teilnehmen an + Dativ' = to participate in. Participle: teilgenommen.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Nimm teil!",
-   "ihr": "Nehmt teil!",
-   "sie": "Nehmen Sie teil!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "interviewen",
@@ -9961,12 +8836,7 @@
    "sie": "haben geinterviewt"
   },
   "n": "Loanword. Participle: interviewt (no ge-).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Interview!",
-   "ihr": "Interviewt!",
-   "sie": "Interviewen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "hinwollen",
@@ -10040,12 +8910,7 @@
   },
   "n": "Separable. Means 'to ask / inquire', often to follow up.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Frag nach!",
-   "ihr": "Fragt nach!",
-   "sie": "Fragen Sie nach!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "eröffnen",
@@ -10081,12 +8946,7 @@
    "sie": "haben eröffnet"
   },
   "n": "Means 'to open' (a business/account/event) — more formal than 'öffnen'. 'er-' inseparable: eröffnet.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Eröffne!",
-   "ihr": "Eröffnet!",
-   "sie": "Eröffnen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "buchen",
@@ -10122,12 +8982,7 @@
    "sie": "haben gebucht"
   },
   "n": "Means 'to book' (travel, tickets). Synonym: 'reservieren'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Buch!",
-   "ihr": "Bucht!",
-   "sie": "Buchen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "ergänzen",
@@ -10163,12 +9018,7 @@
    "sie": "haben ergänzt"
   },
   "n": "Means 'to complete / fill in / add to'. 'er-' inseparable: ergänzt.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Ergänz!",
-   "ihr": "Ergänzt!",
-   "sie": "Ergänzen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "stürzen",
@@ -10204,12 +9054,7 @@
    "sie": "sind gestürzt"
   },
   "n": "Means 'to fall / crash' (harder than 'fallen'); takes 'sein' when falling. 'sich stürzen auf' = to pounce on.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Stürz!",
-   "ihr": "Stürzt!",
-   "sie": "Stürzen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "bewegen",
@@ -10245,12 +9090,7 @@
    "sie": "haben bewegt"
   },
   "n": "Regular for physical movement (bewegte, bewegt); 'sich bewegen' = to move (oneself). A rare strong form (bewog, bewogen) means 'to induce'.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Beweg!",
-   "ihr": "Bewegt!",
-   "sie": "Bewegen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "reparieren",
@@ -10286,12 +9126,7 @@
    "sie": "haben repariert"
   },
   "n": "Means 'to repair / fix'. -ieren verb: repariert.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Reparier!",
-   "ihr": "Repariert!",
-   "sie": "Reparieren Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "notieren",
@@ -10327,12 +9162,7 @@
    "sie": "haben notiert"
   },
   "n": "Means 'to note down'; often reflexive 'sich (Dativ) etwas notieren'. -ieren verb: notiert.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Notier!",
-   "ihr": "Notiert!",
-   "sie": "Notieren Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "gratulieren",
@@ -10368,12 +9198,7 @@
    "sie": "haben gratuliert"
   },
   "n": "Takes the Dativ: 'jemandem gratulieren'. 'gratulieren zu + Dativ' = to congratulate on. -ieren verb.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Gratulier!",
-   "ihr": "Gratuliert!",
-   "sie": "Gratulieren Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "weiterfahren",
@@ -10410,12 +9235,7 @@
   },
   "n": "Separable, irregular: a→ä (du fährst weiter); 'sein' in the Perfekt. 'weiter-' = to continue.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Fahr weiter!",
-   "ihr": "Fahrt weiter!",
-   "sie": "Fahren Sie weiter!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "aufpassen",
@@ -10452,12 +9272,7 @@
   },
   "n": "Separable. 'aufpassen auf + Akk' = to watch / look after. 'Pass auf!' = Watch out!",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Pass auf!",
-   "ihr": "Passt auf!",
-   "sie": "Passen Sie auf!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "atmen",
@@ -10493,12 +9308,7 @@
    "sie": "haben geatmet"
   },
   "n": "Means 'to breathe'. Stem ends in -m after a consonant, so +e: du atmest, er atmet.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Atme!",
-   "ihr": "Atmet!",
-   "sie": "Atmen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "verschreiben",
@@ -10534,12 +9344,7 @@
    "sie": "haben verschrieben"
   },
   "n": "Irregular stem from 'schreiben' but inseparable (ver-): verschrieb, verschrieben. 'jemandem etwas verschreiben' = to prescribe.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Verschreib!",
-   "ihr": "Verschreibt!",
-   "sie": "Verschreiben Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "anschauen",
@@ -10576,12 +9381,7 @@
   },
   "n": "Separable. 'sich etwas anschauen' = to look at / watch (= ansehen, more common in the south).",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Schau an!",
-   "ihr": "Schaut an!",
-   "sie": "Schauen Sie an!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "klappen",
@@ -10617,12 +9417,7 @@
    "sie": "haben geklappt"
   },
   "n": "Colloquial: 'klappen' = to work out / go smoothly (impersonal: es klappt). Also literally 'to fold/flap'.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Klapp!",
-   "ihr": "Klappt!",
-   "sie": "Klappen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "abnehmen",
@@ -10659,12 +9454,7 @@
   },
   "n": "Separable, irregular: e→i (du nimmst ab). Means 'to take off', 'to lose weight', or 'to pick up (the phone)'.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Nimm ab!",
-   "ihr": "Nehmt ab!",
-   "sie": "Nehmen Sie ab!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "achten",
@@ -10700,12 +9490,7 @@
    "sie": "haben geachtet"
   },
   "n": "'achten auf + Akk' = to pay attention to / watch out for. 'achten' (alone) = to respect. Stem in -t: du achtest.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Achte!",
-   "ihr": "Achtet!",
-   "sie": "Achten Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "beugen",
@@ -10741,12 +9526,7 @@
    "sie": "haben gebeugt"
   },
   "n": "Means 'to bend'; 'sich beugen' = to bend over/down. Regular.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Beug!",
-   "ihr": "Beugt!",
-   "sie": "Beugen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "heben",
@@ -10782,12 +9562,7 @@
    "sie": "haben gehoben"
   },
   "n": "Irregular (hob, gehoben). Means 'to lift / raise'. 'aufheben' = to pick up.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Heb!",
-   "ihr": "Hebt!",
-   "sie": "Heben Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "zusammendrücken",
@@ -10824,12 +9599,7 @@
   },
   "n": "Separable. 'zusammen' + 'drücken' = to press / squeeze together.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Drück zusammen!",
-   "ihr": "Drückt zusammen!",
-   "sie": "Drücken Sie zusammen!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "entspannen",
@@ -10865,12 +9635,7 @@
    "sie": "haben entspannt"
   },
   "n": "'sich entspannen' = to relax. 'ent-' inseparable: entspannt.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Entspann!",
-   "ihr": "Entspannt!",
-   "sie": "Entspannen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "shoppen",
@@ -10906,12 +9671,7 @@
    "sie": "haben geshoppt"
   },
   "n": "Loanword (casual); 'einkaufen' is the everyday word for grocery shopping. Participle: geshoppt.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Shopp!",
-   "ihr": "Shoppt!",
-   "sie": "Shoppen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "anprobieren",
@@ -10948,12 +9708,7 @@
   },
   "n": "Separable. Means 'to try on' (clothes).",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Probier an!",
-   "ihr": "Probiert an!",
-   "sie": "Probieren Sie an!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "probieren",
@@ -10989,12 +9744,7 @@
    "sie": "haben probiert"
   },
   "n": "Means 'to try / taste / try on'. 'anprobieren' = to try on (clothes); 'ausprobieren' = to test out. -ieren verb: probiert.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Probier!",
-   "ihr": "Probiert!",
-   "sie": "Probieren Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "posten",
@@ -11030,12 +9780,7 @@
    "sie": "haben gepostet"
   },
   "n": "Loanword for posting online. Stem in -t: du postest, gepostet.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Poste!",
-   "ihr": "Postet!",
-   "sie": "Posten Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "dazuschreiben",
@@ -11072,12 +9817,7 @@
   },
   "n": "Separable, irregular (schrieb dazu, dazugeschrieben). 'dazu-' = to add in writing.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Schreib dazu!",
-   "ihr": "Schreibt dazu!",
-   "sie": "Schreiben Sie dazu!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "abfahren",
@@ -11114,12 +9854,7 @@
   },
   "n": "Separable, irregular: a→ä (du fährst ab); 'sein' in the Perfekt. Opposite of 'ankommen'.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Fahr ab!",
-   "ihr": "Fahrt ab!",
-   "sie": "Fahren Sie ab!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "einsteigen",
@@ -11156,12 +9891,7 @@
   },
   "n": "Separable, irregular (stieg ein, eingestiegen); 'sein' in the Perfekt. Means 'to get in / board'.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Steige ein!",
-   "ihr": "Steigt ein!",
-   "sie": "Steigen Sie ein!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "umsteigen",
@@ -11198,12 +9928,7 @@
   },
   "n": "Separable, irregular; 'sein' in the Perfekt. Means 'to change' (trains/buses); compare 'einsteigen' / 'aussteigen'.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Steige um!",
-   "ihr": "Steigt um!",
-   "sie": "Steigen Sie um!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "aussteigen",
@@ -11240,12 +9965,7 @@
   },
   "n": "Separable, irregular; 'sein' in the Perfekt. Opposite of 'einsteigen'; compare 'umsteigen' = to change.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Steige aus!",
-   "ihr": "Steigt aus!",
-   "sie": "Steigen Sie aus!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "fliegen",
@@ -11281,12 +10001,7 @@
    "sie": "sind geflogen"
   },
   "n": "Irregular (flog, geflogen); 'sein' in the Perfekt (movement).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Flieg!",
-   "ihr": "Fliegt!",
-   "sie": "Fliegen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "wegkönnen",
@@ -11359,12 +10074,7 @@
    "sie": "haben gebadet"
   },
   "n": "Means 'to bathe / have a bath / swim'. Stem in -d: du badest, gebadet.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Bade!",
-   "ihr": "Badet!",
-   "sie": "Baden Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "hängen",
@@ -11400,12 +10110,7 @@
    "sie": "haben gehängt"
   },
   "n": "Two patterns: intransitive 'to be hanging' is strong (hing, gehangen); transitive 'to hang up' is weak (hängte, gehängt). 'aufhängen' = to hang up.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Häng!",
-   "ihr": "Hängt!",
-   "sie": "Hängen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "losgehen",
@@ -11442,12 +10147,7 @@
   },
   "n": "Separable; 'sein' in the Perfekt. Means 'to start / get going / set off'.",
   "sep": true,
-  "lvl": "A1",
-  "imp": {
-   "du": "Geh los!",
-   "ihr": "Geht los!",
-   "sie": "Gehen Sie los!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "regnen",
@@ -11591,12 +10291,7 @@
    "sie": "haben gebrochen"
   },
   "n": "Irregular: e→i (du brichst, er bricht; brach, gebrochen). 'haben' when you break something; 'sein' when something breaks (Das Glas ist gebrochen).",
-  "lvl": "A1",
-  "imp": {
-   "du": "Brich!",
-   "ihr": "Brecht!",
-   "sie": "Brechen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "übersetzen",
@@ -11632,12 +10327,7 @@
    "sie": "haben übersetzt"
   },
   "n": "Meaning 'to translate', 'über-' is INSEPARABLE: übersetzt (no ge-, no split). A separable 'übersetzen' (to ferry across) exists but is rare.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Übersetz!",
-   "ihr": "Übersetzt!",
-   "sie": "Übersetzen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "mieten",
@@ -11673,12 +10363,7 @@
    "sie": "haben gemietet"
   },
   "n": "'mieten' = to rent (as the tenant); 'vermieten' = to rent out (as the landlord). Stem in -t: du mietest.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Miete!",
-   "ihr": "Mietet!",
-   "sie": "Mieten Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "parken",
@@ -11714,12 +10399,7 @@
    "sie": "haben geparkt"
   },
   "n": "Means 'to park'. 'Parken verboten' = No parking. 'der Parkplatz' = parking space.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Park!",
-   "ihr": "Parkt!",
-   "sie": "Parken Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "vermissen",
@@ -11755,12 +10435,7 @@
    "sie": "haben vermisst"
   },
   "n": "'vermissen' = to miss someone/something that's absent (Akk). For missing a bus/train use 'verpassen'. 'ver-' inseparable.",
-  "lvl": "A1",
-  "imp": {
-   "du": "Vermiss!",
-   "ihr": "Vermisst!",
-   "sie": "Vermissen Sie!"
-  }
+  "lvl": "A1"
  },
  {
   "w": "abgeben",
@@ -11797,12 +10472,7 @@
   },
   "n": "Separable, irregular: e→i (du gibst ab). Means 'to hand in / hand over'.",
   "sep": true,
-  "lvl": "A2",
-  "imp": {
-   "du": "Gib ab!",
-   "ihr": "Gebt ab!",
-   "sie": "Geben Sie ab!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "abholen",
@@ -11839,12 +10509,7 @@
   },
   "n": "Separable. 'jemanden/etwas abholen' = to pick up / collect.",
   "sep": true,
-  "lvl": "A2",
-  "imp": {
-   "du": "Hol ab!",
-   "ihr": "Holt ab!",
-   "sie": "Holen Sie ab!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "abschließen",
@@ -11881,12 +10546,7 @@
   },
   "n": "Separable, irregular (schloss ab, abgeschlossen). Means 'to lock' or 'to finish / complete'.",
   "sep": true,
-  "lvl": "A2",
-  "imp": {
-   "du": "Schließ ab!",
-   "ihr": "Schließt ab!",
-   "sie": "Schließen Sie ab!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "ändern",
@@ -11922,12 +10582,7 @@
    "sie": "haben geändert"
   },
   "n": "Verbs in -ern: ich ändere, du änderst. 'sich ändern' = to change (intransitive). Compare 'wechseln' = to swap/switch.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Ändere!",
-   "ihr": "Ändert!",
-   "sie": "Ändern Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "anmachen",
@@ -11964,12 +10619,7 @@
   },
   "n": "Separable, colloquial for 'einschalten'. Opposite: 'ausmachen'.",
   "sep": true,
-  "lvl": "A2",
-  "imp": {
-   "du": "Mach an!",
-   "ihr": "Macht an!",
-   "sie": "Machen Sie an!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "sich anmelden",
@@ -12007,12 +10657,7 @@
   "n": "Separable and reflexive. 'sich für/zu etwas anmelden' = to register / sign up.",
   "sep": true,
   "lvl": "A2",
-  "refl": true,
-  "imp": {
-   "du": "Melde dich an!",
-   "ihr": "Meldet euch an!",
-   "sie": "Melden Sie sich an!"
-  }
+  "refl": true
  },
  {
   "w": "sich ärgern",
@@ -12049,12 +10694,7 @@
   },
   "n": "Reflexive: 'sich ärgern über + Akk' = to be annoyed about. Verbs in -ern: ich ärgere mich.",
   "lvl": "A2",
-  "refl": true,
-  "imp": {
-   "du": "Ärgere dich!",
-   "ihr": "Ärgert euch!",
-   "sie": "Ärgern Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "ausfüllen",
@@ -12091,12 +10731,7 @@
   },
   "n": "Separable. Means 'to fill out' (a form).",
   "sep": true,
-  "lvl": "A2",
-  "imp": {
-   "du": "Füll aus!",
-   "ihr": "Füllt aus!",
-   "sie": "Füllen Sie aus!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "ausgeben",
@@ -12133,12 +10768,7 @@
   },
   "n": "Separable, irregular: e→i (du gibst aus). 'Geld ausgeben für + Akk' = to spend money on.",
   "sep": true,
-  "lvl": "A2",
-  "imp": {
-   "du": "Gib aus!",
-   "ihr": "Gebt aus!",
-   "sie": "Geben Sie aus!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "ausgehen",
@@ -12175,12 +10805,7 @@
   },
   "n": "Separable, irregular; 'sein' in the Perfekt. Means 'to go out' (socially) or 'to go off / run out'.",
   "sep": true,
-  "lvl": "A2",
-  "imp": {
-   "du": "Geh aus!",
-   "ihr": "Geht aus!",
-   "sie": "Gehen Sie aus!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "ausmachen",
@@ -12217,12 +10842,7 @@
   },
   "n": "Separable. Means 'to switch off'; also 'to arrange' or 'to matter' (Macht es dir was aus? = Do you mind?).",
   "sep": true,
-  "lvl": "A2",
-  "imp": {
-   "du": "Mach aus!",
-   "ihr": "Macht aus!",
-   "sie": "Machen Sie aus!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "auspacken",
@@ -12259,12 +10879,7 @@
   },
   "n": "Separable. Opposite of 'einpacken'. Means 'to unpack / unwrap'.",
   "sep": true,
-  "lvl": "A2",
-  "imp": {
-   "du": "Pack aus!",
-   "ihr": "Packt aus!",
-   "sie": "Packen Sie aus!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "sich ausruhen",
@@ -12302,12 +10917,7 @@
   "n": "Separable and reflexive. 'sich ausruhen' = to rest / relax.",
   "sep": true,
   "lvl": "A2",
-  "refl": true,
-  "imp": {
-   "du": "Ruh dich aus!",
-   "ihr": "Ruht euch aus!",
-   "sie": "Ruhen Sie sich aus!"
-  }
+  "refl": true
  },
  {
   "w": "austragen",
@@ -12344,12 +10954,7 @@
   },
   "n": "Separable, irregular: a→ä (du trägst aus). Means 'to deliver' (door to door).",
   "sep": true,
-  "lvl": "A2",
-  "imp": {
-   "du": "Trag aus!",
-   "ihr": "Tragt aus!",
-   "sie": "Tragen Sie aus!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "basteln",
@@ -12385,12 +10990,7 @@
    "sie": "haben gebastelt"
   },
   "n": "Means 'to do (handi)crafts / make things by hand'. Verbs in -eln: ich bastle, du bastelst.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Bastle!",
-   "ihr": "Bastelt!",
-   "sie": "Basteln Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "sich bedanken",
@@ -12427,12 +11027,7 @@
   },
   "n": "Reflexive: 'sich bei jemandem für etwas bedanken' = to thank someone for something. More formal feel than 'danken'. 'be-' inseparable.",
   "lvl": "A2",
-  "refl": true,
-  "imp": {
-   "du": "Bedank dich!",
-   "ihr": "Bedankt euch!",
-   "sie": "Bedanken Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "sich beeilen",
@@ -12469,12 +11064,7 @@
   },
   "n": "Reflexive: 'sich beeilen' = to hurry. 'be-' inseparable: beeilt.",
   "lvl": "A2",
-  "refl": true,
-  "imp": {
-   "du": "Beeil dich!",
-   "ihr": "Beeilt euch!",
-   "sie": "Beeilen Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "beenden",
@@ -12510,12 +11100,7 @@
    "sie": "haben beendet"
   },
   "n": "'beenden' = to end / finish something (transitive, takes Akk); 'enden' = to come to an end (intransitive). 'be-' inseparable; stem in -d: beendet.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Beende!",
-   "ihr": "Beendet!",
-   "sie": "Beenden Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "begründen",
@@ -12551,12 +11136,7 @@
    "sie": "haben begründet"
   },
   "n": "Means 'to justify / give reasons for'. 'be-' inseparable; stem in -d: begründet.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Begründe!",
-   "ihr": "Begründet!",
-   "sie": "Begründen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "beraten",
@@ -12592,12 +11172,7 @@
    "sie": "haben beraten"
   },
   "n": "Irregular: a→ä (du berätst). 'be-' inseparable. 'jemanden beraten' = to advise someone.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Berate!",
-   "ihr": "Beratet!",
-   "sie": "Beraten Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "berichten",
@@ -12633,12 +11208,7 @@
    "sie": "haben berichtet"
   },
   "n": "'berichten über/von' = to report on/about. 'be-' inseparable; stem in -t: berichtet.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Berichte!",
-   "ihr": "Berichtet!",
-   "sie": "Berichten Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "beschreiben",
@@ -12674,12 +11244,7 @@
    "sie": "haben beschrieben"
   },
   "n": "Irregular (beschrieb, beschrieben). 'be-' inseparable. Means 'to describe'.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Beschreib!",
-   "ihr": "Beschreibt!",
-   "sie": "Beschreiben Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "sich beschweren",
@@ -12716,12 +11281,7 @@
   },
   "n": "Reflexive: 'sich über etwas (Akk) bei jemandem beschweren' = to complain about something to someone. 'be-' inseparable.",
   "lvl": "A2",
-  "refl": true,
-  "imp": {
-   "du": "Beschwer dich!",
-   "ihr": "Beschwert euch!",
-   "sie": "Beschweren Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "besichtigen",
@@ -12757,12 +11317,7 @@
    "sie": "haben besichtigt"
   },
   "n": "Means 'to view / tour / look around' (sights, property). 'be-' inseparable: besichtigt.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Besichtige!",
-   "ihr": "Besichtigt!",
-   "sie": "Besichtigen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "bestätigen",
@@ -12798,12 +11353,7 @@
    "sie": "haben bestätigt"
   },
   "n": "Means 'to confirm'. 'be-' inseparable: bestätigt.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Bestätige!",
-   "ihr": "Bestätigt!",
-   "sie": "Bestätigen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "sich bewerben",
@@ -12840,12 +11390,7 @@
   },
   "n": "Irregular and reflexive: e→i (du bewirbst dich). 'sich bewerben um/für + Akk' (the post) or 'bei + Dativ' (the company).",
   "lvl": "A2",
-  "refl": true,
-  "imp": {
-   "du": "Bewirb dich!",
-   "ihr": "Bewerbt euch!",
-   "sie": "Bewerben Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "braten",
@@ -12881,12 +11426,7 @@
    "sie": "haben gebraten"
   },
   "n": "Irregular: a→ä (du brätst). Means 'to fry / roast'.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Brate!",
-   "ihr": "Bratet!",
-   "sie": "Braten Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "diskutieren",
@@ -12922,12 +11462,7 @@
    "sie": "haben diskutiert"
   },
   "n": "'diskutieren über + Akk' = to discuss/debate. -ieren verb: diskutiert.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Diskutier!",
-   "ihr": "Diskutiert!",
-   "sie": "Diskutieren Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "sich duschen",
@@ -12964,12 +11499,7 @@
   },
   "n": "Often reflexive: 'sich duschen' = to (have a) shower. Also used plainly: 'Ich dusche.'",
   "lvl": "A2",
-  "refl": true,
-  "imp": {
-   "du": "Dusch dich!",
-   "ihr": "Duscht euch!",
-   "sie": "Duschen Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "einpacken",
@@ -13006,12 +11536,7 @@
   },
   "n": "Separable. Opposite of 'auspacken'. Means 'to pack / wrap up'.",
   "sep": true,
-  "lvl": "A2",
-  "imp": {
-   "du": "Pack ein!",
-   "ihr": "Packt ein!",
-   "sie": "Packen Sie ein!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "sich eintragen",
@@ -13049,12 +11574,7 @@
   "n": "Separable, irregular and reflexive: a→ä (du trägst dich ein). 'sich eintragen' = to sign / register oneself.",
   "sep": true,
   "lvl": "A2",
-  "refl": true,
-  "imp": {
-   "du": "Trag dich ein!",
-   "ihr": "Tragt euch ein!",
-   "sie": "Tragen Sie sich ein!"
-  }
+  "refl": true
  },
  {
   "w": "einziehen",
@@ -13091,12 +11611,7 @@
   },
   "n": "Separable, irregular (zog ein, eingezogen); 'sein' in the Perfekt. Means 'to move in'; opposite 'ausziehen'.",
   "sep": true,
-  "lvl": "A2",
-  "imp": {
-   "du": "Zieh ein!",
-   "ihr": "Zieht ein!",
-   "sie": "Ziehen Sie ein!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "sich erinnern",
@@ -13133,12 +11648,7 @@
   },
   "n": "Reflexive: 'sich erinnern an + Akk' = to remember. 'er-' inseparable. Verbs in -ern: ich erinnere mich.",
   "lvl": "A2",
-  "refl": true,
-  "imp": {
-   "du": "Erinnere dich!",
-   "ihr": "Erinnert euch!",
-   "sie": "Erinnern Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "erlauben",
@@ -13174,12 +11684,7 @@
    "sie": "haben erlaubt"
   },
   "n": "'jemandem etwas erlauben' (Dativ + Akk). Opposite: 'verbieten'. 'er-' inseparable: erlaubt.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Erlaub!",
-   "ihr": "Erlaubt!",
-   "sie": "Erlauben Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "erreichen",
@@ -13215,12 +11720,7 @@
    "sie": "haben erreicht"
   },
   "n": "Means 'to reach / achieve / get hold of'. 'er-' inseparable: erreicht.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Erreich!",
-   "ihr": "Erreicht!",
-   "sie": "Erreichen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "sich freuen",
@@ -13257,12 +11757,7 @@
   },
   "n": "Reflexive: 'sich freuen auf + Akk' = to look forward to (future); 'sich freuen über + Akk' = to be glad about (now/past).",
   "lvl": "A2",
-  "refl": true,
-  "imp": {
-   "du": "Freu dich!",
-   "ihr": "Freut euch!",
-   "sie": "Freuen Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "sich fühlen",
@@ -13299,12 +11794,7 @@
   },
   "n": "Reflexive for one's state: 'sich + adjective fühlen' = to feel (a certain way). 'fühlen' (alone) = to feel/touch something.",
   "lvl": "A2",
-  "refl": true,
-  "imp": {
-   "du": "Fühl dich!",
-   "ihr": "Fühlt euch!",
-   "sie": "Fühlen Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "herstellen",
@@ -13341,12 +11831,7 @@
   },
   "n": "Separable. Means 'to manufacture / produce'.",
   "sep": true,
-  "lvl": "A2",
-  "imp": {
-   "du": "Stell her!",
-   "ihr": "Stellt her!",
-   "sie": "Stellen Sie her!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "husten",
@@ -13382,12 +11867,7 @@
    "sie": "haben gehustet"
   },
   "n": "Means 'to cough'. Stem in -t: du hustest, gehustet.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Huste!",
-   "ihr": "Hustet!",
-   "sie": "Husten Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "kriegen",
@@ -13423,12 +11903,7 @@
    "sie": "haben gekriegt"
   },
   "n": "Colloquial synonym of 'bekommen' (to get/receive). Regular: kriegte, gekriegt.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Krieg!",
-   "ihr": "Kriegt!",
-   "sie": "Kriegen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "sich kümmern",
@@ -13465,12 +11940,7 @@
   },
   "n": "Reflexive: 'sich kümmern um + Akk' = to take care of / see to. Verbs in -ern: ich kümmere mich.",
   "lvl": "A2",
-  "refl": true,
-  "imp": {
-   "du": "Kümmere dich!",
-   "ihr": "Kümmert euch!",
-   "sie": "Kümmern Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "kündigen",
@@ -13506,12 +11976,7 @@
    "sie": "haben gekündigt"
   },
   "n": "Means 'to give notice / hand in notice / cancel (a contract)'. 'jemandem kündigen' (Dativ) = to fire someone.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Kündige!",
-   "ihr": "Kündigt!",
-   "sie": "Kündigen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "leihen",
@@ -13547,12 +12012,7 @@
    "sie": "haben geliehen"
   },
   "n": "Irregular (lieh, geliehen). 'jemandem etwas leihen' = to lend; 'sich (Dativ) etwas leihen' = to borrow.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Leih!",
-   "ihr": "Leiht!",
-   "sie": "Leihen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "liefern",
@@ -13588,12 +12048,7 @@
    "sie": "haben geliefert"
   },
   "n": "Means 'to deliver / supply'. Verbs in -ern: ich liefere, du lieferst.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Liefere!",
-   "ihr": "Liefert!",
-   "sie": "Liefern Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "lügen",
@@ -13629,12 +12084,7 @@
    "sie": "haben gelogen"
   },
   "n": "Irregular (log, gelogen). 'lügen' = to (tell a) lie; 'jemanden anlügen' = to lie to someone.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Lüg!",
-   "ihr": "Lügt!",
-   "sie": "Lügen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "malen",
@@ -13670,12 +12120,7 @@
    "sie": "haben gemalt"
   },
   "n": "'malen' = to paint (a picture/artistically); 'zeichnen' = to draw (with lines). 'anmalen/streichen' = to paint walls.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Mal!",
-   "ihr": "Malt!",
-   "sie": "Malen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "packen",
@@ -13711,12 +12156,7 @@
    "sie": "haben gepackt"
   },
   "n": "Means 'to pack' / 'to grab'. 'einpacken' = to wrap up; 'auspacken' = to unpack. Colloquial 'Ich packe das' = I can handle it.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Pack!",
-   "ihr": "Packt!",
-   "sie": "Packen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "prüfen",
@@ -13752,12 +12192,7 @@
    "sie": "haben geprüft"
   },
   "n": "Means 'to check / test / examine'. Related: 'die Prüfung' = exam. Synonym: 'kontrollieren'.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Prüf!",
-   "ihr": "Prüft!",
-   "sie": "Prüfen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "raten",
@@ -13793,12 +12228,7 @@
    "sie": "haben geraten"
   },
   "n": "Irregular: a→ä (du rätst). Means 'to guess' or 'to advise' ('jemandem raten' + Dativ).",
-  "lvl": "A2",
-  "imp": {
-   "du": "Rate!",
-   "ihr": "Ratet!",
-   "sie": "Raten Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "rechnen",
@@ -13834,12 +12264,7 @@
    "sie": "haben gerechnet"
   },
   "n": "Means 'to calculate / do maths'; 'rechnen mit + Dativ' = to count on / reckon with. Stem in -n: du rechnest.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Rechne!",
-   "ihr": "Rechnet!",
-   "sie": "Rechnen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "reiten",
@@ -13875,12 +12300,7 @@
    "sie": "sind geritten"
   },
   "n": "Irregular (ritt, geritten); usually 'sein' in the Perfekt (movement).",
-  "lvl": "A2",
-  "imp": {
-   "du": "Reite!",
-   "ihr": "Reitet!",
-   "sie": "Reiten Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "renovieren",
@@ -13916,12 +12336,7 @@
    "sie": "haben renoviert"
   },
   "n": "Means 'to renovate / redecorate'. -ieren verb: renoviert.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Renovier!",
-   "ihr": "Renoviert!",
-   "sie": "Renovieren Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "rufen",
@@ -13957,12 +12372,7 @@
    "sie": "haben gerufen"
   },
   "n": "Irregular (rief, gerufen). 'rufen' = to call / shout; 'anrufen' = to phone.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Ruf!",
-   "ihr": "Ruft!",
-   "sie": "Rufen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "singen",
@@ -13998,12 +12408,7 @@
    "sie": "haben gesungen"
   },
   "n": "Irregular (sang, gesungen).",
-  "lvl": "A2",
-  "imp": {
-   "du": "Sing!",
-   "ihr": "Singt!",
-   "sie": "Singen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "sparen",
@@ -14039,12 +12444,7 @@
    "sie": "haben gespart"
   },
   "n": "'sparen für/auf + Akk' = to save up for. 'sparen an + Dativ' = to economise on.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Spar!",
-   "ihr": "Spart!",
-   "sie": "Sparen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "teilen",
@@ -14080,12 +12480,7 @@
    "sie": "haben geteilt"
   },
   "n": "Means 'to share / divide'. 'teilen durch' = to divide by; on social media 'teilen' = to share. 'sich (Dativ) etwas teilen' = to share between.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Teil!",
-   "ihr": "Teilt!",
-   "sie": "Teilen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "übernachten",
@@ -14121,12 +12516,7 @@
    "sie": "haben übernachtet"
   },
   "n": "Here 'über-' is INSEPARABLE (to stay overnight): übernachtet, no ge-, no split.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Übernachte!",
-   "ihr": "Übernachtet!",
-   "sie": "Übernachten Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "überweisen",
@@ -14162,12 +12552,7 @@
    "sie": "haben überwiesen"
   },
   "n": "Irregular (überwies, überwiesen). Here 'über-' is inseparable (no -ge-). Means 'to transfer (money)' or 'to refer (a patient)'.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Überweise!",
-   "ihr": "Überweist!",
-   "sie": "Überweisen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "sich unterhalten",
@@ -14204,12 +12589,7 @@
   },
   "n": "Irregular and reflexive: a→ä (du unterhältst dich). Here 'unter-' is inseparable. 'sich unterhalten über + Akk' = to chat / converse.",
   "lvl": "A2",
-  "refl": true,
-  "imp": {
-   "du": "Unterhalte dich!",
-   "ihr": "Unterhaltet euch!",
-   "sie": "Unterhalten Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "unternehmen",
@@ -14245,12 +12625,7 @@
    "sie": "haben unternommen"
   },
   "n": "Irregular: e→i (du unternimmst). 'unter-' inseparable here. 'etwas unternehmen' = to do / undertake something.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Unternimm!",
-   "ihr": "Unternehmt!",
-   "sie": "Unternehmen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "unterschreiben",
@@ -14286,12 +12661,7 @@
    "sie": "haben unterschrieben"
   },
   "n": "Irregular (unterschrieb, unterschrieben). 'unter-' inseparable. Means 'to sign'.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Unterschreib!",
-   "ihr": "Unterschreibt!",
-   "sie": "Unterschreiben Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "untersuchen",
@@ -14327,12 +12697,7 @@
    "sie": "haben untersucht"
   },
   "n": "Here 'unter-' is INSEPARABLE (to examine/investigate): untersucht, no ge-, no split.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Untersuch!",
-   "ihr": "Untersucht!",
-   "sie": "Untersuchen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "vereinbaren",
@@ -14368,12 +12733,7 @@
    "sie": "haben vereinbart"
   },
   "n": "Means 'to arrange / agree on'. Inseparable: vereinbart.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Vereinbar!",
-   "ihr": "Vereinbart!",
-   "sie": "Vereinbaren Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "verkaufen",
@@ -14409,12 +12769,7 @@
    "sie": "haben verkauft"
   },
   "n": "Opposite of 'kaufen'. 'jemandem etwas verkaufen' (Dativ + Akk). 'ver-' inseparable: verkauft.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Verkauf!",
-   "ihr": "Verkauft!",
-   "sie": "Verkaufen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "sich verlieben",
@@ -14451,12 +12806,7 @@
   },
   "n": "Reflexive: 'sich verlieben in + Akk' = to fall in love with. 'verliebt sein' = to be in love. 'ver-' inseparable.",
   "lvl": "A2",
-  "refl": true,
-  "imp": {
-   "du": "Verlieb dich!",
-   "ihr": "Verliebt euch!",
-   "sie": "Verlieben Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "vermieten",
@@ -14492,12 +12842,7 @@
    "sie": "haben vermietet"
   },
   "n": "'vermieten' = to rent out (landlord's side); 'mieten' = to rent (tenant's side). 'ver-' inseparable; stem in -t: vermietet.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Vermiete!",
-   "ihr": "Vermietet!",
-   "sie": "Vermieten Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "verpassen",
@@ -14533,12 +12878,7 @@
    "sie": "haben verpasst"
   },
   "n": "'verpassen' = to miss (a bus, deadline, chance) by being late; 'vermissen' = to miss (feel the absence of) someone. 'ver-' inseparable.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Verpass!",
-   "ihr": "Verpasst!",
-   "sie": "Verpassen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "verreisen",
@@ -14574,12 +12914,7 @@
    "sie": "sind verreist"
   },
   "n": "Means 'to go away / travel (off somewhere)'. Uses 'sein' in the Perfekt. 'ver-' inseparable: verreist.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Verreis!",
-   "ihr": "Verreist!",
-   "sie": "Verreisen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "verschieben",
@@ -14615,12 +12950,7 @@
    "sie": "haben verschoben"
   },
   "n": "Irregular (verschob, verschoben). 'ver-' inseparable. Means 'to postpone' or 'to move / shift'.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Verschieb!",
-   "ihr": "Verschiebt!",
-   "sie": "Verschieben Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "wechseln",
@@ -14656,12 +12986,7 @@
    "sie": "haben gewechselt"
   },
   "n": "Means 'to change / switch / exchange (money)'. Verbs in -eln: ich wechsle. Compare 'ändern' = to alter; 'tauschen' = to swap.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Wechsle!",
-   "ihr": "Wechselt!",
-   "sie": "Wechseln Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "wecken",
@@ -14697,12 +13022,7 @@
    "sie": "haben geweckt"
   },
   "n": "'wecken' = to wake someone up (transitive, Akk); 'aufwachen' = to wake up (oneself). 'der Wecker' = alarm clock.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Weck!",
-   "ihr": "Weckt!",
-   "sie": "Wecken Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "wehtun",
@@ -14739,12 +13059,7 @@
   },
   "n": "Separable, irregular (tat weh, wehgetan). 'jemandem wehtun' = to hurt someone (Dativ); 'sich wehtun' = to hurt oneself.",
   "sep": true,
-  "lvl": "A2",
-  "imp": {
-   "du": "Tu weh!",
-   "ihr": "Tut weh!",
-   "sie": "Tun Sie weh!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "weinen",
@@ -14780,12 +13095,7 @@
    "sie": "haben geweint"
   },
   "n": "Means 'to cry / weep'. 'weinen über/um' = to cry about/over.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Wein!",
-   "ihr": "Weint!",
-   "sie": "Weinen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "zeichnen",
@@ -14821,12 +13131,7 @@
    "sie": "haben gezeichnet"
   },
   "n": "'zeichnen' = to draw (lines/sketch); 'malen' = to paint. Stem in -n: du zeichnest, gezeichnet.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Zeichne!",
-   "ihr": "Zeichnet!",
-   "sie": "Zeichnen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "schimpfen",
@@ -14862,12 +13167,7 @@
    "sie": "haben geschimpft"
   },
   "n": "'schimpfen mit + Dativ' = to tell off; 'schimpfen über/auf + Akk' = to grumble about. Regular.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Schimpf!",
-   "ihr": "Schimpft!",
-   "sie": "Schimpfen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "träumen",
@@ -14903,12 +13203,7 @@
    "sie": "haben geträumt"
   },
   "n": "'träumen von + Dativ' = to dream of/about. Regular.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Träum!",
-   "ihr": "Träumt!",
-   "sie": "Träumen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "zumachen",
@@ -14945,12 +13240,7 @@
   },
   "n": "Separable, colloquial for 'schließen'. Opposite: 'aufmachen'.",
   "sep": true,
-  "lvl": "A2",
-  "imp": {
-   "du": "Mach zu!",
-   "ihr": "Macht zu!",
-   "sie": "Machen Sie zu!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "aufwachen",
@@ -14987,12 +13277,7 @@
   },
   "n": "Separable, with sein. You wake up yourself; 'wecken' = to wake someone else. Opposite: einschlafen.",
   "lvl": "A2",
-  "sep": true,
-  "imp": {
-   "du": "Wach auf!",
-   "ihr": "Wacht auf!",
-   "sie": "Wachen Sie auf!"
-  }
+  "sep": true
  },
  {
   "w": "ausschalten",
@@ -15029,12 +13314,7 @@
   },
   "n": "Separable. Opposite: einschalten / anmachen. Colloquial synonym: ausmachen.",
   "lvl": "A2",
-  "sep": true,
-  "imp": {
-   "du": "Schalte aus!",
-   "ihr": "Schaltet aus!",
-   "sie": "Schalten Sie aus!"
-  }
+  "sep": true
  },
  {
   "w": "ausziehen",
@@ -15071,12 +13351,7 @@
   },
   "n": "Separable. 'ausziehen' (move out) takes sein; 'sich/etwas ausziehen' (undress) takes haben. Opposite: einziehen.",
   "lvl": "A2",
-  "sep": true,
-  "imp": {
-   "du": "Zieh aus!",
-   "ihr": "Zieht aus!",
-   "sie": "Ziehen Sie aus!"
-  }
+  "sep": true
  },
  {
   "w": "abbiegen",
@@ -15113,12 +13388,7 @@
   },
   "n": "Separable, with sein. 'links/rechts abbiegen' = to turn left/right.",
   "lvl": "A2",
-  "sep": true,
-  "imp": {
-   "du": "Bieg ab!",
-   "ihr": "Biegt ab!",
-   "sie": "Biegen Sie ab!"
-  }
+  "sep": true
  },
  {
   "w": "korrigieren",
@@ -15154,12 +13424,7 @@
    "sie": "haben korrigiert"
   },
   "n": "Verbs in -ieren form the Partizip II without ge-: korrigiert.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Korrigier!",
-   "ihr": "Korrigiert!",
-   "sie": "Korrigieren Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "landen",
@@ -15195,12 +13460,7 @@
    "sie": "sind gelandet"
   },
   "n": "With sein. Opposite: starten / abfliegen.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Lande!",
-   "ihr": "Landet!",
-   "sie": "Landen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "mitmachen",
@@ -15237,12 +13497,7 @@
   },
   "n": "Separable. 'bei etwas mitmachen' = to join in. More formal: teilnehmen an + Dativ.",
   "lvl": "A2",
-  "sep": true,
-  "imp": {
-   "du": "Mach mit!",
-   "ihr": "Macht mit!",
-   "sie": "Machen Sie mit!"
-  }
+  "sep": true
  },
  {
   "w": "reichen",
@@ -15278,12 +13533,7 @@
    "sie": "haben gereicht"
   },
   "n": "'Das reicht!' = that's enough. Also 'jemandem etwas reichen' = to pass someone something.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Reich!",
-   "ihr": "Reicht!",
-   "sie": "Reichen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "steigen",
@@ -15319,12 +13569,7 @@
    "sie": "sind gestiegen"
   },
   "n": "With sein. Prices, temperatures etc. 'steigen'. Compounds: einsteigen, aussteigen, umsteigen.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Steige!",
-   "ihr": "Steigt!",
-   "sie": "Steigen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "sich trennen",
@@ -15361,12 +13606,7 @@
   },
   "n": "Reflexive. 'sich von jemandem trennen' = to split up with someone. 'getrennt zahlen' = to pay separately.",
   "lvl": "A2",
-  "refl": true,
-  "imp": {
-   "du": "Trenn dich!",
-   "ihr": "Trennt euch!",
-   "sie": "Trennen Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "überlegen",
@@ -15402,12 +13642,7 @@
    "sie": "haben überlegt"
   },
   "n": "Inseparable (über-). Often with dative reflexive: 'Ich überlege es mir.' = I'll think it over.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Überleg!",
-   "ihr": "Überlegt!",
-   "sie": "Überlegen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "verbieten",
@@ -15443,12 +13678,7 @@
    "sie": "haben verboten"
   },
   "n": "'jemandem etwas verbieten'. Opposite: erlauben. 'Rauchen verboten!' = No smoking!",
-  "lvl": "A2",
-  "imp": {
-   "du": "Verbiete!",
-   "ihr": "Verbietet!",
-   "sie": "Verbieten Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "zelten",
@@ -15484,12 +13714,7 @@
    "sie": "haben gezeltet"
   },
   "n": "From 'das Zelt' (tent). 'campen' is also common.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Zelte!",
-   "ihr": "Zeltet!",
-   "sie": "Zelten Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "zurückgeben",
@@ -15526,12 +13751,7 @@
   },
   "n": "Separable. 'jemandem etwas zurückgeben'. In a shop: umtauschen = to exchange.",
   "lvl": "A2",
-  "sep": true,
-  "imp": {
-   "du": "Gib zurück!",
-   "ihr": "Gebt zurück!",
-   "sie": "Geben Sie zurück!"
-  }
+  "sep": true
  },
  {
   "w": "ausprobieren",
@@ -15568,12 +13788,7 @@
   },
   "n": "Separable. 'etwas ausprobieren' = to test/try something out; 'probieren' = to taste/try.",
   "lvl": "A2",
-  "sep": true,
-  "imp": {
-   "du": "Probier aus!",
-   "ihr": "Probiert aus!",
-   "sie": "Probieren Sie aus!"
-  }
+  "sep": true
  },
  {
   "w": "angeben",
@@ -15610,12 +13825,7 @@
   },
   "n": "Separable. On forms: 'Namen und Adresse angeben'. Colloquial: 'Er gibt an.' = He's showing off.",
   "lvl": "B1",
-  "sep": true,
-  "imp": {
-   "du": "Gib an!",
-   "ihr": "Gebt an!",
-   "sie": "Geben Sie an!"
-  }
+  "sep": true
  },
  {
   "w": "anwenden",
@@ -15652,12 +13862,7 @@
   },
   "n": "Separable. 'eine Regel/Methode anwenden'. Both 'wendete an/angewendet' and 'wandte an/angewandt' exist.",
   "lvl": "B1",
-  "sep": true,
-  "imp": {
-   "du": "Wende an!",
-   "ihr": "Wendet an!",
-   "sie": "Wenden Sie an!"
-  }
+  "sep": true
  },
  {
   "w": "aufgeben",
@@ -15694,12 +13899,7 @@
   },
   "n": "Separable. 'Gib nicht auf!' = Don't give up! Also 'ein Paket aufgeben' = to send a parcel, 'Gepäck aufgeben' = to check in luggage.",
   "lvl": "B1",
-  "sep": true,
-  "imp": {
-   "du": "Gib auf!",
-   "ihr": "Gebt auf!",
-   "sie": "Geben Sie auf!"
-  }
+  "sep": true
  },
  {
   "w": "auffallen",
@@ -15736,12 +13936,7 @@
   },
   "n": "Separable, with sein and dative: 'Mir ist aufgefallen, dass ...' = I noticed that ...",
   "lvl": "B1",
-  "sep": true,
-  "imp": {
-   "du": "Fall auf!",
-   "ihr": "Fallt auf!",
-   "sie": "Fallen Sie auf!"
-  }
+  "sep": true
  },
  {
   "w": "ausdrücken",
@@ -15778,12 +13973,7 @@
   },
   "n": "Separable. 'seine Meinung/Gefühle ausdrücken'. 'sich ausdrücken' = to express oneself.",
   "lvl": "B1",
-  "sep": true,
-  "imp": {
-   "du": "Drück aus!",
-   "ihr": "Drückt aus!",
-   "sie": "Drücken Sie aus!"
-  }
+  "sep": true
  },
  {
   "w": "ausfallen",
@@ -15820,12 +14010,7 @@
   },
   "n": "Separable, with sein. 'Der Unterricht fällt aus.' = Class is cancelled. Also machines: 'Der Strom ist ausgefallen.'",
   "lvl": "B1",
-  "sep": true,
-  "imp": {
-   "du": "Fall aus!",
-   "ihr": "Fallt aus!",
-   "sie": "Fallen Sie aus!"
-  }
+  "sep": true
  },
  {
   "w": "aushalten",
@@ -15862,12 +14047,7 @@
   },
   "n": "Separable. 'Ich halte das nicht mehr aus!' = I can't stand it anymore!",
   "lvl": "B1",
-  "sep": true,
-  "imp": {
-   "du": "Halt aus!",
-   "ihr": "Haltet aus!",
-   "sie": "Halten Sie aus!"
-  }
+  "sep": true
  },
  {
   "w": "sich auskennen",
@@ -15905,12 +14085,7 @@
   "n": "Separable and reflexive. 'sich mit etwas auskennen' = to know a lot about something.",
   "lvl": "B1",
   "sep": true,
-  "refl": true,
-  "imp": {
-   "du": "Kenn dich aus!",
-   "ihr": "Kennt euch aus!",
-   "sie": "Kennen Sie sich aus!"
-  }
+  "refl": true
  },
  {
   "w": "aussuchen",
@@ -15947,12 +14122,7 @@
   },
   "n": "Separable, often with dative reflexive: 'Such dir etwas aus!' = Pick something for yourself! Synonym: auswählen.",
   "lvl": "B1",
-  "sep": true,
-  "imp": {
-   "du": "Such aus!",
-   "ihr": "Sucht aus!",
-   "sie": "Suchen Sie aus!"
-  }
+  "sep": true
  },
  {
   "w": "beantragen",
@@ -15988,12 +14158,7 @@
    "sie": "haben beantragt"
   },
   "n": "Inseparable. Official contexts: 'ein Visum/einen Pass beantragen'. Noun: der Antrag.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Beantrag!",
-   "ihr": "Beantragt!",
-   "sie": "Beantragen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "bearbeiten",
@@ -16029,12 +14194,7 @@
    "sie": "haben bearbeitet"
   },
   "n": "Inseparable. 'einen Antrag bearbeiten' (process), 'ein Foto bearbeiten' (edit).",
-  "lvl": "B1",
-  "imp": {
-   "du": "Bearbeite!",
-   "ihr": "Bearbeitet!",
-   "sie": "Bearbeiten Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "bedienen",
@@ -16070,12 +14230,7 @@
    "sie": "haben bedient"
   },
   "n": "Inseparable. Waiter 'bedient' guests; you 'bedienen' a machine. 'sich bedienen' = to help oneself.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Bedien!",
-   "ihr": "Bedient!",
-   "sie": "Bedienen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "sich befinden",
@@ -16148,12 +14303,7 @@
    "sie": "sind begegnet"
   },
   "n": "Inseparable, with sein and dative: 'Ich bin ihm begegnet.' More formal/chance than 'treffen'.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Begegne!",
-   "ihr": "Begegnet!",
-   "sie": "Begegnen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "begleiten",
@@ -16189,12 +14339,7 @@
    "sie": "haben begleitet"
   },
   "n": "Inseparable. 'jemanden nach Hause begleiten' = to walk someone home.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Begleite!",
-   "ihr": "Begleitet!",
-   "sie": "Begleiten Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "behalten",
@@ -16230,12 +14375,7 @@
    "sie": "haben behalten"
   },
   "n": "Inseparable. 'Das Wechselgeld können Sie behalten.' = Keep the change. Also 'etwas im Kopf behalten' = to remember.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Behalte!",
-   "ihr": "Behaltet!",
-   "sie": "Behalten Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "behandeln",
@@ -16271,12 +14411,7 @@
    "sie": "haben behandelt"
   },
   "n": "Inseparable. Doctor 'behandelt' patients; also 'jemanden gut/schlecht behandeln' and 'ein Thema behandeln'.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Behandle!",
-   "ihr": "Behandelt!",
-   "sie": "Behandeln Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "behaupten",
@@ -16312,12 +14447,7 @@
    "sie": "haben behauptet"
   },
   "n": "Inseparable. 'Er behauptet, dass ...' — a claim without proof.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Behaupte!",
-   "ihr": "Behauptet!",
-   "sie": "Behaupten Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "beobachten",
@@ -16353,12 +14483,7 @@
    "sie": "haben beobachtet"
   },
   "n": "Inseparable. Longer and more attentive than 'sehen'.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Beobachte!",
-   "ihr": "Beobachtet!",
-   "sie": "Beobachten Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "sich beruhigen",
@@ -16395,12 +14520,7 @@
   },
   "n": "Reflexive. 'Beruhige dich!' = Calm down! Without 'sich': to calm someone else.",
   "lvl": "B1",
-  "refl": true,
-  "imp": {
-   "du": "Beruhige dich!",
-   "ihr": "Beruhigt euch!",
-   "sie": "Beruhigen Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "sich beschäftigen",
@@ -16437,12 +14557,7 @@
   },
   "n": "Reflexive: 'sich mit etwas beschäftigen' = to spend time on / deal with something. 'beschäftigt sein' = to be busy.",
   "lvl": "B1",
-  "refl": true,
-  "imp": {
-   "du": "Beschäftige dich!",
-   "ihr": "Beschäftigt euch!",
-   "sie": "Beschäftigen Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "besitzen",
@@ -16478,12 +14593,7 @@
    "sie": "haben besessen"
   },
   "n": "Inseparable. More formal than 'haben'. Noun: der Besitzer = owner.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Besitz!",
-   "ihr": "Besitzt!",
-   "sie": "Besitzen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "bestimmen",
@@ -16519,12 +14629,7 @@
    "sie": "haben bestimmt"
   },
   "n": "Inseparable. 'Wer bestimmt hier?' = Who's in charge here? Adverb 'bestimmt' = certainly.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Bestimm!",
-   "ihr": "Bestimmt!",
-   "sie": "Bestimmen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "betonen",
@@ -16560,12 +14665,7 @@
    "sie": "haben betont"
   },
   "n": "Inseparable. Both pronunciation ('das Wort wird auf der ersten Silbe betont') and emphasis in argument.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Beton!",
-   "ihr": "Betont!",
-   "sie": "Betonen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "betreffen",
@@ -16601,12 +14701,7 @@
    "sie": "haben betroffen"
   },
   "n": "Inseparable. 'Was mich betrifft, ...' = As far as I'm concerned ... 'betroffen sein' = to be affected.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Betriff!",
-   "ihr": "Betrefft!",
-   "sie": "Betreffen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "betreuen",
@@ -16642,12 +14737,7 @@
    "sie": "haben betreut"
   },
   "n": "Inseparable. Children, patients, customers or projects. Noun: der Betreuer, die Betreuung.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Betreu!",
-   "ihr": "Betreut!",
-   "sie": "Betreuen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "beurteilen",
@@ -16683,12 +14773,7 @@
    "sie": "haben beurteilt"
   },
   "n": "Inseparable. 'etwas/jemanden beurteilen' = to form a judgement. Noun: das Urteil.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Beurteil!",
-   "ihr": "Beurteilt!",
-   "sie": "Beurteilen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "beweisen",
@@ -16724,12 +14809,7 @@
    "sie": "haben bewiesen"
   },
   "n": "Inseparable. Noun: der Beweis = proof/evidence.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Beweis!",
-   "ihr": "Beweist!",
-   "sie": "Beweisen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "bieten",
@@ -16765,12 +14845,7 @@
    "sie": "haben geboten"
   },
   "n": "'Die Firma bietet gute Chancen.' Compare anbieten (to offer sth to sb concretely).",
-  "lvl": "B1",
-  "imp": {
-   "du": "Biete!",
-   "ihr": "Bietet!",
-   "sie": "Bieten Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "einführen",
@@ -16807,12 +14882,7 @@
   },
   "n": "Separable. 'eine neue Regel einführen' = to introduce a rule; also to import goods.",
   "lvl": "B1",
-  "sep": true,
-  "imp": {
-   "du": "Führ ein!",
-   "ihr": "Führt ein!",
-   "sie": "Führen Sie ein!"
-  }
+  "sep": true
  },
  {
   "w": "sich einigen",
@@ -16849,12 +14919,7 @@
   },
   "n": "Reflexive: 'sich auf etwas (Akk) einigen'. Not separable — from 'einig' (in agreement).",
   "lvl": "B1",
-  "refl": true,
-  "imp": {
-   "du": "Einige dich!",
-   "ihr": "Einigt euch!",
-   "sie": "Einigen Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "einrichten",
@@ -16891,12 +14956,7 @@
   },
   "n": "Separable. 'eine Wohnung einrichten' = to furnish; 'ein Konto einrichten' = to set up an account.",
   "lvl": "B1",
-  "sep": true,
-  "imp": {
-   "du": "Richte ein!",
-   "ihr": "Richtet ein!",
-   "sie": "Richten Sie ein!"
-  }
+  "sep": true
  },
  {
   "w": "einsetzen",
@@ -16933,12 +14993,7 @@
   },
   "n": "Separable. 'Technik einsetzen' = to use technology. 'sich für etwas einsetzen' = to campaign for something.",
   "lvl": "B1",
-  "sep": true,
-  "imp": {
-   "du": "Setz ein!",
-   "ihr": "Setzt ein!",
-   "sie": "Setzen Sie ein!"
-  }
+  "sep": true
  },
  {
   "w": "entdecken",
@@ -16974,12 +15029,7 @@
    "sie": "haben entdeckt"
   },
   "n": "Inseparable. Noun: die Entdeckung.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Entdeck!",
-   "ihr": "Entdeckt!",
-   "sie": "Entdecken Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "sich entschließen",
@@ -17016,12 +15066,7 @@
   },
   "n": "Reflexive: 'sich zu etwas entschließen'. Stronger/more final than 'sich entscheiden'. Noun: der Entschluss.",
   "lvl": "B1",
-  "refl": true,
-  "imp": {
-   "du": "Entschließ dich!",
-   "ihr": "Entschließt euch!",
-   "sie": "Entschließen Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "enttäuschen",
@@ -17057,12 +15102,7 @@
    "sie": "haben enttäuscht"
   },
   "n": "Inseparable. 'enttäuscht sein von' = to be disappointed by. Noun: die Enttäuschung.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Enttäusch!",
-   "ihr": "Enttäuscht!",
-   "sie": "Enttäuschen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "sich entwickeln",
@@ -17099,12 +15139,7 @@
   },
   "n": "Reflexive for 'to develop/evolve'; without 'sich' = to develop something. Noun: die Entwicklung.",
   "lvl": "B1",
-  "refl": true,
-  "imp": {
-   "du": "Entwickle dich!",
-   "ihr": "Entwickelt euch!",
-   "sie": "Entwickeln Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "erfahren",
@@ -17140,12 +15175,7 @@
    "sie": "haben erfahren"
   },
   "n": "Inseparable. 'etwas von jemandem erfahren' = to find out from someone. Adjective 'erfahren' = experienced.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Erfahr!",
-   "ihr": "Erfahrt!",
-   "sie": "Erfahren Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "erfinden",
@@ -17181,12 +15211,7 @@
    "sie": "haben erfunden"
   },
   "n": "Inseparable. Noun: die Erfindung, der Erfinder. Also 'eine Geschichte erfinden' = to make up a story.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Erfinde!",
-   "ihr": "Erfindet!",
-   "sie": "Erfinden Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "erfüllen",
@@ -17222,12 +15247,7 @@
    "sie": "haben erfüllt"
   },
   "n": "Inseparable. 'einen Wunsch/eine Bedingung erfüllen'. 'sich erfüllen' = to come true.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Erfüll!",
-   "ihr": "Erfüllt!",
-   "sie": "Erfüllen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "erhöhen",
@@ -17263,12 +15283,7 @@
    "sie": "haben erhöht"
   },
   "n": "Inseparable. 'die Miete/Preise erhöhen'. Opposite: senken. 'sich erhöhen' = to go up.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Erhöh!",
-   "ihr": "Erhöht!",
-   "sie": "Erhöhen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "sich erholen",
@@ -17305,12 +15320,7 @@
   },
   "n": "Reflexive: 'sich von etwas erholen' = to recover from. Noun: die Erholung.",
   "lvl": "B1",
-  "refl": true,
-  "imp": {
-   "du": "Erhol dich!",
-   "ihr": "Erholt euch!",
-   "sie": "Erholen Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "erledigen",
@@ -17346,12 +15356,7 @@
    "sie": "haben erledigt"
   },
   "n": "Inseparable. 'Einkäufe/Aufgaben erledigen'. 'Erledigt!' = Done!",
-  "lvl": "B1",
-  "imp": {
-   "du": "Erledige!",
-   "ihr": "Erledigt!",
-   "sie": "Erledigen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "ernähren",
@@ -17387,12 +15392,7 @@
    "sie": "haben ernährt"
   },
   "n": "Inseparable. 'sich gesund ernähren' = to eat healthily. Noun: die Ernährung.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Ernähr!",
-   "ihr": "Ernährt!",
-   "sie": "Ernähren Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "erwähnen",
@@ -17428,12 +15428,7 @@
    "sie": "haben erwähnt"
   },
   "n": "Inseparable. 'Wie bereits erwähnt ...' = As already mentioned ...",
-  "lvl": "B1",
-  "imp": {
-   "du": "Erwähn!",
-   "ihr": "Erwähnt!",
-   "sie": "Erwähnen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "erziehen",
@@ -17469,12 +15464,7 @@
    "sie": "haben erzogen"
   },
   "n": "Inseparable. 'Kinder erziehen'. 'gut erzogen' = well brought up. Noun: die Erziehung.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Erzieh!",
-   "ihr": "Erzieht!",
-   "sie": "Erziehen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "fangen",
@@ -17510,12 +15500,7 @@
    "sie": "haben gefangen"
   },
   "n": "Irregular: a→ä. 'einen Ball/Fisch fangen'. Compound: anfangen (to begin).",
-  "lvl": "B1",
-  "imp": {
-   "du": "Fang!",
-   "ihr": "Fangt!",
-   "sie": "Fangen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "feststellen",
@@ -17552,12 +15537,7 @@
   },
   "n": "Separable. 'Ich habe festgestellt, dass ...' = I noticed/found that ...",
   "lvl": "B1",
-  "sep": true,
-  "imp": {
-   "du": "Stell fest!",
-   "ihr": "Stellt fest!",
-   "sie": "Stellen Sie fest!"
-  }
+  "sep": true
  },
  {
   "w": "fordern",
@@ -17593,12 +15573,7 @@
    "sie": "haben gefordert"
   },
   "n": "'mehr Geld/Rechte fordern'. Stronger than 'bitten'. Noun: die Forderung. Don't confuse with fördern (to support).",
-  "lvl": "B1",
-  "imp": {
-   "du": "Fordere!",
-   "ihr": "Fordert!",
-   "sie": "Fordern Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "fördern",
@@ -17634,12 +15609,7 @@
    "sie": "haben gefördert"
   },
   "n": "'Talente/Projekte fördern'. Noun: die Förderung (grant/subsidy). Don't confuse with fordern (to demand).",
-  "lvl": "B1",
-  "imp": {
-   "du": "Fördere!",
-   "ihr": "Fördert!",
-   "sie": "Fördern Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "fortsetzen",
@@ -17676,12 +15646,7 @@
   },
   "n": "Separable. 'ein Gespräch/eine Reise fortsetzen'. Noun: die Fortsetzung (sequel).",
   "lvl": "B1",
-  "sep": true,
-  "imp": {
-   "du": "Setz fort!",
-   "ihr": "Setzt fort!",
-   "sie": "Setzen Sie fort!"
-  }
+  "sep": true
  },
  {
   "w": "gelingen",
@@ -17753,12 +15718,7 @@
    "sie": "haben gegolten"
   },
   "n": "Irregular: e→i. 'Das Ticket gilt einen Monat.' 'gelten als' = to be considered as.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Gilt!",
-   "ihr": "Geltet!",
-   "sie": "Gelten Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "genießen",
@@ -17794,12 +15754,7 @@
    "sie": "haben genossen"
   },
   "n": "Inseparable. 'das Leben/die Sonne genießen'. Noun: der Genuss.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Genieß!",
-   "ihr": "Genießt!",
-   "sie": "Genießen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "geschehen",
@@ -17871,12 +15826,7 @@
    "sie": "haben gestaltet"
   },
   "n": "'ein Plakat/den Alltag gestalten' = to design a poster / organise one's day. Noun: die Gestaltung.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Gestalte!",
-   "ihr": "Gestaltet!",
-   "sie": "Gestalten Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "sich gewöhnen",
@@ -17913,12 +15863,7 @@
   },
   "n": "Reflexive: 'sich an etwas (Akk) gewöhnen'. 'Ich bin es gewohnt' = I'm used to it. Noun: die Gewohnheit.",
   "lvl": "B1",
-  "refl": true,
-  "imp": {
-   "du": "Gewöhn dich!",
-   "ihr": "Gewöhnt euch!",
-   "sie": "Gewöhnen Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "gießen",
@@ -17954,12 +15899,7 @@
    "sie": "haben gegossen"
   },
   "n": "'Blumen gießen' = to water flowers; 'Kaffee in die Tasse gießen' = to pour. 'Es gießt.' = It's pouring (rain).",
-  "lvl": "B1",
-  "imp": {
-   "du": "Gieß!",
-   "ihr": "Gießt!",
-   "sie": "Gießen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "gründen",
@@ -17995,12 +15935,7 @@
    "sie": "haben gegründet"
   },
   "n": "'eine Firma/Familie gründen'. Noun: die Gründung, der Gründer.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Gründe!",
-   "ihr": "Gründet!",
-   "sie": "Gründen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "hinweisen",
@@ -18037,12 +15972,7 @@
   },
   "n": "Separable: 'auf etwas (Akk) hinweisen'. Noun: der Hinweis = hint/notice.",
   "lvl": "B1",
-  "sep": true,
-  "imp": {
-   "du": "Weis hin!",
-   "ihr": "Weist hin!",
-   "sie": "Weisen Sie hin!"
-  }
+  "sep": true
  },
  {
   "w": "klären",
@@ -18078,12 +16008,7 @@
    "sie": "haben geklärt"
   },
   "n": "'eine Frage klären' = to settle a question. 'sich klären' = to resolve itself. Noun: die Klärung.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Klär!",
-   "ihr": "Klärt!",
-   "sie": "Klären Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "sich konzentrieren",
@@ -18120,12 +16045,7 @@
   },
   "n": "Reflexive: 'sich auf etwas (Akk) konzentrieren'. -ieren verb: no ge- in Partizip II.",
   "lvl": "B1",
-  "refl": true,
-  "imp": {
-   "du": "Konzentrier dich!",
-   "ihr": "Konzentriert euch!",
-   "sie": "Konzentrieren Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "kritisieren",
@@ -18161,12 +16081,7 @@
    "sie": "haben kritisiert"
   },
   "n": "-ieren verb: no ge- in Partizip II. Noun: die Kritik.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Kritisier!",
-   "ihr": "Kritisiert!",
-   "sie": "Kritisieren Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "sich lohnen",
@@ -18239,12 +16154,7 @@
    "sie": "haben gelöst"
   },
   "n": "'ein Problem lösen' = to solve; 'eine Fahrkarte lösen' = to buy a ticket. Noun: die Lösung.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Lös!",
-   "ihr": "Löst!",
-   "sie": "Lösen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "mitteilen",
@@ -18281,12 +16191,7 @@
   },
   "n": "Separable: 'jemandem etwas mitteilen'. Formal. Noun: die Mitteilung.",
   "lvl": "B1",
-  "sep": true,
-  "imp": {
-   "du": "Teil mit!",
-   "ihr": "Teilt mit!",
-   "sie": "Teilen Sie mit!"
-  }
+  "sep": true
  },
  {
   "w": "nachdenken",
@@ -18323,12 +16228,7 @@
   },
   "n": "Separable: 'über etwas (Akk) nachdenken'. 'Denk mal nach!' = Think about it!",
   "lvl": "B1",
-  "sep": true,
-  "imp": {
-   "du": "Denk nach!",
-   "ihr": "Denkt nach!",
-   "sie": "Denken Sie nach!"
-  }
+  "sep": true
  },
  {
   "w": "pflegen",
@@ -18364,12 +16264,7 @@
    "sie": "haben gepflegt"
   },
   "n": "'kranke Menschen pflegen'; also 'Kontakte pflegen'. Nouns: die Pflege, der Pfleger.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Pfleg!",
-   "ihr": "Pflegt!",
-   "sie": "Pflegen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "reduzieren",
@@ -18405,12 +16300,7 @@
    "sie": "haben reduziert"
   },
   "n": "-ieren verb. 'reduzierte Ware' = discounted goods. Synonym: verringern.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Reduzier!",
-   "ihr": "Reduziert!",
-   "sie": "Reduzieren Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "regeln",
@@ -18446,12 +16336,7 @@
    "sie": "haben geregelt"
   },
   "n": "'etwas regeln' = to sort something out. 'geregelte Arbeitszeiten' = regular working hours. Noun: die Regel.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Regle!",
-   "ihr": "Regelt!",
-   "sie": "Regeln Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "retten",
@@ -18487,12 +16372,7 @@
    "sie": "haben gerettet"
   },
   "n": "'jemandem das Leben retten' = to save someone's life. Noun: die Rettung.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Rette!",
-   "ihr": "Rettet!",
-   "sie": "Retten Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "senken",
@@ -18528,12 +16408,7 @@
    "sie": "haben gesenkt"
   },
   "n": "'Preise/Kosten senken'. Opposite: erhöhen. Compare sinken (to fall, intransitive).",
-  "lvl": "B1",
-  "imp": {
-   "du": "Senk!",
-   "ihr": "Senkt!",
-   "sie": "Senken Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "sinken",
@@ -18569,12 +16444,7 @@
    "sie": "sind gesunken"
   },
   "n": "With sein, intransitive: 'Die Preise sinken.' Compare senken (to lower something).",
-  "lvl": "B1",
-  "imp": {
-   "du": "Sink!",
-   "ihr": "Sinkt!",
-   "sie": "Sinken Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "sorgen",
@@ -18610,12 +16480,7 @@
    "sie": "haben gesorgt"
   },
   "n": "'für jemanden sorgen' = to take care of; 'für Ordnung sorgen' = to ensure order. 'sich sorgen um' = to worry about.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Sorg!",
-   "ihr": "Sorgt!",
-   "sie": "Sorgen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "streiken",
@@ -18651,12 +16516,7 @@
    "sie": "haben gestreikt"
   },
   "n": "Noun: der Streik. Colloquial: 'Mein Computer streikt.' = My computer is acting up.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Streik!",
-   "ihr": "Streikt!",
-   "sie": "Streiken Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "streiten",
@@ -18692,12 +16552,7 @@
    "sie": "haben gestritten"
   },
   "n": "Often reflexive: 'sich mit jemandem über etwas streiten'. Noun: der Streit.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Streite!",
-   "ihr": "Streitet!",
-   "sie": "Streiten Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "überraschen",
@@ -18733,12 +16588,7 @@
    "sie": "haben überrascht"
   },
   "n": "Inseparable (über-). 'überrascht sein' = to be surprised. Noun: die Überraschung.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Überrasch!",
-   "ihr": "Überrascht!",
-   "sie": "Überraschen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "überzeugen",
@@ -18774,12 +16624,7 @@
    "sie": "haben überzeugt"
   },
   "n": "Inseparable. 'jemanden von etwas überzeugen'. 'Ich bin überzeugt, dass ...' = I'm convinced that ...",
-  "lvl": "B1",
-  "imp": {
-   "du": "Überzeug!",
-   "ihr": "Überzeugt!",
-   "sie": "Überzeugen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "unterbrechen",
@@ -18815,12 +16660,7 @@
    "sie": "haben unterbrochen"
   },
   "n": "Inseparable. 'Unterbrich mich bitte nicht!' Noun: die Unterbrechung.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Unterbrich!",
-   "ihr": "Unterbrecht!",
-   "sie": "Unterbrechen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "unterscheiden",
@@ -18856,12 +16696,7 @@
    "sie": "haben unterschieden"
   },
   "n": "Inseparable. 'sich unterscheiden von' = to differ from. Noun: der Unterschied.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Unterscheide!",
-   "ihr": "Unterscheidet!",
-   "sie": "Unterscheiden Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "unterstützen",
@@ -18897,12 +16732,7 @@
    "sie": "haben unterstützt"
   },
   "n": "Inseparable. Noun: die Unterstützung.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Unterstütz!",
-   "ihr": "Unterstützt!",
-   "sie": "Unterstützen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "verbessern",
@@ -18938,12 +16768,7 @@
    "sie": "haben verbessert"
   },
   "n": "Inseparable. 'sich verbessern' = to get better. Noun: die Verbesserung.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Verbessere!",
-   "ihr": "Verbessert!",
-   "sie": "Verbessern Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "verbinden",
@@ -18979,12 +16804,7 @@
    "sie": "haben verbunden"
   },
   "n": "Inseparable. On the phone: 'Ich verbinde Sie.' = I'll put you through. Noun: die Verbindung.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Verbinde!",
-   "ihr": "Verbindet!",
-   "sie": "Verbinden Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "verhandeln",
@@ -19020,12 +16840,7 @@
    "sie": "haben verhandelt"
   },
   "n": "Inseparable. 'über den Preis/Vertrag verhandeln'. Noun: die Verhandlung.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Verhandle!",
-   "ihr": "Verhandelt!",
-   "sie": "Verhandeln Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "verhindern",
@@ -19061,12 +16876,7 @@
    "sie": "haben verhindert"
   },
   "n": "Inseparable. 'einen Unfall verhindern'. 'verhindert sein' = to be unable to attend.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Verhindere!",
-   "ihr": "Verhindert!",
-   "sie": "Verhindern Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "verlangen",
@@ -19102,12 +16912,7 @@
    "sie": "haben verlangt"
   },
   "n": "Inseparable. 'Der Chef verlangt viel.' Also price: 'Wie viel verlangen Sie dafür?'",
-  "lvl": "B1",
-  "imp": {
-   "du": "Verlang!",
-   "ihr": "Verlangt!",
-   "sie": "Verlangen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "verletzen",
@@ -19143,12 +16948,7 @@
    "sie": "haben verletzt"
   },
   "n": "Inseparable. 'sich verletzen' = to hurt oneself. Also feelings: 'Deine Worte verletzen mich.' Noun: die Verletzung.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Verletz!",
-   "ihr": "Verletzt!",
-   "sie": "Verletzen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "vermeiden",
@@ -19184,12 +16984,7 @@
    "sie": "haben vermieden"
   },
   "n": "Inseparable. 'Fehler/Stress vermeiden'.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Vermeide!",
-   "ihr": "Vermeidet!",
-   "sie": "Vermeiden Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "vermuten",
@@ -19225,12 +17020,7 @@
    "sie": "haben vermutet"
   },
   "n": "Inseparable. 'Ich vermute, dass ...' = I suppose that ... Adverb: vermutlich = presumably.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Vermute!",
-   "ihr": "Vermutet!",
-   "sie": "Vermuten Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "veröffentlichen",
@@ -19266,12 +17056,7 @@
    "sie": "haben veröffentlicht"
   },
   "n": "Inseparable. Noun: die Veröffentlichung.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Veröffentlich!",
-   "ihr": "Veröffentlicht!",
-   "sie": "Veröffentlichen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "verschwinden",
@@ -19307,12 +17092,7 @@
    "sie": "sind verschwunden"
   },
   "n": "Inseparable, with sein. 'Meine Schlüssel sind verschwunden.'",
-  "lvl": "B1",
-  "imp": {
-   "du": "Verschwinde!",
-   "ihr": "Verschwindet!",
-   "sie": "Verschwinden Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "versichern",
@@ -19348,12 +17128,7 @@
    "sie": "haben versichert"
   },
   "n": "Inseparable. 'gut versichert sein' = to be well insured. Noun: die Versicherung.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Versichere!",
-   "ihr": "Versichert!",
-   "sie": "Versichern Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "versorgen",
@@ -19389,12 +17164,7 @@
    "sie": "haben versorgt"
   },
   "n": "Inseparable. 'jemanden mit etwas versorgen' = to supply someone with something. Noun: die Versorgung.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Versorg!",
-   "ihr": "Versorgt!",
-   "sie": "Versorgen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "verteilen",
@@ -19430,12 +17200,7 @@
    "sie": "haben verteilt"
   },
   "n": "Inseparable. 'Flyer verteilen' = to hand out flyers.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Verteil!",
-   "ihr": "Verteilt!",
-   "sie": "Verteilen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "vertreten",
@@ -19471,12 +17236,7 @@
    "sie": "haben vertreten"
   },
   "n": "Inseparable. 'eine Kollegin vertreten' = to cover for a colleague; 'eine Meinung vertreten' = to hold an opinion. Noun: der Vertreter, die Vertretung.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Vertritt!",
-   "ihr": "Vertretet!",
-   "sie": "Vertreten Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "verursachen",
@@ -19512,12 +17272,7 @@
    "sie": "haben verursacht"
   },
   "n": "Inseparable. 'einen Unfall/Kosten verursachen'. Noun: die Ursache.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Verursach!",
-   "ihr": "Verursacht!",
-   "sie": "Verursachen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "verwenden",
@@ -19553,12 +17308,7 @@
    "sie": "haben verwendet"
   },
   "n": "Inseparable. Synonym: benutzen. Noun: die Verwendung.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Verwende!",
-   "ihr": "Verwendet!",
-   "sie": "Verwenden Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "verzichten",
@@ -19594,12 +17344,7 @@
    "sie": "haben verzichtet"
   },
   "n": "Inseparable: 'auf etwas (Akk) verzichten' = to do without something.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Verzichte!",
-   "ihr": "Verzichtet!",
-   "sie": "Verzichten Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "vorkommen",
@@ -19636,12 +17381,7 @@
   },
   "n": "Separable, with sein. 'Das kommt vor.' = That happens. 'Es kommt mir komisch vor.' = It seems strange to me.",
   "lvl": "B1",
-  "sep": true,
-  "imp": {
-   "du": "Komm vor!",
-   "ihr": "Kommt vor!",
-   "sie": "Kommen Sie vor!"
-  }
+  "sep": true
  },
  {
   "w": "wachsen",
@@ -19677,12 +17417,7 @@
    "sie": "sind gewachsen"
   },
   "n": "Irregular: a→ä, with sein. 'Die Kinder wachsen schnell.' Noun: das Wachstum.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Wachs!",
-   "ihr": "Wachst!",
-   "sie": "Wachsen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "warnen",
@@ -19718,12 +17453,7 @@
    "sie": "haben gewarnt"
   },
   "n": "'jemanden vor etwas (Dat) warnen'. Noun: die Warnung.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Warn!",
-   "ihr": "Warnt!",
-   "sie": "Warnen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "wegwerfen",
@@ -19760,12 +17490,7 @@
   },
   "n": "Separable. 'alte Sachen wegwerfen'. Opposite: aufheben / behalten.",
   "lvl": "B1",
-  "sep": true,
-  "imp": {
-   "du": "Wirf weg!",
-   "ihr": "Werft weg!",
-   "sie": "Werfen Sie weg!"
-  }
+  "sep": true
  },
  {
   "w": "werfen",
@@ -19801,12 +17526,7 @@
    "sie": "haben geworfen"
   },
   "n": "Irregular: e→i. 'einen Blick auf etwas werfen' = to take a look at something.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Wirf!",
-   "ihr": "Werft!",
-   "sie": "Werfen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "wiegen",
@@ -19842,12 +17562,7 @@
    "sie": "haben gewogen"
   },
   "n": "'Wie viel wiegst du?' Noun: das Gewicht, die Waage (scales).",
-  "lvl": "B1",
-  "imp": {
-   "du": "Wieg!",
-   "ihr": "Wiegt!",
-   "sie": "Wiegen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "wirken",
@@ -19883,12 +17598,7 @@
    "sie": "haben gewirkt"
   },
   "n": "'Die Tablette wirkt schnell.' = takes effect. 'Er wirkt müde.' = He seems tired. Noun: die Wirkung.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Wirk!",
-   "ihr": "Wirkt!",
-   "sie": "Wirken Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "sich wundern",
@@ -19925,12 +17635,7 @@
   },
   "n": "Reflexive: 'sich über etwas (Akk) wundern'. Noun: das Wunder = miracle.",
   "lvl": "B1",
-  "refl": true,
-  "imp": {
-   "du": "Wundere dich!",
-   "ihr": "Wundert euch!",
-   "sie": "Wundern Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "zerstören",
@@ -19966,12 +17671,7 @@
    "sie": "haben zerstört"
   },
   "n": "Inseparable (zer- = apart). Noun: die Zerstörung.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Zerstör!",
-   "ihr": "Zerstört!",
-   "sie": "Zerstören Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "zugeben",
@@ -20008,12 +17708,7 @@
   },
   "n": "Separable. 'einen Fehler zugeben' = to admit a mistake. 'Zugegeben, ...' = Admittedly, ...",
   "lvl": "B1",
-  "sep": true,
-  "imp": {
-   "du": "Gib zu!",
-   "ihr": "Gebt zu!",
-   "sie": "Geben Sie zu!"
-  }
+  "sep": true
  },
  {
   "w": "zusammenfassen",
@@ -20050,12 +17745,7 @@
   },
   "n": "Separable. 'einen Text zusammenfassen'. Noun: die Zusammenfassung.",
   "lvl": "B1",
-  "sep": true,
-  "imp": {
-   "du": "Fass zusammen!",
-   "ihr": "Fasst zusammen!",
-   "sie": "Fassen Sie zusammen!"
-  }
+  "sep": true
  },
  {
   "w": "zweifeln",
@@ -20091,12 +17781,7 @@
    "sie": "haben gezweifelt"
   },
   "n": "'an etwas (Dat) zweifeln'. Noun: der Zweifel. 'ohne Zweifel' = without doubt.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Zweifle!",
-   "ihr": "Zweifelt!",
-   "sie": "Zweifeln Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "abschreiben",
@@ -20133,12 +17818,7 @@
   },
   "n": "Separable, irregular (schrieb ab, abgeschrieben). In school it means to copy someone else's answers.",
   "lvl": "B1",
-  "sep": true,
-  "imp": {
-   "du": "Schreib ab!",
-   "ihr": "Schreibt ab!",
-   "sie": "Schreiben Sie ab!"
-  }
+  "sep": true
  },
  {
   "w": "anhalten",
@@ -20175,12 +17855,7 @@
   },
   "n": "Separable, irregular with a→ä (du hältst an). 'Halt bitte hier an!' = stop here.",
   "lvl": "A2",
-  "sep": true,
-  "imp": {
-   "du": "Halt an!",
-   "ihr": "Haltet an!",
-   "sie": "Halten Sie an!"
-  }
+  "sep": true
  },
  {
   "w": "anschalten",
@@ -20217,12 +17892,7 @@
   },
   "n": "Separable. Opposite: ausschalten. Also einschalten for devices.",
   "lvl": "A2",
-  "sep": true,
-  "imp": {
-   "du": "Schalte an!",
-   "ihr": "Schaltet an!",
-   "sie": "Schalten Sie an!"
-  }
+  "sep": true
  },
  {
   "w": "angeln",
@@ -20258,12 +17928,7 @@
    "sie": "haben geangelt"
   },
   "n": "Verbs in -eln drop the e in the ich-form: ich angle.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Angle!",
-   "ihr": "Angelt!",
-   "sie": "Angeln Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "aufladen",
@@ -20300,12 +17965,7 @@
   },
   "n": "Separable, irregular a→ä. Used for phones and batteries: das Handy aufladen.",
   "lvl": "A2",
-  "sep": true,
-  "imp": {
-   "du": "Lad auf!",
-   "ihr": "Ladet auf!",
-   "sie": "Laden Sie auf!"
-  }
+  "sep": true
  },
  {
   "w": "aufwärmen",
@@ -20342,12 +18002,7 @@
   },
   "n": "Separable. Also reflexive for athletes: sich aufwärmen.",
   "lvl": "A2",
-  "sep": true,
-  "imp": {
-   "du": "Wärm auf!",
-   "ihr": "Wärmt auf!",
-   "sie": "Wärmen Sie auf!"
-  }
+  "sep": true
  },
  {
   "w": "beißen",
@@ -20383,12 +18038,7 @@
    "sie": "haben gebissen"
   },
   "n": "Irregular (biss, gebissen). Stems in -ß take just -t in the du-form.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Beiß!",
-   "ihr": "Beißt!",
-   "sie": "Beißen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "berühren",
@@ -20424,12 +18074,7 @@
    "sie": "haben berührt"
   },
   "n": "Inseparable be- prefix, so no ge- in the participle. Also figurative: 'Das hat mich berührt.'",
-  "lvl": "B1",
-  "imp": {
-   "du": "Berühr!",
-   "ihr": "Berührt!",
-   "sie": "Berühren Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "durchfallen",
@@ -20466,12 +18111,7 @@
   },
   "n": "Separable here, and takes sein. 'durch die Prüfung fallen' = to fail the exam.",
   "lvl": "B1",
-  "sep": true,
-  "imp": {
-   "du": "Fall durch!",
-   "ihr": "Fallt durch!",
-   "sie": "Fallen Sie durch!"
-  }
+  "sep": true
  },
  {
   "w": "einfrieren",
@@ -20508,12 +18148,7 @@
   },
   "n": "Separable, irregular. Takes haben when you freeze something, sein when something freezes.",
   "lvl": "B1",
-  "sep": true,
-  "imp": {
-   "du": "Frier ein!",
-   "ihr": "Friert ein!",
-   "sie": "Frieren Sie ein!"
-  }
+  "sep": true
  },
  {
   "w": "ermutigen",
@@ -20549,12 +18184,7 @@
    "sie": "haben ermutigt"
   },
   "n": "Inseparable er- prefix — no ge-. 'jemanden zu etwas ermutigen'.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Ermutige!",
-   "ihr": "Ermutigt!",
-   "sie": "Ermutigen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "experimentieren",
@@ -20590,12 +18220,7 @@
    "sie": "haben experimentiert"
   },
   "n": "Verbs in -ieren never take ge- in the Partizip II.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Experimentier!",
-   "ihr": "Experimentiert!",
-   "sie": "Experimentieren Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "hacken",
@@ -20631,12 +18256,7 @@
    "sie": "haben gehackt"
   },
   "n": "Also 'to hack' a computer. Hackfleisch = minced meat.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Hack!",
-   "ihr": "Hackt!",
-   "sie": "Hacken Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "hassen",
@@ -20672,12 +18292,7 @@
    "sie": "haben gehasst"
   },
   "n": "Stems in -ss take just -t in the du-form: du hasst.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Hass!",
-   "ihr": "Hasst!",
-   "sie": "Hassen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "hineingehen",
@@ -20714,12 +18329,7 @@
   },
   "n": "Separable, takes sein. In speech people usually just say 'reingehen'.",
   "lvl": "B1",
-  "sep": true,
-  "imp": {
-   "du": "Geh hinein!",
-   "ihr": "Geht hinein!",
-   "sie": "Gehen Sie hinein!"
-  }
+  "sep": true
  },
  {
   "w": "hinfallen",
@@ -20756,12 +18366,7 @@
   },
   "n": "Separable, sein, a→ä. For people falling down; 'fallen' alone works for objects.",
   "lvl": "A2",
-  "sep": true,
-  "imp": {
-   "du": "Fall hin!",
-   "ihr": "Fallt hin!",
-   "sie": "Fallen Sie hin!"
-  }
+  "sep": true
  },
  {
   "w": "kaputtmachen",
@@ -20798,12 +18403,7 @@
   },
   "n": "Separable and informal. Reflexively 'sich kaputtmachen' = to wear yourself out.",
   "lvl": "A2",
-  "sep": true,
-  "imp": {
-   "du": "Mach kaputt!",
-   "ihr": "Macht kaputt!",
-   "sie": "Machen Sie kaputt!"
-  }
+  "sep": true
  },
  {
   "w": "küssen",
@@ -20839,12 +18439,7 @@
    "sie": "haben geküsst"
   },
   "n": "Stems in -ss take -t in the du-form. Reciprocal: sich küssen.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Küss!",
-   "ihr": "Küsst!",
-   "sie": "Küssen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "nähen",
@@ -20880,12 +18475,7 @@
    "sie": "haben genäht"
   },
   "n": "Regular. die Nähmaschine = sewing machine.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Näh!",
-   "ihr": "Näht!",
-   "sie": "Nähen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "pflanzen",
@@ -20921,12 +18511,7 @@
    "sie": "haben gepflanzt"
   },
   "n": "Stems in -z take just -t in the du-form: du pflanzt.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Pflanz!",
-   "ihr": "Pflanzt!",
-   "sie": "Pflanzen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "radeln",
@@ -20962,12 +18547,7 @@
    "sie": "sind geradelt"
   },
   "n": "Verbs in -eln drop the e: ich radle. Takes sein (movement). 'Rad fahren' is the neutral alternative.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Radle!",
-   "ihr": "Radelt!",
-   "sie": "Radeln Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "sammeln",
@@ -21003,12 +18583,7 @@
    "sie": "haben gesammelt"
   },
   "n": "Verbs in -eln drop the e: ich sammle. die Sammlung = the collection.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Sammle!",
-   "ihr": "Sammelt!",
-   "sie": "Sammeln Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "saubermachen",
@@ -21045,12 +18620,7 @@
   },
   "n": "Separable. Also written 'sauber machen'. Synonym: putzen.",
   "lvl": "A2",
-  "sep": true,
-  "imp": {
-   "du": "Mach sauber!",
-   "ihr": "Macht sauber!",
-   "sie": "Machen Sie sauber!"
-  }
+  "sep": true
  },
  {
   "w": "schieben",
@@ -21086,12 +18656,7 @@
    "sie": "haben geschoben"
   },
   "n": "Irregular (schob, geschoben). Doors in Germany say 'ziehen' (pull) or 'drücken'/'schieben' (push).",
-  "lvl": "A2",
-  "imp": {
-   "du": "Schieb!",
-   "ihr": "Schiebt!",
-   "sie": "Schieben Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "schreien",
@@ -21127,12 +18692,7 @@
    "sie": "haben geschrien"
   },
   "n": "Irregular (schrie, geschrien). Note the missing e in the participle.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Schrei!",
-   "ihr": "Schreit!",
-   "sie": "Schreien Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "segeln",
@@ -21168,12 +18728,7 @@
    "sie": "sind gesegelt"
   },
   "n": "Verbs in -eln drop the e: ich segle. Takes sein as a movement verb.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Segle!",
-   "ihr": "Segelt!",
-   "sie": "Segeln Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "speichern",
@@ -21209,12 +18764,7 @@
    "sie": "haben gespeichert"
   },
   "n": "The standard computing word. der Speicher = memory / storage.",
-  "lvl": "A2",
-  "imp": {
-   "du": "Speichere!",
-   "ihr": "Speichert!",
-   "sie": "Speichern Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "vergrößern",
@@ -21250,12 +18800,7 @@
    "sie": "haben vergrößert"
   },
   "n": "Inseparable ver- prefix — no ge-. Opposite: verkleinern.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Vergrößere!",
-   "ihr": "Vergrößert!",
-   "sie": "Vergrößern Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "vermehren",
@@ -21291,12 +18836,7 @@
    "sie": "haben vermehrt"
   },
   "n": "Inseparable. Often reflexive: 'sich vermehren' = to multiply/reproduce.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Vermehr!",
-   "ihr": "Vermehrt!",
-   "sie": "Vermehren Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "vermindern",
@@ -21332,12 +18872,7 @@
    "sie": "haben vermindert"
   },
   "n": "Inseparable. More common everyday word: reduzieren or verringern.",
-  "lvl": "B1",
-  "imp": {
-   "du": "Vermindere!",
-   "ihr": "Vermindert!",
-   "sie": "Vermindern Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "weitermachen",
@@ -21374,12 +18909,7 @@
   },
   "n": "Separable. 'Mach weiter so!' = keep it up!",
   "lvl": "A2",
-  "sep": true,
-  "imp": {
-   "du": "Mach weiter!",
-   "ihr": "Macht weiter!",
-   "sie": "Machen Sie weiter!"
-  }
+  "sep": true
  },
  {
   "w": "zerreißen",
@@ -21415,12 +18945,7 @@
    "sie": "haben zerrissen"
   },
   "n": "Inseparable zer- prefix — no ge-. Irregular (zerriss, zerrissen).",
-  "lvl": "B1",
-  "imp": {
-   "du": "Zerreiß!",
-   "ihr": "Zerreißt!",
-   "sie": "Zerreißen Sie!"
-  }
+  "lvl": "B1"
  },
  {
   "w": "ziehen",
@@ -21456,12 +18981,7 @@
    "sie": "haben gezogen"
   },
   "n": "Irregular (zog, gezogen). With sein it means 'to move house': 'Ich bin nach München gezogen.'",
-  "lvl": "A2",
-  "imp": {
-   "du": "Zieh!",
-   "ihr": "Zieht!",
-   "sie": "Ziehen Sie!"
-  }
+  "lvl": "A2"
  },
  {
   "w": "zurückfahren",
@@ -21498,12 +19018,7 @@
   },
   "n": "Separable, sein, a→ä.",
   "lvl": "A2",
-  "sep": true,
-  "imp": {
-   "du": "Fahr zurück!",
-   "ihr": "Fahrt zurück!",
-   "sie": "Fahren Sie zurück!"
-  }
+  "sep": true
  },
  {
   "w": "zurückgehen",
@@ -21540,12 +19055,7 @@
   },
   "n": "Separable, sein. Also figurative: 'Die Zahlen gehen zurück' = the numbers are falling.",
   "lvl": "A2",
-  "sep": true,
-  "imp": {
-   "du": "Geh zurück!",
-   "ihr": "Geht zurück!",
-   "sie": "Gehen Sie zurück!"
-  }
+  "sep": true
  },
  {
   "w": "zurückkehren",
@@ -21582,12 +19092,7 @@
   },
   "n": "Separable, regular, takes sein. More formal than zurückkommen.",
   "lvl": "B1",
-  "sep": true,
-  "imp": {
-   "du": "Kehr zurück!",
-   "ihr": "Kehrt zurück!",
-   "sie": "Kehren Sie zurück!"
-  }
+  "sep": true
  },
  {
   "w": "sich bewegen",
@@ -21624,12 +19129,7 @@
   },
   "n": "Inseparable be- prefix — no ge-. Reflexive for moving your own body; also non-reflexive: etwas bewegen.",
   "lvl": "B1",
-  "refl": true,
-  "imp": {
-   "du": "Beweg dich!",
-   "ihr": "Bewegt euch!",
-   "sie": "Bewegen Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "sich interessieren",
@@ -21666,12 +19166,7 @@
   },
   "n": "'sich interessieren für + Akkusativ'. -ieren verb, so no ge-.",
   "lvl": "A2",
-  "refl": true,
-  "imp": {
-   "du": "Interessier dich!",
-   "ihr": "Interessiert euch!",
-   "sie": "Interessieren Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "sich nähern",
@@ -21708,12 +19203,7 @@
   },
   "n": "Reflexive, takes the Dativ: 'sich einer Sache nähern'.",
   "lvl": "B1",
-  "refl": true,
-  "imp": {
-   "du": "Nähere dich!",
-   "ihr": "Nähert euch!",
-   "sie": "Nähern Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "sich setzen",
@@ -21750,12 +19240,7 @@
   },
   "n": "The action of sitting down (Akkusativ). 'sitzen' is the state of being seated.",
   "lvl": "A1",
-  "refl": true,
-  "imp": {
-   "du": "Setz dich!",
-   "ihr": "Setzt euch!",
-   "sie": "Setzen Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "sich hinlegen",
@@ -21793,12 +19278,7 @@
   "n": "Separable and reflexive. 'liegen' is the state, 'sich hinlegen' the action.",
   "lvl": "A2",
   "sep": true,
-  "refl": true,
-  "imp": {
-   "du": "Leg dich hin!",
-   "ihr": "Legt euch hin!",
-   "sie": "Legen Sie sich hin!"
-  }
+  "refl": true
  },
  {
   "w": "sich verletzen",
@@ -21835,12 +19315,7 @@
   },
   "n": "Inseparable ver- — no ge-. 'sich am Bein verletzen' = to injure one's leg.",
   "lvl": "A2",
-  "refl": true,
-  "imp": {
-   "du": "Verletz dich!",
-   "ihr": "Verletzt euch!",
-   "sie": "Verletzen Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "sich ausziehen",
@@ -21878,12 +19353,7 @@
   "n": "Separable, irregular, reflexive. Non-reflexive it means to take a garment off, or to move out of a flat.",
   "lvl": "A2",
   "sep": true,
-  "refl": true,
-  "imp": {
-   "du": "Zieh dich aus!",
-   "ihr": "Zieht euch aus!",
-   "sie": "Ziehen Sie sich aus!"
-  }
+  "refl": true
  },
  {
   "w": "sich umziehen",
@@ -21921,12 +19391,7 @@
   "n": "Separable, irregular, reflexive. Without sich it means to move house (with sein).",
   "lvl": "A2",
   "sep": true,
-  "refl": true,
-  "imp": {
-   "du": "Zieh dich um!",
-   "ihr": "Zieht euch um!",
-   "sie": "Ziehen Sie sich um!"
-  }
+  "refl": true
  },
  {
   "w": "sich verlaufen",
@@ -21963,12 +19428,7 @@
   },
   "n": "Inseparable ver- so no ge- in the participle. On foot; in a car it is 'sich verfahren'.",
   "lvl": "B1",
-  "refl": true,
-  "imp": {
-   "du": "Verlauf dich!",
-   "ihr": "Verlauft euch!",
-   "sie": "Verlaufen Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "sich verfahren",
@@ -22005,12 +19465,7 @@
   },
   "n": "Inseparable ver- — no ge-. The driving counterpart of sich verlaufen.",
   "lvl": "B1",
-  "refl": true,
-  "imp": {
-   "du": "Verfahr dich!",
-   "ihr": "Verfahrt euch!",
-   "sie": "Verfahren Sie sich!"
-  }
+  "refl": true
  },
  {
   "w": "sich umarmen",
@@ -22047,11 +19502,6 @@
   },
   "n": "Inseparable um- here — no ge-. Reciprocal: 'sie umarmen sich' = they hug each other.",
   "lvl": "B1",
-  "refl": true,
-  "imp": {
-   "du": "Umarm dich!",
-   "ihr": "Umarmt euch!",
-   "sie": "Umarmen Sie sich!"
-  }
+  "refl": true
  }
 ]

@@ -113,13 +113,6 @@ for (const x of db.verbs) {
   if (!needsE && !sibilant && /est$/.test((x.pr?.du ?? "").split(/\s+/)[0]))
     err(`verbs: "${x.w}" pr.du is "${x.pr.du}" — no -e- after this stem`);
 
-  // Imperatives are optional (modals have none) but must be complete when
-  // present, or the card renders "undefined!".
-  if (x.imp) {
-    for (const p of ["du", "ihr", "sie"]) {
-      if (!hasField(x.imp[p])) err(`verbs: "${x.w}" imp.${p} is missing`);
-    }
-  }
 }
 
 // ── 6. Adjectives ─────────────────────────────────────────────────────────

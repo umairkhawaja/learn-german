@@ -2,7 +2,7 @@
 
 An installable, offline German trainer built around what an A1–B1 course actually
 teaches: ~3,800 CEFR-levelled words and 330 everyday chunks, full conjugation,
-declension and imperative tables, spaced repetition, and a 32-card A1–B1 grammar
+declension tables, spaced repetition, and a 32-card A1–B1 grammar
 reference. Vite + React, no backend required — all data is bundled and progress is
 stored on-device (with optional cloud sync, see below).
 
@@ -44,7 +44,6 @@ The one-shot repair scripts that brought the data to that state are kept in
 | --- | --- |
 | `fix-reflexive-verbs.mjs` | 39 reflexive verbs conjugated without their pronoun |
 | `fix-verb-conjugations.mjs` | six verbs with wrong endings or a mangled separable prefix |
-| `add-imperatives.mjs` | writes `imp` where an imperative genuinely exists |
 | `fix-adjectives.mjs` | withdraws blindly generated comparatives; tags non-adjectives |
 | `fix-truncated-examples.mjs` | 271 example sentences clipped mid-phrase |
 | `fix-phrase-notes.mjs` | English usage notes filed as German examples |

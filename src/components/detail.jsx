@@ -4,8 +4,6 @@
 import { COLORS, TXT, MUTE, FAINT } from "../config/theme";
 import { Tag, UsageNote, splitExample } from "./ui";
 
-const IMP_PERSONS = [["du", "du"], ["ihr", "ihr"], ["sie", "Sie"]];
-
 export function VerbTable({ v }) {
   const rows = [
     ["ich", v.pr.ich, v.pt.ich, v.pk.ich],
@@ -39,23 +37,6 @@ export function VerbTable({ v }) {
           ))}
         </tbody>
       </table>
-      {/* Imperativ — the forms an A1 course drills from the first lesson
-          ("Sprich langsam!", "Kommen Sie herein!"). Read from the data, never
-          derived here: modals have no imperative and sein/haben/werden are
-          irregular, so scripts/add-imperatives.mjs writes `imp` only where a
-          form genuinely exists. */}
-      {v.imp && (
-      <div style={{ marginTop: 12, display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center", fontSize: 12.5 }}>
-        <span style={{ fontSize: 11, color: FAINT, textTransform: "uppercase", letterSpacing: 0.5 }}>Imperativ</span>
-        {IMP_PERSONS.map(([key, label]) => (
-          <span key={key} style={{ color: MUTE }}>
-            <span style={{ fontStyle: "italic" }}>{label}</span>{" "}
-            <b lang="de" style={{ color: TXT }}>{v.imp[key]}</b>
-          </span>
-        ))}
-      </div>
-      )}
-
       <div style={{ marginTop: 10, fontSize: 12.5, color: MUTE, display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center" }}>
         <span>Partizip II: <span lang="de" style={{ color: TXT, fontWeight: 600 }}>{v.refl ? "sich " : ""}{v.p2}</span></span>
         <span>{"·"}</span>
