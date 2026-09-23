@@ -3,6 +3,7 @@
 // one per category. Plus the noun declension/gender helpers.
 import { COLORS, TXT, MUTE, FAINT } from "../config/theme";
 import { Tag, UsageNote, splitExample } from "./ui";
+import { nounParadigm, isPluralOnly } from "../engine/nounForms";
 
 export function VerbTable({ v }) {
   const rows = [
@@ -13,8 +14,9 @@ export function VerbTable({ v }) {
     ["ihr", v.pr.ihr, v.pt.ihr, v.pk.ihr],
     // The data has no pt.sie, which left the last Präteritum cell permanently
     // blank. In German the sie/Sie form is always identical to the wir form,
-    // so the table can be completed rather than showing a hole.
-    ["sie/Sie", v.pr.sie, v.pt.sie || v.pt.wir, v.pk.sie],
+    // so the table can be completed rather than showing a hole — except for
+    // the reflexive pronoun: wir freuten uns, but sie freuten sich.
+    ["sie/Sie", v.pr.sie, v.pt.sie || (v.pt.wir || "").replace(/\buns\b/, "sich"), v.pk.sie],
   ];
   return (
     <div className="dm-scroll-x" style={{ marginTop: 12 }}>
@@ -88,41 +90,33 @@ function genderHint(it) {
   return null;
 }
 
-// Generate the 4-case declension (article forms are 100% reliable; noun-form
-// changes apply the standard A1 rules, incl. weak/n-noun detection).
-function declension(it) {
-  const G = { der: "masc", die: "fem", das: "neut" }[it.a];
-  const sing = it.w.replace(/^(der|die|das)\s+/i, "");
-  const pl = (it.p || "").replace(/^die\s+/i, "").trim();
-  const isWeak =
-    it.a === "der" && pl && !/(er|el|en|chen|lein|s)$/.test(sing) && (
-      (/e$/.test(sing) && pl === sing + "n" && !/(ee|ie)$/.test(sing)) ||
-      (/(ist|ent|and|ant|at|graph|graf|nom|loge|soph|krat|och)$/.test(sing) && pl === sing + "en") ||
-      /^(Mensch|Nachbar|Herr|Bauer|Held|Prinz)$/i.test(sing)
-    );
-  const obl = sing + (/e$/.test(sing) ? "n" : "en");           // weak oblique form
-  const syll = (sing.match(/[aeiouyäöü]+/gi) || []).length;
-  const gens = /(s|ß|x|z|sch|tz)$/.test(sing) ? sing + "es"     // sibilant → -es
-    : /[aeiouyäöü]$/i.test(sing) ? sing + "s"                   // vowel → -s
-      : syll <= 1 ? sing + "(e)s"                               // one syllable → -(e)s
-        : sing + "s";                                          // polysyllabic → -s
-  const datPl = pl ? (/(n|s)$/.test(pl) ? pl : pl + "n") : "";
-
-  let sg;
-  if (G === "masc") sg = isWeak
-    ? [["der", sing], ["den", obl], ["dem", obl], ["des", obl]]
-    : [["der", sing], ["den", sing], ["dem", sing], ["des", gens]];
-  else if (G === "fem") sg = [["die", sing], ["die", sing], ["der", sing], ["der", sing]];
-  else sg = [["das", sing], ["das", sing], ["dem", sing], ["des", gens]];
-
-  const plr = pl ? [["die", pl], ["die", pl], ["den", datPl], ["der", pl]] : null;
-  return { sg, plr, isWeak };
-}
-
 const CASES = ["Nominativ", "Akkusativ", "Dativ", "Genitiv"];
 
+// What the table shows that the learner would not guess from the article
+// alone, per noun group.
+function declNote(it, d) {
+  const head = it.w.replace(/^(der|die|das)\s+/i, "");
+  switch (d.kind) {
+    case "weak": return "N-noun: adds -(e)n in every case except the nominative singular.";
+    case "mixed": return head === "Herz"
+      ? "Irregular: dem Herzen, des Herzens — the only neuter noun that declines like this."
+      : "Mixed noun: -n like an n-noun, but -ns in the genitive (des Namens).";
+    case "adjectival": return it.a === "die"
+      ? `Declines like an adjective: der ${head}n in the dative and genitive; plural without article: ${head}.`
+      : `Declines like an adjective, so the article changes the ending: ${it.a} ${head}, but ${it.a === "der" ? "ein " + head + "r" : "ein " + head + "s"}.`;
+    case "plural-only": return "Only used in the plural. The dative adds -n unless the form already ends in -n or -s.";
+    default: return it.a === "die"
+      ? "Feminine nouns never change in the singular. The dative plural adds -n unless the plural already ends in -n or -s."
+      : "The genitive singular adds -(e)s (-es after s, ß, x, z, sch). The dative plural adds -n unless the plural already ends in -n or -s.";
+  }
+}
+
 function DeclTable({ it }) {
-  const d = declension(it);
+  // Nouns the paradigm cannot decline with confidence (a multi-word
+  // headword that is not adjective + noun) get no table rather than a
+  // wrong one.
+  const d = nounParadigm(it);
+  if (!d) return null;
   const cell = (pair) => pair
     ? <span><span style={{ color: "#60a5fa", fontWeight: 700 }}>{pair[0]}</span> {pair[1]}</span>
     : <span style={{ color: FAINT }}>—</span>;
@@ -130,7 +124,7 @@ function DeclTable({ it }) {
     <div style={{ marginTop: 12 }}>
       <div style={{ fontSize: 11, color: FAINT, textTransform: "uppercase", letterSpacing: 0.5, marginBottom: 5 }}>Deklination</div>
       <div className="dm-scroll-x">
-        <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 12.5 }}>
+        <table lang="de" style={{ width: "100%", borderCollapse: "collapse", fontSize: 12.5 }}>
           <thead>
             <tr>
               <th style={{ textAlign: "left", padding: "3px 8px 3px 0", color: MUTE, fontWeight: 600 }}>Fall</th>
@@ -142,16 +136,14 @@ function DeclTable({ it }) {
             {CASES.map((c, i) => (
               <tr key={c} style={{ borderTop: "1px solid #222" }}>
                 <td style={{ padding: "4px 8px 4px 0", color: MUTE, fontStyle: "italic", whiteSpace: "nowrap" }}>{c}</td>
-                <td style={{ padding: "4px 8px", color: TXT, whiteSpace: "nowrap" }}>{cell(d.sg[i])}</td>
-                <td style={{ padding: "4px 8px", color: TXT, whiteSpace: "nowrap" }}>{d.plr ? cell(d.plr[i]) : <span style={{ color: FAINT }}>—</span>}</td>
+                <td style={{ padding: "4px 8px", color: TXT, whiteSpace: "nowrap" }}>{cell(d.sg?.[i])}</td>
+                <td style={{ padding: "4px 8px", color: TXT, whiteSpace: "nowrap" }}>{cell(d.pl?.[i])}</td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
-      <div style={{ fontSize: 11, color: "#3f4651", marginTop: 6, lineHeight: 1.5 }}>
-        {d.isWeak ? "N-noun: takes -(e)n in every case except the nominative singular." : "Genitive adds -(e)s; dative plural adds -n. A few n-nouns add -ns in the genitive (des Namens)."}
-      </div>
+      <div style={{ fontSize: 11, color: FAINT, marginTop: 6, lineHeight: 1.5 }}>{declNote(it, d)}</div>
     </div>
   );
 }
@@ -209,9 +201,12 @@ function pluralPattern(it) {
 }
 
 export function NounDetail({ it }) {
-  const gender = it.a === "der" ? "maskulin" : it.a === "die" ? "feminin" : "neutrum";
-  const hint = genderHint(it);
-  const gc = it.a === "der" ? COLORS.der : it.a === "die" ? COLORS.die : COLORS.das;
+  // A plural-only noun (die Eltern, die Leute) takes "die" because it is
+  // plural, not because it is feminine.
+  const pluralOnly = isPluralOnly(it);
+  const gender = pluralOnly ? "nur Plural" : it.a === "der" ? "maskulin" : it.a === "die" ? "feminin" : "neutrum";
+  const hint = pluralOnly ? null : genderHint(it);
+  const gc = pluralOnly ? MUTE : it.a === "der" ? COLORS.der : it.a === "die" ? COLORS.die : COLORS.das;
   const pattern = pluralPattern(it);
   // 228 nouns have no plural — proper nouns, mass nouns, countries. The card
   // used to render "Plural:" followed by nothing, which reads as missing data

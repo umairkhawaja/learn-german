@@ -14,7 +14,7 @@ export const CASE_SHORT = { nom: "Nom", akk: "Akk", dat: "Dat", gen: "Gen" };
 
 // Gender/number slot: m, f, n (singular) and pl.
 export const SLOTS = ["m", "f", "n", "pl"];
-export const SLOT_LABEL = { m: "maskulin", f: "feminin", n: "neutral", pl: "Plural" };
+export const SLOT_LABEL = { m: "maskulin", f: "feminin", n: "neutrum", pl: "Plural" };
 export const SLOT_SHORT = { m: "m", f: "f", n: "n", pl: "Pl" };
 
 // ── Determiners ───────────────────────────────────────────────
@@ -95,7 +95,9 @@ export const DRILL_ADJS = ["neu", "alt", "groß", "klein", "schön", "gut"];
 //   • no noun ending in -e that comes from an adjective (der/die Deutsche,
 //     der Bekannte, die Angestellte) — those decline like adjectives;
 //   • no masculine/neuter noun ending in -s, whose genitive (des Busses,
-//     des Zeugnisses, des Tourismus) no simple rule gets right.
+//     des Zeugnisses, des Tourismus) no simple rule gets right, and none
+//     whose plural is the singular unchanged after a sibilant (das Quiz,
+//     des Quiz) or that is an English loan in -service (des Service).
 const ADJ_NOUN = /(ende|ene|ige|liche|sche|te)$/;
 const fold = (w) => w.toLowerCase().replace(/ä/g, "a").replace(/ö/g, "o").replace(/ü/g, "u");
 
@@ -118,6 +120,8 @@ export function drillNoun(it, adjSet) {
   if (slot !== "f") {
     if (pl === sg + "n" || pl === sg + "en") return null;
     if (/s$/.test(sg)) return null;
+    if (pl === sg && /(z|x)$/.test(sg)) return null;
+    if (/service$/i.test(sg)) return null;
   }
   if (/e$/.test(sg) && pl === sg + "n") {
     if (ADJ_NOUN.test(sg)) return null;
@@ -151,10 +155,11 @@ export function genitiveAlternatives(sg, pl) {
   return main === sg + "es" && !/(ß|x|z|sch)$/.test(sg) ? [main, sg + "s"] : [main];
 }
 
-// Dative plural adds -n unless the plural already ends in -n or -s, or in
-// a vowel other than -e (die Praktika → den Praktika, die Kiwis).
+// Dative plural adds -n to a plural in -e, -er or -el (den Tischen, den
+// Kindern, den Äpfeln). A plural already in -n or -s, in another vowel (die
+// Praktika → den Praktika, die Kiwis) or in any other consonant takes nothing.
 export function dativePl(pl) {
-  return /(n|s|a|i|o|u|y)$/.test(pl) ? pl : pl + "n";
+  return /(e|er|el)$/.test(pl) ? pl + "n" : pl;
 }
 
 export function nounForm(noun, kase, number) {

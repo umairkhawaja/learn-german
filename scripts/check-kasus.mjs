@@ -12,6 +12,7 @@ import { readFileSync } from "node:fs";
 import {
   decline, drillNoun, buildQuestion, cellsFor, CASES, SLOTS, DETS, contract,
 } from "../src/engine/kasus.js";
+import { nounParadigm } from "../src/engine/nounForms.js";
 
 const read = (f) => JSON.parse(readFileSync(new URL(`../public/data/${f}`, import.meta.url), "utf8"));
 let failures = 0;
@@ -121,6 +122,60 @@ for (let round = 0; round < 40; round++) {
   }
 }
 
+// ── Card-back declension tables (engine/nounForms.js) ─────────
+// [entry, expected singular Nom|Akk|Dat|Gen, expected plural Nom|Akk|Dat|Gen]
+// A null means the table must leave that number out.
+const TABLES = [
+  [{ w: "der Tag", a: "der", p: "die Tage" }, "der Tag|den Tag|dem Tag|des Tag(e)s", "die Tage|die Tage|den Tagen|der Tage"],
+  [{ w: "der Tisch", a: "der", p: "die Tische" }, "der Tisch|den Tisch|dem Tisch|des Tisches", null],
+  [{ w: "der Herr", a: "der", p: "die Herren" }, "der Herr|den Herrn|dem Herrn|des Herrn", "die Herren|die Herren|den Herren|der Herren"],
+  [{ w: "der Nachbar", a: "der", p: "die Nachbarn" }, "der Nachbar|den Nachbarn|dem Nachbarn|des Nachbarn", null],
+  [{ w: "der Bauer", a: "der", p: "die Bauern" }, "der Bauer|den Bauern|dem Bauern|des Bauern", null],
+  [{ w: "der Student", a: "der", p: "die Studenten" }, "der Student|den Studenten|dem Studenten|des Studenten", null],
+  [{ w: "der Kollege", a: "der", p: "die Kollegen" }, "der Kollege|den Kollegen|dem Kollegen|des Kollegen", null],
+  [{ w: "der See", a: "der", p: "die Seen" }, "der See|den See|dem See|des Sees", "die Seen|die Seen|den Seen|der Seen"],
+  [{ w: "der Staat", a: "der", p: "die Staaten" }, "der Staat|den Staat|dem Staat|des Staat(e)s", null],
+  [{ w: "der Doktor", a: "der", p: "die Doktoren" }, "der Doktor|den Doktor|dem Doktor|des Doktors", null],
+  [{ w: "der Name", a: "der", p: "die Namen" }, "der Name|den Namen|dem Namen|des Namens", null],
+  [{ w: "der Vorname", a: "der", p: "die Vornamen" }, "der Vorname|den Vornamen|dem Vornamen|des Vornamens", null],
+  [{ w: "das Herz", a: "das", p: "die Herzen" }, "das Herz|das Herz|dem Herzen|des Herzens", null],
+  [{ w: "das Zeugnis", a: "das", p: "die Zeugnisse" }, "das Zeugnis|das Zeugnis|dem Zeugnis|des Zeugnisses", "die Zeugnisse|die Zeugnisse|den Zeugnissen|der Zeugnisse"],
+  [{ w: "der Bus", a: "der", p: "die Busse" }, "der Bus|den Bus|dem Bus|des Busses", null],
+  [{ w: "der Zirkus", a: "der", p: "die Zirkusse" }, "der Zirkus|den Zirkus|dem Zirkus|des Zirkus", null],
+  [{ w: "der Tourismus", a: "der", p: "(kein Plural)" }, "der Tourismus|den Tourismus|dem Tourismus|des Tourismus", null],
+  [{ w: "das Chaos", a: "das", p: "(kein Plural)" }, "das Chaos|das Chaos|dem Chaos|des Chaos", null],
+  [{ w: "das Krankenhaus", a: "das", p: "die Krankenhäuser" }, "das Krankenhaus|das Krankenhaus|dem Krankenhaus|des Krankenhauses", "die Krankenhäuser|die Krankenhäuser|den Krankenhäusern|der Krankenhäuser"],
+  [{ w: "das Quiz", a: "das", p: "die Quiz" }, "das Quiz|das Quiz|dem Quiz|des Quiz", "die Quiz|die Quiz|den Quiz|der Quiz"],
+  [{ w: "der Job", a: "der", p: "die Jobs" }, "der Job|den Job|dem Job|des Jobs", "die Jobs|die Jobs|den Jobs|der Jobs"],
+  [{ w: "das Feiern", a: "das", p: "" }, "das Feiern|das Feiern|dem Feiern|des Feierns", null],
+  [{ w: "das WLAN", a: "das", p: "" }, "das WLAN|das WLAN|dem WLAN|des WLANs", null],
+  [{ w: "der Kundenservice", a: "der", p: "" }, "der Kundenservice|den Kundenservice|dem Kundenservice|des Kundenservice", null],
+  [{ w: "die Lampe", a: "die", p: "die Lampen" }, "die Lampe|die Lampe|der Lampe|der Lampe", "die Lampen|die Lampen|den Lampen|der Lampen"],
+  [{ w: "die Mutter", a: "die", p: "die Mütter" }, "die Mutter|die Mutter|der Mutter|der Mutter", "die Mütter|die Mütter|den Müttern|der Mütter"],
+  [{ w: "der Bekannte", a: "der", p: "die Bekannten" }, "der Bekannte|den Bekannten|dem Bekannten|des Bekannten", null],
+  [{ w: "die Ehrenamtliche", a: "die", p: "die Ehrenamtlichen" }, "die Ehrenamtliche|die Ehrenamtliche|der Ehrenamtlichen|der Ehrenamtlichen", null],
+  [{ w: "das Richtige", a: "das", p: "" }, "das Richtige|das Richtige|dem Richtigen|des Richtigen", null],
+  [{ w: "die Eltern", a: "die", p: "(immer Plural)" }, null, "die Eltern|die Eltern|den Eltern|der Eltern"],
+  [{ w: "die Leute", a: "die", p: "(immer Plural)" }, null, "die Leute|die Leute|den Leuten|der Leute"],
+  [{ w: "die möblierte Wohnung", a: "die", p: "die möblierten Wohnungen" }, "die möblierte Wohnung|die möblierte Wohnung|der möblierten Wohnung|der möblierten Wohnung", "die möblierten Wohnungen|die möblierten Wohnungen|den möblierten Wohnungen|der möblierten Wohnungen"],
+  [{ w: "der Englische Garten", a: "der", p: "" }, "der Englische Garten|den Englischen Garten|dem Englischen Garten|des Englischen Gartens", null],
+];
+const flat = (rows) => rows && rows.map(([a, f]) => `${a} ${f}`).join("|");
+for (const [it, sg, pl] of TABLES) {
+  const d = nounParadigm(it);
+  if (!d) { fail(`nounParadigm(${it.w}) returned nothing`); continue; }
+  if ((flat(d.sg) ?? null) !== sg) fail(`${it.w} singular: ${flat(d.sg)}, want ${sg}`);
+  if (pl && flat(d.pl) !== pl) fail(`${it.w} plural: ${flat(d.pl)}, want ${pl}`);
+}
+if (nounParadigm({ w: "das Blatt Papier", a: "das", p: "" })) fail("a noun phrase that is not adjective + noun must get no table");
+for (const it of nouns) {
+  if (!it.a) continue;
+  const d = nounParadigm(it);
+  for (const [, form] of [...(d?.sg || []), ...(d?.pl || [])]) {
+    if (!form || /undefined|null/.test(form)) fail(`${it.w}: broken table cell "${form}"`);
+  }
+}
+
 // ── Built exercise files ──────────────────────────────────────
 const CASE_OK = new Set(["nom", "akk", "dat", "gen"]);
 try {
@@ -149,4 +204,4 @@ if (failures) {
   console.error(`\ncheck-kasus: ${failures} problem(s).`);
   process.exit(1);
 }
-console.log(`check-kasus: ${PARADIGMS.length} paradigms hold, ${pass.length} drill nouns, ${cells.length} cells ok.`);
+console.log(`check-kasus: ${PARADIGMS.length} paradigms hold, ${TABLES.length} card tables hold, ${pass.length} drill nouns, ${cells.length} cells ok.`);
