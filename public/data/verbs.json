@@ -343,7 +343,7 @@
   },
   "pt": {
    "ich": "hieß",
-   "du": "hießt",
+   "du": "hießest",
    "er": "hieß",
    "wir": "hießen",
    "ihr": "hießt"
@@ -451,7 +451,7 @@
   },
   "pt": {
    "ich": "verstand",
-   "du": "verstandst",
+   "du": "verstandest",
    "er": "verstand",
    "wir": "verstanden",
    "ihr": "verstandet"
@@ -631,7 +631,7 @@
   },
   "pt": {
    "ich": "tat",
-   "du": "tatst",
+   "du": "tatest",
    "er": "tat",
    "wir": "taten",
    "ihr": "tatet"
@@ -883,7 +883,7 @@
   },
   "pt": {
    "ich": "stand",
-   "du": "standst",
+   "du": "standest",
    "er": "stand",
    "wir": "standen",
    "ihr": "standet"
@@ -1531,7 +1531,7 @@
   },
   "pt": {
    "ich": "fand",
-   "du": "fandst",
+   "du": "fandest",
    "er": "fand",
    "wir": "fanden",
    "ihr": "fandet"
@@ -2759,7 +2759,7 @@
   },
   "pt": {
    "ich": "stand auf",
-   "du": "standst auf",
+   "du": "standest auf",
    "er": "stand auf",
    "wir": "standen auf",
    "ihr": "standet auf"
@@ -2941,7 +2941,7 @@
   },
   "pt": {
    "ich": "vergaß",
-   "du": "vergaßt",
+   "du": "vergaßest",
    "er": "vergaß",
    "wir": "vergaßen",
    "ihr": "vergaßt"
@@ -2977,7 +2977,7 @@
   },
   "pt": {
    "ich": "entstand",
-   "du": "entstandst",
+   "du": "entstandest",
    "er": "entstand",
    "wir": "entstanden",
    "ihr": "entstandet"
@@ -3049,7 +3049,7 @@
   },
   "pt": {
    "ich": "bestand",
-   "du": "bestandst",
+   "du": "bestandest",
    "er": "bestand",
    "wir": "bestanden",
    "ihr": "bestandet"
@@ -4099,7 +4099,7 @@
   },
   "pt": {
    "ich": "bot an",
-   "du": "botst an",
+   "du": "botest an",
    "er": "bot an",
    "wir": "boten an",
    "ihr": "botet an"
@@ -4136,7 +4136,7 @@
   },
   "pt": {
    "ich": "bat",
-   "du": "batst",
+   "du": "batest",
    "er": "bat",
    "wir": "baten",
    "ihr": "batet"
@@ -4208,7 +4208,7 @@
   },
   "pt": {
    "ich": "entschied",
-   "du": "entschiedst",
+   "du": "entschiedest",
    "er": "entschied",
    "wir": "entschieden",
    "ihr": "entschiedet"
@@ -5016,7 +5016,7 @@
    "ihr": "habt gewollt",
    "sie": "haben gewollt"
   },
-  "n": "Polite subjunctive of 'mögen' (= would like). Used like a modal: 'Ich möchte + infinitive'. Very common and polite for requests.",
+  "n": "Polite form of mögen (= would like), used like a modal: Ich möchte + infinitive. It has no past of its own: use wollte (Präteritum) and habe ... gewollt (Perfekt).",
   "lvl": "A1"
  },
  {
@@ -5165,7 +5165,7 @@
  },
  {
   "w": "bekommen",
-  "e": "to have, to get",
+  "e": "to get, to receive",
   "ex": [
    "Ich bekomme oft Post. — I often get mail.",
    "Sie hat ein Geschenk bekommen. — She got a present."
@@ -5196,12 +5196,12 @@
    "ihr": "habt bekommen",
    "sie": "haben bekommen"
   },
-  "n": "Irregular (bekam, bekommen). 'be-' inseparable, so it takes 'haben'. False friend: 'bekommen' = to receive, NOT 'to become' (= 'werden').",
+  "n": "Irregular (bekam, bekommen). be- is inseparable, so the participle has no extra ge-. False friend: bekommen = to receive, NOT to become (= werden).",
   "lvl": "A1"
  },
  {
   "w": "präsentieren",
-  "e": "to show (a film)",
+  "e": "to present",
   "ex": [
    "Ich präsentiere die Ergebnisse. — I'll present the results.",
    "Sie hat ihr Projekt präsentiert. — She presented her project."
@@ -5328,7 +5328,7 @@
   },
   "pt": {
    "ich": "schnitt",
-   "du": "schnittst",
+   "du": "schnittest",
    "er": "schnitt",
    "wir": "schnitten",
    "ihr": "schnittet"
@@ -5608,7 +5608,7 @@
   "p2": "geklingelt",
   "hs": "haben",
   "pr": {
-   "ich": "klingele",
+   "ich": "klingle",
    "du": "klingelst",
    "er": "klingelt",
    "wir": "klingeln",
@@ -5834,7 +5834,7 @@
   },
   "pt": {
    "ich": "lud ein",
-   "du": "ludst ein",
+   "du": "ludest ein",
    "er": "lud ein",
    "wir": "luden ein",
    "ihr": "ludet ein"
@@ -7111,7 +7111,7 @@
   },
   "pt": {
    "ich": "fand statt",
-   "du": "fandst statt",
+   "du": "fandest statt",
    "er": "fand statt",
    "wir": "fanden statt",
    "ihr": "fandet statt"
@@ -7379,7 +7379,7 @@
    "ihr": "habt gedownloadet",
    "sie": "haben gedownloadet"
   },
-  "n": "Loanword; German equivalent 'herunterladen'. Participle usually 'gedownloadet' (or split 'downgeloadet' colloquially).",
+  "n": "Loanword; the German equivalent is herunterladen. Both participles are in use: gedownloadet and downgeloadet.",
   "lvl": "A1"
  },
  {
@@ -7402,7 +7402,7 @@
   },
   "pt": {
    "ich": "lud herunter",
-   "du": "ludst herunter",
+   "du": "ludest herunter",
    "er": "lud herunter",
    "wir": "luden herunter",
    "ihr": "ludet herunter"
@@ -7620,7 +7620,7 @@
   },
   "pt": {
    "ich": "lud hoch",
-   "du": "ludst hoch",
+   "du": "ludest hoch",
    "er": "lud hoch",
    "wir": "luden hoch",
    "ihr": "ludet hoch"
@@ -8305,7 +8305,7 @@
   "p2": "gebügelt",
   "hs": "haben",
   "pr": {
-   "ich": "bügele",
+   "ich": "bügle",
    "du": "bügelst",
    "er": "bügelt",
    "wir": "bügeln",
@@ -9202,7 +9202,7 @@
  },
  {
   "w": "weiterfahren",
-  "e": "to continue, here: to ski further",
+  "e": "to drive on, to continue (a journey)",
   "ex": [
    "Wir fahren morgen weiter. — We travel on tomorrow.",
    "Der Zug ist ohne uns weitergefahren. — The train went on without us."
@@ -9421,7 +9421,7 @@
  },
  {
   "w": "abnehmen",
-  "e": "to lose weight",
+  "e": "to lose weight; to take off; to pick up (the phone)",
   "ex": [
    "Ich nehme den Hut ab. — I take off my hat.",
    "Sie hat fünf Kilo abgenommen. — She lost five kilos."
@@ -10967,7 +10967,7 @@
   "p2": "gebastelt",
   "hs": "haben",
   "pr": {
-   "ich": "bastele",
+   "ich": "bastle",
    "du": "bastelst",
    "er": "bastelt",
    "wir": "basteln",
@@ -11158,7 +11158,7 @@
   },
   "pt": {
    "ich": "beriet",
-   "du": "berietst",
+   "du": "berietest",
    "er": "beriet",
    "wir": "berieten",
    "ihr": "berietet"
@@ -11412,7 +11412,7 @@
   },
   "pt": {
    "ich": "briet",
-   "du": "brietst",
+   "du": "brietest",
    "er": "briet",
    "wir": "brieten",
    "ihr": "brietet"
@@ -12214,7 +12214,7 @@
   },
   "pt": {
    "ich": "riet",
-   "du": "rietst",
+   "du": "rietest",
    "er": "riet",
    "wir": "rieten",
    "ihr": "rietet"
@@ -12286,7 +12286,7 @@
   },
   "pt": {
    "ich": "ritt",
-   "du": "rittst",
+   "du": "rittest",
    "er": "ritt",
    "wir": "ritten",
    "ihr": "rittet"
@@ -12574,7 +12574,7 @@
   },
   "pt": {
    "ich": "unterhielt mich",
-   "du": "unterhieltst dich",
+   "du": "unterhieltest dich",
    "er": "unterhielt sich",
    "wir": "unterhielten uns",
    "ihr": "unterhieltet euch"
@@ -12963,7 +12963,7 @@
   "p2": "gewechselt",
   "hs": "haben",
   "pr": {
-   "ich": "wechsele",
+   "ich": "wechsle",
    "du": "wechselst",
    "er": "wechselt",
    "wir": "wechseln",
@@ -13044,7 +13044,7 @@
   },
   "pt": {
    "ich": "tat weh",
-   "du": "tatst weh",
+   "du": "tatest weh",
    "er": "tat weh",
    "wir": "taten weh",
    "ihr": "tatet weh"
