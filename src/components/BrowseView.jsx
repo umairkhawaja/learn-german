@@ -3,7 +3,7 @@ import { useState, useMemo, useEffect } from "react";
 import { COLORS, TXT, MUTE, FAINT } from "../config/theme";
 import { lvlOf, levelMeta } from "../config/levels";
 import { subcatsOf } from "../config/categories";
-import { keyOf, saveProgress, isMastered, MASTERY_THRESHOLD } from "../engine/progress";
+import { keyOf, saveProgress, isMastered, toggleSkip, MASTERY_THRESHOLD } from "../engine/progress";
 import { MasterBtn, SpeakBtn, ExampleLine, Tag } from "./ui";
 
 // The list used to render every match at once. With 2,236 nouns that is 2,236
@@ -31,8 +31,7 @@ export function BrowseView({ cat, progress, setProgress, levelFilter, db }) {
   const [limit, setLimit] = useState(PAGE);
 
   const toggleMastered = (k) => {
-    const prev = progress[k] || { mastery: 0, correct: 0, total: 0 };
-    const np = { ...progress, [k]: { ...prev, skip: !prev.skip } };
+    const np = { ...progress, [k]: toggleSkip(progress[k]) };
     setProgress(np);
     saveProgress(np);
   };

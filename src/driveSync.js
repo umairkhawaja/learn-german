@@ -12,6 +12,7 @@
 
 import { buildBackup, parseBackup, sanitizeProgress } from "./backup";
 import { storage } from "./storage";
+import { mergeEntry, migrateKeys } from "./engine/progress";
 
 const CLIENT_ID = "408463852317-vvcriupl4lmtfv3q5tgun57k8n1rl8i4.apps.googleusercontent.com";
 const SCOPE = "https://www.googleapis.com/auth/drive.appdata";
@@ -268,19 +269,15 @@ export async function pushProgress(progress, { interactive = false, keepalive = 
   return true;
 }
 
-// ── Merge strategy: keep whichever side has more attempts (more = more recent).
-// Ties go to higher mastery. Words only on one side are kept as-is.
-// The force-mastered (`skip`) flag is sticky: it doesn't move quiz totals, so
-// it must be OR'd across sides or a sync would silently drop it. ──
+// ── Merge strategy: per word, see mergeEntry in engine/progress (more
+// attempts wins; the "mastered" flag goes to whichever side set or cleared
+// it last). Words only on one side are kept as-is. Both sides are first
+// moved off the keys of renamed words, so a device that has not opened the
+// app since a headword was corrected still merges into the right card. ──
 export function mergeProgress(local, remote) {
-  const a = sanitizeProgress(local || {});
-  const b = sanitizeProgress(remote || {});
+  const a = migrateKeys(sanitizeProgress(local || {}));
+  const b = migrateKeys(sanitizeProgress(remote || {}));
   const out = { ...a };
-  for (const [k, rv] of Object.entries(b)) {
-    const lv = out[k];
-    if (!lv) { out[k] = rv; continue; }
-    const winner = (rv.total > lv.total || (rv.total === lv.total && rv.mastery > lv.mastery)) ? rv : lv;
-    out[k] = (lv.skip || rv.skip) ? { ...winner, skip: true } : winner;
-  }
+  for (const [k, rv] of Object.entries(b)) out[k] = mergeEntry(out[k], rv);
   return out;
 }

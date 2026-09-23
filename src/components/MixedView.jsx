@@ -25,7 +25,7 @@ import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import { COLORS, TXT, MUTE, FAINT } from "../config/theme";
 import { lvlOf, levelMeta } from "../config/levels";
 import { CATEGORIES } from "../config/categories";
-import { keyOf, applyAnswer, saveProgress, isMastered, MASTERY_THRESHOLD } from "../engine/progress";
+import { keyOf, applyAnswer, saveProgress, isMastered, toggleSkip, MASTERY_THRESHOLD } from "../engine/progress";
 import { pickMixedDeck, mixedPool, MIXED_DECK_SIZE, MIXED_CATEGORY_IDS } from "../engine/quiz";
 import { storage } from "../storage";
 import { SpeakBtn, ProgressBar, MasterBtn, ExampleLine, isTypingTarget } from "./ui";
@@ -251,7 +251,7 @@ export function MixedView({ db, progress, setProgress, levelFilter, recordAnswer
   }, [deck, idx, write, advance, recordAnswer]);
 
   const toggleMaster = useCallback((cat, item) => {
-    write(cat, item, (prev) => ({ mastery: 0, correct: 0, total: 0, ...(prev || {}), skip: !(prev && prev.skip) }));
+    write(cat, item, toggleSkip);
   }, [write]);
 
   // keyboard: space reveals, then 1 = again, 2 = knew it.

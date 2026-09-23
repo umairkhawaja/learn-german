@@ -16,7 +16,7 @@
 import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import { COLORS, TXT, MUTE, FAINT } from "../config/theme";
 import { LEVELS } from "../config/levels";
-import { keyOf, applyAnswer, saveProgress, isMastered, MASTERY_THRESHOLD } from "../engine/progress";
+import { keyOf, applyAnswer, saveProgress, isMastered, toggleSkip, MASTERY_THRESHOLD } from "../engine/progress";
 import { shuffle, pickChunk } from "../engine/quiz";
 import { SpeakBtn, ProgressBar, MasterBtn, ExampleLine, isTypingTarget, splitExample } from "./ui";
 
@@ -104,7 +104,7 @@ export function ChunksView({ progress, setProgress, recordAnswer }) {
   }, [queue, idx, write, recordAnswer]);
 
   const toggleMaster = useCallback((item) => {
-    write(item, (prev) => ({ mastery: 0, correct: 0, total: 0, ...(prev || {}), skip: !(prev && prev.skip) }));
+    write(item, toggleSkip);
   }, [write]);
 
   // keyboard: space reveals, then 1 = again, 2 = knew it. Space no longer

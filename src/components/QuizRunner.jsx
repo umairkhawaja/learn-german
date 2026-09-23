@@ -5,7 +5,7 @@
 // the active chunk of words being mastered (see engine/quiz.js).
 import { useState, useEffect, useCallback, useRef } from "react";
 import { COLORS, TXT, MUTE, FAINT } from "../config/theme";
-import { keyOf, applyAnswer, saveProgress } from "../engine/progress";
+import { keyOf, applyAnswer, saveProgress, toggleSkip } from "../engine/progress";
 import { SpeakBtn, ExampleLine, isTypingTarget } from "./ui";
 
 export function QuizRunner({ queue, progress, setProgress, accent, controls, onRestart, onPracticeWeak, recordAnswer }) {
@@ -179,8 +179,7 @@ export function QuizRunner({ queue, progress, setProgress, accent, controls, onR
           <div style={{ textAlign: "center", marginTop: 8 }}>
             <button
               onClick={() => {
-                const prev = progressRef.current[k] || { mastery: 0, correct: 0, total: 0 };
-                const np = { ...progressRef.current, [k]: { ...prev, skip: !prev.skip } };
+                const np = { ...progressRef.current, [k]: toggleSkip(progressRef.current[k]) };
                 setProgress(np); saveProgress(np);
               }}
               style={{ background: "transparent", border: "none", color: isSkipped ? COLORS.success : FAINT, fontSize: 12, cursor: "pointer", padding: "4px 8px" }}

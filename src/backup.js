@@ -12,6 +12,7 @@ export function sanitizeProgress(obj) {
     // Preserve the force-mastered flag and SRS schedule so backup/restore
     // and Drive sync don't silently drop them (these run through here too).
     if (v.skip) entry.skip = true;
+    if (Number.isFinite(v.skipAt)) entry.skipAt = v.skipAt;
     if (Number.isFinite(v.last)) entry.last = v.last;
     if (Number.isFinite(v.due)) entry.due = v.due;
     out[k] = entry;
