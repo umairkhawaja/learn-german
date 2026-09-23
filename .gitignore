@@ -12,3 +12,4 @@ _to_delete/
 .buildcheck*/
 .claude/
 memory/
+__pycache__/
