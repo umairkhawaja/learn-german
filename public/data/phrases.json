@@ -32,7 +32,7 @@
   "e": "How are you?",
   "c": "Greetings",
   "lvl": "A1",
-  "n": "Informal. Formal: 'Wie geht es Ihnen?'"
+  "n": "Informal; short form 'Wie geht's?'. Formal: 'Wie geht es Ihnen?'"
  },
  {
   "w": "Mir geht es gut, danke.",
@@ -46,7 +46,7 @@
   "e": "Bye!",
   "c": "Greetings",
   "lvl": "A1",
-  "n": "Informal. Bavarians also say 'Servus!' and 'Pfiat di!'"
+  "n": "Informal; also spelled 'Tschüs'. Bavarians also say 'Servus!' and 'Pfiat di!'"
  },
  {
   "w": "Auf Wiedersehen!",
@@ -378,23 +378,8 @@
   "lvl": "A1"
  },
  {
-  "w": "Tschüs!",
-  "e": "Bye!",
-  "c": "Greetings",
-  "lvl": "A1",
-  "n": "Also spelled 'Tschüss'.",
-  "ex": "Tschüs, Moritz!"
- },
- {
-  "w": "Wie geht es dir? (Wie geht’s?)",
-  "e": "How’s it going?",
-  "c": "Introductions",
-  "ex": "Hallo Tim! Wie geht es dir? (Wie geht’s?)",
-  "lvl": "A1"
- },
- {
   "w": "Wie geht es Ihnen?",
-  "e": "How’s it going?",
+  "e": "How are you? (formal)",
   "c": "Introductions",
   "ex": "Guten Tag, Herr Reuter. Wie geht es Ihnen?",
   "lvl": "A1"
@@ -456,19 +441,12 @@
   "lvl": "A1"
  },
  {
-  "w": "Wie geht’s dir?",
-  "e": "How’s it going?",
-  "c": "Introductions",
-  "ex": "Hallo Julia, wie geht’s dir?",
-  "lvl": "A1"
- },
- {
   "w": "LG (Liebe Grüße)",
   "e": "love / best wishes (sign-off)",
   "c": "Small Talk",
   "lvl": "A1",
-  "n": "'LG' is the abbreviation used in texts and informal e-mails.",
-  "ex": "Liebe Grüße, Kathrin"
+  "n": "'LG' is the abbreviation used in texts and informal e-mails. As with every German sign-off, no comma follows it.",
+  "ex": "Ich schreibe „LG“ unter die Nachricht. — I write 'LG' at the end of the message."
  },
  {
   "w": "im (= in dem)",
@@ -620,8 +598,9 @@
   "w": "Mit freundlichen Grüßen",
   "e": "Kind regards",
   "c": "Politeness",
-  "ex": "Mit freundlichen Grüßen, Ihr Patrick Vogler — Kind regards, Patrick Vogler",
-  "lvl": "A1"
+  "ex": "Ich beende den Brief mit „Mit freundlichen Grüßen“. — I end the letter with 'Kind regards'.",
+  "lvl": "A1",
+  "n": "No comma after the closing in German: 'Mit freundlichen Grüßen' on one line, your name on the next."
  },
  {
   "w": "Auf Wiederhören!",
@@ -807,7 +786,7 @@
  },
  {
   "w": "verabredet sein",
-  "e": "to have an appointment",
+  "e": "to have plans (to meet someone)",
   "c": "Small Talk",
   "ex": "Ich bin heute Abend mit Lisa verabredet. — I am meeting Lisa this evening.",
   "lvl": "A2"
@@ -1266,10 +1245,10 @@
   "n": "German uses sich + dative, not a possessive."
  },
  {
-  "w": "ins Fitness-Studio gehen",
+  "w": "ins Fitnessstudio gehen",
   "e": "to go to the gym",
   "c": "Small Talk",
-  "ex": "Ich gehe dreimal pro Woche ins Fitness-Studio.",
+  "ex": "Ich gehe dreimal pro Woche ins Fitnessstudio. — I go to the gym three times a week.",
   "lvl": "A2"
  },
  {
@@ -1354,7 +1333,7 @@
   "w": "das Haus aufräumen",
   "e": "to tidy the house",
   "c": "Small Talk",
-  "ex": "Samstags räume ich die Wohnung auf. — I tidy the flat on Saturdays.",
+  "ex": "Samstags räume ich das Haus auf. — I tidy the house on Saturdays.",
   "lvl": "A1"
  },
  {

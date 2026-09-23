@@ -29,7 +29,7 @@
  },
  {
   "w": "wie?",
-  "e": "how?",
+  "e": "how? (also: as, like)",
   "c": "Question Word",
   "ex": "Wie heißt du? (Wie ist dein Name?) — What is your name?",
   "lvl": "A1"
@@ -127,7 +127,7 @@
  },
  {
   "w": "es geht",
-  "e": "OK",
+  "e": "so-so, OK",
   "c": "Expression",
   "ex": "Wie geht’s Ihnen? - Danke! Es geht. — How are you? - Thanks! I am OK.",
   "lvl": "A1"
@@ -227,7 +227,7 @@
   "w": "noch einmal",
   "e": "again",
   "c": "Adverb",
-  "ex": "Können Sie das bitte noch einmal wiederholen? — Can you please repeat that again?",
+  "ex": "Können Sie das bitte noch einmal sagen? — Can you say that again, please?",
   "lvl": "A1"
  },
  {
@@ -290,14 +290,14 @@
   "w": "circa",
   "e": "approximately",
   "c": "Adverb",
-  "ex": "circa 6.00 bis 9.00 Uhr (6 – 9 Uhr) — approximately 6 to 9 a.m.",
+  "ex": "Die Fahrt dauert circa eine Stunde. — The trip takes approximately an hour.",
   "lvl": "A1"
  },
  {
   "w": "bis",
   "e": "to",
   "c": "Preposition",
-  "ex": "circa 6.00 bis 9.00 Uhr (6 – 9 Uhr) — approximately 6 to 9 a.m.",
+  "ex": "Ich arbeite von 9 bis 17 Uhr. — I work from 9 a.m. to 5 p.m.",
   "lvl": "A1"
  },
  {
@@ -374,7 +374,7 @@
   "w": "Viertel vor",
   "e": "quarter to",
   "c": "Number & Time",
-  "ex": "Der Film kommt um Viertel vor 9. — The film starts at a quarter to 9.",
+  "ex": "Der Film beginnt um Viertel vor neun. — The film starts at a quarter to nine.",
   "lvl": "A1"
  },
  {
@@ -417,13 +417,6 @@
   "e": "at about",
   "c": "Adverb",
   "ex": "Wann kommst du? – So um halb sieben. — When are you coming? – At about half past six.",
-  "lvl": "A1"
- },
- {
-  "w": "zuletzt (zul.)",
-  "e": "last",
-  "c": "Adverb",
-  "ex": "Zuletzt online heute um 17:32. — Last online today at 17:32.",
   "lvl": "A1"
  },
  {
@@ -505,8 +498,8 @@
  },
  {
   "w": "doch",
-  "e": "here: but, anyway",
-  "c": "Conjunction",
+  "e": "but, yet; (particle) after all, surely",
+  "c": "Particle",
   "ex": "Ihr könnt ihn doch mitnehmen. — You can take him with you anyway.",
   "lvl": "A1"
  },
@@ -682,7 +675,7 @@
   "w": "ihm (es)",
   "e": "(dative form of es)",
   "c": "Pronoun",
-  "ex": "Ich glaube, der Hund mag dich. Ihm gefällt das. — I think the dog likes you. He likes that.",
+  "ex": "Das Kind ist müde. Gib ihm bitte ein Kissen. — The child is tired. Please give it a pillow.",
   "lvl": "A1"
  },
  {
@@ -945,27 +938,6 @@
   "lvl": "A2"
  },
  {
-  "w": "wann",
-  "e": "when",
-  "c": "Question Word",
-  "ex": "Wann bist du fertig?",
-  "lvl": "A2"
- },
- {
-  "w": "warum",
-  "e": "why",
-  "c": "Question Word",
-  "ex": "Warum kommt er nicht?",
-  "lvl": "A2"
- },
- {
-  "w": "was",
-  "e": "what",
-  "c": "Question Word",
-  "ex": "Was ist das?",
-  "lvl": "A2"
- },
- {
   "w": "weiter",
   "e": "further / continue",
   "c": "Adverb",
@@ -980,39 +952,18 @@
   "lvl": "A2"
  },
  {
-  "w": "wie",
-  "e": "how / as",
-  "c": "Question Word",
-  "ex": "Wie heißt du?",
-  "lvl": "A2"
- },
- {
-  "w": "wo",
-  "e": "where",
-  "c": "Question Word",
-  "ex": "Wo waren Sie im Urlaub?",
-  "lvl": "A2"
- },
- {
-  "w": "woher",
-  "e": "from where",
-  "c": "Question Word",
-  "ex": "Woher kommen Sie?",
-  "lvl": "A2"
- },
- {
-  "w": "wohin",
+  "w": "wohin?",
   "e": "to where",
   "c": "Question Word",
   "ex": "Wohin fährt dieser Bus?",
-  "lvl": "A2"
+  "lvl": "A1"
  },
  {
   "w": "zuletzt",
   "e": "last / finally",
   "c": "Adverb",
   "ex": "Wir haben uns vor drei Jahren zuletzt gesehen.",
-  "lvl": "A2"
+  "lvl": "A1"
  },
  {
   "w": "zum",
@@ -1116,7 +1067,7 @@
   "w": "beziehungsweise",
   "e": "or rather / respectively (bzw.)",
   "c": "Conjunction",
-  "ex": "Der Kurs beginnt im März beziehungsweise im April. — The course starts in March, or rather in April.",
+  "ex": "Ich wohne in München beziehungsweise in einem Vorort von München. — I live in Munich, or rather in a suburb of Munich.",
   "lvl": "B1"
  },
  {
@@ -1347,21 +1298,6 @@
   "ex": "Er war der Einzige, der geholfen hat. — He was the only one who helped.",
   "lvl": "B1",
   "n": "Adjectival noun: die Einzige, das Einzige."
- },
- {
-  "w": "entweder … oder",
-  "e": "either … or",
-  "c": "Conjunction",
-  "ex": "Ich trinke entweder Tee oder Kaffee. — I drink either tea or coffee.",
-  "lvl": "A2"
- },
- {
-  "w": "weder … noch",
-  "e": "neither … nor",
-  "c": "Conjunction",
-  "ex": "Ich habe weder Zeit noch Lust. — I have neither the time nor the inclination.",
-  "lvl": "B1",
-  "n": "No extra 'nicht' — weder … noch is already negative."
  },
  {
   "w": "kommend-",

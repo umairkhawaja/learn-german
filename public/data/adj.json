@@ -505,7 +505,7 @@
   "c": "Emotion & Feeling",
   "cmp": "stolzer",
   "sup": "am stolzesten",
-  "opp": "schamvoll / bescheiden",
+  "opp": "beschämt / bescheiden",
   "ex": "Ich bin stolz auf dich.",
   "lvl": "B1"
  },
@@ -533,9 +533,9 @@
   "w": "bereit",
   "e": "ready / prepared / willing",
   "c": "Other",
-  "cmp": "bereiter",
-  "sup": "am bereitsten",
-  "opp": "unbereit / nicht bereit",
+  "cmp": "–",
+  "sup": "–",
+  "opp": "nicht bereit",
   "ex": "Bist du bereit?",
   "lvl": "B1"
  },
@@ -565,9 +565,10 @@
   "c": "Quality & Value",
   "cmp": "–",
   "sup": "–",
-  "opp": "gewöhnlich / normal",
+  "opp": "–",
   "ex": "Das war besonders lecker.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "wc": "Adverb"
  },
  {
   "w": "möglich",
@@ -805,7 +806,7 @@
   "c": "Emotion & Feeling",
   "cmp": "peinlicher",
   "sup": "am peinlichsten",
-  "opp": "stolz / selbstbewusst",
+  "opp": "–",
   "ex": "Das ist mir peinlich.",
   "lvl": "B1"
  },
@@ -1153,8 +1154,8 @@
   "w": "kaputt",
   "e": "broken",
   "c": "Physical Properties",
-  "cmp": "kaputter",
-  "sup": "am kaputtesten",
+  "cmp": "–",
+  "sup": "–",
   "opp": "heil / ganz",
   "ex": "Mein Handy ist leider kaputt. — Unfortunately my phone is broken.",
   "lvl": "A1"
@@ -1173,11 +1174,12 @@
   "w": "nass",
   "e": "wet",
   "c": "Weather & Seasons",
-  "cmp": "nässer",
+  "cmp": "nasser",
   "sup": "am nassesten",
   "opp": "trocken",
   "ex": "Meine Schuhe sind ganz nass.",
-  "lvl": "A2"
+  "lvl": "A2",
+  "n": "'nässer / am nässesten' are also correct."
  },
  {
   "w": "notwendig",
@@ -1193,8 +1195,8 @@
   "w": "öffentlich",
   "e": "public",
   "c": "Quality & Value",
-  "cmp": "öffentlicher",
-  "sup": "am öffentlichsten",
+  "cmp": "–",
+  "sup": "–",
   "opp": "privat",
   "ex": "Wir nutzen öffentliche Verkehrsmittel.",
   "lvl": "B1"
@@ -1245,9 +1247,10 @@
   "c": "Other",
   "cmp": "–",
   "sup": "–",
-  "opp": "optional",
+  "opp": "–",
   "ex": "Ich muss dir unbedingt etwas erzählen!",
-  "lvl": "B1"
+  "lvl": "B1",
+  "wc": "Adverb"
  },
  {
   "w": "verschieden",
@@ -1718,7 +1721,7 @@
   "c": "Physical Properties",
   "cmp": "breiter",
   "sup": "am breitesten",
-  "opp": "eng",
+  "opp": "schmal / eng",
   "ex": "Der Flur ist sehr breit. — The hallway is very wide.",
   "lvl": "A1"
  },
@@ -1775,7 +1778,7 @@
   "cmp": "schmaler",
   "sup": "am schmalsten",
   "opp": "breit",
-  "ex": "Der Flur ist nicht schmal. — The hallway is not narrow.",
+  "ex": "Die Straße ist sehr schmal. — The street is very narrow.",
   "lvl": "A1"
  },
  {
@@ -1803,7 +1806,7 @@
   "e": "chaotic",
   "c": "Other",
   "cmp": "chaotischer",
-  "sup": "am chaotischesten",
+  "sup": "am chaotischsten",
   "ex": "Der Umzug war total chaotisch! — The move was totally chaotic!",
   "lvl": "A1"
  },
@@ -1840,7 +1843,7 @@
   "c": "Work & Study",
   "cmp": "–",
   "sup": "–",
-  "ex": "Der Anruf mit Bettina ist beendet. — The call with Bettina has ended.",
+  "ex": "Das Gespräch ist beendet. — The call has ended.",
   "lvl": "A1"
  },
  {
@@ -1864,12 +1867,12 @@
   "wc": "Artikelwort"
  },
  {
-  "w": "soweit",
-  "e": "now the time has come",
+  "w": "so weit",
+  "e": "ready; the time has come",
   "c": "Function Words",
   "cmp": "–",
   "sup": "–",
-  "ex": "Nun ist es soweit. — Now the time has come.",
+  "ex": "Nun ist es so weit. — Now the time has come.",
   "lvl": "A1",
   "wc": "Partikel"
  },
@@ -2064,7 +2067,7 @@
   "e": "urgent(ly)",
   "c": "Other",
   "cmp": "dringender",
-  "sup": "am dringendesten",
+  "sup": "am dringendsten",
   "ex": "Roberto braucht dringend Urlaub. — Roberto urgently needs a holiday.",
   "lvl": "A1"
  },
@@ -2127,7 +2130,7 @@
   "e": "exciting",
   "c": "Other",
   "cmp": "aufregender",
-  "sup": "am aufregendesten",
+  "sup": "am aufregendsten",
   "ex": "Das war total aufregend. — That was totally exciting.",
   "lvl": "A1"
  },
@@ -2145,7 +2148,7 @@
   "e": "fantastic",
   "c": "Other",
   "cmp": "fantastischer",
-  "sup": "am fantastischesten",
+  "sup": "am fantastischsten",
   "ex": "China ist fantastisch! — China is fantastic!",
   "lvl": "A1"
  },
@@ -2204,7 +2207,7 @@
   "c": "Time & Frequency",
   "cmp": "–",
   "sup": "–",
-  "ex": "Jährlich haben 50 % der Wintersportler einen Unfall. — Every year 50% of winter sports enthusiasts have an accident.",
+  "ex": "Die Miete wird jährlich erhöht. — The rent is increased annually.",
   "lvl": "A1"
  },
  {
@@ -2398,17 +2401,17 @@
   "e": "classic",
   "c": "Other",
   "cmp": "klassischer",
-  "sup": "am klassischesten",
+  "sup": "am klassischsten",
   "ex": "Sie trägt gern klassische Kleidung in dunklen Farben. — She likes wearing classic clothes in dark colours.",
   "lvl": "A1"
  },
  {
-  "w": "bitteschön",
+  "w": "bitte schön",
   "e": "what would you like?",
   "c": "Function Words",
   "cmp": "–",
   "sup": "–",
-  "ex": "Guten Morgen! Bitteschön? — Good morning! What would you like?",
+  "ex": "Guten Morgen! Bitte schön? — Good morning! What would you like?",
   "lvl": "A1",
   "wc": "Partikel"
  },
@@ -2455,7 +2458,7 @@
   "sup": "–",
   "ex": "Dort fahren Busse sowie Züge des Nahverkehrs. — Buses as well as local service trains run there.",
   "lvl": "A1",
-  "wc": "Adverb"
+  "wc": "Konjunktion"
  },
  {
   "w": "automatisch",
@@ -2577,8 +2580,7 @@
   "cmp": "–",
   "sup": "–",
   "ex": "Im gesamten Büro ist das Rauchen verboten. — Smoking is forbidden in the whole office.",
-  "lvl": "A1",
-  "wc": "Zahlwort"
+  "lvl": "A1"
  },
  {
   "w": "erlaubt",
@@ -2594,7 +2596,8 @@
   "e": "all",
   "c": "Size & Quantity",
   "ex": "Ich wünsche dir alles Gute!",
-  "lvl": "A2"
+  "lvl": "A2",
+  "wc": "Artikelwort"
  },
  {
   "w": "arbeitslos",
@@ -2853,7 +2856,7 @@
   "e": "romantic",
   "c": "Other",
   "cmp": "romantischer",
-  "sup": "am romantischesten",
+  "sup": "am romantischsten",
   "ex": "Dieser Film ist sehr romantisch.",
   "lvl": "A2"
  },
@@ -2891,7 +2894,7 @@
   "e": "exciting",
   "c": "Other",
   "cmp": "spannender",
-  "sup": "am spannendesten",
+  "sup": "am spannendsten",
   "opp": "langweilig",
   "ex": "Ich finde den Film sehr spannend.",
   "lvl": "A2"
@@ -2919,7 +2922,7 @@
   "e": "likeable",
   "c": "Other",
   "cmp": "sympathischer",
-  "sup": "am sympathischesten",
+  "sup": "am sympathischsten",
   "ex": "Der neue Chef ist sehr sympathisch.",
   "lvl": "A2"
  },
@@ -3180,7 +3183,7 @@
   "w": "verletzt",
   "e": "injured / hurt",
   "c": "Status & Condition",
-  "opp": "gesund",
+  "opp": "unverletzt",
   "ex": "Bei dem Unfall wurde niemand verletzt. — Nobody was injured in the accident.",
   "lvl": "A2",
   "cmp": "–",
@@ -4062,9 +4065,9 @@
   "w": "mittelgroß",
   "e": "medium-sized",
   "c": "Size & Quantity",
-  "cmp": "—",
-  "sup": "—",
-  "opp": "—",
+  "cmp": "–",
+  "sup": "–",
+  "opp": "–",
   "ex": "Wir suchen eine mittelgroße Wohnung. — We're looking for a medium-sized flat.",
   "lvl": "A2"
  },
@@ -4072,8 +4075,8 @@
   "w": "riesengroß",
   "e": "huge",
   "c": "Size & Quantity",
-  "cmp": "—",
-  "sup": "—",
+  "cmp": "–",
+  "sup": "–",
   "opp": "winzig",
   "ex": "Der Hund ist riesengroß. — The dog is huge.",
   "lvl": "A2"
@@ -4094,7 +4097,7 @@
   "c": "Physical Properties",
   "cmp": "–",
   "sup": "–",
-  "opp": "—",
+  "opp": "–",
   "ex": "Das Schild ist dreieckig. — The sign is triangular.",
   "lvl": "A2"
  },
@@ -4144,7 +4147,7 @@
   "c": "Colours",
   "cmp": "–",
   "sup": "–",
-  "opp": "—",
+  "opp": "–",
   "ex": "Sie trägt eine goldene Kette. — She's wearing a golden necklace.",
   "lvl": "A2"
  },
@@ -4154,7 +4157,7 @@
   "c": "Colours",
   "cmp": "–",
   "sup": "–",
-  "opp": "—",
+  "opp": "–",
   "ex": "Ich mag das lila Kleid. — I like the purple dress.",
   "lvl": "A1"
  },
@@ -4164,7 +4167,7 @@
   "c": "Colours",
   "cmp": "–",
   "sup": "–",
-  "opp": "—",
+  "opp": "–",
   "ex": "Sie hat eine rosa Jacke. — She has a pink jacket.",
   "lvl": "A1"
  },
@@ -4174,7 +4177,7 @@
   "c": "Colours",
   "cmp": "–",
   "sup": "–",
-  "opp": "—",
+  "opp": "–",
   "ex": "Die Wand ist orangefarben. — The wall is orange.",
   "lvl": "A2"
  },
@@ -4184,7 +4187,7 @@
   "c": "Colours",
   "cmp": "–",
   "sup": "–",
-  "opp": "—",
+  "opp": "–",
   "ex": "Er hat eine silberne Uhr. — He has a silver watch.",
   "lvl": "A2"
  },
@@ -4194,7 +4197,7 @@
   "c": "Colours",
   "cmp": "–",
   "sup": "–",
-  "opp": "—",
+  "opp": "–",
   "ex": "Der Himmel war fast violett. — The sky was almost violet.",
   "lvl": "B1"
  },

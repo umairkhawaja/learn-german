@@ -345,7 +345,7 @@
   "wt": "Preposition",
   "st": "Dative Only",
   "ce": "Dative",
-  "ex": "Das Buch ist von dem Autor. Ich komme von der Arbeit. — The book is by the author. I am coming from work.",
+  "ex": "Das Buch ist von Goethe. Ich komme von der Arbeit. — The book is by Goethe. I am coming from work.",
   "mh": "Blue Danube Dative. von = from/by. von+dem = vom (contraction).",
   "lvl": "A1"
  },
@@ -425,8 +425,8 @@
   "wt": "Preposition",
   "st": "Two-Way (Wechsel)",
   "ce": "Accusative or Dative",
-  "ex": "Ich gehe in den Park. (Acc) / Ich bin in dem Park. (Dat) — I am going into the park. / I am in the park.",
-  "mh": "Wohin? (where to?) = Accusative. Wo? (where?) = Dative. Movement vs Location.",
+  "ex": "Ich gehe in den Park. (Acc) / Ich bin im Park. (Dat) — I am going into the park. / I am in the park.",
+  "mh": "Wohin? (where to?) = Accusative. Wo? (where?) = Dative. in + dem = im, in + das = ins.",
   "lvl": "A1"
  },
  {
@@ -736,7 +736,7 @@
   "st": "Indefinite Pronoun",
   "ce": "None — keeps word order",
   "ex": "Jeder muss ein Ticket kaufen.",
-  "mh": "Indefinite pronoun. Declines like an adjective: jeder/jede/jedes to match gender.",
+  "mh": "Declines like der/die/das: jeder, jede, jedes; jeden (Akk), jedem (Dat). Singular only — for 'all' in the plural use alle.",
   "lvl": "A2"
  },
  {
@@ -772,11 +772,11 @@
  {
   "w": "endlich",
   "e": "finally / eventually",
-  "wt": "Conjunction",
-  "st": "Conjunctive Adverb (Inverter)",
-  "ce": "Verb-Subject swap (inverter)",
+  "wt": "Adverb",
+  "st": "Time Adverb",
+  "ce": "None — keeps word order",
   "ex": "Endlich bin ich fertig!",
-  "mh": "Inverter. endlich = finally (relief). schließlich = finally (conclusion/after all).",
+  "mh": "Time adverb, not a connector. endlich = at last (relief); schließlich = in the end / after all. Like any adverb, it triggers inversion at the start of a sentence.",
   "lvl": "A2"
  },
  {
@@ -1445,7 +1445,7 @@
   "wt": "Adverb",
   "st": "Modal Adverb",
   "ce": "Verb-Subject swap (inverter)",
-  "ex": "Übrigens, hast du meine E-Mail bekommen?",
+  "ex": "Übrigens habe ich deine E-Mail bekommen. — By the way, I got your e-mail.",
   "mh": "Very common conversation filler used to introduce an afterthought.",
   "lvl": "B1"
  }

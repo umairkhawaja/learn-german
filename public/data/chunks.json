@@ -254,7 +254,7 @@
  {
   "w": "Das denke ich auch.",
   "e": "I think so too.",
-  "ex": "Das denke ich auch, genau deshalb. — I think so too, exactly for that reason.",
+  "ex": "Das denke ich auch, der Film war zu lang. — I think so too, the film was too long.",
   "c": "Zustimmen",
   "lvl": "A2"
  },
@@ -756,9 +756,9 @@
   "lvl": "B1"
  },
  {
-  "w": "Es hat sich etwas dazwischengeschoben.",
+  "w": "Mir ist etwas dazwischengekommen.",
   "e": "Something came up.",
-  "ex": "Tut mir leid, es hat sich etwas dazwischengeschoben. — Sorry, something came up.",
+  "ex": "Tut mir leid, mir ist etwas dazwischengekommen. — Sorry, something came up.",
   "c": "Verabredung",
   "lvl": "B2"
  },
@@ -1527,8 +1527,8 @@
  },
  {
   "w": "sich handeln um",
-  "e": "to be a matter of",
-  "ex": "Es handelt sich um einen Fehler. — It's a matter of an error.",
+  "e": "to be about / to be a case of (es handelt sich um …)",
+  "ex": "Es handelt sich um einen Fehler. — It's a mistake.",
   "c": "Verb + Präposition",
   "lvl": "B2"
  },
@@ -2009,35 +2009,35 @@
   "lvl": "B1"
  },
  {
-  "w": "Am Ball bleiben",
+  "w": "am Ball bleiben",
   "e": "to stick with it",
   "ex": "Du musst am Ball bleiben, dann klappt es. — You have to stick with it, then it'll work.",
   "c": "Redewendungen",
   "lvl": "B2"
  },
  {
-  "w": "Auf der Leitung stehen",
+  "w": "auf der Leitung stehen",
   "e": "to be slow on the uptake",
   "ex": "Sorry, ich stehe gerade auf der Leitung. — Sorry, I'm being slow right now.",
   "c": "Redewendungen",
   "lvl": "B2"
  },
  {
-  "w": "Den Nagel auf den Kopf treffen",
+  "w": "den Nagel auf den Kopf treffen",
   "e": "to hit the nail on the head",
   "ex": "Damit hast du den Nagel auf den Kopf getroffen. — With that you hit the nail on the head.",
   "c": "Redewendungen",
   "lvl": "B2"
  },
  {
-  "w": "Ein Brett vor dem Kopf haben",
+  "w": "ein Brett vor dem Kopf haben",
   "e": "to be dense about something obvious",
   "ex": "Ich hatte total ein Brett vor dem Kopf. — I was completely dense about it.",
   "c": "Redewendungen",
   "lvl": "B2"
  },
  {
-  "w": "Seinen Senf dazugeben",
+  "w": "seinen Senf dazugeben",
   "e": "to add one's two cents",
   "ex": "Er muss immer seinen Senf dazugeben. — He always has to add his two cents.",
   "c": "Redewendungen",
@@ -2051,14 +2051,14 @@
   "lvl": "B2"
  },
  {
-  "w": "Einen Kater haben",
+  "w": "einen Kater haben",
   "e": "to have a hangover",
   "ex": "Nach der Party habe ich einen Kater. — After the party I have a hangover.",
   "c": "Redewendungen",
   "lvl": "B1"
  },
  {
-  "w": "Die Katze im Sack kaufen",
+  "w": "die Katze im Sack kaufen",
   "e": "to buy a pig in a poke",
   "ex": "Ich kaufe doch nicht die Katze im Sack. — I'm not buying a pig in a poke.",
   "c": "Redewendungen",
@@ -2072,14 +2072,14 @@
   "lvl": "B2"
  },
  {
-  "w": "Durch die Blume sagen",
+  "w": "etwas durch die Blume sagen",
   "e": "to say something indirectly",
   "ex": "Er hat es durch die Blume gesagt. — He said it indirectly.",
   "c": "Redewendungen",
   "lvl": "B2"
  },
  {
-  "w": "Blaumachen",
+  "w": "blaumachen",
   "e": "to skive off work",
   "ex": "Er hat gestern einfach blaugemacht. — He simply skived off yesterday.",
   "c": "Redewendungen",
@@ -2093,7 +2093,7 @@
   "lvl": "B1"
  },
  {
-  "w": "Etwas unter den Teppich kehren",
+  "w": "etwas unter den Teppich kehren",
   "e": "to sweep something under the rug",
   "ex": "Das Problem wurde unter den Teppich gekehrt. — The problem was swept under the rug.",
   "c": "Redewendungen",
@@ -2107,14 +2107,14 @@
   "lvl": "B2"
  },
  {
-  "w": "Jemanden auf den Arm nehmen",
+  "w": "jemanden auf den Arm nehmen",
   "e": "to pull someone's leg",
   "ex": "Du nimmst mich auf den Arm, oder? — You're pulling my leg, right?",
   "c": "Redewendungen",
   "lvl": "B2"
  },
  {
-  "w": "Die Nase voll haben von",
+  "w": "die Nase voll haben von",
   "e": "to be fed up with",
   "ex": "Ich habe die Nase voll von den Ausreden. — I'm fed up with the excuses.",
   "c": "Redewendungen",
@@ -2230,7 +2230,8 @@
   "e": "I'll let you know.",
   "ex": "Sobald ich es weiß, lasse ich es dich wissen. — As soon as I know, I'll let you know.",
   "c": "Alltag",
-  "lvl": "B1"
+  "lvl": "B1",
+  "n": "A calque of English 'I'll let you know'. 'Ich sage dir Bescheid' is the more idiomatic choice."
  },
  {
   "w": "Wenn es dir recht ist, …",
@@ -2256,7 +2257,7 @@
  {
   "w": "Es wäre nett, wenn du …",
   "e": "It would be nice if you …",
-  "ex": "Es wäre nett, wenn du kurz Bescheid gibst. — It would be nice if you let me know.",
+  "ex": "Es wäre nett, wenn du mir kurz Bescheid geben könntest. — It would be nice if you could let me know.",
   "c": "Höflichkeit",
   "lvl": "B1"
  },
