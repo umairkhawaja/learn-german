@@ -34,17 +34,18 @@ export function CheatsheetView() {
     };
   }, []);
 
-  // The wrapper is the horizontal scroller, not the page: iOS Safari
-  // ignores an iframe's own overflow and stretches it to its content, so
-  // a wide grammar table inside would otherwise drag the whole app
-  // sideways. `dm-scroll-x` contains that (and the swipe with it) while
-  // still letting you reach the full width of a table.
+  // iOS Safari sizes an iframe to its content's width unless the width is
+  // pinned; `width: 1px; min-width: 100%` is the standard fix. The document
+  // inside then clips its own sideways overflow, so wide grammar tables
+  // scroll within their own frames instead of dragging the whole
+  // cheatsheet (search bar included) sideways and cropping its edges.
   return (
-    <div ref={ref} className="dm-scroll-x" style={{ width: "100%" }}>
+    <div ref={ref} style={{ width: "100%", maxWidth: "100%", overflow: "hidden" }}>
       <iframe
         src={SRC}
         title="Spickzettel — German grammar reference"
-        style={{ display: "block", width: "100%", minWidth: "100%", height, border: "none", background: COLORS.bg }}
+        scrolling="yes"
+        style={{ display: "block", width: 1, minWidth: "100%", maxWidth: "100%", height, border: "none", background: COLORS.bg }}
       />
       <noscript style={{ color: FAINT }}>
         <a href={SRC}>Open the cheatsheet</a>

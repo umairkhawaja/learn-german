@@ -58,13 +58,28 @@ export function AppStyles() {
       .dm-notion-wrap .notion { max-width: 100%; overflow-wrap: break-word; }
       .dm-notion-wrap .notion-page { width: 100%; max-width: 100%; padding: 0; }
       .dm-notion-wrap img, .dm-notion-wrap video, .dm-notion-wrap iframe { max-width: 100%; height: auto; }
-      .dm-notion-wrap .notion-table,
-      .dm-notion-wrap .notion-simple-table,
       .dm-notion-wrap .notion-collection,
-      .dm-notion-wrap .notion-collection-view,
       .dm-notion-wrap pre, .dm-notion-wrap .notion-code {
         max-width: 100%; overflow-x: auto; overscroll-behavior-x: contain;
       }
+      /* A <table> ignores overflow, so the wrapper above used to crop wide
+         simple tables instead of scrolling them. Making the table a block
+         turns it into its own scroller; its rows still lay out as a table. */
+      .dm-notion-wrap .notion-simple-table {
+        display: block; width: max-content; max-width: 100%;
+        overflow-x: auto; overscroll-behavior-x: contain; -webkit-overflow-scrolling: touch;
+      }
+      .dm-notion-wrap .notion-simple-table td { min-width: 90px; overflow-wrap: normal; }
+      /* Database table views are pinned to --notion-max-width (720px) and
+         floated; let the collection scroll them instead of cropping. */
+      .dm-notion-wrap .notion-table-view { float: none; }
+      /* Column layouts only stack below a 640px *viewport*, but the notes
+         column is narrower than that well above it, and .notion-row hides
+         its overflow — so columns got cut off. Stack them by default. */
+      .dm-notion-wrap .notion-row { flex-direction: column; overflow: visible; }
+      .dm-notion-wrap .notion-row .notion-column { width: 100% !important; min-width: 0; }
+      .dm-notion-wrap .notion-row .notion-spacer { display: none; }
+      .dm-notion-wrap .notion-callout, .dm-notion-wrap .notion-callout-text { min-width: 0; max-width: 100%; }
 
       /* ── Form controls ────────────────────────────────────────
          Native selects and inputs ignore the dark inline styles for their
