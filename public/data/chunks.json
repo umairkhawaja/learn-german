@@ -3030,5 +3030,159 @@
   "ex": "Wie lange dauert die Bearbeitung ungefähr – ein paar Wochen? — Roughly how long does processing take – a few weeks?",
   "c": "Behörden",
   "lvl": "B1"
+ },
+ {
+  "w": "Ich möchte mich im Fitnessstudio anmelden.",
+  "e": "I'd like to sign up at the gym.",
+  "ex": "Ich möchte mich im Fitnessstudio anmelden – welche Tarife gibt es? — I'd like to sign up at the gym – what plans are there?",
+  "c": "Fitnessstudio",
+  "lvl": "A2"
+ },
+ {
+  "w": "Kann ich ein Probetraining machen?",
+  "e": "Can I do a trial session?",
+  "ex": "Kann ich vor der Anmeldung ein Probetraining machen? — Can I do a trial session before signing up?",
+  "c": "Fitnessstudio",
+  "lvl": "A2"
+ },
+ {
+  "w": "Wie lange ist die Vertragslaufzeit?",
+  "e": "How long is the contract term?",
+  "ex": "Wie lange ist die Vertragslaufzeit – kann ich auch monatlich kündigen? — How long is the contract term – can I also cancel monthly?",
+  "c": "Fitnessstudio",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Mitgliedschaft kündigen",
+  "e": "to cancel the membership",
+  "ex": "Ich möchte meine Mitgliedschaft zum Monatsende kündigen. — I'd like to cancel my membership at the end of the month.",
+  "c": "Fitnessstudio",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Mitgliedschaft pausieren",
+  "e": "to freeze the membership",
+  "ex": "Kann ich meine Mitgliedschaft für zwei Monate pausieren? Ich bin im Ausland. — Can I freeze my membership for two months? I'm abroad.",
+  "c": "Fitnessstudio",
+  "lvl": "B1"
+ },
+ {
+  "w": "Wann hat das Studio geöffnet?",
+  "e": "When is the gym open?",
+  "ex": "Wann hat das Studio am Wochenende geöffnet? — When is the gym open at the weekend?",
+  "c": "Fitnessstudio",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ist das Gerät frei?",
+  "e": "Is this machine free?",
+  "ex": "Entschuldigung, ist das Gerät frei, oder trainierst du hier noch? — Excuse me, is this machine free, or are you still using it?",
+  "c": "Fitnessstudio",
+  "lvl": "A2"
+ },
+ {
+  "w": "Wie viele Sätze hast du noch?",
+  "e": "How many sets have you got left?",
+  "ex": "Wie viele Sätze hast du noch? Dann warte ich kurz. — How many sets have you got left? Then I'll wait a moment.",
+  "c": "Fitnessstudio",
+  "lvl": "A2"
+ },
+ {
+  "w": "Können wir uns abwechseln?",
+  "e": "Can we take turns?",
+  "ex": "Können wir uns abwechseln? Du machst einen Satz, dann ich. — Can we take turns? You do a set, then me.",
+  "c": "Fitnessstudio",
+  "lvl": "B1"
+ },
+ {
+  "w": "Kannst du mich kurz sichern?",
+  "e": "Can you spot me for a moment?",
+  "ex": "Kannst du mich beim Bankdrücken kurz sichern? — Can you spot me on the bench press for a moment?",
+  "c": "Fitnessstudio",
+  "lvl": "B1"
+ },
+ {
+  "w": "Wie stellt man das Gerät ein?",
+  "e": "How do you adjust this machine?",
+  "ex": "Wie stellt man das Gerät richtig ein? Der Sitz ist zu hoch. — How do you adjust this machine properly? The seat is too high.",
+  "c": "Fitnessstudio",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ist meine Ausführung so richtig?",
+  "e": "Is my form right like this?",
+  "ex": "Kannst du mal schauen – ist meine Ausführung bei den Kniebeugen so richtig? — Can you have a look – is my squat form right like this?",
+  "c": "Fitnessstudio",
+  "lvl": "B1"
+ },
+ {
+  "w": "… Sätze à … Wiederholungen",
+  "e": "… sets of … reps",
+  "ex": "Ich mache drei Sätze à zwölf Wiederholungen. — I do three sets of twelve reps.",
+  "c": "Fitnessstudio",
+  "lvl": "A2"
+ },
+ {
+  "w": "Heute ist Beintag.",
+  "e": "Today is leg day.",
+  "ex": "Heute ist Beintag – morgen komme ich keine Treppe mehr hoch. — Today is leg day – tomorrow I won't be able to climb the stairs.",
+  "c": "Fitnessstudio",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich habe Muskelkater.",
+  "e": "My muscles are sore.",
+  "ex": "Ich habe vom Training gestern immer noch Muskelkater. — My muscles are still sore from yesterday's workout.",
+  "c": "Fitnessstudio",
+  "lvl": "B1"
+ },
+ {
+  "w": "sich aufwärmen",
+  "e": "to warm up",
+  "ex": "Ich wärme mich zehn Minuten auf dem Laufband auf. — I warm up for ten minutes on the treadmill.",
+  "c": "Fitnessstudio",
+  "lvl": "B1"
+ },
+ {
+  "w": "Muskeln aufbauen",
+  "e": "to build muscle",
+  "ex": "Ich möchte Muskeln aufbauen und dabei nicht zu viel zunehmen. — I want to build muscle without putting on too much weight.",
+  "c": "Fitnessstudio",
+  "lvl": "B1"
+ },
+ {
+  "w": "einen Trainingsplan erstellen",
+  "e": "to put together a training plan",
+  "ex": "Könnten Sie mir einen Trainingsplan für drei Tage die Woche erstellen? — Could you put together a training plan for three days a week for me?",
+  "c": "Fitnessstudio",
+  "lvl": "B1"
+ },
+ {
+  "w": "Wie oft trainierst du?",
+  "e": "How often do you train?",
+  "ex": "„Wie oft trainierst du?“ – „Drei- bis viermal die Woche.“ — “How often do you train?” – “Three to four times a week.”",
+  "c": "Fitnessstudio",
+  "lvl": "A2"
+ },
+ {
+  "w": "Räumst du die Hanteln bitte zurück?",
+  "e": "Could you put the dumbbells back, please?",
+  "ex": "Entschuldigung, räumst du die Hanteln bitte zurück, wenn du fertig bist? — Excuse me, could you put the dumbbells back when you're done, please?",
+  "c": "Fitnessstudio",
+  "lvl": "A2"
+ },
+ {
+  "w": "Handtuch nicht vergessen!",
+  "e": "Don't forget your towel!",
+  "ex": "Hier musst du ein Handtuch auf die Bank legen – Handtuch nicht vergessen! — You have to put a towel on the bench here – don't forget your towel!",
+  "c": "Fitnessstudio",
+  "lvl": "A2"
+ },
+ {
+  "w": "Gibt es hier Kurse?",
+  "e": "Are there classes here?",
+  "ex": "Gibt es hier auch Kurse, zum Beispiel Yoga oder Spinning? — Are there classes here too, like yoga or spinning?",
+  "c": "Fitnessstudio",
+  "lvl": "B1"
  }
 ]

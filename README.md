@@ -1,7 +1,7 @@
 # Deutsch Meister — PWA
 
 An installable, offline German trainer built around what an A1–B1 course actually
-teaches: ~3,800 CEFR-levelled words and 430 everyday chunks, full conjugation,
+teaches: ~3,800 CEFR-levelled words and 450 everyday chunks, full conjugation,
 declension tables, spaced repetition, and a 32-card A1–B1 grammar
 reference. Vite + React, no backend required — all data is bundled and progress is
 stored on-device (with optional cloud sync, see below).
