@@ -20,7 +20,9 @@ export function VerbTable({ v }) {
   ];
   return (
     <div className="dm-scroll-x" style={{ marginTop: 12 }}>
-      <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 12.5 }}>
+      {/* Cells wrap at word boundaries ("haben angefangen" onto two lines)
+          so the table fits a phone instead of scrolling sideways. */}
+      <table lang="de" className="dm-conj" style={{ width: "100%", borderCollapse: "collapse", fontSize: 12.5, overflowWrap: "break-word" }}>
         <thead>
           <tr>
             {["", "Präsens", "Präteritum", "Perfekt"].map((h) => (
@@ -34,7 +36,7 @@ export function VerbTable({ v }) {
               <td style={{ padding: "3px 8px", color: MUTE, fontStyle: "italic", whiteSpace: "nowrap" }}>{p}</td>
               <td style={{ padding: "3px 8px", color: TXT }}>{pr}</td>
               <td style={{ padding: "3px 8px", color: TXT }}>{pt}</td>
-              <td style={{ padding: "3px 8px", color: TXT, whiteSpace: "nowrap" }}>{pk}</td>
+              <td style={{ padding: "3px 8px", color: TXT }}>{pk}</td>
             </tr>
           ))}
         </tbody>
@@ -91,6 +93,7 @@ function genderHint(it) {
 }
 
 const CASES = ["Nominativ", "Akkusativ", "Dativ", "Genitiv"];
+const CASE_COLORS = [COLORS.nom, COLORS.akk, COLORS.dat, COLORS.gen];
 
 // What the table shows that the learner would not guess from the article
 // alone, per noun group.
@@ -117,8 +120,12 @@ function DeclTable({ it }) {
   // wrong one.
   const d = nounParadigm(it);
   if (!d) return null;
-  const cell = (pair) => pair
-    ? <span><span style={{ color: "#60a5fa", fontWeight: 700 }}>{pair[0]}</span> {pair[1]}</span>
+  // Articles take the noun's gender colour (plural grey), and the case names
+  // the case colours, as they do in the Spickzettel.
+  const sgColor = isPluralOnly(it) ? COLORS.plural
+    : ({ der: COLORS.derText, die: COLORS.dieText, das: COLORS.dasText })[it.a] || COLORS.derText;
+  const cell = (pair, color) => pair
+    ? <span><span style={{ color, fontWeight: 700 }}>{pair[0]}</span> {pair[1]}</span>
     : <span style={{ color: FAINT }}>—</span>;
   return (
     <div style={{ marginTop: 12 }}>
@@ -135,9 +142,9 @@ function DeclTable({ it }) {
           <tbody>
             {CASES.map((c, i) => (
               <tr key={c} style={{ borderTop: "1px solid #222" }}>
-                <td style={{ padding: "4px 8px 4px 0", color: MUTE, fontStyle: "italic", whiteSpace: "nowrap" }}>{c}</td>
-                <td style={{ padding: "4px 8px", color: TXT, whiteSpace: "nowrap" }}>{cell(d.sg?.[i])}</td>
-                <td style={{ padding: "4px 8px", color: TXT, whiteSpace: "nowrap" }}>{cell(d.pl?.[i])}</td>
+                <td style={{ padding: "4px 8px 4px 0", color: CASE_COLORS[i], fontWeight: 600, whiteSpace: "nowrap" }}>{c}</td>
+                <td style={{ padding: "4px 8px", color: TXT }}>{cell(d.sg?.[i], sgColor)}</td>
+                <td style={{ padding: "4px 8px", color: TXT }}>{cell(d.pl?.[i], COLORS.plural)}</td>
               </tr>
             ))}
           </tbody>
@@ -206,7 +213,7 @@ export function NounDetail({ it }) {
   const pluralOnly = isPluralOnly(it);
   const gender = pluralOnly ? "nur Plural" : it.a === "der" ? "maskulin" : it.a === "die" ? "feminin" : "neutrum";
   const hint = pluralOnly ? null : genderHint(it);
-  const gc = pluralOnly ? MUTE : it.a === "der" ? COLORS.der : it.a === "die" ? COLORS.die : COLORS.das;
+  const gc = pluralOnly ? MUTE : it.a === "der" ? COLORS.derText : it.a === "die" ? COLORS.dieText : COLORS.dasText;
   const pattern = pluralPattern(it);
   // 228 nouns have no plural — proper nouns, mass nouns, countries. The card
   // used to render "Plural:" followed by nothing, which reads as missing data
@@ -270,10 +277,10 @@ export function AdjDetail({ it }) {
 const CASE_EFFECT = {
   "Verb to end (subordinating)": { color: "#fca5a5", bg: "#2a0d0d" },
   "Verb-Subject swap (inverter)": { color: "#fcd34d", bg: "#2a210d" },
-  Accusative: { color: "#e0a458", bg: "#33260f" },
-  Dative: { color: "#6ecbd6", bg: "#173238" },
-  "Accusative or Dative": { color: "#c4b5fd", bg: "#241e3a" },
-  Genitive: { color: "#b4a2ee", bg: "#241e3a" },
+  Accusative: { color: COLORS.akk, bg: COLORS.akkBg },
+  Dative: { color: COLORS.dat, bg: COLORS.datBg },
+  "Accusative or Dative": { color: "#c4b5fd", bg: "#1f1a2e" },
+  Genitive: { color: COLORS.gen, bg: COLORS.genBg },
 };
 
 export function GramDetail({ it }) {

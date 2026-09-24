@@ -148,6 +148,19 @@ export function UsageNote({ text, style }) {
   );
 }
 
+// ── Noun headword with a gender-coloured article ─────────────
+// The Spickzettel, the declension tables and the Kasus drill all colour
+// der / die / das blue / pink / green; the word lists showed the same
+// article in plain white. Plural-only nouns (die Eltern) take the plural
+// grey, since their "die" says nothing about gender.
+const ART_COLOR = { der: COLORS.derText, die: COLORS.dieText, das: COLORS.dasText };
+export function Headword({ text, pluralOnly = false }) {
+  const m = /^(der|die|das)\s+(.*)$/i.exec(String(text));
+  if (!m) return text;
+  const color = pluralOnly ? COLORS.plural : ART_COLOR[m[1].toLowerCase()];
+  return <><span style={{ color }}>{m[1]}</span> {m[2]}</>;
+}
+
 // ── Word-class / grammar tag ─────────────────────────────
 export function Tag({ children, color = MUTE, bg = "#1f1f1f", title }) {
   return (

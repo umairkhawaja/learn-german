@@ -8,10 +8,8 @@ import {
   GENERAL_LABEL,
 } from "./notesConfig";
 import { fetchNotionPage, fetchNotionChildPages } from "./notionClient";
-
-const TXT = "#e2e8f0";
-const MUTE = "#8b94a3";
-const FAINT = "#5b626f";
+import { COLORS, TXT, MUTE, FAINT } from "./config/theme";
+import { levelMeta } from "./config/levels";
 
 // Match a leading level token in a subpage title, ignoring a leading emoji.
 // "🇩🇪 A1 Course Notes — Learn German" → "A1"; "05 · Die Fälle … [A1–A2]" → null.
@@ -39,7 +37,7 @@ function groupByLevel(childPages) {
 
 function SetupNotice() {
   return (
-    <div style={{ background: "#141414", border: "1px solid #2a2a2a", borderRadius: 12, padding: 20, maxWidth: 560 }}>
+    <div style={{ background: COLORS.surface, border: `1px solid ${COLORS.borderSoft}`, borderRadius: 12, padding: 20, maxWidth: 560 }}>
       <div style={{ fontSize: 15, fontWeight: 700, color: TXT, marginBottom: 10 }}>One-time proxy setup needed</div>
       <p style={{ fontSize: 13.5, color: MUTE, lineHeight: 1.6, margin: "0 0 12px" }}>
         Notion's API blocks direct browser requests (CORS). A tiny Cloudflare Worker acts as a
@@ -50,7 +48,7 @@ function SetupNotice() {
         <li>Run <code style={{ color: TXT }}>wrangler deploy worker/notion-proxy.js --name notion-proxy</code></li>
         <li>Copy the deployed URL (e.g. <code style={{ color: TXT }}>https://notion-proxy.YOUR.workers.dev</code>)</li>
         <li>Create <code style={{ color: TXT }}>.env.local</code> in the project root and add:<br />
-          <code style={{ color: "#22c55e" }}>VITE_NOTION_PROXY_URL=https://notion-proxy.YOUR.workers.dev</code>
+          <code style={{ color: COLORS.successText }}>VITE_NOTION_PROXY_URL=https://notion-proxy.YOUR.workers.dev</code>
         </li>
         <li>Restart the dev server / redeploy the app</li>
       </ol>
@@ -92,7 +90,7 @@ function NotionPage({ pageId, proxyUrl }) {
 
   if (error) {
     return (
-      <div style={{ color: "#fca5a5", fontSize: 13, padding: "20px 0" }}>
+      <div style={{ color: COLORS.dangerText, fontSize: 13, padding: "20px 0" }}>
         Failed to load page: {error}
       </div>
     );
@@ -102,7 +100,7 @@ function NotionPage({ pageId, proxyUrl }) {
     <div>
       {pageStack.length > 1 && (
         <button onClick={popPage}
-          style={{ marginBottom: 14, background: "transparent", border: "1px solid #2a2a2a", borderRadius: 8, padding: "6px 14px", color: MUTE, fontSize: 13, cursor: "pointer" }}>
+          style={{ marginBottom: 14, background: "transparent", border: `1px solid ${COLORS.borderSoft}`, borderRadius: 10, padding: "7px 14px", color: MUTE, fontSize: 13, cursor: "pointer" }}>
           ← Back
         </button>
       )}
@@ -162,7 +160,7 @@ export function NotesView() {
 
   if (loadError) {
     return (
-      <div style={{ color: "#fca5a5", fontSize: 13, padding: "20px 0" }}>
+      <div style={{ color: COLORS.dangerText, fontSize: 13, padding: "20px 0" }}>
         Failed to load notes: {loadError}
       </div>
     );
@@ -183,18 +181,25 @@ export function NotesView() {
   return (
     <div>
       {/* Level tabs */}
+      {/* Each level wears its colour from config/levels (A1 green, A2
+          orange, B1 blue …), the same as the level chips everywhere else;
+          these used to be blue whatever the level. */}
       {levels.length > 1 && (
         <div style={{ display: "flex", gap: 6, marginBottom: 14, flexWrap: "wrap" }}>
-          {levels.map((l) => (
-            <button key={l} onClick={() => { setLevel(l); setPageIdx(0); }}
-              style={{
-                padding: "6px 14px", borderRadius: 8, border: `1px solid ${level === l ? "#3b82f6" : "#2a2a2a"}`,
-                background: level === l ? "#3b82f622" : "transparent",
-                color: level === l ? "#60a5fa" : MUTE, fontSize: 13, fontWeight: 600, cursor: "pointer",
-              }}>
-              {l}
-            </button>
-          ))}
+          {levels.map((l) => {
+            const on = level === l;
+            const color = levelMeta(l).color;
+            return (
+              <button key={l} onClick={() => { setLevel(l); setPageIdx(0); }} aria-pressed={on}
+                style={{
+                  padding: "7px 14px", minHeight: 34, borderRadius: 10, border: `1.5px solid ${on ? color : COLORS.borderSoft}`,
+                  background: on ? color + "18" : "transparent",
+                  color: on ? color : MUTE, fontSize: 13, fontWeight: 700, cursor: "pointer",
+                }}>
+                {l}
+              </button>
+            );
+          })}
         </div>
       )}
 
@@ -203,10 +208,12 @@ export function NotesView() {
         <div style={{ display: "flex", gap: 6, marginBottom: 18, flexWrap: "wrap" }}>
           {pages.map((p, i) => (
             <button key={p.pageId} onClick={() => setPageIdx(i)}
+              aria-pressed={pageIdx === i}
               style={{
-                padding: "6px 12px", borderRadius: 8, border: `1px solid ${pageIdx === i ? "#22c55e" : "#2a2a2a"}`,
-                background: pageIdx === i ? "#22c55e18" : "transparent",
-                color: pageIdx === i ? "#4ade80" : MUTE, fontSize: 12.5, cursor: "pointer",
+                padding: "7px 12px", minHeight: 34, maxWidth: "100%", textAlign: "left", borderRadius: 10,
+                border: `1px solid ${pageIdx === i ? COLORS.accent : COLORS.borderSoft}`,
+                background: pageIdx === i ? COLORS.accent + "1f" : "transparent",
+                color: pageIdx === i ? COLORS.accentText : MUTE, fontSize: 12.5, cursor: "pointer",
               }}>
               {p.label}
             </button>

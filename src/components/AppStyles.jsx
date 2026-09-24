@@ -52,6 +52,13 @@ export function AppStyles() {
         max-width: 100%; overflow-x: auto;
         overscroll-behavior-x: contain; -webkit-overflow-scrolling: touch;
       }
+      /* Four-column conjugation table on a small phone: tighter cells so
+         "haben angefangen" fits without the table scrolling. */
+      @media (max-width: 400px) {
+        .dm-conj th, .dm-conj td { padding: 3px 5px !important; font-size: 12px; }
+        /* Long participles (zurückgekommen) hyphenate rather than scroll. */
+        .dm-conj td { -webkit-hyphens: auto; hyphens: auto; }
+      }
       /* Notion pages bring their own widths (tables, code, callouts);
          hold them to the column and let long words break. */
       .dm-notion-wrap { max-width: 100%; overflow-x: hidden; }
@@ -69,7 +76,14 @@ export function AppStyles() {
         display: block; width: max-content; max-width: 100%;
         overflow-x: auto; overscroll-behavior-x: contain; -webkit-overflow-scrolling: touch;
       }
-      .dm-notion-wrap .notion-simple-table td { min-width: 90px; overflow-wrap: normal; }
+      /* Cells wrap at word boundaries so a table fits the column; it only
+         scrolls when a single word is wider than its share. (A 90px floor
+         per cell used to push every 4+ column table off a phone.) */
+      .dm-notion-wrap .notion-simple-table td { min-width: 0; padding: 6px 8px; overflow-wrap: break-word; }
+      @media (max-width: 640px) {
+        .dm-notion-wrap .notion-simple-table { font-size: 13px; }
+        .dm-notion-wrap .notion-simple-table td { padding: 5px 6px; }
+      }
       /* Database table views are pinned to --notion-max-width (720px) and
          floated; let the collection scroll them instead of cropping. */
       .dm-notion-wrap .notion-table-view { float: none; }
@@ -81,12 +95,43 @@ export function AppStyles() {
       .dm-notion-wrap .notion-row .notion-spacer { display: none; }
       .dm-notion-wrap .notion-callout, .dm-notion-wrap .notion-callout-text { min-width: 0; max-width: 100%; }
 
+      /* Notion's own dark theme is slate grey (#2f3437) with its own font
+         and colour set, so notes looked like a different site. Map its
+         variables onto the app's tokens (config/theme.js). */
+      .dm-notion-wrap .notion.dark-mode, .dm-notion-wrap .dark-mode {
+        --notion-font: ui-sans-serif, -apple-system, 'Segoe UI', Roboto, system-ui, sans-serif;
+        --fg-color: #e2e8f0; --fg-color-0: #e2e8f0; --fg-color-1: #e2e8f0; --fg-color-2: #e2e8f0;
+        --fg-color-3: #8b94a3; --fg-color-4: #8b94a3; --fg-color-5: #262626; --fg-color-6: #f1f5f9;
+        --fg-color-icon: #8b94a3;
+        --bg-color: transparent; --bg-color-0: #1a1a1a; --bg-color-1: #141414; --bg-color-2: #1f1f1f;
+        --notion-red: #f87171; --notion-pink: #f472b6; --notion-blue: #60a5fa; --notion-purple: #c084fc;
+        --notion-teal: #2dd4bf; --notion-green: #4ade80; --notion-yellow: #fbbf24; --notion-orange: #fb923c;
+        --notion-brown: #d6a77a; --notion-gray: #8b94a3;
+        --notion-red_background: #ef44441f; --notion-pink_background: #ec48991f; --notion-blue_background: #3b82f61f;
+        --notion-purple_background: #a855f71f; --notion-teal_background: #14b8a61f; --notion-green_background: #22c55e1f;
+        --notion-yellow_background: #eab3081f; --notion-orange_background: #f973161f; --notion-brown_background: #a162071f;
+        --notion-gray_background: #1a1a1a;
+        --notion-red_background_co: #ef444414; --notion-pink_background_co: #ec489914; --notion-blue_background_co: #3b82f614;
+        --notion-purple_background_co: #a855f714; --notion-teal_background_co: #14b8a614; --notion-green_background_co: #22c55e14;
+        --notion-yellow_background_co: #eab30814; --notion-orange_background_co: #f9731614; --notion-brown_background_co: #a1620714;
+        --notion-gray_background_co: #141414;
+      }
+      .dm-notion-wrap .notion-app { min-height: 0; }
+      .dm-notion-wrap .notion { font-size: 15px; }
+      .dm-notion-wrap .notion-callout { border-color: #262626; border-radius: 10px; }
+
       /* ── Form controls ────────────────────────────────────────
          Native selects and inputs ignore the dark inline styles for their
          own dropdown and placeholder text on some platforms. */
       select, input, textarea, button { font-family: inherit; font-size: inherit; }
       select option { background: #141414; color: #e2e8f0; }
-      input::placeholder, textarea::placeholder { color: #4a4f59; }
+      input::placeholder, textarea::placeholder { color: #5b626f; }
+      /* iOS Safari zooms the whole page in when a field under 16px gets
+         focus, and leaves it zoomed — so every search box and filter select
+         on a phone threw the layout sideways. */
+      @media (hover: none) and (pointer: coarse) {
+        input, select, textarea { font-size: 16px !important; }
+      }
 
       /* ── Grade bar ────────────────────────────────────────────
          A revealed card can be long — a noun shows its declension table, a

@@ -152,7 +152,7 @@ export function ChunksView({ progress, setProgress, recordAnswer }) {
       </div>
       <div style={{ display: "flex", gap: 8, alignItems: "center", flexWrap: "wrap" }}>
         <select value={cat} onChange={(e) => setCat(e.target.value)}
-          style={{ background: COLORS.surfaceAlt, border: `1px solid ${COLORS.borderSoft}`, borderRadius: 9, padding: "6px 10px", color: TXT, fontSize: 12 }}>
+          style={{ minWidth: 0, maxWidth: "100%", background: COLORS.surfaceAlt, border: `1px solid ${COLORS.borderSoft}`, borderRadius: 9, padding: "6px 10px", color: TXT, fontSize: 12 }}>
           <option value="All">All topics</option>
           {cats.map((c) => <option key={c} value={c}>{c}</option>)}
         </select>

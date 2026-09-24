@@ -4,7 +4,8 @@ import { COLORS, TXT, MUTE, FAINT } from "../config/theme";
 import { lvlOf, levelMeta } from "../config/levels";
 import { subcatsOf } from "../config/categories";
 import { keyOf, saveProgress, isMastered, toggleSkip, MASTERY_THRESHOLD } from "../engine/progress";
-import { MasterBtn, SpeakBtn, ExampleLine, Tag } from "./ui";
+import { MasterBtn, SpeakBtn, ExampleLine, Tag, Headword } from "./ui";
+import { isPluralOnly } from "../engine/nounForms";
 
 // The list used to render every match at once. With 2,236 nouns that is 2,236
 // cards of DOM on a phone before you have typed anything — the tab took a
@@ -78,7 +79,7 @@ export function BrowseView({ cat, progress, setProgress, levelFilter, db }) {
           style={{ flex: 1, minWidth: 180, background: COLORS.surfaceAlt, border: `1px solid ${COLORS.borderSoft}`, borderRadius: 10, padding: "9px 13px", color: TXT, fontSize: 14 }}
         />
         <select value={catFilter} onChange={(e) => setCatFilter(e.target.value)} aria-label="Topic"
-          style={{ background: COLORS.surfaceAlt, border: `1px solid ${COLORS.borderSoft}`, borderRadius: 10, padding: "9px 12px", color: TXT, fontSize: 13 }}>
+          style={{ flex: "1 1 160px", minWidth: 0, maxWidth: "100%", background: COLORS.surfaceAlt, border: `1px solid ${COLORS.borderSoft}`, borderRadius: 10, padding: "9px 12px", color: TXT, fontSize: 13 }}>
           {cats.map((c) => (
             <option key={c} value={c}>
               {c === "All"
@@ -122,7 +123,9 @@ export function BrowseView({ cat, progress, setProgress, levelFilter, db }) {
               style={{ background: mastered ? "#0d1a0d" : "#141414", border: `1px solid ${isOpen ? cat.color + "55" : mastered ? "#22c55e33" : "#242424"}`, borderRadius: 12, padding: "11px 14px", cursor: "pointer", transition: "border-color .15s" }}>
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 10 }}>
                 <div style={{ minWidth: 0, overflowWrap: "anywhere" }}>
-                  <span lang="de" style={{ fontWeight: 700, fontSize: 15.5, color: mastered ? "#6b7280" : COLORS.txtStrong }}>{it.w}</span>
+                  <span lang="de" style={{ fontWeight: 700, fontSize: 15.5, color: mastered ? "#6b7280" : COLORS.txtStrong }}>
+                    {cat.id === "nouns" && !mastered ? <Headword text={it.w} pluralOnly={isPluralOnly(it)} /> : it.w}
+                  </span>
                   <span style={{ marginLeft: 8, fontSize: 13, color: MUTE }}>{it.e}</span>
                   {/* The level was only visible via the switcher, so on "All
                       levels" there was no way to tell an A1 word from a B1 one. */}

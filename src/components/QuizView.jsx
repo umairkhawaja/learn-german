@@ -89,7 +89,7 @@ export function QuizView({ cat, progress, setProgress, levelFilter, db, recordAn
         ))}
       </div>
       <select value={catFilter} onChange={(e) => setCatFilter(e.target.value)}
-        style={{ background: COLORS.surfaceAlt, border: `1px solid ${COLORS.borderSoft}`, borderRadius: 9, padding: "6px 10px", color: TXT, fontSize: 12 }}>
+        style={{ minWidth: 0, maxWidth: "100%", background: COLORS.surfaceAlt, border: `1px solid ${COLORS.borderSoft}`, borderRadius: 9, padding: "6px 10px", color: TXT, fontSize: 12 }}>
         <option value="All">All categories</option>
         {/* Built from the level-filtered pool: the dropdown used to offer
             topics that have no words at the selected level, which then

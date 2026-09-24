@@ -44,7 +44,7 @@ function TodayBar({ activity, goal, dueCount }) {
       >
         <div style={{
           width: `${pct}%`, height: "100%", borderRadius: 999,
-          background: met ? COLORS.success : "#a855f7", transition: "width .4s",
+          background: met ? COLORS.success : COLORS.accent, transition: "width .4s",
         }} />
       </div>
       <span style={{ fontSize: 11, color: met ? COLORS.successText : COLORS.faint, fontVariantNumeric: "tabular-nums", whiteSpace: "nowrap" }}>
@@ -90,7 +90,7 @@ export function Header({
                 }}>
                 <span aria-hidden="true">{icon}</span> {label}
                 {id === "quiz" && backlogCount > 0 && (
-                  <span style={{ marginLeft: 4, fontSize: 10, color: "#fff", background: "#a855f7", borderRadius: 999, padding: "1px 5px", fontWeight: 700 }}>{backlogCount}</span>
+                  <span style={{ marginLeft: 4, fontSize: 10, color: "#fff", background: COLORS.accent, borderRadius: 999, padding: "1px 5px", fontWeight: 700 }}>{backlogCount}</span>
                 )}
               </button>
             ))}

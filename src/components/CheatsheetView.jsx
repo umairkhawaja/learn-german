@@ -1,6 +1,7 @@
 // ── Cheatsheet view: the merged A1–B1 grammar reference ───────
 // The page is a self-contained static document (public/cheatsheet.html) with
-// its own typography, colour system, search box and level filter. It is
+// its own search box and level filter; its colours and type copy the app's
+// tokens (config/theme.js). It is
 // embedded in an iframe rather than ported to JSX so that its stylesheet stays
 // isolated from the app's — nothing leaks either way — and it keeps working as
 // a standalone page you can open directly at /cheatsheet.html or print.
@@ -22,7 +23,10 @@ export function CheatsheetView() {
   useEffect(() => {
     const fit = () => {
       const top = ref.current?.getBoundingClientRect().top ?? 0;
-      const nav = window.innerWidth <= 640 ? 58 : 0;
+      // Measure the nav rather than assume 58px: on an iPhone it also
+      // carries the home-indicator inset, which hid the last rows.
+      const navEl = document.querySelector(".dm-bottom-nav");
+      const nav = navEl && getComputedStyle(navEl).display !== "none" ? navEl.offsetHeight : 0;
       setHeight(Math.max(360, window.innerHeight - top - nav));
     };
     fit();

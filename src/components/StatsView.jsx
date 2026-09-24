@@ -39,7 +39,7 @@ function ActivityPanel({ activity, goal, setGoal, dueCount }) {
             <div key={key} title={`${key}: ${count} card${count === 1 ? "" : "s"}`}
               style={{
                 flex: 1, height: h, borderRadius: 3,
-                background: count === 0 ? "#1c1c1c" : met ? COLORS.success : "#a855f7",
+                background: count === 0 ? "#1c1c1c" : met ? COLORS.success : COLORS.accent,
                 opacity: count === 0 ? 1 : 0.9,
               }} />
           );
@@ -56,7 +56,7 @@ function ActivityPanel({ activity, goal, setGoal, dueCount }) {
             <button key={g} onClick={() => setGoal(g)} aria-pressed={goal === g}
               style={{
                 padding: "5px 11px", borderRadius: 6, border: "none", cursor: "pointer", fontSize: 12,
-                background: goal === g ? "#a855f7" : "transparent", color: goal === g ? "#fff" : MUTE, fontWeight: goal === g ? 700 : 400,
+                background: goal === g ? COLORS.accent : "transparent", color: goal === g ? "#fff" : MUTE, fontWeight: goal === g ? 700 : 400,
               }}>{g}</button>
           ))}
         </div>
@@ -124,7 +124,7 @@ export function StatsView({ progress, setProgress, levelFilter, driveStatus, set
       <div style={{ display: "flex", gap: 10, marginBottom: 18 }}>
         <StatTile label="Mastered" value={mastered.toLocaleString()} color={COLORS.success} />
         <StatTile label="Seen" value={seen.toLocaleString()} color={COLORS.der} />
-        <StatTile label="Accuracy" value={totAns ? Math.round((totCorrect / totAns) * 100) + "%" : "—"} color="#a855f7" />
+        <StatTile label="Accuracy" value={totAns ? Math.round((totCorrect / totAns) * 100) + "%" : "—"} color={COLORS.accent} />
       </div>
 
       <ActivityPanel activity={activity} goal={goal} setGoal={setGoal} dueCount={dueCount} />

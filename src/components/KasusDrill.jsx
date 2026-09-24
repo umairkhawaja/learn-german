@@ -15,7 +15,7 @@ import { SpeakBtn, isTypingTarget } from "./ui";
 import { ChipRow, weakFirst, ROUND, DRILL_ACCENT } from "./drillKit";
 
 const ART_NOM = { m: "der", f: "die", n: "das", pl: "die" };
-const GENDER_COLOR = { m: COLORS.der, f: COLORS.die, n: COLORS.das, pl: "#a3a3a3" };
+const GENDER_COLOR = { m: COLORS.der, f: COLORS.die, n: COLORS.das, pl: COLORS.plural };
 
 const CONTEXTS = [
   { value: "plain", label: "Fall genannt" },

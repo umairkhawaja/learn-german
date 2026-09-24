@@ -28,9 +28,10 @@ import { CATEGORIES } from "../config/categories";
 import { keyOf, applyAnswer, saveProgress, isMastered, toggleSkip, MASTERY_THRESHOLD } from "../engine/progress";
 import { pickMixedDeck, mixedPool, MIXED_DECK_SIZE, MIXED_CATEGORY_IDS } from "../engine/quiz";
 import { storage } from "../storage";
-import { SpeakBtn, ProgressBar, MasterBtn, ExampleLine, isTypingTarget } from "./ui";
+import { SpeakBtn, ProgressBar, MasterBtn, ExampleLine, isTypingTarget, Headword } from "./ui";
+import { isPluralOnly } from "../engine/nounForms";
 
-const ACCENT = "#a855f7";
+const ACCENT = COLORS.accent;
 const DUE = "#38bdf8";
 const DECK_SIZES = [20, 40, 60];
 const PREFS_KEY = "dm-mixed-prefs-v1";
@@ -430,8 +431,9 @@ export function MixedView({ db, progress, setProgress, levelFilter, recordAnswer
   const { item: it, cat } = deck[idx];
   const p = progress[keyOf(cat.id, it)];
   const lm = levelMeta(lvlOf(it));
-  const front = flipped ? it.e : it.w;
-  const back = flipped ? it.w : it.e;
+  const word = cat.id === "nouns" ? <Headword text={it.w} pluralOnly={isPluralOnly(it)} /> : it.w;
+  const front = flipped ? it.e : word;
+  const back = flipped ? word : it.e;
 
   return (
     <div>

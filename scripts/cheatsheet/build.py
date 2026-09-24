@@ -20,6 +20,25 @@ def plain_len(s):
 def attr(c):
     return ' class="%s"' % ' '.join(c) if c else ''
 
+# Phone layout: the page turns any table that overflows a narrow screen into
+# cards of label → value pairs (fit() in template.html). Every body cell
+# carries its column label for that, and a long cell spans the whole card.
+# Case and gender labels are the widest words in most grids. On a phone they
+# shorten to the part before the hidden span (Nom, Akk, mask, fem …); the
+# full word stays in the DOM, so search and screen readers still see it.
+SHORT = {"Nominativ": 3, "Akkusativ": 3, "Dativ": 3, "Genitiv": 3,
+         "maskulin": 4, "feminin": 3, "neutrum": 4, "Plural": 2}
+
+def head_label(s):
+    """md() for a header cell, with the phone abbreviation applied."""
+    n = SHORT.get(s)
+    if not n:
+        return md(s)
+    return '%s<span class="lng">%s</span>' % (html.escape(s[:n]), html.escape(s[n:]))
+
+def plain(s):
+    return re.sub(r"[`*_{}]|\b(m|f|n|p|nom|akk|dat|gen):|\]\(#[\w-]+\)|\[", "", s)
+
 def table(t):
     head = t["head"]
     gcols = []
@@ -29,7 +48,7 @@ def table(t):
         g = m.group(1) if m else None
         txt = m.group(2) if m else h
         gcols.append(g)
-        ths.append(("<th class=\"h-%s\">" % g if g else "<th>") + md(txt) + "</th>")
+        ths.append(("<th class=\"h-%s\">" % g if g else "<th>") + head_label(txt) + "</th>")
     out = []
     cls = "t full" if t["full"] else "t"
     out.append(f'<div class="{cls}">')
@@ -49,11 +68,19 @@ def table(t):
                 k = CASES.get(c)
                 if k:
                     classes.append("c-" + k)
-                cells.append('<th scope="row"%s>%s</th>' % (attr(classes), md(c)))
+                cells.append('<th scope="row"%s>%s</th>' % (attr(classes), head_label(c)))
                 continue
             if t["gc"] and i < len(gcols) and gcols[i]:
                 classes.append("g-" + gcols[i])
-            cells.append('<td%s>%s</td>' % (attr(classes), md(c)))
+            label = ""
+            if i < len(head):
+                label = plain(head[i].split(":", 1)[1] if gcols[i] else head[i]).split("\n")[0].strip()
+                if gcols[i]:
+                    classes.append("lab-" + gcols[i])
+                if plain_len(c) > 30:
+                    classes.append("wide")
+            dl = ' data-label="%s"' % html.escape(label) if label else ""
+            cells.append('<td%s%s>%s</td>' % (attr(classes), dl, md(c)))
         out.append("<tr>" + "".join(cells) + "</tr>")
     out.append("</tbody></table></div></div>")
     return "".join(out)
@@ -89,8 +116,8 @@ n += 1
 toc.append('<div class="toc-sec">Stolperfallen</div>')
 toc.append(f'<a href="#ref-wires" data-for="ref-wires"><span class="no">{n}</span><span class="tt">Stolperfallen</span><span class="tick" aria-hidden="true">✓</span></a>')
 wrows = "".join(
-    f'<tr data-lvl="{l}"><td><span class="lvl {l}">{l}</span></td><td class="bad">{md(b)}</td>'
-    f'<td class="good">{md(g)}</td><td class="w">{md(e)}</td></tr>' for l, b, g, e in WIRES)
+    f'<tr data-lvl="{l}"><td><span class="lvl {l}">{l}</span></td><td class="bad wide" data-label="✗ falsch">{md(b)}</td>'
+    f'<td class="good wide" data-label="✓ richtig">{md(g)}</td><td class="w wide" data-label="warum">{md(e)}</td></tr>' for l, b, g, e in WIRES)
 body.append('<h2 class="sec" id="sec-wires">Stolperfallen</h2>')
 body.append(
     f'<section class="blk" id="ref-wires" data-lvl="all"><header class="bh"><span class="no">{n}</span>'
