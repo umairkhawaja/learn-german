@@ -9,7 +9,7 @@
   Spickzettel — the app's single grammar reference (A1 → B1).
   GENERATED FILE — do not edit by hand. Content lives in scripts/cheatsheet/content.py;
   rebuild with:  python3 scripts/cheatsheet/build.py public/cheatsheet.html
-  Every topic is a <section class="blk"> of plain tables; search filters table ROWS,
+  Every topic is a <section class="blk"> of plain tables; search filters table ROWS (typo-tolerant),
   the sidebar indexes every topic, and the per-topic "sitzt" tick is kept in localStorage.
 -->
 <style>
@@ -67,7 +67,7 @@ button{font:inherit;color:inherit}
 /* ── layout ── */
 .layout{display:grid;grid-template-columns:232px minmax(0,1fr);gap:28px;max-width:1440px;margin:0 auto;padding:0 16px 80px}
 nav.toc{position:sticky;top:calc(var(--bar) + 6px);align-self:start;max-height:calc(100vh - var(--bar) - 12px);
-  overflow-y:auto;padding:14px 4px 24px 0;font-size:12.5px;scrollbar-width:thin}
+  overflow-y:auto;overscroll-behavior:contain;padding:14px 4px 24px 0;font-size:12.5px;scrollbar-width:thin}
 .toc-sec{font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
   color:var(--ink-3);font-weight:600;margin:14px 8px 4px}
 .toc-sec:first-child{margin-top:0}
@@ -144,10 +144,15 @@ footer ul{margin:6px 0 0;padding-left:18px}
 @media (max-width:900px){
   .layout{grid-template-columns:minmax(0,1fr)}
   #tocbtn{display:inline-block}
+  /* align-self back to stretch: a fixed grid child with align-self:start
+     sizes to its content and ignores bottom:0, so the drawer never scrolled */
   nav.toc{position:fixed;left:0;top:var(--bar);bottom:0;width:min(300px,86vw);max-height:none;z-index:25;
+    align-self:stretch;height:auto;-webkit-overflow-scrolling:touch;
     background:var(--surface);border-right:1px solid var(--rule);padding:12px 8px 40px;
     transform:translateX(-102%);transition:transform .18s ease}
   body.toc-open nav.toc{transform:none;box-shadow:0 10px 40px rgba(0,0,0,.35)}
+  /* the page underneath stays put while the drawer is open */
+  html:has(body.toc-open),body.toc-open{overflow:hidden}
   .done{margin-left:0}
 
   /* ── Tables fit the screen: no sideways scrolling ──
@@ -211,7 +216,7 @@ footer ul{margin:6px 0 0;padding-left:18px}
 <div class="bar" id="bar"><div class="bar-in">
   <button class="chip" id="tocbtn" type="button" aria-expanded="false">☰ Inhalt</button>
   <div class="brand">Spickzettel <span>DE</span></div>
-  <input id="q" type="search" placeholder="Suchen — dativ, ins kino, weil, wäre, halb …  ( / )" autocomplete="off" spellcheck="false" aria-label="Suchen">
+  <input id="q" type="search" placeholder="Suchen — dativ, ins kino, weil, wäre, praeposition, konjuktiv …  ( / )" autocomplete="off" spellcheck="false" aria-label="Suchen">
   <div class="chips" role="group" aria-label="Niveau">
     <button class="chip lv" data-lvl="all" aria-pressed="true">Alle</button>
     <button class="chip lv" data-lvl="A1" aria-pressed="false">A1</button>
@@ -256,19 +261,30 @@ footer ul{margin:6px 0 0;padding-left:18px}
     return (s || '').toLowerCase().replace(/ä/g,'a').replace(/ö/g,'o').replace(/ü/g,'u').replace(/ß/g,'ss').replace(/\s+/g,' ');
   }
 
+  // textContent glues neighbouring cells together ("15Konjunktiv IIB1");
+  // join the children with spaces so every word stays a word (but not text
+  // inside a cell: "Dat<span>iv</span>" is still one word)
+  function text(el){
+    return [].map.call(el.children, function(c){ return c.textContent; }).join(' ') || el.textContent;
+  }
+  function words(s){ return s.split(/[^a-z0-9]+/).filter(function(w){ return w.length > 1; }); }
+
   // Index once: every topic, its tables and their rows, text pre-folded.
   var links = {};
   [].forEach.call(document.querySelectorAll('nav.toc a'), function(a){ links[a.dataset.for] = a; });
   var blocks = [].map.call(document.querySelectorAll('.blk'), function(b){
     return {
       el: b, id: b.id, lvl: b.dataset.lvl,
-      head: fold(b.querySelector('.bh').textContent),
+      head: fold(text(b.querySelector('.bh'))),
+      headWords: words(fold(text(b.querySelector('.bh')))),
       btn: b.querySelector('.done'),
       tables: [].map.call(b.querySelectorAll('.t'), function(t){
         var cap = t.querySelector('.cap');
-        return { el: t, cap: fold(cap ? cap.textContent : ''),
+        var ct = fold(cap ? cap.textContent : '');
+        return { el: t, cap: ct, capWords: words(ct),
           rows: [].map.call(t.querySelectorAll('tbody tr'), function(r){
-            return { el: r, txt: fold(r.textContent), lvl: r.dataset.lvl || '' };
+            var txt = fold(text(r));
+            return { el: r, txt: txt, words: words(txt), lvl: r.dataset.lvl || '' };
           }) };
       })
     };
@@ -335,26 +351,102 @@ footer ul{margin:6px 0 0;padding-left:18px}
     return hit;
   }
 
-  // ── filter: level + "nur offen" + search (row-level, all words must match) ──
+  // ── search: forgiving, like a web search ──
+  // Word order doesn't matter, umlauts/ß are optional, typos are tolerated
+  // (1 letter off from 5 letters, 2 from 8), a word may be just the start of
+  // one ("prap" → Präposition), and filler words of an English question
+  // ("what is the dative") are dropped. Rows matching every word are shown;
+  // when none do, the rows matching the most words are shown instead.
+  var STOP = {what:1,whats:1,is:1,are:1,the:1,how:1,do:1,does:1,did:1,when:1,which:1,why:1,where:1,who:1,
+    of:1,for:1,to:1,and:1,or:1,with:1,my:1,me:1,you:1,it:1,its:1,this:1,that:1,can:1,should:1,
+    german:1,deutsch:1,meaning:1,mean:1,means:1,say:1,use:1,used:1,using:1,word:1,words:1,
+    please:1,show:1,explain:1,example:1,examples:1};
+  function edits(a, b, max){
+    // edit distance (Damerau–Levenshtein, adjacent swaps), giving up once it must exceed max
+    if (Math.abs(a.length - b.length) > max) return max + 1;
+    var prev2 = [], prev = [], cur, i, j;
+    for (j = 0; j <= b.length; j++) prev[j] = j;
+    for (i = 1; i <= a.length; i++) {
+      cur = [i]; var lo = i;
+      for (j = 1; j <= b.length; j++) {
+        cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+        // swapped neighbours ("datvi") count as one typo
+        if (i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) cur[j] = Math.min(cur[j], prev2[j - 2] + 1);
+        if (cur[j] < lo) lo = cur[j];
+      }
+      if (lo > max) return max + 1;
+      prev2 = prev; prev = cur;
+    }
+    return prev[b.length];
+  }
+  function allow(t){ return t.length >= 8 ? 2 : t.length >= 5 ? 1 : 0; }
+  // Does token t occur in this text? Returns the words that matched
+  // (for highlighting), [] for a plain substring hit, or null for no match.
+  var fuzzyCache = {};
+  function fuzzy(t, w){
+    var key = t + '|' + w;
+    if (key in fuzzyCache) return fuzzyCache[key];
+    var k = allow(t), ok = false;
+    if (k) {
+      ok = edits(t, w, k) <= k;
+      // a typo in the start of a longer word: "praposi" ~ "präpositionen"
+      if (!ok && t.length >= 5 && w.length > t.length) ok = edits(t, w.slice(0, t.length), 1) <= 1;
+    }
+    return (fuzzyCache[key] = ok);
+  }
+  function find(t, hay, lists){
+    if (hay.indexOf(t) !== -1) return [];
+    // "praeposition", "moechte": ae/oe/ue typed for ä/ö/ü
+    var u = t.replace(/([aou])e/g, '$1');
+    if (u !== t) { var m = find(u, hay, lists); if (m) return m.length ? m : [u]; }
+    if (!allow(t)) return null;
+    var got = [];
+    lists.forEach(function(ws){ ws.forEach(function(w){ if (fuzzy(t, w)) got.push(w); }); });
+    return got.length ? got : null;
+  }
+  function parse(v){
+    var toks = fold(v).replace(/[^a-z0-9 ]+/g, ' ').trim().split(' ').filter(Boolean);
+    var kept = toks.filter(function(t){ return !STOP[t]; });
+    return kept.length ? kept : toks;
+  }
+
+  // ── filter: level + "nur offen" + search (row-level) ──
   function apply(){
     clearMarks();
-    var toks = fold(q.value).trim().split(' ').filter(Boolean);
-    var rx = toks.length ? new RegExp(toks.map(tokRx).join('|'), 'gi') : null;
-    var rowHits = 0, shownBlocks = 0;
+    var toks = parse(q.value);
+    var cands = [], best = 0;
     blocks.forEach(function(b){
       var ok = (level === 'all' || b.lvl === level || b.lvl === 'all') && !(openOnly && done[b.id]);
+      b.tables.forEach(function(t){
+        t.rows.forEach(function(r){
+          r.show = ok && (!r.lvl || level === 'all' || r.lvl === level);
+          r.hl = null;
+          if (!r.show || !toks.length) return;
+          var hay = b.head + ' ' + t.cap + ' ' + r.txt, lists = [b.headWords, t.capWords, r.words];
+          var n = 0, hl = [];
+          toks.forEach(function(k){
+            var m = find(k, hay, lists);
+            if (m) { n++; hl.push(tokRx(k)); m.forEach(function(w){ hl.push(tokRx(w)); }); }
+          });
+          r.show = false;
+          if (n) { r.n = n; r.hl = hl; cands.push(r); if (n > best) best = n; }
+        });
+      });
+    });
+    // every word matched → those rows; otherwise the closest rows
+    var partial = toks.length > 0 && best > 0 && best < toks.length;
+    var rowHits = 0;
+    cands.forEach(function(r){
+      if (r.n !== best) return;
+      r.show = true; rowHits++;
+      mark(r.el, new RegExp(r.hl.join('|'), 'gi'));
+    });
+    var shownBlocks = 0;
+    blocks.forEach(function(b){
       var any = false;
       b.tables.forEach(function(t){
         var tv = 0;
-        t.rows.forEach(function(r){
-          var show = ok && (!r.lvl || level === 'all' || r.lvl === level);
-          if (show && toks.length) {
-            var hay = b.head + ' ' + t.cap + ' ' + r.txt;
-            show = toks.every(function(k){ return hay.indexOf(k) !== -1; });
-            if (show && mark(r.el, rx)) rowHits++;
-          }
-          r.el.hidden = !show; if (show) tv++;
-        });
+        t.rows.forEach(function(r){ r.el.hidden = !r.show; if (r.show) tv++; });
         t.el.hidden = tv === 0; if (tv) any = true;
       });
       b.el.hidden = !any; if (any) shownBlocks++;
@@ -366,7 +458,7 @@ footer ul{margin:6px 0 0;padding-left:18px}
       while (n && n.tagName === 'A') { if (!n.hidden) vis = true; n = n.nextElementSibling; }
       h.hidden = !vis;
     });
-    hits.textContent = toks.length ? (rowHits + ' Treffer · ' + shownBlocks + ' Themen') : '';
+    hits.textContent = toks.length ? ((partial ? 'ähnlich: ' : '') + rowHits + ' Treffer · ' + shownBlocks + ' Themen') : '';
     empty.hidden = shownBlocks !== 0;
     fit();
   }
