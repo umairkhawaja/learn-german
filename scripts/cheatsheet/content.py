@@ -22,15 +22,23 @@ SECTIONS = []
 
 # ─────────────────────────── Grundgesetze
 SECTIONS.append(("sec-gesetze", "Grundgesetze", [
-  B("ref-gesetze", "Die sechs Grundgesetze", "A1", "Regeln, an denen alles hängt",
-    T("", ["#", "Gesetz", "Kurz", "Beispiel"], [
-      ["1", "Verb auf Platz 2", "2nd element, not 2nd word; whatever you front pushes the subject behind the verb", "Heute **gehe** ich ins Kino."],
-      ["2", "Satzklammer", "Infinitive, Partizip II, separable prefix wait at the very end", "Ich **muss** morgen früh **aufstehen**."],
-      ["3", "Nomen = Artikel + Plural", "learn `der Tisch, die Tische` as one chunk", "der Tisch · die Tische"],
-      ["4", "Kasus hat einen Auslöser", "verb, preposition or role triggers it — never a free choice", "mit → Dat · für → Akk · helfen → Dat"],
-      ["5", "Maskulin ist der Unruhestifter", "only masculine changes in every case", "der → den → dem → des"],
-      ["6", "Nebensatz = Verb ans Ende", "weil, dass, wenn, ob, obwohl … send the verb to the end", "…, weil ich müde **bin**."],
-    ], full=True)),
+  B("ref-gesetze", "Die zehn Grundgesetze", "A1", "Regeln, an denen alles hängt",
+    T("Nomen & Kasus", ["#", "Gesetz", "Was das heißt", "Beispiel"], [
+      ["1", "Jedes Nomen hat ein Genus", "every noun is {m:der}, {f:die} or {n:das} — grammar, not meaning. Learn article + plural with the noun, as one chunk. Compounds take the gender of the **last** part. Nouns are always capitalised. [→ Genus](#ref-genus)", "{m:der Tisch}, die Tische\n{n:das Mädchen} _(neuter!)_\n{f:die Tür} + {m:der Schlüssel} → {m:der Türschlüssel}"],
+      ["2", "Der Kasus zeigt die Rolle", "the subject is {nom:Nominativ}, the thing acted on is {akk:Akkusativ}, the receiver is {dat:Dativ}. After a preposition or certain verbs, **they** decide the case. [→ Kasus](#ref-kasus)", "{nom:Ich} gebe {dat:dem Kind} {akk:den Ball}.\nmit → Dat · für → Akk · helfen → Dat"],
+      ["3", "Der Artikel trägt den Kasus", "the noun barely changes — the article (and adjective ending) shows the case. In the Akkusativ **only masculine** changes; f, n and plural stay as in the Nominativ. In the Dativ **all** of them change.", "{akk:den Mann} · {akk:die Frau} · {akk:das Kind}\nDat: {dat:dem · der · dem · den …n}"],
+    ], full=True),
+    T("Verb & Satzbau", ["#", "Gesetz", "Was das heißt", "Beispiel"], [
+      ["4", "Das Verb passt zum Subjekt", "the conjugated verb takes the ending of its subject: ich -e · du -st · er/sie/es -t · wir -en · ihr -t · sie/Sie -en. [→ Präsens](#ref-praesens)", "ich wohn**e** · du wohn**st** · sie wohn**t**"],
+      ["5", "Aussage & W-Frage: Verb auf Position 2", "Position 1 holds **one element** (one or many words). Usually the subject — if anything else goes first, the subject moves right **after** the verb.", "Ich **gehe** heute ins Kino.\nHeute **gehe** ich ins Kino.\nWann **gehst** du ins Kino?"],
+      ["6", "Ja/Nein-Frage & Imperativ: Verb auf Position 1", "no question word, or a command → the verb comes first.", "**Gehst** du heute ins Kino?\n**Geh** ins Kino!"],
+      ["7", "Satzklammer", "if the verb has two parts, the conjugated part is at position 2 and the rest goes to the **very end**: infinitive after a modal, Partizip II, separable prefix. [→ Satzbau](#ref-algorithmus)", "Ich **muss** morgen **arbeiten**.\nIch **habe** gestern **gearbeitet**.\nIch **stehe** früh **auf**."],
+      ["8", "Nebensatz: konjugiertes Verb ans Ende", "after weil, dass, wenn, ob, obwohl, als … (and in relative clauses) the conjugated verb goes **last** — after any infinitive or Partizip. Separable verbs join up again. [→ Nebensatz](#ref-nebensatz)", "…, weil ich müde **bin**.\n…, weil ich arbeiten **muss**.\n…, weil ich früh **aufstehe**."],
+      ["9", "Nebensatz zuerst → Verb, Komma, Verb", "a Nebensatz at the start **is** position 1, so the main clause starts with its verb.", "Weil ich müde **bin**, **gehe** ich ins Bett."],
+      ["10", "und · aber · oder · denn · sondern = Position 0", "these five just link two main clauses and change nothing — the next clause keeps normal order. (deshalb, trotzdem, dann … **do** take position 1.) [→ Konjunktionen](#ref-konjunktionen)", "…, **denn** ich **bin** müde.\n…, **deshalb bleibe** ich zu Hause."],
+    ], full=True),
+    N(("Merke", "Position 2 means second **element**, not second word: `**Am nächsten Montag** **fahre** ich …` — three words, still position 1."),
+      ("!Satz in 3 Fragen", "1 · Which sentence type? → verb 2nd (statement, W-question), 1st (yes/no, command) or last (Nebensatz). 2 · Two verb parts? → the second part goes to the end. 3 · Who does what to whom? → Nom · Akk · Dat."))),
 ]))
 
 # ─────────────────────────── Nomen & Artikel
