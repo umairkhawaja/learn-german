@@ -2323,5 +2323,712 @@
   "ex": "Danke und schönen Tag noch! — Thanks and have a nice day!",
   "c": "Höflichkeit",
   "lvl": "A2"
+ },
+ {
+  "w": "Haben Sie heute noch einen Termin frei?",
+  "e": "Do you have an appointment free today?",
+  "ex": "Haben Sie heute noch einen Termin frei, oder erst morgen? — Do you have an appointment free today, or only tomorrow?",
+  "c": "Friseur",
+  "lvl": "A2"
+ },
+ {
+  "w": "Muss man einen Termin machen, oder kann ich einfach vorbeikommen?",
+  "e": "Do I need an appointment, or can I just drop in?",
+  "ex": "Muss man einen Termin machen, oder kann ich einfach vorbeikommen? Ich hätte nur gern schnell die Haare geschnitten. — Do I need an appointment, or can I just drop in? I'd just like a quick haircut.",
+  "c": "Friseur",
+  "lvl": "B1"
+ },
+ {
+  "w": "Wie lange muss ich ungefähr warten?",
+  "e": "Roughly how long will I have to wait?",
+  "ex": "Wie lange muss ich ungefähr warten? – Zwei Kunden sind noch vor Ihnen. — Roughly how long will I have to wait? – There are two customers ahead of you.",
+  "c": "Friseur",
+  "lvl": "A2"
+ },
+ {
+  "w": "Einmal Haare schneiden, bitte.",
+  "e": "A haircut, please.",
+  "ex": "Einmal Haare schneiden, bitte – ohne Waschen. — A haircut, please – without a wash.",
+  "c": "Friseur",
+  "lvl": "A2"
+ },
+ {
+  "w": "Waschen, Schneiden, Föhnen",
+  "e": "wash, cut and blow-dry",
+  "ex": "Einmal Waschen, Schneiden, Föhnen, bitte. — A wash, cut and blow-dry, please.",
+  "c": "Friseur",
+  "lvl": "A2"
+ },
+ {
+  "w": "Nur die Spitzen schneiden, bitte.",
+  "e": "Just trim the ends, please.",
+  "ex": "Nur die Spitzen schneiden, bitte – die Länge soll bleiben. — Just trim the ends, please – I want to keep the length.",
+  "c": "Friseur",
+  "lvl": "A2"
+ },
+ {
+  "w": "Hinten und an den Seiten kurz, oben etwas länger.",
+  "e": "Short at the back and sides, a bit longer on top.",
+  "ex": "Hinten und an den Seiten kurz, oben etwas länger, so wie beim letzten Mal. — Short at the back and sides, a bit longer on top, like last time.",
+  "c": "Friseur",
+  "lvl": "B1"
+ },
+ {
+  "w": "mit der Maschine, auf Stufe …",
+  "e": "with the clippers, a number …",
+  "ex": "An den Seiten bitte mit der Maschine, auf Stufe drei. — Clippers on the sides please, a number three.",
+  "c": "Friseur",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich hätte gern einen Fade.",
+  "e": "I'd like a fade.",
+  "ex": "Ich hätte gern einen Fade, an den Seiten ganz kurz auslaufend. — I'd like a fade, tapering right down on the sides.",
+  "c": "Friseur",
+  "lvl": "B1"
+ },
+ {
+  "w": "Nicht zu kurz, bitte.",
+  "e": "Not too short, please.",
+  "ex": "Oben nicht zu kurz, bitte – ich will die Haare noch stylen können. — Not too short on top, please – I still want to be able to style it.",
+  "c": "Friseur",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ein bisschen kürzer, bitte.",
+  "e": "A bit shorter, please.",
+  "ex": "Ein bisschen kürzer an den Seiten, bitte. — A bit shorter on the sides, please.",
+  "c": "Friseur",
+  "lvl": "A2"
+ },
+ {
+  "w": "Können Sie mir den Bart trimmen?",
+  "e": "Can you trim my beard?",
+  "ex": "Können Sie mir auch den Bart trimmen und die Konturen nachziehen? — Can you also trim my beard and sharpen the lines?",
+  "c": "Friseur",
+  "lvl": "A2"
+ },
+ {
+  "w": "den Nacken ausrasieren",
+  "e": "to shave the neckline",
+  "ex": "Könnten Sie mir bitte noch den Nacken ausrasieren? — Could you shave my neckline as well, please?",
+  "c": "Friseur",
+  "lvl": "B1"
+ },
+ {
+  "w": "Wie immer, bitte.",
+  "e": "The usual, please.",
+  "ex": "„Was machen wir heute?“ – „Wie immer, bitte.“ — “What are we doing today?” – “The usual, please.”",
+  "c": "Friseur",
+  "lvl": "A2"
+ },
+ {
+  "w": "So passt das, danke.",
+  "e": "That's fine like that, thanks.",
+  "ex": "Ja, so passt das, danke – sieht gut aus! — Yes, that's fine like that, thanks – looks good!",
+  "c": "Friseur",
+  "lvl": "A2"
+ },
+ {
+  "w": "Was bin ich Ihnen schuldig?",
+  "e": "What do I owe you?",
+  "ex": "Vielen Dank! Was bin ich Ihnen schuldig? — Thank you very much! What do I owe you?",
+  "c": "Friseur",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich hätte gern … Gramm …",
+  "e": "I'd like … grams of …",
+  "ex": "Ich hätte gern 500 Gramm Rinderhack. — I'd like 500 grams of beef mince.",
+  "c": "Metzgerei",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ist das Rind oder Schwein?",
+  "e": "Is that beef or pork?",
+  "ex": "Entschuldigung, ist das Hackfleisch Rind oder Schwein? — Excuse me, is the mince beef or pork?",
+  "c": "Metzgerei",
+  "lvl": "A2"
+ },
+ {
+  "w": "Haben Sie auch Halal-Fleisch?",
+  "e": "Do you have halal meat as well?",
+  "ex": "Haben Sie auch Halal-Fleisch, oder wissen Sie, wo ich welches bekomme? — Do you have halal meat as well, or do you know where I can get some?",
+  "c": "Metzgerei",
+  "lvl": "A2"
+ },
+ {
+  "w": "reines Rinderhack",
+  "e": "pure beef mince (no pork)",
+  "ex": "Ich hätte gern 400 Gramm reines Rinderhack, kein gemischtes. — I'd like 400 grams of pure beef mince, not mixed.",
+  "c": "Metzgerei",
+  "lvl": "A2"
+ },
+ {
+  "w": "Darf es ein bisschen mehr sein?",
+  "e": "Is it OK if it's a bit over?",
+  "ex": "„Es sind 320 Gramm geworden – darf es ein bisschen mehr sein?“ – „Ja, passt.“ — “It came to 320 grams – is a bit over OK?” – “Yes, that's fine.”",
+  "c": "Metzgerei",
+  "lvl": "B1"
+ },
+ {
+  "w": "Darf es sonst noch etwas sein?",
+  "e": "Will there be anything else?",
+  "ex": "„Darf es sonst noch etwas sein?“ – „Nein danke, das war's.“ — “Will there be anything else?” – “No thanks, that's all.”",
+  "c": "Metzgerei",
+  "lvl": "A2"
+ },
+ {
+  "w": "Das war's, danke.",
+  "e": "That's all, thanks.",
+  "ex": "Das war's, danke. Kann ich mit Karte zahlen? — That's all, thanks. Can I pay by card?",
+  "c": "Metzgerei",
+  "lvl": "A2"
+ },
+ {
+  "w": "in Scheiben schneiden",
+  "e": "to slice",
+  "ex": "Können Sie mir den Putenaufschnitt bitte in dünne Scheiben schneiden? — Could you slice the turkey cold cuts thinly for me, please?",
+  "c": "Metzgerei",
+  "lvl": "A2"
+ },
+ {
+  "w": "in Würfel schneiden",
+  "e": "to dice",
+  "ex": "Können Sie mir das Rindfleisch für Gulasch in Würfel schneiden? — Can you dice the beef for goulash for me?",
+  "c": "Metzgerei",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ohne Knochen, bitte.",
+  "e": "Boneless, please.",
+  "ex": "Zwei Hähnchenbrustfilets, ohne Haut und ohne Knochen, bitte. — Two chicken breast fillets, skinless and boneless, please.",
+  "c": "Metzgerei",
+  "lvl": "A2"
+ },
+ {
+  "w": "Wie viel brauche ich für vier Personen?",
+  "e": "How much do I need for four people?",
+  "ex": "Wie viel brauche ich für vier Personen, wenn ich Rouladen mache? — How much do I need for four people if I make beef rolls?",
+  "c": "Metzgerei",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ist das frisch oder tiefgekühlt?",
+  "e": "Is that fresh or frozen?",
+  "ex": "Ist das Lammfleisch frisch oder tiefgekühlt? — Is the lamb fresh or frozen?",
+  "c": "Metzgerei",
+  "lvl": "A2"
+ },
+ {
+  "w": "Wie lange hält sich das im Kühlschrank?",
+  "e": "How long does that keep in the fridge?",
+  "ex": "Wie lange hält sich das Hackfleisch im Kühlschrank? — How long does the mince keep in the fridge?",
+  "c": "Metzgerei",
+  "lvl": "B1"
+ },
+ {
+  "w": "Wie bereitet man das am besten zu?",
+  "e": "What's the best way to cook that?",
+  "ex": "Das Stück kenne ich nicht – wie bereitet man das am besten zu? — I don't know that cut – what's the best way to cook it?",
+  "c": "Metzgerei",
+  "lvl": "B1"
+ },
+ {
+  "w": "etwas vorbestellen",
+  "e": "to order something in advance",
+  "ex": "Kann ich für Samstag zwei Kilo Lammkeule vorbestellen? — Can I order two kilos of leg of lamb in advance for Saturday?",
+  "c": "Metzgerei",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ist die Wohnung noch frei?",
+  "e": "Is the flat still available?",
+  "ex": "Guten Tag, ich rufe wegen der Anzeige an – ist die Wohnung noch frei? — Hello, I'm calling about the ad – is the flat still available?",
+  "c": "Wohnung",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich interessiere mich für die Wohnung.",
+  "e": "I'm interested in the flat.",
+  "ex": "Ich interessiere mich für die Wohnung in der Schillerstraße. — I'm interested in the flat on Schillerstraße.",
+  "c": "Wohnung",
+  "lvl": "A2"
+ },
+ {
+  "w": "Wann kann ich die Wohnung besichtigen?",
+  "e": "When can I view the flat?",
+  "ex": "Wann kann ich die Wohnung besichtigen? Ich hätte am Donnerstagabend Zeit. — When can I view the flat? I'd be free on Thursday evening.",
+  "c": "Wohnung",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ab wann ist die Wohnung frei?",
+  "e": "From when is the flat available?",
+  "ex": "Ab wann ist die Wohnung frei – ab dem ersten Oktober? — From when is the flat available – from the first of October?",
+  "c": "Wohnung",
+  "lvl": "A2"
+ },
+ {
+  "w": "Wie hoch ist die Warmmiete?",
+  "e": "How much is the rent including utilities?",
+  "ex": "Wie hoch ist die Warmmiete, und was ist in den Nebenkosten alles drin? — How much is the rent including utilities, and what do the service charges cover?",
+  "c": "Wohnung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Sind die Nebenkosten in der Miete enthalten?",
+  "e": "Are the service charges included in the rent?",
+  "ex": "Sind die Nebenkosten in der Miete enthalten, oder kommen die noch dazu? — Are the service charges included in the rent, or do they come on top?",
+  "c": "Wohnung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Wie hoch ist die Kaution?",
+  "e": "How much is the deposit?",
+  "ex": "Wie hoch ist die Kaution – drei Kaltmieten? — How much is the deposit – three months' base rent?",
+  "c": "Wohnung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Wie wird geheizt?",
+  "e": "How is the flat heated?",
+  "ex": "Wie wird geheizt – mit Gas oder mit Fernwärme? — How is it heated – with gas or district heating?",
+  "c": "Wohnung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Gibt es eine Einbauküche?",
+  "e": "Is there a fitted kitchen?",
+  "ex": "Gibt es eine Einbauküche, oder muss ich eine eigene mitbringen? — Is there a fitted kitchen, or do I have to bring my own?",
+  "c": "Wohnung",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Küche vom Vormieter übernehmen",
+  "e": "to take over the previous tenant's kitchen",
+  "ex": "Muss ich die Küche vom Vormieter übernehmen, und wie hoch ist die Ablöse? — Do I have to take over the previous tenant's kitchen, and how much is the transfer fee?",
+  "c": "Wohnung",
+  "lvl": "B2"
+ },
+ {
+  "w": "Ist die Wohnung möbliert?",
+  "e": "Is the flat furnished?",
+  "ex": "Ist die Wohnung möbliert oder unmöbliert? — Is the flat furnished or unfurnished?",
+  "c": "Wohnung",
+  "lvl": "A2"
+ },
+ {
+  "w": "Gibt es einen Keller oder einen Abstellraum?",
+  "e": "Is there a cellar or a storage room?",
+  "ex": "Gibt es einen Keller oder einen Abstellraum für mein Fahrrad? — Is there a cellar or a storage room for my bike?",
+  "c": "Wohnung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Wie ist die Anbindung an die öffentlichen Verkehrsmittel?",
+  "e": "What are the public transport connections like?",
+  "ex": "Wie ist die Anbindung an die öffentlichen Verkehrsmittel – ist die U-Bahn weit? — What are the public transport connections like – is the U-Bahn far?",
+  "c": "Wohnung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ist der Mietvertrag befristet?",
+  "e": "Is the lease fixed-term?",
+  "ex": "Ist der Mietvertrag befristet, oder ist er unbefristet? — Is the lease fixed-term, or is it open-ended?",
+  "c": "Wohnung",
+  "lvl": "B2"
+ },
+ {
+  "w": "eine Schufa-Auskunft vorlegen",
+  "e": "to provide a Schufa credit report",
+  "ex": "Ich kann eine aktuelle Schufa-Auskunft und meine letzten drei Gehaltsnachweise vorlegen. — I can provide a current Schufa report and my last three payslips.",
+  "c": "Wohnung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich hätte großes Interesse an der Wohnung.",
+  "e": "I'd be very interested in the flat.",
+  "ex": "Ich hätte großes Interesse an der Wohnung und könnte sofort einziehen. — I'd be very interested in the flat and could move in straight away.",
+  "c": "Wohnung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Wann würden Sie sich entscheiden?",
+  "e": "When would you make a decision?",
+  "ex": "Vielen Dank für die Besichtigung! Wann würden Sie sich ungefähr entscheiden? — Thanks for the viewing! Roughly when would you make a decision?",
+  "c": "Wohnung",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Wohnungsgeberbestätigung ausstellen",
+  "e": "to issue the landlord's confirmation (needed to register)",
+  "ex": "Können Sie mir bitte die Wohnungsgeberbestätigung ausstellen? Ich muss mich beim Bürgeramt anmelden. — Could you please issue me the landlord's confirmation? I need to register at the citizens' office.",
+  "c": "Wohnung",
+  "lvl": "B2"
+ },
+ {
+  "w": "Die Heizung funktioniert nicht.",
+  "e": "The heating isn't working.",
+  "ex": "Die Heizung funktioniert seit gestern nicht – können Sie jemanden schicken? — The heating hasn't been working since yesterday – can you send someone?",
+  "c": "Wohnung",
+  "lvl": "A2"
+ },
+ {
+  "w": "einen Schaden melden",
+  "e": "to report damage",
+  "ex": "Ich möchte einen Wasserschaden im Bad melden. — I'd like to report water damage in the bathroom.",
+  "c": "Wohnung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Wann kann ein Handwerker vorbeikommen?",
+  "e": "When can a tradesperson come round?",
+  "ex": "Wann kann ein Handwerker vorbeikommen? Ich bin tagsüber arbeiten. — When can a tradesperson come round? I'm at work during the day.",
+  "c": "Wohnung",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Wohnung kündigen",
+  "e": "to give notice on the flat",
+  "ex": "Ich möchte die Wohnung fristgerecht zum 31. März kündigen. — I'd like to give notice on the flat, effective 31 March.",
+  "c": "Wohnung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Könnten Sie ein Paket für mich annehmen?",
+  "e": "Could you take in a parcel for me?",
+  "ex": "Hallo, ich bin morgen nicht da – könnten Sie ein Paket für mich annehmen? — Hi, I'm not in tomorrow – could you take in a parcel for me?",
+  "c": "Wohnung",
+  "lvl": "B1"
+ },
+ {
+  "w": "Mahlzeit!",
+  "e": "(lunchtime greeting at work)",
+  "ex": "„Mahlzeit!“ – „Mahlzeit! Gehst du auch in die Kantine?“ — “Enjoy your lunch!” – “You too! Are you going to the canteen as well?”",
+  "c": "Arbeit",
+  "lvl": "A2"
+ },
+ {
+  "w": "Gehen wir zusammen Mittag essen?",
+  "e": "Shall we go for lunch together?",
+  "ex": "Gehen wir zusammen Mittag essen? So gegen zwölf? — Shall we go for lunch together? Around twelve?",
+  "c": "Arbeit",
+  "lvl": "A2"
+ },
+ {
+  "w": "Hast du kurz Zeit?",
+  "e": "Have you got a minute?",
+  "ex": "Hast du kurz Zeit? Ich habe eine Frage zum Projekt. — Have you got a minute? I have a question about the project.",
+  "c": "Arbeit",
+  "lvl": "A2"
+ },
+ {
+  "w": "Sollen wir uns duzen?",
+  "e": "Shall we say “du” to each other?",
+  "ex": "Wir arbeiten ja jetzt eng zusammen – sollen wir uns duzen? — We're working closely together now – shall we say “du”?",
+  "c": "Arbeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Wer ist dafür zuständig?",
+  "e": "Who's responsible for that?",
+  "ex": "Wer ist dafür zuständig, die Rechnungen freizugeben? — Who's responsible for approving the invoices?",
+  "c": "Arbeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Bis wann brauchst du das?",
+  "e": "By when do you need that?",
+  "ex": "Bis wann brauchst du das – reicht Freitag? — By when do you need that – is Friday OK?",
+  "c": "Arbeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Das schaffe ich bis …",
+  "e": "I can get that done by …",
+  "ex": "Das schaffe ich bis Donnerstag, versprochen. — I can get that done by Thursday, promise.",
+  "c": "Arbeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Könntest du kurz drüberschauen?",
+  "e": "Could you have a quick look over it?",
+  "ex": "Ich habe die Präsentation fertig – könntest du kurz drüberschauen? — I've finished the presentation – could you have a quick look over it?",
+  "c": "Arbeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Kannst du mich in CC setzen?",
+  "e": "Can you cc me?",
+  "ex": "Kannst du mich bei der Mail an den Kunden in CC setzen? — Can you cc me on the email to the client?",
+  "c": "Arbeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich muss gleich in ein Meeting.",
+  "e": "I've got to go to a meeting in a minute.",
+  "ex": "Sorry, ich muss gleich in ein Meeting – können wir später reden? — Sorry, I've got to go to a meeting in a minute – can we talk later?",
+  "c": "Arbeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Können wir uns kurz abstimmen?",
+  "e": "Can we quickly align?",
+  "ex": "Bevor ich dem Kunden antworte: Können wir uns kurz abstimmen? — Before I reply to the client: can we quickly align?",
+  "c": "Arbeit",
+  "lvl": "B2"
+ },
+ {
+  "w": "Ich bin da nicht ganz auf dem Laufenden.",
+  "e": "I'm not quite up to date on that.",
+  "ex": "Ich war im Urlaub und bin da nicht ganz auf dem Laufenden. — I was on holiday and I'm not quite up to date on that.",
+  "c": "Arbeit",
+  "lvl": "B2"
+ },
+ {
+  "w": "Ich bin nächste Woche im Urlaub.",
+  "e": "I'm on holiday next week.",
+  "ex": "Ich bin nächste Woche im Urlaub – Frau Maier vertritt mich. — I'm on holiday next week – Ms Maier is covering for me.",
+  "c": "Arbeit",
+  "lvl": "A2"
+ },
+ {
+  "w": "sich einen Tag freinehmen",
+  "e": "to take a day off",
+  "ex": "Ich nehme mir am Freitag einen Tag frei. — I'm taking Friday off.",
+  "c": "Arbeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich habe gerade viel um die Ohren.",
+  "e": "I've got a lot on my plate right now.",
+  "ex": "Ich habe gerade viel um die Ohren – können wir das nächste Woche machen? — I've got a lot on my plate right now – can we do it next week?",
+  "c": "Arbeit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich mache jetzt Feierabend.",
+  "e": "I'm calling it a day now.",
+  "ex": "Ich mache jetzt Feierabend – bis morgen! — I'm calling it a day now – see you tomorrow!",
+  "c": "Arbeit",
+  "lvl": "A2"
+ },
+ {
+  "w": "Wo finde ich …?",
+  "e": "Where can I find …?",
+  "ex": "Entschuldigung, wo finde ich die Hafermilch? — Excuse me, where can I find the oat milk?",
+  "c": "Einkaufen",
+  "lvl": "A2"
+ },
+ {
+  "w": "Brauchen Sie eine Tüte?",
+  "e": "Do you need a bag?",
+  "ex": "„Brauchen Sie eine Tüte?“ – „Nein danke, ich habe eine dabei.“ — “Do you need a bag?” – “No thanks, I've got one with me.”",
+  "c": "Einkaufen",
+  "lvl": "A2"
+ },
+ {
+  "w": "Möchten Sie den Kassenbon?",
+  "e": "Would you like the receipt?",
+  "ex": "„Möchten Sie den Kassenbon?“ – „Nein, danke.“ — “Would you like the receipt?” – “No, thanks.”",
+  "c": "Einkaufen",
+  "lvl": "A2"
+ },
+ {
+  "w": "Sammeln Sie Punkte?",
+  "e": "Do you collect (loyalty) points?",
+  "ex": "„Sammeln Sie Punkte?“ – „Ja, hier ist meine Karte.“ — “Do you collect points?” – “Yes, here's my card.”",
+  "c": "Einkaufen",
+  "lvl": "A2"
+ },
+ {
+  "w": "Wo ist der Pfandautomat?",
+  "e": "Where's the bottle-return machine?",
+  "ex": "Entschuldigung, wo ist der Pfandautomat? Ich habe noch leere Flaschen. — Excuse me, where's the bottle-return machine? I've got some empty bottles.",
+  "c": "Einkaufen",
+  "lvl": "A2"
+ },
+ {
+  "w": "Können Sie mir das Brot schneiden?",
+  "e": "Can you slice the bread for me?",
+  "ex": "Ein Roggenbrot, bitte – können Sie mir das Brot schneiden? — A rye loaf, please – can you slice it for me?",
+  "c": "Einkaufen",
+  "lvl": "A2"
+ },
+ {
+  "w": "Kann ich das anprobieren?",
+  "e": "Can I try this on?",
+  "ex": "Kann ich das anprobieren? Wo sind die Umkleidekabinen? — Can I try this on? Where are the changing rooms?",
+  "c": "Einkaufen",
+  "lvl": "A2"
+ },
+ {
+  "w": "Haben Sie das eine Nummer größer?",
+  "e": "Do you have this a size bigger?",
+  "ex": "Die Hose ist zu eng – haben Sie die eine Nummer größer? — The trousers are too tight – do you have them a size bigger?",
+  "c": "Einkaufen",
+  "lvl": "A2"
+ },
+ {
+  "w": "Kann ich das umtauschen?",
+  "e": "Can I exchange this?",
+  "ex": "Kann ich das umtauschen, falls es nicht passt? — Can I exchange this if it doesn't fit?",
+  "c": "Einkaufen",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich möchte das zurückgeben.",
+  "e": "I'd like to return this.",
+  "ex": "Ich möchte das zurückgeben – hier ist der Kassenbon. — I'd like to return this – here's the receipt.",
+  "c": "Einkaufen",
+  "lvl": "A2"
+ },
+ {
+  "w": "Das ist im Angebot.",
+  "e": "That's on offer.",
+  "ex": "Das Olivenöl ist diese Woche im Angebot. — The olive oil is on offer this week.",
+  "c": "Einkaufen",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich möchte ein Paket abholen.",
+  "e": "I'd like to pick up a parcel.",
+  "ex": "Ich möchte ein Paket abholen – hier ist die Benachrichtigungskarte. — I'd like to pick up a parcel – here's the notification card.",
+  "c": "Post & Bank",
+  "lvl": "A2"
+ },
+ {
+  "w": "ein Paket verschicken",
+  "e": "to send a parcel",
+  "ex": "Ich möchte dieses Paket nach Pakistan verschicken. Wie lange dauert das? — I'd like to send this parcel to Pakistan. How long does it take?",
+  "c": "Post & Bank",
+  "lvl": "A2"
+ },
+ {
+  "w": "Mein Paket ist nicht angekommen.",
+  "e": "My parcel hasn't arrived.",
+  "ex": "Mein Paket ist nicht angekommen, obwohl es als zugestellt angezeigt wird. — My parcel hasn't arrived, although it shows as delivered.",
+  "c": "Post & Bank",
+  "lvl": "A2"
+ },
+ {
+  "w": "beim Nachbarn abgegeben",
+  "e": "left with a neighbour",
+  "ex": "Das Paket wurde beim Nachbarn im dritten Stock abgegeben. — The parcel was left with the neighbour on the third floor.",
+  "c": "Post & Bank",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich möchte ein Konto eröffnen.",
+  "e": "I'd like to open an account.",
+  "ex": "Ich möchte ein Girokonto eröffnen. Was brauche ich dafür? — I'd like to open a current account. What do I need for that?",
+  "c": "Post & Bank",
+  "lvl": "A2"
+ },
+ {
+  "w": "Geld überweisen",
+  "e": "to transfer money",
+  "ex": "Ich habe dir das Geld gestern überwiesen. — I transferred the money to you yesterday.",
+  "c": "Post & Bank",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Karte sperren lassen",
+  "e": "to have a card blocked",
+  "ex": "Mein Portemonnaie ist weg – ich muss sofort meine Karte sperren lassen. — My wallet's gone – I need to have my card blocked right away.",
+  "c": "Post & Bank",
+  "lvl": "B1"
+ },
+ {
+  "w": "Wann haben Sie den nächsten freien Termin?",
+  "e": "When is your next available appointment?",
+  "ex": "Wann haben Sie den nächsten freien Termin? Es ist ziemlich dringend. — When is your next available appointment? It's fairly urgent.",
+  "c": "Gesundheit",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich bin gesetzlich versichert.",
+  "e": "I have statutory health insurance.",
+  "ex": "„Wie sind Sie versichert?“ – „Ich bin gesetzlich versichert, bei der TK.“ — “How are you insured?” – “I have statutory insurance, with TK.”",
+  "c": "Gesundheit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Seit wann haben Sie die Beschwerden?",
+  "e": "How long have you had the symptoms?",
+  "ex": "„Seit wann haben Sie die Beschwerden?“ – „Seit ungefähr drei Tagen.“ — “How long have you had the symptoms?” – “For about three days.”",
+  "c": "Gesundheit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Ich brauche eine Krankschreibung.",
+  "e": "I need a sick note.",
+  "ex": "Ich brauche eine Krankschreibung für meinen Arbeitgeber. — I need a sick note for my employer.",
+  "c": "Gesundheit",
+  "lvl": "B1"
+ },
+ {
+  "w": "Haben Sie etwas gegen …?",
+  "e": "Do you have something for …?",
+  "ex": "Haben Sie etwas gegen Halsschmerzen? — Do you have something for a sore throat?",
+  "c": "Gesundheit",
+  "lvl": "A2"
+ },
+ {
+  "w": "Brauche ich dafür ein Rezept?",
+  "e": "Do I need a prescription for that?",
+  "ex": "Brauche ich dafür ein Rezept, oder bekomme ich das so? — Do I need a prescription for that, or can I just buy it?",
+  "c": "Gesundheit",
+  "lvl": "A2"
+ },
+ {
+  "w": "Wie oft muss ich das einnehmen?",
+  "e": "How often do I have to take it?",
+  "ex": "Wie oft muss ich das einnehmen – vor oder nach dem Essen? — How often do I have to take it – before or after meals?",
+  "c": "Gesundheit",
+  "lvl": "A2"
+ },
+ {
+  "w": "Wo muss ich eine Nummer ziehen?",
+  "e": "Where do I take a number?",
+  "ex": "Entschuldigung, wo muss ich hier eine Nummer ziehen? — Excuse me, where do I take a number here?",
+  "c": "Behörden",
+  "lvl": "A2"
+ },
+ {
+  "w": "Ich möchte mich ummelden.",
+  "e": "I'd like to register my new address.",
+  "ex": "Ich bin umgezogen und möchte mich ummelden. — I've moved and I'd like to register my new address.",
+  "c": "Behörden",
+  "lvl": "B1"
+ },
+ {
+  "w": "den Aufenthaltstitel verlängern",
+  "e": "to extend the residence permit",
+  "ex": "Ich möchte meinen Aufenthaltstitel verlängern. Welche Unterlagen muss ich einreichen? — I'd like to extend my residence permit. Which documents do I have to submit?",
+  "c": "Behörden",
+  "lvl": "B1"
+ },
+ {
+  "w": "Fehlt noch etwas?",
+  "e": "Is anything still missing?",
+  "ex": "Hier sind alle Unterlagen – fehlt noch etwas? — Here are all the documents – is anything still missing?",
+  "c": "Behörden",
+  "lvl": "A2"
+ },
+ {
+  "w": "Bis wann muss ich das einreichen?",
+  "e": "By when do I have to submit that?",
+  "ex": "Bis wann muss ich die Steuererklärung einreichen? — By when do I have to submit the tax return?",
+  "c": "Behörden",
+  "lvl": "B1"
+ },
+ {
+  "w": "Wie lange dauert die Bearbeitung?",
+  "e": "How long does processing take?",
+  "ex": "Wie lange dauert die Bearbeitung ungefähr – ein paar Wochen? — Roughly how long does processing take – a few weeks?",
+  "c": "Behörden",
+  "lvl": "B1"
  }
 ]
