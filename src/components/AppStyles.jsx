@@ -52,12 +52,27 @@ export function AppStyles() {
         max-width: 100%; overflow-x: auto;
         overscroll-behavior-x: contain; -webkit-overflow-scrolling: touch;
       }
-      /* Four-column conjugation table on a small phone: tighter cells so
-         "haben angefangen" fits without the table scrolling. */
+      /* Tables on a card back (conjugation, declension) must fit the card.
+         overflow-wrap: anywhere — unlike break-word — lowers the cell's
+         min-content width, so the table shrinks to the column instead of
+         pushing past it; hyphens: auto (the tables carry lang="de") makes
+         the break land at a syllable (Registrie-rungen) where it can. */
+      .dm-fit td { overflow-wrap: anywhere; -webkit-hyphens: auto; hyphens: auto; }
+      /* Small phone: tighter cells so "haben angefangen" fits with fewer
+         breaks. */
       @media (max-width: 400px) {
-        .dm-conj th, .dm-conj td { padding: 3px 5px !important; font-size: 12px; }
-        /* Long participles (zurückgekommen) hyphenate rather than scroll. */
-        .dm-conj td { -webkit-hyphens: auto; hyphens: auto; }
+        .dm-fit th, .dm-fit td { padding-left: 5px !important; padding-right: 5px !important; font-size: 12px; }
+        .dm-fit th:first-child, .dm-fit td:first-child { padding-left: 0 !important; }
+      }
+      /* 320px (iPhone SE 1st gen, small Androids): the four unbreakable
+         headers alone are wider than the card at 12px. */
+      @media (max-width: 360px) {
+        .dm-fit th, .dm-fit td { font-size: 11.5px; padding-left: 4px !important; padding-right: 4px !important; }
+      }
+      /* The flashcard's 20px side padding is a luxury on a phone, where the
+         conjugation table on its back needs every pixel of the width. */
+      @media (max-width: 400px) {
+        .dm-flashcard { padding-left: 14px !important; padding-right: 14px !important; }
       }
       /* Notion pages bring their own widths (tables, code, callouts);
          hold them to the column and let long words break. */
@@ -65,21 +80,25 @@ export function AppStyles() {
       .dm-notion-wrap .notion { max-width: 100%; overflow-wrap: break-word; }
       .dm-notion-wrap .notion-page { width: 100%; max-width: 100%; padding: 0; }
       .dm-notion-wrap img, .dm-notion-wrap video, .dm-notion-wrap iframe { max-width: 100%; height: auto; }
-      .dm-notion-wrap .notion-collection,
-      .dm-notion-wrap pre, .dm-notion-wrap .notion-code {
+      /* Database views are wider than any phone by design and keep their
+         own scroller. */
+      .dm-notion-wrap .notion-collection {
         max-width: 100%; overflow-x: auto; overscroll-behavior-x: contain;
       }
-      /* A <table> ignores overflow, so the wrapper above used to crop wide
-         simple tables instead of scrolling them. Making the table a block
-         turns it into its own scroller; its rows still lay out as a table. */
-      .dm-notion-wrap .notion-simple-table {
-        display: block; width: max-content; max-width: 100%;
-        overflow-x: auto; overscroll-behavior-x: contain; -webkit-overflow-scrolling: touch;
+      /* Code wraps rather than scrolling sideways. */
+      .dm-notion-wrap pre, .dm-notion-wrap .notion-code, .dm-notion-wrap .notion-code code {
+        max-width: 100%; white-space: pre-wrap !important; overflow-wrap: anywhere;
       }
-      /* Cells wrap at word boundaries so a table fits the column; it only
-         scrolls when a single word is wider than its share. (A 90px floor
-         per cell used to push every 4+ column table off a phone.) */
-      .dm-notion-wrap .notion-simple-table td { min-width: 0; padding: 6px 8px; overflow-wrap: break-word; }
+      /* Simple tables fit the column. Cells wrap at word boundaries, and
+         overflow-wrap: anywhere lets a single word longer than its cell
+         break (hyphenated where the browser can) — which also
+         lowers the table's minimum width, so it never outgrows the screen
+         and never needs its own sideways scroll. */
+      .dm-notion-wrap .notion-simple-table { max-width: 100%; }
+      .dm-notion-wrap .notion-simple-table td {
+        min-width: 0; padding: 6px 8px;
+        overflow-wrap: anywhere; -webkit-hyphens: auto; hyphens: auto;
+      }
       @media (max-width: 640px) {
         .dm-notion-wrap .notion-simple-table { font-size: 13px; }
         .dm-notion-wrap .notion-simple-table td { padding: 5px 6px; }

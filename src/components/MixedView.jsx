@@ -449,7 +449,7 @@ export function MixedView({ db, progress, setProgress, levelFilter, recordAnswer
         <span style={{ color: lm.color, fontWeight: 700 }}>{lm.code}</span>
       </div>
 
-      <div onClick={() => !revealed && setRevealed(true)}
+      <div onClick={() => !revealed && setRevealed(true)} className="dm-flashcard"
         style={{ background: "#131313", border: `1px solid ${cat.color}33`, borderRadius: 16, padding: "26px 20px", minHeight: 190, cursor: revealed ? "default" : "pointer", display: "flex", flexDirection: "column", justifyContent: "center" }}>
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, flexWrap: "wrap" }}>
           <div style={{ fontSize: 26, fontWeight: 800, color: COLORS.txtStrong, textAlign: "center", lineHeight: 1.25, minWidth: 0, overflowWrap: "anywhere" }}>{front}</div>

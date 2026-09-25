@@ -19,10 +19,11 @@ export function VerbTable({ v }) {
     ["sie/Sie", v.pr.sie, v.pt.sie || (v.pt.wir || "").replace(/\buns\b/, "sich"), v.pk.sie],
   ];
   return (
-    <div className="dm-scroll-x" style={{ marginTop: 12 }}>
-      {/* Cells wrap at word boundaries ("haben angefangen" onto two lines)
-          so the table fits a phone instead of scrolling sideways. */}
-      <table lang="de" className="dm-conj" style={{ width: "100%", borderCollapse: "collapse", fontSize: 12.5, overflowWrap: "break-word" }}>
+    <div style={{ marginTop: 12 }}>
+      {/* Cells wrap at word boundaries ("haben angefangen" onto two lines),
+          and a single long form hyphenates (interes-sierten), so the table
+          always fits the card instead of scrolling sideways. */}
+      <table lang="de" className="dm-fit" style={{ width: "100%", borderCollapse: "collapse", fontSize: 12.5 }}>
         <thead>
           <tr>
             {["", "Präsens", "Präteritum", "Perfekt"].map((h) => (
@@ -130,8 +131,8 @@ function DeclTable({ it }) {
   return (
     <div style={{ marginTop: 12 }}>
       <div style={{ fontSize: 11, color: FAINT, textTransform: "uppercase", letterSpacing: 0.5, marginBottom: 5 }}>Deklination</div>
-      <div className="dm-scroll-x">
-        <table lang="de" style={{ width: "100%", borderCollapse: "collapse", fontSize: 12.5 }}>
+      <div>
+        <table lang="de" className="dm-fit" style={{ width: "100%", borderCollapse: "collapse", fontSize: 12.5 }}>
           <thead>
             <tr>
               <th style={{ textAlign: "left", padding: "3px 8px 3px 0", color: MUTE, fontWeight: 600 }}>Fall</th>
