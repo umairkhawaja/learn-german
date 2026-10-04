@@ -139,6 +139,44 @@ export function AppStyles() {
       .dm-notion-wrap .notion { font-size: 15px; }
       .dm-notion-wrap .notion-callout { border-color: #262626; border-radius: 10px; }
 
+      /* ── Notes layout ─────────────────────────────────────────
+         The chapter list used to sit above the chapter as a wall of
+         buttons, so picking the next chapter meant scrolling all the way
+         back up. Wide screens get a sticky sidebar; narrow ones a sticky
+         bar that opens the list as a drawer. */
+      .dm-notes-layout { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 28px; align-items: start; }
+      .dm-notes-sidebar {
+        position: sticky; top: calc(var(--dm-header-h, 120px) + 12px);
+        /* Leaves room for the page's 96px bottom padding, so at the end of a
+           chapter the sidebar isn't pushed up under the header. */
+        max-height: calc(100vh - var(--dm-header-h, 120px) - 120px); overflow-y: auto;
+        padding-right: 6px; scrollbar-width: thin;
+      }
+      /* At least as tall as the sidebar, or a short chapter ends the grid
+         early and drags the sticky sidebar up under the header. */
+      .dm-notes-main { min-width: 0; min-height: calc(100vh - var(--dm-header-h, 120px) - 120px); }
+      .dm-notes-toggle { display: none; }
+      @media (max-width: 900px) {
+        .dm-notes-layout { display: block; }
+        .dm-notes-main { min-height: 0; }
+        .dm-notes-sidebar { display: none; }
+        .dm-notes-toggle {
+          display: flex; align-items: center; gap: 10px; width: 100%;
+          position: sticky; top: calc(var(--dm-header-h, 100px) + 6px); z-index: 5;
+          margin-bottom: 14px; padding: 10px 14px; min-height: 44px; border-radius: 10px;
+          background: #141414f2; border: 1px solid #2a2a2a; color: #e2e8f0;
+          font-size: 13.5px; font-weight: 600; text-align: left; cursor: pointer;
+          backdrop-filter: blur(8px);
+        }
+      }
+      .dm-notes-drawer { position: fixed; inset: 0; z-index: 50; background: #000a; display: flex; }
+      .dm-notes-drawer-panel {
+        width: min(340px, 88vw); height: 100%; overflow-y: auto; background: #0f0f0f;
+        border-right: 1px solid #242424;
+        padding: calc(env(safe-area-inset-top) + 16px) 14px calc(env(safe-area-inset-bottom) + 24px);
+        animation: dmReveal .18s ease;
+      }
+
       /* ── Form controls ────────────────────────────────────────
          Native selects and inputs ignore the dark inline styles for their
          own dropdown and placeholder text on some platforms. */

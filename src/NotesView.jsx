@@ -35,6 +35,13 @@ function groupByLevel(childPages) {
   return ordered;
 }
 
+// "05 · Die Fälle — The Four Cases … [A1–A2]" → main "05 · Die Fälle",
+// sub "The Four Cases … [A1–A2]", so the sidebar can stack them.
+function splitLabel(label) {
+  const i = label.indexOf(" — ");
+  return i === -1 ? { main: label, sub: null } : { main: label.slice(0, i), sub: label.slice(i + 3) };
+}
+
 function SetupNotice() {
   return (
     <div style={{ background: COLORS.surface, border: `1px solid ${COLORS.borderSoft}`, borderRadius: 12, padding: 20, maxWidth: 560 }}>
@@ -127,6 +134,29 @@ export function NotesView() {
   const [loadError, setLoadError] = useState(null);
   const [level, setLevel] = useState(null);
   const [pageIdx, setPageIdx] = useState(0);
+  const [drawerOpen, setDrawerOpen] = useState(false);
+
+  // The sidebar and the chapter bar stick just below the app header, whose
+  // height changes with screen width — publish it as a CSS variable.
+  useEffect(() => {
+    const header = document.querySelector("header");
+    if (!header) return;
+    const set = () => document.documentElement.style.setProperty("--dm-header-h", `${header.offsetHeight}px`);
+    set();
+    const ro = new ResizeObserver(set);
+    ro.observe(header);
+    return () => ro.disconnect();
+  }, []);
+
+  // Escape closes the chapter drawer; the page behind it doesn't scroll.
+  useEffect(() => {
+    if (!drawerOpen) return;
+    const onKey = (e) => e.key === "Escape" && setDrawerOpen(false);
+    window.addEventListener("keydown", onKey);
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => { window.removeEventListener("keydown", onKey); document.body.style.overflow = prev; };
+  }, [drawerOpen]);
 
   // Load the subpages of the "German Notes" root page once, then group by level.
   useEffect(() => {
@@ -178,23 +208,29 @@ export function NotesView() {
     );
   }
 
-  return (
-    <div>
-      {/* Level tabs */}
+  const pickPage = (i) => {
+    setPageIdx(i);
+    setDrawerOpen(false);
+    // The chapter replaces the old one in place; start it at the top
+    // instead of wherever the previous chapter was scrolled to.
+    window.scrollTo({ top: 0 });
+  };
+
+  const chapterList = (
+    <nav aria-label="Chapters">
       {/* Each level wears its colour from config/levels (A1 green, A2
-          orange, B1 blue …), the same as the level chips everywhere else;
-          these used to be blue whatever the level. */}
+          orange, B1 blue …), the same as the level chips everywhere else. */}
       {levels.length > 1 && (
-        <div style={{ display: "flex", gap: 6, marginBottom: 14, flexWrap: "wrap" }}>
+        <div style={{ display: "flex", gap: 6, marginBottom: 12, flexWrap: "wrap" }}>
           {levels.map((l) => {
             const on = level === l;
             const color = levelMeta(l).color;
             return (
-              <button key={l} onClick={() => { setLevel(l); setPageIdx(0); }} aria-pressed={on}
+              <button key={l} onClick={() => { setLevel(l); setPageIdx(0); window.scrollTo({ top: 0 }); }} aria-pressed={on}
                 style={{
-                  padding: "7px 14px", minHeight: 34, borderRadius: 10, border: `1.5px solid ${on ? color : COLORS.borderSoft}`,
+                  padding: "6px 12px", minHeight: 32, borderRadius: 10, border: `1.5px solid ${on ? color : COLORS.borderSoft}`,
                   background: on ? color + "18" : "transparent",
-                  color: on ? color : MUTE, fontSize: 13, fontWeight: 700, cursor: "pointer",
+                  color: on ? color : MUTE, fontSize: 12.5, fontWeight: 700, cursor: "pointer",
                 }}>
                 {l}
               </button>
@@ -202,30 +238,70 @@ export function NotesView() {
           })}
         </div>
       )}
+      <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "flex", flexDirection: "column", gap: 2 }}>
+        {pages.map((p, i) => {
+          const on = pageIdx === i;
+          const { main, sub } = splitLabel(p.label);
+          return (
+            <li key={p.pageId}>
+              <button onClick={() => pickPage(i)} aria-current={on ? "page" : undefined}
+                style={{
+                  display: "block", width: "100%", textAlign: "left", padding: "7px 10px", borderRadius: 8,
+                  border: "none", borderLeft: `2px solid ${on ? COLORS.accent : "transparent"}`,
+                  background: on ? COLORS.accent + "1f" : "transparent",
+                  color: on ? COLORS.accentText : TXT, fontSize: 13, lineHeight: 1.35, cursor: "pointer",
+                }}>
+                <span style={{ fontWeight: on ? 700 : 500 }}>{main}</span>
+                {sub && <span style={{ display: "block", fontSize: 11.5, color: on ? COLORS.accentText : FAINT, opacity: on ? 0.8 : 1, marginTop: 1 }}>{sub}</span>}
+              </button>
+            </li>
+          );
+        })}
+      </ul>
+    </nav>
+  );
 
-      {/* Page selector within a level */}
-      {pages.length > 1 && (
-        <div style={{ display: "flex", gap: 6, marginBottom: 18, flexWrap: "wrap" }}>
-          {pages.map((p, i) => (
-            <button key={p.pageId} onClick={() => setPageIdx(i)}
-              aria-pressed={pageIdx === i}
-              style={{
-                padding: "7px 12px", minHeight: 34, maxWidth: "100%", textAlign: "left", borderRadius: 10,
-                border: `1px solid ${pageIdx === i ? COLORS.accent : COLORS.borderSoft}`,
-                background: pageIdx === i ? COLORS.accent + "1f" : "transparent",
-                color: pageIdx === i ? COLORS.accentText : MUTE, fontSize: 12.5, cursor: "pointer",
-              }}>
-              {p.label}
-            </button>
-          ))}
-        </div>
-      )}
+  const current = currentPage ? splitLabel(currentPage.label) : null;
 
-      {currentPage ? (
-        <NotionPage key={currentPage.pageId} pageId={currentPage.pageId} proxyUrl={NOTION_PROXY_URL} />
-      ) : (
-        <div style={{ color: FAINT, fontSize: 13, padding: "20px 0" }}>
-          No pages for {level} yet. Add a "{level} …" subpage under the German Notes page in Notion.
+  return (
+    <div className="dm-notes-layout">
+      {/* Wide screens: a sticky sidebar beside the chapter. */}
+      <aside className="dm-notes-sidebar">{chapterList}</aside>
+
+      <div className="dm-notes-main">
+        {/* Narrow screens: one compact bar that opens the chapter list,
+            so the chapter itself is all that's on the page. */}
+        <button className="dm-notes-toggle" onClick={() => setDrawerOpen(true)}
+          aria-haspopup="dialog" aria-expanded={drawerOpen}>
+          <span aria-hidden="true" style={{ fontSize: 16 }}>☰</span>
+          <span style={{ minWidth: 0, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+            {current ? current.main : "Chapters"}
+          </span>
+          <span style={{ marginLeft: "auto", color: FAINT, fontSize: 12, flexShrink: 0 }}>Chapters</span>
+        </button>
+
+        {currentPage ? (
+          <NotionPage key={currentPage.pageId} pageId={currentPage.pageId} proxyUrl={NOTION_PROXY_URL} />
+        ) : (
+          <div style={{ color: FAINT, fontSize: 13, padding: "20px 0" }}>
+            No pages for {level} yet. Add a "{level} …" subpage under the German Notes page in Notion.
+          </div>
+        )}
+      </div>
+
+      {drawerOpen && (
+        <div className="dm-notes-drawer" role="dialog" aria-modal="true" aria-label="Chapters"
+          onClick={() => setDrawerOpen(false)}>
+          <div className="dm-notes-drawer-panel" onClick={(e) => e.stopPropagation()}>
+            <div style={{ display: "flex", alignItems: "center", marginBottom: 12 }}>
+              <div style={{ fontSize: 15, fontWeight: 700, color: TXT }}>Chapters</div>
+              <button onClick={() => setDrawerOpen(false)} aria-label="Close"
+                style={{ marginLeft: "auto", background: "transparent", border: `1px solid ${COLORS.borderSoft}`, borderRadius: 8, color: MUTE, padding: "4px 10px", fontSize: 14, cursor: "pointer" }}>
+                ✕
+              </button>
+            </div>
+            {chapterList}
+          </div>
         </div>
       )}
     </div>
