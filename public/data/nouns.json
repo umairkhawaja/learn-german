@@ -19643,5 +19643,1067 @@
   "p": "",
   "ex": "Australien gehört zu Ozeanien. — Australia belongs to Oceania.",
   "lvl": "B1"
+ },
+ {
+  "w": "Russland",
+  "a": "",
+  "e": "Russia",
+  "c": "Travel & Places",
+  "p": "",
+  "ex": "Meine Kollegin kommt aus Russland. — My colleague comes from Russia.",
+  "lvl": "A1"
+ },
+ {
+  "w": "der Abstand",
+  "a": "der",
+  "e": "distance / gap",
+  "c": "Abstract Concepts",
+  "p": "die Abstände",
+  "ex": "Bitte halten Sie Abstand. — Please keep your distance.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Anerkennung",
+  "a": "die",
+  "e": "recognition / acknowledgement",
+  "c": "Abstract Concepts",
+  "p": "die Anerkennungen",
+  "ex": "Die Anerkennung meines Abschlusses hat drei Monate gedauert. — The recognition of my degree took three months.",
+  "lvl": "B2"
+ },
+ {
+  "w": "der Anlass",
+  "a": "der",
+  "e": "occasion / reason",
+  "c": "Abstract Concepts",
+  "p": "die Anlässe",
+  "ex": "Zu welchem Anlass trägst du den Anzug? — What's the occasion for the suit?",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Anteil",
+  "a": "der",
+  "e": "share / proportion",
+  "c": "Shopping & Money",
+  "p": "die Anteile",
+  "ex": "Der Anteil der Frauen in der Firma ist gestiegen. — The share of women in the company has risen.",
+  "lvl": "B2"
+ },
+ {
+  "w": "die Arbeitslosigkeit",
+  "a": "die",
+  "e": "unemployment",
+  "c": "Government & Society",
+  "p": "",
+  "ex": "Die Arbeitslosigkeit in Bayern ist niedrig. — Unemployment in Bavaria is low.",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Arbeitsvertrag",
+  "a": "der",
+  "e": "employment contract",
+  "c": "Work & Career",
+  "p": "die Arbeitsverträge",
+  "ex": "Ich habe den Arbeitsvertrag gestern unterschrieben. — I signed the employment contract yesterday.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Armut",
+  "a": "die",
+  "e": "poverty",
+  "c": "Government & Society",
+  "p": "",
+  "ex": "Armut ist auch in reichen Ländern ein Problem. — Poverty is a problem in rich countries too.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Atmosphäre",
+  "a": "die",
+  "e": "atmosphere",
+  "c": "Abstract Concepts",
+  "p": "die Atmosphären",
+  "ex": "Das Café hat eine sehr gemütliche Atmosphäre. — The café has a very cosy atmosphere.",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Aufwand",
+  "a": "der",
+  "e": "effort / expense",
+  "c": "Abstract Concepts",
+  "p": "",
+  "ex": "Der Aufwand lohnt sich nicht. — The effort isn't worth it.",
+  "lvl": "B2"
+ },
+ {
+  "w": "der Ausdruck",
+  "a": "der",
+  "e": "expression; printout",
+  "c": "Education & Culture",
+  "p": "die Ausdrücke",
+  "ex": "Diesen Ausdruck kenne ich nicht. — I don't know this expression.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Ausgabe",
+  "a": "die",
+  "e": "expense; edition",
+  "c": "Shopping & Money",
+  "p": "die Ausgaben",
+  "ex": "Meine größte Ausgabe ist die Miete. — My biggest expense is the rent.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Auswirkung",
+  "a": "die",
+  "e": "effect / impact",
+  "c": "Abstract Concepts",
+  "p": "die Auswirkungen",
+  "ex": "Der Klimawandel hat große Auswirkungen auf die Landwirtschaft. — Climate change has big effects on agriculture.",
+  "lvl": "B2"
+ },
+ {
+  "w": "das Bedürfnis",
+  "a": "das",
+  "e": "need",
+  "c": "Emotions & Mind",
+  "p": "die Bedürfnisse",
+  "ex": "Jeder Mensch hat das Bedürfnis nach Sicherheit. — Every person has a need for security.",
+  "lvl": "B2"
+ },
+ {
+  "w": "die Behauptung",
+  "a": "die",
+  "e": "claim / assertion",
+  "c": "Abstract Concepts",
+  "p": "die Behauptungen",
+  "ex": "Diese Behauptung ist falsch. — This claim is false.",
+  "lvl": "B2"
+ },
+ {
+  "w": "die Bemerkung",
+  "a": "die",
+  "e": "remark / comment",
+  "c": "Abstract Concepts",
+  "p": "die Bemerkungen",
+  "ex": "Seine Bemerkung war unhöflich. — His remark was rude.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Beschwerde",
+  "a": "die",
+  "e": "complaint",
+  "c": "Shopping & Money",
+  "p": "die Beschwerden",
+  "ex": "Ich möchte eine Beschwerde einreichen. — I'd like to make a complaint.",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Besitz",
+  "a": "der",
+  "e": "possession / property",
+  "c": "Shopping & Money",
+  "p": "",
+  "ex": "Das Haus ist im Besitz der Familie. — The house is owned by the family.",
+  "lvl": "B2"
+ },
+ {
+  "w": "die Bestätigung",
+  "a": "die",
+  "e": "confirmation",
+  "c": "Work & Career",
+  "p": "die Bestätigungen",
+  "ex": "Sie bekommen eine Bestätigung per E-Mail. — You'll receive a confirmation by email.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Bewertung",
+  "a": "die",
+  "e": "rating / review / assessment",
+  "c": "Technology & Media",
+  "p": "die Bewertungen",
+  "ex": "Das Restaurant hat sehr gute Bewertungen. — The restaurant has very good reviews.",
+  "lvl": "B1"
+ },
+ {
+  "w": "das Bewusstsein",
+  "a": "das",
+  "e": "awareness / consciousness",
+  "c": "Emotions & Mind",
+  "p": "",
+  "ex": "Das Bewusstsein für Umweltschutz wächst. — Awareness of environmental protection is growing.",
+  "lvl": "B2"
+ },
+ {
+  "w": "die Bezahlung",
+  "a": "die",
+  "e": "payment / pay",
+  "c": "Shopping & Money",
+  "p": "",
+  "ex": "Die Bezahlung ist nur mit Karte möglich. — Payment is only possible by card.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Debatte",
+  "a": "die",
+  "e": "debate",
+  "c": "Government & Society",
+  "p": "die Debatten",
+  "ex": "Im Bundestag gab es eine lange Debatte. — There was a long debate in the Bundestag.",
+  "lvl": "B2"
+ },
+ {
+  "w": "die Dienstleistung",
+  "a": "die",
+  "e": "service",
+  "c": "Work & Career",
+  "p": "die Dienstleistungen",
+  "ex": "Die Firma bietet Dienstleistungen für Privatkunden an. — The company offers services for private customers.",
+  "lvl": "B2"
+ },
+ {
+  "w": "der Druck",
+  "a": "der",
+  "e": "pressure",
+  "c": "Emotions & Mind",
+  "p": "",
+  "ex": "Vor der Prüfung stehe ich unter Druck. — Before the exam I'm under pressure.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Durchsage",
+  "a": "die",
+  "e": "announcement (over a loudspeaker)",
+  "c": "Transport & City",
+  "p": "die Durchsagen",
+  "ex": "Hast du die Durchsage verstanden? — Did you understand the announcement?",
+  "lvl": "A2"
+ },
+ {
+  "w": "der Ehrgeiz",
+  "a": "der",
+  "e": "ambition",
+  "c": "Emotions & Mind",
+  "p": "",
+  "ex": "Sie hat viel Ehrgeiz und will Chefin werden. — She has a lot of ambition and wants to become boss.",
+  "lvl": "B2"
+ },
+ {
+  "w": "das Eigentum",
+  "a": "das",
+  "e": "property / ownership",
+  "c": "Shopping & Money",
+  "p": "",
+  "ex": "Die Wohnung ist kein Eigentum, sondern gemietet. — The flat isn't owned, it's rented.",
+  "lvl": "B2"
+ },
+ {
+  "w": "die Einzelheit",
+  "a": "die",
+  "e": "detail",
+  "c": "Abstract Concepts",
+  "p": "die Einzelheiten",
+  "ex": "Die Einzelheiten besprechen wir morgen. — We'll discuss the details tomorrow.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Empfehlung",
+  "a": "die",
+  "e": "recommendation",
+  "c": "Abstract Concepts",
+  "p": "die Empfehlungen",
+  "ex": "Danke für die Empfehlung! — Thanks for the recommendation!",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Energie",
+  "a": "die",
+  "e": "energy",
+  "c": "Nature & Weather",
+  "p": "die Energien",
+  "ex": "Wir müssen Energie sparen. — We have to save energy.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Erholung",
+  "a": "die",
+  "e": "rest / recovery / relaxation",
+  "c": "Body & Health",
+  "p": "",
+  "ex": "Nach dem Projekt brauche ich Erholung. — After the project I need some rest.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Erkenntnis",
+  "a": "die",
+  "e": "insight / finding",
+  "c": "Education & Culture",
+  "p": "die Erkenntnisse",
+  "ex": "Die Studie bringt neue Erkenntnisse. — The study brings new insights.",
+  "lvl": "B2"
+ },
+ {
+  "w": "die Fähigkeit",
+  "a": "die",
+  "e": "ability / skill",
+  "c": "Work & Career",
+  "p": "die Fähigkeiten",
+  "ex": "Teamfähigkeit ist eine wichtige Fähigkeit. — Being a team player is an important skill.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Fortbildung",
+  "a": "die",
+  "e": "further training / professional development",
+  "c": "Work & Career",
+  "p": "die Fortbildungen",
+  "ex": "Die Firma bezahlt meine Fortbildung. — The company pays for my training course.",
+  "lvl": "B1"
+ },
+ {
+  "w": "das Geräusch",
+  "a": "das",
+  "e": "noise / sound",
+  "c": "Abstract Concepts",
+  "p": "die Geräusche",
+  "ex": "Was ist das für ein Geräusch? — What's that noise?",
+  "lvl": "A2"
+ },
+ {
+  "w": "das Gerücht",
+  "a": "das",
+  "e": "rumour",
+  "c": "People & Relationships",
+  "p": "die Gerüchte",
+  "ex": "Das ist nur ein Gerücht. — That's just a rumour.",
+  "lvl": "B2"
+ },
+ {
+  "w": "der Geschmack",
+  "a": "der",
+  "e": "taste",
+  "c": "Food & Drink",
+  "p": "die Geschmäcker",
+  "ex": "Die Suppe hat einen komischen Geschmack. — The soup has a strange taste.",
+  "lvl": "A2"
+ },
+ {
+  "w": "die Gleichberechtigung",
+  "a": "die",
+  "e": "equal rights / equality",
+  "c": "Government & Society",
+  "p": "",
+  "ex": "Gleichberechtigung ist im Grundgesetz garantiert. — Equal rights are guaranteed in the Basic Law.",
+  "lvl": "B2"
+ },
+ {
+  "w": "das Gleichgewicht",
+  "a": "das",
+  "e": "balance / equilibrium",
+  "c": "Abstract Concepts",
+  "p": "",
+  "ex": "Ich habe das Gleichgewicht verloren und bin gefallen. — I lost my balance and fell.",
+  "lvl": "B2"
+ },
+ {
+  "w": "die Haltung",
+  "a": "die",
+  "e": "attitude; posture",
+  "c": "Emotions & Mind",
+  "p": "die Haltungen",
+  "ex": "Sie hat eine positive Haltung zur Arbeit. — She has a positive attitude to work.",
+  "lvl": "B2"
+ },
+ {
+  "w": "die Hinsicht",
+  "a": "die",
+  "e": "respect / regard",
+  "c": "Abstract Concepts",
+  "p": "",
+  "ex": "In dieser Hinsicht hast du recht. — In this respect you're right.",
+  "lvl": "B2"
+ },
+ {
+  "w": "die Initiative",
+  "a": "die",
+  "e": "initiative",
+  "c": "Work & Career",
+  "p": "die Initiativen",
+  "ex": "Er hat die Initiative ergriffen. — He took the initiative.",
+  "lvl": "B2"
+ },
+ {
+  "w": "das Jahrhundert",
+  "a": "das",
+  "e": "century",
+  "c": "Time & Calendar",
+  "p": "die Jahrhunderte",
+  "ex": "Die Kirche ist aus dem 15. Jahrhundert. — The church is from the 15th century.",
+  "lvl": "A2"
+ },
+ {
+  "w": "das Jahrzehnt",
+  "a": "das",
+  "e": "decade",
+  "c": "Time & Calendar",
+  "p": "die Jahrzehnte",
+  "ex": "Das war das wichtigste Jahrzehnt meines Lebens. — That was the most important decade of my life.",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Konflikt",
+  "a": "der",
+  "e": "conflict",
+  "c": "People & Relationships",
+  "p": "die Konflikte",
+  "ex": "Wir müssen den Konflikt im Team lösen. — We have to resolve the conflict in the team.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Kontrolle",
+  "a": "die",
+  "e": "check / control",
+  "c": "Transport & City",
+  "p": "die Kontrollen",
+  "ex": "Fahrkartenkontrolle! Ihre Fahrkarte, bitte. — Ticket inspection! Your ticket, please.",
+  "lvl": "A2"
+ },
+ {
+  "w": "die Kraft",
+  "a": "die",
+  "e": "strength / power / force",
+  "c": "Body & Health",
+  "p": "die Kräfte",
+  "ex": "Ich habe keine Kraft mehr. — I have no strength left.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Lehre",
+  "a": "die",
+  "e": "apprenticeship; lesson",
+  "c": "Work & Career",
+  "p": "die Lehren",
+  "ex": "Er macht eine Lehre als Mechaniker. — He's doing an apprenticeship as a mechanic.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Maßnahme",
+  "a": "die",
+  "e": "measure / step (action)",
+  "c": "Government & Society",
+  "p": "die Maßnahmen",
+  "ex": "Die Regierung plant neue Maßnahmen gegen die Inflation. — The government is planning new measures against inflation.",
+  "lvl": "B2"
+ },
+ {
+  "w": "der Mittelpunkt",
+  "a": "der",
+  "e": "centre / focal point",
+  "c": "Abstract Concepts",
+  "p": "die Mittelpunkte",
+  "ex": "Sie steht gern im Mittelpunkt. — She likes being the centre of attention.",
+  "lvl": "B2"
+ },
+ {
+  "w": "die Nachhaltigkeit",
+  "a": "die",
+  "e": "sustainability",
+  "c": "Nature & Weather",
+  "p": "",
+  "ex": "Nachhaltigkeit ist für viele Kunden wichtig. — Sustainability matters to many customers.",
+  "lvl": "B2"
+ },
+ {
+  "w": "der Rahmen",
+  "a": "der",
+  "e": "frame; framework",
+  "c": "Abstract Concepts",
+  "p": "die Rahmen",
+  "ex": "Im Rahmen des Projekts arbeiten wir mit der Uni zusammen. — As part of the project we're working with the university.",
+  "lvl": "B2"
+ },
+ {
+  "w": "der Rat",
+  "a": "der",
+  "e": "advice; council",
+  "c": "People & Relationships",
+  "p": "die Ratschläge",
+  "ex": "Kannst du mir einen Rat geben? — Can you give me some advice?",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Rückgang",
+  "a": "der",
+  "e": "decline / decrease",
+  "c": "Shopping & Money",
+  "p": "die Rückgänge",
+  "ex": "Es gab einen Rückgang der Verkaufszahlen. — There was a decline in sales.",
+  "lvl": "B2"
+ },
+ {
+  "w": "der Ruf",
+  "a": "der",
+  "e": "reputation; call",
+  "c": "People & Relationships",
+  "p": "die Rufe",
+  "ex": "Die Firma hat einen guten Ruf. — The company has a good reputation.",
+  "lvl": "B2"
+ },
+ {
+  "w": "der Schwerpunkt",
+  "a": "der",
+  "e": "focus / main emphasis",
+  "c": "Work & Career",
+  "p": "die Schwerpunkte",
+  "ex": "Der Schwerpunkt meiner Arbeit liegt auf Datenanalyse. — The focus of my work is data analysis.",
+  "lvl": "B2"
+ },
+ {
+  "w": "das Selbstvertrauen",
+  "a": "das",
+  "e": "self-confidence",
+  "c": "Emotions & Mind",
+  "p": "",
+  "ex": "Nach dem Kurs habe ich mehr Selbstvertrauen. — After the course I have more self-confidence.",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Sinn",
+  "a": "der",
+  "e": "sense / meaning",
+  "c": "Abstract Concepts",
+  "p": "die Sinne",
+  "ex": "Das macht keinen Sinn. — That makes no sense.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Stärke",
+  "a": "die",
+  "e": "strength",
+  "c": "Work & Career",
+  "p": "die Stärken",
+  "ex": "Was sind Ihre Stärken? — What are your strengths?",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Schwäche",
+  "a": "die",
+  "e": "weakness",
+  "c": "Work & Career",
+  "p": "die Schwächen",
+  "ex": "Ungeduld ist meine größte Schwäche. — Impatience is my biggest weakness.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Tätigkeit",
+  "a": "die",
+  "e": "activity / occupation",
+  "c": "Work & Career",
+  "p": "die Tätigkeiten",
+  "ex": "Beschreiben Sie Ihre jetzige Tätigkeit. — Describe your current job.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Teilnahme",
+  "a": "die",
+  "e": "participation",
+  "c": "Education & Culture",
+  "p": "",
+  "ex": "Die Teilnahme am Kurs ist kostenlos. — Participation in the course is free.",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Umfang",
+  "a": "der",
+  "e": "extent / scope / size",
+  "c": "Abstract Concepts",
+  "p": "die Umfänge",
+  "ex": "Der Umfang der Arbeit war größer als geplant. — The scope of the work was bigger than planned.",
+  "lvl": "B2"
+ },
+ {
+  "w": "der Umsatz",
+  "a": "der",
+  "e": "turnover / revenue",
+  "c": "Work & Career",
+  "p": "die Umsätze",
+  "ex": "Der Umsatz ist um zehn Prozent gestiegen. — Revenue rose by ten percent.",
+  "lvl": "B2"
+ },
+ {
+  "w": "der Umstand",
+  "a": "der",
+  "e": "circumstance",
+  "c": "Abstract Concepts",
+  "p": "die Umstände",
+  "ex": "Unter diesen Umständen können wir nicht weitermachen. — Under these circumstances we can't continue.",
+  "lvl": "B2"
+ },
+ {
+  "w": "die Unabhängigkeit",
+  "a": "die",
+  "e": "independence",
+  "c": "Government & Society",
+  "p": "",
+  "ex": "Finanzielle Unabhängigkeit ist mir wichtig. — Financial independence is important to me.",
+  "lvl": "B2"
+ },
+ {
+  "w": "die Verbesserung",
+  "a": "die",
+  "e": "improvement",
+  "c": "Abstract Concepts",
+  "p": "die Verbesserungen",
+  "ex": "Das ist eine große Verbesserung. — That's a big improvement.",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Verbraucher",
+  "a": "der",
+  "e": "consumer",
+  "c": "Shopping & Money",
+  "p": "die Verbraucher",
+  "ex": "Die Preise steigen für die Verbraucher. — Prices are rising for consumers.",
+  "lvl": "B2"
+ },
+ {
+  "w": "der Vergleich",
+  "a": "der",
+  "e": "comparison",
+  "c": "Abstract Concepts",
+  "p": "die Vergleiche",
+  "ex": "Im Vergleich zu München ist Berlin billig. — Compared to Munich, Berlin is cheap.",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Versuch",
+  "a": "der",
+  "e": "attempt; experiment",
+  "c": "Abstract Concepts",
+  "p": "die Versuche",
+  "ex": "Beim zweiten Versuch habe ich die Prüfung bestanden. — I passed the exam on the second attempt.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Vorstellung",
+  "a": "die",
+  "e": "idea / notion; performance; introduction",
+  "c": "Abstract Concepts",
+  "p": "die Vorstellungen",
+  "ex": "Ich habe keine Vorstellung, wie das funktioniert. — I have no idea how that works.",
+  "lvl": "B1"
+ },
+ {
+  "w": "das Wachstum",
+  "a": "das",
+  "e": "growth",
+  "c": "Shopping & Money",
+  "p": "",
+  "ex": "Die Wirtschaft braucht mehr Wachstum. — The economy needs more growth.",
+  "lvl": "B2"
+ },
+ {
+  "w": "der Wandel",
+  "a": "der",
+  "e": "change / transformation",
+  "c": "Abstract Concepts",
+  "p": "",
+  "ex": "Die Arbeitswelt ist im Wandel. — The world of work is changing.",
+  "lvl": "B2"
+ },
+ {
+  "w": "der Widerspruch",
+  "a": "der",
+  "e": "contradiction; objection",
+  "c": "Abstract Concepts",
+  "p": "die Widersprüche",
+  "ex": "Gegen den Bescheid können Sie Widerspruch einlegen. — You can lodge an objection against the decision.",
+  "lvl": "B2"
+ },
+ {
+  "w": "die Wirklichkeit",
+  "a": "die",
+  "e": "reality",
+  "c": "Abstract Concepts",
+  "p": "",
+  "ex": "In Wirklichkeit ist alles viel komplizierter. — In reality everything is much more complicated.",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Wohlstand",
+  "a": "der",
+  "e": "prosperity / wealth",
+  "c": "Government & Society",
+  "p": "",
+  "ex": "Der Wohlstand ist ungleich verteilt. — Prosperity is unevenly distributed.",
+  "lvl": "B2"
+ },
+ {
+  "w": "der Zeitpunkt",
+  "a": "der",
+  "e": "point in time / moment",
+  "c": "Time & Calendar",
+  "p": "die Zeitpunkte",
+  "ex": "Jetzt ist kein guter Zeitpunkt. — Now isn't a good time.",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Zufall",
+  "a": "der",
+  "e": "coincidence / chance",
+  "c": "Abstract Concepts",
+  "p": "die Zufälle",
+  "ex": "Was für ein Zufall! — What a coincidence!",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Zugang",
+  "a": "der",
+  "e": "access",
+  "c": "Technology & Media",
+  "p": "die Zugänge",
+  "ex": "Haben Sie Zugang zum Internet? — Do you have internet access?",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Bescheinigung",
+  "a": "die",
+  "e": "certificate / written confirmation",
+  "c": "Government & Society",
+  "p": "die Bescheinigungen",
+  "ex": "Ich brauche eine Bescheinigung vom Arbeitgeber. — I need a certificate from my employer.",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Feierabend",
+  "a": "der",
+  "e": "end of the working day",
+  "c": "Work & Career",
+  "p": "die Feierabende",
+  "ex": "Endlich Feierabend! — Finally finished work for the day!",
+  "lvl": "A2"
+ },
+ {
+  "w": "die Probezeit",
+  "a": "die",
+  "e": "probation period",
+  "c": "Work & Career",
+  "p": "die Probezeiten",
+  "ex": "Die Probezeit dauert sechs Monate. — The probation period lasts six months.",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Vorgesetzte",
+  "a": "der",
+  "e": "superior / boss",
+  "c": "Work & Career",
+  "p": "die Vorgesetzten",
+  "ex": "Ich muss das mit meinem Vorgesetzten besprechen. — I have to discuss that with my boss.",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Arbeitnehmer",
+  "a": "der",
+  "e": "employee",
+  "c": "Work & Career",
+  "p": "die Arbeitnehmer",
+  "ex": "Arbeitnehmer haben in Deutschland mindestens 20 Urlaubstage. — Employees in Germany have at least 20 days of holiday.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Gehaltserhöhung",
+  "a": "die",
+  "e": "pay rise",
+  "c": "Work & Career",
+  "p": "die Gehaltserhöhungen",
+  "ex": "Ich möchte um eine Gehaltserhöhung bitten. — I'd like to ask for a pay rise.",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Einkaufswagen",
+  "a": "der",
+  "e": "shopping trolley",
+  "c": "Shopping & Money",
+  "p": "die Einkaufswagen",
+  "ex": "Für den Einkaufswagen braucht man eine Münze. — You need a coin for the shopping trolley.",
+  "lvl": "A2"
+ },
+ {
+  "w": "das Wechselgeld",
+  "a": "das",
+  "e": "change (money given back)",
+  "c": "Shopping & Money",
+  "p": "",
+  "ex": "Sie haben mir zu wenig Wechselgeld gegeben. — You gave me too little change.",
+  "lvl": "A2"
+ },
+ {
+  "w": "der Kassenbon",
+  "a": "der",
+  "e": "receipt (till receipt)",
+  "c": "Shopping & Money",
+  "p": "die Kassenbons",
+  "ex": "Brauchen Sie den Kassenbon? — Do you need the receipt?",
+  "lvl": "A2"
+ },
+ {
+  "w": "der Hausmeister",
+  "a": "der",
+  "e": "caretaker / janitor",
+  "c": "Home & Living",
+  "p": "die Hausmeister",
+  "ex": "Die Heizung ist kaputt, ich rufe den Hausmeister an. — The heating is broken, I'll call the caretaker.",
+  "lvl": "A2"
+ },
+ {
+  "w": "der Nachmieter",
+  "a": "der",
+  "e": "next tenant",
+  "c": "Home & Living",
+  "p": "die Nachmieter",
+  "ex": "Wir suchen einen Nachmieter für unsere Wohnung. — We're looking for someone to take over our flat.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Wohnungsbesichtigung",
+  "a": "die",
+  "e": "flat viewing",
+  "c": "Home & Living",
+  "p": "die Wohnungsbesichtigungen",
+  "ex": "Zur Wohnungsbesichtigung kamen 40 Leute. — 40 people came to the flat viewing.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Kaltmiete",
+  "a": "die",
+  "e": "basic rent (without utilities)",
+  "c": "Home & Living",
+  "p": "die Kaltmieten",
+  "ex": "Die Kaltmiete beträgt 900 Euro. — The basic rent is 900 euros.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Warmmiete",
+  "a": "die",
+  "e": "rent including heating and utilities",
+  "c": "Home & Living",
+  "p": "die Warmmieten",
+  "ex": "Die Warmmiete ist 200 Euro höher. — The rent including utilities is 200 euros higher.",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Untermieter",
+  "a": "der",
+  "e": "subtenant",
+  "c": "Home & Living",
+  "p": "die Untermieter",
+  "ex": "Darf ich einen Untermieter haben? — Am I allowed to have a subtenant?",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Krankenversicherung",
+  "a": "die",
+  "e": "health insurance",
+  "c": "Body & Health",
+  "p": "die Krankenversicherungen",
+  "ex": "In Deutschland ist die Krankenversicherung Pflicht. — Health insurance is compulsory in Germany.",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Durchfall",
+  "a": "der",
+  "e": "diarrhoea",
+  "c": "Body & Health",
+  "p": "",
+  "ex": "Ich habe seit gestern Durchfall. — I've had diarrhoea since yesterday.",
+  "lvl": "A2"
+ },
+ {
+  "w": "die Übelkeit",
+  "a": "die",
+  "e": "nausea",
+  "c": "Body & Health",
+  "p": "",
+  "ex": "Das Medikament kann Übelkeit verursachen. — The medicine can cause nausea.",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Schwindel",
+  "a": "der",
+  "e": "dizziness; swindle",
+  "c": "Body & Health",
+  "p": "",
+  "ex": "Bei Schwindel sollten Sie sich hinlegen. — If you feel dizzy you should lie down.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Wunde",
+  "a": "die",
+  "e": "wound",
+  "c": "Body & Health",
+  "p": "die Wunden",
+  "ex": "Die Wunde muss genäht werden. — The wound needs stitches.",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Notarzt",
+  "a": "der",
+  "e": "emergency doctor",
+  "c": "Body & Health",
+  "p": "die Notärzte",
+  "ex": "Rufen Sie sofort den Notarzt! — Call the emergency doctor right away!",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Fahrschein",
+  "a": "der",
+  "e": "ticket (public transport)",
+  "c": "Transport & City",
+  "p": "die Fahrscheine",
+  "ex": "Fahrscheine gibt es am Automaten. — Tickets are available at the machine.",
+  "lvl": "A2"
+ },
+ {
+  "w": "der Anschlusszug",
+  "a": "der",
+  "e": "connecting train",
+  "c": "Transport & City",
+  "p": "die Anschlusszüge",
+  "ex": "Wegen der Verspätung habe ich den Anschlusszug verpasst. — Because of the delay I missed my connecting train.",
+  "lvl": "B1"
+ },
+ {
+  "w": "der Fahrkartenautomat",
+  "a": "der",
+  "e": "ticket machine",
+  "c": "Transport & City",
+  "p": "die Fahrkartenautomaten",
+  "ex": "Der Fahrkartenautomat nimmt keine Scheine. — The ticket machine doesn't take notes.",
+  "lvl": "A2"
+ },
+ {
+  "w": "die Umleitung",
+  "a": "die",
+  "e": "diversion / detour",
+  "c": "Transport & City",
+  "p": "die Umleitungen",
+  "ex": "Wegen der Baustelle gibt es eine Umleitung. — There's a diversion because of the roadworks.",
+  "lvl": "B1"
+ },
+ {
+  "w": "das Unwetter",
+  "a": "das",
+  "e": "severe weather / storm",
+  "c": "Nature & Weather",
+  "p": "die Unwetter",
+  "ex": "Für heute Abend ist ein Unwetter angesagt. — A severe storm is forecast for this evening.",
+  "lvl": "B1"
+ },
+ {
+  "w": "das Glatteis",
+  "a": "das",
+  "e": "black ice",
+  "c": "Nature & Weather",
+  "p": "",
+  "ex": "Vorsicht, heute Morgen gibt es Glatteis! — Careful, there's black ice this morning!",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Verfassung",
+  "a": "die",
+  "e": "constitution; state (condition)",
+  "c": "Government & Society",
+  "p": "die Verfassungen",
+  "ex": "Die Verfassung schützt die Meinungsfreiheit. — The constitution protects freedom of speech.",
+  "lvl": "B2"
+ },
+ {
+  "w": "der Rechtsanwalt",
+  "a": "der",
+  "e": "lawyer",
+  "c": "Government & Society",
+  "p": "die Rechtsanwälte",
+  "ex": "Ich habe mit einem Rechtsanwalt gesprochen. — I spoke to a lawyer.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Steuererklärung",
+  "a": "die",
+  "e": "tax return",
+  "c": "Shopping & Money",
+  "p": "die Steuererklärungen",
+  "ex": "Hast du deine Steuererklärung schon gemacht? — Have you done your tax return yet?",
+  "lvl": "B1"
+ },
+ {
+  "w": "das Ehrenamt",
+  "a": "das",
+  "e": "voluntary work / honorary post",
+  "c": "Government & Society",
+  "p": "die Ehrenämter",
+  "ex": "Sie arbeitet im Ehrenamt bei der Tafel. — She volunteers at the food bank.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Wut",
+  "a": "die",
+  "e": "anger / rage",
+  "c": "Emotions & Mind",
+  "p": "",
+  "ex": "Er hat vor Wut die Tür zugeschlagen. — He slammed the door in anger.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Trauer",
+  "a": "die",
+  "e": "grief / sorrow",
+  "c": "Emotions & Mind",
+  "p": "",
+  "ex": "Die Trauer um seinen Vater war groß. — His grief for his father was great.",
+  "lvl": "B2"
+ },
+ {
+  "w": "die Eifersucht",
+  "a": "die",
+  "e": "jealousy",
+  "c": "Emotions & Mind",
+  "p": "",
+  "ex": "Eifersucht ist schlecht für jede Beziehung. — Jealousy is bad for any relationship.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Dankbarkeit",
+  "a": "die",
+  "e": "gratitude",
+  "c": "Emotions & Mind",
+  "p": "",
+  "ex": "Ich möchte meine Dankbarkeit zeigen. — I'd like to show my gratitude.",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Langeweile",
+  "a": "die",
+  "e": "boredom",
+  "c": "Emotions & Mind",
+  "p": "",
+  "ex": "Aus Langeweile habe ich den ganzen Tag ferngesehen. — Out of boredom I watched TV all day.",
+  "lvl": "A2"
+ },
+ {
+  "w": "die Erleichterung",
+  "a": "die",
+  "e": "relief",
+  "c": "Emotions & Mind",
+  "p": "die Erleichterungen",
+  "ex": "Was für eine Erleichterung! — What a relief!",
+  "lvl": "B1"
+ },
+ {
+  "w": "die Zufriedenheit",
+  "a": "die",
+  "e": "satisfaction / contentment",
+  "c": "Emotions & Mind",
+  "p": "",
+  "ex": "Die Zufriedenheit der Kunden ist uns wichtig. — Customer satisfaction is important to us.",
+  "lvl": "B1"
  }
 ]

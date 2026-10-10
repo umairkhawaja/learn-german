@@ -13,3 +13,4 @@ _to_delete/
 .claude/
 memory/
 __pycache__/
+scripts/.venv/

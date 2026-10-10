@@ -4153,5 +4153,477 @@
   "opp": "berufstätig",
   "ex": "Mein Vater ist seit zwei Jahren pensioniert. — My father has been retired for two years.",
   "lvl": "B1"
+ },
+ {
+  "w": "abwechslungsreich",
+  "e": "varied",
+  "c": "Quality & Value",
+  "cmp": "abwechslungsreicher",
+  "sup": "am abwechslungsreichsten",
+  "opp": "eintönig",
+  "ex": "Die Arbeit ist sehr abwechslungsreich. — The work is very varied.",
+  "lvl": "B1"
+ },
+ {
+  "w": "anspruchsvoll",
+  "e": "demanding / sophisticated",
+  "c": "Quality & Value",
+  "cmp": "anspruchsvoller",
+  "sup": "am anspruchsvollsten",
+  "opp": "anspruchslos",
+  "ex": "Der Job ist anspruchsvoll, aber spannend. — The job is demanding but exciting.",
+  "lvl": "B2"
+ },
+ {
+  "w": "ausreichend",
+  "e": "sufficient",
+  "c": "Size & Quantity",
+  "cmp": "–",
+  "sup": "–",
+  "opp": "unzureichend",
+  "ex": "Wir haben ausreichend Zeit. — We have sufficient time.",
+  "lvl": "B1"
+ },
+ {
+  "w": "außergewöhnlich",
+  "e": "exceptional / unusual",
+  "c": "Quality & Value",
+  "cmp": "außergewöhnlicher",
+  "sup": "am außergewöhnlichsten",
+  "opp": "gewöhnlich",
+  "ex": "Das war eine außergewöhnliche Leistung. — That was an exceptional achievement.",
+  "lvl": "B2"
+ },
+ {
+  "w": "begabt",
+  "e": "talented / gifted",
+  "c": "Describing People",
+  "cmp": "begabter",
+  "sup": "am begabtesten",
+  "opp": "unbegabt",
+  "ex": "Sie ist musikalisch sehr begabt. — She is very gifted musically.",
+  "lvl": "B1"
+ },
+ {
+  "w": "beruflich",
+  "e": "professional / work-related",
+  "c": "Work & Study",
+  "cmp": "–",
+  "sup": "–",
+  "opp": "privat",
+  "ex": "Ich bin beruflich oft in Berlin. — I'm often in Berlin for work.",
+  "lvl": "B1"
+ },
+ {
+  "w": "eindeutig",
+  "e": "clear / unambiguous",
+  "c": "Quality & Value",
+  "cmp": "eindeutiger",
+  "sup": "am eindeutigsten",
+  "opp": "mehrdeutig",
+  "ex": "Die Antwort ist eindeutig: nein. — The answer is clear: no.",
+  "lvl": "B2"
+ },
+ {
+  "w": "entscheidend",
+  "e": "decisive / crucial",
+  "c": "Quality & Value",
+  "cmp": "entscheidender",
+  "sup": "am entscheidendsten",
+  "opp": "unwichtig",
+  "ex": "Das ist der entscheidende Punkt. — That's the crucial point.",
+  "lvl": "B2"
+ },
+ {
+  "w": "erforderlich",
+  "e": "required / necessary",
+  "c": "Status & Condition",
+  "cmp": "–",
+  "sup": "–",
+  "opp": "überflüssig",
+  "ex": "Für den Antrag ist ein Pass erforderlich. — A passport is required for the application.",
+  "lvl": "B2"
+ },
+ {
+  "w": "erheblich",
+  "e": "considerable / significant",
+  "c": "Size & Quantity",
+  "cmp": "erheblicher",
+  "sup": "am erheblichsten",
+  "opp": "geringfügig",
+  "ex": "Die Kosten sind erheblich gestiegen. — The costs have risen considerably.",
+  "lvl": "B2"
+ },
+ {
+  "w": "erstaunlich",
+  "e": "astonishing / amazing",
+  "c": "Emotion & Feeling",
+  "cmp": "erstaunlicher",
+  "sup": "am erstaunlichsten",
+  "ex": "Es ist erstaunlich, wie schnell du lernst. — It's amazing how fast you learn.",
+  "lvl": "B1"
+ },
+ {
+  "w": "gegenseitig",
+  "e": "mutual",
+  "c": "Other",
+  "cmp": "–",
+  "sup": "–",
+  "opp": "einseitig",
+  "ex": "Wir helfen uns gegenseitig. — We help each other.",
+  "lvl": "B2"
+ },
+ {
+  "w": "genervt",
+  "e": "annoyed / fed up",
+  "c": "Emotion & Feeling",
+  "cmp": "genervter",
+  "sup": "am genervtesten",
+  "opp": "entspannt",
+  "ex": "Ich bin total genervt von dem Lärm. — I'm totally fed up with the noise.",
+  "lvl": "A2"
+ },
+ {
+  "w": "gründlich",
+  "e": "thorough",
+  "c": "Describing People",
+  "cmp": "gründlicher",
+  "sup": "am gründlichsten",
+  "opp": "oberflächlich",
+  "ex": "Lies den Vertrag gründlich durch. — Read the contract thoroughly.",
+  "lvl": "B1"
+ },
+ {
+  "w": "gültig",
+  "e": "valid",
+  "c": "Status & Condition",
+  "cmp": "–",
+  "sup": "–",
+  "opp": "ungültig",
+  "ex": "Ihr Ausweis ist nicht mehr gültig. — Your ID is no longer valid.",
+  "lvl": "B1"
+ },
+ {
+  "w": "kurzfristig",
+  "e": "short-term / at short notice",
+  "c": "Time & Frequency",
+  "cmp": "kurzfristiger",
+  "sup": "am kurzfristigsten",
+  "opp": "langfristig",
+  "ex": "Der Termin wurde kurzfristig abgesagt. — The appointment was cancelled at short notice.",
+  "lvl": "B2"
+ },
+ {
+  "w": "langfristig",
+  "e": "long-term",
+  "c": "Time & Frequency",
+  "cmp": "langfristiger",
+  "sup": "am langfristigsten",
+  "opp": "kurzfristig",
+  "ex": "Langfristig wollen wir ein Haus kaufen. — In the long term we want to buy a house.",
+  "lvl": "B2"
+ },
+ {
+  "w": "merkwürdig",
+  "e": "strange / odd",
+  "c": "Quality & Value",
+  "cmp": "merkwürdiger",
+  "sup": "am merkwürdigsten",
+  "opp": "normal",
+  "ex": "Das ist merkwürdig. — That's odd.",
+  "lvl": "B1"
+ },
+ {
+  "w": "nachdenklich",
+  "e": "thoughtful / pensive",
+  "c": "Emotion & Feeling",
+  "cmp": "nachdenklicher",
+  "sup": "am nachdenklichsten",
+  "opp": "gedankenlos",
+  "ex": "Der Film hat mich nachdenklich gemacht. — The film made me thoughtful.",
+  "lvl": "B2"
+ },
+ {
+  "w": "neidisch",
+  "e": "envious / jealous",
+  "c": "Emotion & Feeling",
+  "cmp": "neidischer",
+  "sup": "am neidischsten",
+  "ex": "Ich bin ein bisschen neidisch auf deinen Urlaub. — I'm a bit jealous of your holiday.",
+  "lvl": "B1"
+ },
+ {
+  "w": "offensichtlich",
+  "e": "obvious / evidently",
+  "c": "Quality & Value",
+  "cmp": "offensichtlicher",
+  "sup": "am offensichtlichsten",
+  "opp": "verborgen",
+  "ex": "Offensichtlich hat er die E-Mail nicht gelesen. — He obviously didn't read the email.",
+  "lvl": "B2"
+ },
+ {
+  "w": "politisch",
+  "e": "political",
+  "c": "Other",
+  "cmp": "–",
+  "sup": "–",
+  "opp": "unpolitisch",
+  "ex": "Sie ist politisch sehr aktiv. — She is very politically active.",
+  "lvl": "B1"
+ },
+ {
+  "w": "rechtzeitig",
+  "e": "in time / timely",
+  "c": "Time & Frequency",
+  "cmp": "–",
+  "sup": "–",
+  "opp": "zu spät",
+  "ex": "Bitte kommen Sie rechtzeitig. — Please arrive in good time.",
+  "lvl": "B1"
+ },
+ {
+  "w": "rücksichtsvoll",
+  "e": "considerate",
+  "c": "Describing People",
+  "cmp": "rücksichtsvoller",
+  "sup": "am rücksichtsvollsten",
+  "opp": "rücksichtslos",
+  "ex": "Unsere Nachbarn sind sehr rücksichtsvoll. — Our neighbours are very considerate.",
+  "lvl": "B1"
+ },
+ {
+  "w": "selbstverständlich",
+  "e": "of course / self-evident",
+  "c": "Other",
+  "cmp": "–",
+  "sup": "–",
+  "ex": "Selbstverständlich helfe ich dir. — Of course I'll help you.",
+  "lvl": "B1"
+ },
+ {
+  "w": "sorgfältig",
+  "e": "careful / meticulous",
+  "c": "Describing People",
+  "cmp": "sorgfältiger",
+  "sup": "am sorgfältigsten",
+  "opp": "nachlässig",
+  "ex": "Er arbeitet sehr sorgfältig. — He works very carefully.",
+  "lvl": "B1"
+ },
+ {
+  "w": "staatlich",
+  "e": "state / public (run by the state)",
+  "c": "Other",
+  "cmp": "–",
+  "sup": "–",
+  "opp": "privat",
+  "ex": "Das ist eine staatliche Schule. — That's a state school.",
+  "lvl": "B2"
+ },
+ {
+  "w": "umständlich",
+  "e": "complicated / cumbersome",
+  "c": "Quality & Value",
+  "cmp": "umständlicher",
+  "sup": "am umständlichsten",
+  "opp": "einfach",
+  "ex": "Das Formular ist sehr umständlich. — The form is very cumbersome.",
+  "lvl": "B1"
+ },
+ {
+  "w": "unabhängig",
+  "e": "independent",
+  "c": "Describing People",
+  "cmp": "unabhängiger",
+  "sup": "am unabhängigsten",
+  "opp": "abhängig",
+  "ex": "Sie will finanziell unabhängig sein. — She wants to be financially independent.",
+  "lvl": "B1"
+ },
+ {
+  "w": "unterschiedlich",
+  "e": "different / varying",
+  "c": "Quality & Value",
+  "cmp": "unterschiedlicher",
+  "sup": "am unterschiedlichsten",
+  "opp": "gleich",
+  "ex": "Wir haben unterschiedliche Meinungen. — We have different opinions.",
+  "lvl": "B1"
+ },
+ {
+  "w": "unzufrieden",
+  "e": "dissatisfied",
+  "c": "Emotion & Feeling",
+  "cmp": "unzufriedener",
+  "sup": "am unzufriedensten",
+  "opp": "zufrieden",
+  "ex": "Ich bin mit dem Service unzufrieden. — I'm dissatisfied with the service.",
+  "lvl": "A2"
+ },
+ {
+  "w": "verständnisvoll",
+  "e": "understanding / sympathetic",
+  "c": "Describing People",
+  "cmp": "verständnisvoller",
+  "sup": "am verständnisvollsten",
+  "opp": "verständnislos",
+  "ex": "Meine Chefin war sehr verständnisvoll. — My boss was very understanding.",
+  "lvl": "B1"
+ },
+ {
+  "w": "vertraut",
+  "e": "familiar",
+  "c": "Emotion & Feeling",
+  "cmp": "vertrauter",
+  "sup": "am vertrautesten",
+  "opp": "fremd",
+  "ex": "Die Stadt ist mir inzwischen vertraut. — The city has become familiar to me.",
+  "lvl": "B2"
+ },
+ {
+  "w": "vorläufig",
+  "e": "provisional / for the time being",
+  "c": "Time & Frequency",
+  "cmp": "–",
+  "sup": "–",
+  "opp": "endgültig",
+  "ex": "Das ist nur eine vorläufige Lösung. — That's only a provisional solution.",
+  "lvl": "B2"
+ },
+ {
+  "w": "wesentlich",
+  "e": "essential / considerably",
+  "c": "Quality & Value",
+  "cmp": "wesentlicher",
+  "sup": "am wesentlichsten",
+  "opp": "unwesentlich",
+  "ex": "Das Zimmer ist wesentlich größer als meins. — The room is considerably bigger than mine.",
+  "lvl": "B2"
+ },
+ {
+  "w": "wütend",
+  "e": "furious / angry",
+  "c": "Emotion & Feeling",
+  "cmp": "wütender",
+  "sup": "am wütendsten",
+  "opp": "ruhig",
+  "ex": "Warum bist du so wütend? — Why are you so angry?",
+  "lvl": "A2"
+ },
+ {
+  "w": "zukünftig",
+  "e": "future",
+  "c": "Time & Frequency",
+  "cmp": "–",
+  "sup": "–",
+  "opp": "vergangen",
+  "ex": "Das ist meine zukünftige Kollegin. — That's my future colleague.",
+  "lvl": "B1"
+ },
+ {
+  "w": "zurückhaltend",
+  "e": "reserved",
+  "c": "Describing People",
+  "cmp": "zurückhaltender",
+  "sup": "am zurückhaltendsten",
+  "opp": "offen",
+  "ex": "Am Anfang war er sehr zurückhaltend. — At first he was very reserved.",
+  "lvl": "B2"
+ },
+ {
+  "w": "eifersüchtig",
+  "e": "jealous",
+  "c": "Emotion & Feeling",
+  "cmp": "eifersüchtiger",
+  "sup": "am eifersüchtigsten",
+  "ex": "Mein Freund ist nie eifersüchtig. — My boyfriend is never jealous.",
+  "lvl": "B1"
+ },
+ {
+  "w": "ängstlich",
+  "e": "anxious / timid",
+  "c": "Emotion & Feeling",
+  "cmp": "ängstlicher",
+  "sup": "am ängstlichsten",
+  "opp": "mutig",
+  "ex": "Der Hund ist sehr ängstlich. — The dog is very timid.",
+  "lvl": "A2"
+ },
+ {
+  "w": "ehrgeizig",
+  "e": "ambitious",
+  "c": "Describing People",
+  "cmp": "ehrgeiziger",
+  "sup": "am ehrgeizigsten",
+  "ex": "Sie ist sehr ehrgeizig. — She is very ambitious.",
+  "lvl": "B1"
+ },
+ {
+  "w": "gelassen",
+  "e": "calm / composed",
+  "c": "Emotion & Feeling",
+  "cmp": "gelassener",
+  "sup": "am gelassensten",
+  "opp": "nervös",
+  "ex": "Er bleibt auch im Stress gelassen. — He stays calm even under stress.",
+  "lvl": "B2"
+ },
+ {
+  "w": "unordentlich",
+  "e": "messy / untidy",
+  "c": "Describing People",
+  "cmp": "unordentlicher",
+  "sup": "am unordentlichsten",
+  "opp": "ordentlich",
+  "ex": "Mein Zimmer ist ziemlich unordentlich. — My room is pretty messy.",
+  "lvl": "A2"
+ },
+ {
+  "w": "befristet",
+  "e": "fixed-term / temporary",
+  "c": "Work & Study",
+  "cmp": "–",
+  "sup": "–",
+  "opp": "unbefristet",
+  "ex": "Ich habe einen befristeten Vertrag. — I have a fixed-term contract.",
+  "lvl": "B1"
+ },
+ {
+  "w": "unbefristet",
+  "e": "permanent / open-ended",
+  "c": "Work & Study",
+  "cmp": "–",
+  "sup": "–",
+  "opp": "befristet",
+  "ex": "Endlich habe ich eine unbefristete Stelle. — Finally I have a permanent position.",
+  "lvl": "B1"
+ },
+ {
+  "w": "ermäßigt",
+  "e": "reduced (price)",
+  "c": "Other",
+  "cmp": "–",
+  "sup": "–",
+  "ex": "Studenten zahlen den ermäßigten Preis. — Students pay the reduced price.",
+  "lvl": "A2"
+ },
+ {
+  "w": "vegetarisch",
+  "e": "vegetarian",
+  "c": "Other",
+  "cmp": "–",
+  "sup": "–",
+  "ex": "Haben Sie auch etwas Vegetarisches? — Do you have anything vegetarian?",
+  "lvl": "A1"
+ },
+ {
+  "w": "vegan",
+  "e": "vegan",
+  "c": "Other",
+  "cmp": "–",
+  "sup": "–",
+  "ex": "Ich esse seit zwei Jahren vegan. — I've been eating vegan for two years.",
+  "lvl": "A2"
  }
 ]

@@ -19215,5 +19215,1876 @@
   "n": "Inseparable um- here — no ge-. Reciprocal: 'sie umarmen sich' = they hug each other.",
   "lvl": "B1",
   "refl": true
+ },
+ {
+  "w": "befürchten",
+  "e": "to fear / be afraid that",
+  "ex": [
+   "Ich befürchte, dass der Zug Verspätung hat. — I'm afraid the train is delayed.",
+   "Wir haben das Schlimmste befürchtet. — We feared the worst."
+  ],
+  "t": "reg",
+  "p2": "befürchtet",
+  "hs": "haben",
+  "pr": {
+   "ich": "befürchte",
+   "du": "befürchtest",
+   "er": "befürchtet",
+   "wir": "befürchten",
+   "ihr": "befürchtet",
+   "sie": "befürchten"
+  },
+  "pt": {
+   "ich": "befürchtete",
+   "du": "befürchtetest",
+   "er": "befürchtete",
+   "wir": "befürchteten",
+   "ihr": "befürchtetet",
+   "sie": "befürchteten"
+  },
+  "pk": {
+   "ich": "habe befürchtet",
+   "du": "hast befürchtet",
+   "er": "hat befürchtet",
+   "wir": "haben befürchtet",
+   "ihr": "habt befürchtet",
+   "sie": "haben befürchtet"
+  },
+  "n": "Inseparable (be-), so no ge- in the Partizip. Often 'Ich befürchte, dass …' = I'm afraid that …",
+  "lvl": "B2"
+ },
+ {
+  "w": "bemerken",
+  "e": "to notice; to remark",
+  "ex": [
+   "Hast du etwas bemerkt? — Did you notice anything?",
+   "Niemand hat den Fehler bemerkt. — Nobody noticed the mistake."
+  ],
+  "t": "reg",
+  "p2": "bemerkt",
+  "hs": "haben",
+  "pr": {
+   "ich": "bemerke",
+   "du": "bemerkst",
+   "er": "bemerkt",
+   "wir": "bemerken",
+   "ihr": "bemerkt",
+   "sie": "bemerken"
+  },
+  "pt": {
+   "ich": "bemerkte",
+   "du": "bemerktest",
+   "er": "bemerkte",
+   "wir": "bemerkten",
+   "ihr": "bemerktet",
+   "sie": "bemerkten"
+  },
+  "pk": {
+   "ich": "habe bemerkt",
+   "du": "hast bemerkt",
+   "er": "hat bemerkt",
+   "wir": "haben bemerkt",
+   "ihr": "habt bemerkt",
+   "sie": "haben bemerkt"
+  },
+  "n": "Inseparable (be-). Noun: die Bemerkung = remark.",
+  "lvl": "B1"
+ },
+ {
+  "w": "benötigen",
+  "e": "to need / require",
+  "ex": [
+   "Für den Antrag benötigen Sie einen Pass. — You need a passport for the application.",
+   "Wir haben mehr Zeit benötigt. — We needed more time."
+  ],
+  "t": "reg",
+  "p2": "benötigt",
+  "hs": "haben",
+  "pr": {
+   "ich": "benötige",
+   "du": "benötigst",
+   "er": "benötigt",
+   "wir": "benötigen",
+   "ihr": "benötigt",
+   "sie": "benötigen"
+  },
+  "pt": {
+   "ich": "benötigte",
+   "du": "benötigtest",
+   "er": "benötigte",
+   "wir": "benötigten",
+   "ihr": "benötigtet",
+   "sie": "benötigten"
+  },
+  "pk": {
+   "ich": "habe benötigt",
+   "du": "hast benötigt",
+   "er": "hat benötigt",
+   "wir": "haben benötigt",
+   "ihr": "habt benötigt",
+   "sie": "haben benötigt"
+  },
+  "n": "Formal synonym of 'brauchen', common in official letters.",
+  "lvl": "B2"
+ },
+ {
+  "w": "berücksichtigen",
+  "e": "to take into account / consider",
+  "ex": [
+   "Bitte berücksichtigen Sie die Öffnungszeiten. — Please take the opening hours into account.",
+   "Das haben wir nicht berücksichtigt. — We didn't take that into account."
+  ],
+  "t": "reg",
+  "p2": "berücksichtigt",
+  "hs": "haben",
+  "pr": {
+   "ich": "berücksichtige",
+   "du": "berücksichtigst",
+   "er": "berücksichtigt",
+   "wir": "berücksichtigen",
+   "ihr": "berücksichtigt",
+   "sie": "berücksichtigen"
+  },
+  "pt": {
+   "ich": "berücksichtigte",
+   "du": "berücksichtigtest",
+   "er": "berücksichtigte",
+   "wir": "berücksichtigten",
+   "ihr": "berücksichtigtet",
+   "sie": "berücksichtigten"
+  },
+  "pk": {
+   "ich": "habe berücksichtigt",
+   "du": "hast berücksichtigt",
+   "er": "hat berücksichtigt",
+   "wir": "haben berücksichtigt",
+   "ihr": "habt berücksichtigt",
+   "sie": "haben berücksichtigt"
+  },
+  "n": "Inseparable (be-). Very common in work and official German.",
+  "lvl": "B2"
+ },
+ {
+  "w": "bevorzugen",
+  "e": "to prefer",
+  "ex": [
+   "Ich bevorzuge Tee statt Kaffee. — I prefer tea to coffee.",
+   "Sie hat immer das Fahrrad bevorzugt. — She always preferred the bike."
+  ],
+  "t": "reg",
+  "p2": "bevorzugt",
+  "hs": "haben",
+  "pr": {
+   "ich": "bevorzuge",
+   "du": "bevorzugst",
+   "er": "bevorzugt",
+   "wir": "bevorzugen",
+   "ihr": "bevorzugt",
+   "sie": "bevorzugen"
+  },
+  "pt": {
+   "ich": "bevorzugte",
+   "du": "bevorzugtest",
+   "er": "bevorzugte",
+   "wir": "bevorzugten",
+   "ihr": "bevorzugtet",
+   "sie": "bevorzugten"
+  },
+  "pk": {
+   "ich": "habe bevorzugt",
+   "du": "hast bevorzugt",
+   "er": "hat bevorzugt",
+   "wir": "haben bevorzugt",
+   "ihr": "habt bevorzugt",
+   "sie": "haben bevorzugt"
+  },
+  "n": "Inseparable (be-, vor is part of the stem here). Everyday alternative: 'lieber mögen'.",
+  "lvl": "B2"
+ },
+ {
+  "w": "bewältigen",
+  "e": "to cope with / manage / master",
+  "ex": [
+   "Wie bewältigst du den Stress? — How do you cope with the stress?",
+   "Wir haben die Krise gut bewältigt. — We managed the crisis well."
+  ],
+  "t": "reg",
+  "p2": "bewältigt",
+  "hs": "haben",
+  "pr": {
+   "ich": "bewältige",
+   "du": "bewältigst",
+   "er": "bewältigt",
+   "wir": "bewältigen",
+   "ihr": "bewältigt",
+   "sie": "bewältigen"
+  },
+  "pt": {
+   "ich": "bewältigte",
+   "du": "bewältigtest",
+   "er": "bewältigte",
+   "wir": "bewältigten",
+   "ihr": "bewältigtet",
+   "sie": "bewältigten"
+  },
+  "pk": {
+   "ich": "habe bewältigt",
+   "du": "hast bewältigt",
+   "er": "hat bewältigt",
+   "wir": "haben bewältigt",
+   "ihr": "habt bewältigt",
+   "sie": "haben bewältigt"
+  },
+  "n": "Inseparable (be-).",
+  "lvl": "B2"
+ },
+ {
+  "w": "bewerten",
+  "e": "to rate / assess / evaluate",
+  "ex": [
+   "Bitte bewerten Sie unseren Service. — Please rate our service.",
+   "Der Lehrer hat den Test schon bewertet. — The teacher has already marked the test."
+  ],
+  "t": "reg",
+  "p2": "bewertet",
+  "hs": "haben",
+  "pr": {
+   "ich": "bewerte",
+   "du": "bewertest",
+   "er": "bewertet",
+   "wir": "bewerten",
+   "ihr": "bewertet",
+   "sie": "bewerten"
+  },
+  "pt": {
+   "ich": "bewertete",
+   "du": "bewertetest",
+   "er": "bewertete",
+   "wir": "bewerteten",
+   "ihr": "bewertetet",
+   "sie": "bewerteten"
+  },
+  "pk": {
+   "ich": "habe bewertet",
+   "du": "hast bewertet",
+   "er": "hat bewertet",
+   "wir": "haben bewertet",
+   "ihr": "habt bewertet",
+   "sie": "haben bewertet"
+  },
+  "n": "Inseparable (be-). Noun: die Bewertung = rating / review.",
+  "lvl": "B1"
+ },
+ {
+  "w": "einschätzen",
+  "e": "to assess / estimate / judge",
+  "ex": [
+   "Wie schätzt du die Situation ein? — How do you assess the situation?",
+   "Ich habe die Kosten falsch eingeschätzt. — I misjudged the costs."
+  ],
+  "t": "reg",
+  "p2": "eingeschätzt",
+  "hs": "haben",
+  "pr": {
+   "ich": "schätze ein",
+   "du": "schätzt ein",
+   "er": "schätzt ein",
+   "wir": "schätzen ein",
+   "ihr": "schätzt ein",
+   "sie": "schätzen ein"
+  },
+  "pt": {
+   "ich": "schätzte ein",
+   "du": "schätztest ein",
+   "er": "schätzte ein",
+   "wir": "schätzten ein",
+   "ihr": "schätztet ein",
+   "sie": "schätzten ein"
+  },
+  "pk": {
+   "ich": "habe eingeschätzt",
+   "du": "hast eingeschätzt",
+   "er": "hat eingeschätzt",
+   "wir": "haben eingeschätzt",
+   "ihr": "habt eingeschätzt",
+   "sie": "haben eingeschätzt"
+  },
+  "n": "Separable (ein-).",
+  "sep": true,
+  "lvl": "B2"
+ },
+ {
+  "w": "ermöglichen",
+  "e": "to make possible / enable",
+  "ex": [
+   "Das Stipendium ermöglicht mir das Studium. — The scholarship makes my studies possible.",
+   "Die neue Software hat vieles ermöglicht. — The new software made a lot possible."
+  ],
+  "t": "reg",
+  "p2": "ermöglicht",
+  "hs": "haben",
+  "pr": {
+   "ich": "ermögliche",
+   "du": "ermöglichst",
+   "er": "ermöglicht",
+   "wir": "ermöglichen",
+   "ihr": "ermöglicht",
+   "sie": "ermöglichen"
+  },
+  "pt": {
+   "ich": "ermöglichte",
+   "du": "ermöglichtest",
+   "er": "ermöglichte",
+   "wir": "ermöglichten",
+   "ihr": "ermöglichtet",
+   "sie": "ermöglichten"
+  },
+  "pk": {
+   "ich": "habe ermöglicht",
+   "du": "hast ermöglicht",
+   "er": "hat ermöglicht",
+   "wir": "haben ermöglicht",
+   "ihr": "habt ermöglicht",
+   "sie": "haben ermöglicht"
+  },
+  "n": "Inseparable (er-).",
+  "lvl": "B2"
+ },
+ {
+  "w": "erleben",
+  "e": "to experience",
+  "ex": [
+   "In München erlebt man viel. — You experience a lot in Munich.",
+   "Was hast du im Urlaub erlebt? — What did you experience on holiday?"
+  ],
+  "t": "reg",
+  "p2": "erlebt",
+  "hs": "haben",
+  "pr": {
+   "ich": "erlebe",
+   "du": "erlebst",
+   "er": "erlebt",
+   "wir": "erleben",
+   "ihr": "erlebt",
+   "sie": "erleben"
+  },
+  "pt": {
+   "ich": "erlebte",
+   "du": "erlebtest",
+   "er": "erlebte",
+   "wir": "erlebten",
+   "ihr": "erlebtet",
+   "sie": "erlebten"
+  },
+  "pk": {
+   "ich": "habe erlebt",
+   "du": "hast erlebt",
+   "er": "hat erlebt",
+   "wir": "haben erlebt",
+   "ihr": "habt erlebt",
+   "sie": "haben erlebt"
+  },
+  "n": "Inseparable (er-). Noun: das Erlebnis = experience (event).",
+  "lvl": "B1"
+ },
+ {
+  "w": "fürchten",
+  "e": "to fear",
+  "ex": [
+   "Viele fürchten die steigenden Preise. — Many people fear rising prices.",
+   "Ich habe mich vor der Prüfung gefürchtet. — I was afraid of the exam."
+  ],
+  "t": "reg",
+  "p2": "gefürchtet",
+  "hs": "haben",
+  "pr": {
+   "ich": "fürchte",
+   "du": "fürchtest",
+   "er": "fürchtet",
+   "wir": "fürchten",
+   "ihr": "fürchtet",
+   "sie": "fürchten"
+  },
+  "pt": {
+   "ich": "fürchtete",
+   "du": "fürchtetest",
+   "er": "fürchtete",
+   "wir": "fürchteten",
+   "ihr": "fürchtetet",
+   "sie": "fürchteten"
+  },
+  "pk": {
+   "ich": "habe gefürchtet",
+   "du": "hast gefürchtet",
+   "er": "hat gefürchtet",
+   "wir": "haben gefürchtet",
+   "ihr": "habt gefürchtet",
+   "sie": "haben gefürchtet"
+  },
+  "n": "Also reflexive: 'sich vor etwas (Dat.) fürchten' = to be afraid of something.",
+  "lvl": "B1"
+ },
+ {
+  "w": "investieren",
+  "e": "to invest",
+  "ex": [
+   "Ich investiere jeden Monat in einen ETF. — I invest in an ETF every month.",
+   "Wir haben viel Zeit in das Projekt investiert. — We invested a lot of time in the project."
+  ],
+  "t": "reg",
+  "p2": "investiert",
+  "hs": "haben",
+  "pr": {
+   "ich": "investiere",
+   "du": "investierst",
+   "er": "investiert",
+   "wir": "investieren",
+   "ihr": "investiert",
+   "sie": "investieren"
+  },
+  "pt": {
+   "ich": "investierte",
+   "du": "investiertest",
+   "er": "investierte",
+   "wir": "investierten",
+   "ihr": "investiertet",
+   "sie": "investierten"
+  },
+  "pk": {
+   "ich": "habe investiert",
+   "du": "hast investiert",
+   "er": "hat investiert",
+   "wir": "haben investiert",
+   "ihr": "habt investiert",
+   "sie": "haben investiert"
+  },
+  "n": "-ieren verb, so no ge- in the Partizip. 'in etwas (Akk.) investieren'.",
+  "lvl": "B1"
+ },
+ {
+  "w": "kämpfen",
+  "e": "to fight / struggle",
+  "ex": [
+   "Sie kämpft für ihre Rechte. — She fights for her rights.",
+   "Wir haben lange gegen die Bürokratie gekämpft. — We fought the bureaucracy for a long time."
+  ],
+  "t": "reg",
+  "p2": "gekämpft",
+  "hs": "haben",
+  "pr": {
+   "ich": "kämpfe",
+   "du": "kämpfst",
+   "er": "kämpft",
+   "wir": "kämpfen",
+   "ihr": "kämpft",
+   "sie": "kämpfen"
+  },
+  "pt": {
+   "ich": "kämpfte",
+   "du": "kämpftest",
+   "er": "kämpfte",
+   "wir": "kämpften",
+   "ihr": "kämpftet",
+   "sie": "kämpften"
+  },
+  "pk": {
+   "ich": "habe gekämpft",
+   "du": "hast gekämpft",
+   "er": "hat gekämpft",
+   "wir": "haben gekämpft",
+   "ihr": "habt gekämpft",
+   "sie": "haben gekämpft"
+  },
+  "n": "'für / gegen etwas kämpfen'.",
+  "lvl": "B1"
+ },
+ {
+  "w": "profitieren",
+  "e": "to profit / benefit",
+  "ex": [
+   "Alle profitieren von der neuen Regel. — Everyone benefits from the new rule.",
+   "Ich habe viel von dem Kurs profitiert. — I benefited a lot from the course."
+  ],
+  "t": "reg",
+  "p2": "profitiert",
+  "hs": "haben",
+  "pr": {
+   "ich": "profitiere",
+   "du": "profitierst",
+   "er": "profitiert",
+   "wir": "profitieren",
+   "ihr": "profitiert",
+   "sie": "profitieren"
+  },
+  "pt": {
+   "ich": "profitierte",
+   "du": "profitiertest",
+   "er": "profitierte",
+   "wir": "profitierten",
+   "ihr": "profitiertet",
+   "sie": "profitierten"
+  },
+  "pk": {
+   "ich": "habe profitiert",
+   "du": "hast profitiert",
+   "er": "hat profitiert",
+   "wir": "haben profitiert",
+   "ihr": "habt profitiert",
+   "sie": "haben profitiert"
+  },
+  "n": "'von etwas (Dat.) profitieren'.",
+  "lvl": "B2"
+ },
+ {
+  "w": "schätzen",
+  "e": "to estimate; to appreciate",
+  "ex": [
+   "Ich schätze, es dauert zwei Stunden. — I reckon it takes two hours.",
+   "Ich habe deine Hilfe sehr geschätzt. — I really appreciated your help."
+  ],
+  "t": "reg",
+  "p2": "geschätzt",
+  "hs": "haben",
+  "pr": {
+   "ich": "schätze",
+   "du": "schätzt",
+   "er": "schätzt",
+   "wir": "schätzen",
+   "ihr": "schätzt",
+   "sie": "schätzen"
+  },
+  "pt": {
+   "ich": "schätzte",
+   "du": "schätztest",
+   "er": "schätzte",
+   "wir": "schätzten",
+   "ihr": "schätztet",
+   "sie": "schätzten"
+  },
+  "pk": {
+   "ich": "habe geschätzt",
+   "du": "hast geschätzt",
+   "er": "hat geschätzt",
+   "wir": "haben geschätzt",
+   "ihr": "habt geschätzt",
+   "sie": "haben geschätzt"
+  },
+  "n": "du schätzt (not schätzest).",
+  "lvl": "B1"
+ },
+ {
+  "w": "schützen",
+  "e": "to protect",
+  "ex": [
+   "Die Creme schützt vor der Sonne. — The cream protects against the sun.",
+   "Der Helm hat ihn geschützt. — The helmet protected him."
+  ],
+  "t": "reg",
+  "p2": "geschützt",
+  "hs": "haben",
+  "pr": {
+   "ich": "schütze",
+   "du": "schützt",
+   "er": "schützt",
+   "wir": "schützen",
+   "ihr": "schützt",
+   "sie": "schützen"
+  },
+  "pt": {
+   "ich": "schützte",
+   "du": "schütztest",
+   "er": "schützte",
+   "wir": "schützten",
+   "ihr": "schütztet",
+   "sie": "schützten"
+  },
+  "pk": {
+   "ich": "habe geschützt",
+   "du": "hast geschützt",
+   "er": "hat geschützt",
+   "wir": "haben geschützt",
+   "ihr": "habt geschützt",
+   "sie": "haben geschützt"
+  },
+  "n": "'vor etwas (Dat.) schützen'. Noun: der Schutz.",
+  "lvl": "B1"
+ },
+ {
+  "w": "steigern",
+  "e": "to increase / raise",
+  "ex": [
+   "Wir wollen den Umsatz steigern. — We want to increase revenue.",
+   "Die Firma hat ihren Gewinn gesteigert. — The company increased its profit."
+  ],
+  "t": "reg",
+  "p2": "gesteigert",
+  "hs": "haben",
+  "pr": {
+   "ich": "steigere",
+   "du": "steigerst",
+   "er": "steigert",
+   "wir": "steigern",
+   "ihr": "steigert",
+   "sie": "steigern"
+  },
+  "pt": {
+   "ich": "steigerte",
+   "du": "steigertest",
+   "er": "steigerte",
+   "wir": "steigerten",
+   "ihr": "steigertet",
+   "sie": "steigerten"
+  },
+  "pk": {
+   "ich": "habe gesteigert",
+   "du": "hast gesteigert",
+   "er": "hat gesteigert",
+   "wir": "haben gesteigert",
+   "ihr": "habt gesteigert",
+   "sie": "haben gesteigert"
+  },
+  "n": "-ern verb: ich steigere, wir steigern.",
+  "lvl": "B2"
+ },
+ {
+  "w": "tauschen",
+  "e": "to swap / exchange",
+  "ex": [
+   "Wollen wir die Plätze tauschen? — Shall we swap seats?",
+   "Ich habe die Jacke gegen eine größere getauscht. — I exchanged the jacket for a bigger one."
+  ],
+  "t": "reg",
+  "p2": "getauscht",
+  "hs": "haben",
+  "pr": {
+   "ich": "tausche",
+   "du": "tauschst",
+   "er": "tauscht",
+   "wir": "tauschen",
+   "ihr": "tauscht",
+   "sie": "tauschen"
+  },
+  "pt": {
+   "ich": "tauschte",
+   "du": "tauschtest",
+   "er": "tauschte",
+   "wir": "tauschten",
+   "ihr": "tauschtet",
+   "sie": "tauschten"
+  },
+  "pk": {
+   "ich": "habe getauscht",
+   "du": "hast getauscht",
+   "er": "hat getauscht",
+   "wir": "haben getauscht",
+   "ihr": "habt getauscht",
+   "sie": "haben getauscht"
+  },
+  "n": "Also 'umtauschen' for exchanging goods in a shop.",
+  "lvl": "A2"
+ },
+ {
+  "w": "überprüfen",
+  "e": "to check / verify",
+  "ex": [
+   "Bitte überprüfen Sie Ihre Angaben. — Please check your details.",
+   "Ich habe die Rechnung zweimal überprüft. — I checked the invoice twice."
+  ],
+  "t": "reg",
+  "p2": "überprüft",
+  "hs": "haben",
+  "pr": {
+   "ich": "überprüfe",
+   "du": "überprüfst",
+   "er": "überprüft",
+   "wir": "überprüfen",
+   "ihr": "überprüft",
+   "sie": "überprüfen"
+  },
+  "pt": {
+   "ich": "überprüfte",
+   "du": "überprüftest",
+   "er": "überprüfte",
+   "wir": "überprüften",
+   "ihr": "überprüftet",
+   "sie": "überprüften"
+  },
+  "pk": {
+   "ich": "habe überprüft",
+   "du": "hast überprüft",
+   "er": "hat überprüft",
+   "wir": "haben überprüft",
+   "ihr": "habt überprüft",
+   "sie": "haben überprüft"
+  },
+  "n": "Inseparable (über- unstressed here), so no ge-.",
+  "lvl": "B1"
+ },
+ {
+  "w": "verbrauchen",
+  "e": "to consume / use up",
+  "ex": [
+   "Das Auto verbraucht sechs Liter. — The car uses six litres.",
+   "Wir haben zu viel Strom verbraucht. — We used too much electricity."
+  ],
+  "t": "reg",
+  "p2": "verbraucht",
+  "hs": "haben",
+  "pr": {
+   "ich": "verbrauche",
+   "du": "verbrauchst",
+   "er": "verbraucht",
+   "wir": "verbrauchen",
+   "ihr": "verbraucht",
+   "sie": "verbrauchen"
+  },
+  "pt": {
+   "ich": "verbrauchte",
+   "du": "verbrauchtest",
+   "er": "verbrauchte",
+   "wir": "verbrauchten",
+   "ihr": "verbrauchtet",
+   "sie": "verbrauchten"
+  },
+  "pk": {
+   "ich": "habe verbraucht",
+   "du": "hast verbraucht",
+   "er": "hat verbraucht",
+   "wir": "haben verbraucht",
+   "ihr": "habt verbraucht",
+   "sie": "haben verbraucht"
+  },
+  "n": "Noun: der Verbrauch = consumption; der Verbraucher = consumer.",
+  "lvl": "B1"
+ },
+ {
+  "w": "verlängern",
+  "e": "to extend / renew",
+  "ex": [
+   "Ich muss meinen Pass verlängern. — I have to renew my passport.",
+   "Der Vertrag wurde um ein Jahr verlängert. — The contract was extended by a year."
+  ],
+  "t": "reg",
+  "p2": "verlängert",
+  "hs": "haben",
+  "pr": {
+   "ich": "verlängere",
+   "du": "verlängerst",
+   "er": "verlängert",
+   "wir": "verlängern",
+   "ihr": "verlängert",
+   "sie": "verlängern"
+  },
+  "pt": {
+   "ich": "verlängerte",
+   "du": "verlängertest",
+   "er": "verlängerte",
+   "wir": "verlängerten",
+   "ihr": "verlängertet",
+   "sie": "verlängerten"
+  },
+  "pk": {
+   "ich": "habe verlängert",
+   "du": "hast verlängert",
+   "er": "hat verlängert",
+   "wir": "haben verlängert",
+   "ihr": "habt verlängert",
+   "sie": "haben verlängert"
+  },
+  "n": "-ern verb. Also used for residence permits: 'die Aufenthaltserlaubnis verlängern'.",
+  "lvl": "B1"
+ },
+ {
+  "w": "verschwenden",
+  "e": "to waste",
+  "ex": [
+   "Verschwende nicht so viel Zeit! — Don't waste so much time!",
+   "Wir haben viel Geld verschwendet. — We wasted a lot of money."
+  ],
+  "t": "reg",
+  "p2": "verschwendet",
+  "hs": "haben",
+  "pr": {
+   "ich": "verschwende",
+   "du": "verschwendest",
+   "er": "verschwendet",
+   "wir": "verschwenden",
+   "ihr": "verschwendet",
+   "sie": "verschwenden"
+  },
+  "pt": {
+   "ich": "verschwendete",
+   "du": "verschwendetest",
+   "er": "verschwendete",
+   "wir": "verschwendeten",
+   "ihr": "verschwendetet",
+   "sie": "verschwendeten"
+  },
+  "pk": {
+   "ich": "habe verschwendet",
+   "du": "hast verschwendet",
+   "er": "hat verschwendet",
+   "wir": "haben verschwendet",
+   "ihr": "habt verschwendet",
+   "sie": "haben verschwendet"
+  },
+  "n": "Stem ends in -d, so du verschwendest, er verschwendet.",
+  "lvl": "B1"
+ },
+ {
+  "w": "zögern",
+  "e": "to hesitate",
+  "ex": [
+   "Zögern Sie nicht, mich anzurufen. — Don't hesitate to call me.",
+   "Er hat lange gezögert. — He hesitated for a long time."
+  ],
+  "t": "reg",
+  "p2": "gezögert",
+  "hs": "haben",
+  "pr": {
+   "ich": "zögere",
+   "du": "zögerst",
+   "er": "zögert",
+   "wir": "zögern",
+   "ihr": "zögert",
+   "sie": "zögern"
+  },
+  "pt": {
+   "ich": "zögerte",
+   "du": "zögertest",
+   "er": "zögerte",
+   "wir": "zögerten",
+   "ihr": "zögertet",
+   "sie": "zögerten"
+  },
+  "pk": {
+   "ich": "habe gezögert",
+   "du": "hast gezögert",
+   "er": "hat gezögert",
+   "wir": "haben gezögert",
+   "ihr": "habt gezögert",
+   "sie": "haben gezögert"
+  },
+  "n": "-ern verb: ich zögere, wir zögern.",
+  "lvl": "B1"
+ },
+ {
+  "w": "sich erkundigen",
+  "e": "to enquire / ask about",
+  "ex": [
+   "Ich erkundige mich nach dem Preis. — I'm enquiring about the price.",
+   "Hast du dich schon nach dem Kurs erkundigt? — Have you asked about the course yet?"
+  ],
+  "t": "reg",
+  "p2": "erkundigt",
+  "hs": "haben",
+  "pr": {
+   "ich": "erkundige mich",
+   "du": "erkundigst dich",
+   "er": "erkundigt sich",
+   "wir": "erkundigen uns",
+   "ihr": "erkundigt euch",
+   "sie": "erkundigen sich"
+  },
+  "pt": {
+   "ich": "erkundigte mich",
+   "du": "erkundigtest dich",
+   "er": "erkundigte sich",
+   "wir": "erkundigten uns",
+   "ihr": "erkundigtet euch",
+   "sie": "erkundigten sich"
+  },
+  "pk": {
+   "ich": "habe mich erkundigt",
+   "du": "hast dich erkundigt",
+   "er": "hat sich erkundigt",
+   "wir": "haben uns erkundigt",
+   "ihr": "habt euch erkundigt",
+   "sie": "haben sich erkundigt"
+  },
+  "n": "Reflexive: 'sich nach etwas (Dat.) erkundigen'.",
+  "lvl": "B1",
+  "refl": true
+ },
+ {
+  "w": "sich verabschieden",
+  "e": "to say goodbye",
+  "ex": [
+   "Ich verabschiede mich jetzt. — I'm saying goodbye now.",
+   "Wir haben uns am Bahnhof verabschiedet. — We said goodbye at the station."
+  ],
+  "t": "reg",
+  "p2": "verabschiedet",
+  "hs": "haben",
+  "pr": {
+   "ich": "verabschiede mich",
+   "du": "verabschiedest dich",
+   "er": "verabschiedet sich",
+   "wir": "verabschieden uns",
+   "ihr": "verabschiedet euch",
+   "sie": "verabschieden sich"
+  },
+  "pt": {
+   "ich": "verabschiedete mich",
+   "du": "verabschiedetest dich",
+   "er": "verabschiedete sich",
+   "wir": "verabschiedeten uns",
+   "ihr": "verabschiedetet euch",
+   "sie": "verabschiedeten sich"
+  },
+  "pk": {
+   "ich": "habe mich verabschiedet",
+   "du": "hast dich verabschiedet",
+   "er": "hat sich verabschiedet",
+   "wir": "haben uns verabschiedet",
+   "ihr": "habt euch verabschiedet",
+   "sie": "haben sich verabschiedet"
+  },
+  "n": "Reflexive: 'sich von jemandem verabschieden'.",
+  "lvl": "A2",
+  "refl": true
+ },
+ {
+  "w": "sich verspäten",
+  "e": "to be late",
+  "ex": [
+   "Ich verspäte mich um zehn Minuten. — I'll be ten minutes late.",
+   "Der Zug hat sich verspätet. — The train was delayed."
+  ],
+  "t": "reg",
+  "p2": "verspätet",
+  "hs": "haben",
+  "pr": {
+   "ich": "verspäte mich",
+   "du": "verspätest dich",
+   "er": "verspätet sich",
+   "wir": "verspäten uns",
+   "ihr": "verspätet euch",
+   "sie": "verspäten sich"
+  },
+  "pt": {
+   "ich": "verspätete mich",
+   "du": "verspätetest dich",
+   "er": "verspätete sich",
+   "wir": "verspäteten uns",
+   "ihr": "verspätetet euch",
+   "sie": "verspäteten sich"
+  },
+  "pk": {
+   "ich": "habe mich verspätet",
+   "du": "hast dich verspätet",
+   "er": "hat sich verspätet",
+   "wir": "haben uns verspätet",
+   "ihr": "habt euch verspätet",
+   "sie": "haben sich verspätet"
+  },
+  "n": "Reflexive. Noun: die Verspätung = delay.",
+  "lvl": "A2",
+  "refl": true
+ },
+ {
+  "w": "sich verabreden",
+  "e": "to arrange to meet",
+  "ex": [
+   "Ich verabrede mich mit Anna zum Kaffee. — I'm arranging to meet Anna for coffee.",
+   "Wir haben uns für Samstag verabredet. — We arranged to meet on Saturday."
+  ],
+  "t": "reg",
+  "p2": "verabredet",
+  "hs": "haben",
+  "pr": {
+   "ich": "verabrede mich",
+   "du": "verabredest dich",
+   "er": "verabredet sich",
+   "wir": "verabreden uns",
+   "ihr": "verabredet euch",
+   "sie": "verabreden sich"
+  },
+  "pt": {
+   "ich": "verabredete mich",
+   "du": "verabredetest dich",
+   "er": "verabredete sich",
+   "wir": "verabredeten uns",
+   "ihr": "verabredetet euch",
+   "sie": "verabredeten sich"
+  },
+  "pk": {
+   "ich": "habe mich verabredet",
+   "du": "hast dich verabredet",
+   "er": "hat sich verabredet",
+   "wir": "haben uns verabredet",
+   "ihr": "habt euch verabredet",
+   "sie": "haben sich verabredet"
+  },
+  "n": "Reflexive: 'sich mit jemandem verabreden'. Noun: die Verabredung.",
+  "lvl": "A2",
+  "refl": true
+ },
+ {
+  "w": "sich erkälten",
+  "e": "to catch a cold",
+  "ex": [
+   "Zieh eine Jacke an, sonst erkältest du dich! — Put a jacket on or you'll catch a cold!",
+   "Ich habe mich erkältet. — I've caught a cold."
+  ],
+  "t": "reg",
+  "p2": "erkältet",
+  "hs": "haben",
+  "pr": {
+   "ich": "erkälte mich",
+   "du": "erkältest dich",
+   "er": "erkältet sich",
+   "wir": "erkälten uns",
+   "ihr": "erkältet euch",
+   "sie": "erkälten sich"
+  },
+  "pt": {
+   "ich": "erkältete mich",
+   "du": "erkältetest dich",
+   "er": "erkältete sich",
+   "wir": "erkälteten uns",
+   "ihr": "erkältetet euch",
+   "sie": "erkälteten sich"
+  },
+  "pk": {
+   "ich": "habe mich erkältet",
+   "du": "hast dich erkältet",
+   "er": "hat sich erkältet",
+   "wir": "haben uns erkältet",
+   "ihr": "habt euch erkältet",
+   "sie": "haben sich erkältet"
+  },
+  "n": "Reflexive. Noun: die Erkältung = cold.",
+  "lvl": "A2",
+  "refl": true
+ },
+ {
+  "w": "sich aufregen",
+  "e": "to get worked up / upset",
+  "ex": [
+   "Reg dich nicht auf! — Don't get worked up!",
+   "Er hat sich über den Lärm aufgeregt. — He got upset about the noise."
+  ],
+  "t": "reg",
+  "p2": "aufgeregt",
+  "hs": "haben",
+  "pr": {
+   "ich": "rege mich auf",
+   "du": "regst dich auf",
+   "er": "regt sich auf",
+   "wir": "regen uns auf",
+   "ihr": "regt euch auf",
+   "sie": "regen sich auf"
+  },
+  "pt": {
+   "ich": "regte mich auf",
+   "du": "regtest dich auf",
+   "er": "regte sich auf",
+   "wir": "regten uns auf",
+   "ihr": "regtet euch auf",
+   "sie": "regten sich auf"
+  },
+  "pk": {
+   "ich": "habe mich aufgeregt",
+   "du": "hast dich aufgeregt",
+   "er": "hat sich aufgeregt",
+   "wir": "haben uns aufgeregt",
+   "ihr": "habt euch aufgeregt",
+   "sie": "haben sich aufgeregt"
+  },
+  "n": "Separable and reflexive: 'sich über etwas (Akk.) aufregen'.",
+  "sep": true,
+  "lvl": "B1",
+  "refl": true
+ },
+ {
+  "w": "sich bemühen",
+  "e": "to make an effort / try hard",
+  "ex": [
+   "Ich bemühe mich, pünktlich zu sein. — I try hard to be on time.",
+   "Sie hat sich um eine Stelle bemüht. — She tried to get a job."
+  ],
+  "t": "reg",
+  "p2": "bemüht",
+  "hs": "haben",
+  "pr": {
+   "ich": "bemühe mich",
+   "du": "bemühst dich",
+   "er": "bemüht sich",
+   "wir": "bemühen uns",
+   "ihr": "bemüht euch",
+   "sie": "bemühen sich"
+  },
+  "pt": {
+   "ich": "bemühte mich",
+   "du": "bemühtest dich",
+   "er": "bemühte sich",
+   "wir": "bemühten uns",
+   "ihr": "bemühtet euch",
+   "sie": "bemühten sich"
+  },
+  "pk": {
+   "ich": "habe mich bemüht",
+   "du": "hast dich bemüht",
+   "er": "hat sich bemüht",
+   "wir": "haben uns bemüht",
+   "ihr": "habt euch bemüht",
+   "sie": "haben sich bemüht"
+  },
+  "n": "Reflexive. 'sich um etwas (Akk.) bemühen' = to try to obtain something.",
+  "lvl": "B1",
+  "refl": true
+ },
+ {
+  "w": "sich beteiligen",
+  "e": "to take part / participate",
+  "ex": [
+   "Alle beteiligen sich an der Diskussion. — Everyone takes part in the discussion.",
+   "Er hat sich nicht an den Kosten beteiligt. — He didn't contribute to the costs."
+  ],
+  "t": "reg",
+  "p2": "beteiligt",
+  "hs": "haben",
+  "pr": {
+   "ich": "beteilige mich",
+   "du": "beteiligst dich",
+   "er": "beteiligt sich",
+   "wir": "beteiligen uns",
+   "ihr": "beteiligt euch",
+   "sie": "beteiligen sich"
+  },
+  "pt": {
+   "ich": "beteiligte mich",
+   "du": "beteiligtest dich",
+   "er": "beteiligte sich",
+   "wir": "beteiligten uns",
+   "ihr": "beteiligtet euch",
+   "sie": "beteiligten sich"
+  },
+  "pk": {
+   "ich": "habe mich beteiligt",
+   "du": "hast dich beteiligt",
+   "er": "hat sich beteiligt",
+   "wir": "haben uns beteiligt",
+   "ihr": "habt euch beteiligt",
+   "sie": "haben sich beteiligt"
+  },
+  "n": "Reflexive: 'sich an etwas (Dat.) beteiligen'.",
+  "lvl": "B2",
+  "refl": true
+ },
+ {
+  "w": "sich eignen",
+  "e": "to be suitable",
+  "ex": [
+   "Die Wohnung eignet sich gut für Familien. — The flat is well suited to families.",
+   "Das Buch hat sich gut für den Unterricht geeignet. — The book was well suited to the class."
+  ],
+  "t": "reg",
+  "p2": "geeignet",
+  "hs": "haben",
+  "pr": {
+   "ich": "eigne mich",
+   "du": "eignest dich",
+   "er": "eignet sich",
+   "wir": "eignen uns",
+   "ihr": "eignet euch",
+   "sie": "eignen sich"
+  },
+  "pt": {
+   "ich": "eignete mich",
+   "du": "eignetest dich",
+   "er": "eignete sich",
+   "wir": "eigneten uns",
+   "ihr": "eignetet euch",
+   "sie": "eigneten sich"
+  },
+  "pk": {
+   "ich": "habe mich geeignet",
+   "du": "hast dich geeignet",
+   "er": "hat sich geeignet",
+   "wir": "haben uns geeignet",
+   "ihr": "habt euch geeignet",
+   "sie": "haben sich geeignet"
+  },
+  "n": "Reflexive: 'sich für etwas eignen'. Adjective: geeignet = suitable.",
+  "lvl": "B2",
+  "refl": true
+ },
+ {
+  "w": "vermitteln",
+  "e": "to convey; to arrange / mediate",
+  "ex": [
+   "Der Kurs vermittelt Grundkenntnisse. — The course teaches the basics.",
+   "Die Agentur hat mir eine Wohnung vermittelt. — The agency found me a flat."
+  ],
+  "t": "reg",
+  "p2": "vermittelt",
+  "hs": "haben",
+  "pr": {
+   "ich": "vermittle",
+   "du": "vermittelst",
+   "er": "vermittelt",
+   "wir": "vermitteln",
+   "ihr": "vermittelt",
+   "sie": "vermitteln"
+  },
+  "pt": {
+   "ich": "vermittelte",
+   "du": "vermitteltest",
+   "er": "vermittelte",
+   "wir": "vermittelten",
+   "ihr": "vermitteltet",
+   "sie": "vermittelten"
+  },
+  "pk": {
+   "ich": "habe vermittelt",
+   "du": "hast vermittelt",
+   "er": "hat vermittelt",
+   "wir": "haben vermittelt",
+   "ihr": "habt vermittelt",
+   "sie": "haben vermittelt"
+  },
+  "n": "-eln verb: ich vermittle, wir vermitteln.",
+  "lvl": "B2"
+ },
+ {
+  "w": "zustimmen",
+  "e": "to agree",
+  "ex": [
+   "Da stimme ich dir zu. — I agree with you there.",
+   "Alle haben dem Plan zugestimmt. — Everyone agreed to the plan."
+  ],
+  "t": "reg",
+  "p2": "zugestimmt",
+  "hs": "haben",
+  "pr": {
+   "ich": "stimme zu",
+   "du": "stimmst zu",
+   "er": "stimmt zu",
+   "wir": "stimmen zu",
+   "ihr": "stimmt zu",
+   "sie": "stimmen zu"
+  },
+  "pt": {
+   "ich": "stimmte zu",
+   "du": "stimmtest zu",
+   "er": "stimmte zu",
+   "wir": "stimmten zu",
+   "ihr": "stimmtet zu",
+   "sie": "stimmten zu"
+  },
+  "pk": {
+   "ich": "habe zugestimmt",
+   "du": "hast zugestimmt",
+   "er": "hat zugestimmt",
+   "wir": "haben zugestimmt",
+   "ihr": "habt zugestimmt",
+   "sie": "haben zugestimmt"
+  },
+  "n": "Separable, takes the dative: 'jemandem / einer Sache zustimmen'.",
+  "sep": true,
+  "lvl": "B1"
+ },
+ {
+  "w": "ausleihen",
+  "e": "to borrow; to lend",
+  "ex": [
+   "Ich leihe mir ein Buch in der Bibliothek aus. — I'm borrowing a book from the library.",
+   "Er hat mir sein Fahrrad ausgeliehen. — He lent me his bike."
+  ],
+  "t": "irr",
+  "p2": "ausgeliehen",
+  "hs": "haben",
+  "pr": {
+   "ich": "leihe aus",
+   "du": "leihst aus",
+   "er": "leiht aus",
+   "wir": "leihen aus",
+   "ihr": "leiht aus",
+   "sie": "leihen aus"
+  },
+  "pt": {
+   "ich": "lieh aus",
+   "du": "liehst aus",
+   "er": "lieh aus",
+   "wir": "liehen aus",
+   "ihr": "lieht aus",
+   "sie": "liehen aus"
+  },
+  "pk": {
+   "ich": "habe ausgeliehen",
+   "du": "hast ausgeliehen",
+   "er": "hat ausgeliehen",
+   "wir": "haben ausgeliehen",
+   "ihr": "habt ausgeliehen",
+   "sie": "haben ausgeliehen"
+  },
+  "n": "Separable. 'sich etwas ausleihen' = to borrow; 'jemandem etwas ausleihen' = to lend.",
+  "sep": true,
+  "lvl": "A2"
+ },
+ {
+  "w": "aufwachsen",
+  "e": "to grow up",
+  "ex": [
+   "Unsere Kinder wachsen zweisprachig auf. — Our children are growing up bilingual.",
+   "Ich bin in Hamburg aufgewachsen. — I grew up in Hamburg."
+  ],
+  "t": "irr",
+  "p2": "aufgewachsen",
+  "hs": "sein",
+  "pr": {
+   "ich": "wachse auf",
+   "du": "wächst auf",
+   "er": "wächst auf",
+   "wir": "wachsen auf",
+   "ihr": "wachst auf",
+   "sie": "wachsen auf"
+  },
+  "pt": {
+   "ich": "wuchs auf",
+   "du": "wuchsest auf",
+   "er": "wuchs auf",
+   "wir": "wuchsen auf",
+   "ihr": "wuchst auf",
+   "sie": "wuchsen auf"
+  },
+  "pk": {
+   "ich": "bin aufgewachsen",
+   "du": "bist aufgewachsen",
+   "er": "ist aufgewachsen",
+   "wir": "sind aufgewachsen",
+   "ihr": "seid aufgewachsen",
+   "sie": "sind aufgewachsen"
+  },
+  "n": "Separable, Perfekt with sein. a → ä in du/er.",
+  "sep": true,
+  "lvl": "B1"
+ },
+ {
+  "w": "leiden",
+  "e": "to suffer",
+  "ex": [
+   "Sie leidet unter Kopfschmerzen. — She suffers from headaches.",
+   "Er hat sehr unter dem Stress gelitten. — He suffered a lot from the stress."
+  ],
+  "t": "irr",
+  "p2": "gelitten",
+  "hs": "haben",
+  "pr": {
+   "ich": "leide",
+   "du": "leidest",
+   "er": "leidet",
+   "wir": "leiden",
+   "ihr": "leidet",
+   "sie": "leiden"
+  },
+  "pt": {
+   "ich": "litt",
+   "du": "littest",
+   "er": "litt",
+   "wir": "litten",
+   "ihr": "littet",
+   "sie": "litten"
+  },
+  "pk": {
+   "ich": "habe gelitten",
+   "du": "hast gelitten",
+   "er": "hat gelitten",
+   "wir": "haben gelitten",
+   "ihr": "habt gelitten",
+   "sie": "haben gelitten"
+  },
+  "n": "'unter etwas (Dat.) leiden'. 'Ich kann ihn nicht leiden' = I can't stand him.",
+  "lvl": "B1"
+ },
+ {
+  "w": "verzeihen",
+  "e": "to forgive",
+  "ex": [
+   "Verzeihen Sie, wo ist der Bahnhof? — Excuse me, where is the station?",
+   "Sie hat ihm den Fehler verziehen. — She forgave him the mistake."
+  ],
+  "t": "irr",
+  "p2": "verziehen",
+  "hs": "haben",
+  "pr": {
+   "ich": "verzeihe",
+   "du": "verzeihst",
+   "er": "verzeiht",
+   "wir": "verzeihen",
+   "ihr": "verzeiht",
+   "sie": "verzeihen"
+  },
+  "pt": {
+   "ich": "verzieh",
+   "du": "verziehst",
+   "er": "verzieh",
+   "wir": "verziehen",
+   "ihr": "verzieht",
+   "sie": "verziehen"
+  },
+  "pk": {
+   "ich": "habe verziehen",
+   "du": "hast verziehen",
+   "er": "hat verziehen",
+   "wir": "haben verziehen",
+   "ihr": "habt verziehen",
+   "sie": "haben verziehen"
+  },
+  "n": "Takes the dative of the person: 'jemandem etwas verzeihen'.",
+  "lvl": "B1"
+ },
+ {
+  "w": "zunehmen",
+  "e": "to increase; to put on weight",
+  "ex": [
+   "Der Verkehr nimmt jedes Jahr zu. — Traffic increases every year.",
+   "Ich habe im Urlaub zwei Kilo zugenommen. — I put on two kilos on holiday."
+  ],
+  "t": "irr",
+  "p2": "zugenommen",
+  "hs": "haben",
+  "pr": {
+   "ich": "nehme zu",
+   "du": "nimmst zu",
+   "er": "nimmt zu",
+   "wir": "nehmen zu",
+   "ihr": "nehmt zu",
+   "sie": "nehmen zu"
+  },
+  "pt": {
+   "ich": "nahm zu",
+   "du": "nahmst zu",
+   "er": "nahm zu",
+   "wir": "nahmen zu",
+   "ihr": "nahmt zu",
+   "sie": "nahmen zu"
+  },
+  "pk": {
+   "ich": "habe zugenommen",
+   "du": "hast zugenommen",
+   "er": "hat zugenommen",
+   "wir": "haben zugenommen",
+   "ihr": "habt zugenommen",
+   "sie": "haben zugenommen"
+  },
+  "n": "Separable. Opposite: abnehmen.",
+  "sep": true,
+  "lvl": "B1"
+ },
+ {
+  "w": "widersprechen",
+  "e": "to contradict",
+  "ex": [
+   "Da muss ich Ihnen widersprechen. — I have to contradict you there.",
+   "Niemand hat ihm widersprochen. — Nobody contradicted him."
+  ],
+  "t": "irr",
+  "p2": "widersprochen",
+  "hs": "haben",
+  "pr": {
+   "ich": "widerspreche",
+   "du": "widersprichst",
+   "er": "widerspricht",
+   "wir": "widersprechen",
+   "ihr": "widersprecht",
+   "sie": "widersprechen"
+  },
+  "pt": {
+   "ich": "widersprach",
+   "du": "widersprachst",
+   "er": "widersprach",
+   "wir": "widersprachen",
+   "ihr": "widerspracht",
+   "sie": "widersprachen"
+  },
+  "pk": {
+   "ich": "habe widersprochen",
+   "du": "hast widersprochen",
+   "er": "hat widersprochen",
+   "wir": "haben widersprochen",
+   "ihr": "habt widersprochen",
+   "sie": "haben widersprochen"
+  },
+  "n": "Inseparable (wider- unstressed), takes the dative.",
+  "lvl": "B2"
+ },
+ {
+  "w": "wahrnehmen",
+  "e": "to perceive; to make use of",
+  "ex": [
+   "Viele nehmen das Problem nicht wahr. — Many people don't perceive the problem.",
+   "Ich habe den Termin wahrgenommen. — I kept the appointment."
+  ],
+  "t": "irr",
+  "p2": "wahrgenommen",
+  "hs": "haben",
+  "pr": {
+   "ich": "nehme wahr",
+   "du": "nimmst wahr",
+   "er": "nimmt wahr",
+   "wir": "nehmen wahr",
+   "ihr": "nehmt wahr",
+   "sie": "nehmen wahr"
+  },
+  "pt": {
+   "ich": "nahm wahr",
+   "du": "nahmst wahr",
+   "er": "nahm wahr",
+   "wir": "nahmen wahr",
+   "ihr": "nahmt wahr",
+   "sie": "nahmen wahr"
+  },
+  "pk": {
+   "ich": "habe wahrgenommen",
+   "du": "hast wahrgenommen",
+   "er": "hat wahrgenommen",
+   "wir": "haben wahrgenommen",
+   "ihr": "habt wahrgenommen",
+   "sie": "haben wahrgenommen"
+  },
+  "n": "Separable. 'einen Termin wahrnehmen' = to attend an appointment (formal).",
+  "sep": true,
+  "lvl": "B2"
+ },
+ {
+  "w": "beitragen",
+  "e": "to contribute",
+  "ex": [
+   "Jeder kann etwas zum Umweltschutz beitragen. — Everyone can contribute to protecting the environment.",
+   "Sie hat viel zum Erfolg beigetragen. — She contributed a lot to the success."
+  ],
+  "t": "irr",
+  "p2": "beigetragen",
+  "hs": "haben",
+  "pr": {
+   "ich": "trage bei",
+   "du": "trägst bei",
+   "er": "trägt bei",
+   "wir": "tragen bei",
+   "ihr": "tragt bei",
+   "sie": "tragen bei"
+  },
+  "pt": {
+   "ich": "trug bei",
+   "du": "trugst bei",
+   "er": "trug bei",
+   "wir": "trugen bei",
+   "ihr": "trugt bei",
+   "sie": "trugen bei"
+  },
+  "pk": {
+   "ich": "habe beigetragen",
+   "du": "hast beigetragen",
+   "er": "hat beigetragen",
+   "wir": "haben beigetragen",
+   "ihr": "habt beigetragen",
+   "sie": "haben beigetragen"
+  },
+  "n": "Separable. 'zu etwas (Dat.) beitragen'. Noun: der Beitrag.",
+  "sep": true,
+  "lvl": "B2"
+ },
+ {
+  "w": "empfinden",
+  "e": "to feel / perceive",
+  "ex": [
+   "Ich empfinde die Arbeit als stressig. — I find the work stressful.",
+   "Wie hast du das Gespräch empfunden? — How did you feel about the conversation?"
+  ],
+  "t": "irr",
+  "p2": "empfunden",
+  "hs": "haben",
+  "pr": {
+   "ich": "empfinde",
+   "du": "empfindest",
+   "er": "empfindet",
+   "wir": "empfinden",
+   "ihr": "empfindet",
+   "sie": "empfinden"
+  },
+  "pt": {
+   "ich": "empfand",
+   "du": "empfandest",
+   "er": "empfand",
+   "wir": "empfanden",
+   "ihr": "empfandet",
+   "sie": "empfanden"
+  },
+  "pk": {
+   "ich": "habe empfunden",
+   "du": "hast empfunden",
+   "er": "hat empfunden",
+   "wir": "haben empfunden",
+   "ihr": "habt empfunden",
+   "sie": "haben empfunden"
+  },
+  "n": "'etwas als … empfinden' = to perceive something as …",
+  "lvl": "B2"
+ },
+ {
+  "w": "entsprechen",
+  "e": "to correspond to / match",
+  "ex": [
+   "Das entspricht nicht der Wahrheit. — That doesn't correspond to the truth.",
+   "Die Wohnung hat unseren Erwartungen entsprochen. — The flat met our expectations."
+  ],
+  "t": "irr",
+  "p2": "entsprochen",
+  "hs": "haben",
+  "pr": {
+   "ich": "entspreche",
+   "du": "entsprichst",
+   "er": "entspricht",
+   "wir": "entsprechen",
+   "ihr": "entsprecht",
+   "sie": "entsprechen"
+  },
+  "pt": {
+   "ich": "entsprach",
+   "du": "entsprachst",
+   "er": "entsprach",
+   "wir": "entsprachen",
+   "ihr": "entspracht",
+   "sie": "entsprachen"
+  },
+  "pk": {
+   "ich": "habe entsprochen",
+   "du": "hast entsprochen",
+   "er": "hat entsprochen",
+   "wir": "haben entsprochen",
+   "ihr": "habt entsprochen",
+   "sie": "haben entsprochen"
+  },
+  "n": "Takes the dative. Adjective: entsprechend = corresponding / accordingly.",
+  "lvl": "B2"
+ },
+ {
+  "w": "herausfinden",
+  "e": "to find out",
+  "ex": [
+   "Ich finde heraus, wann der Zug fährt. — I'll find out when the train leaves.",
+   "Hast du herausgefunden, wer das war? — Did you find out who that was?"
+  ],
+  "t": "irr",
+  "p2": "herausgefunden",
+  "hs": "haben",
+  "pr": {
+   "ich": "finde heraus",
+   "du": "findest heraus",
+   "er": "findet heraus",
+   "wir": "finden heraus",
+   "ihr": "findet heraus",
+   "sie": "finden heraus"
+  },
+  "pt": {
+   "ich": "fand heraus",
+   "du": "fandest heraus",
+   "er": "fand heraus",
+   "wir": "fanden heraus",
+   "ihr": "fandet heraus",
+   "sie": "fanden heraus"
+  },
+  "pk": {
+   "ich": "habe herausgefunden",
+   "du": "hast herausgefunden",
+   "er": "hat herausgefunden",
+   "wir": "haben herausgefunden",
+   "ihr": "habt herausgefunden",
+   "sie": "haben herausgefunden"
+  },
+  "n": "Separable.",
+  "sep": true,
+  "lvl": "B1"
+ },
+ {
+  "w": "umgehen",
+  "e": "to deal with / handle",
+  "ex": [
+   "Sie geht gut mit Kindern um. — She's good with children.",
+   "Wie bist du mit dem Stress umgegangen? — How did you deal with the stress?"
+  ],
+  "t": "irr",
+  "p2": "umgegangen",
+  "hs": "sein",
+  "pr": {
+   "ich": "gehe um",
+   "du": "gehst um",
+   "er": "geht um",
+   "wir": "gehen um",
+   "ihr": "geht um",
+   "sie": "gehen um"
+  },
+  "pt": {
+   "ich": "ging um",
+   "du": "gingst um",
+   "er": "ging um",
+   "wir": "gingen um",
+   "ihr": "gingt um",
+   "sie": "gingen um"
+  },
+  "pk": {
+   "ich": "bin umgegangen",
+   "du": "bist umgegangen",
+   "er": "ist umgegangen",
+   "wir": "sind umgegangen",
+   "ihr": "seid umgegangen",
+   "sie": "sind umgegangen"
+  },
+  "n": "Separable, Perfekt with sein: 'mit etwas / jemandem umgehen'. Noun: der Umgang.",
+  "sep": true,
+  "lvl": "B1"
+ },
+ {
+  "w": "zurechtkommen",
+  "e": "to cope / get along",
+  "ex": [
+   "Kommst du mit dem neuen Handy zurecht? — Are you getting on with the new phone?",
+   "Ich bin in München gut zurechtgekommen. — I've coped well in Munich."
+  ],
+  "t": "irr",
+  "p2": "zurechtgekommen",
+  "hs": "sein",
+  "pr": {
+   "ich": "komme zurecht",
+   "du": "kommst zurecht",
+   "er": "kommt zurecht",
+   "wir": "kommen zurecht",
+   "ihr": "kommt zurecht",
+   "sie": "kommen zurecht"
+  },
+  "pt": {
+   "ich": "kam zurecht",
+   "du": "kamst zurecht",
+   "er": "kam zurecht",
+   "wir": "kamen zurecht",
+   "ihr": "kamt zurecht",
+   "sie": "kamen zurecht"
+  },
+  "pk": {
+   "ich": "bin zurechtgekommen",
+   "du": "bist zurechtgekommen",
+   "er": "ist zurechtgekommen",
+   "wir": "sind zurechtgekommen",
+   "ihr": "seid zurechtgekommen",
+   "sie": "sind zurechtgekommen"
+  },
+  "n": "Separable, Perfekt with sein: 'mit etwas / jemandem zurechtkommen'.",
+  "sep": true,
+  "lvl": "B1"
+ },
+ {
+  "w": "verraten",
+  "e": "to give away / betray / reveal",
+  "ex": [
+   "Verrat mir das Ende nicht! — Don't give away the ending!",
+   "Er hat das Geheimnis verraten. — He revealed the secret."
+  ],
+  "t": "irr",
+  "p2": "verraten",
+  "hs": "haben",
+  "pr": {
+   "ich": "verrate",
+   "du": "verrätst",
+   "er": "verrät",
+   "wir": "verraten",
+   "ihr": "verratet",
+   "sie": "verraten"
+  },
+  "pt": {
+   "ich": "verriet",
+   "du": "verrietst",
+   "er": "verriet",
+   "wir": "verrieten",
+   "ihr": "verrietet",
+   "sie": "verrieten"
+  },
+  "pk": {
+   "ich": "habe verraten",
+   "du": "hast verraten",
+   "er": "hat verraten",
+   "wir": "haben verraten",
+   "ihr": "habt verraten",
+   "sie": "haben verraten"
+  },
+  "n": "Partizip II = infinitive: verraten.",
+  "lvl": "B1"
+ },
+ {
+  "w": "beschließen",
+  "e": "to decide / resolve",
+  "ex": [
+   "Wir beschließen, nach Berlin zu ziehen. — We decide to move to Berlin.",
+   "Die Regierung hat ein neues Gesetz beschlossen. — The government passed a new law."
+  ],
+  "t": "irr",
+  "p2": "beschlossen",
+  "hs": "haben",
+  "pr": {
+   "ich": "beschließe",
+   "du": "beschließt",
+   "er": "beschließt",
+   "wir": "beschließen",
+   "ihr": "beschließt",
+   "sie": "beschließen"
+  },
+  "pt": {
+   "ich": "beschloss",
+   "du": "beschlossest",
+   "er": "beschloss",
+   "wir": "beschlossen",
+   "ihr": "beschlosst",
+   "sie": "beschlossen"
+  },
+  "pk": {
+   "ich": "habe beschlossen",
+   "du": "hast beschlossen",
+   "er": "hat beschlossen",
+   "wir": "haben beschlossen",
+   "ihr": "habt beschlossen",
+   "sie": "haben beschlossen"
+  },
+  "n": "More formal than 'entscheiden'; used for committees and parliaments.",
+  "lvl": "B2"
+ },
+ {
+  "w": "einhalten",
+  "e": "to keep / comply with",
+  "ex": [
+   "Bitte halten Sie die Frist ein. — Please meet the deadline.",
+   "Er hat sein Versprechen eingehalten. — He kept his promise."
+  ],
+  "t": "irr",
+  "p2": "eingehalten",
+  "hs": "haben",
+  "pr": {
+   "ich": "halte ein",
+   "du": "hältst ein",
+   "er": "hält ein",
+   "wir": "halten ein",
+   "ihr": "haltet ein",
+   "sie": "halten ein"
+  },
+  "pt": {
+   "ich": "hielt ein",
+   "du": "hieltst ein",
+   "er": "hielt ein",
+   "wir": "hielten ein",
+   "ihr": "hieltet ein",
+   "sie": "hielten ein"
+  },
+  "pk": {
+   "ich": "habe eingehalten",
+   "du": "hast eingehalten",
+   "er": "hat eingehalten",
+   "wir": "haben eingehalten",
+   "ihr": "habt eingehalten",
+   "sie": "haben eingehalten"
+  },
+  "n": "Separable. 'eine Frist / Regel / ein Versprechen einhalten'.",
+  "sep": true,
+  "lvl": "B2"
  }
 ]
