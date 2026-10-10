@@ -434,13 +434,6 @@
   "lvl": "A1"
  },
  {
-  "w": "Open Air",
-  "e": "Open Air",
-  "c": "Particle",
-  "ex": "Open Air heute im Stadtpark! — Open air today in the city park!",
-  "lvl": "A1"
- },
- {
   "w": "euch (ihr)",
   "e": "you",
   "c": "Pronoun",
@@ -788,13 +781,6 @@
   "e": "to cycle, to ride a bicycle",
   "c": "Expression",
   "ex": "Ich bin Fahrrad gefahren. — I rode my bicycle.",
-  "lvl": "A1"
- },
- {
-  "w": "Snowboard fahren",
-  "e": "to snowboard",
-  "c": "Expression",
-  "ex": "Ich bin Snowboard gefahren. — I went snowboarding.",
   "lvl": "A1"
  },
  {

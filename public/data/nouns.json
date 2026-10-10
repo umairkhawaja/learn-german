@@ -1020,16 +1020,6 @@
   "lvl": "A1"
  },
  {
-  "w": "das Internet",
-  "a": "das",
-  "e": "internet",
-  "c": "Home & Living",
-  "p": "(kein Plural)",
-  "ex": "Das Internet ist heute unverzichtbar. — The internet is indispensable today.",
-  "n": "'im Internet' = on the internet (im, not auf!). 'ins Internet gehen' = to go online; 'der Internetanschluss' = internet connection.",
-  "lvl": "A1"
- },
- {
   "w": "die Freundschaft",
   "a": "die",
   "e": "friendship",
@@ -1088,16 +1078,6 @@
   "ex": "Ich habe die Hoffnung noch nicht aufgegeben.",
   "n": "'Hoffnung aufgeben' = to give up hope. 'Die Hoffnung stirbt zuletzt' = hope dies last.",
   "lvl": "B1"
- },
- {
-  "w": "die App",
-  "a": "die",
-  "e": "app / application",
-  "c": "Technology & Media",
-  "p": "die Apps",
-  "ex": "Lad die App herunter. — Download the app.",
-  "n": "Borrowed from English. 'eine App herunterladen' = to download an app. The MVV app is essential for Munich transport.",
-  "lvl": "A1"
  },
  {
   "w": "das Obst",
@@ -1308,16 +1288,6 @@
   "ex": "Das hat viele Vorteile.",
   "n": "'der Vorteil' is masculine. Opposite: der Nachteil (disadvantage). 'Vor- und Nachteile' = pros and cons.",
   "lvl": "B1"
- },
- {
-  "w": "die E-Mail",
-  "a": "die",
-  "e": "email",
-  "c": "Technology & Media",
-  "p": "die E-Mails",
-  "ex": "Ich schicke dir eine E-Mail. — I will send you an email.",
-  "n": "Feminine in German. Also written 'Email'. Pronounced 'Ee-mail'.",
-  "lvl": "A1"
  },
  {
   "w": "der Wind",
@@ -1600,16 +1570,6 @@
   "lvl": "A1"
  },
  {
-  "w": "der Laptop",
-  "a": "der",
-  "e": "laptop / notebook",
-  "c": "Technology & Media",
-  "p": "die Laptops",
-  "ex": "Ich arbeite am Laptop. — I work on my laptop.",
-  "n": "Also: 'das Notebook'. Both masculine/neuter variants used.",
-  "lvl": "A1"
- },
- {
   "w": "der Kaffee",
   "a": "der",
   "e": "coffee",
@@ -1880,16 +1840,6 @@
   "lvl": "A1"
  },
  {
-  "w": "die Website",
-  "a": "die",
-  "e": "website",
-  "c": "Technology & Media",
-  "p": "die Websites",
-  "ex": "Die Website ist nicht erreichbar.",
-  "n": "Borrowed from English. Also: 'die Webseite' (a single page) and 'die Homepage'. 'eine Website besuchen' = to visit a website.",
-  "lvl": "A2"
- },
- {
   "w": "der Reisepass",
   "a": "der",
   "e": "passport",
@@ -1988,16 +1938,6 @@
   "ex": "Ich trinke morgens Milch. — I drink milk in the morning.",
   "n": "No plural. 'die Vollmilch' = whole milk; 'die Hafermilch' = oat milk. 'Kaffee mit Milch' = coffee with milk.",
   "lvl": "A1"
- },
- {
-  "w": "die Deadline",
-  "a": "die",
-  "e": "deadline / due date",
-  "c": "Work & Career",
-  "p": "die Deadlines",
-  "ex": "Die Deadline ist morgen.",
-  "n": "Borrowed from English; common in modern German workplaces. Also: 'die Frist' (the more formal term).",
-  "lvl": "B1"
  },
  {
   "w": "das Finanzamt",
@@ -2460,16 +2400,6 @@
   "lvl": "B1"
  },
  {
-  "w": "das Feedback",
-  "a": "das",
-  "e": "feedback",
-  "c": "Work & Career",
-  "p": "die Feedbacks",
-  "ex": "Ich brauche Ihr Feedback.",
-  "n": "Borrowed from English; widely used in German offices. 'Rückmeldung' is the German equivalent.",
-  "lvl": "B1"
- },
- {
   "w": "die Rate",
   "a": "die",
   "e": "instalment / rate",
@@ -2590,16 +2520,6 @@
   "lvl": "A1"
  },
  {
-  "w": "der Snack",
-  "a": "der",
-  "e": "snack",
-  "c": "Food & Drink",
-  "p": "die Snacks",
-  "ex": "Ich brauche einen Snack.",
-  "n": "Borrowed from English. 'Kleinigkeit essen' = more German way of saying snack.",
-  "lvl": "A2"
- },
- {
   "w": "der Erwachsene",
   "a": "der",
   "e": "adult",
@@ -2617,16 +2537,6 @@
   "p": "die Verbindungen",
   "ex": "Haben Sie eine gute Verbindung?",
   "n": "Very versatile: transport connection, phone connection, chemical bond or personal link — all 'Verbindung'.",
-  "lvl": "A2"
- },
- {
-  "w": "das Baby",
-  "a": "das",
-  "e": "baby",
-  "c": "People & Relationships",
-  "p": "die Babys",
-  "ex": "Das Baby schläft gerade.",
-  "n": "Borrowed from English; plural die Babys. 'ein Baby bekommen' = to have a baby. 'das Kleinkind' = toddler.",
   "lvl": "A2"
  },
  {
@@ -3067,16 +2977,6 @@
   "p": "die Kulturen",
   "ex": "Deutschland hat eine reiche Kultur.",
   "n": "'Kulturschock' = culture shock; 'Hochkultur' = high culture. Munich is a major cultural hub.",
-  "lvl": "A2"
- },
- {
-  "w": "das Update",
-  "a": "das",
-  "e": "update",
-  "c": "Technology & Media",
-  "p": "die Updates",
-  "ex": "Das Update läuft gerade.",
-  "n": "Anglicism, widely used: 'Das System braucht ein Update.' 'Bitte updaten' = please update.",
   "lvl": "A2"
  },
  {
@@ -3740,16 +3640,6 @@
   "lvl": "A1"
  },
  {
-  "w": "die Cloud",
-  "a": "die",
-  "e": "cloud (computing)",
-  "c": "Technology & Media",
-  "p": "die Clouds",
-  "ex": "Die Daten sind in der Cloud gespeichert.",
-  "n": "Borrowed from English. Rarely: 'die Datenwolke'. 'In der Cloud' = in the cloud.",
-  "lvl": "A2"
- },
- {
   "w": "die Preisliste",
   "a": "die",
   "e": "price list",
@@ -4160,16 +4050,6 @@
   "lvl": "A1"
  },
  {
-  "w": "die WG",
-  "a": "die",
-  "e": "shared flat",
-  "c": "Home & Living",
-  "p": "die WGs",
-  "ex": "Ich wohne in einer WG. — I live in a shared flat.",
-  "n": "Short for Wohngemeinschaft. Very common for students and young professionals, especially in pricey Munich.",
-  "lvl": "A1"
- },
- {
   "w": "die Veröffentlichung",
   "a": "die",
   "e": "publication / paper",
@@ -4248,16 +4128,6 @@
   "ex": "Bayern ist ein Bundesland.",
   "n": "Germany has 16 Bundesländer. Bavaria (Bayern) is the largest by area; Munich is its capital.",
   "lvl": "B1"
- },
- {
-  "w": "der Podcast",
-  "a": "der",
-  "e": "podcast",
-  "c": "Education & Culture",
-  "p": "die Podcasts",
-  "ex": "Ich höre täglich Podcasts auf Deutsch.",
-  "n": "A great way to learn German! Popular: 'Slow German', Deutschlandfunk, 'Fest & Flauschig'.",
-  "lvl": "A2"
  },
  {
   "w": "der Baum",
@@ -4360,16 +4230,6 @@
   "lvl": "A2"
  },
  {
-  "w": "der Trend",
-  "a": "der",
-  "e": "trend / tendency",
-  "c": "Abstract Concepts",
-  "p": "die Trends",
-  "ex": "Dieser Trend ist neu.",
-  "n": "Borrowed from English. 'Im Trend liegen' = to be trendy. 'Gegentrend' = counter-trend.",
-  "lvl": "B1"
- },
- {
   "w": "das Portemonnaie",
   "a": "das",
   "e": "wallet / purse",
@@ -4378,16 +4238,6 @@
   "ex": "Ich habe mein Portemonnaie vergessen. — I forgot my wallet.",
   "n": "Borrowed from French. Also: 'die Brieftasche' or 'die Geldbörse' (more common in Austria/Switzerland).",
   "lvl": "A1"
- },
- {
-  "w": "die EC-Karte",
-  "a": "die",
-  "e": "debit card / bank card",
-  "c": "Shopping & Money",
-  "p": "die EC-Karten",
-  "ex": "Ich zahle mit der EC-Karte.",
-  "n": "Germany's standard debit card (Girocard). More widely accepted than credit cards in Germany.",
-  "lvl": "A2"
  },
  {
   "w": "die Führung",
@@ -5691,15 +5541,6 @@
   "lvl": "A1"
  },
  {
-  "w": "die E-Mail-Adresse",
-  "a": "die",
-  "e": "email address",
-  "c": "Technology & Media",
-  "p": "die E-Mail-Adressen",
-  "ex": "Wie ist die E-Mail-Adresse? — What is the email address?",
-  "lvl": "A1"
- },
- {
   "w": "die Webseite",
   "a": "die",
   "e": "website",
@@ -5889,15 +5730,6 @@
   "lvl": "A1"
  },
  {
-  "w": "der Designer",
-  "a": "der",
-  "e": "designer",
-  "c": "Work & Career",
-  "p": "die Designer",
-  "ex": "Herr Müller ist Designer. — Mr Müller is a designer.",
-  "lvl": "A1"
- },
- {
   "w": "die Designerin",
   "a": "die",
   "e": "(female) designer",
@@ -6078,15 +5910,6 @@
   "lvl": "A1"
  },
  {
-  "w": "der Workshop",
-  "a": "der",
-  "e": "workshop",
-  "c": "Work & Career",
-  "p": "die Workshops",
-  "ex": "Herzlich willkommen zum Workshop. — Welcome to the workshop.",
-  "lvl": "A1"
- },
- {
   "w": "der Modedesigner",
   "a": "der",
   "e": "fashion designer",
@@ -6111,15 +5934,6 @@
   "c": "Shopping & Money",
   "p": "die Moden",
   "ex": "Frau Kovac macht Mode. — Ms Kovac makes fashion.",
-  "lvl": "A1"
- },
- {
-  "w": "das Interview",
-  "a": "das",
-  "e": "interview",
-  "c": "Work & Career",
-  "p": "die Interviews",
-  "ex": "Ein Journalist macht Interviews. — A journalist does interviews.",
   "lvl": "A1"
  },
  {
@@ -6177,15 +5991,6 @@
   "lvl": "A1"
  },
  {
-  "w": "der Computer",
-  "a": "der",
-  "e": "computer",
-  "c": "Technology & Media",
-  "p": "die Computer",
-  "ex": "Der Computer ist von Stefan. — The computer belongs to Stefan.",
-  "lvl": "A1"
- },
- {
   "w": "der Drucker",
   "a": "der",
   "e": "printer",
@@ -6210,33 +6015,6 @@
   "c": "Government & Society",
   "p": "die Ausweise",
   "ex": "Das ist ein Ausweis. — This is an ID card.",
-  "lvl": "A1"
- },
- {
-  "w": "der MP3-Player",
-  "a": "der",
-  "e": "MP3 player",
-  "c": "Technology & Media",
-  "p": "die MP3-Player",
-  "ex": "Das ist mein MP3-Player. — This is my MP3 player.",
-  "lvl": "A1"
- },
- {
-  "w": "das Tablet",
-  "a": "das",
-  "e": "tablet",
-  "c": "Technology & Media",
-  "p": "die Tablets",
-  "ex": "Ist das dein Tablet? — Is that your tablet?",
-  "lvl": "A1"
- },
- {
-  "w": "der USB-Stick",
-  "a": "der",
-  "e": "USB stick",
-  "c": "Technology & Media",
-  "p": "die USB-Sticks",
-  "ex": "Der USB-Stick kostet 12,90 Euro. — The USB stick costs 12.90 euros.",
   "lvl": "A1"
  },
  {
@@ -6330,39 +6108,12 @@
   "lvl": "A1"
  },
  {
-  "w": "das Tennis",
-  "a": "das",
-  "e": "tennis",
-  "c": "Body & Health",
-  "p": "(kein Plural)",
-  "ex": "Sie spielt gern Tennis. — She likes playing tennis.",
-  "lvl": "A1"
- },
- {
-  "w": "der Volleyball",
-  "a": "der",
-  "e": "volleyball",
-  "c": "Body & Health",
-  "p": "die Volleybälle",
-  "ex": "Im Sommer spielen wir Volleyball am Strand. — In summer we play volleyball on the beach.",
-  "lvl": "A1"
- },
- {
   "w": "das Yoga",
   "a": "das",
   "e": "yoga",
   "c": "Body & Health",
   "p": "(kein Plural)",
   "ex": "Ich mache jeden Morgen Yoga. — I do yoga every morning.",
-  "lvl": "A1"
- },
- {
-  "w": "der Basketball",
-  "a": "der",
-  "e": "basketball",
-  "c": "Body & Health",
-  "p": "die Basketbälle",
-  "ex": "Er spielt Basketball in der Schule. — He plays basketball at school.",
   "lvl": "A1"
  },
  {
@@ -6399,15 +6150,6 @@
   "c": "Time & Calendar",
   "p": "die Geburtstage",
   "ex": "Julia hat heute Geburtstag. — It is Julia's birthday today.",
-  "lvl": "A1"
- },
- {
-  "w": "die Party",
-  "a": "die",
-  "e": "party",
-  "c": "Education & Culture",
-  "p": "die Partys",
-  "ex": "Wir machen eine Party. — We are having a party.",
   "lvl": "A1"
  },
  {
@@ -6581,16 +6323,6 @@
   "p": "die Taschen",
   "ex": "Die Tasche ist von Marijana. — The bag belongs to Marijana.",
   "lvl": "A1"
- },
- {
-  "w": "die Chips",
-  "a": "die",
-  "e": "crisps",
-  "c": "Food & Drink",
-  "p": "(meist Plural)",
-  "ex": "Die Chips sind in der Küche. — The crisps are in the kitchen.",
-  "lvl": "A1",
-  "n": "One crisp is 'der Chip' — which also means a computer chip."
  },
  {
   "w": "der Fernseher",
@@ -7071,30 +6803,12 @@
   "lvl": "A1"
  },
  {
-  "w": "die Hip-Hop-Band",
-  "a": "die",
-  "e": "hip-hop band",
-  "c": "Education & Culture",
-  "p": "die Hip-Hop-Bands",
-  "ex": "Die Hip-Hop-Band startet ihre Tour. — The hip-hop band is starting its tour.",
-  "lvl": "A1"
- },
- {
   "w": "der Konzertbeginn",
   "a": "der",
   "e": "start of the concert",
   "c": "Education & Culture",
   "p": "",
   "ex": "Konzertbeginn ist um 21 Uhr. — The concert starts at 9 p.m.",
-  "lvl": "A1"
- },
- {
-  "w": "das Meeting",
-  "a": "das",
-  "e": "meeting",
-  "c": "Work & Career",
-  "p": "die Meetings",
-  "ex": "Er hat ein Meeting. — He has a meeting.",
   "lvl": "A1"
  },
  {
@@ -7131,15 +6845,6 @@
   "c": "Time & Calendar",
   "p": "die Minuten",
   "ex": "Wir sind in 5 Minuten da. — We will be there in 5 minutes.",
-  "lvl": "A1"
- },
- {
-  "w": "das Ticket",
-  "a": "das",
-  "e": "ticket",
-  "c": "Transport & City",
-  "p": "die Tickets",
-  "ex": "Das Ticket kostet nur 15 Euro! — The ticket costs only 15 euros!",
   "lvl": "A1"
  },
  {
@@ -7837,15 +7542,6 @@
   "lvl": "A1"
  },
  {
-  "w": "die SMS",
-  "a": "die",
-  "e": "text (message)",
-  "c": "Technology & Media",
-  "p": "die SMS",
-  "ex": "Sie schreibt der Freundin eine SMS. — She writes her friend a text message.",
-  "lvl": "A1"
- },
- {
   "w": "das Gespräch",
   "a": "das",
   "e": "conversation / talk",
@@ -8197,42 +7893,6 @@
   "lvl": "A1"
  },
  {
-  "w": "der Rock",
-  "a": "der",
-  "e": "rock (music)",
-  "c": "Education & Culture",
-  "p": "",
-  "ex": "Ich höre gern Rock. — I like listening to rock.",
-  "lvl": "A1"
- },
- {
-  "w": "das Festival",
-  "a": "das",
-  "e": "festival",
-  "c": "Education & Culture",
-  "p": "die Festivals",
-  "ex": "Wir gehen in Dresden zu einem Festival. — We are going to a festival in Dresden.",
-  "lvl": "A1"
- },
- {
-  "w": "das Metal-Festival",
-  "a": "das",
-  "e": "heavy metal festival",
-  "c": "Education & Culture",
-  "p": "die Metal-Festivals",
-  "ex": "In Dresden gibt es ein Metal-Festival. — In Dresden there is a metal festival.",
-  "lvl": "A1"
- },
- {
-  "w": "der Hip-Hop",
-  "a": "der",
-  "e": "hip-hop",
-  "c": "Education & Culture",
-  "p": "",
-  "ex": "Ich liebe Hip-Hop! — I love hip-hop!",
-  "lvl": "A1"
- },
- {
   "w": "die Graffitiwand",
   "a": "die",
   "e": "graffiti wall",
@@ -8278,15 +7938,6 @@
   "lvl": "A1"
  },
  {
-  "w": "das Reggae-Festival",
-  "a": "das",
-  "e": "reggae festival",
-  "c": "Education & Culture",
-  "p": "die Reggae-Festivals",
-  "ex": "Im Norden von Kiel ist ein Reggae-Festival. — In the north of Kiel there is a reggae festival.",
-  "lvl": "A1"
- },
- {
   "w": "der Norden",
   "a": "der",
   "e": "north",
@@ -8305,66 +7956,12 @@
   "lvl": "A1"
  },
  {
-  "w": "der Metal",
-  "a": "der",
-  "e": "heavy metal",
-  "c": "Education & Culture",
-  "p": "",
-  "ex": "Wer mag Metal? — Who likes metal?",
-  "lvl": "A1"
- },
- {
-  "w": "der Jazz",
-  "a": "der",
-  "e": "jazz",
-  "c": "Education & Culture",
-  "p": "",
-  "ex": "Wer findet Jazz gut? — Who likes jazz?",
-  "lvl": "A1"
- },
- {
-  "w": "die Band",
-  "a": "die",
-  "e": "band",
-  "c": "Education & Culture",
-  "p": "die Bands",
-  "ex": "Ich mag diese Band. — I like this band.",
-  "lvl": "A1"
- },
- {
-  "w": "der Song",
-  "a": "der",
-  "e": "song",
-  "c": "Education & Culture",
-  "p": "die Songs",
-  "ex": "Ich mag diesen Song. — I like this song.",
-  "lvl": "A1"
- },
- {
   "w": "das Theaterfestival",
   "a": "das",
   "e": "theatre festival",
   "c": "Education & Culture",
   "p": "die Theaterfestivals",
   "ex": "Können Jens und Malise zum Theaterfestival kommen? — Can Jens and Malise come to the theatre festival?",
-  "lvl": "A1"
- },
- {
-  "w": "der Heavy Metal",
-  "a": "der",
-  "e": "heavy metal",
-  "c": "Education & Culture",
-  "p": "",
-  "ex": "Magst du Heavy Metal? — Do you like heavy metal?",
-  "lvl": "A1"
- },
- {
-  "w": "die CD",
-  "a": "die",
-  "e": "CD",
-  "c": "Technology & Media",
-  "p": "die CDs",
-  "ex": "Ich habe eine neue CD. — I have a new CD.",
   "lvl": "A1"
  },
  {
@@ -8449,15 +8046,6 @@
   "lvl": "A1"
  },
  {
-  "w": "P.S.",
-  "a": "",
-  "e": "P.S.",
-  "c": "Abstract Concepts",
-  "p": "",
-  "ex": "P.S. Kommst du mit dem Zug? — P.S. Are you coming by train?",
-  "lvl": "A1"
- },
- {
   "w": "die Schwester",
   "a": "die",
   "e": "sister",
@@ -8500,15 +8088,6 @@
   "c": "Food & Drink",
   "p": "die Lieblingskneipen",
   "ex": "Das ist meine Lieblingskneipe. — This is my favourite pub.",
-  "lvl": "A1"
- },
- {
-  "w": "der Fan",
-  "a": "der",
-  "e": "fan",
-  "c": "People & Relationships",
-  "p": "die Fans",
-  "ex": "Als Jazz-Fan möchte ich euch herzlich einladen. — As a jazz fan I would like to warmly invite you.",
   "lvl": "A1"
  },
  {
@@ -8654,16 +8233,6 @@
   "p": "die Pakete",
   "ex": "Sie sucht das Paket. — She is looking for the package.",
   "lvl": "A1"
- },
- {
-  "w": "das Wi-Fi",
-  "a": "das",
-  "e": "wi-fi",
-  "c": "Technology & Media",
-  "p": "die Wi-Fis",
-  "ex": "Sie möchte das Wi-Fi von Anna benutzen. — She would like to use Anna's wi-fi.",
-  "lvl": "A1",
-  "n": "In German you will usually hear 'das WLAN': 'Wie ist das WLAN-Passwort?'"
  },
  {
   "w": "die Nachbarin",
@@ -8873,15 +8442,6 @@
   "lvl": "A1"
  },
  {
-  "w": "das Barbecue",
-  "a": "das",
-  "e": "barbecue, BBQ",
-  "c": "Food & Drink",
-  "p": "die Barbecues",
-  "ex": "Am Abend machen Freunde von Sam ein Barbecue. — In the evening friends of Sam are having a barbecue.",
-  "lvl": "A1"
- },
- {
   "w": "der Strand",
   "a": "der",
   "e": "beach",
@@ -8909,24 +8469,6 @@
   "lvl": "A1"
  },
  {
-  "w": "das Wellness-Wochenende",
-  "a": "das",
-  "e": "spa weekend",
-  "c": "Time & Calendar",
-  "p": "die Wellness-Wochenenden",
-  "ex": "Ich freue mich auf mein Wellness-Wochenende. — I am looking forward to my spa weekend.",
-  "lvl": "A1"
- },
- {
-  "w": "das Wellness-Hotel",
-  "a": "das",
-  "e": "spa hotel, wellness hotel",
-  "c": "Travel & Places",
-  "p": "die Wellness-Hotels",
-  "ex": "Wir waren im Wellness-Hotel „Hof“. — We stayed at the spa hotel 'Hof'.",
-  "lvl": "A1"
- },
- {
   "w": "das Aktivprogramm",
   "a": "das",
   "e": "activity programme",
@@ -8936,57 +8478,12 @@
   "lvl": "A1"
  },
  {
-  "w": "das Power-Yoga",
-  "a": "das",
-  "e": "power yoga",
-  "c": "Body & Health",
-  "p": "",
-  "ex": "Das Power-Yoga war super. — The power yoga was great.",
-  "lvl": "A1"
- },
- {
-  "w": "das Aqua-Yoga",
-  "a": "das",
-  "e": "aqua yoga",
-  "c": "Body & Health",
-  "p": "",
-  "ex": "Das Aqua-Yoga war super. — The aqua yoga was great.",
-  "lvl": "A1"
- },
- {
-  "w": "das Spa",
-  "a": "das",
-  "e": "spa",
-  "c": "Body & Health",
-  "p": "die Spas",
-  "ex": "Das Hotel hatte Spas und Wellness. — The hotel had spas and wellness.",
-  "lvl": "A1"
- },
- {
-  "w": "die Wellness",
-  "a": "die",
-  "e": "wellness",
-  "c": "Body & Health",
-  "p": "",
-  "ex": "Das Hotel hatte Spas und Wellness. — The hotel had spas and wellness.",
-  "lvl": "A1"
- },
- {
   "w": "die Sauna",
   "a": "die",
   "e": "sauna",
   "c": "Body & Health",
   "p": "die Saunen",
   "ex": "Die Sauna war toll und die Massagen auch. — The sauna was great and the massages too.",
-  "lvl": "A1"
- },
- {
-  "w": "der Pool",
-  "a": "der",
-  "e": "pool",
-  "c": "Body & Health",
-  "p": "die Pools",
-  "ex": "Leider war der Pool sehr klein. — Unfortunately the pool was very small.",
   "lvl": "A1"
  },
  {
@@ -9059,15 +8556,6 @@
   "c": "Shopping & Money",
   "p": "die Sonnenbrillen",
   "ex": "Hier ist deine Sonnenbrille. — Here are your sunglasses.",
-  "lvl": "A1"
- },
- {
-  "w": "der E-Reader",
-  "a": "der",
-  "e": "eReader, Kindle",
-  "c": "Technology & Media",
-  "p": "die E-Reader",
-  "ex": "Und dann brauche ich noch meinen E-Reader. — And then I also need my e-reader.",
   "lvl": "A1"
  },
  {
@@ -9215,15 +8703,6 @@
   "lvl": "A1"
  },
  {
-  "w": "das Smartphone",
-  "a": "das",
-  "e": "smartphone",
-  "c": "Technology & Media",
-  "p": "die Smartphones",
-  "ex": "60 % surfen mit ihrem Smartphone. — 60% surf with their smartphone.",
-  "lvl": "A1"
- },
- {
   "w": "die Kommunikation",
   "a": "die",
   "e": "communication",
@@ -9239,15 +8718,6 @@
   "c": "Technology & Media",
   "p": "die Suchmaschinen",
   "ex": "83 % nutzen Suchmaschinen. — 83% use search engines.",
-  "lvl": "A1"
- },
- {
-  "w": "der Blog",
-  "a": "der",
-  "e": "blog",
-  "c": "Technology & Media",
-  "p": "die Blogs",
-  "ex": "Andere surfen einfach so im Internet und lesen Blogs. — Others just surf the internet and read blogs.",
   "lvl": "A1"
  },
  {
@@ -9293,15 +8763,6 @@
   "c": "Food & Drink",
   "p": "",
   "ex": "Ich liebe Pasta! — I love pasta!",
-  "lvl": "A1"
- },
- {
-  "w": "der Pasta-Workshop",
-  "a": "der",
-  "e": "pasta workshop",
-  "c": "Work & Career",
-  "p": "die Pasta-Workshops",
-  "ex": "Ich bin bei einem Pasta-Workshop. — I am at a pasta workshop.",
   "lvl": "A1"
  },
  {
@@ -9383,15 +8844,6 @@
   "c": "Technology & Media",
   "p": "",
   "ex": "Ich nutze oft Skype zum Chatten. — I often use Skype for chatting.",
-  "lvl": "A1"
- },
- {
-  "w": "die Mail",
-  "a": "die",
-  "e": "email",
-  "c": "Technology & Media",
-  "p": "die Mails",
-  "ex": "Bei der Arbeit muss ich viele Mails schreiben. — At work I have to write many emails.",
   "lvl": "A1"
  },
  {
@@ -9521,15 +8973,6 @@
   "lvl": "A1"
  },
  {
-  "w": "das Sommernacht-Festival",
-  "a": "das",
-  "e": "Summer Night Festival",
-  "c": "Time & Calendar",
-  "p": "die Sommernacht-Festivals",
-  "ex": "Ich gehe zum Sommernacht-Festival. — I am going to the Summer Night Festival.",
-  "lvl": "A1"
- },
- {
   "w": "das Musikzelt",
   "a": "das",
   "e": "music tent",
@@ -9593,33 +9036,6 @@
   "lvl": "A1"
  },
  {
-  "w": "das Musical",
-  "a": "das",
-  "e": "musical",
-  "c": "Education & Culture",
-  "p": "die Musicals",
-  "ex": "Am Freitag gehen sie zum Musical. — On Friday they are going to the musical.",
-  "lvl": "A1"
- },
- {
-  "w": "die Comedy",
-  "a": "die",
-  "e": "comedy",
-  "c": "Education & Culture",
-  "p": "die Comedys",
-  "ex": "Am Freitag gibt's hier Comedy. — On Friday there is comedy here.",
-  "lvl": "A1"
- },
- {
-  "w": "der Graffiti-Workshop",
-  "a": "der",
-  "e": "graffiti workshop",
-  "c": "Work & Career",
-  "p": "die Graffiti-Workshops",
-  "ex": "Am Samstag findet ein Graffiti-Workshop statt. — On Saturday a graffiti workshop takes place.",
-  "lvl": "A1"
- },
- {
   "w": "das Produkt",
   "a": "das",
   "e": "product",
@@ -9644,15 +9060,6 @@
   "c": "Food & Drink",
   "p": "",
   "ex": "Kochen mit Markus findet am Samstag statt. — Cooking with Markus takes place on Saturday.",
-  "lvl": "A1"
- },
- {
-  "w": "der Theater-Workshop",
-  "a": "der",
-  "e": "theatre workshop",
-  "c": "Education & Culture",
-  "p": "die Theater-Workshops",
-  "ex": "Der Theater-Workshop findet am Samstag statt. — The theatre workshop takes place on Saturday.",
   "lvl": "A1"
  },
  {
@@ -10081,15 +9488,6 @@
   "lvl": "A1"
  },
  {
-  "w": "der Scanner",
-  "a": "der",
-  "e": "scanner",
-  "c": "Work & Career",
-  "p": "die Scanner",
-  "ex": "Wir brauchen einen Scanner. — We need a scanner.",
-  "lvl": "A1"
- },
- {
   "w": "der Kopierer",
   "a": "der",
   "e": "(photo)copier",
@@ -10105,24 +9503,6 @@
   "c": "Work & Career",
   "p": "die Kopien",
   "ex": "Marina braucht die Kopien für die Arbeit. — Marina needs the copies for work.",
-  "lvl": "A1"
- },
- {
-  "w": "der Download",
-  "a": "der",
-  "e": "download",
-  "c": "Technology & Media",
-  "p": "die Downloads",
-  "ex": "Marina braucht den Download für die Schule. — Marina needs the download for school.",
-  "lvl": "A1"
- },
- {
-  "w": "der Button",
-  "a": "der",
-  "e": "button",
-  "c": "Technology & Media",
-  "p": "die Buttons",
-  "ex": "Nun drücken Sie den Button. — Now press the button.",
   "lvl": "A1"
  },
  {
@@ -10204,15 +9584,6 @@
   "c": "Work & Career",
   "p": "die Mappen",
   "ex": "Ich brauche eine Mappe. — I need a folder.",
-  "lvl": "A1"
- },
- {
-  "w": "das Hobby",
-  "a": "das",
-  "e": "hobby",
-  "c": "Education & Culture",
-  "p": "die Hobbys",
-  "ex": "Mein Hobby ist Sport. — My hobby is sport.",
   "lvl": "A1"
  },
  {
@@ -10303,15 +9674,6 @@
   "c": "Work & Career",
   "p": "die Praktikantinnen",
   "ex": "Sie sind die neue Praktikantin, oder? — You are the new trainee, right?",
-  "lvl": "A1"
- },
- {
-  "w": "das Marketing",
-  "a": "das",
-  "e": "marketing",
-  "c": "Work & Career",
-  "p": "",
-  "ex": "Ich arbeite im Marketing. — I work in marketing.",
   "lvl": "A1"
  },
  {
@@ -10447,15 +9809,6 @@
   "c": "Work & Career",
   "p": "die Marketingagenturen",
   "ex": "Ich arbeite bei einer Marketingagentur. — I work at a marketing agency.",
-  "lvl": "A1"
- },
- {
-  "w": "der Job",
-  "a": "der",
-  "e": "job",
-  "c": "Work & Career",
-  "p": "die Jobs",
-  "ex": "Der Job ist super. — The job is great.",
   "lvl": "A1"
  },
  {
@@ -10775,15 +10128,6 @@
   "lvl": "A1"
  },
  {
-  "w": "das Team",
-  "a": "das",
-  "e": "team",
-  "c": "Work & Career",
-  "p": "die Teams",
-  "ex": "Wir sind ein super Team! — We are a great team!",
-  "lvl": "A1"
- },
- {
   "w": "die Großeltern",
   "a": "die",
   "e": "grandparents",
@@ -10808,15 +10152,6 @@
   "c": "People & Relationships",
   "p": "die Tanten",
   "ex": "Meine Tante wohnt seit zwanzig Jahren in Köln. — My aunt has lived in Cologne for twenty years.",
-  "lvl": "A1"
- },
- {
-  "w": "der Single",
-  "a": "der",
-  "e": "single",
-  "c": "People & Relationships",
-  "p": "die Singles",
-  "ex": "Lukas ist Single und studiert in Bonn. — Lukas is single and studies in Bonn.",
   "lvl": "A1"
  },
  {
@@ -10880,15 +10215,6 @@
   "c": "People & Relationships",
   "p": "die Enkelkinder",
   "ex": "Unsere Großmutter hat viele Enkelkinder. — Our grandmother has many grandchildren.",
-  "lvl": "A1"
- },
- {
-  "w": "das WG-Leben",
-  "a": "das",
-  "e": "living in a shared house",
-  "c": "Home & Living",
-  "p": "",
-  "ex": "Das WG-Leben ist gut für die Oma und für die Studenten. — Living in a shared house is good for grandma and for the students.",
   "lvl": "A1"
  },
  {
@@ -10973,15 +10299,6 @@
   "lvl": "A1"
  },
  {
-  "w": "das WC",
-  "a": "das",
-  "e": "toilet",
-  "c": "Home & Living",
-  "p": "die WCs",
-  "ex": "Er putzt noch schnell das WC. — He quickly cleans the toilet.",
-  "lvl": "A1"
- },
- {
   "w": "das Prozent",
   "a": "das",
   "e": "per cent",
@@ -11042,15 +10359,6 @@
   "c": "Food & Drink",
   "p": "die Baguettes",
   "ex": "Können Sie mir bitte ein Baguette geben? — Can you please give me a baguette?",
-  "lvl": "A1"
- },
- {
-  "w": "das Sandwich",
-  "a": "das",
-  "e": "sandwich",
-  "c": "Food & Drink",
-  "p": "die Sandwiches",
-  "ex": "Und hier sind die Sandwiches. — And here are the sandwiches.",
   "lvl": "A1"
  },
  {
@@ -11189,15 +10497,6 @@
   "lvl": "A1"
  },
  {
-  "w": "der Clown",
-  "a": "der",
-  "e": "clown",
-  "c": "Education & Culture",
-  "p": "die Clowns",
-  "ex": "In diesem Jahr war ich ein Clown. — This year I was a clown.",
-  "lvl": "A1"
- },
- {
   "w": "die Urgroßeltern",
   "a": "die",
   "e": "great-grandparents",
@@ -11243,15 +10542,6 @@
   "lvl": "A1"
  },
  {
-  "w": "der Babysitter",
-  "a": "der",
-  "e": "(male) babysitter",
-  "c": "People & Relationships",
-  "p": "die Babysitter",
-  "ex": "Familie aus Frankreich sucht Babysitter! — Family from France is looking for a babysitter!",
-  "lvl": "A1"
- },
- {
   "w": "die Babysitterin",
   "a": "die",
   "e": "(female) babysitter",
@@ -11285,15 +10575,6 @@
   "c": "Education & Culture",
   "p": "die Texte",
   "ex": "Du musst Texte schreiben. — You have to write texts.",
-  "lvl": "A1"
- },
- {
-  "w": "der Promoter",
-  "a": "der",
-  "e": "(male) promoter",
-  "c": "Work & Career",
-  "p": "die Promoter",
-  "ex": "Wir suchen einen Promoter ab August. — We are looking for a promoter from August.",
   "lvl": "A1"
  },
  {
@@ -11339,15 +10620,6 @@
   "c": "Abstract Concepts",
   "p": "die Hinweise",
   "ex": "Bitte beachten Sie folgende Hinweise: … — Please note the following information: ...",
-  "lvl": "A1"
- },
- {
-  "w": "das Team-Meeting",
-  "a": "das",
-  "e": "team meeting",
-  "c": "Work & Career",
-  "p": "die Team-Meetings",
-  "ex": "Sie müssen am Team-Meeting teilnehmen. — You have to take part in the team meeting.",
   "lvl": "A1"
  },
  {
@@ -11468,15 +10740,6 @@
   "lvl": "A1"
  },
  {
-  "w": "der Reise-Blog",
-  "a": "der",
-  "e": "travel blog",
-  "c": "Transport & City",
-  "p": "die Reise-Blogs",
-  "ex": "In meiner Freizeit schreibe ich einen Reise-Blog. — In my free time I write a travel blog.",
-  "lvl": "A1"
- },
- {
   "w": "der Mathematiklehrer",
   "a": "der",
   "e": "(male) maths teacher",
@@ -11564,24 +10827,6 @@
   "c": "Work & Career",
   "p": "die Fotoagenturen",
   "ex": "Danach hat sie ein Jahr für eine Fotoagentur gearbeitet. — After that she worked for a photo agency for a year.",
-  "lvl": "A1"
- },
- {
-  "w": "das Online-Magazin",
-  "a": "das",
-  "e": "online magazine",
-  "c": "Technology & Media",
-  "p": "die Online-Magazine",
-  "ex": "Jetzt arbeitet sie bei einem Online-Magazin. — Now she works at an online magazine.",
-  "lvl": "A1"
- },
- {
-  "w": "die 3-Tages-Tour",
-  "a": "die",
-  "e": "3-day tour",
-  "c": "Time & Calendar",
-  "p": "die 3-Tages-Touren",
-  "ex": "Frau Neus möchte eine 3-Tages-Tour mit dem Schiff machen. — Ms Neus wants to do a 3-day tour by ship.",
   "lvl": "A1"
  },
  {
@@ -11771,15 +11016,6 @@
   "c": "Body & Health",
   "p": "die Skifahrerinnen",
   "ex": "Nicht alle Skifahrerinnen kommen gesund nach Hause. — Not all skiers get home healthy.",
-  "lvl": "A1"
- },
- {
-  "w": "der Snowboarder",
-  "a": "der",
-  "e": "(male) snowboarder",
-  "c": "Body & Health",
-  "p": "die Snowboarder",
-  "ex": "Nicht alle Snowboarder kommen gesund nach Hause. — Not all snowboarders get home healthy.",
   "lvl": "A1"
  },
  {
@@ -12269,33 +11505,6 @@
   "lvl": "A1"
  },
  {
-  "w": "der Newsletter",
-  "a": "der",
-  "e": "newsletter",
-  "c": "Technology & Media",
-  "p": "die Newsletter",
-  "ex": "Ich muss noch einen Newsletter schreiben. — I still have to write a newsletter.",
-  "lvl": "A1"
- },
- {
-  "w": "das Training",
-  "a": "das",
-  "e": "training / workout",
-  "c": "Body & Health",
-  "p": "die Trainings",
-  "ex": "Nach dem Training geht es mir besser. — I feel better after training.",
-  "lvl": "A1"
- },
- {
-  "w": "das Fastfood",
-  "a": "das",
-  "e": "fast food",
-  "c": "Food & Drink",
-  "p": "",
-  "ex": "Ich esse viel Gemüse und kein Fastfood. — I eat a lot of vegetables and no fast food.",
-  "lvl": "A1"
- },
- {
   "w": "der Kletterkurs",
   "a": "der",
   "e": "climbing course",
@@ -12383,15 +11592,6 @@
   "c": "Travel & Places",
   "p": "",
   "ex": "Wir hören gern die Musik Lateinamerikas. — We like listening to the music of Latin America.",
-  "lvl": "A1"
- },
- {
-  "w": "die Fitness",
-  "a": "die",
-  "e": "fitness",
-  "c": "Body & Health",
-  "p": "",
-  "ex": "Es gibt Fitness-Kurse für Anfänger und Fortgeschrittene. — There are fitness courses for beginners and advanced students.",
   "lvl": "A1"
  },
  {
@@ -12557,30 +11757,12 @@
   "lvl": "A1"
  },
  {
-  "w": "das Workout",
-  "a": "das",
-  "e": "workout",
-  "c": "Body & Health",
-  "p": "die Workouts",
-  "ex": "Am Montag machen wir ein Workout. — On Monday we do a workout.",
-  "lvl": "A1"
- },
- {
   "w": "die Entspannung",
   "a": "die",
   "e": "relaxation",
   "c": "Body & Health",
   "p": "die Entspannungen",
   "ex": "Entspannung finden Sie hier mitten in der Stadt. — You will find relaxation here in the middle of the city.",
-  "lvl": "A1"
- },
- {
-  "w": "das Wellness-Programm",
-  "a": "das",
-  "e": "wellness programme",
-  "c": "Body & Health",
-  "p": "die Wellness-Programme",
-  "ex": "Es gibt auch ein Wellness-Programm. — There is also a wellness programme.",
   "lvl": "A1"
  },
  {
@@ -12836,15 +12018,6 @@
   "lvl": "A1"
  },
  {
-  "w": "die DVD",
-  "a": "die",
-  "e": "DVD",
-  "c": "Technology & Media",
-  "p": "die DVDs",
-  "ex": "Im dritten Stock gibt es DVDs. — On the third floor there are DVDs.",
-  "lvl": "A1"
- },
- {
   "w": "die Zeitschrift",
   "a": "die",
   "e": "magazine",
@@ -13034,15 +12207,6 @@
   "lvl": "A1"
  },
  {
-  "w": "das T-Shirt",
-  "a": "das",
-  "e": "T-shirt",
-  "c": "Shopping & Money",
-  "p": "die T-Shirts",
-  "ex": "Im Sommer trage ich am liebsten ein T-Shirt. — In summer I like wearing a T-shirt best.",
-  "lvl": "A1"
- },
- {
   "w": "das Hemd",
   "a": "das",
   "e": "shirt",
@@ -13095,15 +12259,6 @@
   "c": "Shopping & Money",
   "p": "die Jacken",
   "ex": "Zieh bitte eine Jacke an, es ist kalt. — Please put on a jacket, it is cold.",
-  "lvl": "A1"
- },
- {
-  "w": "die Jeans",
-  "a": "die",
-  "e": "jeans",
-  "c": "Shopping & Money",
-  "p": "die Jeans",
-  "ex": "Ich liebe Jeans! — I love jeans!",
   "lvl": "A1"
  },
  {
@@ -13213,15 +12368,6 @@
   "c": "Shopping & Money",
   "p": "die Lieblingsoutfits",
   "ex": "Postet einfach euer Lieblingsoutfit auf meinem Blog. — Just post your favourite outfit on my blog.",
-  "lvl": "A1"
- },
- {
-  "w": "der Look",
-  "a": "der",
-  "e": "look",
-  "c": "Shopping & Money",
-  "p": "die Looks",
-  "ex": "Ich freue mich auf eure Looks! — I am looking forward to your looks!",
   "lvl": "A1"
  },
  {
@@ -13550,15 +12696,6 @@
   "lvl": "A1"
  },
  {
-  "w": "die USA",
-  "a": "die",
-  "e": "USA",
-  "c": "Travel & Places",
-  "p": "(immer Plural)",
-  "ex": "Ich war schon im Iran und in den USA. — I have already been to Iran and the USA.",
-  "lvl": "A1"
- },
- {
   "w": "die Station",
   "a": "die",
   "e": "station",
@@ -13730,15 +12867,6 @@
   "lvl": "A1"
  },
  {
-  "w": "der Service",
-  "a": "der",
-  "e": "service",
-  "c": "Travel & Places",
-  "p": "",
-  "ex": "Das Hotel war toll und der Service sehr freundlich. — The hotel was great and the service very friendly.",
-  "lvl": "A1"
- },
- {
   "w": "die Altstadt",
   "a": "die",
   "e": "old town",
@@ -13802,15 +12930,6 @@
   "lvl": "A1"
  },
  {
-  "w": "das Camping",
-  "a": "das",
-  "e": "camping",
-  "c": "Travel & Places",
-  "p": "",
-  "ex": "Die Ruhe beim Camping in der Natur war toll. — The peace while camping in nature was great.",
-  "lvl": "A1"
- },
- {
   "w": "der Wassersport",
   "a": "der",
   "e": "watersports",
@@ -13834,15 +12953,6 @@
   "e": "single room",
   "c": "Home & Living",
   "p": "die Einzelzimmer",
-  "ex": "Eine Übernachtung im Einzelzimmer (Business) kostet 90 Euro. — One night in a single room (business) costs 90 euros.",
-  "lvl": "A1"
- },
- {
-  "w": "das Business",
-  "a": "das",
-  "e": "business",
-  "c": "Work & Career",
-  "p": "",
   "ex": "Eine Übernachtung im Einzelzimmer (Business) kostet 90 Euro. — One night in a single room (business) costs 90 euros.",
   "lvl": "A1"
  },
@@ -13883,30 +12993,12 @@
   "lvl": "A1"
  },
  {
-  "w": "das TV",
-  "a": "das",
-  "e": "TV",
-  "c": "Technology & Media",
-  "p": "die TVs",
-  "ex": "Im Zimmer gibt es ein TV mit vielen Programmen. — In the room there is a TV with many channels.",
-  "lvl": "A1"
- },
- {
   "w": "das Frühstücksbuffet",
   "a": "das",
   "e": "breakfast buffet",
   "c": "Food & Drink",
   "p": "die Frühstücksbuffets",
   "ex": "Starten Sie den Tag an unserem Frühstücksbuffet. — Start your day at our breakfast buffet.",
-  "lvl": "A1"
- },
- {
-  "w": "das Wellness-Angebot",
-  "a": "das",
-  "e": "spa facilities",
-  "c": "Travel & Places",
-  "p": "die Wellness-Angebote",
-  "ex": "Nutzen Sie auch unser Wellness-Angebot. — Also use our spa facilities.",
   "lvl": "A1"
  },
  {
@@ -13943,15 +13035,6 @@
   "c": "Travel & Places",
   "p": "die Hotelgäste",
   "ex": "Das Internet im Zimmer ist für Hotelgäste kostenlos. — Internet in the room is free for hotel guests.",
-  "lvl": "A1"
- },
- {
-  "w": "die Segway-Stadttour",
-  "a": "die",
-  "e": "Segway city tour",
-  "c": "Travel & Places",
-  "p": "die Segway-Stadttouren",
-  "ex": "Wir bieten Segway-Stadttouren an. — We offer Segway city tours.",
   "lvl": "A1"
  },
  {
@@ -14090,15 +13173,6 @@
   "lvl": "A1"
  },
  {
-  "w": "das Top-Wetter",
-  "a": "das",
-  "e": "fantastic weather",
-  "c": "Nature & Weather",
-  "p": "",
-  "ex": "Top-Wetter beim Klettern im Schwarzwald. — Fantastic weather for climbing in the Black Forest.",
-  "lvl": "A1"
- },
- {
   "w": "die Bergtour",
   "a": "die",
   "e": "mountain tour",
@@ -14114,15 +13188,6 @@
   "c": "Travel & Places",
   "p": "",
   "ex": "Das Schlittenfahren war super. — The sledging was great.",
-  "lvl": "A1"
- },
- {
-  "w": "der Snowboard-Kurs",
-  "a": "der",
-  "e": "snowboard course",
-  "c": "Education & Culture",
-  "p": "die Snowboard-Kurse",
-  "ex": "Wie ist dein Snowboard-Kurs? — How is your snowboard course?",
   "lvl": "A1"
  },
  {
@@ -14279,24 +13344,6 @@
   "lvl": "A1"
  },
  {
-  "w": "das Coworking-Büro",
-  "a": "das",
-  "e": "coworking office",
-  "c": "Work & Career",
-  "p": "die Coworking-Büros",
-  "ex": "Viele nutzen auch ein Coworking-Büro. — Many also use a coworking office.",
-  "lvl": "A1"
- },
- {
-  "w": "der Meeting-Raum",
-  "a": "der",
-  "e": "meeting room",
-  "c": "Work & Career",
-  "p": "die Meeting-Räume",
-  "ex": "Dort haben Sie Internet und Meeting-Räume. — There you have internet and meeting rooms.",
-  "lvl": "A1"
- },
- {
   "w": "der Taxifahrer",
   "a": "der",
   "e": "(male) taxi driver",
@@ -14330,15 +13377,6 @@
   "c": "Work & Career",
   "p": "die Autoverkäuferinnen",
   "ex": "Ich bin Autoverkäuferin, denn ich liebe Autos. — I am a car saleswoman because I love cars.",
-  "lvl": "A1"
- },
- {
-  "w": "das Aerobic",
-  "a": "das",
-  "e": "aerobics",
-  "c": "Body & Health",
-  "p": "",
-  "ex": "Ich mache einmal pro Woche Aerobic. — I do aerobics once a week.",
   "lvl": "A1"
  },
  {
@@ -14393,15 +13431,6 @@
   "c": "Travel & Places",
   "p": "die Stadtränder",
   "ex": "Ich wohne mit meiner Familie am Stadtrand. — I live with my family on the outskirts.",
-  "lvl": "A1"
- },
- {
-  "w": "die Tram",
-  "a": "die",
-  "e": "tram",
-  "c": "Transport & City",
-  "p": "die Trams",
-  "ex": "Zur Arbeit fahre ich mit der Tram. — I take the tram to work.",
   "lvl": "A1"
  },
  {
@@ -14468,15 +13497,6 @@
   "lvl": "A1"
  },
  {
-  "w": "der ICE",
-  "a": "der",
-  "e": "ICE",
-  "c": "Transport & City",
-  "p": "die ICEs",
-  "ex": "Der ICE nach Berlin fährt von Gleis 2 ab. — The ICE to Berlin departs from platform 2.",
-  "lvl": "A1"
- },
- {
   "w": "das Bahngleis",
   "a": "das",
   "e": "platform",
@@ -14492,15 +13512,6 @@
   "c": "Transport & City",
   "p": "die Marktplätze",
   "ex": "Die U1 fährt nur bis zum Marktplatz. — The U1 only goes to the market square.",
-  "lvl": "A1"
- },
- {
-  "w": "das Gate",
-  "a": "das",
-  "e": "gate",
-  "c": "Travel & Places",
-  "p": "die Gates",
-  "ex": "Frau Becker soll zum Gate D6 kommen. — Ms Becker should come to gate D6.",
   "lvl": "A1"
  },
  {
@@ -14765,41 +13776,12 @@
   "lvl": "A2"
  },
  {
-  "w": "der Club",
-  "a": "der",
-  "e": "club",
-  "c": "Abstract Concepts",
-  "p": "die Clubs",
-  "ex": "Gibt es hier einen Tennisclub? — Is there a tennis club here?",
-  "lvl": "A2",
-  "n": "Also spelled 'der Klub'."
- },
- {
   "w": "das Ding",
   "a": "das",
   "e": "thing",
   "c": "Abstract Concepts",
   "p": "die Dinge",
   "ex": "Gib mir bitte mal das Ding da drüben!",
-  "lvl": "A2"
- },
- {
-  "w": "die Disco",
-  "a": "die",
-  "e": "disco",
-  "c": "Abstract Concepts",
-  "p": "die Discos",
-  "ex": "Wir gehen heute Abend in die Disco. — We're going to the disco tonight.",
-  "lvl": "A2",
-  "n": "Also spelled 'die Disko'."
- },
- {
-  "w": "das E-Book",
-  "a": "das",
-  "e": "e-book",
-  "c": "Technology & Media",
-  "p": "die E-Books",
-  "ex": "Liest du lieber E-Books oder Bücher aus Papier?",
   "lvl": "A2"
  },
  {
@@ -15091,15 +14073,6 @@
   "lvl": "A2"
  },
  {
-  "w": "der Link",
-  "a": "der",
-  "e": "link",
-  "c": "Technology & Media",
-  "p": "die Links",
-  "ex": "Ich schicke dir einen Link zu Deutschübungen.",
-  "lvl": "A2"
- },
- {
   "w": "die Lüge",
   "a": "die",
   "e": "lie",
@@ -15253,30 +14226,12 @@
   "lvl": "A2"
  },
  {
-  "w": "das Poster",
-  "a": "das",
-  "e": "poster",
-  "c": "Education & Culture",
-  "p": "die Poster",
-  "ex": "Das Poster hängt über dem Bett.",
-  "lvl": "A2"
- },
- {
   "w": "die Postleitzahl",
   "a": "die",
   "e": "postcode / zip code",
   "c": "Abstract Concepts",
   "p": "die Postleitzahlen",
   "ex": "Wie ist Ihre Postleitzahl?",
-  "lvl": "A2"
- },
- {
-  "w": "das Quiz",
-  "a": "das",
-  "e": "quiz",
-  "c": "Education & Culture",
-  "p": "die Quiz",
-  "ex": "Machst du beim Quiz mit? — Are you taking part in the quiz?",
   "lvl": "A2"
  },
  {
@@ -15450,15 +14405,6 @@
   "c": "Transport & City",
   "p": "die Sportplätze",
   "ex": "Fußballtraining ist um 17 Uhr auf dem Sportplatz. — Football training is at 5 p.m. on the sports field.",
-  "lvl": "A2"
- },
- {
-  "w": "der Star",
-  "a": "der",
-  "e": "star",
-  "c": "People & Relationships",
-  "p": "die Stars",
-  "ex": "Die Sängerin ist ein Star in Deutschland.",
   "lvl": "A2"
  },
  {
@@ -15789,24 +14735,6 @@
   "lvl": "A1"
  },
  {
-  "w": "die To-do-Liste",
-  "a": "die",
-  "e": "to-do list",
-  "c": "Abstract Concepts",
-  "p": "die To-do-Listen",
-  "ex": "Ich habe eine To-do-Liste. — I have a to-do list.",
-  "lvl": "A1"
- },
- {
-  "w": "der Login",
-  "a": "der",
-  "e": "login",
-  "c": "Technology & Media",
-  "p": "die Logins",
-  "ex": "Letzter Login war um 12:04:00. — The last login was at 12:04:00.",
-  "lvl": "A1"
- },
- {
   "w": "das Telefonieren",
   "a": "das",
   "e": "telephoning / making calls",
@@ -15942,15 +14870,6 @@
   "lvl": "A1"
  },
  {
-  "w": "das Online-Modemagazin",
-  "a": "das",
-  "e": "online fashion magazine",
-  "c": "Technology & Media",
-  "p": "die Online-Modemagazine",
-  "ex": "Jetzt arbeite ich in Berlin bei einem Online-Modemagazin. — Now I work in Berlin at an online fashion magazine.",
-  "lvl": "A1"
- },
- {
   "w": "die Wintersportsaison",
   "a": "die",
   "e": "winter sports season",
@@ -16042,15 +14961,6 @@
   "lvl": "A1"
  },
  {
-  "w": "das Pink",
-  "a": "das",
-  "e": "pink",
-  "c": "Abstract Concepts",
-  "p": "",
-  "ex": "Pink ist meine Lieblingsfarbe. — Pink is my favourite colour.",
-  "lvl": "A1"
- },
- {
   "w": "der Englische Garten",
   "a": "der",
   "e": "English Garden",
@@ -16078,15 +14988,6 @@
   "lvl": "A1"
  },
  {
-  "w": "das Board",
-  "a": "das",
-  "e": "board",
-  "c": "Body & Health",
-  "p": "die Boards",
-  "ex": "Aber das Board ist oft sehr schnell. — But the board is often very fast.",
-  "lvl": "A1"
- },
- {
   "w": "die Ruhezone",
   "a": "die",
   "e": "quiet zone",
@@ -16103,16 +15004,6 @@
   "p": "",
   "ex": "Das Fotografieren ist hier erlaubt. — Photography is allowed here.",
   "lvl": "A1"
- },
- {
-  "w": "der Comic",
-  "a": "der",
-  "e": "comic",
-  "c": "Technology & Media",
-  "p": "die Comics",
-  "ex": "Mein Sohn liest immer nur Comics.",
-  "lvl": "A2",
-  "n": "Some speakers say 'das Comic'."
  },
  {
   "w": "der Absender",
@@ -18483,15 +17374,6 @@
   "lvl": "A1"
  },
  {
-  "w": "der Toast",
-  "a": "der",
-  "e": "toast",
-  "c": "Food & Drink",
-  "p": "die Toasts",
-  "ex": "Möchtest du einen Toast mit Marmelade? — Would you like toast with jam?",
-  "lvl": "A1"
- },
- {
   "w": "das Besteck",
   "a": "das",
   "e": "cutlery",
@@ -18959,16 +17841,6 @@
   "lvl": "A2"
  },
  {
-  "w": "der Lift",
-  "a": "der",
-  "e": "lift / elevator",
-  "c": "Home & Living",
-  "p": "die Lifte",
-  "ex": "Der Lift ist leider kaputt. — The lift is out of order, unfortunately.",
-  "n": "der Aufzug is the more standard German word.",
-  "lvl": "A2"
- },
- {
   "w": "die Buchhandlung",
   "a": "die",
   "e": "bookshop",
@@ -19262,15 +18134,6 @@
   "lvl": "A2"
  },
  {
-  "w": "der Teenager",
-  "a": "der",
-  "e": "teenager",
-  "c": "People & Relationships",
-  "p": "die Teenager",
-  "ex": "Als Teenager habe ich Gitarre gespielt. — As a teenager I played guitar.",
-  "lvl": "A2"
- },
- {
   "w": "der Verlobte",
   "a": "der",
   "e": "fiancé",
@@ -19374,15 +18237,6 @@
   "p": "die Klos",
   "ex": "Wo ist hier das Klo? — Where's the loo?",
   "n": "Informal. Say 'die Toilette' in polite or public settings.",
-  "lvl": "A1"
- },
- {
-  "w": "das Shampoo",
-  "a": "das",
-  "e": "shampoo",
-  "c": "Body & Health",
-  "p": "die Shampoos",
-  "ex": "Das Shampoo ist fast leer. — The shampoo is almost empty.",
   "lvl": "A1"
  },
  {
@@ -19820,42 +18674,6 @@
   "lvl": "A2"
  },
  {
-  "w": "das Badminton",
-  "a": "das",
-  "e": "badminton",
-  "c": "Education & Culture",
-  "p": "–",
-  "ex": "Wir spielen samstags Badminton. — We play badminton on Saturdays.",
-  "lvl": "A2"
- },
- {
-  "w": "das Golf",
-  "a": "das",
-  "e": "golf",
-  "c": "Education & Culture",
-  "p": "–",
-  "ex": "Mein Chef spielt Golf. — My boss plays golf.",
-  "lvl": "A2"
- },
- {
-  "w": "das Hockey",
-  "a": "das",
-  "e": "hockey",
-  "c": "Education & Culture",
-  "p": "–",
-  "ex": "Hockey ist in Deutschland recht beliebt. — Hockey is quite popular in Germany.",
-  "lvl": "A2"
- },
- {
-  "w": "das Rugby",
-  "a": "das",
-  "e": "rugby",
-  "c": "Education & Culture",
-  "p": "–",
-  "ex": "Rugby ist hier weniger bekannt. — Rugby is less well known here.",
-  "lvl": "B1"
- },
- {
   "w": "die Abholzung",
   "a": "die",
   "e": "deforestation",
@@ -19940,16 +18758,6 @@
   "p": "–",
   "ex": "Die Landwirtschaft ist hier sehr wichtig. — Farming is very important here.",
   "lvl": "B1"
- },
- {
-  "w": "das Recycling",
-  "a": "das",
-  "e": "recycling",
-  "c": "Nature & Weather",
-  "p": "–",
-  "ex": "Recycling ist in Deutschland Pflicht. — Recycling is compulsory in Germany.",
-  "n": "Germans separate waste strictly: Papier, Bio, Restmüll, Gelber Sack.",
-  "lvl": "A2"
  },
  {
   "w": "der Sand",
@@ -20150,15 +18958,6 @@
   "lvl": "A2"
  },
  {
-  "w": "der Chat",
-  "a": "der",
-  "e": "chat",
-  "c": "Technology & Media",
-  "p": "die Chats",
-  "ex": "Wir haben das im Chat besprochen. — We discussed it in the chat.",
-  "lvl": "A2"
- },
- {
   "w": "die Liste",
   "a": "die",
   "e": "list",
@@ -20166,33 +18965,6 @@
   "p": "die Listen",
   "ex": "Ich schreibe eine Liste für den Einkauf. — I'm writing a shopping list.",
   "lvl": "A1"
- },
- {
-  "w": "der PC",
-  "a": "der",
-  "e": "PC / computer",
-  "c": "Technology & Media",
-  "p": "die PCs",
-  "ex": "Mein PC ist ziemlich alt. — My PC is fairly old.",
-  "lvl": "A1"
- },
- {
-  "w": "das Selfie",
-  "a": "das",
-  "e": "selfie",
-  "c": "Technology & Media",
-  "p": "die Selfies",
-  "ex": "Machen wir ein Selfie! — Let's take a selfie!",
-  "lvl": "A2"
- },
- {
-  "w": "die Software",
-  "a": "die",
-  "e": "software",
-  "c": "Technology & Media",
-  "p": "–",
-  "ex": "Die Software muss aktualisiert werden. — The software needs updating.",
-  "lvl": "A2"
  },
  {
   "w": "das soziale Netzwerk",
@@ -20212,34 +18984,6 @@
   "ex": "Die deutsche Tastatur hat Z und Y vertauscht. — The German keyboard swaps Z and Y.",
   "n": "Nouns in -ur are usually die: die Natur, die Kultur (but das Abitur, das Futur).",
   "lvl": "A2"
- },
- {
-  "w": "der Touchscreen",
-  "a": "der",
-  "e": "touchscreen",
-  "c": "Technology & Media",
-  "p": "die Touchscreens",
-  "ex": "Der Touchscreen reagiert nicht. — The touchscreen isn't responding.",
-  "lvl": "A2"
- },
- {
-  "w": "das WLAN",
-  "a": "das",
-  "e": "wifi",
-  "c": "Technology & Media",
-  "p": "–",
-  "ex": "Wie ist das WLAN-Passwort? — What's the wifi password?",
-  "n": "Pronounced 'VEE-lan'. The German word for wifi — you'll rarely hear 'WiFi'.",
-  "lvl": "A1"
- },
- {
-  "w": "die Online-Sicherheit",
-  "a": "die",
-  "e": "online security",
-  "c": "Technology & Media",
-  "p": "–",
-  "ex": "Online-Sicherheit ist mir wichtig. — Online security matters to me.",
-  "lvl": "B1"
  },
  {
   "w": "das Magazin",

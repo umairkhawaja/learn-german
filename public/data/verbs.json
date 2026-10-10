@@ -4767,42 +4767,6 @@
   "lvl": "A1"
  },
  {
-  "w": "joggen",
-  "e": "to jog, to go jogging",
-  "ex": [
-   "Ich jogge jeden Morgen. — I jog every morning.",
-   "Wir sind durch den Wald gejoggt. — We jogged through the forest."
-  ],
-  "t": "reg",
-  "p2": "gejoggt",
-  "hs": "haben",
-  "pr": {
-   "ich": "jogge",
-   "du": "joggst",
-   "er": "joggt",
-   "wir": "joggen",
-   "ihr": "joggt",
-   "sie": "joggen"
-  },
-  "pt": {
-   "ich": "joggte",
-   "du": "joggtest",
-   "er": "joggte",
-   "wir": "joggten",
-   "ihr": "joggtet"
-  },
-  "pk": {
-   "ich": "habe gejoggt",
-   "du": "hast gejoggt",
-   "er": "hat gejoggt",
-   "wir": "haben gejoggt",
-   "ihr": "habt gejoggt",
-   "sie": "haben gejoggt"
-  },
-  "n": "A loanword; Perfekt with 'haben' (the activity) or 'sein' (a route covered).",
-  "lvl": "A1"
- },
- {
   "w": "wandern",
   "e": "to hike, to walk",
   "ex": [
@@ -6549,42 +6513,6 @@
   "lvl": "A1"
  },
  {
-  "w": "surfen",
-  "e": "to surf, surfing",
-  "ex": [
-   "Ich surfe im Internet. — I'm surfing the internet.",
-   "Wir sind im Meer gesurft. — We surfed in the sea."
-  ],
-  "t": "reg",
-  "p2": "gesurft",
-  "hs": "haben",
-  "pr": {
-   "ich": "surfe",
-   "du": "surfst",
-   "er": "surft",
-   "wir": "surfen",
-   "ihr": "surft",
-   "sie": "surfen"
-  },
-  "pt": {
-   "ich": "surfte",
-   "du": "surftest",
-   "er": "surfte",
-   "wir": "surften",
-   "ihr": "surftet"
-  },
-  "pk": {
-   "ich": "habe gesurft",
-   "du": "hast gesurft",
-   "er": "hat gesurft",
-   "wir": "haben gesurft",
-   "ihr": "habt gesurft",
-   "sie": "haben gesurft"
-  },
-  "n": "Loanword: 'im Internet surfen' (Perfekt with haben) or wave-surfing (often 'sein').",
-  "lvl": "A1"
- },
- {
   "w": "losfahren",
   "e": "to depart",
   "ex": [
@@ -6872,42 +6800,6 @@
    "sie": "haben genutzt"
   },
   "n": "Means 'to use / make use of' (Akk); also 'jemandem nutzen' (Dativ) = to be of use to someone. Variant: 'nützen'.",
-  "lvl": "A1"
- },
- {
-  "w": "chatten",
-  "e": "to chat",
-  "ex": [
-   "Wir chatten oft abends. — We often chat in the evening.",
-   "Ich habe mit ihr gechattet. — I chatted with her (online)."
-  ],
-  "t": "reg",
-  "p2": "gechattet",
-  "hs": "haben",
-  "pr": {
-   "ich": "chatte",
-   "du": "chattest",
-   "er": "chattet",
-   "wir": "chatten",
-   "ihr": "chattet",
-   "sie": "chatten"
-  },
-  "pt": {
-   "ich": "chattete",
-   "du": "chattetest",
-   "er": "chattete",
-   "wir": "chatteten",
-   "ihr": "chattetet"
-  },
-  "pk": {
-   "ich": "habe gechattet",
-   "du": "hast gechattet",
-   "er": "hat gechattet",
-   "wir": "haben gechattet",
-   "ihr": "habt gechattet",
-   "sie": "haben gechattet"
-  },
-  "n": "Loanword for online chatting. Stem in -t: du chattest, gechattet.",
   "lvl": "A1"
  },
  {
@@ -7308,78 +7200,6 @@
    "sie": "haben gedruckt"
   },
   "n": "'drucken' = to print (≠ 'drücken' = to press). 'ausdrucken' = to print out.",
-  "lvl": "A1"
- },
- {
-  "w": "scannen",
-  "e": "to scan",
-  "ex": [
-   "Ich scanne das Dokument. — I'm scanning the document.",
-   "Hast du den Code gescannt? — Did you scan the code?"
-  ],
-  "t": "reg",
-  "p2": "gescannt",
-  "hs": "haben",
-  "pr": {
-   "ich": "scanne",
-   "du": "scannst",
-   "er": "scannt",
-   "wir": "scannen",
-   "ihr": "scannt",
-   "sie": "scannen"
-  },
-  "pt": {
-   "ich": "scannte",
-   "du": "scanntest",
-   "er": "scannte",
-   "wir": "scannten",
-   "ihr": "scanntet"
-  },
-  "pk": {
-   "ich": "habe gescannt",
-   "du": "hast gescannt",
-   "er": "hat gescannt",
-   "wir": "haben gescannt",
-   "ihr": "habt gescannt",
-   "sie": "haben gescannt"
-  },
-  "n": "Loanword. Participle: gescannt.",
-  "lvl": "A1"
- },
- {
-  "w": "downloaden",
-  "e": "to download",
-  "ex": [
-   "Ich downloade die Datei. — I'm downloading the file.",
-   "Er hat die App gedownloadet. — He downloaded the app."
-  ],
-  "t": "reg",
-  "p2": "gedownloadet",
-  "hs": "haben",
-  "pr": {
-   "ich": "downloade",
-   "du": "downloadest",
-   "er": "downloadet",
-   "wir": "downloaden",
-   "ihr": "downloadet",
-   "sie": "downloaden"
-  },
-  "pt": {
-   "ich": "downloadete",
-   "du": "downloadetest",
-   "er": "downloadete",
-   "wir": "downloadeten",
-   "ihr": "downloadetet"
-  },
-  "pk": {
-   "ich": "habe gedownloadet",
-   "du": "hast gedownloadet",
-   "er": "hat gedownloadet",
-   "wir": "haben gedownloadet",
-   "ihr": "habt gedownloadet",
-   "sie": "haben gedownloadet"
-  },
-  "n": "Loanword; the German equivalent is herunterladen. Both participles are in use: gedownloadet and downgeloadet.",
   "lvl": "A1"
  },
  {
@@ -8803,42 +8623,6 @@
   "lvl": "A1"
  },
  {
-  "w": "interviewen",
-  "e": "to interview",
-  "ex": [
-   "Ich interviewe den Künstler. — I'm interviewing the artist.",
-   "Sie haben den Minister interviewt. — They interviewed the minister."
-  ],
-  "t": "reg",
-  "p2": "geinterviewt",
-  "hs": "haben",
-  "pr": {
-   "ich": "interviewe",
-   "du": "interviewst",
-   "er": "interviewt",
-   "wir": "interviewen",
-   "ihr": "interviewt",
-   "sie": "interviewen"
-  },
-  "pt": {
-   "ich": "interviewte",
-   "du": "interviewtest",
-   "er": "interviewte",
-   "wir": "interviewten",
-   "ihr": "interviewtet"
-  },
-  "pk": {
-   "ich": "habe geinterviewt",
-   "du": "hast geinterviewt",
-   "er": "hat geinterviewt",
-   "wir": "haben geinterviewt",
-   "ihr": "habt geinterviewt",
-   "sie": "haben geinterviewt"
-  },
-  "n": "Loanword. Participle: interviewt (no ge-).",
-  "lvl": "A1"
- },
- {
   "w": "hinwollen",
   "e": "to want to go there",
   "ex": [
@@ -9638,42 +9422,6 @@
   "lvl": "A1"
  },
  {
-  "w": "shoppen",
-  "e": "to shop",
-  "ex": [
-   "Wir gehen heute shoppen. — We're going shopping today.",
-   "Sie hat den ganzen Tag geshoppt. — She shopped all day."
-  ],
-  "t": "reg",
-  "p2": "geshoppt",
-  "hs": "haben",
-  "pr": {
-   "ich": "shoppe",
-   "du": "shoppst",
-   "er": "shoppt",
-   "wir": "shoppen",
-   "ihr": "shoppt",
-   "sie": "shoppen"
-  },
-  "pt": {
-   "ich": "shoppte",
-   "du": "shopptest",
-   "er": "shoppte",
-   "wir": "shoppten",
-   "ihr": "shopptet"
-  },
-  "pk": {
-   "ich": "habe geshoppt",
-   "du": "hast geshoppt",
-   "er": "hat geshoppt",
-   "wir": "haben geshoppt",
-   "ihr": "habt geshoppt",
-   "sie": "haben geshoppt"
-  },
-  "n": "Loanword (casual); 'einkaufen' is the everyday word for grocery shopping. Participle: geshoppt.",
-  "lvl": "A1"
- },
- {
   "w": "anprobieren",
   "e": "to try on",
   "ex": [
@@ -9744,42 +9492,6 @@
    "sie": "haben probiert"
   },
   "n": "Means 'to try / taste / try on'. 'anprobieren' = to try on (clothes); 'ausprobieren' = to test out. -ieren verb: probiert.",
-  "lvl": "A1"
- },
- {
-  "w": "posten",
-  "e": "to post",
-  "ex": [
-   "Ich poste ein Foto. — I'm posting a photo.",
-   "Sie hat den Link gepostet. — She posted the link."
-  ],
-  "t": "reg",
-  "p2": "gepostet",
-  "hs": "haben",
-  "pr": {
-   "ich": "poste",
-   "du": "postest",
-   "er": "postet",
-   "wir": "posten",
-   "ihr": "postet",
-   "sie": "posten"
-  },
-  "pt": {
-   "ich": "postete",
-   "du": "postetest",
-   "er": "postete",
-   "wir": "posteten",
-   "ihr": "postetet"
-  },
-  "pk": {
-   "ich": "habe gepostet",
-   "du": "hast gepostet",
-   "er": "hat gepostet",
-   "wir": "haben gepostet",
-   "ihr": "habt gepostet",
-   "sie": "haben gepostet"
-  },
-  "n": "Loanword for posting online. Stem in -t: du postest, gepostet.",
   "lvl": "A1"
  },
  {

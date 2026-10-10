@@ -1371,15 +1371,6 @@
   "sup": "–"
  },
  {
-  "w": "pink",
-  "e": "pink",
-  "c": "Colours",
-  "cmp": "–",
-  "sup": "–",
-  "ex": "Der MP3-Player ist pink. — The MP3 player is pink.",
-  "lvl": "A1"
- },
- {
   "w": "braun",
   "e": "brown",
   "c": "Colours",
@@ -1478,16 +1469,6 @@
   "wc": "Adverb"
  },
  {
-  "w": "okay",
-  "e": "okay",
-  "c": "Function Words",
-  "cmp": "–",
-  "sup": "–",
-  "ex": "Wie geht’s? – Alles okay. — How are you? – Everything is okay.",
-  "lvl": "A1",
-  "wc": "Partikel"
- },
- {
   "w": "schade",
   "e": "shame, pity (What a shame!)",
   "c": "Function Words",
@@ -1508,16 +1489,6 @@
   "wc": "Zahlwort"
  },
  {
-  "w": "live",
-  "e": "live",
-  "c": "Other",
-  "cmp": "–",
-  "sup": "–",
-  "ex": "Die Band ist live in Hamburg. — The band is live in Hamburg.",
-  "lvl": "A1",
-  "wc": "Adverb"
- },
- {
   "w": "deutsch",
   "e": "German",
   "c": "Other",
@@ -1535,16 +1506,6 @@
   "ex": "Na, wie geht’s? — So, how are you?",
   "lvl": "A1",
   "wc": "Partikel"
- },
- {
-  "w": "online",
-  "e": "online",
-  "c": "Other",
-  "cmp": "–",
-  "sup": "–",
-  "ex": "Zuletzt online heute um 17:32. — Last online today at 17:32.",
-  "lvl": "A1",
-  "wc": "Adverb"
  },
  {
   "w": "geöffnet",
@@ -2135,15 +2096,6 @@
   "lvl": "A1"
  },
  {
-  "w": "cool",
-  "e": "cool",
-  "c": "Physical Properties",
-  "cmp": "cooler",
-  "sup": "am coolsten",
-  "ex": "Nach dem zweiten Interview war ich ziemlich cool. — After the second interview I was quite cool.",
-  "lvl": "A1"
- },
- {
   "w": "fantastisch",
   "e": "fantastic",
   "c": "Other",
@@ -2244,15 +2196,6 @@
   "e": "some",
   "c": "Size & Quantity",
   "ex": "Nebenwirkungen: Manche Personen verlieren den Appetit. — Side effects: some people lose their appetite.",
-  "lvl": "A1"
- },
- {
-  "w": "fit",
-  "e": "fit",
-  "c": "Other",
-  "cmp": "fitter",
-  "sup": "am fittesten",
-  "ex": "Ich bin immer noch nicht ganz fit. — I am still not quite fit.",
   "lvl": "A1"
  },
  {
@@ -3362,16 +3305,6 @@
   "sup": "am erfahrensten",
   "opp": "unerfahren",
   "ex": "Sie ist eine erfahrene Ärztin. — She is an experienced doctor.",
-  "lvl": "B1"
- },
- {
-  "w": "fair",
-  "e": "fair",
-  "c": "Quality & Value",
-  "cmp": "fairer",
-  "sup": "am fairsten",
-  "opp": "unfair",
-  "ex": "Der Schiedsrichter war sehr fair. — The referee was very fair.",
   "lvl": "B1"
  },
  {
